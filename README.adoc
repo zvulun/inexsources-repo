@@ -2,4 +2,4 @@
 
 == Cameras
 
-Repository holding the documents in the Cameras product category
+This Repository holds holding the documents in the Cameras product category; each document will be treated as a module in the Antora folder tree.
