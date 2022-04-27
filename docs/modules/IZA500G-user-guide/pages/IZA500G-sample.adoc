@@ -1,6 +1,6 @@
 = IZA500G
 
-image::C:\cameras-repo\docs\modules\IZA500G-user-guide\pages\IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
+image::C:\cameras-repo\docs\modules\IZA500G-user-guide\images\IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
 == Introduction
 This is an introduction
