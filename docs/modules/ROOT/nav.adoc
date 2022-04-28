@@ -1,2 +1,4 @@
 // Navigation bulleted list goes in here
-* IZA500G Sample
+.xref:IZA500G-sample.adoc[]
+
+.xref:IZA800G-sample.adoc[]
