@@ -7,6 +7,3 @@
 * xref:IZA800G-user-guide:IZA800G-sample.adoc[]
 .Illuminators
 include::Illuminators:modules/ROOT:nav.adoc[]
-
-
-
