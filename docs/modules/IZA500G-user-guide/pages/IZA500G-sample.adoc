@@ -4,3 +4,36 @@ image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
 == Introduction
 This is an introduction
+
+== Specification Table Sample
+[width=100%]
+|===
+2+|Item | Specification
+
+.7+.^|Supported Analytics
+
+.3+.^|LPR Analytics
+|Plate Recognition
+|Plate State of Issue
+|Plate Type
+
+.4+.^|LPR Analytics
+|Vehicle Detection
+|Vehicle Classification
+|Vehicle Color
+|Vehicle Make
+
+2+|Lanes Covered
+|One
+
+
+2+.^|Max Vehicle Speed
+|Up to 80 mph (129 km/h)
+
+2+.^|LPR Capture Distance* (for U.S.A. plates)
+a|* IZA500G-S-XX – 8-30 ft (2.4-9.1 m)
+
+* IZA500G-S-XX – 8-30 ft (2.4-9.1 m)
+
+|===
+
