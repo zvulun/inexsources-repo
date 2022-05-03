@@ -3,9 +3,9 @@
 // at start of xref, then put in the
 // doc name
 .Cameras
-* xref:modules/Cameras:IZA500G-user-guide:IZA500G-sample.adoc[]
-* xref:modules/Cameras:IZA800G-user-guide:IZA800G-sample.adoc[]
+* xref:Cameras:IZA500G-user-guide/IZA500G-sample.adoc[]
+* xref:Cameras:IZA800G-user-guide/IZA800G-sample.adoc[]
 .Illuminators
-* xref:modules/Illuminators:IZL-user-guide:IZL-sample.adoc[]
-* xref:modules/Illuminators:IZS-user-guide:IZS-sample.adoc[]
+* xref:Illuminators:IZL-user-guide/IZL-sample.adoc[]
+* xref:Illuminators:IZS-user-guide/IZS-sample.adoc[]
 
