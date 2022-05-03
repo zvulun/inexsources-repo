@@ -5,6 +5,7 @@
 .Cameras
 * xref:IZA500G-user-guide:IZA500G-sample.adoc[]
 * xref:IZA800G-user-guide:IZA800G-sample.adoc[]
+
 .Illuminators
 * xref:IZL-user-guide:IZL-sample.adoc[]
 * xref:IZS-user-guide:IZS-sample.adoc[]
