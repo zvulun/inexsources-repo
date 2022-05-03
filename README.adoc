@@ -1,5 +1,3 @@
-= Cameras Repository
+= Documentation Sources Repository
 
-== Cameras
-
-This Repository holds the documents in the Cameras product category; each document will be treated as a module in the Antora folder tree.
+This Repository holds the Asciidoc source documents for INEX documentation.
