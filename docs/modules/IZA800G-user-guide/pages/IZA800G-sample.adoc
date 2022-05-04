@@ -3,4 +3,4 @@
 image::IZA500G-user-guide:IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
 == Introduction
-This is an IZA800G extremely big introduction
+This is an IZA800G gigantic introduction
