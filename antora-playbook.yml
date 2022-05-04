@@ -1,0 +1,28 @@
+site:
+  
+  # the Cameras name in the start_page is the
+  # name: attribute in the playbook of the
+  # component (repository) of the cameras
+  # The format of the start_page will give
+  # the latest version
+  #
+
+  title: INEX Documents
+  start_page: Documents::index.adoc
+content:
+  sources:
+  - url: https://github.com/zvulun/inexsources-repo.git
+    branches: HEAD
+    start_path: docs
+    version:
+
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files:
+  - path: ui.yml
+    contents: |
+      static_files:
+      - .nojekyll
+  - path: .nojekyll
