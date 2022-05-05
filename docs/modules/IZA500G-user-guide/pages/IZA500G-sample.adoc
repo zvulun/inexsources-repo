@@ -1,10 +1,8 @@
 = IZA500G
 
-[red]#IZA500G#
-
 image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
-== Introduction Expanded
+== IZA500G Introduction
 This is an introduction with a really big addition.
 
 == Specification Table Sample
