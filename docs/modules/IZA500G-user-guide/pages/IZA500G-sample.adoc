@@ -3,7 +3,7 @@
 image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
 == Introduction Expanded
-This is an introduction with a big addition.
+This is an introduction with a really big addition.
 
 == Specification Table Sample
 [width=100%]
