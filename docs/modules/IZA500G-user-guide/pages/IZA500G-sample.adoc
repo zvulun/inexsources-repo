@@ -1,5 +1,6 @@
 = IZA500G
 [red]#red text#
+
 image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
 == Introduction Expanded
