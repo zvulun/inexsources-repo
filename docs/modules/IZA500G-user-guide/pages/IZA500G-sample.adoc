@@ -1,6 +1,6 @@
-IZA500G
-
 = IZA500G
+
+IZA500G
 
 image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
