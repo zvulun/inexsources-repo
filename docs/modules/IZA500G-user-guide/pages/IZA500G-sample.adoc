@@ -1,3 +1,5 @@
+IZA500G
+
 = IZA500G
 
 image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
@@ -5,7 +7,8 @@ image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 == IZA500G Introduction
 This is an introduction with a really big addition.
 
-[.blue] #blue text#
+
+
 
 
 
