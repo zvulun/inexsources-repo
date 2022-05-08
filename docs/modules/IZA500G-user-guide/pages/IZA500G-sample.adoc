@@ -5,7 +5,7 @@ image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 == IZA500G Introduction
 This is an introduction with a really big addition.
 
-[blue] #blue text#
+[.blue] #blue text#
 
 
 
