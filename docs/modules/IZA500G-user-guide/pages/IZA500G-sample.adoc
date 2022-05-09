@@ -1,6 +1,6 @@
 = IZA500G
 
-color:[red] #IZA500G#
+[.red]#IZA500G#
 
 image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
