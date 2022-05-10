@@ -1,5 +1,10 @@
 = IZA800G
 
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+[.white]#IZA800G#
+
 image::IZA500G-user-guide:IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
 == Introduction
