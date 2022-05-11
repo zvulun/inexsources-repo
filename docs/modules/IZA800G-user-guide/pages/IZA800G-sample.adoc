@@ -7,7 +7,7 @@
 
 *_\{This image is an example of reuse from another doc's images - this is the IZA500G image\}_*
 
-image::IZA500G-user-guide:IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,align="right",width=150]
+image::IZA500G-user-guide:IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,width=150,align="left"]
 
 == Introduction
 This is an IZA800G gigantic introduction
