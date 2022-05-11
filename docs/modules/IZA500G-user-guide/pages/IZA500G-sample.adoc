@@ -5,6 +5,7 @@
 // for a specific product name
 [.white]#IZA500G#
 
+.IZA500G Camera
 image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
 :productName: IZA500G
