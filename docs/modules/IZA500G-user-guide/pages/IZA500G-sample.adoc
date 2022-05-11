@@ -1,5 +1,5 @@
 = IZA500G
-
+:productName: IZA500G
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
@@ -8,7 +8,7 @@
 .IZA500G Camera
 image:IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200"]
 
-:productName: IZA500G
+
 == Introduction
 This is an introduction to the {productname} with a really big addition.
 
