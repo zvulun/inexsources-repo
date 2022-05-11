@@ -10,6 +10,10 @@ image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 == Introduction
 This is an introduction with a really big addition.
 
+== Installation
+Here is an include from the partial of the installation intro that was in IZA800G partials:
+include::IZA800G-user-guide:partial$prtl-install-intro.adoc[] 
+
 == Specification Table Sample
 [width=100%]
 |===
