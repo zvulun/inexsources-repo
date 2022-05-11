@@ -6,6 +6,8 @@
 // for a specific product name
 [.white]#IZA800G#
 
+:toc: left
+
 *_\{This image is an example of reuse from another doc's images - this is the IZA500G image\}_*
 
 image::IZA500G-user-guide:IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,width=150,align="left"]
