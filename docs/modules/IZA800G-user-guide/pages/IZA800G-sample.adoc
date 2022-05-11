@@ -11,3 +11,7 @@ image::IZA500G-user-guide:IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 == Introduction
 This is an IZA800G gigantic introduction
+
+== Installation
+Here is an include from the partial of the installation intro that is in this same IZA800G /partials folder:
+include::partial$prtl-install-intro.adoc[]
