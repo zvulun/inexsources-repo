@@ -17,6 +17,7 @@ Here is an include from the partial of the installation intro that was in IZA800
 include::IZA800G-user-guide:partial$prtl-install-intro.adoc[] 
 
 == Specification Table Sample
+.Specifications
 [width=100%]
 |===
 2+|Item | Specification
