@@ -12,11 +12,14 @@ image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200"]
 == Introduction
 This is an introduction to the {productname} with a really big addition.
 
+See the <<specs>> section.
+
 == Installation
 Here is an include from the partial of the installation intro that was in IZA800G partials; note how by defining the productname variable (with a colon before and after) with the product name of this page, you will see it in the partial which uses the same variable name in curly brackets
 
 include::IZA800G-user-guide:partial$prtl-install-intro.adoc[]
 
+[#specs]
 == Specification Table Sample
 .Specifications
 [width=100%]
