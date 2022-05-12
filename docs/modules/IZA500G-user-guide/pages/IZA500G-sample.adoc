@@ -6,7 +6,7 @@
 [.white]#IZA500G#
 
 .IZA500G Camera
-image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200"]
+image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200",align="left"]
 
 
 == Introduction
