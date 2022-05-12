@@ -16,7 +16,7 @@ This is an introduction to the {productname} with a really big addition.
 
 See the <<small-camera>> Figure
 
-This is a xref to an ID inside a partial - let's see if it works - See the xref:big-camera
+This is a xref to an ID inside a partial - let's see if it works - See the <<big-camera>>
 
 See the <<specs>> section.
 
