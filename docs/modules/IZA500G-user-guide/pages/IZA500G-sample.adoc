@@ -1,4 +1,5 @@
 = IZA500G
+:sectnums:
 :productName: IZA500G
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
@@ -13,9 +14,9 @@ image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200",align=
 == Introduction
 This is an introduction to the {productname} with a really big addition.
 
-See the [#small-camera]
+See the xref:small-camera Figure
 
-This is a xref to an ID inside a partial - let's see if it works - See the [#big-camera]
+This is a xref to an ID inside a partial - let's see if it works - See the xref:big-camera
 
 See the <<specs>> section.
 
