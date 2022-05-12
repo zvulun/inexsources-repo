@@ -1,7 +1,7 @@
 = IZA500G
 :sectnums:
 :sectnumlevels: 4
-:toclevels: 3
+:toclevels: 4
 :xrefstyle: full
 :productName: IZA500G
 // This "invisible" text helps lunr search put this page
