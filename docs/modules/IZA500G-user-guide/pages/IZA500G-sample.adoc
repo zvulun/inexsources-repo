@@ -1,5 +1,7 @@
 = IZA500G
 :sectnums:
+:sectnumlevels: 4
+:xrefstyle: full
 :productName: IZA500G
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
@@ -20,12 +22,20 @@ some text
 === Another subsection
 some text
 
+==== Heading 3
 
-See the <<small-camera>> Figure
+Some text
 
-This is a xref to an ID inside a partial - let's see if it works - See the <<big-camera>>
+===== Heading 4
 
-See the <<specs>> section.
+Some text
+
+
+See <<small-camera>>
+
+This is a xref to an ID inside a partial - let's see if it works - See <<big-camera>>
+
+See <<specs>>
 
 == Installation
 Here is an include from the partial of the installation intro that was in IZA800G partials; note how by defining the productname variable (with a colon before and after) with the product name of this page, you will see it in the partial which uses the same variable name in curly brackets
