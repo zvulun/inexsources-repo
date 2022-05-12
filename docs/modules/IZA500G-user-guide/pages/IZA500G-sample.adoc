@@ -27,6 +27,10 @@ some text
 
 Some text
 
+==== Another Heading 3
+
+Some text
+
 ===== Heading 4
 
 Some text
@@ -42,6 +46,7 @@ See <<specs>>
 Here is an include from the partial of the installation intro that was in IZA800G partials; note how by defining the productname variable (with a colon before and after) with the product name of this page, you will see it in the partial which uses the same variable name in curly brackets
 
 include::IZA800G-user-guide:partial$prtl-install-intro.adoc[]
+
 
 [#specs]
 == New Specification Table Sample
