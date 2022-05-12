@@ -6,7 +6,7 @@
 // for a specific product name
 [.white]#IZA500G#
 
-[[small-camera]]
+[#small-camera]
 .IZA500G Camera
 image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200",align="left"]
 
@@ -14,7 +14,7 @@ image::IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200",align=
 == Introduction
 This is an introduction to the {productname} with a really big addition.
 
-See the <small-camera> Figure
+See the <<small-camera>> Figure
 
 This is a xref to an ID inside a partial - let's see if it works - See the xref:big-camera
 
