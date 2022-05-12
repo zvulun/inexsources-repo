@@ -1,5 +1,9 @@
-:productname: IZA800G
 = IZA800G
+:productname: IZA800G
+:sectnums:
+:sectnumlevels: 4
+:toclevels: 3
+:xrefstyle: full
 :toc:
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
