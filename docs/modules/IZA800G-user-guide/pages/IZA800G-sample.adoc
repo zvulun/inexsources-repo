@@ -2,7 +2,7 @@
 :productname: IZA800G
 :sectnums:
 :sectnumlevels: 4
-:toclevels: 4
+:toclevels: 3
 :xrefstyle: full
 :toc:
 // This "invisible" text helps lunr search put this page
