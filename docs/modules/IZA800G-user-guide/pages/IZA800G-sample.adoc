@@ -31,14 +31,14 @@ include::partial$prtl-install-intro.adoc[]
 
 Here is the spec table
 
-[options="header",cols="20,17,26,37"]
+[options="header",cols="22,18,28,32"]
 |===
 2+.^| Item
 {set:cellbgcolor:#c0c0c0}
 
-^.^| IZA800G
+^.^| IZA800[.underline]#G#
 {set:cellbgcolor:#c0c0c0}
-^.^| IZA800GW
+^.^| IZA800[.underline]#GW#
 {set:cellbgcolor:#c0c0c0}
 
 2+.^| Hardware Revision
@@ -92,17 +92,17 @@ Here is the spec table
 2+^.^| Up to 120 mph (193 km/h)
 
 
-2+.^| LPR Capture Distance*
+2.3+.^| LPR Capture Distance* (for U.S.A. plates)
 
 2+.^| n G/GW-S-XX – 16-39 ft (5-12 m)
 
 
-2+.^| (for U.S.A. plates)
+
 
 2+.^| n G/GW-L-XX – 33-65 ft (10-20 m)
 
 
-2+.^| 
+
 
 2+.^| n G/GW-XL-XX – 33-80 ft (10-24 m)
 
@@ -142,7 +142,7 @@ Here is the spec table
 .^| n  G-XL-XX – 15°x15°
 .^| n  GW-XL-XX – 15°x15°
 
-.13+.^| LPR Camera
+.8+.^| LPR Camera
 .^| Shutter Type
 2+^.^| Global
 
@@ -158,44 +158,19 @@ Here is the spec table
 
 
 
-.8+.^| Lens
-.^| n  G-S-XX – 12-40 mm;
-.^| n  GW-S-XX – 12-40 mm;
+.3+.^| Lens
+.^| n  G-S-XX – 12-40 mm; Motorized Zoom and Auto-focus
+.^| n  GW-S-XX – 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| Motorized Zoom and
-.^| Motorized Zoom and
+.^| n  G-L-XX – 12-40 mm; Motorized Zoom and Auto-focus
+.^| n  GW-L-XX – 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| Auto-focus
-.^| Auto-focus
-
-
-
-.^| n  G-L-XX – 12-40 mm;
-.^| n  GW-L-XX – 12-40 mm;
-
-
-
-.^| Motorized Zoom and
-.^| Motorized Zoom and
-
-
-
-.^| Auto-focus
-.^| Auto-focus
-
-
-
-.^| n  G-XL-XX – 12-50 mm;
-.^| n  GW-XL-XX – 12-50 mm;
-
-
-
-.^| Manual Zoom and Focus
-.^| Manual Zoom and Focus
+.^| n  G-XL-XX – 12-50 mm; Manual Zoom and Focus
+.^| n  GW-XL-XX – 12-50 mm; Manual Zoom and Focus
 
 
 .^| Video Compression
@@ -242,7 +217,7 @@ Here is the spec table
 .^| n  G-XL-XX – 15°x15°
 .^| n  GW-XL-XX – 15°x15°
 
-.13+.^| OV Camera
+.8+.^| OV Camera
 .^| Shutter Type
 2+^.^| Global
 
@@ -258,44 +233,19 @@ Here is the spec table
 
 
 
-.8+.^| Lens
-.^| n  G-S-XX – 12-40 mm;
-.^| n  GW-S-XX – 12-40 mm;
+.3+.^| Lens
+.^| n  G-S-XX – 12-40 mm; Motorized Zoom and Auto-focus
+.^| n  GW-S-XX – 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| Motorized Zoom and
-.^| Motorized Zoom and
+.^| n  G-L-XX – 12-40 mm; Motorized Zoom and Auto-focus
+.^| n  GW-L-XX – 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| Auto-focus
-.^| Auto-focus
-
-
-
-.^| n  G-L-XX – 12-40 mm;
-.^| n  GW-L-XX – 12-40 mm;
-
-
-
-.^| Motorized Zoom and
-.^| Motorized Zoom and
-
-
-
-.^| Auto-focus
-.^| Auto-focus
-
-
-
-.^| n  G-XL-XX – 12-50 mm;
-.^| n  GW-XL-XX – 12-50 mm;
-
-
-
-.^| Manual Zoom and Focus
-.^| Manual Zoom and Focus
+.^| n  G-XL-XX – 12-50 mm; Manual Zoom and Focus
+.^| n  GW-XL-XX – 12-50 mm; Manual Zoom and Focus
 
 
 .^| Video Compression
@@ -407,14 +357,9 @@ Here is the spec table
 2+^.^| NDAA Section 889 compliant
 
 
-.3+.^| Physical
-.2+.^| Dimensions
-2+^.^| (W x H x D) 6.7” x 4.7” x 17.7”
-
-
-
-
-2+^.^| (171 mm x 119 mm x 451 mm)
+.2+.^| Physical
+.^| Dimensions
+2+^.^| (W x H x D) 6.7” x 4.7” x 17.7” (171 mm x 119 mm x 451 mm)
 
 
 
