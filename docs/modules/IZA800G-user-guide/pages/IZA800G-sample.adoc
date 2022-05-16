@@ -3,6 +3,15 @@
 
 :productname: IZA800G
 :toc:
+
+++++
+<style>
+table, th, td {
+  border: 1px solid red !important;
+}
+</style>
+++++
+
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
@@ -91,7 +100,7 @@ Here is the spec table
 
 2.3+.^| LPR Capture Distance* (for U.S.A. plates)
 
-2+.^| * G/GW-S-XX - 16-39 ft (5-12 m)
+2+.^| [square]* G/GW-S-XX - 16-39 ft (5-12 m)
 
 
 
