@@ -4,25 +4,20 @@
 :sectnumlevels: 4
 :toclevels: 3
 :xrefstyle: full
-// This affects all the table borders on this page
-++++
-<style>
-
-table, th, td {
-  border: 10px solid black;
-}
-
-</style>
-++++
-
-
-
 :toc:
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
 [.white]#IZA800G#
 
+// This is supposed to affect all the tables on this page
+++++
+<style>
+table, th, td {
+  border: 10px solid black;
+}
+</style>
+++++
 
 
 *_\{This image is an example of reuse from another doc's images - this is the IZA500G image\}_*
