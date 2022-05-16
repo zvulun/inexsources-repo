@@ -1,4 +1,14 @@
 = IZA800G
+// This is supposed to affect all the tables on this page
+
+++++
+<style>
+table, th, td {
+  border: 100px solid red
+}
+</style>
+++++
+
 :productname: IZA800G
 :sectnums:
 :sectnumlevels: 4
@@ -9,15 +19,6 @@
 // at the top of the results list when searching
 // for a specific product name
 [.white]#IZA800G#
-
-// This is supposed to affect all the tables on this page
-++++
-<style>
-table, th, td {
-  border: 100px solid red;
-}
-</style>
-++++
 
 
 *_\{This image is an example of reuse from another doc's images - this is the IZA500G image\}_*
