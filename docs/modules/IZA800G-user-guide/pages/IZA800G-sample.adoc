@@ -47,9 +47,9 @@ Here is the spec table
 2+.^| Item
 {set:cellbgcolor:#c0c0c0}
 
-^.^| IZA800[.underline]#G#
+^.^| IZA800+++<u>G</u>+++
 {set:cellbgcolor:#c0c0c0}
-^.^| IZA800[.underline]#GW#
+^.^| IZA800+++<u>GW</u>+++
 {set:cellbgcolor:#c0c0c0}
 
 2+.^| Hardware Revision
