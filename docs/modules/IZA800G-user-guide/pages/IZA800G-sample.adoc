@@ -1,14 +1,13 @@
 = IZA800G
 // This is supposed to affect all the tables on this page
 
-+++<style>table, td, th {border: 100px solid red;}</style>+++
-
 :productname: IZA800G
 :sectnums:
 :sectnumlevels: 4
 :toclevels: 3
 :xrefstyle: full
 :toc:
+
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
