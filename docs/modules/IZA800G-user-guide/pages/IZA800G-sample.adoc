@@ -1,13 +1,7 @@
 = IZA800G
 // This is supposed to affect all the tables on this page
 
-++++
-<style>
-table {
-  border: 100px solid red
-}
-</style>
-++++
++++<style>table, td, th {border: 100px solid red;}</style>+++
 
 :productname: IZA800G
 :sectnums:
@@ -40,7 +34,7 @@ include::partial$prtl-install-intro.adoc[]
 
 Here is the spec table
 
-[options="header",cols="22,18,28,32"]
+[options="header",cols="21,18,30,31"]
 |===
 2+.^| Item
 {set:cellbgcolor:#c0c0c0}
@@ -103,53 +97,53 @@ Here is the spec table
 
 2.3+.^| LPR Capture Distance* (for U.S.A. plates)
 
-2+.^| n G/GW-S-XX – 16-39 ft (5-12 m)
+2+.^| * G/GW-S-XX - 16-39 ft (5-12 m)
 
 
 
 
-2+.^| n G/GW-L-XX – 33-65 ft (10-20 m)
+2+.^| * G/GW-L-XX - 33-65 ft (10-20 m)
 
 
 
 
-2+.^| n G/GW-XL-XX – 33-80 ft (10-24 m)
+2+.^| * G/GW-XL-XX - 33-80 ft (10-24 m)
 
 
 .7+.^| LPR Illumination
 .^| Number of LEDs
-.^| n  15 (same ones as for OV illumination)
-.^| n  10
+.^| * 15 (same ones as for OV illumination)
+.^| * 10
 
 
 .3+.^| Wavelength
-.^| n  G-XX-DR – Deep Red
-.^| n  GW-XX-DR – Deep Red
+.^| * G-XX-DR - Deep Red
+.^| * GW-XX-DR - Deep Red
 
 
 
-.^| n  G-XX-IR – Infrared
-.^| n  GW-XX-IR – Infrared
+.^| * G-XX-IR - Infrared
+.^| * GW-XX-IR - Infrared
 
 
 
-.^| n  G-XX-IL – Invisible Infrared
-.^| n  GW-XX-IL – Invisible Infrared
+.^| * G-XX-IL - Invisible Infrared
+.^| * GW-XX-IL - Invisible Infrared
 
 
 .3+.^| Beam Angle
-.^| n  G-S-XX – 40°x16°
-.^| n  GW-S-XX – 40°x16°
+.^| * G-S-XX - 40°x16°
+.^| * GW-S-XX - 40°x16°
 
 
 
-.^| n  G-L-XX – 15°x15°
-.^| n  GW-L-XX – 15°x15°
+.^| * G-L-XX - 15°x15°
+.^| * GW-L-XX - 15°x15°
 
 
 
-.^| n  G-XL-XX – 15°x15°
-.^| n  GW-XL-XX – 15°x15°
+.^| * G-XL-XX - 15°x15°
+.^| * GW-XL-XX - 15°x15°
 
 .8+.^| LPR Camera
 .^| Shutter Type
@@ -168,18 +162,18 @@ Here is the spec table
 
 
 .3+.^| Lens
-.^| n  G-S-XX – 12-40 mm; Motorized Zoom and Auto-focus
-.^| n  GW-S-XX – 12-40 mm; Motorized Zoom and Auto-focus
+.^| * G-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^| * GW-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| n  G-L-XX – 12-40 mm; Motorized Zoom and Auto-focus
-.^| n  GW-L-XX – 12-40 mm; Motorized Zoom and Auto-focus
+.^| * G-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^| * GW-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| n  G-XL-XX – 12-50 mm; Manual Zoom and Focus
-.^| n  GW-XL-XX – 12-50 mm; Manual Zoom and Focus
+.^| * G-XL-XX - 12-50 mm; Manual Zoom and Focus
+.^| * GW-XL-XX - 12-50 mm; Manual Zoom and Focus
 
 
 .^| Video Compression
@@ -193,38 +187,38 @@ Here is the spec table
 
 .7+.^| OV Illumination
 .^| Number of LEDs
-.^| n  15 (same ones as for LPR illumination)
-.^| n  5
+.^| * 15 (same ones as for LPR illumination)
+.^| * 5
 
 
 .3+.^| Wavelength
-.^| n  G-XX-DR – Deep Red
-.3+.^| n  Visible, Warm White
+.^| * G-XX-DR - Deep Red
+.3+.^| * Visible, Warm White
 
 
 
-.^| n  G-XX-IR – Infrared
+.^| * G-XX-IR - Infrared
 
 
 
 
-.^| n  G-XX-IL – Invisible Infrared
+.^| * G-XX-IL - Invisible Infrared
 
 
 
 .3+.^| Beam Angle
-.^| n  G-S-XX – 40°x16°
-.^| n  GW-S-XX – 40°x16°
+.^| * G-S-XX - 40°x16°
+.^| * GW-S-XX - 40°x16°
 
 
 
-.^| n  G-L-XX – 15°x15°
-.^| n  GW-L-XX – 15°x15°
+.^| * G-L-XX - 15°x15°
+.^| * GW-L-XX - 15°x15°
 
 
 
-.^| n  G-XL-XX – 15°x15°
-.^| n  GW-XL-XX – 15°x15°
+.^| * G-XL-XX - 15°x15°
+.^| * GW-XL-XX - 15°x15°
 
 .8+.^| OV Camera
 .^| Shutter Type
@@ -243,18 +237,18 @@ Here is the spec table
 
 
 .3+.^| Lens
-.^| n  G-S-XX – 12-40 mm; Motorized Zoom and Auto-focus
-.^| n  GW-S-XX – 12-40 mm; Motorized Zoom and Auto-focus
+.^| * G-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^| * GW-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| n  G-L-XX – 12-40 mm; Motorized Zoom and Auto-focus
-.^| n  GW-L-XX – 12-40 mm; Motorized Zoom and Auto-focus
+.^| * G-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^| * GW-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| n  G-XL-XX – 12-50 mm; Manual Zoom and Focus
-.^| n  GW-XL-XX – 12-50 mm; Manual Zoom and Focus
+.^| * G-XL-XX - 12-50 mm; Manual Zoom and Focus
+.^| * GW-XL-XX - 12-50 mm; Manual Zoom and Focus
 
 
 .^| Video Compression
@@ -323,12 +317,12 @@ Here is the spec table
 
 
 .^| Operating Temperature
-2+^.^| –22°F to 140°F (–30°C to 60°C)
+2+^.^| -22°F to 140°F (-30°C to 60°C)
 
 
 
 .^| Storage Temperature
-2+^.^| –22°F to 158°F (–30°C to 70°C)
+2+^.^| -22°F to 158°F (-30°C to 70°C)
 
 
 
@@ -383,12 +377,12 @@ Here is the spec table
 
 
 .2+.^| Connectors
-2+^.^| LAN – Waterproof outdoor RJ-45 connector
+2+^.^| LAN - Waterproof outdoor RJ-45 connector
 
 
 
 
-2+^.^| Power/Signals – Waterproof outdoor M12 connector
+2+^.^| Power/Signals - Waterproof outdoor M12 connector
 
 
 
@@ -457,4 +451,3 @@ Here is the spec table
 | 
 
 |===
-
