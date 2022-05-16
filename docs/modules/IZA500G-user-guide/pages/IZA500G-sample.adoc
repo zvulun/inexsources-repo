@@ -1,6 +1,6 @@
 = IZA500G
 :productName: IZA500G
-
+:toc:
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
