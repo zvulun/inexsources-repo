@@ -26,3 +26,480 @@ This is an IZA800G gigantic introduction
 Here is an include from the partial of the installation intro that is in this same IZA800G /partials folder; note how by defining the productname variable (with a colon before and after) with the product name of this page, you will see it in the partial which uses the same variable name in curly brackets:
 
 include::partial$prtl-install-intro.adoc[]
+
+== Specifications
+
+Here is the spec table
+
+[options="header",cols="20,17,26,37"]
+|===
+2+.^| Item
+{set:cellbgcolor:#c0c0c0}
+
+^.^| IZA800G
+{set:cellbgcolor:#c0c0c0}
+^.^| IZA800GW
+{set:cellbgcolor:#c0c0c0}
+
+2+.^| Hardware Revision
+{set:cellbgcolor!}
+
+^.^| F1
+^.^| F1
+
+.7+.^| Supported Analytics
+.3+.^| LPR Analytics
+2+^.^| Plate Recognition
+
+
+
+
+2+^.^| Plate State of Issue
+
+
+
+
+2+^.^| Plate Type
+
+
+
+.4+.^| Vehicle Analytics
+2+^.^| Vehicle Detection
+
+
+
+
+2+^.^| Vehicle Classification
+
+
+
+
+2+^.^| Vehicle Color
+
+
+
+
+2+^.^| Vehicle Make
+
+
+2+.^| Lanes Covered
+
+2+^.^| One
+
+
+2+.^| Max Vehicle Speed
+
+2+^.^| Up to 120 mph (193 km/h)
+
+
+2+.^| LPR Capture Distance*
+
+2+.^| n G/GW-S-XX – 16-39 ft (5-12 m)
+
+
+2+.^| (for U.S.A. plates)
+
+2+.^| n G/GW-L-XX – 33-65 ft (10-20 m)
+
+
+2+.^| 
+
+2+.^| n G/GW-XL-XX – 33-80 ft (10-24 m)
+
+
+.7+.^| LPR Illumination
+.^| Number of LEDs
+.^| n  15 (same ones as for OV illumination)
+.^| n  10
+
+
+.3+.^| Wavelength
+.^| n  G-XX-DR – Deep Red
+.^| n  GW-XX-DR – Deep Red
+
+
+
+.^| n  G-XX-IR – Infrared
+.^| n  GW-XX-IR – Infrared
+
+
+
+.^| n  G-XX-IL – Invisible Infrared
+.^| n  GW-XX-IL – Invisible Infrared
+
+
+.3+.^| Beam Angle
+.^| n  G-S-XX – 40°x16°
+.^| n  GW-S-XX – 40°x16°
+
+
+
+.^| n  G-L-XX – 15°x15°
+.^| n  GW-L-XX – 15°x15°
+
+
+
+.^| n  G-XL-XX – 15°x15°
+.^| n  GW-XL-XX – 15°x15°
+
+.13+.^| LPR Camera
+.^| Shutter Type
+2+^.^| Global
+
+
+
+.^| Sensor
+2+^.^| Sony IMX265
+
+
+
+.^| Resolution
+2+^.^| 2mp - 1920 (H) × 1080 (V)
+
+
+
+.8+.^| Lens
+.^| n  G-S-XX – 12-40 mm;
+.^| n  GW-S-XX – 12-40 mm;
+
+
+
+.^| Motorized Zoom and
+.^| Motorized Zoom and
+
+
+
+.^| Auto-focus
+.^| Auto-focus
+
+
+
+.^| n  G-L-XX – 12-40 mm;
+.^| n  GW-L-XX – 12-40 mm;
+
+
+
+.^| Motorized Zoom and
+.^| Motorized Zoom and
+
+
+
+.^| Auto-focus
+.^| Auto-focus
+
+
+
+.^| n  G-XL-XX – 12-50 mm;
+.^| n  GW-XL-XX – 12-50 mm;
+
+
+
+.^| Manual Zoom and Focus
+.^| Manual Zoom and Focus
+
+
+.^| Video Compression
+2+^.^| MJPEG, H.264, H.265
+
+
+
+.^| Video Streaming
+2+^.^| RTSP Protocol
+
+
+.7+.^| OV Illumination
+.^| Number of LEDs
+.^| n  15 (same ones as for LPR illumination)
+.^| n  5
+
+
+.3+.^| Wavelength
+.^| n  G-XX-DR – Deep Red
+.3+.^| n  Visible, Warm White
+
+
+
+.^| n  G-XX-IR – Infrared
+
+
+
+
+.^| n  G-XX-IL – Invisible Infrared
+
+
+
+.3+.^| Beam Angle
+.^| n  G-S-XX – 40°x16°
+.^| n  GW-S-XX – 40°x16°
+
+
+
+.^| n  G-L-XX – 15°x15°
+.^| n  GW-L-XX – 15°x15°
+
+
+
+.^| n  G-XL-XX – 15°x15°
+.^| n  GW-XL-XX – 15°x15°
+
+.13+.^| OV Camera
+.^| Shutter Type
+2+^.^| Global
+
+
+
+.^| Sensor
+2+^.^| Sony IMX265
+
+
+
+.^| Resolution
+2+^.^| 2mp - 1920 (H) × 1080 (V)
+
+
+
+.8+.^| Lens
+.^| n  G-S-XX – 12-40 mm;
+.^| n  GW-S-XX – 12-40 mm;
+
+
+
+.^| Motorized Zoom and
+.^| Motorized Zoom and
+
+
+
+.^| Auto-focus
+.^| Auto-focus
+
+
+
+.^| n  G-L-XX – 12-40 mm;
+.^| n  GW-L-XX – 12-40 mm;
+
+
+
+.^| Motorized Zoom and
+.^| Motorized Zoom and
+
+
+
+.^| Auto-focus
+.^| Auto-focus
+
+
+
+.^| n  G-XL-XX – 12-50 mm;
+.^| n  GW-XL-XX – 12-50 mm;
+
+
+
+.^| Manual Zoom and Focus
+.^| Manual Zoom and Focus
+
+
+.^| Video Compression
+2+.^| MJPEG, H.264, H.265
+
+
+
+.^| Video Streaming
+2+.^| RTSP Protocol
+
+
+.2+.^| Supported Protocols (for additional protocols, see the RoadView ALPR User Guide)
+.^| INEX HTTP API
+2+.^| LPR Events are reported to IZCentral, or a 3rd party system via protocols such as the INEX HTTP API protocol. Each LPR Event includes metadata and associated images.
+
+
+
+.^| INEX Discovery
+2+.^| The INEX Discovery Protocol is used by the IZ Discovery utility to find all devices connected to the LAN. IZ Discovery also enables display and editing of each device's network settings.
+
+
+.8+.^| AI Processor
+.^| GPU
+2+^.^| NVIDIA Maxwell architecture with 128 CUDA® cores
+
+
+
+.^| CPU
+2+^.^| Quad-core ARM Cortex-A57 MPCore processor
+
+
+
+.^| RAM
+2+^.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
+
+
+
+.^| System Storage
+2+^.^| MicroSD, 64 Gb
+
+
+
+.^| Data Storage
+2+^.^| 128 Gb
+
+
+
+.2+.^| RTC Battery
+2+^.^| Maintains real-time clock date and time for 4-6 hours
+
+
+
+
+2+^.^| Rechargeable; Full charge-up time: 12 hours
+
+
+
+.^| OS
+2+^.^| Linux Ubuntu 18.04
+
+
+.4+.^| Environmental
+.^| Ingress Protection
+2+^.^| IP67
+
+
+
+.^| Operating Temperature
+2+^.^| –22°F to 140°F (–30°C to 60°C)
+
+
+
+.^| Storage Temperature
+2+^.^| –22°F to 158°F (–30°C to 70°C)
+
+
+
+.^| Humidity
+2+^.^| 0% - 90% RH, non-condensing
+
+
+.6+.^| Certifications
+.^| EMC
+2+^.^| FCC Class B/CE
+
+
+
+.^| Interoperability
+2+^.^| ONVIF compliant, Profile S
+
+
+
+.^| RoHS
+2+^.^| RoHS
+
+
+
+.^| Impact Protection
+2+^.^| IK10 (Vandal-proof)
+
+
+
+.^| Eye Safety
+2+^.^| IEC62471 Group 1
+
+
+
+.^| NDAA
+2+^.^| NDAA Section 889 compliant
+
+
+.3+.^| Physical
+.2+.^| Dimensions
+2+^.^| (W x H x D) 6.7” x 4.7” x 17.7”
+
+
+
+
+2+^.^| (171 mm x 119 mm x 451 mm)
+
+
+
+.^| Weight
+2+^.^| 9.0 lbs (4.1 kg)
+
+
+.5+.^| Interface
+.^| Ethernet
+2+^.^| 10/100 BaseT
+
+
+
+.2+.^| Connectors
+2+^.^| LAN – Waterproof outdoor RJ-45 connector
+
+
+
+
+2+^.^| Power/Signals – Waterproof outdoor M12 connector
+
+
+
+.2+.^| Digital Outputs
+2+^.^| LPR Strobe (+/-): 5 V isolated
+
+
+
+
+2+^.^| OV Strobe (+/-): 5 V isolated
+
+
+.2+.^| Power
+.^| Input Voltage
+2+^.^| 24 VDC +/- 10%, Class 2 Low-Voltage
+
+
+
+.^| Power Consumption
+2+^.^| 25 W
+
+
+2.3+.^| Accessories Included
+
+2+^.^| Sunshade
+
+
+
+
+2+^.^| Waterproof outdoor RJ-45 cable connector
+
+
+
+
+2+^.^| Waterproof outdoor M12 cable connector
+
+
+2.5+.^| Accessories Available
+
+2+^.^| Power Supply
+
+
+
+
+2+^.^| IZIO Digital I/O Controller
+
+
+
+
+2+^.^| Different lengths of prefabricated power/signals cables
+
+
+
+
+2+^.^| Different mount options available
+
+
+
+
+2+^.^| External Illuminator (IZS Series)
+
+
+| 
+| 
+| 
+| 
+
+|===
