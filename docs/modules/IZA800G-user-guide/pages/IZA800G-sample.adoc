@@ -7,9 +7,11 @@
 // This affects all the table borders on this page
 ++++
 <style>
+
 table, th, td {
   border: 10px solid black;
 }
+
 </style>
 ++++
 
