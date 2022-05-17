@@ -1,4 +1,4 @@
-ifndef::imagesdir[:imagesdir: ../../images]
+ifndef::imagesdir[:imagesdir: ../images]
 
 image::ppt/WithNotesSamplePPT.pptx/Slide1.jpg[]
 
