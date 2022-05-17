@@ -92,7 +92,7 @@ Here is the spec table
 
 2.3+.^| LPR Capture Distance* (for U.S.A. plates)
 
-2+.^| * G/GW-S-XX - 16-39 ft (5-12 m)
+2+.^a| * G/GW-S-XX - 16-39 ft (5-12 m)
 
 
 
