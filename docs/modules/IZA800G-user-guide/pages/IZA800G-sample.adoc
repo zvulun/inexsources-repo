@@ -97,48 +97,48 @@ Here is the spec table
 
 
 
-2+.^| * G/GW-L-XX - 33-65 ft (10-20 m)
+2+.^a| * G/GW-L-XX - 33-65 ft (10-20 m)
 
 
 
 
-2+.^| * G/GW-XL-XX - 33-80 ft (10-24 m)
+2+.^a| * G/GW-XL-XX - 33-80 ft (10-24 m)
 
 
 .7+.^| LPR Illumination
 .^| Number of LEDs
-.^| * 15 (same ones as for OV illumination)
-.^| * 10
+.^a| * 15 (same ones as for OV illumination)
+.^a| * 10
 
 
 .3+.^| Wavelength
-.^| * G-XX-DR - Deep Red
-.^| * GW-XX-DR - Deep Red
+.^a| * G-XX-DR - Deep Red
+.^a| * GW-XX-DR - Deep Red
 
 
 
-.^| * G-XX-IR - Infrared
-.^| * GW-XX-IR - Infrared
+.^a| * G-XX-IR - Infrared
+.^a| * GW-XX-IR - Infrared
 
 
 
-.^| * G-XX-IL - Invisible Infrared
-.^| * GW-XX-IL - Invisible Infrared
+.^a| * G-XX-IL - Invisible Infrared
+.^a| * GW-XX-IL - Invisible Infrared
 
 
 .3+.^| Beam Angle
-.^| * G-S-XX - 40°x16°
-.^| * GW-S-XX - 40°x16°
+.^a| * G-S-XX - 40°x16°
+.^a| * GW-S-XX - 40°x16°
 
 
 
-.^| * G-L-XX - 15°x15°
-.^| * GW-L-XX - 15°x15°
+.^a| * G-L-XX - 15°x15°
+.^a| * GW-L-XX - 15°x15°
 
 
 
-.^| * G-XL-XX - 15°x15°
-.^| * GW-XL-XX - 15°x15°
+.^a| * G-XL-XX - 15°x15°
+.^a| * GW-XL-XX - 15°x15°
 
 .8+.^| LPR Camera
 .^| Shutter Type
@@ -157,18 +157,18 @@ Here is the spec table
 
 
 .3+.^| Lens
-.^| * G-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
-.^| * GW-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^a| * G-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^a| * GW-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| * G-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
-.^| * GW-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^a| * G-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^a| * GW-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| * G-XL-XX - 12-50 mm; Manual Zoom and Focus
-.^| * GW-XL-XX - 12-50 mm; Manual Zoom and Focus
+.^a| * G-XL-XX - 12-50 mm; Manual Zoom and Focus
+.^a| * GW-XL-XX - 12-50 mm; Manual Zoom and Focus
 
 
 .^| Video Compression
@@ -182,38 +182,38 @@ Here is the spec table
 
 .7+.^| OV Illumination
 .^| Number of LEDs
-.^| * 15 (same ones as for LPR illumination)
-.^| * 5
+.^a| * 15 (same ones as for LPR illumination)
+.^a| * 5
 
 
 .3+.^| Wavelength
-.^| * G-XX-DR - Deep Red
-.3+.^| * Visible, Warm White
+.^a| * G-XX-DR - Deep Red
+.3+.^a| * Visible, Warm White
 
 
 
-.^| * G-XX-IR - Infrared
+.^a| * G-XX-IR - Infrared
 
 
 
 
-.^| * G-XX-IL - Invisible Infrared
+.^a| * G-XX-IL - Invisible Infrared
 
 
 
 .3+.^| Beam Angle
-.^| * G-S-XX - 40°x16°
-.^| * GW-S-XX - 40°x16°
+.^a| * G-S-XX - 40°x16°
+.^a| * GW-S-XX - 40°x16°
 
 
 
-.^| * G-L-XX - 15°x15°
-.^| * GW-L-XX - 15°x15°
+.^a| * G-L-XX - 15°x15°
+.^a| * GW-L-XX - 15°x15°
 
 
 
-.^| * G-XL-XX - 15°x15°
-.^| * GW-XL-XX - 15°x15°
+.^a| * G-XL-XX - 15°x15°
+.^a| * GW-XL-XX - 15°x15°
 
 .8+.^| OV Camera
 .^| Shutter Type
@@ -232,18 +232,18 @@ Here is the spec table
 
 
 .3+.^| Lens
-.^| * G-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
-.^| * GW-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^a| * G-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^a| * GW-S-XX - 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| * G-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
-.^| * GW-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^a| * G-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
+.^a| * GW-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^| * G-XL-XX - 12-50 mm; Manual Zoom and Focus
-.^| * GW-XL-XX - 12-50 mm; Manual Zoom and Focus
+.^a| * G-XL-XX - 12-50 mm; Manual Zoom and Focus
+.^a| * GW-XL-XX - 12-50 mm; Manual Zoom and Focus
 
 
 .^| Video Compression
