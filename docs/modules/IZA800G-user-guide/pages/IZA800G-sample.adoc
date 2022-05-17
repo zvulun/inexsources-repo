@@ -440,8 +440,3 @@ Here is the spec table
 2+^.^| External Illuminator (IZS Series)
 
 
-| 
-| 
-| 
-| 
-
