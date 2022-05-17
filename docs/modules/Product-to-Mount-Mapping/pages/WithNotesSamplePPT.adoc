@@ -1,43 +1,43 @@
-ifndef::imagesdir[:imagesdir: ../images]
+ifndef::imagesdir[:imagesdir: ../../images]
 
-image::ppt/WithNotesSamplePPT.pptx/Slide1.jpg[]
-
-
-image::ppt/WithNotesSamplePPT.pptx/Slide252.jpg[]
+image::Slide1.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide276.jpg[]
+image::Slide252.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide285.jpg[]
+image::Slide276.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide275.jpg[]
+image::Slide285.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide286.jpg[]
+image::Slide275.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide284.jpg[]
+image::Slide286.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide279.jpg[]
+image::Slide284.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide280.jpg[]
+image::Slide279.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide281.jpg[]
+image::Slide280.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide282.jpg[]
+image::Slide281.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide283.jpg[]
+image::Slide282.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide278.jpg[]
+image::Slide283.jpg[]
 
 
-image::ppt/WithNotesSamplePPT.pptx/Slide37.jpg[]
+image::Slide278.jpg[]
+
+
+image::Slide37.jpg[]
 
