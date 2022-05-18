@@ -3,7 +3,9 @@
 
 :!sectnums:
 
+[discrete]
 == ALPR All-in-one AI Camera System
+[discrete]
 === Installation and Calibration Guide
 
 :sectnums: all
