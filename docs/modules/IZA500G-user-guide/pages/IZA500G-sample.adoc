@@ -40,10 +40,10 @@ This is a xref to an ID inside a partial - let's see if it works - See <<big-cam
 See <<specs>>
 
 == Installation
-Here is an include from the partial of the installation intro that was in IZA800G partials; note how by defining the productname variable (with a colon before and after) with the product name of this page, you will see it in the partial which uses the same variable name in curly brackets.
+Here is an include from the partial of the installation intro that is in the ROOT partials; note how by defining the productname variable (with a colon before and after) with the product name of this page, you will see it in the partial which uses the same variable name in curly brackets.
 
 
-include::IZA800G-user-guide:partial$prtl-install-intro.adoc[]
+include::ROOT:partial$prtl-install-intro.adoc[]
 
 
 [#specs]

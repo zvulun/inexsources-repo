@@ -2,4 +2,4 @@ This is the partial containing the installation introduction for the following p
 
 [#big-camera]
 .IZA500G Camera Again to Check Number Sequence
-image::IZA500G-user-guide:IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
+image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
