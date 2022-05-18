@@ -15,7 +15,7 @@
 Use only one colon after the image:... from the image reference, and the alignment is automatically left; the align= parameter does not seem to work....
 
 .Smaller Camera Image
-image::IZA500G-user-guide:IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,width=150,align="left"]
+image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,width=150,align="left"]
 
 == Introduction
 This is an IZA800G gigantic introduction
