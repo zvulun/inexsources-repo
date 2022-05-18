@@ -1,7 +1,14 @@
 :productname: IZA800G/GW
 = {productname}
-// This is supposed to affect all the tables on this page
 
+:!sectnums:
+
+== ALPR All-in-one AI Camera System
+=== Installation and Calibration Guide
+
+:sectnums: all
+
+image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
 :toc:
 

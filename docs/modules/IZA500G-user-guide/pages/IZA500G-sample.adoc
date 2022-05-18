@@ -1,4 +1,5 @@
-= IZA500G
+:productname: IZA500G/GW/GR
+= {productname}
 
 :!sectnums:
 
@@ -7,7 +8,8 @@
 
 :sectnums: all
 
-:productName: IZA500G
+image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
+
 :toc:
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
