@@ -13,7 +13,7 @@
 Using only one colon after an image specification enables an inline image:ROOT:image$ROHS_LOGO.png[ROHS Logo,width=50,align="left"] image.
 
 
-\\{This image is an example of reuse from an image in the ROOT folder - this is the IZA500G image\\}
+\{This image is an example of reuse from an image in the ROOT folder - this is the IZA500G image}
 
 
 .Smaller Camera Image
