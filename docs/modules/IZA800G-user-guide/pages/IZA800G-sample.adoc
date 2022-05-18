@@ -10,24 +10,24 @@
 [.white]#IZA800G#
 
 
-*_\{This image is an example of reuse from another doc's images - this is the IZA500G image\}_*
+\{This image is an example of reuse from another doc's images - this is the IZA500G image}
 
-Use only one colon after the image:... from the image reference, and the alignment is automatically left; the align= parameter does not seem to work....
+Using only one colon after an image specification enables an inline image:ROOT:ROHS_logo.png[ROHS Logo,width=150,align="left"] image.
 
 .Smaller Camera Image
 image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,width=150,align="left"]
 
 == Introduction
-This is an IZA800G gigantic introduction
+This is an introduction
 
 == Installation
-Here is an include from the partial of the installation intro that is in this same ROOT/partials folder; note how by defining the productname variable (with a colon before and after) with the product name of this page, you will see it in the partial which uses the same variable name in curly brackets:
+Here is an include from a partial. By defining the productname variable (with a colon before and after) with the product name relevant for this  page, you will see it in the partial which uses the same variable name (in curly brackets):
 
 include::ROOT:partial$prtl-install-intro.adoc[]
 
 == Specifications
 
-Here is the spec table
+Here is the {productname} spec table
 
 [options="header",cols="21,18,30,31"]
 |===
