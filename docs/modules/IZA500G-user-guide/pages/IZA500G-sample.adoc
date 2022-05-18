@@ -1,6 +1,8 @@
 = IZA500G
 :sectnums!:
-== ALPR Camera
+
+=== ALPR Camera
+
 :sectnums: all
 
 :productName: IZA500G
