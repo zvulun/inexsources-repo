@@ -1,4 +1,8 @@
 = IZA500G
+:sectnums!:
+== ALPR Camera
+:sectnums: all
+
 :productName: IZA500G
 :toc:
 // This "invisible" text helps lunr search put this page
