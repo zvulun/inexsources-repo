@@ -1,6 +1,5 @@
 :productname: IZA500G/GW/GR
 = {productname}
-
 :toc: macro
 
 :!sectnums:
