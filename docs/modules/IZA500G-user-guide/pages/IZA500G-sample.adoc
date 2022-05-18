@@ -2,7 +2,8 @@
 
 :!sectnums:
 
-=== ALPR Camera
+== ALPR All-in-one AI Camera System
+=== Installation and Calibration Guide
 
 :sectnums: all
 
