@@ -1,5 +1,6 @@
 = IZA500G
-:sectnums!:
+
+:!sectnums:
 
 === ALPR Camera
 
