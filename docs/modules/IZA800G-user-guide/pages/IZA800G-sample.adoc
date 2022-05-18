@@ -1,7 +1,8 @@
-= IZA800G
+:productname: IZA800G/GW
+= {productname}
 // This is supposed to affect all the tables on this page
 
-:productname: IZA800G
+
 :toc:
 
 // This "invisible" text helps lunr search put this page
