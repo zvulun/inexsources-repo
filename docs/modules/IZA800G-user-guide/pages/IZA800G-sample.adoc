@@ -1,18 +1,20 @@
 :productname: IZA800G/GW
 = {productname}
+//enable the TOC to be placed in a specific position
 :toc: macro
-
+//!sectnum momentarily stops section numbering
 :!sectnums:
-
+// discrete removes these headers from the TOC
 [discrete]
 == ALPR All-in-one AI Camera System
 [discrete]
 === Installation and Calibration Guide
-
+// restor section numbering from here on
 :sectnums: all
 
 image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
-
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
 toc::[]
 
 // This "invisible" text helps lunr search put this page
