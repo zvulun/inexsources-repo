@@ -14,7 +14,7 @@
 
 Using only one colon after an image specification enables an inline
 
-image:ROOT:image$ROHS_LOGO.png[ROHS Logo,width=50,align="left"]
+// image:ROOT:image$ROHS_LOGO.png[ROHS Logo,width=50,align="left"]
 
 image.
 
