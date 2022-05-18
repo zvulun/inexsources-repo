@@ -7,12 +7,12 @@
 [.white]#IZA500G#
 
 [#small-camera]
-.IZA500G Camera
+.{productname} Camera
 image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200",align="left"]
 
 
 == Introduction
-This is an introduction to the \{here is a variable substitution with the product name} {productname}.
+This is an introduction to the \{ here is a variable substitution with the product name \} {productname}.
 
 === Intro subsection
 some text
