@@ -4,12 +4,14 @@
 :toc: macro
 //!sectnum momentarily stops section numbering
 :!sectnums:
+
 // discrete removes these headers from the TOC
 [discrete]
 == ALPR All-in-one AI Camera System
 [discrete]
 === Installation and Calibration Guide
-// restor section numbering from here on
+
+// restore section numbering from here on
 :sectnums: all
 
 image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
