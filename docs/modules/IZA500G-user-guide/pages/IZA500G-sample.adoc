@@ -24,6 +24,10 @@ toc::[]
 .{productname} Camera
 image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200",align="left"]
 
+////
+Note how you do not need a backslash in front of the curly brackets
+From Dan Allen: It's because {here is some text} is not a valid attribute reference (because of the spaces), so there is no need to escape it. You only need to escape what would be interpreted
+////
 
 == Introduction
 This is an introduction to the *_{here is a variable substitution with the product name}_* {productname}.

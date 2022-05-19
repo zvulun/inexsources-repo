@@ -25,6 +25,11 @@ toc::[]
 
 Using only one colon after an image specification enables an inline image:ROOT:image$ROHS_LOGO.png[ROHS Logo,width=50,align="left"] image.
 
+////
+Note how you do not need a backslash in front of the curly brackets
+From Dan Allen: It's because {here is some text} is not a valid attribute reference (because of the spaces), so there is no need to escape it. You only need to escape what would be interpreted
+////
+
 
 *_{This image is an example of reuse from an image in the ROOT folder - this is the IZA500G image}_*
 
