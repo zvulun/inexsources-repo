@@ -71,3 +71,466 @@ Here is the {productname} spec table
 
 .Specifications
 
+[options="header",cols="18,20,20,21,21"]
+|===
+2+.^| Item
+{set:cellbgcolor:#c0c0c0}
+
+^.^| IZA500+++<u>G</u>+++
+{set:cellbgcolor:#c0c0c0}
+^.^| IZA500+++<u>GW</u>+++
+{set:cellbgcolor:#c0c0c0}
+^.^| IZA500+++<u>GR</u>+++
+{set:cellbgcolor:#c0c0c0}
+
+2+.^| Hardware Revision
+{set:cellbgcolor!}
+
+^.^| F1
+^.^| F1
+^.^| F1
+
+.7+.^| Supported Analytics
+.3+.^| LPR Analytics
+3+^.^| Plate Recognition
+
+
+
+
+
+3+^.^| Plate State of Issue
+
+
+
+
+
+3+^.^| Plate Type
+
+
+
+
+.4+.^| Vehicle Analytics
+3+^.^| Vehicle Detection
+
+
+
+
+
+3+^.^| Vehicle Classification
+
+
+
+
+
+3+^.^| Vehicle Color
+
+
+
+
+
+3+^.^| Vehicle Make
+
+
+
+2+.^| Lanes Covered
+
+3+^.^| One
+
+
+
+2+.^| Max Vehicle Speed
+
+3+^.^| Up to 80 mph (129 km/h)
+
+
+
+2.2+.^| LPR Capture Distance* (for U.S.A. plates)
+
+.^a| * G-S-XX - 8-30 ft (2.4-9.1 m)
+.^a| * GW-S-XX - 8-30 ft (2.4-9.1 m)
+.2+.^a| * GR-XX - 8.2-82 ft (2.5-25 m)
+
+
+
+.^a| * G-L-XX - 33-65 ft (10-20 m)
+.^a| * GW-L-XX - 33-65 ft (10-20 m)
+
+
+.5+.^| LPR Illumination
+.^| Number of LEDs
+.^a| * 15 (same ones as for OV Illumination)
+.^a| * 10
+.^a| * 15 (same ones as for OV Illumination)
+
+
+.2+.^| Wavelength
+.^a| * G-X-DR - Deep Red
+.^a| * GW-X-DR - Deep Red
+.^a| * GR-DR - Deep Red
+
+
+
+.^a| * G-X-IR - Infrared
+.^a| * GW-X-IR - Infrared
+.^a| * GR-IR - Infrared
+
+
+.2+.^| Beam Angle
+.^a| * G-S-XX - 40°x16°
+.^a| * GW-S-XX - 40°x16°
+.2+.^a| * GR-XX - 40°x16°
+
+
+
+.^a| * G-L-XX - 15°x15°
+.^a| * GW-L-XX - 15°x15°
+
+
+.7+.^| LPR Camera
+.^| Shutter Type
+2+^.^| Global
+
+^.^| Rolling
+
+
+.^| Sensor
+2+^.^| Sony IMX265
+
+^.^| Sony IMX290
+
+
+.^| Resolution
+3+^.^| 2mp - 1920 (H) x 1080 (V)
+
+
+
+
+.2+.^| Lens
+2+.^a| * G/GW-S-XX - 6-22 mm; Motorized Zoom and Auto-focus
+
+.2+.^a| * GR-XX - 5-50 mm; Motorized Zoom and Auto-focus
+
+
+
+2+.^a| * G/GW-L-XX - 12-40 mm; Motorized Zoom and Auto-focus
+
+
+
+
+.^| Video Compression
+3+^.^| MJPEG, H.264, H.265
+
+
+
+
+.^| Video Streaming
+3+^.^| RTSP Protocol
+
+
+
+.5+.^| OV Illumination
+.^| Number of LEDs
+.^a| * 15 (same ones as for LPR Illumination)
+.^a| * 5
+.^a| * 15 (same ones as for OV Illumination)
+
+
+.2+.^| Wavelength
+.^a| * G-X-DR - Deep Red
+.2+.^a| * Visible; Warm White
+.^a| * GR-DR - Deep Red
+
+
+
+.^a| * G-X-IR - Infrared
+
+.^a| * GR-IR - Infrared
+
+
+.2+.^| Beam Angle
+.^a| * G-S-XX - 40°x16°
+.^a| * GW-S-XX - 40°x16°
+.2+.^a| * GR-XX - 40°x16°
+
+
+
+.^a| * G-L-XX - 15°x15°
+.^a| * GW-L-XX - 15°x15°
+
+
+.7+.^| OV Camera
+.^| Shutter Type
+3+^.^| Rolling
+
+
+
+
+.^| Sensor
+3+^.^| Sony IMX290
+
+
+
+
+.^| Resolution
+3+^.^| 2mp - 1920 (H) x 1080 (V)
+
+
+
+
+.2+.^| Lens
+2+.^a| * G/GW-S-XX - 5-50 mm; Motorized Zoom and Auto-focus
+
+.2+.^a| * GR-XX - 5-50 mm; Motorized Zoom and Auto-focus
+
+
+
+2+.^a| * G/GW-L-XX - 5-50 mm; Motorized Zoom and Auto-focus
+
+
+
+
+.^| Video Compression
+3+^.^| MJPEG, H.264, H.265
+
+
+
+
+.^| Video Streaming
+3+^.^| RTSP Protocol
+
+
+
+.2+.^| Supported Protocols (for additional protocols, see the RoadView ALPR User Guide)
+.^| INEX HTTP API
+3+.^| LPR Events are reported to IZCentral, or a 3rd party system via protocols such as the INEX HTTP API protocol. Each LPR Event includes metadata and associated images.
+
+
+
+
+.^| INEX Discovery
+3+.^| The INEX Discovery Protocol is used by the IZ Discovery utility to find all devices connected to the LAN. IZ Discovery also enables display and editing of each device's network settings.
+
+
+
+.8+.^| AI Processor
+.^| GPU
+3+^.^| NVIDIA Maxwell architecture with 128 CUDA® cores
+
+
+
+
+.^| CPU
+3+^.^| Quad-core ARM Cortex-A57 MPCore processor
+
+
+
+
+.^| RAM
+3+^.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
+
+
+
+
+.^| System Storage
+3+^.^| MicroSD, 64 Gb
+
+
+
+
+.^| Data Storage
+3+^.^| 128 Gb
+
+
+
+
+.2+.^| RTC Battery
+3+^.^| Maintains real-time clock date and time for 4-6 hours
+
+
+
+
+
+3+^.^| Rechargeable; Full charge-up time: 12 hours
+
+
+
+
+.^| OS
+3+^.^| Linux Ubuntu 18.04
+
+
+
+.4+.^| Environmental
+.^| Ingress Protection
+3+^.^| IP67
+
+
+
+
+.^| Operating Temperature
+3+^.^| -22°F to 140°F (-30°C to 60°C)
+
+
+
+
+.^| Storage Temperature
+3+^.^| -22°F to 158°F (-30°C to 70°C)
+
+
+
+
+.^| Humidity
+3+^.^| 0% - 90% RH, non-condensing
+
+
+
+.6+.^| Certifications
+.^| EMC
+3+^.^| FCC Class B/CE
+
+
+
+
+.^| Interoperability
+3+^.^| ONVIF compliant, Profile S
+
+
+
+
+.^| Impact Protection
+3+^.^| IK10 (Vandal-proof)
+
+
+
+
+.^| RoHS
+3+^.^| RoHS
+
+
+
+
+.^| Eye Safety
+3+^.^| IEC62471 Group 1
+
+
+
+
+.^| NDAA
+3+^.^| NDAA Section 889 compliant
+
+
+
+.3+.^| Physical
+.^| Dimensions
+3+^.^| (W x H x D) 6.7” x 4.7” x 17.7” (171 mm x 119 mm x 451 mm)
+
+
+
+
+.^| Weight
+3+^.^| 9.0 lbs (4.1 kg)
+
+
+
+
+.^| Color
+3+^.^| White
+
+
+
+.8+.^| Interface
+.^| Ethernet
+3+^.^| 10/100 BaseT
+
+
+
+
+.4+.^| Cables
+3+^.^| LAN - CAT 6 Ethernet cable, 6 foot long (1.80 meters), terminated with a male RJ-45 connector
+
+
+
+
+
+3+.^| Power/Signals - 6-foot long (1.80 meters):
+
+
+
+
+
+3+.^a| * 3-wire power cable, shielded with a polyethylene jacket; ends terminated with metal rings
+
+
+
+
+
+3+.^a| * Digital input (trigger) signal wires and relay output connections (see next items)
+
+
+
+
+.2+.^| Digital Inputs (Trigger)
+3+.^a| * Trigger Dry: White (+), Green (-)
+
+
+
+
+
+3+.^a| * Trigger Wet: Green (+5-24 V), Blue (GND)
+
+
+
+
+.^| Relay Output
+3+.^a| * Dry Contact Relay: Brown (NO), Orange (C)
+
+
+
+.2+.^| Power
+.^| Input Voltage
+3+^.^| 24 VDC +/- 10%, Class 2 Low-Voltage
+
+
+
+
+.^| Power Consumption
+3+^.^| 25 W
+
+
+
+2.2+.^| Accessories Included
+
+3+^.^| Sunshade
+
+
+
+
+
+3+^.^| 3-axis wall mount with cable management
+
+
+
+2.4+.^| Accessories Available
+
+3+^.^| Power Supply
+
+
+
+
+
+3+^.^| IZIO Digital I/O Controller
+
+
+
+
+
+3+^.^| Pole Mount Adapter
+
+
+
+
+
+3+^.^| External Illuminator (IZL Series)
+
+
+|===
