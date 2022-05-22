@@ -1,6 +1,12 @@
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+== Safety Precautions
+
 .WARNING
 [WARNING]
 ===============================
+image:ROOT:image$TRIANGLE_CAUTION.png[Warning Triangle,width=150,align="left"]
 *BEWARE OF RISK OF ELECTRICAL SHOCK*
 
 *REFER SERVICING TO QUALIFIED SERVICE PERSONNEL*
