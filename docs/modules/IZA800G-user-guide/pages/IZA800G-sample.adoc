@@ -14,6 +14,8 @@
 image::ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
 image::ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
 
+include::ROOT:partial$p-front-matter-notice[Front Matter Notice]
+
 // restore section numbering from here on
 :sectnums: all
 
