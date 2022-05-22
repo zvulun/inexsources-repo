@@ -14,12 +14,16 @@
 image::ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
 image::ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
 
+
+image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
+
 include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+
 
 // restore section numbering from here on
 :sectnums: all
 
-image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
 toc::[]
