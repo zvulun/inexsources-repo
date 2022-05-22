@@ -6,7 +6,7 @@
 .WARNING
 [WARNING]
 ===============================
-image:ROOT:image$TRIANGLE_CAUTION.png[Warning Triangle,width=150,align="left"]
+image:ROOT:image$TRIANGLE_CAUTION.png[Warning Triangle,width=50,align="left"]
 *BEWARE OF RISK OF ELECTRICAL SHOCK*
 
 *REFER SERVICING TO QUALIFIED SERVICE PERSONNEL*
