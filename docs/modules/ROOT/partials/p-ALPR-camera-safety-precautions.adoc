@@ -29,3 +29,5 @@ Power undervoltage, overvoltage and/or incorrect polarity will damage the unit a
 * To avoid heat accumulation/overheating, use sufficient ventilation in the product's operating environment.
 * Do not connect several devices to one power adapter since adapter overload may cause overheating or a fire hazard.
 * Stop using the unit immediately if it emits smoke, or if you notice an abnormal smell or sound. In such cases, please contact us. Do not attempt to repair the unit by yourself!
+* The use of any INEX Technologies' software products or any other software product referred to in this document with internet access shall be used wholly at your own risk. INEX Technologies does not take any responsibility for abnormal operation, privacy leakage or any other damages resulting from cyber attack, hacker attack, virus infection or any other internet security risks.
+* Proper configuration of all passwords and other security settings is the responsibility of the installer and/or end-user.
