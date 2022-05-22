@@ -11,6 +11,9 @@
 [discrete]
 === Installation and Calibration Guide
 
+image::ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
+
+
 // restore section numbering from here on
 :sectnums: all
 
