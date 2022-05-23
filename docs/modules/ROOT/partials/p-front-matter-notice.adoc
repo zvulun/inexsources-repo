@@ -1,7 +1,10 @@
 //!sectnum momentarily stops section numbering
-:!sectnums:
+// but decided to leave in since all these 
+// warnings will be at the end and should 
+// be seen in the TOC with numbers
+//:!sectnums:
 
-== Notice
+=== Notice
 INEX Technologies reserves the right to improve and enhance its product offerings. Thus, the illustrations and descriptions presented in this manual may differ in some respect from the products you receive.
 
 Technical specifications are subject to change without notice.

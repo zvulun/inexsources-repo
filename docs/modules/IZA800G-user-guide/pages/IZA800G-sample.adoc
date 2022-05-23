@@ -17,10 +17,6 @@ image::ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
 
 image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 
-include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
-
-include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
-
 // restore section numbering from here on
 :sectnums: all
 
@@ -472,3 +468,10 @@ Here is the {productname} spec table
 
 
 |===
+
+== Notices, Safety Precautions and Certifications
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
+
