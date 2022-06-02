@@ -42,7 +42,7 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 
 
 .Smaller Camera Image
-image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,width=150,align="center"]
+image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,width=150,align="left"]
 
 == Introduction
 This is an introduction
