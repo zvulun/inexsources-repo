@@ -1,5 +1,0 @@
-This is the partial containing the installation introduction for the following productname (enclosed in curly brackets in the asciidoc file; and substituted by defining the same variable name at the top of the asciidoc file in which the partial will be included): and here is the product name that was substituted {productname}.
-
-[#big-camera]
-.Larger Camera to Show Partial is in Sequence
-image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]

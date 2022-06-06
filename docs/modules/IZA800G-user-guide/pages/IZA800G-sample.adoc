@@ -98,14 +98,6 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 
 |===
 
-
-
-
-== Installation
-Here is an include from a partial. By defining the productname variable (with a colon before and after) with the product name relevant for this  page, you will see it in the partial which uses the same variable name (in curly brackets):
-
-include::ROOT:partial$prtl-install-intro.adoc[]
-
 == Specifications
 
 Here is the {productname} spec table
@@ -528,6 +520,11 @@ Here is the {productname} spec table
 include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
 include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
+
+////
+Here is an include from a partial. By defining the productname variable (with a colon before and after) with the product name relevant for this page at the top of the page, you will see it in the partial which uses the same variable name (in curly brackets). In this case, this is a partial including both the {productname} and {eyesafetystandard-1} variables, which are defined
+at the top of this IZA800G page.
+////
 
 include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
 
