@@ -5,4 +5,4 @@
 //:!sectnums:
 
 [square]
-* image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,width=50,align="left"] *ONVIF:* This device is ONVIF compliant (Profile S)
+* image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,width=70,align="left"] *ONVIF:* This device is ONVIF compliant (Profile S)

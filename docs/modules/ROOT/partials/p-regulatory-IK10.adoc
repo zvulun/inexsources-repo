@@ -5,4 +5,4 @@
 //:!sectnums:
 
 [square]
-* image:ROOT:image$IK10_LOGO.png[IK10 Logo,width=50,align="left"] *IK10:* This device has been tested and conforms to the IK10 impact standard (vandal-proof).
+* image:ROOT:image$IK10_LOGO.png[IK10 Logo,width=30,align="left"] *IK10:* This device has been tested and conforms to the IK10 impact standard (vandal-proof).
