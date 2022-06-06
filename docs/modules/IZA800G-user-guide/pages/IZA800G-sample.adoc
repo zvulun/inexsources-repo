@@ -58,6 +58,57 @@ This document is for:
 This document does not take the place of training by INEX Technologies' certified specialists. Contact INEX Technologies to schedule training.
 ===============================
 
+=== Recommended Reading/Related Documents
+Contact INEX Technologies for document ordering information.
+
+[#t_related_documents]
+.Related Documents
+[options="header",cols="35,65"]
+|===
+.^| Doc. No.
+{set:cellbgcolor:#c0c0c0}
+.^| Title
+{set:cellbgcolor:#c0c0c0}
+
+.^| IZA800G-REV-x-TDSHEET
+{set:cellbgcolor!}
+.^| IZA800G Technical Data Sheet
+
+.^| IZA800GW-REV-x-TDSHEET
+.^| IZA800GW Technical Data Sheet
+
+.^| MOUNT-MAP-PRSNT-011
+.^| Product-to-Mount Mapping
+
+.^| Mounts
+.^| Mounting Hardware documentation
+
+.^| IZ Discovery Utility
+.^| IZ Discovery Utility software components
+
+.^| RV-ALPR-MAN-001
+.^| RoadView ALPR User Guide
+
+.^| IZS-S-MAN-002
+.^| IZS Illuminator Series User Guide
+
+.^| IZPWRSRFC-REV-x-TDSHEET
+.^| IZPWR Surface Mount Power Supplies Technical Data Sheet
+
+.^| IZPWRDIN-REV-x-TDSHEET
+.^| IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+
+.^| IZIO-6060-MAN-001
+.^| IZIO Digital I/O Controller Installation and User Guide
+
+.^| NDAA-NB-COC-001
+.^| NDAA Section 889 Certification of Compliance
+
+|===
+
+
+
+
 == Installation
 Here is an include from a partial. By defining the productname variable (with a colon before and after) with the product name relevant for this  page, you will see it in the partial which uses the same variable name (in curly brackets):
 
