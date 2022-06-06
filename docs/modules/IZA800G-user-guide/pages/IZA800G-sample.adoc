@@ -31,9 +31,6 @@ toc::[]
 // for a specific product name
 [.white]#IZA800G#
 
-
-Using only one colon after an image specification enables an inline image:ROOT:image$ROHS_LOGO.png[ROHS Logo,width=50,align="left"] image.
-
 == About this Document
 === Who Should Read this Document
 This document is for:
@@ -72,7 +69,7 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 .^| https://drive.google.com/drive/folders/1_KQljIK6EJjLCeCxkYGaj5Ou48xkl80L?usp=sharing[IZA800GW-REV-x-TDSHEET,window=read-later]
 .^| IZA800GW Technical Data Sheet
 
-.^| xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[MOUNT-MAP-PRSNT-011]
+.^| xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[MOUNT-MAP-PRSNT-011,window=read-later]
 .^| Product-to-Mount Mapping
 
 .^| Mounts
