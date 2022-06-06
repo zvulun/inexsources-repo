@@ -11,4 +11,4 @@
 ** Do not stare directly into the front of the Camera System while it is operating.
 ** {productname} - {eyesafetystandard-1}:
 
-image::ROOT:image$EYE_SAFETY_GRP_1.png[Eye Safety Group 1 Warning Label,align=left]
+image::ROOT:image$EYE_SAFETY_GRP_1.png[Eye Safety Group 1 Warning Label,width=150,align=left]
