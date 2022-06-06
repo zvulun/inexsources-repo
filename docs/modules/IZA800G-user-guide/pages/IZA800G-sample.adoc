@@ -100,8 +100,8 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 
 == Specifications
 
-Here is the {productname} spec table
-
+[#t_specs]
+.Technical Specifications
 [options="header",cols="21,18,30,31"]
 |===
 2+.^| Item
