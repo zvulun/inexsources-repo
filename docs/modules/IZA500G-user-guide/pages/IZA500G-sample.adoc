@@ -57,13 +57,6 @@ This is a xref to an ID inside the partial that was included below: See <<big-ca
 
 Here is a xref to a section inside this document: See <<specs>>
 
-== Installation
-Here is an include from a partial. By defining the productname variable (with a colon before and after) with the product name relevant for this  page, you will see it in the partial which uses the same variable name (in curly brackets).
-
-
-include::ROOT:partial$prtl-install-intro.adoc[]
-
-
 [#specs]
 == Specifications
 
