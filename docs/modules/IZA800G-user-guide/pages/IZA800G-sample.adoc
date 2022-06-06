@@ -1,4 +1,5 @@
 :productname: IZA800G/GW
+:eyesafetystandard-1: IEC62471 Group 1
 = {productname}
 //enable the TOC to be placed in a specific position
 :toc: macro

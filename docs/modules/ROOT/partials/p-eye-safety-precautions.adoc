@@ -1,3 +1,4 @@
+:eyesafetystandard-1: IEC62471 Group 1
 //!sectnum momentarily stops section numbering
 // but decided to leave in since all these 
 // warnings will be at the end and should 
@@ -6,4 +7,8 @@
 
 [square]
 * [.underline]*Eye Safety: The following precautions must be observed:*
+[round]
+** Do not stare directly into the front of the Camera System while it is operating.
+** {productname} - {eyesafetystandard-1}:
 
+image::ROOT:image$EYE_SAFETY_GRP_1.png[Eye Safety Group 1 Warning Label,align=left]
