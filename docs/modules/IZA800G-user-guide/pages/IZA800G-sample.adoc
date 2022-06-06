@@ -72,7 +72,7 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 .^| xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[MOUNT-MAP-PRSNT-011,window=read-later]
 .^| Product-to-Mount Mapping
 
-.^| Mounts
+.^| xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts,window=read-later]
 .^| Mounting Hardware documentation
 
 .^| IZ Discovery Utility
