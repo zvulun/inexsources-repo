@@ -75,7 +75,7 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 .^| xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts,window=read-later]
 .^| Mounting Hardware documentation
 
-.^| IZ Discovery Utility
+.^| https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[IZ Discovery Utility,window=read-later]
 .^| IZ Discovery Utility software components
 
 .^| RV-ALPR-MAN-001
