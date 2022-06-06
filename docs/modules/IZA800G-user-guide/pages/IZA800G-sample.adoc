@@ -45,8 +45,17 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 .Smaller Camera Image
 image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,width=150,align="left"]
 
-== Introduction
-This is an introduction
+== About this Document
+=== Who Should Read this Document
+This document is for:
+
+[square]
+* *Technical Personnel* who need to install IZA Camera Systems.
+
+[NOTE]
+===============================
+This document does not take the place of training by INEX Technologies' certified specialists. Contact INEX Technologies to schedule training.
+===============================
 
 == Installation
 Here is an include from a partial. By defining the productname variable (with a colon before and after) with the product name relevant for this  page, you will see it in the partial which uses the same variable name (in curly brackets):
