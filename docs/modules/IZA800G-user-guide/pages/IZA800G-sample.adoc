@@ -34,18 +34,6 @@ toc::[]
 
 Using only one colon after an image specification enables an inline image:ROOT:image$ROHS_LOGO.png[ROHS Logo,width=50,align="left"] image.
 
-////
-Note how you do not need a backslash in front of the curly brackets
-From Dan Allen: It's because {here is some text} is not a valid attribute reference (because of the spaces), so there is no need to escape it. You only need to escape what would be interpreted
-////
-
-
-*_{This image is an example of reuse from an image in the ROOT folder - this is the IZA500G image}_*
-
-
-.Smaller Camera Image
-image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,width=150,align="left"]
-
 == About this Document
 === Who Should Read this Document
 This document is for:
@@ -60,6 +48,13 @@ This document does not take the place of training by INEX Technologies' certifie
 
 === Recommended Reading/Related Documents
 Contact INEX Technologies for document ordering information.
+
+////
+Note how you do not need a backslash in front of curly brackets
+From Dan Allen: It's because {here is some text} is not a valid attribute reference (because of the spaces), so there is no need to escape it. You only need to escape what would be interpreted
+////
+
+*_{This is a visible bold/italic comment used to call attention to a question or fix needed from the subject matter expert responsible for this document; the comment is that we need to complete conversion of some of the documents linked to in this table - some are only stubs that have the doc title and TBD}_*
 
 [#t_related_documents]
 .Related Documents
@@ -77,7 +72,7 @@ Contact INEX Technologies for document ordering information.
 .^| https://drive.google.com/drive/folders/1_KQljIK6EJjLCeCxkYGaj5Ou48xkl80L?usp=sharing[IZA800GW-REV-x-TDSHEET,window=read-later]
 .^| IZA800GW Technical Data Sheet
 
-.^| MOUNT-MAP-PRSNT-011
+.^| xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[MOUNT-MAP-PRSNT-011]
 .^| Product-to-Mount Mapping
 
 .^| Mounts
