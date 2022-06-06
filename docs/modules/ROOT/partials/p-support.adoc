@@ -6,4 +6,4 @@
 
 === Support
 If you have any questions, please contact our support team via our website:
-http://www.inextechnologies.com[INEX Technologies Website]
+http://www.inextechnologies.com[INEX Technologies Website,window=read-later]
