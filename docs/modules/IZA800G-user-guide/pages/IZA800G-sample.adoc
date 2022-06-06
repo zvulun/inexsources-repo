@@ -480,9 +480,9 @@ include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
 
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
-include::ROOT:p-regulatory-header.adoc[Regulatory Notices Header]
+include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
 
-include::ROOT:p-regulatory-FCC.adoc[FCC Regulatory Notice]
+include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
 
-include::ROOT:p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
+include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
 
