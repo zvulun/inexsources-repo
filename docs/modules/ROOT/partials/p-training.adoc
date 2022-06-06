@@ -1,0 +1,8 @@
+//!sectnum momentarily stops section numbering
+// but decided to leave in since all these 
+// warnings will be at the end and should 
+// be seen in the TOC with numbers
+//:!sectnums:
+
+=== Training
+This document does not take the place of training by INEX Technologies' certified specialists. Contact INEX Technologies to schedule training.

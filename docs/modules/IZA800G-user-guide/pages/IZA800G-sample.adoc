@@ -491,3 +491,9 @@ include::ROOT:partial$p-regulatory-IP67.adoc[IP67 Regulatory Notice]
 include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
 
 include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+
