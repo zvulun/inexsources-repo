@@ -475,3 +475,5 @@ include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
 include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
 
+include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
+
