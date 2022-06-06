@@ -1,0 +1,8 @@
+//!sectnum momentarily stops section numbering
+// but decided to leave in since all these 
+// warnings will be at the end and should 
+// be seen in the TOC with numbers
+//:!sectnums:
+
+[square]
+* *IP67 Ingress Protection:* This product conforms to the IP67 standard

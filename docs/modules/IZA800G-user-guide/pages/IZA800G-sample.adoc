@@ -486,3 +486,8 @@ include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
 
 include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
 
+include::ROOT:partial$p-regulatory-IP67.adoc[IP67 Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
