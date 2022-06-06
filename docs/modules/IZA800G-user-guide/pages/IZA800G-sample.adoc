@@ -70,7 +70,7 @@ Contact INEX Technologies for document ordering information.
 .^| Title
 {set:cellbgcolor:#c0c0c0}
 
-.^| IZA800G-REV-x-TDSHEET
+.^| https://drive.google.com/drive/folders/1410KtXUpOb7x1wR1-f3LX61AtWi1_2f8?usp=sharing[IZA800G-REV-x-TDSHEET,window=read-later]
 {set:cellbgcolor!}
 .^| IZA800G Technical Data Sheet
 
