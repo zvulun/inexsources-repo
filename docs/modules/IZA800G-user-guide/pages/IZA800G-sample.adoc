@@ -74,7 +74,7 @@ Contact INEX Technologies for document ordering information.
 {set:cellbgcolor!}
 .^| IZA800G Technical Data Sheet
 
-.^| IZA800GW-REV-x-TDSHEET
+.^| https://drive.google.com/drive/folders/1_KQljIK6EJjLCeCxkYGaj5Ou48xkl80L?usp=sharing[IZA800GW-REV-x-TDSHEET,window=read-later]
 .^| IZA800GW Technical Data Sheet
 
 .^| MOUNT-MAP-PRSNT-011
