@@ -88,7 +88,7 @@ be interpreted as an attribute
 .^| https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRDIN-REV-x-TDSHEET,window=read-later]
 .^| IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
 
-.^| IZIO-6060-MAN-001
+.^| xref:IZIO-install-guide:IZIO-6060-MAN-001_Digital_IO_Controller.adoc[IZIO-6060-MAN-001,window=read-later]
 .^| IZIO Digital I/O Controller Installation and User Guide
 
 .^| https://drive.google.com/drive/folders/190lmdZ4xQSpx2Ksn-XVgOINE6D14rhSv?usp=sharing[NDAA-NB-COC-001,window=read-later]
