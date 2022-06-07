@@ -77,7 +77,7 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 .^| xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RV-ALPR-MAN-001,window=read-later]
 .^| RoadView ALPR User Guide
 
-.^| IZS-S-MAN-002
+.^| xref:IZS-user-guide:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS-S-MAN-002,window=read-later]
 .^| IZS Illuminator Series User Guide
 
 .^| IZPWRSRFC-REV-x-TDSHEET

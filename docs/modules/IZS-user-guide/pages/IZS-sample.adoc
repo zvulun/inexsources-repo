@@ -1,6 +1,0 @@
-= IZS Illuminators
-
-image::IZS-S-FIG-002c_NoLabels_All_WithS3_At_Angle.png[Picture of IZS Illuminators]
-
-== Introduction
-This is an IZS introduction
