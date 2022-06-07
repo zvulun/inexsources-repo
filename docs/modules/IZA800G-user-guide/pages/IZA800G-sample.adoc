@@ -118,6 +118,13 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 ^.^| F1
 ^.^| F1
 
+//This is an experiment that worked to see if
+//part of a table could be in an include
+//need to assess if it is worth using a partial
+//for this - depending on how many instances there are,
+//since data sheets that also use the same spec tables
+//are treated as separate files in Google drive outside
+//of the antora site
 include::ROOT:partial$p-2col-spec-supported-analytics.adoc[]
 //.7+.^| Supported Analytics
 //.3+.^| LPR Analytics
