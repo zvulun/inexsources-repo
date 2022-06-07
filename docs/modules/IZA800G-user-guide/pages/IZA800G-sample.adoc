@@ -44,7 +44,9 @@ Contact INEX Technologies for document ordering information.
 
 ////
 Note how you do not need a backslash in front of curly brackets
-From Dan Allen: It's because {here is some text} is not a valid attribute reference (because of the spaces), so there is no need to escape it. You only need to escape what would be interpreted
+From Dan Allen: It's because {here is some text} is not a valid attribute reference (because of the spaces), so there is no need to escape it. You only need to escape what would be interpreted.
+However, for \{TBD\}, backslashes are required since there are no spaces in TBD and it will
+be interpreted as an attribute
 ////
 
 *_{This is a visible bold/italic comment used to call attention to a question or fix needed from the subject matter expert responsible for this document; the comment is that we need to complete conversion of some of the documents linked to in this table - some are only stubs that have the doc title and TBD}_*
@@ -80,10 +82,10 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 .^| xref:IZS-user-guide:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS-S-MAN-002,window=read-later]
 .^| IZS Illuminator Series User Guide
 
-.^| IZPWRSRFC-REV-x-TDSHEET
+.^| https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRSRFC-REV-x-TDSHEET,window=read-later]
 .^| IZPWR Surface Mount Power Supplies Technical Data Sheet
 
-.^| IZPWRDIN-REV-x-TDSHEET
+.^| https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRDIN-REV-x-TDSHEET,window=read-later]
 .^| IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
 
 .^| IZIO-6060-MAN-001
@@ -93,6 +95,8 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 .^| NDAA Section 889 Certification of Compliance
 
 |===
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
 == Specifications
 
@@ -221,7 +225,7 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 
 
 .^| Resolution
-2+^.^| 2mp - 1920 (H) × 1080 (V)
+2+^.^| 2mp - 1920 (H) x 1080 (V)
 
 
 
@@ -296,7 +300,7 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 
 
 .^| Resolution
-2+^.^| 2mp - 1920 (H) × 1080 (V)
+2+^.^| 2mp - 1920 (H) x 1080 (V)
 
 
 
@@ -331,7 +335,7 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 
 
 .^| INEX Discovery
-2+.^| The INEX Discovery Protocol is used by the IZ Discovery utility to find all devices connected to the LAN. IZ Discovery also enables display and editing of each device's network settings.
+2+.^| The INEX Discovery Protocol is used by the IZ Discovery utility to find all devices connected to the LAN. IZ Discovery also enables display and editing of each device's network settings.
 
 
 .8+.^| AI Processor
