@@ -10,7 +10,10 @@
 ** xref:IZS-user-guide:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS User Guide]
 * Power Supplies
 
+** https://drive.google.com/drive/folders/1NEqPbvTz7GX3Go00Wmp6BmPu7HuGndnz?usp=sharing[IZPWR Manufacturer Documentation,window=read-later]
+
 ** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR DIN Rail Mount Data Sheet,window=read-later]
+
 
 ** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR Surface Mount Data Sheet,window=read-later]
 

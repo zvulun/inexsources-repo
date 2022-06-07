@@ -1,6 +1,4 @@
 :productname: IZIO
-//We do not yet have verification of a specific eye safety stancard
-//:eyesafetystandard-1: IEC62471 Group 1
 = {productname}
 //enable the TOC to be placed in a specific position
 :toc: macro
