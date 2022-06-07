@@ -15,7 +15,7 @@
 ** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR DIN Rail Mount Data Sheet,window=read-later]
 
 * Accessories
-** Web Relays
+** xref:IZIO-install-guide:IZIO-6060-MAN-001_Digital_IO_Controller.adoc[Web Relays]
 *** xref:IZIO-install-guide:IZIO-6060-MAN-001_Digital_IO_Controller.adoc[]
 
 * xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts]
