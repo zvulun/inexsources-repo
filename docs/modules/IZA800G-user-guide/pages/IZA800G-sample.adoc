@@ -91,7 +91,7 @@ be interpreted as an attribute
 .^| IZIO-6060-MAN-001
 .^| IZIO Digital I/O Controller Installation and User Guide
 
-.^| NDAA-NB-COC-001
+.^| https://drive.google.com/drive/folders/190lmdZ4xQSpx2Ksn-XVgOINE6D14rhSv?usp=sharing[NDAA-NB-COC-001,window=read-later]
 .^| NDAA Section 889 Certification of Compliance
 
 |===
