@@ -3,11 +3,11 @@
 // at start of xref, then put in the
 // doc name
 * xref:IZA500G-user-guide:IZA500G-sample.adoc[Cameras]
-** xref:IZA500G-user-guide:IZA500G-sample.adoc[]
-** xref:IZA800G-user-guide:IZA800G-sample.adoc[]
+** xref:IZA500G-user-guide:IZA500G-sample.adoc[IZA500 User Guide]
+** xref:IZA800G-user-guide:IZA800G-sample.adoc[IZA800 User Guide]
 * xref:IZL-user-guide:IZL-L-MAN-002_Illuminator_User_Guide.adoc[Illuminators]
-** xref:IZL-user-guide:IZL-L-MAN-002_Illuminator_User_Guide.adoc[]
-** xref:IZS-user-guide:IZS-S-MAN-002_Illuminator_User_Guide.adoc[]
+** xref:IZL-user-guide:IZL-L-MAN-002_Illuminator_User_Guide.adoc[IZL User Guide]
+** xref:IZS-user-guide:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS User Guide]
 * Power Supplies
 
 ** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR Surface Mount Data Sheet,window=read-later]
@@ -16,7 +16,7 @@
 
 * Accessories
 ** xref:IZIO-install-guide:IZIO-6060-MAN-001_Digital_IO_Controller.adoc[Web Relays]
-*** xref:IZIO-install-guide:IZIO-6060-MAN-001_Digital_IO_Controller.adoc[]
+*** xref:IZIO-install-guide:IZIO-6060-MAN-001_Digital_IO_Controller.adoc[IZIO Installation Guide]
 
 * xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts]
 ** xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[]
