@@ -32,6 +32,3 @@ toc::[]
 === Who Should Read this Document
 This document is for:
 *_\{TBD\}_*
-s
-
-
