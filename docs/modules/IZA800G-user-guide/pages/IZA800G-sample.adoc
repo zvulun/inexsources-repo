@@ -1,5 +1,6 @@
 :productname: IZA800G/GW
 :eyesafetystandard-1: IEC62471 Group 1
+:spectablecommonspan: 2
 = {productname}
 //enable the TOC to be placed in a specific position
 :toc: macro
@@ -120,7 +121,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 .7+.^| Supported Analytics
 .3+.^| LPR Analytics
-2+^.^| Plate Recognition
+{spectablecommonspan}+^.^| Plate Recognition
 
 
 
