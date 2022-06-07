@@ -14,7 +14,7 @@
 === Installation and User Guide
 Doc. No. IZIO-6060-MAN-001
 
-image::IZ-EXT-TRIG-SYS-FIG-002_ADAM_6060_Photo.png[Picture of IZIO,width=400,align=center]
+image::IZ-EXT-TRIG-SYS-FIG-002_ADAM_6060_Photo.png[Picture of IZIO,width=200,align=center]
 
 // restore section numbering from here on
 :sectnums: all
