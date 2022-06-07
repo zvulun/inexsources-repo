@@ -1,0 +1,30 @@
+:productname: RoadView ALPR
+= {productname}
+//enable the TOC to be placed in a specific position
+:toc: macro
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// discrete removes these headers from the TOC
+[discrete]
+== RoadVIew ALPR
+[discrete]
+=== User Guide
+Doc. No. RV-ALPR-MAN-001
+
+// restore section numbering from here on
+:sectnums: all
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+toc::[]
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+[.white]#RoadView ALPR#
+
+== About this Document
+=== Who Should Read this Document
+This document is for:
+*_{TBD}_*
