@@ -126,39 +126,41 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 //are treated as separate files in Google drive outside
 //of the antora site
 include::ROOT:partial$p-2col-spec-supported-analytics.adoc[]
-//.7+.^| Supported Analytics
-//.3+.^| LPR Analytics
-//2+^.^| Plate Recognition
+////
+.7+.^| Supported Analytics
+.3+.^| LPR Analytics
+2+^.^| Plate Recognition
 
 
 
 
-//2+^.^| Plate State of Issue
+2+^.^| Plate State of Issue
 
 
 
 
-//2+^.^| Plate Type
+2+^.^| Plate Type
 
 
 
-//.4+.^| Vehicle Analytics
-//2+^.^| Vehicle Detection
-
-
-
-
-//2+^.^| Vehicle Classification
+.4+.^| Vehicle Analytics
+2+^.^| Vehicle Detection
 
 
 
 
-//2+^.^| Vehicle Color
+2+^.^| Vehicle Classification
 
 
 
 
-//2+^.^| Vehicle Make
+2+^.^| Vehicle Color
+
+
+
+
+2+^.^| Vehicle Make
+////
 
 
 2+.^| Lanes Covered
@@ -336,6 +338,15 @@ include::ROOT:partial$p-2col-spec-supported-analytics.adoc[]
 2+.^| RTSP Protocol
 
 
+//This is an experiment that worked to see if
+//part of a table could be in an include
+//need to assess if it is worth using a partial
+//for this - depending on how many instances there are,
+//since data sheets that also use the same spec tables
+//are treated as separate files in Google drive outside
+//of the antora site
+include::ROOT:partial$p-2col-spec-physical.adoc[]
+////
 .2+.^| Supported Protocols (for additional protocols, see the RoadView ALPR User Guide)
 .^| INEX HTTP API
 2+.^| LPR Events are reported to IZCentral, or a 3rd party system via protocols such as the INEX HTTP API protocol. Each LPR Event includes metadata and associated images.
@@ -404,7 +415,7 @@ include::ROOT:partial$p-2col-spec-supported-analytics.adoc[]
 
 .^| Humidity
 2+^.^| 0% - 90% RH, non-condensing
-
+////
 
 .6+.^| Certifications
 .^| EMC
