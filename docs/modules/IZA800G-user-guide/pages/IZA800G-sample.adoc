@@ -423,4 +423,169 @@ include::ROOT:partial$p-training.adoc[Training Section]
 
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
+== Appendix A - Document Change History
+[options="header",cols="27,73"]
+|===
+.^| Date
+{set:cellbgcolor:#c0c0c0}
+.^| Change
+{set:cellbgcolor:#c0c0c0}
 
+.^| Aug. 25, 2020
+{set:cellbgcolor!}
+.^| Initial version
+
+.10+.^| Nov. 15, 2020
+a.^| * Added "AI" to document title
+
+
+a.^| * Added the following certifications to the Regulatory Notices section: CE, RoHS, IP67, ONVIF, IK 10
+
+
+a.^| * Added revision letter to specifications table title
+
+
+a.^| * Replaced specifications table with new one from technical data sheet
+
+
+a.^| * Added NVIDIA and LINUX logos to front page
+
+
+a.^| * Changed header of power/signals cables wire colors to INEX Cable Wire Color
+
+
+a.^| * Removed Note explaining format of ordering numbers.
+
+
+a.^| * Added the word "Compliant" to ONVIF specification description; both in Regulatory Notices and in specification table
+
+
+a.^| * Removed nm specifications from Wavelength specification
+
+
+a.^| * Added technical data sheet to related documents
+
+.^| Nov. 15, 2020
+a.^| * Improved picture of camera in Typical Wiring Diagram figure.
+
+.^| Feb. 16, 2021
+a.^| * Added NDAA Section 889 compliance to specification table, and NDAA Section 889 Certification of Compliance document to Related Documents
+
+.6+.^| Mar. 10, 2021
+a.^| * Updated links in Related Documents, and removed IP Installer
+
+
+a.^| * Removed IP Installer from instructions, and substituted new IZ Discovery instead
+
+
+a.^| * Matched package contents to description in data sheet
+
+
+a.^| * Replaced specification table with data sheet specification table (new format)
+
+
+a.^| * Added section introducing how to match Camera Systems to Illuminators, with a reference to the illuminator guide for specific information
+
+
+a.^| * Changed power/signals connector pinout table to a text table, plus some updates
+
+.2+.^| Mar. 16, 2021
+a.^| * Removed Allen wrench from package contents
+
+
+a.^| * Added mount MNT-W3X-W guide to Related Documents; changed wording to "Mounting Guide+++<u>s</u>+++ "
+
+.^| Mar. 16, 2021
+a.^| * Replaced front cover illustration with photo
+
+.3+.^| Mar. 18, 2021
+a.^| * Fixed "Calibrating the Cameras" step numbering
+
+
+a.^| * Added step for using SHIFT-Right or Left Arrow to adjust the marker on the ruler to 150 pixels
+
+
+a.^| * Added tips about dragging to see different parts of the Live View image, and about using the mouse wheel to zoom in and out
+
+.3+.^| Apr. 21, 2021
+a.^| * Removed Missing Plate from Vehicle Analytics in specification table
+
+
+a.^| * Added IZIO to Available Accessories in specification table
+
+
+a.^| * Added IZIO to Related Documents table
+
+.4+.^| July 5, 2021
+a.^| * Updated model number, wavelength and distance specifications
+
+
+a.^| * Added color of housing
+
+
+a.^| * Added instructions for installing Smart Viewer (required for using the Live View in the camera's calibration software)
+
+
+a.^| * Updated section explaining camera/illuminator compatibility to use new illuminator product designations (IZS)
+
+.2+.^| July 8, 2021
+a.^| * Updated instructions for matching Camera Systems to illuminators
+
+
+a.^| * Changed use of the word "infrared" to "infrared-type" to include different types of illumination
+
+.^| July 11, 2021
+a.^| * Corrected explanation of when dynamic IP addresses change (upon reboot)
+
+.^| July 13, 2021
+a.^| * Updated document reference to RoadView ALPR in Related Documents table
+
+.2+.^| Aug. 2, 2021
+a.^| * Product revision changed from C to F1
+
+
+a.^| * Corrected model numbers - XL model and one L: model use IL (Invisible Infrared) LEDs
+
+.^| Aug. 2, 2021
+a.^| * Changed input voltage to 12-24 VDC in all text and pictures
+
+.^| Aug. 11, 2021
+a.^| * Minor correction - fixed cross-reference link
+
+.^| Aug. 17, 2021
+a.^| * OV Strobe (+/-) specification changed from 3.3V non-isolated to 5V isolated
+
+.^| Sep. 12, 2021
+a.^| * Updated references to power supplies with new model numbers and document file names
+
+.^| Nov. 1, 2021
+a.^| * Changed LPR/OV strobe output specs from (+/-) 5 V isolated to (+/-) 3.3 V isolated
+
+.^| Nov. 10, 2021
+a.^| * Reverted power input back from 12-24 VDC to 24 VDC
+
+.2+.^| Dec. 6, 2021
+a.^| * Changed all references to the Mounting Hardware Guide(s) to new updated mounting presentations in the Related Documents table
+
+
+a.^| * Changed all references in the text to "Mounting Hardware Guide" to the more generic "Mounting Hardware documentation"
+
+.4+.^| Jan. 10, 2022
+a.^| * Included IZA800GW in document: specification table and other relevant places
+
+
+a.^| * Changed Windows requirement to version 10 and up only, not 8
+
+
+a.^| * Calibration is now done via the RoadView ALPR software's Calibration tab; text removed will be used in RoadView User Guide
+
+
+a.^| Added illustration of IZA800GW white LEDs
+
+.^| Jan. 31, 2022
+a.^| * Changed digital outputs (strobe) from 3.3 V to 5 V.
+
+.^| ---
+.^| From this point on, see GitHub commit history comments
+
+|===
