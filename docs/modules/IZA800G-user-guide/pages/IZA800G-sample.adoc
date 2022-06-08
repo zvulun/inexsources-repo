@@ -580,7 +580,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 .^a| * Calibration is now done via the RoadView ALPR software's Calibration tab; text removed will be used in RoadView User Guide
 
 
-.^a| Added illustration of IZA800GW white LEDs
+.^a| * Added illustration of IZA800GW white LEDs
 
 .^| Jan. 31, 2022
 .^a| * Changed digital outputs (strobe) from 3.3 V to 5 V.
