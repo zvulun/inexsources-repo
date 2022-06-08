@@ -527,3 +527,5 @@ Here is the {productname} spec table
 
 
 |===
+
+\* LPR Capture Distance is measured from camera to plate
