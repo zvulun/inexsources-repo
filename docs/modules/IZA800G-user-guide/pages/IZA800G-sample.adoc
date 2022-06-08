@@ -330,17 +330,17 @@ include::ROOT:partial$p-2col-spec-physical.adoc[]
 
 
 .2+.^| Digital Outputs
-2+^.^| LPR Strobe (+/-): 5 V isolated
+2+^.^| LPR Strobe ({plus}/-): 5 V isolated
 
 
 
 
-2+^.^| OV Strobe (+/-): 5 V isolated
+2+^.^| OV Strobe ({plus}/-): 5 V isolated
 
 
 .2+.^| Power
 .^| Input Voltage
-2+^.^| 24 VDC +/- 10%, Class 2 Low-Voltage
+2+^.^| 24 VDC {plus}}/- 10%, Class 2 Low-Voltage
 
 
 

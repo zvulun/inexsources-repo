@@ -299,13 +299,13 @@ include::ROOT:partial$p-3col-spec-physical.adoc[]
 
 
 .2+.^| Digital Inputs (Trigger)
-3+.^a| * Trigger Dry: White (+), Green (-)
+3+.^a| * Trigger Dry: White ({plus}), Green (-)
 
 
 
 
 
-3+.^a| * Trigger Wet: Green (+5-24 V), Blue (GND)
+3+.^a| * Trigger Wet: Green ({plus}5-24 V), Blue (GND)
 
 
 
@@ -317,7 +317,7 @@ include::ROOT:partial$p-3col-spec-physical.adoc[]
 
 .2+.^| Power
 .^| Input Voltage
-3+^.^| 24 VDC +/- 10%, Class 2 Low-Voltage
+3+^.^| 24 VDC {plus}/- 10%, Class 2 Low-Voltage
 
 
 
