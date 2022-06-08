@@ -446,6 +446,12 @@ include::ROOT:partial$p-2col-spec-supported-analytics.adoc[]
 2+^.^| 9.0 lbs (4.1 kg)
 
 
+
+.^| Color
+2+^.^| White
+
+
+
 .5+.^| Interface
 .^| Ethernet
 2+^.^| 10/100 BaseT
