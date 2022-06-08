@@ -523,6 +523,8 @@ include::ROOT:partial$p-2col-spec-supported-analytics.adoc[]
 
 |===
 
+{empty}* LPR Capture Distance is measured from camera to plate
+
 == Notices, Safety Precautions and Certifications
 
 include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
