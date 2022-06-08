@@ -493,7 +493,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 .^a| * Removed Allen wrench from package contents
 
 
-.^a| * Added mount MNT-W3X-W guide to Related Documents; changed wording to "Mounting Guide+++<u>s</u>+++ "
+.^a| * Added mount MNT-W3X-W guide to Related Documents; changed wording to "Mounting Guide+++<u>s</u>+++"
 
 .^| Mar. 16, 2021
 .^a| * Replaced front cover illustration with photo
@@ -559,7 +559,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 .^a| * Updated references to power supplies with new model numbers and document file names
 
 .^| Nov. 1, 2021
-.^a| * Changed LPR/OV strobe output specs from (+/-) 5 V isolated to (+/-) 3.3 V isolated
+.^a| * Changed LPR/OV strobe output specs from (+++++++/-) 5 V isolated to (+++++++/-) 3.3 V isolated
 
 .^| Nov. 10, 2021
 .^a| * Reverted power input back from 12-24 VDC to 24 VDC
