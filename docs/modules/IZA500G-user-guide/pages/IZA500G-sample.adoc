@@ -1,14 +1,13 @@
 :productname: IZA500G/GW/GR
+= {productname}
+:toc: macro
+
+:!sectnums:
 
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
 [.white]#IZA500G#
-
-= {productname}
-:toc: macro
-
-:!sectnums:
 
 [discrete]
 == ALPR All-in-one AI Camera System
