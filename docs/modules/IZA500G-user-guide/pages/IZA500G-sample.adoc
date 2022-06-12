@@ -3,7 +3,7 @@
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
-// [.white]#IZA500G#
+[.white]#IZA500G#
 
 = {productname}
 :toc: macro
