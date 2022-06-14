@@ -1,11 +1,19 @@
-:productname: IZL Illuminators
+:docproductname: IZL Illuminators
+:shortprodname: IZL
 //We do not yet have verification of a specific eye safety stancard
 //:eyesafetystandard-1: IEC62471 Group 1
-= {productname}
+= {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
 //!sectnum momentarily stops section numbering
 :!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+[.white]#{shortprodname}#
+
+
 
 // discrete removes these headers from the TOC
 [discrete]
@@ -22,11 +30,6 @@ image::IZL-L-FIG-020b_All_Models_NoNames.png[Picture of IZL Illuminators]
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
 toc::[]
-
-// This "invisible" text helps lunr search put this page
-// at the top of the results list when searching
-// for a specific product name
-[.white]#IZL Illuminators#
 
 == About this Document
 === Who Should Read this Document

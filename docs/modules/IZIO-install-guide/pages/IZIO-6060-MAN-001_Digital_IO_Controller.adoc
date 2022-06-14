@@ -1,9 +1,16 @@
-:productname: IZIO
-= {productname}
+:docproductname: IZIO
+:shortprodname: IZIO
+= {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
 //!sectnum momentarily stops section numbering
 :!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+[.white]#{shortprodname}#
+
 
 // discrete removes these headers from the TOC
 [discrete]
@@ -21,10 +28,6 @@ image::IZ-EXT-TRIG-SYS-FIG-002_ADAM_6060_Photo.png[Picture of IZIO,width=200,ali
 // of file
 toc::[]
 
-// This "invisible" text helps lunr search put this page
-// at the top of the results list when searching
-// for a specific product name
-[.white]#IZIO#
 
 == About this Document
 === Who Should Read this Document

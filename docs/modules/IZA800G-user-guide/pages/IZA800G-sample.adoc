@@ -1,10 +1,16 @@
-:productname: IZA800G/GW
+:docproductname: IZA800G/GW
+:shortprodname: IZA800G
 :eyesafetystandard-1: IEC62471 Group 1
-= {productname}
+= {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
 //!sectnum momentarily stops section numbering
 :!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+[.white]#{shortprodname}#
 
 // discrete removes these headers from the TOC
 [discrete]
@@ -22,10 +28,6 @@ image:ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align
 // of file
 toc::[]
 
-// This "invisible" text helps lunr search put this page
-// at the top of the results list when searching
-// for a specific product name
-[.white]#IZA800G#
 
 == About this Document
 === Who Should Read this Document
@@ -399,7 +401,7 @@ include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
 
 ////
-Here is an include from a partial. By defining the productname variable (with a colon before and after) with the product name relevant for this page at the top of the page, you will see it in the partial which uses the same variable name (in curly brackets). In this case, this is a partial including both the {productname} and {eyesafetystandard-1} variables, which are defined
+Here is an include from a partial. By defining the docproductname variable (with a colon before and after) with the product name relevant for this page at the top of the page, you will see it in the partial which uses the same variable name (in curly brackets). In this case, this is a partial including both the {docproductname} and {eyesafetystandard-1} variables, which are defined
 at the top of this IZA800G page.
 ////
 

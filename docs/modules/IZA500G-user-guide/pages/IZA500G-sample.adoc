@@ -1,5 +1,6 @@
-:productname: IZA500G/GW/GR
-= {productname}
+:docproductname: IZA500G/GW/GR
+:shortprodname: IZA500G
+= {docproductname}
 :toc: macro
 
 :!sectnums:
@@ -7,7 +8,7 @@
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
-[.white]#IZA500G#
+[.white]#{shortprodname}#
 
 [discrete]
 == ALPR All-in-one AI Camera System
@@ -21,7 +22,7 @@ image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera]
 toc::[]
 
 [#small-camera]
-.{productname} Camera
+.{docproductname} Camera
 image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200",align="left"]
 
 ////
@@ -30,7 +31,7 @@ From Dan Allen: It's because {here is some text} is not a valid attribute refere
 ////
 
 == Introduction
-This is an introduction to the *_{here is a variable substitution with the product name}_* {productname}.
+This is an introduction to the *_{here is a variable substitution with the product name}_* {docproductname}.
 
 === Intro subsection
 some text
@@ -60,7 +61,7 @@ Here is a xref to a section inside this document: See <<specs>>
 [#specs]
 == Specifications
 
-Here is the {productname} spec table
+Here is the {docproductname} spec table
 
 .Specifications
 
