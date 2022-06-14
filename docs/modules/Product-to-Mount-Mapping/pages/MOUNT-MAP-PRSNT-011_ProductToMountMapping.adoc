@@ -1,14 +1,11 @@
 = Product-to-Mount Mapping
-
 ifndef::imagesdir[:imagesdir: ../../images]
-
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
 // IMPORTANT: Must be placed after any major front matter
 // including ifndef statements
 [.white]#Covers: Mount, Mapping, W3X, W3X-W, W3X-A, PMA-W, PMA-IZ600F, GS, GL, UIL, UCAIZ#
-
 image::Slide1.jpg[]
 
 
