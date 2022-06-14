@@ -6,6 +6,7 @@ ifndef::imagesdir[:imagesdir: ../../images]
 // IMPORTANT: Must be placed after any major front matter
 // including ifndef statements
 [.white]#Covers: Mount, Mapping, W3X, W3X-W, W3X-A, PMA-W, PMA-IZ600F, GS, GL, UIL, UCAIZ#
+
 image::Slide1.jpg[]
 
 
