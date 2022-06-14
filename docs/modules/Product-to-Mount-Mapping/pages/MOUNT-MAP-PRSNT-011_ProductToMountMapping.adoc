@@ -3,6 +3,7 @@
 // at the top of the results list when searching
 // for a specific product name
 [.white]#Mount,Mapping,W3X,W3X-W,W3X-A,PMA-W,PMA-IZ600F,GS,GL,UIL,UCAIZ#
+[.white]#UIL#
 
 ifndef::imagesdir[:imagesdir: ../../images]
 
