@@ -1,9 +1,17 @@
-:productname: RoadView ALPR
-= {productname}
+:docproductname: RoadView ALPR
+:shortprodname: RoadView
+= {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
 //!sectnum momentarily stops section numbering
 :!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+[.white]#{shortprodname}#
+
+
 
 // discrete removes these headers from the TOC
 [discrete]
@@ -23,10 +31,6 @@ Doc. No. RV-ALPR-MAN-001
 // of file
 toc::[]
 
-// This "invisible" text helps lunr search put this page
-// at the top of the results list when searching
-// for a specific product name
-[.white]#RoadView ALPR#
 
 == About this Document
 === Who Should Read this Document
