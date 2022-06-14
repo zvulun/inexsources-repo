@@ -2,7 +2,7 @@
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
-[.white]#Mount Mapping#
+[.white]#Mount,Mapping,W3X,W3X-W,W3X-A,PMA-W,PMA-IZ600F,GS,GL,UIL,UCAIZ#
 
 ifndef::imagesdir[:imagesdir: ../../images]
 
