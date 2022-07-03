@@ -135,18 +135,18 @@ The {shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and
 
 [#f_front-view]
 .Front View of the ALPR Camera System
-image:image3.png[image,width=566,height=280]
+image::image3.png[image,width=566,height=280]
 
 [#f_underside]
 .Underside of the ALPR Camera System and Cables
-image:image4.png[image,width=615,height=233]
+image::image4.png[image,width=615,height=233]
 
 .Dimensions
-image:image5.png[image,width=315,height=205]
+image::image5.png[image,width=315,height=205]
 
-image:image6.png[image,width=463,height=224]
+image::image6.png[image,width=463,height=224]
 
-image:image7.png[image,width=489,height=252]
+image::image7.png[image,width=489,height=252]
 
 
 
