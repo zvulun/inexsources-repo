@@ -100,6 +100,74 @@ be interpreted as an attribute
 
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
+== Quick Installation Overview
+
+* Unpack the Camera System - see <<s_pkg-contents>>.
+* Camera dimensions - see <<s_dimensions>>
+
+== Camera System Overview
+
+{empty}[#s_pkg-contents]
+
+=== Package Contents
+
+Carefully unpack the contents of the ALPR Camera System package.
+
+____
+.Package Contents
+____
+
+image:image1.png[image,width=460,height=345]
+
+____
+.Mounting Adapter Plate
+____
+
+image:image2.png[image,width=349,height=199]
+
+The package includes:
+
+* \{shortprodname}, ALPR All-in-one AI Camera System
+* LAN cable connector (field-mountable)
+* Power/Signals cable connector (field-mountable)
+* Mounting adapter plate with screws: 3 - 18-8 stainless steel thread-locking socket head screws, 1/4"-20 thread size, 5/8" long; Allen heads; used to attach the mounting adapter plate to the housing
+
+*[Note]*
+
+If any parts are missing or damaged, please contact INEX Technologies.
+
+{empty}[#s_dimensions]
+
+=== Camera System Details and Dimensions
+
+The \{shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and ITS applications, with different models available for different distances and illumination requirements. It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade. The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system. A computer running license plate recognition software is also built in (see <<f_front-view>> and <<f_underside>>.
+
+____
+{empty}[#f_front-view]
+
+.Front View of the ALPR Camera System
+____
+
+image:image3.png[image,width=566,height=280]
+
+{empty}[#f_underside]
+
+.Underside of the ALPR Camera System and Cables
+
+image:image4.png[image,width=615,height=233]
+
+____
+.Dimensions
+____
+
+image:image5.png[image,width=315,height=205]
+
+image:image6.png[image,width=463,height=224]
+
+image:image7.png[image,width=489,height=252]
+
+
+
 == Specifications
 
 [#t_specs]
