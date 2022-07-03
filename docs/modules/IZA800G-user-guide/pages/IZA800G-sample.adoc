@@ -113,12 +113,10 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 Carefully unpack the contents of the ALPR Camera System package.
 
 .Package Contents
-
-image:image1.png[image,width=460,height=345]
+image::image1.png[image,width=460,height=345]
 
 .Mounting Adapter Plate
-
-image:image2.png[image,width=349,height=199]
+image::image2.png[image,width=349,height=199]
 
 The package includes:
 
