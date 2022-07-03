@@ -113,9 +113,11 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 Carefully unpack the contents of the ALPR Camera System package.
 
 .Package Contents
+
 image:image1.png[image,width=460,height=345]
 
 .Mounting Adapter Plate
+
 image:image2.png[image,width=349,height=199]
 
 The package includes:
@@ -131,7 +133,7 @@ If any parts are missing or damaged, please contact INEX Technologies.
 [#s_dimensions]
 === Camera System Details and Dimensions
 
-The {shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and ITS applications, with different models available for different distances and illumination requirements. It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade. The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system. A computer running license plate recognition software is also built in (see <<f_front-view>> and <<f_underside>).
+The {shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and ITS applications, with different models available for different distances and illumination requirements. It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade. The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system. A computer running license plate recognition software is also built in (see <<f_front-view>> and <<f_underside>>).
 
 [#f_front-view]
 .Front View of the ALPR Camera System
