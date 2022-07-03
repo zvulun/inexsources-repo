@@ -342,7 +342,7 @@ include::ROOT:partial$p-2col-spec-physical.adoc[]
 
 .2+.^| Power
 .^| Input Voltage
-2+^.^| 24 VDC {plus}}/- 10%, Class 2 Low-Voltage
+2+^.^| 24 VDC {plus}/- 10%, Class 2 Low-Voltage
 
 
 
