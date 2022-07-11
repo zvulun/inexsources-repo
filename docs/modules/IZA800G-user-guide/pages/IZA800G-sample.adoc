@@ -1,6 +1,13 @@
 :docproductname: IZA800G/GW
 :shortprodname: IZA800G
+:shortprodname2: IZA800GW
 :eyesafetystandard-1: IEC62471 Group 1
+:recognitionpixels: 150
+:resolutionwidth: 1920
+:FOVplatewidths: 12.8
+:platewidthfeet: 1
+:capturelinefeet: 12
+:capturelinemeters: 3.7
 = {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
