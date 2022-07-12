@@ -44,9 +44,12 @@ This document is for:
 * *Technical personnel* who need to install IZA Camera Systems.
 
 [Note]
+====
 This document does not take the place of training by INEX Technologies' certified specialists. Contact INEX Technologies to schedule training.
+====
 
-=== Recommended Reading/Related Documents[#s_Related-Documents]
+[#s_Related-Documents]
+=== Recommended Reading/Related Documents
 
 Contact INEX Technologies for document ordering information.
 
@@ -103,9 +106,9 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 * Gather any additional items needed - see <<s_ReqOptnlAccessories>> .
 * Plan your physical installation - see <<ps_Plan-Installation>> .
 * Install the hardware (including cable construction) - see <<s_Hardware-Installation>> .
-* Reserve IP addresses for the components in your ALPR system - RoadView computer(s) and camera(s) - see <<s_Reserve-IP-Addrs>>
-* Use IZ Discovery to find the initial IP Addresses of the cameras connected to your network - see <<s_Recognize-IZ-Discovery>> .
-* Log into each camera, and change its IP address according to the requirements of your network. +++Use fixed addresses+++. Record these new addresses for use in RoadView configuration - see <<ps_Logging-In-to-Camera >> and <<ps_Changing-Camera-IP>> .
+* Reserve IP addresses for the components in your ALPR system - RoadView computer(s) and camera(s) - see <<ps_Reserve-IP-Addrs>>
+* Use IZ Discovery to find the initial IP Addresses of the cameras connected to your network - see <<ps_Recognize-IZ-Discovery>> .
+* Log into each camera, and change its IP address according to the requirements of your network. +++Use fixed addresses+++. Record these new addresses for use in RoadView configuration - see <<ps_Logging-In-to-Camera>> and <<ps_Changing-Camera-IP>> .
 * Calibrate the cameras - see <<s_Calibrating-Cameras>> .
 * Use IZ Discovery to find the IP address of the RoadView computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-IP-of-RoadView>> and the *_\{Zvulun: need link here - get from related documents table}_* RoadView ALPR User Guide.
 * Log in to RoadView, and configure RoadView, including adding the connected cameras - see <<ps_Using-RoadView>> and the *_\{Zvulun: need link here get from related documents table }_* RoadView ALPR User Guide.
@@ -869,7 +872,7 @@ image::image30.png[image,width=350,height=196]
 
 Connect the remaining signal wires (see <<s_Connecting-System-Components>>).
 
-[#s_Construct-LAN-Cable]
+[#ps_Construct-LAN-Cable]
 === Constructing the LAN Cable
 
 *_\{Zvulun: possible partial section}_*
@@ -954,7 +957,7 @@ image::image39.png[image,width=486,height=219]
 
 [WARNING]
 ====
-image::image40.png[image,width=33,height=29] Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+image:image40.png[image,width=33,height=29] Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
 
 Stable power at the correct level must be supplied to each camera, even when under a heavy processing load.
 
@@ -994,7 +997,7 @@ Plug the power supply into the AC electricity. If required, switch the power sup
 
 [WARNING]
 ====
-image::image40.png[image,width=33,height=29] If any power cables were lengthened, ensure that all components receive exactly 24 VDC.
+image:image40.png[image,width=33,height=29] If any power cables were lengthened, ensure that all components receive exactly 24 VDC.
 
 Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
 ====
@@ -1188,7 +1191,7 @@ The OV camera can be used both to display an overview image, and to perform LPR 
 
 === Preparing a Vehicle/License Plate
 
-Move a vehicle next to, and at the middle of the capture line. (This is the position at which the vehicle sensor signals that the vehicle is present.) Ensure that the camera is aimed at the middle of the lane, and is at the required capture distance (see <<s_Built-in-White-LEDs-IZA800GW >> and <<ps_Plan-Installation>>).
+Move a vehicle next to, and at the middle of the capture line. (This is the position at which the vehicle sensor signals that the vehicle is present.) Ensure that the camera is aimed at the middle of the lane, and is at the required capture distance (see <<s_Built-in-White-LEDs-IZA800GW>> and <<ps_Plan-Installation>>).
 
 Alternatively, in a lab, position a license plate at the expected distance and height.
 
