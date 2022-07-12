@@ -138,9 +138,8 @@ If any parts are missing or damaged, please contact INEX Technologies.
 
 The {shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and ITS applications, with different models available for different distances and illumination requirements. *_\{Zvulun: partial}_* It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade. The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system. A computer running license plate recognition software is also built in.
 
-____
+
 .Front View of the ALPR Camera System
-____
 
 image::image3.png[image,width=566,height=280]
 
@@ -152,9 +151,7 @@ image::image5.png[image,width=315,height=205]
 
 image::image6.png[image,width=463,height=224]
 
-____
 .Dimensions
-____
 
 image::image7.png[image,width=489,height=252]
 
@@ -164,23 +161,22 @@ image::image7.png[image,width=489,height=252]
 
 *_\{Zvulun: possible partial, along with the picture}_* The Camera System's illuminators project different light intensities in a sequence (also called multi-flash technology). This produces a series of video frames with varying degrees of illumination, which helps to determine the best possible recognition.
 
-____
+
 .Frames with Different Illumination Intensities
-____
+
 
 image::image8.png[image,width=524,height=75]
 
-{empty}[#s_Built-in-White-LEDs-IZA800GW]
-
+[#s_Built-in-White-LEDs-IZA800GW]
 === Built-in White LEDs ({shortprodname2})
 
 *_\{Zvulun: text and picture could be a partial for other camera models with white LEDs}_*
 
 Some of the built-in LEDs of the {shortprodname2} are white. They are used for overview image illumination.
 
-____
+
 .{shortprodname2} LED Positions
-____
+
 
 image::image9.png[image,width=279,height=215]
 
@@ -482,8 +478,7 @@ include::ROOT:partial$p-2col-spec-physical.adoc[]
 [#s_ReqOptnlAccessories]
 == Required/Optional Accessories (Not Included)
 
-{empty}[#s_Required-Accessories]
-
+[#s_Required-Accessories]
 === Required Accessories
 
 *_\{Zvulun: some of these are possible partials}_*
@@ -520,7 +515,8 @@ All network cable extensions and repeaters must be shielded.
 * Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact INEX for guidance/training about this subject.
 * Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
 
-== Planning Your Installation[#ps_Plan-Installation]
+[#ps_Plan-Installation]
+== Planning Your Installation
 
 *_\{Zvulun: entire section is a possible partial}_*
 
@@ -528,9 +524,9 @@ All network cable extensions and repeaters must be shielded.
 
 Your Camera System's Field of View (FOV) is the area that the camera can "see". You can think of this area as an imaginary rectangle rising from the lane upwards. The width of this area is called the horizontal FOV or "capture line".
 
-____
+
 .Field of View (Capture Line)
-____
+
 
 image::image10.png[image,width=634,height=194]
 
@@ -544,11 +540,11 @@ Multiplying this factor by the width of a plate in your location will give you t
 
 Select your Camera System's position so that license plates are always within the capture line and parallel to it, with the Camera System facing as straight at the plates as possible - as shown in the following diagrams:
 
-____
+
 .Plates Within Capture Line
 
 image::image11.png[image,width=247,height=411]
-____
+
 
 .Plates Parallel to Capture Line - Away from Road Curves
 
@@ -559,11 +555,11 @@ image::image12.png[image,width=503,height=314]
 [IMPORTANT]
 Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
 
-____
+
 .Horizontal Camera Angle (Pan Angle)
 
 image::image13.png[image,width=310,height=332]
-____
+
 
 [Note]
 ====
@@ -705,27 +701,21 @@ Avoid having these items in the Field of View:
 
 |===
 
-{empty}[#s_Hardware-Installation]
-
+[#s_Hardware-Installation]
 == Hardware Installation
 
-{empty}[#s_Typical-Wiring-Diagram]
-
+[#s_Typical-Wiring-Diagram]
 === Typical Wiring Diagram
 
 Here is a typical wiring diagrams for capturing license plate images. Note that the type and configuration of the power supply may be different than the one you are using at your site.
 
-____
-{empty}[#f_Typical-Wiring-Diagram]
-
+[#f_Typical-Wiring-Diagram]
 .Typical Wiring Diagram
-____
 
 image::image17.png[image,width=624,height=446]
 
 [IMPORTANT]
 ====
-
 All network cable extensions and repeaters must be shielded.
 
 After mounting, remove the protective film from the front window of the Camera System.
@@ -735,7 +725,8 @@ After mounting, remove the protective film from the front window of the Camera S
 
 Secure the Camera System to the appropriate mounting hardware (see the *_\{Zvulun: needs link}_* Mounting Hardware documentation).
 
-=== Constructing the Power/Signals Cable[#ps_Construct-Pwr-Signals-Cable]
+[#ps_Construct-Pwr-Signals-Cable]
+=== Constructing the Power/Signals Cable
 
 *_\{Zvulun: possible partial section}_*
 
@@ -768,25 +759,25 @@ Wrap the shield wire (the one without insulation) 1-2 times around the foil shea
 
 .Power/Signals Cable: Stripping Off the Outer Insulation
 
-____
+
 image::image20.png[image,width=467,height=197]
-____
+
 
 Peel the backing off of the conductive foil to expose the adhesive.
 
 .Power/Signals Cable: Peeling Backing off Conductive Foil
 
-____
+
 image::image21.png[image,width=159,height=179]
-____
+
 
 Wrap the conductive foil around the point at which the outer insulation was stripped, to cover and make contact with the shield wire and foil sheath.
 
 .Power/Signals Cable: Wrapping Conductive Foil Around Shield Wire and Sheath
 
-____
+
 image::image22.png[image,width=307,height=194]
-____
+
 
 Strip off 5 mm from each individual wire. Insert each wire into its appropriate screw terminal, and tighten with a 2 mm flat screwdriver. +
 The suggested wire colors and pinouts are shown in the following Figures. The notch between pins 1 and 2 on the face of the connector corresponds to the notch on the circular body of the screw terminals.
@@ -812,17 +803,17 @@ image::image23.png[image,width=363,height=224]
 
 .Power/Signals Cable: Attaching the Wires to the Screw Terminals
 
-____
+
 image::image24.png[image,width=173,height=213]
-____
+
 
 Insert the screw terminals body into the clamp cage housing. Note how the tabs on the screw terminals fit into the grooves in the clamp cage housing.
 
 .Power/Signals Cable: Inserting Screw Terminals' Tabs into Clamp Cage Housing
 
-____
+
 image::image25.png[image,width=421,height=295]
-____
+
 
 Verify that the conductive foil is now making contact with the spring sleeve protrusions inside the clamp cage housing. Use a 16 mm torque wrench to tighten the nut that fastens the clamp cage housing to the screw terminals body (torque 4-6 kgf.cm / 0.39-0.59 N.m.).
 
@@ -834,17 +825,17 @@ Slide the sealing nut along the cable, and insert it in between the clamp cage p
 
 .Power Cable: Inserting the Sealing Nut into the Clamp Cage
 
-____
+
 image::image27.png[image,width=202,height=254]
-____
+
 
 Using a 16 mm wrench, tighten the nut that seals the end of the clamp cage housing. (torque 4-6 kgf.cm / 0.39-0.59 N.m.). Verify that the sealing nut is in tight contact with the inner body of the nut (to provide insulation against moisture). The sealing nut may pucker a bit due to the pressure of the nut; this is normal.
 
 .Power Cable: Tightening the Nut to Seal the Clamp Cage
 
-____
+
 image::image28.png[image,width=445,height=201]
-____
+
 
 The point in the cable at which you will be connecting the power wires (+, - and ground) to the power supply may be in the middle of the cable. (This part of the cable is typically inside a connection box to seal all connections from moisture.)
 
@@ -858,9 +849,9 @@ Wrap the shield wire (the one without insulation) several times around the foil 
 
 .Power Cable: Wrapping the Shield Wire at Power Supply End
 
-____
+
 image::image29.png[image,width=478,height=194]
-____
+
 
 IMPORTANT: Check that there is conductivity from the shield wire (at the power supply end of the cable) to the body of the connector that will be connected to the camera.
 
@@ -872,14 +863,13 @@ Connect the (+) and (-) wires from the cable to the power supply.
 
 .Power Cable: Connecting the Cable Wires to the Power Supply
 
-____
+
 image::image30.png[image,width=350,height=196]
-____
+
 
 Connect the remaining signal wires (see <<s_Connecting-System-Components>>).
 
-{empty}[#s_Construct-LAN-Cable]
-
+[#s_Construct-LAN-Cable]
 === Constructing the LAN Cable
 
 *_\{Zvulun: possible partial section}_*
@@ -895,72 +885,71 @@ If you are using prefabricated CAT 5e/6 cables with metal-body RJ45 connectors, 
 
 .LAN Cable: Extracting the Shield Wire
 
-____
+
 image::image31.png[image,width=302,height=211]
 
 .LAN Cable: Shield Wire Soldered to Connector Body
 
 image::image32.png[image,width=305,height=228]
-____
+
 
 Lay out the parts from the network (LAN) connector package.
 
 .LAN Cable: Connector Parts
 
-____
+
 image::image33.png[image,width=437,height=178]
-____
+
 
 Slip the sealing nut over the RJ45 connector onto the LAN cable, with the inner threads in the direction of the RJ45 connector.
 
 .LAN Cable: Slipping Sealing Nut Over RJ45 Connector
 
-____
+
 image::image34.png[image,width=243,height=234]
-____
+
 
 Open the rubber sealing ring at its split, and put it on the cable.
 
 .LAN Cable: Attaching Rubber Sealing Ring to Cable
 
-____
+
 image::image35.png[image,width=381,height=178]
-____
+
 
 Orient the support plastic with the wider side (with the thinner walls) towards the RJ45 connector. Put the support plastic on the cable (the split can expand slightly).
 
 .LAN Cable: Attaching the Support Plastic to the Cable
 
-____
+
 image::image36.png[image,width=501,height=439]
-____
+
 
 Gently push the RJ45 connector into the housing until it fits snugly in the cutout in the housing.
 
 .LAN Cable: Inserting RJ45 into Housing Cutout
 
-____
+
 image::image37.png[image,width=306,height=192]
-____
+
 
 Insert the support plastic into the housing, followed by the rubber sealing ring. Seat the rubber sealing ring between the housing's teeth as far in as it will go.
 
 .LAN Cable: Inserting the Support Plastic and Rubber Ring into the Housing
 
-____
+
 image::image38.png[image,width=488,height=279]
-____
+
 
 Tighten the sealing nut (torque 8-15 kgf.cm / 0.78-1.47 N.m.).
 
 .LAN Cable: Completed Assembly
 
-____
+
 image::image39.png[image,width=486,height=219]
-____
 
-{empty}[#s_Connecting-System-Components]
 
+[#s_Connecting-System-Components]
 === Connecting the Camera System, Illuminator, Power Supply and Network
 
 [WARNING]
@@ -1010,14 +999,12 @@ image::image40.png[image,width=33,height=29] If any power cables were lengthened
 Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
 ====
 
-{empty}[#ps_Reserve-IP-Addrs]
-
+[#ps_Reserve-IP-Addrs]
 == Reserving IP Addresses in your Network
 
 *_\{Zvulun: possible partial}_* The INEX cameras have been pre-configured with default IP addresses. You will probably need to change these addresses to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your ALPR system (RoadView computer and cameras).
 
-{empty}[#ps_Recognize-IZ-Discovery]
-
+[#ps_Recognize-IZ-Discovery]
 == Recognizing Devices with IZ Discovery
 
 *_\{Zvulun: entire section could be a partial}_*
@@ -1043,8 +1030,7 @@ Scroll down to find the device/camera you are interested in. You can double-clic
 
 Click Clear List to refresh the discovery process.
 
-{empty}[#f_IZ-Discovery-Utility]
-
+[#f_IZ-Discovery-Utility]
 .IZ Discovery Utility
 
 image::image41.PNG[image,width=541,height=362]
@@ -1054,15 +1040,14 @@ If IZ Discovery does not recognize a device:
 * Reset the device by shutting off power, waiting 5 seconds, and reapply power
 * Check the LAN cable connected between your laptop and the network. Replace it with another cable and try to run IZ Discovery again
 
-{empty}[#s_Changing-IP-Address]
-
+[#s_Changing-IP-Address]
 === Changing a Device's IP Address and Network Settings
 
-____
+
 .Changing Device's Network Settings
 
 image::image42.png[image,width=227,height=230]
-____
+
 
 [Note]
 ====
@@ -1104,14 +1089,14 @@ Verify that the IP address parameters have been changed to the ones you wanted. 
 
 *_\{Zvulun: entire section could be a partial}_*
 
-=== Logging In to the Camera[#ps_Logging-In-to-Camera]
+[#ps_Logging-In-to-Camera]
+=== Logging In to the Camera
 
 To view the camera's home page (see <<pf_Camera-Home-Page>>):
 
 * Open MS Internet Explorer. Enter the IP address of the camera into the address field of the browser.
 
-{empty}[#pf_Camera-Home-Page]
-
+[#pf_Camera-Home-Page]
 .Camera's Home Page
 
 image::image43.png[image,width=528,height=230]
@@ -1120,7 +1105,7 @@ Select the function you need from the links at the upper right:
 
 * Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-Cameras-RoadView>>).
 
-____
+
 [Note]
 ====
 When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
@@ -1134,7 +1119,7 @@ where cam0_0 are camera-specific parameters (which in this case enable you to ac
 To see the stream, use a video player such as the VLC player, located at: +
 https://www.videolan.org/vlc/index.html
 ====
-____
+
 
 * If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
 +
