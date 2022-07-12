@@ -49,13 +49,13 @@ ____
 .Package Contents
 ____
 
-image:extracted-media/media/image1.png[image,width=460,height=345]
+image::image1.png[image,width=460,height=345]
 
 ____
 .Mounting Adapter Plate
 ____
 
-image:extracted-media/media/image2.png[image,width=349,height=199]
+image::image2.png[image,width=349,height=199]
 
 The package includes:
 
@@ -76,21 +76,21 @@ ____
 .Front View of the ALPR Camera System
 ____
 
-image:extracted-media/media/image3.png[image,width=566,height=280]
+image::image3.png[image,width=566,height=280]
 
 .Underside of the ALPR Camera System
 
-image:extracted-media/media/image4.png[image,width=624,height=236]
+image::image4.png[image,width=624,height=236]
 
-image:extracted-media/media/image5.png[image,width=315,height=205]
+image::image5.png[image,width=315,height=205]
 
-image:extracted-media/media/image6.png[image,width=463,height=224]
+image::image6.png[image,width=463,height=224]
 
 ____
 .Dimensions
 ____
 
-image:extracted-media/media/image7.png[image,width=489,height=252]
+image::image7.png[image,width=489,height=252]
 
 *_\{Zvulun: front and side view of dimensions are partials}_*
 
@@ -102,7 +102,7 @@ ____
 .Frames with Different Illumination Intensities
 ____
 
-image:extracted-media/media/image8.png[image,width=524,height=75]
+image::image8.png[image,width=524,height=75]
 
 {empty}[#s_Built-in-White-LEDs-IZA800GW]
 
@@ -116,7 +116,7 @@ ____
 .\{shortprodname2} LED Positions
 ____
 
-image:extracted-media/media/image9.png[image,width=279,height=215]
+image::image9.png[image,width=279,height=215]
 
 === Specifications
 
@@ -183,7 +183,7 @@ ____
 .Field of View (Capture Line)
 ____
 
-image:extracted-media/media/image10.png[image,width=634,height=194]
+image::image10.png[image,width=634,height=194]
 
 One of the specifications of your Camera System (see <<t_Technical-Specifications>>) is the sensor resolution width, in pixels.
 
@@ -198,12 +198,12 @@ Select your Camera System's position so that license plates are always within th
 ____
 .Plates Within Capture Line
 
-image:extracted-media/media/image11.png[image,width=247,height=411]
+image::image11.png[image,width=247,height=411]
 ____
 
 .Plates Parallel to Capture Line - Away from Road Curves
 
-image:extracted-media/media/image12.png[image,width=503,height=314]
+image::image12.png[image,width=503,height=314]
 
 === Angles and Distances
 
@@ -214,7 +214,7 @@ Installations that position the camera at significant angles in relation to the 
 ____
 .Horizontal Camera Angle (Pan Angle)
 
-image:extracted-media/media/image13.png[image,width=310,height=332]
+image::image13.png[image,width=310,height=332]
 ____
 
 {empty}[Note]
@@ -233,7 +233,7 @@ For plates whose characters are very shiny (for example, silvery), the *weighted
 
 .Vertical Camera Angle (Tilt Angle) and Line-of-Sight Distance from Plate
 
-image:extracted-media/media/image14.png[image,width=626,height=194]
+image::image14.png[image,width=626,height=194]
 
 {empty}[Note]
 
@@ -266,7 +266,7 @@ Avoid/mitigate by:
 
 .Sun Behind Camera System (on Same Axis as Line-of-Sight from Camera to Plate)
 
-image:extracted-media/media/image15.png[image,width=628,height=232]
+image::image15.png[image,width=628,height=232]
 
 === Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
 
@@ -274,7 +274,7 @@ image:extracted-media/media/image15.png[image,width=628,height=232]
 
 .External Illuminator
 
-image:extracted-media/media/image16.png[image,width=136,height=121]
+image::image16.png[image,width=136,height=121]
 
 ==== Matching Your Camera System to an INEX Illuminator
 
@@ -382,7 +382,7 @@ ____
 .Typical Wiring Diagram
 ____
 
-image:extracted-media/media/image17.png[image,width=624,height=446]
+image::image17.png[image,width=624,height=446]
 
 {empty}[IMPORTANT]
 
@@ -412,13 +412,13 @@ Lay out the parts from the power connector package.
 
 .Power/Signals Cable: Laying Out Connector Parts
 
-image:extracted-media/media/image18.png[image,width=494,height=203]
+image::image18.png[image,width=494,height=203]
 
 Thread the cable through the sealing nut and rubber seal.
 
 .Power/Signals Cable: Threading Cable Through Sealing Nut and Rubber Seal
 
-image:extracted-media/media/image19.jpg[image,width=507,height=128]
+image::image19.jpg[image,width=507,height=128]
 
 Prepare the cable shielding:
 
@@ -433,7 +433,7 @@ Wrap the shield wire (the one without insulation) 1-2 times around the foil shea
 .Power/Signals Cable: Stripping Off the Outer Insulation
 
 ____
-image:extracted-media/media/image20.png[image,width=467,height=197]
+image::image20.png[image,width=467,height=197]
 ____
 
 Peel the backing off of the conductive foil to expose the adhesive.
@@ -441,7 +441,7 @@ Peel the backing off of the conductive foil to expose the adhesive.
 .Power/Signals Cable: Peeling Backing off Conductive Foil
 
 ____
-image:extracted-media/media/image21.png[image,width=159,height=179]
+image::image21.png[image,width=159,height=179]
 ____
 
 Wrap the conductive foil around the point at which the outer insulation was stripped, to cover and make contact with the shield wire and foil sheath.
@@ -449,7 +449,7 @@ Wrap the conductive foil around the point at which the outer insulation was stri
 .Power/Signals Cable: Wrapping Conductive Foil Around Shield Wire and Sheath
 
 ____
-image:extracted-media/media/image22.png[image,width=307,height=194]
+image::image22.png[image,width=307,height=194]
 ____
 
 Strip off 5 mm from each individual wire. Insert each wire into its appropriate screw terminal, and tighten with a 2 mm flat screwdriver. +
@@ -457,7 +457,7 @@ The suggested wire colors and pinouts are shown in the following Figures. The no
 
 .Power/Signals Cable: Power/Signals Pinouts
 
-image:extracted-media/media/image23.png[image,width=363,height=224]
+image::image23.png[image,width=363,height=224]
 
 [width="100%",cols="19%,34%,47%",options="header",]
 |===
@@ -477,7 +477,7 @@ image:extracted-media/media/image23.png[image,width=363,height=224]
 .Power/Signals Cable: Attaching the Wires to the Screw Terminals
 
 ____
-image:extracted-media/media/image24.png[image,width=173,height=213]
+image::image24.png[image,width=173,height=213]
 ____
 
 Insert the screw terminals body into the clamp cage housing. Note how the tabs on the screw terminals fit into the grooves in the clamp cage housing.
@@ -485,21 +485,21 @@ Insert the screw terminals body into the clamp cage housing. Note how the tabs o
 .Power/Signals Cable: Inserting Screw Terminals' Tabs into Clamp Cage Housing
 
 ____
-image:extracted-media/media/image25.png[image,width=421,height=295]
+image::image25.png[image,width=421,height=295]
 ____
 
 Verify that the conductive foil is now making contact with the spring sleeve protrusions inside the clamp cage housing. Use a 16 mm torque wrench to tighten the nut that fastens the clamp cage housing to the screw terminals body (torque 4-6 kgf.cm / 0.39-0.59 N.m.).
 
 .Power/Signals Cable: Foil in Contact with Spring Inside Clamp Cage Housing
 
-image:extracted-media/media/image26.png[image,width=520,height=285]
+image::image26.png[image,width=520,height=285]
 
 Slide the sealing nut along the cable, and insert it in between the clamp cage protrusions.
 
 .Power Cable: Inserting the Sealing Nut into the Clamp Cage
 
 ____
-image:extracted-media/media/image27.png[image,width=202,height=254]
+image::image27.png[image,width=202,height=254]
 ____
 
 Using a 16 mm wrench, tighten the nut that seals the end of the clamp cage housing. (torque 4-6 kgf.cm / 0.39-0.59 N.m.). Verify that the sealing nut is in tight contact with the inner body of the nut (to provide insulation against moisture). The sealing nut may pucker a bit due to the pressure of the nut; this is normal.
@@ -507,7 +507,7 @@ Using a 16 mm wrench, tighten the nut that seals the end of the clamp cage housi
 .Power Cable: Tightening the Nut to Seal the Clamp Cage
 
 ____
-image:extracted-media/media/image28.png[image,width=445,height=201]
+image::image28.png[image,width=445,height=201]
 ____
 
 The point in the cable at which you will be connecting the power wires (+, - and ground) to the power supply may be in the middle of the cable. (This part of the cable is typically inside a connection box to seal all connections from moisture.)
@@ -523,7 +523,7 @@ Wrap the shield wire (the one without insulation) several times around the foil 
 .Power Cable: Wrapping the Shield Wire at Power Supply End
 
 ____
-image:extracted-media/media/image29.png[image,width=478,height=194]
+image::image29.png[image,width=478,height=194]
 ____
 
 IMPORTANT: Check that there is conductivity from the shield wire (at the power supply end of the cable) to the body of the connector that will be connected to the camera.
@@ -537,7 +537,7 @@ Connect the (+) and (-) wires from the cable to the power supply.
 .Power Cable: Connecting the Cable Wires to the Power Supply
 
 ____
-image:extracted-media/media/image30.png[image,width=350,height=196]
+image::image30.png[image,width=350,height=196]
 ____
 
 Connect the remaining signal wires (see <<s_Connecting-System-Components>>).
@@ -563,11 +563,11 @@ If you are using prefabricated CAT 5e/6 cables with metal-body RJ45 connectors, 
 .LAN Cable: Extracting the Shield Wire
 
 ____
-image:extracted-media/media/image31.png[image,width=302,height=211]
+image::image31.png[image,width=302,height=211]
 
 .LAN Cable: Shield Wire Soldered to Connector Body
 
-image:extracted-media/media/image32.png[image,width=305,height=228]
+image::image32.png[image,width=305,height=228]
 ____
 
 Lay out the parts from the network (LAN) connector package.
@@ -575,7 +575,7 @@ Lay out the parts from the network (LAN) connector package.
 .LAN Cable: Connector Parts
 
 ____
-image:extracted-media/media/image33.png[image,width=437,height=178]
+image::image33.png[image,width=437,height=178]
 ____
 
 Slip the sealing nut over the RJ45 connector onto the LAN cable, with the inner threads in the direction of the RJ45 connector.
@@ -583,7 +583,7 @@ Slip the sealing nut over the RJ45 connector onto the LAN cable, with the inner 
 .LAN Cable: Slipping Sealing Nut Over RJ45 Connector
 
 ____
-image:extracted-media/media/image34.png[image,width=243,height=234]
+image::image34.png[image,width=243,height=234]
 ____
 
 Open the rubber sealing ring at its split, and put it on the cable.
@@ -591,7 +591,7 @@ Open the rubber sealing ring at its split, and put it on the cable.
 .LAN Cable: Attaching Rubber Sealing Ring to Cable
 
 ____
-image:extracted-media/media/image35.png[image,width=381,height=178]
+image::image35.png[image,width=381,height=178]
 ____
 
 Orient the support plastic with the wider side (with the thinner walls) towards the RJ45 connector. Put the support plastic on the cable (the split can expand slightly).
@@ -599,7 +599,7 @@ Orient the support plastic with the wider side (with the thinner walls) towards 
 .LAN Cable: Attaching the Support Plastic to the Cable
 
 ____
-image:extracted-media/media/image36.png[image,width=501,height=439]
+image::image36.png[image,width=501,height=439]
 ____
 
 Gently push the RJ45 connector into the housing until it fits snugly in the cutout in the housing.
@@ -607,7 +607,7 @@ Gently push the RJ45 connector into the housing until it fits snugly in the cuto
 .LAN Cable: Inserting RJ45 into Housing Cutout
 
 ____
-image:extracted-media/media/image37.png[image,width=306,height=192]
+image::image37.png[image,width=306,height=192]
 ____
 
 Insert the support plastic into the housing, followed by the rubber sealing ring. Seat the rubber sealing ring between the housing's teeth as far in as it will go.
@@ -615,7 +615,7 @@ Insert the support plastic into the housing, followed by the rubber sealing ring
 .LAN Cable: Inserting the Support Plastic and Rubber Ring into the Housing
 
 ____
-image:extracted-media/media/image38.png[image,width=488,height=279]
+image::image38.png[image,width=488,height=279]
 ____
 
 Tighten the sealing nut (torque 8-15 kgf.cm / 0.78-1.47 N.m.).
@@ -623,7 +623,7 @@ Tighten the sealing nut (torque 8-15 kgf.cm / 0.78-1.47 N.m.).
 .LAN Cable: Completed Assembly
 
 ____
-image:extracted-media/media/image39.png[image,width=486,height=219]
+image::image39.png[image,width=486,height=219]
 ____
 
 {empty}[#s_Connecting-System-Components]
@@ -634,7 +634,7 @@ ____
 
 ==============================================
 
-image:extracted-media/media/image40.png[image,width=33,height=29] Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+image::image40.png[image,width=33,height=29] Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
 
 Stable power at the correct level must be supplied to each camera, even when under a heavy processing load.
 
@@ -653,7 +653,7 @@ ____
 .Power/Signals Pinouts
 ____
 
-image:extracted-media/media/image23.png[image,width=363,height=224]
+image::image23.png[image,width=363,height=224]
 
 [width="100%",cols="19%,34%,47%",options="header",]
 |===
@@ -680,7 +680,7 @@ Plug the power supply into the AC electricity. If required, switch the power sup
 
 ===================================
 
-image:extracted-media/media/image40.png[image,width=33,height=29] If any power cables were lengthened, ensure that all components receive exactly 24 VDC.
+image::image40.png[image,width=33,height=29] If any power cables were lengthened, ensure that all components receive exactly 24 VDC.
 
 Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
 
@@ -724,7 +724,7 @@ Click Clear List to refresh the discovery process.
 
 .IZ Discovery Utility
 
-image:extracted-media/media/image41.PNG[image,width=541,height=362]
+image::image41.PNG[image,width=541,height=362]
 
 If IZ Discovery does not recognize a device:
 
@@ -738,7 +738,7 @@ If IZ Discovery does not recognize a device:
 ____
 .Changing Device's Network Settings
 
-image:extracted-media/media/image42.png[image,width=227,height=230]
+image::image42.png[image,width=227,height=230]
 ____
 
 {empty}[Note]
@@ -793,7 +793,7 @@ To view the camera's home page (see <<pf_Camera-Home-Page>>):
 
 .Camera's Home Page
 
-image:extracted-media/media/image43.png[image,width=528,height=230]
+image::image43.png[image,width=528,height=230]
 
 Select the function you need from the links at the upper right:
 
@@ -838,7 +838,7 @@ In the Basic Setup group, click on IP Address:
 
 .Changing the Camera's IP Address
 
-image:extracted-media/media/image44.png[image,width=524,height=180]
+image::image44.png[image,width=524,height=180]
 
 To change the IP address to a fixed one:
 
@@ -927,7 +927,7 @@ You will see the login screen. Enter default username and password (root, root):
 .Logging In to RoadView
 
 ____
-image:extracted-media/media/image45.png[image,width=209,height=143]
+image::image45.png[image,width=209,height=143]
 ____
 
 You should see the RoadView Journal tab. See the *_\{Zvulun: needs link}_* RoadView ALPR User Guide for instructions for configuring and using RoadView.
