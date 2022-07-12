@@ -40,7 +40,7 @@ toc::[]
 === Who Should Read this Document
 
 This document is for:
-
+[square]
 * *Technical personnel* who need to install IZA Camera Systems.
 
 [NOTE]
@@ -50,7 +50,6 @@ This document does not take the place of training by INEX Technologies' certifie
 
 [#s_Related-Documents]
 === Recommended Reading/Related Documents
-
 Contact INEX Technologies for document ordering information.
 
 [#t_related_documents]
@@ -158,16 +157,13 @@ image::image6.png[image,width=463,height=224]
 
 image::image7.png[image,width=489,height=252]
 
-*_\{Zvulun: front and side view of dimensions are partials}_*
+*_\{Zvulun: front and side view of dimensions should be converted to partials}_*
 
 === Multi-flash Technology
 
 *_\{Zvulun: possible partial, along with the picture}_* The Camera System's illuminators project different light intensities in a sequence (also called multi-flash technology). This produces a series of video frames with varying degrees of illumination, which helps to determine the best possible recognition.
 
-
 .Frames with Different Illumination Intensities
-
-
 image::image8.png[image,width=524,height=75]
 
 [#s_Built-in-White-LEDs-IZA800GW]
@@ -177,10 +173,7 @@ image::image8.png[image,width=524,height=75]
 
 Some of the built-in LEDs of the {shortprodname2} are white. They are used for overview image illumination.
 
-
 .{shortprodname2} LED Positions
-
-
 image::image9.png[image,width=279,height=215]
 
 === Specifications
