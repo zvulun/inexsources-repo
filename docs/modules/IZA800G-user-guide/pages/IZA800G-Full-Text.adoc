@@ -43,7 +43,7 @@ This document is for:
 
 * *Technical personnel* who need to install IZA Camera Systems.
 
-[Note]
+[NOTE]
 ====
 This document does not take the place of training by INEX Technologies' certified specialists. Contact INEX Technologies to schedule training.
 ====
@@ -134,7 +134,7 @@ The package includes:
 * Power/Signals cable connector (field-mountable)
 * Mounting adapter plate with screws: 3 - 18-8 stainless steel thread-locking socket head screws, 1/4"-20 thread size, 5/8" long; Allen heads; used to attach the mounting adapter plate to the housing
 
-*[Note]*
+*[NOTE]*
 If any parts are missing or damaged, please contact INEX Technologies.
 
 === Camera System Details and Dimensions
@@ -564,7 +564,7 @@ Installations that position the camera at significant angles in relation to the 
 image::image13.png[image,width=310,height=332]
 
 
-[Note]
+[NOTE]
 ====
 The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
 
@@ -578,7 +578,7 @@ For plates whose characters are very shiny (for example, silvery), the *weighted
 .Vertical Camera Angle (Tilt Angle) and Line-of-Sight Distance from Plate
 image::image14.png[image,width=626,height=194]
 
-[Note]
+[NOTE]
 ====
 The distance from the Camera System to the capture line must be within the viewing range of the LPR camera.
 
@@ -1052,7 +1052,7 @@ If IZ Discovery does not recognize a device:
 image::image42.png[image,width=227,height=230]
 
 
-[Note]
+[NOTE]
 ====
 
 The device's IP Address +++cannot+++ be set to 10.10.2.xx or 10.10.3.xx
@@ -1109,7 +1109,7 @@ Select the function you need from the links at the upper right:
 * Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-Cameras-RoadView>>).
 
 
-[Note]
+[NOTE]
 ====
 When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
 If you do not have an internet connection to the network on which the camera is installed, wait 30 seconds, and you will be instructed on how to install the ActiveX control locally via the camera's firmware.
@@ -1134,7 +1134,7 @@ The Administrator user name (root) cannot be changed, and the Administrator pass
 [#ps_Changing-Camera-IP]
 === Changing a Camera's IP Address
 
-[Note]
+[NOTE]
 *+++It is highly recommended to use a fixed IP address (not DHCP)+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
 
 In the Basic Setup group, click on IP Address:
@@ -1144,7 +1144,7 @@ image::image44.png[image,width=524,height=180]
 
 To change the IP address to a fixed one:
 
-[Note]
+[NOTE]
 The IP address must be unique within the entire ALPR system, and must be within the limits of standard IPv4 address numbering.
 
 Click the Static radio button.
