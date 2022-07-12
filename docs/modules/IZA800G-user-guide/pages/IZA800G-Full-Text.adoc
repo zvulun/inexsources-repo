@@ -134,7 +134,7 @@ The package includes:
 * Power/Signals cable connector (field-mountable)
 * Mounting adapter plate with screws: 3 - 18-8 stainless steel thread-locking socket head screws, 1/4"-20 thread size, 5/8" long; Allen heads; used to attach the mounting adapter plate to the housing
 
-*[NOTE]*
+[NOTE]
 If any parts are missing or damaged, please contact INEX Technologies.
 
 === Camera System Details and Dimensions
