@@ -1248,6 +1248,38 @@ It is recommended to check all mounting screws for proper tightness once every t
 
 Do not use solvents or strong abrasive detergent when cleaning the Camera System. Use a soft dry cloth to clean the ALPR Camera System's front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++gently+++.
 
+== Notices, Safety Precautions and Certifications
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
+
+////
+Here is an include from a partial. By defining the docproductname variable (with a colon before and after) with the product name relevant for this page at the top of the page, you will see it in the partial which uses the same variable name (in curly brackets). In this case, this is a partial including both the {docproductname} and {eyesafetystandard-1} variables, which are defined
+at the top of this IZA800G page.
+////
+
+include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
+
+include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IP67.adoc[IP67 Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+
 == Appendix A - Document Change History
 
 [width="100%",cols="16%,18%,66%",options="header",]
