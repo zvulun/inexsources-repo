@@ -3,8 +3,8 @@
 // at start of xref, then put in the
 // doc name
 * xref:IZA500G-user-guide:IZA500G-sample.adoc[Cameras]
-** xref:IZA500G-user-guide:IZA500G-sample.adoc[IZA500 Installation Guide]
-** xref:IZA800G-user-guide:IZA800G-sample.adoc[IZA800 Installation Guide]
+** xref:IZA500G-user-guide:IZA500G-sample.adoc[IZA500G Installation Guide]
+** xref:IZA800G-user-guide:IZA800G-Full-Text.adoc[IZA800G Installation Guide]
 * xref:IZL-user-guide:IZL-L-MAN-002_Illuminator_User_Guide.adoc[Illuminators]
 ** xref:IZL-user-guide:IZL-L-MAN-002_Illuminator_User_Guide.adoc[IZL User Guide]
 ** xref:IZS-user-guide:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS User Guide]
