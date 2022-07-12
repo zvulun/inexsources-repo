@@ -165,7 +165,7 @@ All network cable extensions and repeaters must be shielded.
 
 === Optional Accessories
 
-*_\{Zvulun the last two bullets are a partial – p-optional_acces_illum.adoc}_*
+*_\{Zvulun the last two bullets are a partial - p-optional_acces_illum.adoc}_*
 
 * External Illuminator - Can be used to enhance overview vehicle image quality, for front and/or rear capture. It is recommended to use an illuminator power supply separate from the Camera System's supply.
 * Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact INEX for guidance/training about this subject.
@@ -217,10 +217,8 @@ ____
 image::image13.png[image,width=310,height=332]
 ____
 
-{empty}[Note]
-
+[Note]
 ===================================
-
 The maximum horizontal angle allowed is *_\{Zvulun: be sure degree symbol shows up in Asciidoc}_* 30° (to the farthest point at the end of the capture line).
 
 If you must capture plates on a curve, place the Camera System on the side of the road that minimizes the horizontal angle.
@@ -232,13 +230,10 @@ For plates whose characters are very shiny (for example, silvery), the *weighted
 ====================================
 
 .Vertical Camera Angle (Tilt Angle) and Line-of-Sight Distance from Plate
-
 image::image14.png[image,width=626,height=194]
 
-{empty}[Note]
-
+[Note]
 ========================================
-
 The distance from the Camera System to the capture line must be within the viewing range of the LPR camera.
 
 Adjust the vertical angle so that the Camera System can read plates at all of their expected heights from the road.
@@ -284,7 +279,7 @@ image::image16.png[image,width=136,height=121]
 
 The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the INEX Camera System. See the appropriate Illuminator Series User Guide(s) for compatibility information.
 
-*The INEX \{shortprodname} Camera Systems are typically used with the _\{Zvulun: needs link – get from related docs table}_ IZS series strobe illuminators.*
+*The INEX \{shortprodname} Camera Systems are typically used with the _\{Zvulun: needs link - get from related docs table}_ IZS series strobe illuminators.*
 
 By using the following guidelines, you can match the illuminator you need to the INEX Camera System being used.
 
@@ -462,11 +457,11 @@ image::image23.png[image,width=363,height=224]
 [width="100%",cols="19%,34%,47%",options="header",]
 |===
 |Pin |Wire Color* |Signal
-|1 |Black |24 VDC –
+|1 |Black |24 VDC -
 |5 |Red |24 VDC +
-|3 |White |OV Strobe –
+|3 |White |OV Strobe -
 |8 |Green |OV Strobe +
-|4 |Blue |LPR Strobe –
+|4 |Blue |LPR Strobe -
 |2 |Brown |LPR Strobe +
 |7 |Yellow |Unused
 |6 |Orange |Unused
@@ -630,8 +625,7 @@ ____
 
 === Connecting the Camera System, Illuminator, Power Supply and Network
 
-{empty}[WARNING]
-
+[WARNING]
 ==============================================
 
 image::image40.png[image,width=33,height=29] Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
@@ -649,20 +643,17 @@ LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
 
 ============================================
 
-____
 .Power/Signals Pinouts
-____
-
 image::image23.png[image,width=363,height=224]
 
 [width="100%",cols="19%,34%,47%",options="header",]
 |===
 |Pin |Wire Color* |Signal
-|1 |Black |24 VDC –
+|1 |Black |24 VDC -
 |5 |Red |24 VDC +
-|3 |White |OV Strobe –
+|3 |White |OV Strobe -
 |8 |Green |OV Strobe +
-|4 |Blue |LPR Strobe –
+|4 |Blue |LPR Strobe -
 |2 |Brown |LPR Strobe +
 |7 |Yellow |Unused
 |6 |Orange |Unused
@@ -871,8 +862,7 @@ It is highly recommended to record the camera's IP address and port number in a 
 
 Click Apply.
 
-{empty}[IMPORTANT]
-
+[IMPORTANT]
 ===================================
 
 After selecting Apply, you will be requested to close your web browser so the updates can take effect. This will take 20 seconds or more, to allow the camera time to reboot. +
