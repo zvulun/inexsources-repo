@@ -10,7 +10,8 @@
 :capturelinemeters: 3.7
 = {docproductname}
 // add icons to notes
-:icons: font
+// :icons: font
+:important-caption: :heavy_exclamation_mark:
 //enable the TOC to be placed in a specific position
 :toc: macro
 //!sectnum momentarily stops section numbering
