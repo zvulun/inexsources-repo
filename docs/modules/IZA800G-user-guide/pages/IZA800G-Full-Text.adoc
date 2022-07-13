@@ -764,28 +764,24 @@ image::image19.jpg[image,width=507,height=128]
 image::image20.png[image,width=467,height=197]
 +
 . Peel the backing off of the conductive foil to expose the adhesive.
-
++
 .Power/Signals Cable: Peeling Backing off Conductive Foil
-
-
++
 image::image21.png[image,width=159,height=179]
-
-
-Wrap the conductive foil around the point at which the outer insulation was stripped, to cover and make contact with the shield wire and foil sheath.
-
++
+. Wrap the conductive foil around the point at which the outer insulation was stripped, to cover and make contact with the shield wire and foil sheath.
++
 .Power/Signals Cable: Wrapping Conductive Foil Around Shield Wire and Sheath
-
-
++
 image::image22.png[image,width=307,height=194]
 
-
-Strip off 5 mm from each individual wire. Insert each wire into its appropriate screw terminal, and tighten with a 2 mm flat screwdriver. +
+. Strip off 5 mm from each individual wire. Insert each wire into its appropriate screw terminal, and tighten with a 2 mm flat screwdriver. +
 The suggested wire colors and pinouts are shown in the following Figures. The notch between pins 1 and 2 on the face of the connector corresponds to the notch on the circular body of the screw terminals.
-
++
 .Power/Signals Cable: Power/Signals Pinouts
-
++
 image::image23.png[image,width=363,height=224]
-
++
 [width="100%",cols="19%,34%,47%",options="header",]
 |===
 |Pin |Wire Color* |Signal
@@ -800,74 +796,64 @@ image::image23.png[image,width=363,height=224]
 |--- |Drain |Shield
 |* INEX power/signals cable | |
 |===
-
++
 .Power/Signals Cable: Attaching the Wires to the Screw Terminals
-
-
++
 image::image24.png[image,width=173,height=213]
++
 
-
-Insert the screw terminals body into the clamp cage housing. Note how the tabs on the screw terminals fit into the grooves in the clamp cage housing.
-
+. Insert the screw terminals body into the clamp cage housing. Note how the tabs on the screw terminals fit into the grooves in the clamp cage housing.
++
 .Power/Signals Cable: Inserting Screw Terminals' Tabs into Clamp Cage Housing
-
-
++
 image::image25.png[image,width=421,height=295]
 
-
-Verify that the conductive foil is now making contact with the spring sleeve protrusions inside the clamp cage housing. Use a 16 mm torque wrench to tighten the nut that fastens the clamp cage housing to the screw terminals body (torque 4-6 kgf.cm / 0.39-0.59 N.m.).
-
+. Verify that the conductive foil is now making contact with the spring sleeve protrusions inside the clamp cage housing. Use a 16 mm torque wrench to tighten the nut that fastens the clamp cage housing to the screw terminals body (torque 4-6 kgf.cm / 0.39-0.59 N.m.).
++
 .Power/Signals Cable: Foil in Contact with Spring Inside Clamp Cage Housing
-
++
 image::image26.png[image,width=520,height=285]
 
-Slide the sealing nut along the cable, and insert it in between the clamp cage protrusions.
-
+. Slide the sealing nut along the cable, and insert it in between the clamp cage protrusions.
++
 .Power Cable: Inserting the Sealing Nut into the Clamp Cage
-
-
++
 image::image27.png[image,width=202,height=254]
 
 
-Using a 16 mm wrench, tighten the nut that seals the end of the clamp cage housing. (torque 4-6 kgf.cm / 0.39-0.59 N.m.). Verify that the sealing nut is in tight contact with the inner body of the nut (to provide insulation against moisture). The sealing nut may pucker a bit due to the pressure of the nut; this is normal.
-
+. Using a 16 mm wrench, tighten the nut that seals the end of the clamp cage housing. (torque 4-6 kgf.cm / 0.39-0.59 N.m.). Verify that the sealing nut is in tight contact with the inner body of the nut (to provide insulation against moisture). The sealing nut may pucker a bit due to the pressure of the nut; this is normal.
++
 .Power Cable: Tightening the Nut to Seal the Clamp Cage
-
-
++
 image::image28.png[image,width=445,height=201]
 
+. The point in the cable at which you will be connecting the power wires (+, - and ground) to the power supply may be in the middle of the cable. (This part of the cable is typically inside a connection box to seal all connections from moisture.)
 
-The point in the cable at which you will be connecting the power wires (+, - and ground) to the power supply may be in the middle of the cable. (This part of the cable is typically inside a connection box to seal all connections from moisture.)
+.. Strip off a portion of outer insulation of the cable at the end you will be connecting to the power supply. Remove enough insulation so the shield wire will be long enough to wrap several times around the foil sheath (see next steps) and come out of the cable to reach the power supply ground wire. *Be careful not to cut into the inner foil and plastic sheaths (casings) surrounding the individual insulated wires.*
 
-Strip off a portion of outer insulation of the cable at the end you will be connecting to the power supply. Remove enough insulation so the shield wire will be long enough to wrap several times around the foil sheath (see next steps) and come out of the cable to reach the power supply ground wire. *Be careful not to cut into the inner foil and plastic sheaths (casings) surrounding the individual insulated wires.*
+.. Slit the foil sheath, and bend it back onto the outer insulation. Leave enough foil exposed so the shield wire can be wrapped several times around the foil.
 
-Slit the foil sheath, and bend it back onto the outer insulation. Leave enough foil exposed so the shield wire can be wrapped several times around the foil.
+.. Carefully cut away the plastic sheath enclosing the individual insulated wires.
 
-Carefully cut away the plastic sheath enclosing the individual insulated wires.
-
-Wrap the shield wire (the one without insulation) several times around the foil sheath that you bent back. There must be a tight contact between the shield wire and the foil.
-
+.. Wrap the shield wire (the one without insulation) several times around the foil sheath that you bent back. There must be a tight contact between the shield wire and the foil.
++
 .Power Cable: Wrapping the Shield Wire at Power Supply End
-
-
++
 image::image29.png[image,width=478,height=194]
 
+.. IMPORTANT: Check that there is conductivity from the shield wire (at the power supply end of the cable) to the body of the connector that will be connected to the camera.
 
-IMPORTANT: Check that there is conductivity from the shield wire (at the power supply end of the cable) to the body of the connector that will be connected to the camera.
+.. You can seal the shield wire wrapping on the cable with insulation tape or heat shrink tubing.
 
-You can seal the shield wire wrapping on the cable with insulation tape or heat shrink tubing.
+. Connect the shield wire to the ground wire of the power supply. You may need to extend the shield wire by soldering an additional wire on to it.
 
-Connect the shield wire to the ground wire of the power supply. You may need to extend the shield wire by soldering an additional wire on to it.
-
-Connect the (+) and (-) wires from the cable to the power supply.
-
+. Connect the (+) and (-) wires from the cable to the power supply.
++
 .Power Cable: Connecting the Cable Wires to the Power Supply
-
-
++
 image::image30.png[image,width=350,height=196]
 
-
-Connect the remaining signal wires (see <<s_Connecting-System-Components>>).
+. Connect the remaining signal wires (see <<s_Connecting-System-Components>>).
 
 [#ps_Construct-LAN-Cable]
 === Constructing the LAN Cable
@@ -884,68 +870,55 @@ If you are using prefabricated CAT 5e/6 cables with metal-body RJ45 connectors, 
 ====
 
 .LAN Cable: Extracting the Shield Wire
-
-
 image::image31.png[image,width=302,height=211]
 
 .LAN Cable: Shield Wire Soldered to Connector Body
-
 image::image32.png[image,width=305,height=228]
 
-
-Lay out the parts from the network (LAN) connector package.
-
+. Lay out the parts from the network (LAN) connector package.
++
 .LAN Cable: Connector Parts
-
-
++
 image::image33.png[image,width=437,height=178]
 
-
-Slip the sealing nut over the RJ45 connector onto the LAN cable, with the inner threads in the direction of the RJ45 connector.
-
+. Slip the sealing nut over the RJ45 connector onto the LAN cable, with the inner threads in the direction of the RJ45 connector.
++
 .LAN Cable: Slipping Sealing Nut Over RJ45 Connector
-
-
++
 image::image34.png[image,width=243,height=234]
 
-
-Open the rubber sealing ring at its split, and put it on the cable.
-
+. Open the rubber sealing ring at its split, and put it on the cable.
++
 .LAN Cable: Attaching Rubber Sealing Ring to Cable
-
-
++
 image::image35.png[image,width=381,height=178]
 
 
-Orient the support plastic with the wider side (with the thinner walls) towards the RJ45 connector. Put the support plastic on the cable (the split can expand slightly).
-
+. Orient the support plastic with the wider side (with the thinner walls) towards the RJ45 connector. Put the support plastic on the cable (the split can expand slightly).
++
 .LAN Cable: Attaching the Support Plastic to the Cable
-
-
++
 image::image36.png[image,width=501,height=439]
 
 
-Gently push the RJ45 connector into the housing until it fits snugly in the cutout in the housing.
-
+. Gently push the RJ45 connector into the housing until it fits snugly in the cutout in the housing.
++
 .LAN Cable: Inserting RJ45 into Housing Cutout
-
-
++
 image::image37.png[image,width=306,height=192]
 
 
-Insert the support plastic into the housing, followed by the rubber sealing ring. Seat the rubber sealing ring between the housing's teeth as far in as it will go.
-
+. Insert the support plastic into the housing, followed by the rubber sealing ring. Seat the rubber sealing ring between the housing's teeth as far in as it will go.
++
 .LAN Cable: Inserting the Support Plastic and Rubber Ring into the Housing
-
-
++
 image::image38.png[image,width=488,height=279]
 
 
-Tighten the sealing nut (torque 8-15 kgf.cm / 0.78-1.47 N.m.).
-
+. Tighten the sealing nut (torque 8-15 kgf.cm / 0.78-1.47 N.m.).
++
 .LAN Cable: Completed Assembly
-
-
++
 image::image39.png[image,width=486,height=219]
 
 
@@ -962,7 +935,7 @@ Turn off/disconnect the external (AC) power supply before connecting cables.
 
 *If you are using an INEX power supply, see its User Guide for important information.*
 
-I**MPORTANT: All network cable extensions and repeaters must be shielded.**
+*IMPORTANT: All network cable extensions and repeaters must be shielded.*
 
 The torques required to connect the cable connectors to the connectors on the Camera System are as follows: Power/signals cable: 3-4 kgf.cm / 0.29-0.39 N.m. +
 LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
@@ -1016,28 +989,30 @@ The IZ Discovery utility discovers all active devices connected to the network, 
 [IMPORTANT]
 If any device on your network is connected via wireless, IZ Discovery will not recognize the device. In addition, if the computer running IZ Discovery is connected via wireless, you will not see any devices displayed.
 
-Download the IZ Discovery software components (see <<s_Related-Documents>>)
+. Download the IZ Discovery software components (see <<s_Related-Documents>>)
 
-Run IZ Discovery
+. Run IZ Discovery
 
-When IZ Discovery first runs, you may see a Windows security warning. If so, click Run.
+. When IZ Discovery first runs, you may see a Windows security warning. If so, click Run.
 
-If you see a message related to the Windows firewall, click Allow.
+. If you see a message related to the Windows firewall, click Allow.
 
-IZ Discovery will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
+. IZ Discovery will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
 
-Scroll down to find the device/camera you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-IP-Address>>).
+.. Scroll down to find the device/camera you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-IP-Address>>).
 
-Click Clear List to refresh the discovery process.
-
+.. Click Clear List to refresh the discovery process.
++
 [#f_IZ-Discovery-Utility]
++
 .IZ Discovery Utility
-
++
 image::image41.PNG[image,width=541,height=362]
 
-If IZ Discovery does not recognize a device:
-
+. If IZ Discovery does not recognize a device:
++
 * Reset the device by shutting off power, waiting 5 seconds, and reapply power
++
 * Check the LAN cable connected between your laptop and the network. Replace it with another cable and try to run IZ Discovery again
 
 [#s_Changing-IP-Address]
