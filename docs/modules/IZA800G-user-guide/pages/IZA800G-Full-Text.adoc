@@ -9,6 +9,8 @@
 :capturelinefeet: 12
 :capturelinemeters: 3.7
 = {docproductname}
+// add icons to notes
+:icons: font
 //enable the TOC to be placed in a specific position
 :toc: macro
 //!sectnum momentarily stops section numbering
