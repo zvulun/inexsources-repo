@@ -8,10 +8,13 @@
 :platewidthfeet: 1
 :capturelinefeet: 12
 :capturelinemeters: 3.7
+// attempt to make icons on admonition
+:important-caption: :heavy_exclamation_mark:
+
 = {docproductname}
 // add icons to notes
 // :icons: font
-:important-caption: :heavy_exclamation_mark:
+
 //enable the TOC to be placed in a specific position
 :toc: macro
 //!sectnum momentarily stops section numbering
