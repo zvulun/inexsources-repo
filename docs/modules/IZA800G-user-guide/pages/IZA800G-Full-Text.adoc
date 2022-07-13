@@ -731,27 +731,31 @@ At the end of this procedure, you will need to check that there is conductivity 
 
 Use the cable type recommended in the Required Accessories section (see <<s_Required-Accessories>>).
 
-Lay out the parts from the power connector package.
+. Lay out the parts from the power connector package.
 
 .Power/Signals Cable: Laying Out Connector Parts
 
 image::image18.png[image,width=494,height=203]
 
-Thread the cable through the sealing nut and rubber seal.
+. Thread the cable through the sealing nut and rubber seal.
 
 .Power/Signals Cable: Threading Cable Through Sealing Nut and Rubber Seal
 
 image::image19.jpg[image,width=507,height=128]
 
-Prepare the cable shielding:
+. Prepare the cable shielding:
 
-Thread the cable all the way through the clamp cage body. Strip off the outer insulation of the cable, leaving the individual insulated wires exposed to a length of 18mm. *Be careful not to cut into the inner foil and plastic sheaths (casings) surrounding the individual insulated wires.*
+.. Thread the cable all the way through the clamp cage body. Strip off the outer insulation of the cable, leaving the individual insulated wires exposed to a length of 18mm. *Be careful not to cut into the inner foil and plastic sheaths (casings) surrounding the individual insulated wires.*
 
-Slit the foil sheath, and bend it back onto the outer insulation.
+.. Slit the foil sheath, and bend it back onto the outer insulation.
 
-Carefully cut away the plastic sheath enclosing the individual insulated wires.
+.. Carefully cut away the plastic sheath enclosing the individual insulated wires.
 
-Wrap the shield wire (the one without insulation) 1-2 times around the foil sheath that you bent back.
+... test of third level
+... another test of third level
+
+.. Wrap the shield wire (the one without insulation) 1-2 times around the foil sheath that you bent back.
+
 
 .Power/Signals Cable: Stripping Off the Outer Insulation
 
