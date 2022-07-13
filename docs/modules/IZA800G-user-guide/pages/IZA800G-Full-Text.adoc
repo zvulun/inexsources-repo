@@ -731,6 +731,12 @@ At the end of this procedure, you will need to check that there is conductivity 
 
 Use the cable type recommended in the Required Accessories section (see <<s_Required-Accessories>>).
 
+
+// numbered list - note how the plus sign
+// is required to show list numbering continuation
+// if there are intervening elements between the
+// list items
+
 . Lay out the parts from the power connector package.
 +
 .Power/Signals Cable: Laying Out Connector Parts
@@ -750,9 +756,6 @@ image::image19.jpg[image,width=507,height=128]
 .. Slit the foil sheath, and bend it back onto the outer insulation.
 
 .. Carefully cut away the plastic sheath enclosing the individual insulated wires.
-
-... test of third level
-... another test of third level
 
 .. Wrap the shield wire (the one without insulation) 1-2 times around the foil sheath that you bent back.
 +
