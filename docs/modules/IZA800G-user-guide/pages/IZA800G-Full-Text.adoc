@@ -490,8 +490,8 @@ include::ROOT:partial$p-2col-spec-physical.adoc[]
 All network cable extensions and repeaters must be shielded.
 
 * You will need to provide a laptop computer to use for configuration. +++If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight.+++ Required software:
-* Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
-* Internet Explorer browser version 11 or higher
+** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
+** Internet Explorer browser version 11 or higher
 * The following accessories can be supplied by INEX/TECH:
 
 .Required Accessories
@@ -508,8 +508,8 @@ All network cable extensions and repeaters must be shielded.
 *_\{Zvulun the last two bullets are a partial - p-optional_acces_illum.adoc}_*
 
 * External Illuminator - Can be used to enhance overview vehicle image quality, for front and/or rear capture. It is recommended to use an illuminator power supply separate from the Camera System's supply.
-* Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact INEX for guidance/training about this subject.
-* Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
+** Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact INEX for guidance/training about this subject.
+** Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
 
 [#ps_Plan-Installation]
 == Planning Your Installation
@@ -622,8 +622,8 @@ By using the following guidelines, you can match the illuminator you need to the
 
 * Infrared-type illuminators are typically synchronized with the LPR sensor, and white illuminators are typically synchronized with the OV sensor. You can choose which sensor to trigger from (LPR or OV) by using appropriate wiring (see <<s_Typical-Wiring-Diagram>>).
 * The number of illuminator LEDs and beam angle must match the distance type (long or short) of the Camera System being used, as follows:
-* Fewer LEDs and wider beam angles are used for short distances
-* More LEDs and narrower beam angles are used for longer distances
+** Fewer LEDs and wider beam angles are used for short distances
+** More LEDs and narrower beam angles are used for longer distances
 
 The results of applying these guidelines can be found in the appropriate Illuminator Series User Guide(s)
 
