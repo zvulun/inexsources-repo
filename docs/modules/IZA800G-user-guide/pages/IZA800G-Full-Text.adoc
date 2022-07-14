@@ -1019,15 +1019,11 @@ image::image41.PNG[image,width=541,height=362]
 [#s_Changing-IP-Address]
 === Changing a Device's IP Address and Network Settings
 
-
 .Changing Device's Network Settings
-
 image::image42.png[image,width=227,height=230]
-
 
 [NOTE]
 ====
-
 The device's IP Address +++cannot+++ be set to 10.10.2.xx or 10.10.3.xx
 
 *+++It is highly recommended to use a fixed IP address (not DHCP)+++*. A fixed IP address enables you to access a device using the same URL every time, even after unexpected power outages (see <<ps_Logging-In-to-Camera>>).
@@ -1039,27 +1035,27 @@ If you want to copy the IP address (for login to the device) you will need to un
 
 To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
-Select the relevant line in the list of devices and double-click on it.
+. Select the relevant line in the list of devices and double-click on it.
 
-The Network Settings window appears
+. The Network Settings window appears
 
-To change the mode:
+. To change the mode:
 
-Check or uncheck the DHCP box
+.. Check or uncheck the DHCP box
 
-Click Save
+.. Click Save
 
-To change the IP address:
+. To change the IP address:
 
-Be sure to uncheck the DHCP box
+.. Be sure to uncheck the DHCP box
 
-Enter the network address parameters
+.. Enter the network address parameters
 
-Write down the new IP Address and click Save
+.. Write down the new IP Address and click Save
 
-The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close IZ Discovery, and then reopen it.
+. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close IZ Discovery, and then reopen it.
 
-Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (see <<ps_Logging-In-to-Camera>>), and change the IP address (see <<ps_Changing-Camera-IP>>)
+. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (see <<ps_Logging-In-to-Camera>>), and change the IP address (see <<ps_Changing-Camera-IP>>)
 
 == Configuring a Camera
 
@@ -1068,20 +1064,20 @@ Verify that the IP address parameters have been changed to the ones you wanted. 
 [#ps_Logging-In-to-Camera]
 === Logging In to the Camera
 
-To view the camera's home page (see <<pf_Camera-Home-Page>>):
-
+. To view the camera's home page (see <<pf_Camera-Home-Page>>):
++
 * Open MS Internet Explorer. Enter the IP address of the camera into the address field of the browser.
-
++
 [#pf_Camera-Home-Page]
++
 .Camera's Home Page
-
++
 image::image43.png[image,width=528,height=230]
 
-Select the function you need from the links at the upper right:
-
+. Select the function you need from the links at the upper right:
++
 * Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-Cameras-RoadView>>).
-
-
++
 [NOTE]
 ====
 When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
@@ -1095,12 +1091,11 @@ where cam0_0 are camera-specific parameters (which in this case enable you to ac
 To see the stream, use a video player such as the VLC player, located at: +
 https://www.videolan.org/vlc/index.html
 ====
-
-
-* If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
 +
-When prompted for a login, use the Administrator credentials of root, IZpass12.
+* If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
 
+. When prompted for a login, use the Administrator credentials of root, IZpass12.
++
 [IMPORTANT]
 The Administrator user name (root) cannot be changed, and the Administrator password is encrypted. Therefore, if someone changes the Administrator password, there is no way to find out the password if it gets lost.
 
@@ -1110,26 +1105,30 @@ The Administrator user name (root) cannot be changed, and the Administrator pass
 [NOTE]
 *+++It is highly recommended to use a fixed IP address (not DHCP)+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
 
-In the Basic Setup group, click on IP Address:
-
+. In the Basic Setup group, click on IP Address:
++
 .Changing the Camera's IP Address
++
 image::image44.png[image,width=524,height=180]
 
-To change the IP address to a fixed one:
-
+. To change the IP address to a fixed one:
++
 [NOTE]
 The IP address must be unique within the entire ALPR system, and must be within the limits of standard IPv4 address numbering.
 
-Click the Static radio button.
+.. Click the Static radio button.
 
-Enter the network address parameters (see <<pt_IP-Address-Parameters>>). *All cameras must be on the same subnet as both the computer you will use to communicate with and configure the camera, and the INEX RoadView computer.*
-
+.. Enter the network address parameters (see <<pt_IP-Address-Parameters>>). *All cameras must be on the same subnet as both the computer you will use to communicate with and configure the camera, and the INEX RoadView computer.*
++
 [IMPORTANT]
 It is highly recommended to record the camera's IP address and port number in a safe place. You will need them if the camera's parameters are reset back to their defaults, and for configuring INEX ALPR software.
-
++
 [#pt_IP-Address-Parameters]
++
 .IP Address Parameters
++
 [width="100%",cols="28%,20%,52%",options="header",]
++
 |===
 |Sub-category > Parameter Group |Parameter |Setting
 |IP Address |Service (radio buttons) |Set to Static to be able to access the camera
@@ -1140,8 +1139,8 @@ It is highly recommended to record the camera's IP address and port number in a 
 |IP Address |DNS 2 |According to the camera's location and the organization of your network
 |===
 
-Click Apply.
-
+. Click Apply.
++
 [IMPORTANT]
 ====
 After selecting Apply, you will be requested to close your web browser so the updates can take effect. This will take 20 seconds or more, to allow the camera time to reboot. +
@@ -1149,7 +1148,7 @@ After selecting Apply, you will be requested to close your web browser so the up
 - If you click the browser's Refresh button, the application will load the previous values.
 ====
 
-In the IZ Discovery utility (see <<ps_Recognize-IZ-Discovery>>), click the "Clear List" button, and verify that the camera can be recognized with the new IP address.
+. In the IZ Discovery utility (see <<ps_Recognize-IZ-Discovery>>), click the "Clear List" button, and verify that the camera can be recognized with the new IP address.
 
 === Logging Out of the Camera
 
@@ -1185,15 +1184,16 @@ See <<ps_Recognize-IZ-Discovery>> .
 
 === Logging In
 
-Open a browser and type in the IP address of the RoadView computer; for example: +
+. Open a browser and type in the IP address of the RoadView computer; for example: +
 http://192.115.120.76:80/[http://192.115.120.76]/
 
-You will see the login screen. Enter default username and password (root, root):
-
+. You will see the login screen. Enter default username and password (root, root):
++
 .Logging In to RoadView
++
 image::image45.png[image,width=209,height=143]
 
-You should see the RoadView Journal tab. See the *_\{Zvulun: needs link}_* RoadView ALPR User Guide for instructions for configuring and using RoadView.
+. You should see the RoadView Journal tab. See the *_\{Zvulun: needs link}_* RoadView ALPR User Guide for instructions for configuring and using RoadView.
 
 === Verifying the Installation
 
