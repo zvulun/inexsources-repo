@@ -110,7 +110,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 * Use IZ Discovery to find the initial IP Addresses of the cameras connected to your network - see <<ps_Recognize-IZ-Discovery>> .
 * Log into each camera, and change its IP address according to the requirements of your network. +++Use fixed addresses+++. Record these new addresses for use in RoadView configuration - see <<ps_Logging-In-to-Camera>> and <<ps_Changing-Camera-IP>> .
 * Calibrate the cameras - see <<s_Calibrating-Cameras>> .
-* Use IZ Discovery to find the IP address of the RoadView computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-IP-of-RoadView>> and the *_\{Zvulun: need link here - get from related documents table}_* RoadView ALPR User Guide.
+* Use IZ Discovery to find the IP address of the RoadView computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-IP-of-RoadView>> and the xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
 * Log in to RoadView, and configure RoadView, including adding the connected cameras - see <<ps_Using-RoadView>> and the *_\{Zvulun: need link here get from related documents table }_* RoadView ALPR User Guide.
 * On the Journal tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<ps_Using-RoadView>> and the *_\{Zvulun: need link here get from related documents table }_* RoadView ALPR User Guide.
 
@@ -797,7 +797,7 @@ image::image23.png[image,width=363,height=224]
 |--- |Drain |Shield
 |===
 +
-[align=right]#++*++ INEX power/signals cable#
+++*++ INEX power/signals cable
 +
 .Power/Signals Cable: Attaching the Wires to the Screw Terminals
 +
