@@ -797,8 +797,7 @@ image::image23.png[image,width=363,height=224]
 |--- |Drain |Shield
 |===
 +
-[align=right]
-++*++ INEX power/signals cable
+[align=right]#++*++ INEX power/signals cable#
 +
 .Power/Signals Cable: Attaching the Wires to the Screw Terminals
 +
