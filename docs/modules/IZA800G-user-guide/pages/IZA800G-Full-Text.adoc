@@ -111,8 +111,8 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 * Log into each camera, and change its IP address according to the requirements of your network. +++Use fixed addresses+++. Record these new addresses for use in RoadView configuration - see <<ps_Logging-In-to-Camera>> and <<ps_Changing-Camera-IP>> .
 * Calibrate the cameras - see <<s_Calibrating-Cameras>> .
 * Use IZ Discovery to find the IP address of the RoadView computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-IP-of-RoadView>> and the xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
-* Log in to RoadView, and configure RoadView, including adding the connected cameras - see <<ps_Using-RoadView>> and the *_\{Zvulun: need link here get from related documents table }_* RoadView ALPR User Guide.
-* On the Journal tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<ps_Using-RoadView>> and the *_\{Zvulun: need link here get from related documents table }_* RoadView ALPR User Guide.
+* Log in to RoadView, and configure RoadView, including adding the connected cameras - see <<ps_Using-RoadView>> and the xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
+* On the Journal tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<ps_Using-RoadView>> and the xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
 
 == Camera System Overview
 
@@ -506,7 +506,7 @@ All network cable extensions and repeaters must be shielded.
 
 === Optional Accessories
 
-*_\{Zvulun the last two bullets are a partial - p-optional_acces_illum.adoc}_*
+*_\{Zvulun the last two bullets are a partial - p-optional_acces_illum.adoc - but you will need to be sure that the bullets are at the second level, plus you will need another of the same text but with bullets at the first level for other places in this document.}_*
 
 * External Illuminator - Can be used to enhance overview vehicle image quality, for front and/or rear capture. It is recommended to use an illuminator power supply separate from the Camera System's supply.
 ** Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact INEX for guidance/training about this subject.
@@ -617,7 +617,7 @@ image::image16.png[image,width=136,height=121]
 [IMPORTANT]
 The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the INEX Camera System. See the appropriate Illuminator Series User Guide(s) for compatibility information.
 
-*The INEX {shortprodname} Camera Systems are typically used with the _\{Zvulun: needs link - get from related docs table}_ IZS series strobe illuminators.*
+*The INEX {shortprodname} Camera Systems are typically used with the xref:IZS-user-guide:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS Series Strobe Illuminators,window=read-later].*
 
 By using the following guidelines, you can match the illuminator you need to the INEX Camera System being used.
 
@@ -958,8 +958,9 @@ image::image23.png[image,width=363,height=224]
 |7 |Yellow |Unused
 |6 |Orange |Unused
 |--- |Drain |Shield
-|* INEX power/signals cable | |
 |===
++
+++*++ INEX power/signals cable
 
 === Connecting the AC Electricity
 
