@@ -662,7 +662,7 @@ You can look at an infrared-type illuminator with a smartphone camera to see if 
 * Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
 
 a|
-*Cable Extensions* _\{Zvulun: be sure the following note stays within the table cell}_
+*Cable Extensions*
 
 [IMPORTANT]
 All network cable extensions and repeaters must be shielded.
@@ -720,7 +720,7 @@ After mounting, remove the protective film from the front window of the Camera S
 
 === Mounting the Camera System
 
-Secure the Camera System to the appropriate mounting hardware (see the *_\{Zvulun: needs link}_* Mounting Hardware documentation).
+Secure the Camera System to the appropriate mounting hardware (see the xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounting Hardware Documentation,window=read-later]).
 
 [#ps_Construct-Pwr-Signals-Cable]
 === Constructing the Power/Signals Cable
@@ -1172,7 +1172,7 @@ Alternatively, in a lab, position a license plate at the expected distance and h
 [#s_Calibrating-Cameras-RoadView]
 === Calibrating the Cameras Using RoadView
 
-See the *_\{Zvulun: needs link; get from related docs table}_* RoadView ALPR User Guide for calibration instructions.
+See the xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later] for calibration instructions.
 
 [#s_Determining-IP-of-RoadView]
 == Determining the IP Address of the RoadView Computer with IZ Discovery
@@ -1195,16 +1195,16 @@ http://192.115.120.76:80/[http://192.115.120.76]/
 +
 image::image45.png[image,width=209,height=143]
 
-. You should see the RoadView Journal tab. See the *_\{Zvulun: needs link}_* RoadView ALPR User Guide for instructions for configuring and using RoadView.
+. You should see the RoadView Journal tab. See the xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later] for instructions for configuring and using RoadView.
 
 === Verifying the Installation
 
-* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the RoadView Journal tab - see the *_\{Zvulun: needs link from related docs table}_* RoadView ALPR User Guide).
+* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the RoadView Journal tab - see the xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later]).
 * Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
 
 === Logging Out
 
-See the *_\{Zvulun: needs link from related docs table}_* RoadView ALPR User Guide for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
+See the xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later] for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
 
 [#s_Troubleshooting-and-Maintenance]
 == Troubleshooting and Maintenance
@@ -1213,7 +1213,7 @@ See the *_\{Zvulun: needs link from related docs table}_* RoadView ALPR User Gui
 
 === Troubleshooting
 
-See the *_\{Zvulun: needs link from related docs table}_* RoadView ALPR User Guide.
+See the xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
 
 === Checking Mounting Screws
 
