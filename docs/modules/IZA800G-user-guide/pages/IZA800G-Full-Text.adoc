@@ -959,7 +959,7 @@ image::image23.png[image,width=363,height=224]
 |6 |Orange |Unused
 |--- |Drain |Shield
 |===
-+
+
 ++*++ INEX power/signals cable
 
 === Connecting the AC Electricity
