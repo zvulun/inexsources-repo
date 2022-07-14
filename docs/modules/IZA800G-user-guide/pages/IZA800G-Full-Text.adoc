@@ -795,8 +795,11 @@ image::image23.png[image,width=363,height=224]
 |7 |Yellow |Unused
 |6 |Orange |Unused
 |--- |Drain |Shield
-|* INEX power/signals cable | |
 |===
++
+[.text-right]
++
+\* INEX power/signals cable
 +
 .Power/Signals Cable: Attaching the Wires to the Screw Terminals
 +
