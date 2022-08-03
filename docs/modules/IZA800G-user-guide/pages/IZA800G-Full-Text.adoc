@@ -501,7 +501,7 @@ All network cable extensions and repeaters must be shielded.
 |===
 |Item |Notes
 |24VDC power supply (voltage-adjustable) |INEX/TECH model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
-|Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the *_\{Zvulun: need link from related documents table}_* Mounting Hardware documentation for details
+|Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounting Hardware Documentation,window=read-later] for details.
 |===
 
 === Optional Accessories
