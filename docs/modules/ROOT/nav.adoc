@@ -2,7 +2,7 @@
 // Note how module name must be specified
 // at start of xref, then put in the
 // doc name
-* xref:IZA500G-user-guide:IZA500G-sample.adoc[CamerasNEW]
+* xref:IZA500G-user-guide:IZA500G-sample.adoc[CamerasOLD]
 ** xref:IZA500G-user-guide:IZA500G-sample.adoc[IZA500G Installation Guide]
 ** xref:IZA800G-user-guide:IZA800G-Full-Text.adoc[IZA800G Installation Guide]
 * xref:IZL-user-guide:IZL-L-MAN-002_Illuminator_User_Guide.adoc[Illuminators]
