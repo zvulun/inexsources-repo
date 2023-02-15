@@ -4,9 +4,9 @@
 // doc name
 * Solutions
 ** https://drive.google.com/drive/folders/0B3mb9ZzMk00OYVNRbk92YkFnTms?resourcekey=0-MyvZkDPHebyJbrtvM2hOUA&usp=share_link[Mobile Parking Enforcement (LPI Inventory), window=_blank]
-** Lenel
-** Parking
-** Solution Comparisons
+** https://drive.google.com/drive/folders/1MoY4grt_60v4sw5SFvPYvMk1mNU2cnSk?usp=share_link[Lenel, window=_blank]
+** https://drive.google.com/drive/folders/1flCCXcgGP7Gpg_9EA34SiAp0dnrEe4kN?usp=share_link[Parking, window=_blank]
+** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=419264758[Solution Comparisons, window=_blank]
 * Cameras
 ** IZA800G
 ** IZA800GORT
