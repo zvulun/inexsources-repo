@@ -17,9 +17,9 @@
 ** https://drive.google.com/drive/folders/1J19p9Lr8PgDZkCevdI_24mKHU9O3so_u?usp=share_link[IZA500GR, window=_blank]
 ** https://drive.google.com/drive/folders/1DVDBey9z7SnCF88wLhboAhjOkmoHQrfU?usp=share_link[IZ600F, window=_blank]
 ** https://drive.google.com/drive/folders/1kBExr9lqnIOJGiP4vvQ7w5pf_P_Jm22F?usp=share_link[IZM600F (Mobile), window=_blank]
-** Camera Comparisons
-** Supported Analytics
-** Camera/Illuminator Use Cases
+** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1610965203[Camera Comparisons, window=_blank]
+** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1562091760[Supported Analytics, window=_blank]
+** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1733161618[Camera/Illuminator Use Cases, window=_blank]
 * Data Processing Units (DPUs)
 ** IZIDPUG
 ** IZIDPUGC
