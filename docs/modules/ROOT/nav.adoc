@@ -26,7 +26,7 @@
 ** https://drive.google.com/drive/folders/1xoZCcRySjtV8UCjKUWQyDaUZjhPrUJbm?usp=share_link[IZODPUG, window=_blank]
 ** https://drive.google.com/drive/folders/1IieD2bneNQiSEvq-vXKODUCNjFHpeUzr?usp=share_link[IZVDPUG, window=_blank]
 ** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=507755425[DPU Comparisons, window=_blank]
-** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1562091760[Supported Analytics]
+** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1562091760[Supported Analytics, window=_blank]
 * Illuminators
 ** https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[IZL1/2, window=_blank]
 ** https://drive.google.com/drive/folders/1lhKcwzU9rAw7PgXnckeEjQkuGe59GXNx?usp=share_link[IZS1/2/3, window=_blank]
