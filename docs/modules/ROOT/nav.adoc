@@ -2,6 +2,79 @@
 // Note how module name must be specified
 // at start of xref, then put in the
 // doc name
+* Solutions
+** Mobile Parking Enforcement (LPI Inventory)
+** Lenel
+** Parking
+** Solution Comparisons
+* Cameras
+** IZA800G
+** IZA800GORT
+** IZA800GVES
+** IZA800GRV
+** IZA800GDOT
+** IZA500G
+** IZA500GR
+** IZ600F
+** IZM600F (Mobile)
+** Camera Comparisons
+** Supported Analytics
+** Camera/Illuminator Use Cases
+* Data Processing Units (DPUs)
+** IZIDPUG
+** IZIDPUGC
+** IZODPUG
+** IZVDPUG
+** DPU Comparisons
+** Supported Analytics
+* Illuminators
+** IZL1/2
+** IZS1/2/3
+** IZVES1/2
+** U.S. UIL Gantry Mounting Adapters
+** EU Gantry Mounting Hardware
+** Camera/Illuminator Use Cases
+* Power Supplies
+** IZPWR50
+** IZPWR75
+** IZPWR100
+** IZPWR120
+** IZPWR240
+* Loop Detectors
+** LOOP-DTCR-L
+** LOOP-DTCR-P
+* Accessories
+** I/O Module (IZIO [ADAM])
+** Web Relays (IZ-REM-RELAY, IZ-REM-RELAY-4)
+** Wiegand Converter (IZ-WC)
+** Connection Panel (IZPanel)
+* Cables
+** IZ_COMPOSITE_CABLE (VES)
+** IZCAB-SVES (VES Illuminator)
+** IZCAB-AVES (VES Power/LAN)
+** IZCAB-A800-PAS (IZA800G Power/Signals)
+** IZCAB-A800-LAN (IZA800G LAN)
+** IZCAB-SSIG (IZS Illuminator Signals)
+** IZCAB-SPWR (IZS Illuminator Power)
+* Mounts
+** Product-to-Mount Summary/Mapping
+** IZMNTA-UC (Under-Ceiling for Parking)
+** IZMNTA-WE (Extendable Mount for Parking)
+** GS/GL/UCAIZ (Camera Gantry/Ceiling/Underhang)
+** W3X/W3X-A/PMA (Black Arm Wall/Pole)
+** UIL/UIL-2X/UIL-S (U.S. Illuminator Adapters)
+** Gantry Mounting Hardware (EU Illuminator Adapters)
+** W3X-W/PMA-W (White Arm Wall/Pole)
+** IZ600F/PMA-IZ600F (Built-in Mount; PMA optional)
+* Software
+** RoadView ALPR
+** IZCloud
+** IZCentral
+
+
+
+////
+Here is the previous menu
 * xref:IZA500G-user-guide:IZA500G-sample.adoc[Cameras]
 ** xref:IZA500G-user-guide:IZA500G-sample.adoc[IZA500G Installation Guide]
 ** xref:IZA800G-user-guide:IZA800G-Full-Text.adoc[IZA800G Installation Guide]
@@ -26,3 +99,4 @@
 
 * xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[Software]
 ** xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[]
+////
