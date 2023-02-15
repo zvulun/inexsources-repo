@@ -21,19 +21,19 @@
 ** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1562091760[Supported Analytics, window=_blank]
 ** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1733161618[Camera/Illuminator Use Cases, window=_blank]
 * Data Processing Units (DPUs)
-** IZIDPUG
-** IZIDPUGC
-** IZODPUG
-** IZVDPUG
-** DPU Comparisons
-** Supported Analytics
+** https://drive.google.com/drive/folders/10NTnof7w9C9P7rWZST_8yUzmRJjkPAIe?usp=share_link[IZIDPUG, window=_blank]
+** https://drive.google.com/drive/folders/12Sp-mKCHTHhyvQCypIsczUWTbX2_u3tH?usp=share_link[IZIDPUGC, window=_blank]
+** https://drive.google.com/drive/folders/1xoZCcRySjtV8UCjKUWQyDaUZjhPrUJbm?usp=share_link[IZODPUG, window=_blank]
+** https://drive.google.com/drive/folders/1IieD2bneNQiSEvq-vXKODUCNjFHpeUzr?usp=share_link[IZVDPUG, window=_blank]
+** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=507755425[DPU Comparisons, window=_blank]
+** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1562091760[Supported Analytics]
 * Illuminators
-** IZL1/2
-** IZS1/2/3
-** IZVES1/2
-** U.S. UIL Gantry Mounting Adapters
-** EU Gantry Mounting Hardware
-** Camera/Illuminator Use Cases
+** https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[IZL1/2, window=_blank]
+** https://drive.google.com/drive/folders/1lhKcwzU9rAw7PgXnckeEjQkuGe59GXNx?usp=share_link[IZS1/2/3, window=_blank]
+** https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=share_link[IZVES1/2, window=_blank]
+** https://drive.google.com/drive/folders/1cPWcz7zKk9q6Zf_Yy24wKtWJy6Z3EXF6?usp=share_link[U.S. UIL Gantry Mounting Adapters, window=_blank]
+** https://drive.google.com/drive/folders/1BQv7d_bSYrB1Rso4qjfKJaRXytUO7eE3?usp=share_link[EU Gantry Mounting Hardware, window=_blank]
+** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1733161618[Camera/Illuminator Use Cases, window=_blank]
 * Power Supplies
 ** IZPWR50
 ** IZPWR75
