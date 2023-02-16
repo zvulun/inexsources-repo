@@ -7,6 +7,7 @@
 // ** https://drive.google.com/drive/folders/1MoY4grt_60v4sw5SFvPYvMk1mNU2cnSk?usp=share_link[Lenel, window=_blank]
 ** Lenel (Doc upload to folder TBD)
 ** https://drive.google.com/drive/folders/1flCCXcgGP7Gpg_9EA34SiAp0dnrEe4kN?usp=share_link[Parking, window=_blank]
+** https://drive.google.com/drive/folders/11c6qGUQHwdY00_9h5SqpebcZRm76lBY8?usp=share_link[IZCloud Integration, window=_blank]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=419264758&single=true[Solution Comparisons, window=_blank]
 * Cameras
 ** https://drive.google.com/drive/folders/1410KtXUpOb7x1wR1-f3LX61AtWi1_2f8?usp=share_link[IZA800G, window=_blank]
@@ -58,20 +59,20 @@
 ** https://drive.google.com/drive/folders/1N4KjBnXerftmwEIfQZPCXN6H1idmiJWN?usp=share_link[IZCAB-SSIG (IZS Illuminator Signals), window=_blank]
 ** https://drive.google.com/drive/folders/1aZn0K0AVOoWuxJCo6ZOlq7rRP2IqByEA?usp=share_link[IZCAB-SPWR (IZS Illuminator Power), window=_blank]
 * Mounts
-** Product-to-Mount Summary/Mapping
-** IZMNTA-UC (Under-Ceiling for Parking)
-** IZMNTA-WE (Extendable Mount for Parking)
-** GS/GL/UCAIZ (Camera Gantry/Ceiling/Underhang)
-** W3X/W3X-A/PMA (Black Arm Wall/Pole)
-** UIL/UIL-2X/UIL-S (U.S. Illuminator Adapters)
-** Gantry Mounting Hardware (EU Illuminator Adapters)
-** W3X-W/PMA-W (White Arm Wall/Pole)
-** IZ600F/PMA-IZ600F (Built-in Mount; PMA optional)
+** https://drive.google.com/drive/folders/1-2TM0zk6V9hCtjFb6t0NTRZMvlLeTv9Z?usp=share_link[Product-to-Mount Summary/Mapping, window=_blank]
+** https://drive.google.com/drive/folders/10haHSyaImNPhPhPuj6vTGT4heJLEyk_s?usp=share_link[IZMNTA-UC (Under-Ceiling for Parking), window=_blank]
+** https://drive.google.com/drive/folders/1-O5h3UL4WCiPuAZSuLPdu4zXc3vWP0vs?usp=share_link[IZMNTA-WE (Extendable Mount for Parking), window=_blank]
+** https://drive.google.com/drive/folders/181QYb2etCU3aQVeBD9-a4q8hkX-Jx-H1?usp=share_link[GS/GL/UCAIZ (Camera Gantry/Ceiling/Underhang), window=_blank]
+** https://drive.google.com/drive/folders/1NY50IcExkZumVkgTknHDoVyYEVnmFNRd?usp=share_link[W3X/W3X-A/PMA (Black Arm Wall/Pole), window=_blank]
+** https://drive.google.com/drive/folders/1cPWcz7zKk9q6Zf_Yy24wKtWJy6Z3EXF6?usp=share_link[UIL/UIL-2X/UIL-S (U.S. Illuminator Adapters), window=_blank]
+** https://drive.google.com/drive/folders/1BQv7d_bSYrB1Rso4qjfKJaRXytUO7eE3?usp=share_link[Gantry Mounting Hardware (EU Illuminator Adapters), window=_blank]
+** https://drive.google.com/drive/folders/10m-howphEyOk-fsmQuUhQqABFYmvRVHL?usp=share_link[W3X-W/PMA-W (White Arm Wall/Pole), window=_blank]
+** https://drive.google.com/drive/folders/10ybds1jlLa9aYitLS2Zfc_3vGRvr2QP1?usp=share_link[IZ600F/PMA-IZ600F (Built-in Mount; PMA optional), window=_blank]
 * Software
-** RoadView ALPR
-** IZCloud
-** IZCentral
-** EULA
+** https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=share_link[RoadView ALPR, window=_blank]
+** https://drive.google.com/drive/folders/1SZsF2XPN-qIL9Ws83vEIF3nRi5gG1pk7?usp=share_link[IZCloud HTTP API, window=_blank]
+** https://drive.google.com/drive/folders/0BwU5z6u6NVUreklLR2l0UHI3Vnc?resourcekey=0-lcpQBDmbdnvNY7Cb6baJ7A&usp=share_link[IZCentral, window=_blank]
+** https://drive.google.com/drive/folders/1pN8lGgXbNLrHVzWFKTg0gS-hl_kU5jD-?usp=share_link[EULA, window=_blank]
 
 
 
