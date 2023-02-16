@@ -7,7 +7,6 @@
 // ** https://drive.google.com/drive/folders/1MoY4grt_60v4sw5SFvPYvMk1mNU2cnSk?usp=share_link[Lenel, window=_blank]
 ** Lenel (Doc upload to folder TBD)
 ** https://drive.google.com/drive/folders/1flCCXcgGP7Gpg_9EA34SiAp0dnrEe4kN?usp=share_link[Parking, window=_blank]
-// ** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=419264758[Solution Comparisons, window=_blank]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=419264758&single=true[Solution Comparisons, window=_blank]
 * Cameras
 ** https://drive.google.com/drive/folders/1410KtXUpOb7x1wR1-f3LX61AtWi1_2f8?usp=share_link[IZA800G, window=_blank]
@@ -19,7 +18,8 @@
 ** https://drive.google.com/drive/folders/1J19p9Lr8PgDZkCevdI_24mKHU9O3so_u?usp=share_link[IZA500GR, window=_blank]
 ** https://drive.google.com/drive/folders/1DVDBey9z7SnCF88wLhboAhjOkmoHQrfU?usp=share_link[IZ600F, window=_blank]
 ** https://drive.google.com/drive/folders/1kBExr9lqnIOJGiP4vvQ7w5pf_P_Jm22F?usp=share_link[IZM600F (Mobile), window=_blank]
-** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1610965203[Camera Comparisons, window=_blank]
+** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1610965203&single=true[Camera Comparisons, window=_blank]
+// ** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1610965203[Camera Comparisons, window=_blank]
 ** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1562091760[Supported Analytics, window=_blank]
 ** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1733161618[Camera/Illuminator Use Cases, window=_blank]
 * Data Processing Units (DPUs)
