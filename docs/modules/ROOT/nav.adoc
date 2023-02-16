@@ -19,23 +19,22 @@
 ** https://drive.google.com/drive/folders/1DVDBey9z7SnCF88wLhboAhjOkmoHQrfU?usp=share_link[IZ600F, window=_blank]
 ** https://drive.google.com/drive/folders/1kBExr9lqnIOJGiP4vvQ7w5pf_P_Jm22F?usp=share_link[IZM600F (Mobile), window=_blank]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1610965203&single=true[Camera Comparisons, window=_blank]
-// ** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1610965203[Camera Comparisons, window=_blank]
-** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1562091760[Supported Analytics, window=_blank]
-** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1733161618[Camera/Illuminator Use Cases, window=_blank]
+** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1562091760&single=true[Supported Analytics, window=_blank]
+** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera/Illuminator Use Cases, window=_blank]
 * Data Processing Units (DPUs)
 ** https://drive.google.com/drive/folders/10NTnof7w9C9P7rWZST_8yUzmRJjkPAIe?usp=share_link[IZIDPUG, window=_blank]
 ** https://drive.google.com/drive/folders/12Sp-mKCHTHhyvQCypIsczUWTbX2_u3tH?usp=share_link[IZIDPUGC, window=_blank]
 ** https://drive.google.com/drive/folders/1xoZCcRySjtV8UCjKUWQyDaUZjhPrUJbm?usp=share_link[IZODPUG, window=_blank]
 ** https://drive.google.com/drive/folders/1IieD2bneNQiSEvq-vXKODUCNjFHpeUzr?usp=share_link[IZVDPUG, window=_blank]
-** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=507755425[DPU Comparisons, window=_blank]
-** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1562091760[Supported Analytics, window=_blank]
+** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=507755425&single=true[DPU Comparisons, window=_blank]
+** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1562091760&single=true[Supported Analytics, window=_blank]
 * Illuminators
 ** https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[IZL Series, window=_blank]
 ** https://drive.google.com/drive/folders/1lhKcwzU9rAw7PgXnckeEjQkuGe59GXNx?usp=share_link[IZS Series, window=_blank]
 ** https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=share_link[IZVES Series, window=_blank]
 ** https://drive.google.com/drive/folders/1cPWcz7zKk9q6Zf_Yy24wKtWJy6Z3EXF6?usp=share_link[U.S. UIL Gantry Mounting Adapters, window=_blank]
 ** https://drive.google.com/drive/folders/1BQv7d_bSYrB1Rso4qjfKJaRXytUO7eE3?usp=share_link[EU Gantry Mounting Hardware, window=_blank]
-** https://docs.google.com/spreadsheets/d/1CTknYvCWbftRZ2uj47PYTVOv_GnI3YMMqW-KgFwhHto/edit#gid=1733161618[Camera/Illuminator Use Cases, window=_blank]
+** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera/Illuminator Use Cases, window=_blank]
 * Power Supplies
 ** IZPWR50
 ** IZPWR75
