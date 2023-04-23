@@ -1,3 +1,7 @@
 = INEX/TECH Documentation
 
 Welcome to the INEX/TECH documentation site.
+
+To save a document as PDF, use your browser's Print command,
+then select Save as PDF as the destination.
+
