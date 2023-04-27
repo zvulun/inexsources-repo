@@ -76,19 +76,19 @@ be interpreted as an attribute
 .^| https://drive.google.com/drive/folders/1_KQljIK6EJjLCeCxkYGaj5Ou48xkl80L?usp=sharing[IZA800GW-REV-x-TDSHEET,window=read-later]
 .^| IZA800GW Technical Data Sheet
 
-.^| xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[MOUNT-MAP-PRSNT-011,window=read-later]
+.^| xref:Mounts:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[MOUNT-MAP-PRSNT-011,window=read-later]
 .^| Product-to-Mount Mapping
 
-.^| xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts,window=read-later]
+.^| xref:Mounts:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts,window=read-later]
 .^| Mounting Hardware documentation
 
 .^| https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[IZ Discovery Utility,window=read-later]
 .^| IZ Discovery Utility software components
 
-.^| xref:RoadViewALPR-user-guide:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RV-ALPR-MAN-001,window=read-later]
+.^| xref:RoadView:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RV-ALPR-MAN-001,window=read-later]
 .^| RoadView ALPR User Guide
 
-.^| xref:IZS-user-guide:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS-S-MAN-002,window=read-later]
+.^| xref:IZS:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS-S-MAN-002,window=read-later]
 .^| IZS Illuminator Series User Guide
 
 .^| https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRSRFC-REV-x-TDSHEET,window=read-later]
@@ -97,7 +97,7 @@ be interpreted as an attribute
 .^| https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRDIN-REV-x-TDSHEET,window=read-later]
 .^| IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
 
-.^| xref:IZIO-install-guide:IZIO-6060-MAN-001_Digital_IO_Controller.adoc[IZIO-6060-MAN-001,window=read-later]
+.^| xref:IZIO:IZIO-6060-MAN-001_Digital_IO_Controller.adoc[IZIO-6060-MAN-001,window=read-later]
 .^| IZIO Digital I/O Controller Installation and User Guide
 
 .^| https://drive.google.com/drive/folders/190lmdZ4xQSpx2Ksn-XVgOINE6D14rhSv?usp=sharing[NDAA-NB-COC-001,window=read-later]
