@@ -13,7 +13,7 @@
 ** https://drive.google.com/drive/folders/1xpNUFcWqPWCIj80rih1IFdBT98AWgcyw?usp=share_link[TIBA, window=_blank]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=419264758&single=true[Solution Comparisons, window=_blank]
 * Cameras
-** xref:IZA800G:DocList.adoc[IZA800G, window=_blank]
+** xref:IZA800G:DocList.adoc[IZA800G]
 ** https://drive.google.com/drive/folders/1nCsvb4BXZx83Ax8Ht3rEqTL2XtjKLe6L?usp=share_link[IZA800GORT, window=_blank]
 ** https://drive.google.com/drive/folders/1Zv941s8KiKIKUpcsDYQnF8Tw5DBNJS0c?usp=share_link[IZA800GVES, window=_blank]
 ** https://drive.google.com/drive/folders/1zgesaOAYT8OhdzOWyLA-efZZnc7KR53d?usp=share_link[IZA800GRV, window=_blank]
