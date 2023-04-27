@@ -49,7 +49,7 @@
 ** https://drive.google.com/drive/folders/1JRBoEy0rRvpy61u5gw3kNj4hI0TOyh0q?usp=share_link[LOOP-DTCR-L, window=_blank]
 ** https://drive.google.com/drive/folders/1qDCBBhldVbnmypZCa84G6lIYBt9IJ2jK?usp=share_link[LOOP-DTCR-P, window=_blank]
 * Accessories
-** https://drive.google.com/drive/folders/0B3mb9ZzMk00OQlV0Y2NWTGY1ekk?resourcekey=0-1eCLMt8pA-YUf0JU69r8nw&usp=share_link[IZIO/ADAM (I/O Module), window=_blank]
+** xref:IZIO:DocList:[IZIO/ADAM (I/O Module)]
 ** https://drive.google.com/drive/folders/1P8z-92LDzQviEjdxEcgTuS3W5WuUh0ae?usp=share_link[IZ-REM-RELAY, IZ-REM-RELAY-4 (Web Relays), window=_blank]
 ** https://drive.google.com/drive/folders/0B3mb9ZzMk00OM0ZoSVBKc0licWc?resourcekey=0-qgnD5TQfPb772h4oU-D22w&usp=share_link[IZ-WC (Wiegand Converter), window=_blank]
 ** https://drive.google.com/drive/folders/1JmAK4YB9cdnadiVI8_odHUWEETqqQjtn?usp=share_link[IZPanel (Connection Panel), window=_blank]
