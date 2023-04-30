@@ -18,7 +18,7 @@
 ** https://drive.google.com/drive/folders/1Zv941s8KiKIKUpcsDYQnF8Tw5DBNJS0c?usp=share_link[IZA800GVES, window=_blank]
 ** https://drive.google.com/drive/folders/1zgesaOAYT8OhdzOWyLA-efZZnc7KR53d?usp=share_link[IZA800GRV, window=_blank]
 ** https://drive.google.com/drive/folders/1E31KirZPQOOnu3YvAEHjIQOh9C7Bh-w-?usp=share_link[IZA800GDOT, window=_blank]
-** https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[IZA500G, window=_blank]
+** xref:IZA500G:DocList.adoc[IZA500G]
 ** https://drive.google.com/drive/folders/1J19p9Lr8PgDZkCevdI_24mKHU9O3so_u?usp=share_link[IZA500GR, window=_blank]
 ** https://drive.google.com/drive/folders/1DVDBey9z7SnCF88wLhboAhjOkmoHQrfU?usp=share_link[IZ600F, window=_blank]
 ** https://drive.google.com/drive/folders/1kBExr9lqnIOJGiP4vvQ7w5pf_P_Jm22F?usp=share_link[IZM600F (Mobile), window=_blank]
@@ -75,7 +75,7 @@
 ** https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=share_link[RoadView ALPR, window=_blank]
 ** https://drive.google.com/drive/folders/1SZsF2XPN-qIL9Ws83vEIF3nRi5gG1pk7?usp=share_link[IZCloud HTTP API, window=_blank]
 ** https://drive.google.com/drive/folders/0BwU5z6u6NVUreklLR2l0UHI3Vnc?resourcekey=0-lcpQBDmbdnvNY7Cb6baJ7A&usp=share_link[IZCentral, window=_blank]
-** https://drive.google.com/drive/folders/1pN8lGgXbNLrHVzWFKTg0gS-hl_kU5jD-?usp=share_link[EULA, window=_blank]
+** xref:EULA:DocList.adoc[EULA]
 
 
 
