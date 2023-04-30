@@ -2,6 +2,6 @@
 
 Welcome to the INEX/TECH documentation site.
 
-To save a document as PDF, use your browser's Print command,
+To save a document as PDF, use your browser's Print command (CTRL-p),
 then select Save as PDF as the destination.
 
