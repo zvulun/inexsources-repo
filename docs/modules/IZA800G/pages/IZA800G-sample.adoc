@@ -76,10 +76,10 @@ be interpreted as an attribute
 .^| https://drive.google.com/drive/folders/1_KQljIK6EJjLCeCxkYGaj5Ou48xkl80L?usp=sharing[IZA800GW-REV-x-TDSHEET,window=read-later]
 .^| IZA800GW Technical Data Sheet
 
-.^| xref:Mounts:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[MOUNT-MAP-PRSNT-011,window=read-later]
+.^| xref:ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[MOUNT-MAP-PRSNT-011,window=read-later]
 .^| Product-to-Mount Mapping
 
-.^| xref:Mounts:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts,window=read-later]
+.^| xref:ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts,window=read-later]
 .^| Mounting Hardware documentation
 
 .^| https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[IZ Discovery Utility,window=read-later]

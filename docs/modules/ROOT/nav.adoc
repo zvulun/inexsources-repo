@@ -22,6 +22,7 @@
 ** https://drive.google.com/drive/folders/1J19p9Lr8PgDZkCevdI_24mKHU9O3so_u?usp=share_link[IZA500GR, window=_blank]
 ** https://drive.google.com/drive/folders/1DVDBey9z7SnCF88wLhboAhjOkmoHQrfU?usp=share_link[IZ600F, window=_blank]
 ** https://drive.google.com/drive/folders/1kBExr9lqnIOJGiP4vvQ7w5pf_P_Jm22F?usp=share_link[IZM600F (Mobile), window=_blank]
+** https://drive.google.com/drive/folders/1hDgDKi2Sdts_7cTMmDl_jtDJ5liI8Py7?usp=share_link[IZR600M (Radar), window=_blank]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1610965203&single=true[Camera Comparisons, window=_blank]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1562091760&single=true[Supported Analytics, window=_blank]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera/Illuminator Use Cases, window=_blank]
@@ -34,7 +35,7 @@
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1562091760&single=true[Supported Analytics, window=_blank]
 * Illuminators
 ** xref:IZL:DocList.adoc[IZL Series]
-** https://drive.google.com/drive/folders/1lhKcwzU9rAw7PgXnckeEjQkuGe59GXNx?usp=share_link[IZS Series, window=_blank]
+** xref:IZS:DocList.adoc[IZS Series]
 ** https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=share_link[IZVES Series, window=_blank]
 ** https://drive.google.com/drive/folders/1cPWcz7zKk9q6Zf_Yy24wKtWJy6Z3EXF6?usp=share_link[U.S. UIL Gantry Mounting Adapters, window=_blank]
 ** https://drive.google.com/drive/folders/1BQv7d_bSYrB1Rso4qjfKJaRXytUO7eE3?usp=share_link[EU Gantry Mounting Hardware, window=_blank]
@@ -50,7 +51,7 @@
 ** https://drive.google.com/drive/folders/1qDCBBhldVbnmypZCa84G6lIYBt9IJ2jK?usp=share_link[LOOP-DTCR-P, window=_blank]
 * Accessories
 ** xref:IZIO:DocList.adoc[IZIO/ADAM (I/O Module)]
-** https://drive.google.com/drive/folders/1P8z-92LDzQviEjdxEcgTuS3W5WuUh0ae?usp=share_link[IZ-REM-RELAY, IZ-REM-RELAY-4 (Web Relays), window=_blank]
+** xref:IZREMRELAY:DocList.adoc[IZ-REM-RELAY (Web Relays)]
 ** https://drive.google.com/drive/folders/0B3mb9ZzMk00OM0ZoSVBKc0licWc?resourcekey=0-qgnD5TQfPb772h4oU-D22w&usp=share_link[IZ-WC (Wiegand Converter), window=_blank]
 ** https://drive.google.com/drive/folders/1JmAK4YB9cdnadiVI8_odHUWEETqqQjtn?usp=share_link[IZPanel (Connection Panel), window=_blank]
 * Cables
