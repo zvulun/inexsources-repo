@@ -27,10 +27,10 @@
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1562091760&single=true[Supported Analytics, window=_blank]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera/Illuminator Use Cases, window=_blank]
 * Data Processing Units (DPUs)
-** https://drive.google.com/drive/folders/10NTnof7w9C9P7rWZST_8yUzmRJjkPAIe?usp=share_link[IZIDPUG, window=_blank]
-** https://drive.google.com/drive/folders/12Sp-mKCHTHhyvQCypIsczUWTbX2_u3tH?usp=share_link[IZIDPUGC, window=_blank]
-** https://drive.google.com/drive/folders/1xoZCcRySjtV8UCjKUWQyDaUZjhPrUJbm?usp=share_link[IZODPUG, window=_blank]
-** https://drive.google.com/drive/folders/1IieD2bneNQiSEvq-vXKODUCNjFHpeUzr?usp=share_link[IZVDPUG, window=_blank]
+** xref:IZIDPUG:DocList.adoc[IZIDPUG]
+** xref:IZIDPUGC:DocList.adoc[IZIDPUGC]
+** xref:IZODPUG:DocList.adoc[IZODPUG]
+** xref:IZVDPUG:DocList.adoc[IZVDPUG]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=507755425&single=true[DPU Comparisons, window=_blank]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1562091760&single=true[Supported Analytics, window=_blank]
 * Illuminators
