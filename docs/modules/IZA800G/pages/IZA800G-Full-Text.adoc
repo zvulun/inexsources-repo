@@ -69,10 +69,10 @@ Contact INEX Technologies for document ordering information.
 .^| https://drive.google.com/drive/folders/1_KQljIK6EJjLCeCxkYGaj5Ou48xkl80L?usp=sharing[IZA800GW-REV-x-TDSHEET,window=read-later]
 .^| IZA800GW Technical Data Sheet
 
-.^| xref:ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[MOUNT-MAP-PRSNT-011,window=read-later]
+.^| xref:MNT-ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[MOUNT-MAP-PRSNT-011,window=read-later]
 .^| Product-to-Mount Mapping
 
-.^| xref:ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts,window=read-later]
+.^| xref:MNT-ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts,window=read-later]
 .^| Mounting Hardware documentation
 
 .^| https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[IZ Discovery Utility,window=read-later]
@@ -501,7 +501,7 @@ All network cable extensions and repeaters must be shielded.
 |===
 |Item |Notes
 |24VDC power supply (voltage-adjustable) |INEX/TECH model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
-|Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the xref:ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounting Hardware Documentation,window=read-later] for details.
+|Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the xref:MNT-ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounting Hardware Documentation,window=read-later] for details.
 |===
 
 === Optional Accessories
@@ -720,7 +720,7 @@ After mounting, remove the protective film from the front window of the Camera S
 
 === Mounting the Camera System
 
-Secure the Camera System to the appropriate mounting hardware (see the xref:ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounting Hardware Documentation,window=read-later]).
+Secure the Camera System to the appropriate mounting hardware (see the xref:MNT-ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounting Hardware Documentation,window=read-later]).
 
 [#ps_Construct-Pwr-Signals-Cable]
 === Constructing the Power/Signals Cable
