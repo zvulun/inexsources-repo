@@ -36,19 +36,19 @@
 * Illuminators
 ** xref:IZL:DocList.adoc[IZL Series]
 ** xref:IZS:DocList.adoc[IZS Series]
-** https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=share_link[IZVES Series, window=_blank]
-** https://drive.google.com/drive/folders/1cPWcz7zKk9q6Zf_Yy24wKtWJy6Z3EXF6?usp=share_link[U.S. UIL Gantry Mounting Adapters, window=_blank]
-** https://drive.google.com/drive/folders/1BQv7d_bSYrB1Rso4qjfKJaRXytUO7eE3?usp=share_link[EU Gantry Mounting Hardware, window=_blank]
+** xref:IZSVES:DocList.adoc[IZSVES Series]
+** xref:US-ILLUM-MOUNTS:DocList.adoc[U.S. Illuminator Mounts]
+** xref:EU-ILLUM-MOUNTS:DocList.adoc[EU Illuminator Mounts]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera/Illuminator Use Cases, window=_blank]
 * Power Supplies
-** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=share_link[IZPWR50, window=_blank]
-** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=share_link[IZPWR75, window=_blank]
-** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=share_link[IZPWR100, window=_blank]
-** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=share_link[IZPWR120, window=_blank]
-** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=share_link[IZPWR240, window=_blank]
+** xref:IZPWR50:DocList.adoc[IZPWR50]
+** xref:IZPWR75:DocList.adoc[IZPWR75]
+** xref:IZPWR100:DocList.adoc[IZPWR100]
+** xref:IZPWR120:DocList.adoc[IZPWR120]
+** xref:IZPWR240:DocList.adoc[IZPWR240]
 * Loop Detectors
-** https://drive.google.com/drive/folders/1JRBoEy0rRvpy61u5gw3kNj4hI0TOyh0q?usp=share_link[LOOP-DTCR-L, window=_blank]
-** https://drive.google.com/drive/folders/1qDCBBhldVbnmypZCa84G6lIYBt9IJ2jK?usp=share_link[LOOP-DTCR-P, window=_blank]
+** xref:LOOP-DTCR-L:DocList.adoc[LOOP-DTCR-L]
+** xref:LOOP-DTCR-P:DocList.adoc[LOOP-DTCR-P]
 * Accessories
 ** xref:IZIO:DocList.adoc[IZIO/ADAM (I/O Module)]
 ** xref:IZREMRELAY:DocList.adoc[IZ-REM-RELAY (Web Relays)]
@@ -73,6 +73,7 @@
 ** https://drive.google.com/drive/folders/10m-howphEyOk-fsmQuUhQqABFYmvRVHL?usp=share_link[W3X-W/PMA-W (White Arm Wall/Pole), window=_blank]
 ** https://drive.google.com/drive/folders/10ybds1jlLa9aYitLS2Zfc_3vGRvr2QP1?usp=share_link[IZ600F/PMA-IZ600F (Built-in Mount; PMA optional), window=_blank]
 * Software
+// Need to add IZCloud Agent
 ** xref:RoadViewALPR:DocList.adoc[RoadView ALPR]
 ** https://drive.google.com/drive/folders/1SZsF2XPN-qIL9Ws83vEIF3nRi5gG1pk7?usp=share_link[IZCloud HTTP API, window=_blank]
 ** https://drive.google.com/drive/folders/0BwU5z6u6NVUreklLR2l0UHI3Vnc?resourcekey=0-lcpQBDmbdnvNY7Cb6baJ7A&usp=share_link[IZCentral, window=_blank]
