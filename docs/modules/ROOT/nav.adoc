@@ -73,8 +73,9 @@
 * Software
 // Need to add IZCloud Agent
 ** xref:RoadViewALPR:DocList.adoc[RoadView ALPR]
-** https://drive.google.com/drive/folders/1SZsF2XPN-qIL9Ws83vEIF3nRi5gG1pk7?usp=share_link[IZCloud HTTP API, window=_blank]
-** https://drive.google.com/drive/folders/0BwU5z6u6NVUreklLR2l0UHI3Vnc?resourcekey=0-lcpQBDmbdnvNY7Cb6baJ7A&usp=share_link[IZCentral, window=_blank]
+** xref:IZCloudHttpAPI:Doclist.adoc[IZCloud HTTP API]
+** xref:IZCloudAgent:DocList.adoc[IZCloud Agent]
+** xref:IZCentral:DocList.adoc[IZCentral]
 ** xref:ZAP-4-5:DocList.adoc[ZAP 4.5]
 ** xref:IZDiscovery:DocList.adoc[IZ Discovery]
 ** xref:EULA:DocList.adoc[EULA]
