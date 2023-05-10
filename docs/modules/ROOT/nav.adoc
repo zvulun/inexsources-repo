@@ -4,16 +4,17 @@
 // doc name
 * Solutions/Integrations
 ** xref:SLN-AC:DocList.adoc[Access Control]
-** xref:SLN-AmanoONE:DocList.adoc[AMANO ONE]
+** xref:SLN-AmanoONE:DocList.adoc[AMANO ONE Integration]
 ** xref:SLN-Campgrounds:DocList.adoc[Campgrounds]
 ** xref:SLN-CarWashes:DocList.adoc[Car Washes]
-** xref:SLN-CCURE:DocList.adoc[CCURE]
+** xref:SLN-CCURE:DocList.adoc[CCURE Integration]
 ** xref:SLN-CloudAC:DocList.adoc[Cloud Access Control]
 ** xref:SLN-IZCloudIntegration:DocList.adoc[IZCloud Integration]
-** xref:SLN-LenelS2:DocList.adoc[LenelS2]
+** xref:SLN-LenelS2:DocList.adoc[LenelS2 Integration]
 ** xref:SLN-Parking:DocList.adoc[Parking]
 ** xref:SLN-SecuritySystems:DocList.adoc[Security Systems]
-** xref:SLN-TIBA:DocList.adoc[TIBA]
+** xref:Documents:SLN-SKIDATA:DocList.adoc[SKIDATA Integration]
+** xref:SLN-TIBA:DocList.adoc[TIBA Integration]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=419264758&single=true[Solution Comparisons, window=_blank]
 * Cameras
 ** xref:IZA800G:DocList.adoc[IZA800G]
