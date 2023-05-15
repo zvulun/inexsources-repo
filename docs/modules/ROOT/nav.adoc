@@ -80,6 +80,7 @@
 ** xref:IZCloudHttpAPI:DocList.adoc[IZCloud HTTP API]
 ** xref:IZCloudAgent:DocList.adoc[IZCloud Agent]
 ** xref:IZCentral:DocList.adoc[IZCentral]
+** xref:IZMONSERVER:DocList.adoc[IZMonitoring Server]
 ** xref:ZAP-4-5:DocList.adoc[ZAP 4.5]
 ** xref:IZDiscovery:DocList.adoc[IZ Discovery]
 ** xref:EULA:DocList.adoc[EULA]
