@@ -1,6 +1,6 @@
 = RoadView ALPR Documents List
 
-* xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adocIZA800G-Full-Text.adoc[RoadView User Guide (draft under construction)]
+* xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView User Guide (draft under construction)]
 
 More documents can be found at https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=sharing[GDriveLink, window=_blank]
 
