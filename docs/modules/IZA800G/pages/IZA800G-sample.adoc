@@ -85,7 +85,7 @@ be interpreted as an attribute
 .^| https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[IZ Discovery Utility,window=read-later]
 .^| IZ Discovery Utility software components
 
-.^| xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RV-ALPR-MAN-001,window=read-later]
+.^| xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RV-ALPR-MAN-001,window=read-later]
 .^| RoadView ALPR User Guide
 
 .^| xref:IZS:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS-S-MAN-002,window=read-later]

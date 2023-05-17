@@ -78,7 +78,7 @@ Contact INEX Technologies for document ordering information.
 .^| https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[IZ Discovery Utility,window=read-later]
 .^| IZ Discovery Utility software components
 
-.^| xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RV-ALPR-MAN-001,window=read-later]
+.^| xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RV-ALPR-MAN-001,window=read-later]
 .^| RoadView ALPR User Guide
 
 .^| xref:IZS:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS-S-MAN-002,window=read-later]
@@ -110,9 +110,9 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 * Use IZ Discovery to find the initial IP Addresses of the cameras connected to your network - see <<ps_Recognize-IZ-Discovery>> .
 * Log into each camera, and change its IP address according to the requirements of your network. +++Use fixed addresses+++. Record these new addresses for use in RoadView configuration - see <<ps_Logging-In-to-Camera>> and <<ps_Changing-Camera-IP>> .
 * Calibrate the cameras - see <<s_Calibrating-Cameras>> .
-* Use IZ Discovery to find the IP address of the RoadView computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-IP-of-RoadView>> and the xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
-* Log in to RoadView, and configure RoadView, including adding the connected cameras - see <<ps_Using-RoadView>> and the xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
-* On the Journal tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<ps_Using-RoadView>> and the xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
+* Use IZ Discovery to find the IP address of the RoadView computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-IP-of-RoadView>> and the xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
+* Log in to RoadView, and configure RoadView, including adding the connected cameras - see <<ps_Using-RoadView>> and the xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
+* On the Journal tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<ps_Using-RoadView>> and the xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
 
 == Camera System Overview
 
@@ -1172,7 +1172,7 @@ Alternatively, in a lab, position a license plate at the expected distance and h
 [#s_Calibrating-Cameras-RoadView]
 === Calibrating the Cameras Using RoadView
 
-See the xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later] for calibration instructions.
+See the xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later] for calibration instructions.
 
 [#s_Determining-IP-of-RoadView]
 == Determining the IP Address of the RoadView Computer with IZ Discovery
@@ -1195,16 +1195,16 @@ http://192.115.120.76:80/[http://192.115.120.76]/
 +
 image::image45.png[image,width=209,height=143]
 
-. You should see the RoadView Journal tab. See the xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later] for instructions for configuring and using RoadView.
+. You should see the RoadView Journal tab. See the xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later] for instructions for configuring and using RoadView.
 
 === Verifying the Installation
 
-* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the RoadView Journal tab - see the xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later]).
+* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the RoadView Journal tab - see the xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later]).
 * Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
 
 === Logging Out
 
-See the xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later] for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
+See the xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later] for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
 
 [#s_Troubleshooting-and-Maintenance]
 == Troubleshooting and Maintenance
@@ -1213,7 +1213,7 @@ See the xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[Roa
 
 === Troubleshooting
 
-See the xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
+See the xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
 
 === Checking Mounting Screws
 
