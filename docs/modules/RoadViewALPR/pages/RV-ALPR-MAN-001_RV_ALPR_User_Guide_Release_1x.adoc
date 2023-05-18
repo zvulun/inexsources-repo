@@ -518,8 +518,6 @@ ____
 *** Click the "Update Now" button to update the date and time immediately.
 *** The icon (green check mark or red "x") indicates if the URL of the NTP server is correct, and the connection to it was successful.
 
-[disk]
-
 ** If *Manual*, click in the *Date and Time* box to display a calendar/time popup. You should also select a *Time Zone*; set it to the local time at the location in which the Camera System/DPU is installed (+++not+++ the UTC default).
 
 [square]
@@ -529,11 +527,7 @@ ____
 [#s_HTTP-Integration]
 
 === HTTP Integration
-
-____
 .HTTP Integration Section
-____
-
 image::image14.png[image,width=698,height=49]
 
 [NOTE]
@@ -554,16 +548,14 @@ If you are using an IZMobileLPI system, contact INEX for details on how to set t
 
 [#f_Adding-an-HTTP-Integration]
 
-____
 .Adding an HTTP Integration
-
 image::image15.png[image,width=264,height=384]
-____
 
 [square]
 
 * *HTTP URL* - URL for an external system to listen on, in order to receive Events from {shortprodname} via the INEX HTTP protocol (see the appropriate INEX HTTP API Protocol document - see <<s_Related-Documents>>).
 
++
 [NOTE]
 
 ========================================
@@ -574,18 +566,16 @@ For IZCentral, "api" is mandatory; also, IZCentral currently only works with HTT
 
 ========================================
 
-[disk]
 
-** Be sure to use the correct format: +
-+
-
-http://<IP address of IZCentral or 3^rd^ party computer>:<port number>/api +
-+
-
+** Be sure to use the correct format:
+{empty} +
+http://<IP address of IZCentral or
+{empty} +
+3^rd^ party computer>:<port number>/api +
+{empty} +
 For example (port is typically 5801): +
-+ +
 http://195.163.2.73:5801/api
-
++
 [IMPORTANT]
 
 ========================================
@@ -597,7 +587,7 @@ For secure communication, https can be used in the URL. In such a case, use the 
 [square]
 
 * *Protocol Version* - The appropriate HTTP API version to use for your application.
-
++
 [NOTE]
 
 ========================================
@@ -612,9 +602,9 @@ See the HTTP API 1.5 document - see <<s_Related-Documents>> .
 
 * *Separated Images* - If checked, then images are sent in separate messages after the Event message; if unchecked, images and the Event are sent together in the Event message.
 
-** Send Images Data* (automatically checked for HTTP API 2.3 and above, as chosen from the Protocol Version dropdown) - If checked, then image data is sent as "data base64 encoded" inside the message; if unchecked, this field is not included in the message.
+* *Send Images Data* (automatically checked for HTTP API 2.3 and above, as chosen from the Protocol Version dropdown) - If checked, then image data is sent as "data base64 encoded" inside the message; if unchecked, this field is not included in the message.
 
-* *Offline Enabled -* Used if you want to enable offline saving of Events and images via HTTP. If you try to send an Event, but do not have a connection to the server, then this event will be put in an offline queue, and sent again when connection with the server is restored. Note that if you enable offline capabilities, you must configure the offline queue parameters (see <<s_Offline-Queue>>).
+* *Offline Enabled* - Used if you want to enable offline saving of Events and images via HTTP. If you try to send an Event, but do not have a connection to the server, then this event will be put in an offline queue, and sent again when connection with the server is restored. Note that if you enable offline capabilities, you must configure the offline queue parameters (see <<s_Offline-Queue>>).
 
 * *Send Triggers* (only enabled for HTTP API versions 1.3 to 1.6, as chosen from the Protocol Version dropdown) - If checked, then {shortprodname} will send Trigger Received messages to the server. The meaning of this command is: The camera has received a trigger to create an Event. The Event is being processed, and will be available soon.
 
@@ -624,7 +614,7 @@ See the HTTP API 1.5 document - see <<s_Related-Documents>> .
 
 * *Status Timeout* (ms) - If a status message cannot be sent to the server for this amount of time, {shortprodname} stops sending the message, and sends it again at the next Keep Alive Interval
 
-* *Lane ID -* the Lane for which Events and statuses will be sent ("All" or a specific Lane)
+* *Lane ID* - the Lane for which Events and statuses will be sent ("All" or a specific Lane)
 
 * *After clicking the Save button, adding/editing an integration can take several seconds*
 
