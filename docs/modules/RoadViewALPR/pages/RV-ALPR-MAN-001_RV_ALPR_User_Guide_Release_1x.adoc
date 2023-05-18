@@ -11,13 +11,12 @@
 // for a specific product name
 [.white]#{shortprodname}#
 
-
-
 // discrete removes these headers from the TOC
 [discrete]
 == RoadView ALPR
 [discrete]
 === User Guide
+=== Release 1.x
 
 Doc. No. RV-ALPR-MAN-001
 //blank line helps to separate doc no. from TOC
@@ -37,13 +36,10 @@ toc::[]
 This document is for:
 
 [square]
-
-** *Technical personnel** who want to install, configure, maintain and use {docproductname} in their ALPR systems
-
-** *Project managers** who want to understand {docproductname}'s capabilities
+* *Technical personnel* who want to install, configure, maintain and use {docproductname} in their ALPR systems
+* *Project managers** who want to understand {docproductname}'s capabilities
 
 [#s_Related-Documents]
-
 === Recommended Reading/Related Documents
 
 .Related Documents
@@ -52,7 +48,7 @@ This document is for:
 |===
 |Doc. No. |Title
 |xref:RoadViewALPR:DocList.adoc[RV-ALPRrrr-MAN-001] |{docproductname} Release Notes (for Release rrr)
-|xref: RoadViewALPR:DocList.adoc[RV-VDANLYTCS-TDSHEET] |{shortprodname} Video Analytics Technical Data Sheet
+|xref:RoadViewALPR:DocList.adoc[RV-VDANLYTCS-TDSHEET] |{shortprodname} Video Analytics Technical Data Sheet
 |xref:IZIO:DocList.adoc[IZIO-6060-MAN-001] |IZIO Digital IO Controller Installation and User Guide
 |xref:IZIO:DocList.adoc[IZIO-6060-TECH-002] |ADAM (IZIO) P2P Configuration
 a|
@@ -66,8 +62,8 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 |xref:ZAP-4-5:DocList.adoc[API-HTTPM-ICD-00n_INEX_HTTP_API_Rx_y_v_W] |INEX HTTP API for Major Version "M", Release "x.y"; document version W
 |xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-041] |IZMonitoring Server: Camera Monitoring API
 |xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-042] |IZMonitoring Server API
-|xref: IZCentral:DocList.adoc[IZCENTRAL-CORE-MAN-001] |IZCentral User Guide
-|xref:EULA:DocList.adoc[EULA-400-DOC-001]}_* |Software End User License Agreement (includes list of open source software)
+|xref:IZCentral:DocList.adoc[IZCENTRAL-CORE-MAN-001] |IZCentral User Guide
+|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 |xref:SLN-AmanoONE:DocList.adoc[RV-AMANO-MAN-001] |INEX ALPR Installation for AMANO
 |xref:SLN-IZCloudIntegration:DocList.adoc[RV-IZCLOUD-MAN-001] |INEX IZCloud Integration
 |xref:SLN-TIBA:DocList.adoc[RV-TIBA-MAN-001] |INEX TIBA Integration
@@ -109,7 +105,7 @@ Contact our support team via our website: http://www.inextechnologies.com
 == System Requirements
 
 You will need to provide a laptop computer to use for configuration. +++<u>+++If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight+++</u>+++. Required software:
-
+[square]
 * Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 * Internet Explorer browser version 11 or higher, or the latest version of Chrome
 
@@ -134,7 +130,7 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 
 * Log into each camera, and change its IP address according to the requirements of your network. +++Use fixed addresses+++. Record these new addresses for use in {shortprodname} configuration. See <<s_Changing-the-IP-Addresses-of-the-Cameras>> .
 
-* Use IZ Discovery to find the IP address of the {shortprodname} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Changing-the-RoadView-Computers-IP-Address-and-Network-Settings>> .
+* Use IZ Discovery to find he IP address of the {shortprodname} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Changing-the-RoadView-Computers-IP-Address-and-Network-Settings>> .
 
 * Review the different trigger sources and sequences, and triggering operational modes (see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>)
 
@@ -235,12 +231,9 @@ ____
 
 . If IZ Discovery does not recognize a device:
 
-[disc]
-
+[disk]
 ** Press the device's reset button (if available)
-
 ** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
-
 ** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run IZ Discovery again.
 
 [#s_Changing-the-RoadView-Computers-IP-Address-and-Network-Settings]
@@ -498,7 +491,7 @@ image::image11.png[image,width=468,height=204]
 
 * Separate sections will appear for FTP and SFTP, enabling you to click a button to add user(s) who can connect to a {shortprodname} computer via FTP/SFTP
 
-[disc]
+[disk]
 
 ** FTP users are automatically added as SFTP users
 
@@ -544,7 +537,7 @@ ____
 
 * Set Time (Automatically/Manually)
 
-[disc]
+[disk]
 
 ** If *Automatic*, the date and time will be updated from a central Network Time server. Select the appropriate server, and the interval at which you want {shortprodname} to poll for the date and time (selected from the Polling Interval dropdown).
 
@@ -554,7 +547,7 @@ ____
 
 *** The icon (green check mark or red "x") indicates if the URL of the NTP server is correct, and the connection to it was successful.
 
-[disc]
+[disk]
 
 ** If *Manual*, click in the *Date and Time* box to display a calendar/time popup. You should also select a *Time Zone*; set it to the local time at the location in which the Camera System/DPU is installed (+++not+++ the UTC default).
 
@@ -610,7 +603,7 @@ For IZCentral, "api" is mandatory; also, IZCentral currently only works with HTT
 
 ========================================
 
-[disc]
+[disk]
 
 ** Be sure to use the correct format: +
 +
@@ -716,7 +709,7 @@ These parameters are currently used to configure offline Event storage for HTTP 
 
 * *Expiration Enabled* - Enables the following parameters:
 
-[disc]
+[disk]
 
 ** *Offline Events Expire After* -If an Event was added to the offline queue because there was no connection with client, and the connection with the client was not restored within this time, the Event will be removed from the offline queue.
 
@@ -768,7 +761,7 @@ image::image18.png[image,width=393,height=448]
 
 * *ZAP Server* - Check the box to have {shortprodname} act as a ZAP Server, to which ZAP Clients can connect (see the ZAP Protocol document for details - see <<s_Related-Documents>>):
 
-[disc]
+[disk]
 
 ** *Ports* - Each Lane configured in {shortprodname} will automatically have its own row in the table. Each Lane should have a different port number.
 
@@ -802,7 +795,7 @@ image::image18.png[image,width=393,height=448]
 + +
 If you want {shortprodname} to work with IZCentral, {shortprodname} can only be working as a ZAP Client. In this mode, the {shortprodname} ZAP Client port must match the IZCentral ZAP port (see the IZCentral documentation - see <<s_Related-Documents>>).
 
-[disc]
+[disk]
 
 ** *IP* - The IP address of the ZAP Server (to which {shortprodname} acting as a client should connect)
 
@@ -872,7 +865,7 @@ In Server mode, advanced P2P mode support was added (available via the IZIO/ADAM
 
 * *Pulling or Server -* how the digitized pulses are obtained by {shortprodname}
 
-[disc]
+[disk]
 
 ** +++Pulling+++ - {shortprodname} will request state changes from the IZIO, sampled every 20 ms
 
@@ -888,7 +881,7 @@ In Server mode, advanced P2P mode support was added (available via the IZIO/ADAM
 
 * *Trigger mode* - The "trigger time" used can be influenced by using the rising edge or falling edge of the pulse at the IO input of the IZIO/ADAM. The options are (see <<f_Trigger-Sources-and-Sequence>>):
 
-[disc]
+[disk]
 
 ** +++Disabled+++ - Triggers will not be generated
 
@@ -948,7 +941,7 @@ image::image22.png[image,width=480,height=160]
 
 * *Combining Enabled* - used for combining Events with the same or similar recognition
 
-[disc]
+[disk]
 
 ** *Send Timeout* - if another Event is received with the same or similar recognition results within this timeout, the two Events are merged into one Event
 
@@ -1004,7 +997,7 @@ The following parameters are used to configure these processes. *Remember to cli
 
 * *Region* - Region for which characters on the plate will be recognized. Select from the following options:
 
-[disc]
+[disk]
 
 ** +++Australia+++
 
@@ -1081,7 +1074,7 @@ ____
 
 * *Image Resize* - when enabled, and the Event confidence is equal or higher than the Resize Confidence parameter, then each LPR and OV image is resized according to the Image Width (and the height is resized proportionally).
 
-[disc]
+[disk]
 
 ** *Image Width* - the resize width
 
@@ -1091,7 +1084,7 @@ ____
 
 * *Two Line Plate -* When enabled, invokes the capability to recognize two-line plates (in which the license plate number consists of two rows).
 
-[disc]
+[disk]
 
 ** *Threshold* - if the ratio of the width of the plate to its height is less than this threshold, then the plate very likely has two lines. The plate read will be the lower number added to the upper number.
 
@@ -1113,7 +1106,7 @@ ____
 
 * *Send default state* *(only if State recognition* *is enabled) -* If no State was recognized, checking this box enables sending the Default State Value in the HTTP message for the Event as per the following additional parameters that appear: (If unchecked, no State field will be sent in the message.)
 
-[disc]
+[disk]
 
 ** *Default state value* - The default value to be sent in the HTTP message for the Event if no State was recognized.
 
@@ -1123,7 +1116,7 @@ ____
 
 * *LPR Stub Enabled* -If a plate was detected, but without a plate read, {shortprodname} sends the text defined in the LPR Stub text box, along with the LPR Stub Confidence value:
 
-[disc]
+[disk]
 
 ** *LPR Stub* - for example, "NOREAD"
 
@@ -1147,7 +1140,7 @@ image::image27.png[image,width=624,height=170]
 
 +
 
-[disc]
+[disk]
 
 ** Trigger 1 will be checked against the Hybrid Pre/Post time and use the closest Event - Event 1 or Event 2 (most likely). Note that Trigger 1 is closest to +++Event+++ 2, even though it is closer to the +++best LPR frame+++ in Event 1.
 
@@ -1169,7 +1162,7 @@ image::image28.png[image,width=617,height=87]
 
 * Actions:
 
-[disc]
+[disk]
 
 ** +++Edit+++ - edit the Lane's parameters
 
@@ -1221,7 +1214,7 @@ If you have upgraded from a previous {shortprodname} version in which only Lane 
 
 * *Location (for ALPR cameras only)* - Select one of the following options:
 
-[disc]
+[disk]
 
 ** *Unknown* -The camera's position relative to vehicles is unknown.
 
@@ -1255,7 +1248,7 @@ If you are using an IZMobileLPI system, contact INEX for details on how to set t
 
 * Actions:
 
-[disc]
+[disk]
 
 ** +++Edit+++ - edit the camera's parameters (see <<f_Add-Edit-Camera-Dialog>>)
 
@@ -1294,7 +1287,7 @@ ____
 image::image31.png[image,width=230,height=272]
 ____
 
-[disc]
+[disk]
 
 ** *Lane ID* - The identification number of the lane being captured by the camera(s). Select a Lane number you defined (see <<s_Lanes>>). This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
 
@@ -1310,7 +1303,7 @@ You could also position cameras to be in different positions (front/rear as in a
 
 ========================================
 
-[disc]
+[disk]
 
 ** *Camera ID* - For internal use; should be unique in the overall IZ ALPR system
 
@@ -1328,7 +1321,7 @@ rtsp://<camera IP address>/cam0_0
 + +
 http:// <camera IP address>
 
-[disc]
+[disk]
 
 ** *Type* - Type of camera (LPR or View); used for integration with IZCentral
 
@@ -1402,7 +1395,7 @@ ____
 
 * Pause/Run mode:
 
-[disc]
+[disk]
 
 ** Pause the grid display by clicking on a row, or by using the pause button in the middle of the controls under the large image (). You can also click on the large image to toggle between Pause and Run mode. This is useful if you want to examine a specific Event.
 
@@ -1440,7 +1433,7 @@ If you are using a camera with one sensor (such as the IZ600F), you will see 2 t
 
 * Zoom in on an area of interest in the large image (requires a mouse with a wheel):
 
-[disc]
+[disk]
 
 ** Pause the grid
 
@@ -1520,7 +1513,7 @@ ____
 
 +
 
-[disc]
+[disk]
 
 ** Use the buttons at the top of the From/To sections to move between months
 
@@ -1656,7 +1649,7 @@ This section provides the same information as in the upper right corner of the s
 
 * New Firmware - enables you to update new firmware in the IZIC board
 
-[disc]
+[disk]
 
 ** Choose File - click this button to browse for the firmware file
 
@@ -1672,7 +1665,7 @@ These parameters affect how {shortprodname} controls an external illuminator:
 
 * *Night Mode*
 
-[disc]
+[disk]
 
 ** +++Disable+++ - never trigger the illuminator
 
@@ -1684,7 +1677,7 @@ These parameters affect how {shortprodname} controls an external illuminator:
 
 *** *Illuminator Intensity* - (for IZS illuminators, synchronized with the Overview camera) Relative intensity of an external illuminator's LEDs, expressed as a percentage of the maximum possible intensity
 
-[disc]
+[disk]
 
 ** +++Auto+++ - automatically senses day/night, in order to decide whether to trigger an external illuminator, according to the Camera System's location (as defined by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
 
