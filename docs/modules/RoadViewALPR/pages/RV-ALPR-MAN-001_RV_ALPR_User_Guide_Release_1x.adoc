@@ -105,7 +105,9 @@ Contact our support team via our website: http://www.inextechnologies.com
 
 == System Requirements
 
-You will need to provide a laptop computer to use for configuration. +++<u>+++If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight+++</u>+++. Required software:
+You will need to provide a laptop computer to use for configuration. +++<u>+++If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight+++</u>+++.
+{empty} +
+Required software:
 [square]
 * Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 * Internet Explorer browser version 11 or higher, or the latest version of Chrome
@@ -231,10 +233,9 @@ image::image2.PNG[image,width=723,height=485]
 
 . If IZ Discovery does not recognize a device:
 
-[disk]
-*** Press the device's reset button (if available)
-*** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
-*** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run IZ Discovery again.
+** Press the device's reset button (if available)
+** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
+** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run IZ Discovery again.
 
 [#s_Changing-the-RoadView-Computers-IP-Address-and-Network-Settings]
 
@@ -276,7 +277,7 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 . To change the IP address:
 
-*.. Verify that the address is not used by any other device on the network*
+.. Verify that the address is not used by any other device on the network*
 
 .. Be sure to uncheck the DHCP box
 
@@ -298,7 +299,7 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 . Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {shortprodname} computer. For example: +
 http://192.115.120.76/
-
++
 [IMPORTANT]
 
 ========================================
@@ -307,15 +308,15 @@ The {shortprodname} GUI can now be accessed using https at the start of the URL.
 
 ========================================
 
++
 . In the login screen, enter the default username and password: (root, root):
 
++
 .Logging In to the Computer
-
-____
 image::image4.png[image,width=209,height=143]
-____
 
-+. You should see the {shortprodname} Live (Journal) tab (see <<s_Live-Journal-Tab>>). To configure {shortprodname}, switch to the Settings tab (see <<s_Settings-Tab>>).
+
+. You should see the {shortprodname} Live (Journal) tab (see <<s_Live-Journal-Tab>>). To configure {shortprodname}, switch to the Settings tab (see <<s_Settings-Tab>>).
 
 [#s_Logging-Out-Multi-line-Menu-Icon]
 
@@ -327,11 +328,8 @@ ____
 
 * Select "Logout"
 
-____
 .Logout (Multi-line Menu)
-
 image::image5.png[image,width=136,height=113]
-____
 
 [#s_Trigger-Sources-and-Trigger-Modes-Overview]
 
@@ -340,11 +338,7 @@ ____
 A trigger is a command sent to an IZ ALPR system to create an Event. Triggers can originate from hardware signals, from video analytics or from software/3^rd^ party system protocols.
 
 [#f_Trigger-Sources-and-Sequence]
-
-____
 .Trigger Sources and Sequence
-____
-
 image::image6.png[image,width=624,height=307]
 
 The system constantly captures video frames and stores them in a buffer. However, the Triggering Mode determines if all, or only some of, these frames will be used for license plate recognition and Event building. Other parameters affect how many frames before (pre) and after (post) the trigger will be used:
@@ -374,14 +368,13 @@ The Trigger Operational Modes (set in the Detector Configuration section of the 
 [#f_Trigger-Operational-Modes]
 
 .Trigger Operational Modes
-
 image::image7.png[image,width=632,height=431]
 
 [square]
 
-* +++NonTriggered+++ - Events are created and reported using LPR video analytics
+* +++<u>+++NonTriggered+++</u>+++ - Events are created and reported using LPR video analytics
 
-* +++Triggered+++ - Events are created and reported when a trigger is received
+* +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
 
 [NOTE]
 
@@ -402,7 +395,7 @@ See <<s_Trigger-Sources-and-Trigger-Modes-Overview>> and <<s_Cameras>> .
 
 ========================================
 
-* +++NonTriggered With Trigger+++ - NonTriggered Events are continually created and reported by LPR video analytics. In addition, Triggered Events are created and reported when a trigger is received.
+* +++<u>+++NonTriggered With Trigger+++</u>+++ - NonTriggered Events are continually created and reported by LPR video analytics. In addition, Triggered Events are created and reported when a trigger is received.
 
 Each type of Trigger Operational Mode has its own advantages:
 
@@ -417,12 +410,9 @@ Each type of Trigger Operational Mode has its own advantages:
 == Settings Tab
 
 Use the Settings tab after the first installation or reinstallation of the IZ ALPR system, or when some fundamental parameters need updating. For example, if the Camera System or DPU was moved to a different location (time zone).
-
-____
 .Settings Tab
-
 image::image8.png[image,width=265,height=504]
-____
+
 
 [NOTE]
 
@@ -445,19 +435,15 @@ The box at the upper right of the Settings screen shows:
 * The model, part number and serial number of the camera(s) {shortprodname} is communicating with:
 
 .Software Version and Camera Information Section
-
 image::image9.png[image,width=356,height=130]
 
 [#s_Network-Settings]
 
 === Network Settings
 
-____
 .Network Settings Section
-____
-
 image::image10.png[image,width=416,height=180]
-
+[square]
 * If needed, set the {shortprodname} computer's IP address parameters.
 
 * *Remember to click the Save button in this section; the change will be applied immediately.*
@@ -466,20 +452,16 @@ image::image10.png[image,width=416,height=180]
 
 ========================================
 
-The Network Settings refer to the +++{shortprodname} computer+++ (+++Camera System or DPU)+++ - NOT the computer on which the browser displaying the GUI is running.
+The Network Settings refer to the +++<u>+++{shortprodname} computer+++</u>+++ (+++<u>+++Camera System or DPU)+++</u>+++ - NOT the computer on which the browser displaying the GUI is running.
 
-*+++It is highly recommended to use a fixed IP address (not DHCP)+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
 
 ========================================
 
 [#s_FTP-SFTP-Settings]
 
 === FTP/SFTP Settings
-
-____
 .FTP/SFTP Section
-____
-
 image::image11.png[image,width=468,height=204]
 
 [square]
@@ -489,12 +471,9 @@ image::image11.png[image,width=468,height=204]
 
 * Separate sections will appear for FTP and SFTP, enabling you to click a button to add user(s) who can connect to a {shortprodname} computer via FTP/SFTP
 
-[disk]
 
 ** FTP users are automatically added as SFTP users
-
 ** Deleting an SFTP user will automatically delete the user from FTP
-
 ** The Port is fixed; this is the port that the users' system will use to communicate with the {shortprodname} computer
 
 ____
@@ -532,17 +511,11 @@ image::image13.png[image,width=490,height=180]
 ____
 
 [square]
-
 * Set Time (Automatically/Manually)
-
 [disk]
-
 ** If *Automatic*, the date and time will be updated from a central Network Time server. Select the appropriate server, and the interval at which you want {shortprodname} to poll for the date and time (selected from the Polling Interval dropdown).
-
 [circle]
-
 *** Click the "Update Now" button to update the date and time immediately.
-
 *** The icon (green check mark or red "x") indicates if the URL of the NTP server is correct, and the connection to it was successful.
 
 [disk]
