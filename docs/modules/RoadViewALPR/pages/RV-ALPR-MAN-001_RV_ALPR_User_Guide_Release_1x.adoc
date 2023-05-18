@@ -509,7 +509,7 @@ image::image13.png[image,width=490,height=180]
 [circle]
 *** Click the "Update Now" button to update the date and time immediately.
 *** The icon (green check mark or red "x") indicates if the URL of the NTP server is correct, and the connection to it was successful.
-
+[disc]
 ** If *Manual*, click in the *Date and Time* box to display a calendar/time popup. You should also select a *Time Zone*; set it to the local time at the location in which the Camera System/DPU is installed (+++not+++ the UTC default).
 
 [square]
