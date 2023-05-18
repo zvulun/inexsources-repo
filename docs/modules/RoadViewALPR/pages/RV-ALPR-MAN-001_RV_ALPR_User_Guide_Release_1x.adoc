@@ -225,7 +225,7 @@ If any device on your network is connected via wireless, IZ Discovery will not r
 .IZ Discovery Utility
 
 +
-image::image2.PNG[image,width=503,height=337]
+image::image2.PNG[image,width=603,height=405]
 
 
 +
