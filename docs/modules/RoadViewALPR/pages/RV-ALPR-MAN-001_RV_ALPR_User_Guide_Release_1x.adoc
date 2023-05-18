@@ -244,7 +244,7 @@ image::image2.PNG[image,width=503,height=337]
 
 .Changing the Computer's Network Settings
 
-image::image3.png[image,width=226,height=230]
+image::image3.png[image,width=272,height=276]
 
 
 [NOTE]
