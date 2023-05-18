@@ -13,7 +13,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== RoadView ALPR
+== {docproductname}
 [discrete]
 === User Guide
 [discrete]
@@ -38,7 +38,7 @@ This document is for:
 
 [square]
 * *Technical personnel* who want to install, configure, maintain and use {docproductname} in their ALPR systems
-* *Project managers** who want to understand {docproductname}'s capabilities
+* *Project managers* who want to understand {docproductname}'s capabilities
 
 [#s_Related-Documents]
 === Recommended Reading/Related Documents
@@ -410,9 +410,9 @@ Each type of Trigger Operational Mode has its own advantages:
 == Settings Tab
 
 Use the Settings tab after the first installation or reinstallation of the IZ ALPR system, or when some fundamental parameters need updating. For example, if the Camera System or DPU was moved to a different location (time zone).
+
 .Settings Tab
 image::image8.png[image,width=265,height=504]
-
 
 [NOTE]
 
@@ -476,11 +476,8 @@ image::image11.png[image,width=468,height=204]
 ** Deleting an SFTP user will automatically delete the user from FTP
 ** The Port is fixed; this is the port that the users' system will use to communicate with the {shortprodname} computer
 
-____
 .Adding an SFTP User
-
 image::image12.png[image,width=176,height=129]
-____
 
 [square]
 
@@ -504,11 +501,8 @@ The Time Zone selections are organized by continent. For example, the "America/"
 
 ========================================
 
-____
 .Date and Time Settings Section
-
 image::image13.png[image,width=490,height=180]
-____
 
 [square]
 * Set Time (Automatically/Manually)
