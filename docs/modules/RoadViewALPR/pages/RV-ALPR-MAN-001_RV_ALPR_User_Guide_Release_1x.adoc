@@ -227,15 +227,14 @@ If any device on your network is connected via wireless, IZ Discovery will not r
 +
 image::image2.PNG[image,width=723,height=485]
 
-
 +
 
 . If IZ Discovery does not recognize a device:
 
 [disk]
-** Press the device's reset button (if available)
-** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
-** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run IZ Discovery again.
+*** Press the device's reset button (if available)
+*** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
+*** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run IZ Discovery again.
 
 [#s_Changing-the-RoadView-Computers-IP-Address-and-Network-Settings]
 
