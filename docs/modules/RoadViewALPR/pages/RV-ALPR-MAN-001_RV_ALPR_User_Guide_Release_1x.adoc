@@ -16,6 +16,7 @@
 == RoadView ALPR
 [discrete]
 === User Guide
+[discrete]
 === Release 1.x
 
 Doc. No. RV-ALPR-MAN-001
@@ -223,9 +224,9 @@ If any device on your network is connected via wireless, IZ Discovery will not r
 
 .IZ Discovery Utility
 
-____
++
 image::image2.PNG[image,width=503,height=337]
-____
+
 
 +
 
@@ -373,9 +374,7 @@ The Trigger Operational Modes (set in the Detector Configuration section of the 
 
 [#f_Trigger-Operational-Modes]
 
-____
 .Trigger Operational Modes
-____
 
 image::image7.png[image,width=632,height=431]
 
