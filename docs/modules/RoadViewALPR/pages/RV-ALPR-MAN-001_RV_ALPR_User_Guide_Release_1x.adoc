@@ -230,10 +230,10 @@ image::image2.PNG[image,width=723,height=485]
 +
 
 . If IZ Discovery does not recognize a device:
-
-** Press the device's reset button (if available)
-** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
-** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run IZ Discovery again.
+[square]
+* Press the device's reset button (if available)
+* Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
+* Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run IZ Discovery again.
 
 [#s_Changing-the-RoadView-Computers-IP-Address-and-Network-Settings]
 
@@ -504,7 +504,7 @@ image::image13.png[image,width=490,height=180]
 
 [square]
 * Set Time (Automatically/Manually)
-[disk]
+[disc]
 ** If *Automatic*, the date and time will be updated from a central Network Time server. Select the appropriate server, and the interval at which you want {shortprodname} to poll for the date and time (selected from the Polling Interval dropdown).
 [circle]
 *** Click the "Update Now" button to update the date and time immediately.
