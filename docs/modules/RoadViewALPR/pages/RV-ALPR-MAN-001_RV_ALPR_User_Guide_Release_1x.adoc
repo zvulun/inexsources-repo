@@ -13,8 +13,6 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== {docproductname}
-[discrete]
 === User Guide
 [discrete]
 === Release 1.x
@@ -649,11 +647,7 @@ See separate document.
 [#s_Offline-Queue]
 
 === Offline Queue
-
-____
 .Offline Queue Section
-____
-
 image::image16.png[image,width=528,height=158]
 
 These parameters are currently used to configure offline Event storage for HTTP Integration (see <<s_HTTP-Integration>>).
@@ -664,24 +658,19 @@ These parameters are currently used to configure offline Event storage for HTTP 
 
 * *Expiration Enabled* - Enables the following parameters:
 
-[disk]
 
-** *Offline Events Expire After* -If an Event was added to the offline queue because there was no connection with client, and the connection with the client was not restored within this time, the Event will be removed from the offline queue.
+** *Offline Events Expire After* - If an Event was added to the offline queue because there was no connection with client, and the connection with the client was not restored within this time, the Event will be removed from the offline queue.
 
 ** *Send Offline Events After* - not currently used
 
 [#s_Monitoring-IZMonitoring-Server-Integration]
 
 === Monitoring (IZMonitoring Server Integration)
-
-____
 .Monitoring Section
-____
-
 image::image17.png[image,width=493,height=152]
 
 When Monitoring Integration (IZMonitoring Server Integration) is enabled, the following parameters appear:
-
+[square]
 * *URL* - URL of the IZMonitoring Server
 
 * *Keep Alive Timeout (seconds)* - How often {shortprodname} sends Keep Alive messages. If the Server does not receive another Keep Alive message before this time expires, the overall status (severity) of the product (camera) will be set to "Offline" automatically by the Server.
@@ -695,11 +684,7 @@ When Monitoring Integration (IZMonitoring Server Integration) is enabled, the fo
 [#s_ZAP-Integration]
 
 === ZAP Integration
-
-____
 .ZAP Integration Section
-____
-
 image::image18.png[image,width=393,height=448]
 
 [NOTE]
@@ -715,8 +700,6 @@ image::image18.png[image,width=393,height=448]
 [square]
 
 * *ZAP Server* - Check the box to have {shortprodname} act as a ZAP Server, to which ZAP Clients can connect (see the ZAP Protocol document for details - see <<s_Related-Documents>>):
-
-[disk]
 
 ** *Ports* - Each Lane configured in {shortprodname} will automatically have its own row in the table. Each Lane should have a different port number.
 

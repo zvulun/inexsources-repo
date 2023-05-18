@@ -2,6 +2,8 @@
 
 Welcome to the INEX/TECH documentation site.
 
+To see a larger view of an image, right-click on it and select "Open image in new tab"
+
 To save a document as PDF, use your browser's Print command (CTRL-p),
 then select Save as PDF as the destination.
 

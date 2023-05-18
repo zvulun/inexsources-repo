@@ -1,39 +1,39 @@
-01	RV-1_15-FIG-201_ConnectLaptopToNetwork	N
-02	RV-1_9-FIG-012b_IZDiscovery6020MainScreen	N
-03	RV-1_9-FIG-013b_ChangeIPUnCheckDHCP	Y
-04	RV-1_15-FIG-202_RV_Login_is	Y
-05	RV-1_11-FIG-020_Logging_Out	Y
-06	RV-1_15-FIG-009b_DirectOrIOTriggerExplained	Y
-07	RV-1_15-FIG-010a_OperationalModes	Y
-08	RV-1_11-FIG-003h_FullSettings Capture	S
-09	RV-1_15-FIG-100_SoftwareVersion	S
-10	RV-1_15-FIG-101_NetworkSettings	S
-11	RV-1_15-FIG-102_FTP_SFTP_Settings	S
-12	RV-1_15-FIG-103_Add_SFTP_User	S
-13	RV-1_15-FIG-033_DateAndTime	Y
-14	RV-1_15-FIG-104_HTTP_Integration	S
-15	RV-1_15-FIG-105_Add_HTTP_Integration	S
-16	RV-1_15-FIG-106_Offline_Queue	S
-17	RV-1_15-FIG-107_Monitoring	S
-18	RV-1_15-FIG-108_ZAP_Integration	Y
-19	RV-1_15-FIG-109_Direct_Trigger	S
-20	RV-1_15-FIG-110_INEX_IO	S
-21	RV-1_15-FIG-111_Journal	S
-22	RV-1_15-FIG-112_Event_Post_Process	S
-23	RV-1_15-FIG-113_Trigger_Offset	S
-24	RV-1_15-FIG-114_Detector_Config	S
-25	RV-1_6-FIG-007_WaitB4EventEmit	N
-26	RV-1_6-FIG-008_LPForgetInterval	N
-27	RV-1_9-FIG-011_HybridPrePostTime	N
-28	RV-1_15-FIG-115_Lanes	S
-29	RV-1_15-FIG-116_Add_Lane	S
-30	RV-1_15-FIG-028_CamerasSection	Y
-31	RV-1_15-FIG-117_Add_Camera	S
-32	RV-1_15-FIG-014d_Live_OV	S
-33	RV-1_11-FIG-021_ConfigureJournal	Y
-34	RV-1_15-FIG-029_Search_OV	N
-35	RV-1_15-FIG-032_Search_Page_Controls	N
-36	RV-1_15-FIG-118_Time_Filter_Popup	S
-37	RV-1_15-FIG-030_Calibration_OV	N
-38	RV-1_15-FIG-203_Pan_Tilt_Roll_Adjust	Y
-39	RV-1_15-FIG-034_SystemInfo		Y
+* 01	RV-1_15-FIG-201_ConnectLaptopToNetwork	N
+* 02	RV-1_9-FIG-012b_IZDiscovery6020MainScreen	N
+* 03	RV-1_9-FIG-013b_ChangeIPUnCheckDHCP	Y
+* 04	RV-1_15-FIG-202_RV_Login_is	Y
+* 05	RV-1_11-FIG-020_Logging_Out	Y
+* 06	RV-1_15-FIG-009b_DirectOrIOTriggerExplained	Y
+* 07	RV-1_15-FIG-010a_OperationalModes	Y
+* 08	RV-1_11-FIG-003h_FullSettings Capture	S
+* 09	RV-1_15-FIG-100_SoftwareVersion	S
+* 10	RV-1_15-FIG-101_NetworkSettings	S
+* 11	RV-1_15-FIG-102_FTP_SFTP_Settings	S
+* 12	RV-1_15-FIG-103_Add_SFTP_User	S
+* 13	RV-1_15-FIG-033_DateAndTime	Y
+* 14	RV-1_15-FIG-104_HTTP_Integration	S
+* 15	RV-1_15-FIG-105_Add_HTTP_Integration	S
+* 16	RV-1_15-FIG-106_Offline_Queue	S
+* 17	RV-1_15-FIG-107_Monitoring	S
+* 18	RV-1_15-FIG-108_ZAP_Integration	Y
+* 19	RV-1_15-FIG-109_Direct_Trigger	S
+* 20	RV-1_15-FIG-110_INEX_IO	S
+* 21	RV-1_15-FIG-111_Journal	S
+* 22	RV-1_15-FIG-112_Event_Post_Process	S
+* 23	RV-1_15-FIG-113_Trigger_Offset	S
+* 24	RV-1_15-FIG-114_Detector_Config	S
+* 25	RV-1_6-FIG-007_WaitB4EventEmit	N
+* 26	RV-1_6-FIG-008_LPForgetInterval	N
+* 27	RV-1_9-FIG-011_HybridPrePostTime	N
+* 28	RV-1_15-FIG-115_Lanes	S
+* 29	RV-1_15-FIG-116_Add_Lane	S
+* 30	RV-1_15-FIG-028_CamerasSection	Y
+* 31	RV-1_15-FIG-117_Add_Camera	S
+* 32	RV-1_15-FIG-014d_Live_OV	S
+* 33	RV-1_11-FIG-021_ConfigureJournal	Y
+* 34	RV-1_15-FIG-029_Search_OV	N
+* 35	RV-1_15-FIG-032_Search_Page_Controls	N
+* 36	RV-1_15-FIG-118_Time_Filter_Popup	S
+* 37	RV-1_15-FIG-030_Calibration_OV	N
+* 38	RV-1_15-FIG-203_Pan_Tilt_Roll_Adjust	Y
+* 39	RV-1_15-FIG-034_SystemInfo		Y
