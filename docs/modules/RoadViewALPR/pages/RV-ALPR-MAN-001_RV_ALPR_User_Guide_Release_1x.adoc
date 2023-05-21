@@ -529,16 +529,13 @@ If you are using an IZMobileLPI system, contact INEX for details on how to set t
 [square]
 
 * Click Add HTTP Integration. Note that this feature enables you to use multiple HTTP channels (see <<f_Adding-an-HTTP-Integration>>).
-
++
 [#f_Adding-an-HTTP-Integration]
-
 .Adding an HTTP Integration
 image::image15.png[image,width=264,height=384]
-
++
 [square]
-
 * *HTTP URL* - URL for an external system to listen on, in order to receive Events from {shortprodname} via the INEX HTTP protocol (see the appropriate INEX HTTP API Protocol document - see <<s_Related-Documents>>).
-
 +
 [NOTE]
 
@@ -549,8 +546,7 @@ For an external system, "api" at the end of the URL is optional.
 For IZCentral, "api" is mandatory; also, IZCentral currently only works with HTTP API 1.3 (chosen from the Protocol Version dropdown).
 
 ========================================
-
-
+[disc]
 ** Be sure to use the correct format:
 {empty} +
 http://<IP address of IZCentral or
@@ -569,7 +565,6 @@ For secure communication, https can be used in the URL. In such a case, use the 
 ========================================
 
 [square]
-
 * *Protocol Version* - The appropriate HTTP API version to use for your application.
 +
 [NOTE]
@@ -583,7 +578,6 @@ See the HTTP API 1.5 document - see <<s_Related-Documents>> .
 ========================================
 
 [square]
-
 * *Separated Images* - If checked, then images are sent in separate messages after the Event message; if unchecked, images and the Event are sent together in the Event message.
 
 * *Send Images Data* (automatically checked for HTTP API 2.3 and above, as chosen from the Protocol Version dropdown) - If checked, then image data is sent as "data base64 encoded" inside the message; if unchecked, this field is not included in the message.
