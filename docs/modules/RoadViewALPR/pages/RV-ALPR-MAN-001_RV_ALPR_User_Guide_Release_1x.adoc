@@ -248,9 +248,9 @@ image::image3.png[image,width=272,height=276]
 
 ========================================
 
-The device's IP Address +++cannot+++ be set to 10.10.2.xx or 10.10.3.xx
+The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
 
-*+++It is highly recommended to use a fixed IP address (not DHCP)+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages (see <<s_Logging-In-and-Logging-Out>>).
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages (see <<s_Logging-In-and-Logging-Out>>).
 
 A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using IZ Discovery.
 
@@ -274,7 +274,7 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 . To change the IP address:
 
-.. Verify that the address is not used by any other device on the network*
+.. *Verify that the address is not used by any other device on the network*
 
 .. Be sure to uncheck the DHCP box
 
@@ -305,14 +305,12 @@ The {shortprodname} GUI can now be accessed using https at the start of the URL.
 
 ========================================
 
-+
 . In the login screen, enter the default username and password: (root, root):
 
 +
 .Logging In to the Computer
 image::image4.png[image,width=209,height=143]
-
-
++
 . You should see the {shortprodname} Live (Journal) tab (see <<s_Live-Journal-Tab>>). To configure {shortprodname}, switch to the Settings tab (see <<s_Settings-Tab>>).
 
 [#s_Logging-Out-Multi-line-Menu-Icon]
@@ -381,7 +379,7 @@ Triggered mode must be used for DOT (USDOT number image capture) cameras.
 
 ========================================
 
-* +++Hybrid+++ - Events are continually created internally by LPR video analytics, but are only reported when a trigger is received. The Event closest in time to the trigger will be reported (sent to storage). See <<s_Detector-Configuration>> where the Hybrid Pre/Post Time parameters are described.
+* +++<u>+++Hybrid+++</u>+++ - Events are continually created internally by LPR video analytics, but are only reported when a trigger is received. The Event closest in time to the trigger will be reported (sent to storage). See <<s_Detector-Configuration>> where the Hybrid Pre/Post Time parameters are described.
 
 [NOTE]
 
@@ -451,7 +449,7 @@ image::image10.png[image,width=416,height=180]
 
 The Network Settings refer to the +++<u>+++{shortprodname} computer+++</u>+++ (+++<u>+++Camera System or DPU)+++</u>+++ - NOT the computer on which the browser displaying the GUI is running.
 
-*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
+* *+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
 
 ========================================
 
@@ -463,19 +461,16 @@ image::image11.png[image,width=468,height=204]
 
 [square]
 
-* Select the desired communication protocol - FTP, SFTP, or both +
+* Select the desired communication protocol - FTP, SFTP, or both {empty}+
 *Be sure to click the Save button at the end of this section if you change these protocol selections, or if you enable or disable FTP or SFTP (check boxes).*
-
 * Separate sections will appear for FTP and SFTP, enabling you to click a button to add user(s) who can connect to a {shortprodname} computer via FTP/SFTP
-
-
+[disc]
 ** FTP users are automatically added as SFTP users
 ** Deleting an SFTP user will automatically delete the user from FTP
 ** The Port is fixed; this is the port that the users' system will use to communicate with the {shortprodname} computer
 
 .Adding an SFTP User
 image::image12.png[image,width=176,height=129]
-
 [square]
 
 * Each user that appears in the table can be edited or deleted; however, only the password can be edited. In order to rename a user, you will need to delete the existing user and re-enter it.
@@ -492,7 +487,7 @@ image::image12.png[image,width=176,height=129]
 
 ========================================
 
-The Date and Time Settings refer to the location of the +++{shortprodname} computer+++ (+++Camera System or DPU)+++ - NOT the computer on which the browser displaying the GUI is running.
+The Date and Time Settings refer to the location of the +++<u>+++{shortprodname} computer (Camera System or DPU)+++</u>+++ - NOT the computer on which the browser displaying the GUI is running.
 
 The Time Zone selections are organized by continent. For example, the "America/" prefix covers various cities and countries in North America (U.S. and Canada) and South America.
 
@@ -510,9 +505,7 @@ image::image13.png[image,width=490,height=180]
 *** The icon (green check mark or red "x") indicates if the URL of the NTP server is correct, and the connection to it was successful.
 [disc]
 ** If *Manual*, click in the *Date and Time* box to display a calendar/time popup. You should also select a *Time Zone*; set it to the local time at the location in which the Camera System/DPU is installed (+++not+++ the UTC default).
-
 [square]
-
 * *Remember to click the Save button at the end of this section after making changes.*
 
 [#s_HTTP-Integration]
