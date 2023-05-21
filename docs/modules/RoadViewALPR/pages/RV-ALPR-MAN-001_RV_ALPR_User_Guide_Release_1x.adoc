@@ -129,7 +129,7 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 
 * Use IZ Discovery to find the initial IP Addresses of the cameras connected to your network - see <<s_Determining-the-IP-Addresses-of-the-Connected-Cameras>> .
 
-* Log into each camera, and change its IP address according to the requirements of your network. +++Use fixed addresses+++. Record these new addresses for use in {shortprodname} configuration. See <<s_Changing-the-IP-Addresses-of-the-Cameras>> .
+* Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {shortprodname} configuration. See <<s_Changing-the-IP-Addresses-of-the-Cameras>> .
 
 * Use IZ Discovery to find he IP address of the {shortprodname} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Changing-the-RoadView-Computers-IP-Address-and-Network-Settings>> .
 
@@ -504,7 +504,7 @@ image::image13.png[image,width=490,height=180]
 *** Click the "Update Now" button to update the date and time immediately.
 *** The icon (green check mark or red "x") indicates if the URL of the NTP server is correct, and the connection to it was successful.
 [disc]
-** If *Manual*, click in the *Date and Time* box to display a calendar/time popup. You should also select a *Time Zone*; set it to the local time at the location in which the Camera System/DPU is installed (+++not+++ the UTC default).
+** If *Manual*, click in the *Date and Time* box to display a calendar/time popup. You should also select a *Time Zone*; set it to the local time at the location in which the Camera System/DPU is installed (+++<u>+++not+++</u>+++ the UTC default).
 [square]
 * *Remember to click the Save button at the end of this section after making changes.*
 
@@ -791,9 +791,7 @@ The Journal (Local Storage) parameters determine if and how Events are stored on
 The Journal data is stored at: /mnt/data/journal
 
 [square]
-
 * *Cleanup Interval* - interval in milliseconds at which old Events are deleted in order to be within Max Count on Disk
-
 * *Max Count on Disk* - Maximum number of Events that can be stored on the {shortprodname} computer's disk; this parameter should be left at its default
 
 [#s_Events-Post-Processing]
@@ -802,32 +800,21 @@ The Journal data is stored at: /mnt/data/journal
 
 
 .Events Post-Processing Section
-
-
 image::image22.png[image,width=480,height=160]
 
 [square]
-
 * *Skip Empty Events* - When an Event does not include a plate recognition, it is ignored.
-
 * *Combining Enabled* - used for combining Events with the same or similar recognition
-
 [disc]
-
 ** *Send Timeout* - if another Event is received with the same or similar recognition results within this timeout, the two Events are merged into one Event
-
 ** *Lev Distance* - the maximum Levenshtein distance between the two plate reads for which the Events will be combined (see <<s_Detector-Configuration>> for a more detailed explanation of Levenshtein distance).
-
 ** *Align to Height* - when the LPR and OV images from the Events are merged, {shortprodname} selects the images in which the plate patch is closest to this percentage of the total height of the LPR/OV image. For example, if the images are 1000 pixels high, and this parameter is set to 75%, then {shortprodname} selects images in which the plate patch is closest (either above or below) a virtual line 750 pixels from the top of the image.
 
 [#s_Trigger-Offset]
 
 === Trigger Offset
 
-
 .Trigger Offset Section
-
-
 image::image23.png[image,width=477,height=85]
 
 The Trigger Offset affects all triggers (in all modes - see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>).
@@ -835,7 +822,6 @@ The Trigger Offset affects all triggers (in all modes - see <<s_Trigger-Sources-
 When Trigger Offset is enabled, the following parameter(s) appear:
 
 [square]
-
 * *Offset* (in milliseconds) - See <<s_Trigger-Sources-and-Trigger-Modes-Overview>>
 
 The trigger command may arrive at a different time than actual trigger's (physical) arrival time (see <<f_Trigger-Sources-and-Sequence>>). For example, there is often a delay between the time a vehicle passes over an inductive loop, and the time the loop controller generates a pulse. This latency can be compensated for by an "offset".
@@ -853,47 +839,28 @@ image::image24.png[image,width=433,height=472]
 Plate recognition is done in 3 stages:
 
 [square]
-
 * The position of the license plate is determined in each incoming frame (from each camera)
-
 * Characters from each license plate image are read and recognized
-
 * All of the reads of each plate are grouped to create LPR Events
 
 The following parameters are used to configure these processes. *Remember to click the Save button at the end of this section after changing these parameters:*
-
 [square]
-
 * *Mode* - see <<s_Trigger-Sources-and-Trigger-Modes-Overview>> . Note that parameters may appear or be hidden, depending on the chosen Mode.
-
 * *Region* - Region for which characters on the plate will be recognized. Select from the following options:
-
 [disc]
-
-** +++Australia+++
-
-** +++Canada/North America+++ - same as North America LPR, with a different state recognition model that includes Canadian states.
-
-** +++Europe+++
-
-** +++Israel+++
-
-** +++North America+++ - general recognition that includes all U.S.A. states
-
-** +++North America (OR)+++ - same as North America, with the addition of syntax checking (against predefined patterns of characters) for Oregon state
+** +++<u>+++Australia+++</u>+++
+** +++<u>+++Canada/North America+++</u>+++ - same as North America LPR, with a different state recognition model that includes Canadian states.
+** +++<u>+++Europe+++</u>+++
+** +++<u>+++Israel+++</u>+++
+** +++<u>+++North America+++</u>+++ - general recognition that includes all U.S.A. states
+** +++<u>+++North America (OR)+++</u>+++ - same as North America, with the addition of syntax checking (against predefined patterns of characters) for Oregon state
 
 [square]
-
 * *State* - The State within the selected Region for which characters on the plate will be recognized. You can also select "ALL"; this indicates that the recognition engine will use a general model for this Region.
-
 * *Skip stacked characters (only for Regions with stacked character plates)* - When enabled, causes stacked characters to be excluded from the plate read.
-
 * *Detector confidence threshold* - The minimum Detector confidence that this rectangle is a license plate. If a read is at or above this threshold, the image is sent on for plate reading (plate character) processing.
-
 * *Plate reader confidence threshold* - The minimum Plate Reader confidence that the characters read are correct. If a read is at or above this threshold, an Event is created. If more than one camera is capturing images from a lane, the image with the highest confidence among the cameras is used.
-
 * *Plate reader regexp filter* - Only license plate reads meeting these regular expression filter criteria will have Events created for them. Typically, the default should be used (.* = allow all reads).
-
 * *Min plate read count* - To increase read accuracy, plates are read from more than one video frame. If the same plate read results match on at least this number of frames, then the Event will be created. +
 For slow-moving traffic, this parameter should be increased. +
 For faster traffic, you will only be able to set it to a small number of reads.
@@ -937,11 +904,11 @@ image::image26.png[image,width=507,height=97]
 
 * *Max Levenshtein distance* - Different reads of the same plate may not be identical due to shadows, sunlight, blurred images, etc. However, we want to minimize these effects by treating slightly different reads as the same result. We allow a maximum "distance" (number of changes required to match two strings) between plate reads in an Event. If the distance is less than or equal to this parameter, then the comparison is considered to be a valid match for the Event.
 
-* *JPEG frame quality, 0-100 (0=no frame sent)* - The Overview image JPEG frame quality used to send images to IZCentral or a 3rd party system**_._**
+* *JPEG frame quality, 0-100 (0=no frame sent)* - The Overview image JPEG frame quality used to send images to IZCentral or a 3rd party system.
 
-* *JPEG plate quality, 0-100 (0=no frame sent)* - The LPR image JPEG frame quality used to send images to IZCentral or a 3rd party system**_._**
+* *JPEG plate quality, 0-100 (0=no frame sent)* - The LPR image JPEG frame quality used to send images to IZCentral or a 3rd party system.
 
-* *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++all+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
+* *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
 
 * *Image Resize* - when enabled, and the Event confidence is equal or higher than the Resize Confidence parameter, then each LPR and OV image is resized according to the Image Width (and the height is resized proportionally).
 
@@ -1013,7 +980,7 @@ image::image27.png[image,width=624,height=170]
 
 [disc]
 
-** Trigger 1 will be checked against the Hybrid Pre/Post time and use the closest Event - Event 1 or Event 2 (most likely). Note that Trigger 1 is closest to +++Event+++ 2, even though it is closer to the +++best LPR frame+++ in Event 1.
+** Trigger 1 will be checked against the Hybrid Pre/Post time and use the closest Event - Event 1 or Event 2 (most likely). Note that Trigger 1 is closest to +++<u>+++Event+++</u>+++ 2, even though it is closer to the +++<u>+++best LPR frame+++</u>+++ in Event 1.
 
 ** Trigger 2 will use Event 2.
 
@@ -1035,11 +1002,11 @@ image::image28.png[image,width=617,height=87]
 
 [disc]
 
-** +++Edit+++ - edit the Lane's parameters
+** +++<u>+++Edit+++</u>+++ - edit the Lane's parameters
 
-** +++Delete+++ - delete the Lane (a warning will be displayed)
+** +++<u>+++Delete+++</u>+++ - delete the Lane (a warning will be displayed)
 
-** +++Trigger+++ - send a software trigger immediately to {shortprodname} (works in all modes except NonTriggered)
+** +++<u>+++Trigger+++</u>+++ - send a software trigger immediately to {shortprodname} (works in all modes except NonTriggered)
 
 [NOTE]
 
@@ -1121,9 +1088,9 @@ If you are using an IZMobileLPI system, contact INEX for details on how to set t
 
 [disc]
 
-** +++Edit+++ - edit the camera's parameters (see <<f_Add-Edit-Camera-Dialog>>)
+** +++<u>+++Edit+++</u>+++ - edit the camera's parameters (see <<f_Add-Edit-Camera-Dialog>>)
 
-** +++Delete+++ - delete the camera (a warning will be displayed)
+** +++<u>+++Delete+++</u>+++ - delete the camera (a warning will be displayed)
 
 [square]
 
@@ -1196,9 +1163,9 @@ http:// <camera IP address>
 
 ** *Type* - Type of camera (LPR or View); used for integration with IZCentral
 
-** *Trigger Pre* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++before+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>).
+** *Trigger Pre* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++<u>+++before+++</u>+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>).
 
-** *Trigger Post* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++after+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>).
+** *Trigger Post* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++<u>+++after+++</u>+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>).
 
 [#s_Live-Journal-Tab]
 
