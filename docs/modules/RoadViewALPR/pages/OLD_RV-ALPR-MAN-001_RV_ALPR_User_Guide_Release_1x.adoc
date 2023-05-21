@@ -18,7 +18,6 @@
 == RoadView ALPR *_\{TBD\}_*
 [discrete]
 === User Guide
-
 Doc. No. RV-ALPR-MAN-001
 //blank line helps to separate doc no. from TOC
 {empty} +
