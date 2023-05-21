@@ -639,18 +639,13 @@ image::image16.png[image,width=528,height=158]
 These parameters are currently used to configure offline Event storage for HTTP Integration (see <<s_HTTP-Integration>>).
 
 [square]
-
 * *Send Offline Events Every* - not currently used
-
 * *Expiration Enabled* - Enables the following parameters:
-
-
+[disc]
 ** *Offline Events Expire After* - If an Event was added to the offline queue because there was no connection with client, and the connection with the client was not restored within this time, the Event will be removed from the offline queue.
-
 ** *Send Offline Events After* - not currently used
 
 [#s_Monitoring-IZMonitoring-Server-Integration]
-
 === Monitoring (IZMonitoring Server Integration)
 .Monitoring Section
 image::image17.png[image,width=493,height=152]
