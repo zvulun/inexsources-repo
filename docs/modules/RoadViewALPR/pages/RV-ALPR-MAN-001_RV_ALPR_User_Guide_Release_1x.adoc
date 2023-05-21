@@ -679,59 +679,33 @@ image::image18.png[image,width=393,height=448]
 ========================================
 
 [square]
-
 * *ZAP Server* - Check the box to have {shortprodname} act as a ZAP Server, to which ZAP Clients can connect (see the ZAP Protocol document for details - see <<s_Related-Documents>>):
-
+[disc]
 ** *Ports* - Each Lane configured in {shortprodname} will automatically have its own row in the table. Each Lane should have a different port number.
-
 ** *ZAP Version* - ZAP communication protocol version. It is recommended to use version 4.4. The connected clients must use the same version.
-
 ** *Confidence Filter* - the confidence level below which Events are not sent
-
 ** *Keep Time (seconds)* - how long a Capture message is to be left in memory before it will be deleted (if a Keep message is not received)
-
 ** *Offline Enabled* - check this box to enable the ZAP offline queue
-
 ** *FTP Enabled (for ZAP Server) -* when a client is connected to {shortprodname} via ZAP, images can be sent to the client via FTP if this checkbox is checked.
-
 [circle]
-
-*** +++FTP Server+++ - the IP address of the FTP server
-
-*** +++FTP Port+++ - the port on the FTP server listening for FTP messages
-
-*** +++FTP Folder+++ - the folder path on the FTP server where the images will be stored
-
-*** +++FTP User+++ - the username used to access the FTP server
-
-*** +++FTP Password+++ - the password used to access the FTP server
-
-*** +++FTP Keep Alive Rate (seconds)+++ - time (in seconds) between attempts to check that the connection with the FTP server is still alive
-
+*** +++<u>+++FTP Server+++</u>+++ - the IP address of the FTP server
+*** +++<u>+++FTP Port+++</u>+++ - the port on the FTP server listening for FTP messages
+*** +++<u>+++FTP Folder+++</u>+++ - the folder path on the FTP server where the images will be stored
+*** +++<u>+++FTP User+++</u>+++ - the username used to access the FTP server
+*** +++<u>+++FTP Password+++</u>+++ - the password used to access the FTP server
+*** +++<u>+++FTP Keep Alive Rate (seconds)+++</u>+++ - time (in seconds) between attempts to check that the connection with the FTP server is still alive
 [square]
-
-* *ZAP Client* - Check the box to have {shortprodname} act as a ZAP Client, which will connect to a ZAP Server (see the ZAP Protocol document for details - see <<s_Related-Documents>>). +
-+ +
+* *ZAP Client* - Check the box to have {shortprodname} act as a ZAP Client, which will connect to a ZAP Server (see the ZAP Protocol document for details - see <<s_Related-Documents>>). {empty} +
 If you want {shortprodname} to work with IZCentral, {shortprodname} can only be working as a ZAP Client. In this mode, the {shortprodname} ZAP Client port must match the IZCentral ZAP port (see the IZCentral documentation - see <<s_Related-Documents>>).
-
-[disk]
-
+[disc]
 ** *IP* - The IP address of the ZAP Server (to which {shortprodname} acting as a client should connect)
-
 ** *Port* - The port number of the ZAP Server
-
 ** *ZAP Version* - ZAP communication protocol version. It is recommended to use version 4.4. The server being connected to must use the same version.
-
 ** *Confidence Filter* - the confidence level below which Events are not sent
-
 ** *Keep Time (seconds)* - how long a Capture message is to be left in memory before it will be deleted (if a Keep message is not received)
-
 ** *Offline Enabled* - check this box to enable the ZAP offline queue
-
 ** *FTP Enabled (for ZAP Client) -* when {shortprodname} is connected to a ZAP server, images can be sent to the server via FTP if this checkbox is checked. (See the FTP Server items for the definition of the additional FTP parameters.)
-
 [square]
-
 * *Remember to click the Save button under the Detection Configuration section after changing these parameters.*
 
 [#s_Direct-Trigger]
