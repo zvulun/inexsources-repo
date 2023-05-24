@@ -831,25 +831,16 @@ Note that in hybrid mode, it is recommended to set this parameter greater than 0
 image::image25.png[image,width=504,height=186]
 [square]
 * *LP forget interval, ms* - {shortprodname} may not have been able to read a plate over the course of several frames, which appear between two groups of frames with correct reads. +
-+ +
 If the size of this "hole" is large, then the vehicle has probably disappeared but then returned. This value controls whether or not to consider the two sequences of captures to be a single Event, or two separate Events.
-
-+
-
 
 .Illustration of LP Forget Interval
 
 image::image26.png[image,width=507,height=97]
 
 
-+
-
 [square]
-
 * *Max Levenshtein distance* - Different reads of the same plate may not be identical due to shadows, sunlight, blurred images, etc. However, we want to minimize these effects by treating slightly different reads as the same result. We allow a maximum "distance" (number of changes required to match two strings) between plate reads in an Event. If the distance is less than or equal to this parameter, then the comparison is considered to be a valid match for the Event.
-
 * *JPEG frame quality, 0-100 (0=no frame sent)* - The Overview image JPEG frame quality used to send images to IZCentral or a 3rd party system.
-
 * *JPEG plate quality, 0-100 (0=no frame sent)* - The LPR image JPEG frame quality used to send images to IZCentral or a 3rd party system.
 
 * *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
