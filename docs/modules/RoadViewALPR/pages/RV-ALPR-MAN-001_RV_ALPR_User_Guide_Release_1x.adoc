@@ -1063,13 +1063,9 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 *** Click on the multi-line menu icon at the upper right of the {shortprodname} screen
 *** Select "Configure Journal"
 
-+
-
 .Configure Journal (Multi-line Menu)
 
 image::image33.png[image,width=136,height=113]
-
-+
 
 [circle]
 *** Select the additional columns to display, such as: +++<u>+++State+++</u>+++ (state displayed on plate), +++<u>+++State Confidence+++</u>+++ (confidence that the state has been recognized accurately), +++<u>+++Class+++</u>+++ (vehicle class, such as car or truck), +++<u>+++Class Confidence+++</u>+++ (confidence that the class has been recognized accurately) and +++<u>+++Direction+++</u>+++ (direction vehicle was traveling - forward or backward - according to the direction arrow configured in the Calibration tab - see <<s_Calibration-Tab>>). (These additional columns will also appear on the Search tab - see <<s_Search-Tab>>)
