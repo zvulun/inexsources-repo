@@ -1197,15 +1197,15 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
 * Each row includes (additional items can be added from the multi-line menu icon > Configure Journal selection - continue reading):
 
-** +++Transaction (Event) ID+++. Note that each camera has its own Transaction ID sequence, so the same IDs may be used for different cameras.
+** +++<u>+++Transaction (Event) ID+++</u>+++. Note that each camera has its own Transaction ID sequence, so the same IDs may be used for different cameras.
 
-** +++Lane Name+++ - Lane name as configured for the camera(s) viewing this lane in the Settings tab - see <<s_Lanes>>
+** +++<u>+++Lane Name+++</u>+++ - Lane name as configured for the camera(s) viewing this lane in the Settings tab - see <<s_Lanes>>
 
-** +++Date and time+++ when the Event was recorded
+** +++<u>+++Date and time+++</u>+++ when the Event was recorded
 
-** +++License Plate number+++ (LPR)
+** +++<u>+++License Plate number+++</u>+++ (LPR)
 
-** +++Recognition confidence+++, expressed as a percentage
+** +++<u>+++Recognition confidence+++</u>+++, expressed as a percentage
 
 ** To add columns to the Live (and Search) tab displays:
 
@@ -1227,7 +1227,7 @@ image::image33.png[image,width=136,height=113]
 
 [circle]
 
-*** Select the additional columns to display, such as: +++State+++ (state displayed on plate), +++State Confidence+++ (confidence that the state has been recognized accurately), +++Class+++ (vehicle class, such as car or truck), +++Class Confidence+++ (confidence that the class has been recognized accurately) and +++Direction+++ (direction vehicle was traveling - forward or backward - according to the direction arrow configured in the Calibration tab - see <<s_Calibration-Tab>>). (These additional columns will also appear on the Search tab - see <<s_Search-Tab>>)
+*** Select the additional columns to display, such as: +++<u>+++State+++</u>+++ (state displayed on plate), +++<u>+++State Confidence+++</u>+++ (confidence that the state has been recognized accurately), +++<u>+++Class+++</u>+++ (vehicle class, such as car or truck), +++<u>+++Class Confidence+++</u>+++ (confidence that the class has been recognized accurately) and +++<u>+++Direction+++</u>+++ (direction vehicle was traveling - forward or backward - according to the direction arrow configured in the Calibration tab - see <<s_Calibration-Tab>>). (These additional columns will also appear on the Search tab - see <<s_Search-Tab>>)
 
 [square]
 
@@ -1363,7 +1363,7 @@ image::image36.png[image,width=317,height=308]
 
 [square]
 
-* *Text filters* (LPR, State, Class) - Enter characters to find within the strings. For example, KZ will find **+++KZ+++**R3791 and J**+++KZ+++**0714.
+* *Text filters* (LPR, State, Class) - Enter characters to find within the strings. For example, KZ will find **+++<u>+++KZ+++</u>+++**R3791 and J**+++<u>+++KZ+++</u>+++**0714.
 
 * *Direction* - Select All, Forward, (Unknown) or Backward
 
@@ -1505,9 +1505,9 @@ These parameters affect how {shortprodname} controls an external illuminator:
 
 [disc]
 
-** +++Disable+++ - never trigger the illuminator
+** +++<u>+++Disable+++</u>+++ - never trigger the illuminator
 
-** +++Enable+++ - camera and external illuminator behavior are optimized for night-time recognition. Recommended use is for calibration.
+** +++<u>+++Enable+++</u>+++ - camera and external illuminator behavior are optimized for night-time recognition. Recommended use is for calibration.
 
 [circle]
 
@@ -1517,7 +1517,7 @@ These parameters affect how {shortprodname} controls an external illuminator:
 
 [disc]
 
-** +++Auto+++ - automatically senses day/night, in order to decide whether to trigger an external illuminator, according to the Camera System's location (as defined by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
+** +++<u>+++Auto+++</u>+++ - automatically senses day/night, in order to decide whether to trigger an external illuminator, according to the Camera System's location (as defined by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
 
 +
 
