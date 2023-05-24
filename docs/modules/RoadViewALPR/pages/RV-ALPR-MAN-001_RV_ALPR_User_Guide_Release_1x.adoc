@@ -895,17 +895,12 @@ image::image27.png[image,width=624,height=170]
 image::image28.png[image,width=617,height=87]
 
 [square]
-
 * Actions:
-
 [disc]
-
 ** +++<u>+++Edit+++</u>+++ - edit the Lane's parameters
-
 ** +++<u>+++Delete+++</u>+++ - delete the Lane (a warning will be displayed)
-
 ** +++<u>+++Trigger+++</u>+++ - send a software trigger immediately to {shortprodname} (works in all modes except NonTriggered)
-
++
 [NOTE]
 
 ========================================
@@ -919,20 +914,15 @@ Each "Lane" is actually a virtual Lane. For example, if you have two Camera Syst
 ========================================
 
 +
-
-
 .Add/Edit Lane Dialog
 
 image::image29.png[image,width=265,height=151]
 
+[square]
+* *ID* (required) - The identification number of the lane to be captured by the cameras. This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
+* *Name* (required) - The name of the Lane as it will appear in the GUI. This name will also be sent in HTTP and ZAP messages.
 
 +
-
-[square]
-
-* *ID* (required) - The identification number of the lane to be captured by the cameras. This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
-
-* *Name* (required) - The name of the Lane as it will appear in the GUI. This name will also be sent in HTTP and ZAP messages.
 
 [NOTE]
 
@@ -943,23 +933,14 @@ If you have upgraded from a previous {shortprodname} version in which only Lane 
 ========================================
 
 [square]
-
 * *Avg Speed (for DOT cameras only)* - The average vehicle speed expected in this Lane
-
 * *Distance* *(for DOT cameras only)* - The distance between the trigger device and the camera
-
 * *Location (for ALPR cameras only)* - Select one of the following options:
-
 [disc]
-
 ** *Unknown* -The camera's position relative to vehicles is unknown.
-
 ** *Front* -the camera in this Lane is capturing images from the front of vehicles
-
 ** *Rear* - the camera in this Lane is capturing images from the rear of vehicles
-
 [square]
-
 * *Ignore Opposite Direction* - if enabled, then all Events for vehicles moving in the direction opposite to the direction arrow in the Calibration tab will be ignored (see <<s_Calibration-Tab>>). Note that you can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>).
 
 [#s_Cameras]
