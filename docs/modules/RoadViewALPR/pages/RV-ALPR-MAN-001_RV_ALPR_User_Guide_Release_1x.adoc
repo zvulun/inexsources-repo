@@ -842,83 +842,41 @@ image::image26.png[image,width=507,height=97]
 * *Max Levenshtein distance* - Different reads of the same plate may not be identical due to shadows, sunlight, blurred images, etc. However, we want to minimize these effects by treating slightly different reads as the same result. We allow a maximum "distance" (number of changes required to match two strings) between plate reads in an Event. If the distance is less than or equal to this parameter, then the comparison is considered to be a valid match for the Event.
 * *JPEG frame quality, 0-100 (0=no frame sent)* - The Overview image JPEG frame quality used to send images to IZCentral or a 3rd party system.
 * *JPEG plate quality, 0-100 (0=no frame sent)* - The LPR image JPEG frame quality used to send images to IZCentral or a 3rd party system.
-
 * *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
-
 * *Image Resize* - when enabled, and the Event confidence is equal or higher than the Resize Confidence parameter, then each LPR and OV image is resized according to the Image Width (and the height is resized proportionally).
-
 [disc]
-
 ** *Image Width* - the resize width
-
 ** *Resize Confidence* - the Event confidence threshold for enabling resizing
-
 [square]
-
 * *Two Line Plate -* When enabled, invokes the capability to recognize two-line plates (in which the license plate number consists of two rows).
-
 [disc]
-
 ** *Threshold* - if the ratio of the width of the plate to its height is less than this threshold, then the plate very likely has two lines. The plate read will be the lower number added to the upper number.
-
 ** *Padding Width* (%) - the percentage of the width of the plate to be removed from each side of the upper and lower images before putting the two numbers together. This eliminates empty space before the composite number is sent for recognition.
-
 ** *Padding Height* (%) - the percentage of the height of the plate
-
 [circle]
-
 *** This percentage is measured from the top, to determine where to crop the plate to determine how to extract the upper number's image
-
 *** This same percentage is measured from the bottom, to determine where to crop the plate to determine how to extract the lower number's image
-
 [square]
-
 * *Vehicle Class Detection -* enables/disables vehicle class detection (car, bus, etc.). This item can be shown on the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>).
-
 * *State recognition* - Enables state recognition (an Overview camera must have been defined and configured)
-
 * *Send default state* *(only if State recognition* *is enabled) -* If no State was recognized, checking this box enables sending the Default State Value in the HTTP message for the Event as per the following additional parameters that appear: (If unchecked, no State field will be sent in the message.)
-
 [disc]
-
 ** *Default state value* - The default value to be sent in the HTTP message for the Event if no State was recognized.
-
 ** *State confidence threshold* - The minimum confidence percentage for State recognition
-
 [square]
-
 * *LPR Stub Enabled* -If a plate was detected, but without a plate read, {shortprodname} sends the text defined in the LPR Stub text box, along with the LPR Stub Confidence value:
-
 [disc]
-
 ** *LPR Stub* - for example, "NOREAD"
-
 *** LPR Stub Confidence* - for example, 0
-
 [square]
-
 * *Hybrid Pre Time (for Hybrid mode only)* -Time in milliseconds before the trigger to search for the closest Event to the trigger (see <<f_Illustration-of-Hybrid-Pre-Post-Time>>)
-
 * *Hybrid Post Time (for Hybrid mode only)* - Time in milliseconds after the trigger to search for the closest Event to the trigger (see <<f_Illustration-of-Hybrid-Pre-Post-Time>>)
-
-+
-
 [#f_Illustration-of-Hybrid-Pre-Post-Time]
-
-
 .Illustration of Hybrid Pre/Post Time
-
-
 image::image27.png[image,width=624,height=170]
-
-+
-
 [disc]
-
 ** Trigger 1 will be checked against the Hybrid Pre/Post time and use the closest Event - Event 1 or Event 2 (most likely). Note that Trigger 1 is closest to +++<u>+++Event+++</u>+++ 2, even though it is closer to the +++<u>+++best LPR frame+++</u>+++ in Event 1.
-
 ** Trigger 2 will use Event 2.
-
 ** Trigger 3 will wait for a new Event. If a new Event does not arrive within the Hybrid Post Time, a trigger Event will be created, without an LPR read, but with associated images and a timestamp.
 
 [#s_Lanes]
