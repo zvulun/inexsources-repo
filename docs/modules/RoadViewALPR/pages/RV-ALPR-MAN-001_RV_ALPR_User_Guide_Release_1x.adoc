@@ -1065,28 +1065,17 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
 +
 
-
 .Configure Journal (Multi-line Menu)
 
 image::image33.png[image,width=136,height=113]
 
-
-+
-
 [circle]
-
 *** Select the additional columns to display, such as: +++<u>+++State+++</u>+++ (state displayed on plate), +++<u>+++State Confidence+++</u>+++ (confidence that the state has been recognized accurately), +++<u>+++Class+++</u>+++ (vehicle class, such as car or truck), +++<u>+++Class Confidence+++</u>+++ (confidence that the class has been recognized accurately) and +++<u>+++Direction+++</u>+++ (direction vehicle was traveling - forward or backward - according to the direction arrow configured in the Calibration tab - see <<s_Calibration-Tab>>). (These additional columns will also appear on the Search tab - see <<s_Search-Tab>>)
-
 [square]
-
 * Pause/Run mode:
-
 [disc]
-
 ** Pause the grid display by clicking on a row, or by using the pause button in the middle of the controls under the large image (). You can also click on the large image to toggle between Pause and Run mode. This is useful if you want to examine a specific Event.
-
 ** You can also use these controls to move through the grid (next/previous Event, or start/end of Events).
-
 ** Start the display running in real-time again using the Run button () or by clicking on the large image. This will refresh the display, and resume displaying Events, starting from the 20 most recent Events.
 
 [NOTE]
@@ -1100,9 +1089,7 @@ As you Pause/Run the Live grid, you may see momentary icons ( or ) appearing in 
 ========================================
 
 [square]
-
 * The text below the Pause/Run controls displays a summary of the Event's information.
-
 * The thumbnail images below the larger image pane display the overview and plate patch images from each camera. Click on one of the thumbnail images to display it in the larger image pane.
 
 [NOTE]
@@ -1116,21 +1103,13 @@ If you are using a camera with one sensor (such as the IZ600F), you will see 2 t
 ========================================
 
 [square]
-
 * Zoom in on an area of interest in the large image (requires a mouse with a wheel):
-
 [disc]
-
 ** Pause the grid
-
 ** Hover (do not click) over the area of interest; the cursor will change to a magnifying glass.
-
 ** Mouse wheel up a little at a time to enlarge the image
-
 ** As the image enlarges, you may need to readjust the cursor position to re-focus on the area of interest
-
 [square]
-
 * To save images, right-click on the large image pane, and save the image
 
 [#s_Search-Tab]
