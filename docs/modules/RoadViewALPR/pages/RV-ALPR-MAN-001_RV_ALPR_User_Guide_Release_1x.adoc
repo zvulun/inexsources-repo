@@ -962,19 +962,12 @@ If you are using an IZMobileLPI system, contact INEX for details on how to set t
 ========================================
 
 [square]
-
 * Actions:
-
 [disc]
-
 ** +++<u>+++Edit+++</u>+++ - edit the camera's parameters (see <<f_Add-Edit-Camera-Dialog>>)
-
 ** +++<u>+++Delete+++</u>+++ - delete the camera (a warning will be displayed)
-
 [square]
-
 * *Camera table headers:* Camera ID, Lane ID, Name, URL, Type (as configured when the camera was added)
-
 * *Image* - Thumbnail image from a recent camera image
 
 [WARNING]
@@ -983,29 +976,22 @@ If you are using an IZMobileLPI system, contact INEX for details on how to set t
 
 If you add a camera, or edit a camera's parameters and click the Save button in this dialog (even if you did not change the URL), you may see a warning icon in the Image column. The reappearance of the image indicates that the core software has restarted, and Events will resume being captured and displayed in the Live tab, with the following changes:
 
-+ +
-- The Transaction ID will restart at 1 for that camera. +
-+ +
-- The history of previous Events for that camera will be cleared
+* The Transaction ID will restart at 1 for that camera. +
+* The history of previous Events for that camera will be cleared
 
 ========================================
 
 [square]
-
 * *Add Camera* (button at end of Cameras section):
-
 +
 
 [#f_Add-Edit-Camera-Dialog]
-
 
 .Add/Edit Camera Dialog
 
 image::image31.png[image,width=230,height=272]
 
-
 [disc]
-
 ** *Lane ID* - The identification number of the lane being captured by the camera(s). Select a Lane number you defined (see <<s_Lanes>>). This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
 
 [NOTE]
@@ -1021,29 +1007,17 @@ You could also position cameras to be in different positions (front/rear as in a
 ========================================
 
 [disc]
-
 ** *Camera ID* - For internal use; should be unique in the overall IZ ALPR system
-
 ** *Name* - Camera name for internal use; should be unique in the overall IZ ALPR system
-
 ** *URL* - RTSP or HTTP URL:
-
 [circle]
-
 *** RTSP stream URL example: +
-+ +
 rtsp://<camera IP address>/cam0_0
-
-*** HTTP URL example: +
-+ +
+*** HTTP URL example:
 http:// <camera IP address>
-
 [disc]
-
 ** *Type* - Type of camera (LPR or View); used for integration with IZCentral
-
 ** *Trigger Pre* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++<u>+++before+++</u>+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>).
-
 ** *Trigger Post* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++<u>+++after+++</u>+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>).
 
 [#s_Live-Journal-Tab]
