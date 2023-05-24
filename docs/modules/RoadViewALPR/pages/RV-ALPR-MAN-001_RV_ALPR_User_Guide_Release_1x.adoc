@@ -1194,25 +1194,16 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 ========================================
 
 [square]
-
 * Each row includes (additional items can be added from the multi-line menu icon > Configure Journal selection - continue reading):
-
+[disc]
 ** +++<u>+++Transaction (Event) ID+++</u>+++. Note that each camera has its own Transaction ID sequence, so the same IDs may be used for different cameras.
-
 ** +++<u>+++Lane Name+++</u>+++ - Lane name as configured for the camera(s) viewing this lane in the Settings tab - see <<s_Lanes>>
-
 ** +++<u>+++Date and time+++</u>+++ when the Event was recorded
-
 ** +++<u>+++License Plate number+++</u>+++ (LPR)
-
 ** +++<u>+++Recognition confidence+++</u>+++, expressed as a percentage
-
 ** To add columns to the Live (and Search) tab displays:
-
 [circle]
-
 *** Click on the multi-line menu icon at the upper right of the {shortprodname} screen
-
 *** Select "Configure Journal"
 
 +
