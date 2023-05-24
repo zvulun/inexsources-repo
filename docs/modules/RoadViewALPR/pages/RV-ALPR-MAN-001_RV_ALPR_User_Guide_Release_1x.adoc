@@ -124,23 +124,14 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 == Quick Overview of Steps
 
 [square]
-
 * Reserve IP addresses for the components in your ALPR system - {shortprodname} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>> .
-
 * Use IZ Discovery to find the initial IP Addresses of the cameras connected to your network - see <<s_Determining-the-IP-Addresses-of-the-Connected-Cameras>> .
-
 * Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {shortprodname} configuration. See <<s_Changing-the-IP-Addresses-of-the-Cameras>> .
-
 * Use IZ Discovery to find he IP address of the {shortprodname} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Changing-the-RoadView-Computers-IP-Address-and-Network-Settings>> .
-
 * Review the different trigger sources and sequences, and triggering operational modes (see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>)
-
 * Log in to {shortprodname}, and configure {shortprodname} using the Settings tab, including adding the connected Lanes and cameras - see <<s_Settings-Tab>> .
-
 * On the Calibration tab, adjust the zoom and focus to get a clear, sharp picture. Set the expected plate minimum and maximum width, capture zone and other parameters. See <<s_Search-Tab>> .
-
 * On the Live tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<s_Live-Journal-Tab>> .
-
 * Use the Search tab to find records stored in the {shortprodname} database. See <<s_Search-Tab>> .
 
 [#s_System-Overview]
@@ -318,9 +309,7 @@ image::image4.png[image,width=209,height=143]
 === Logging Out (Multi-line Menu Icon)
 
 [square]
-
 * Click on the multi-line menu icon at the upper right of the {shortprodname} screen
-
 * Select "Logout"
 
 .Logout (Multi-line Menu)
@@ -339,15 +328,10 @@ image::image6.png[image,width=624,height=307]
 The system constantly captures video frames and stores them in a buffer. However, the Triggering Mode determines if all, or only some of, these frames will be used for license plate recognition and Event building. Other parameters affect how many frames before (pre) and after (post) the trigger will be used:
 
 [square]
-
 * Protocol sections on the Settings tab (see <<s_Settings-Tab>>)
-
 * Direct Trigger (see <<s_Direct-Trigger>>)
-
 * INEX I/O Controller (see <<s_INEX-IO-Controller>>)
-
 * Trigger Offset (see <<s_Trigger-Offset>>)
-
 * The number of Trigger Pre and Trigger Post frames (defined when a camera is configured - see <<s_Cameras>>)
 
 [NOTE]
@@ -366,11 +350,9 @@ The Trigger Operational Modes (set in the Detector Configuration section of the 
 image::image7.png[image,width=632,height=431]
 
 [square]
-
 * +++<u>+++NonTriggered+++</u>+++ - Events are created and reported using LPR video analytics
-
 * +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
-
++
 [NOTE]
 
 ========================================
@@ -378,9 +360,9 @@ image::image7.png[image,width=632,height=431]
 Triggered mode must be used for DOT (USDOT number image capture) cameras.
 
 ========================================
-
+[square]
 * +++<u>+++Hybrid+++</u>+++ - Events are continually created internally by LPR video analytics, but are only reported when a trigger is received. The Event closest in time to the trigger will be reported (sent to storage). See <<s_Detector-Configuration>> where the Hybrid Pre/Post Time parameters are described.
-
++
 [NOTE]
 
 ========================================
@@ -389,15 +371,13 @@ In Hybrid mode, if no recognition was possible (no vehicle, no plate, unrecogniz
 See <<s_Trigger-Sources-and-Trigger-Modes-Overview>> and <<s_Cameras>> .
 
 ========================================
-
+[square]
 * +++<u>+++NonTriggered With Trigger+++</u>+++ - NonTriggered Events are continually created and reported by LPR video analytics. In addition, Triggered Events are created and reported when a trigger is received.
 
 Each type of Trigger Operational Mode has its own advantages:
 
 [square]
-
 * *Triggered types* require external triggering hardware or software, and are more accurate. All vehicle images are recorded, even if the plate was not recognized. In addition, LPR Events can be generated on demand by third-party systems.
-
 * *NonTriggered types* do not require any external triggering hardware (such as inductive loops). However, they are less accurate.
 
 [#s_Settings-Tab]
@@ -424,9 +404,7 @@ After clicking the Save button at the end of the Detector Configuration section,
 The box at the upper right of the Settings screen shows:
 
 [square]
-
 * The {shortprodname} software version
-
 * The model, part number and serial number of the camera(s) {shortprodname} is communicating with:
 
 .Software Version and Camera Information Section
@@ -440,7 +418,6 @@ image::image9.png[image,width=356,height=130]
 image::image10.png[image,width=416,height=180]
 [square]
 * If needed, set the {shortprodname} computer's IP address parameters.
-
 * *Remember to click the Save button in this section; the change will be applied immediately.*
 
 [IMPORTANT]
@@ -460,7 +437,6 @@ The Network Settings refer to the +++<u>+++{shortprodname} computer+++</u>+++ (+
 image::image11.png[image,width=468,height=204]
 
 [square]
-
 * Select the desired communication protocol - FTP, SFTP, or both {empty}+
 *Be sure to click the Save button at the end of this section if you change these protocol selections, or if you enable or disable FTP or SFTP (check boxes).*
 * Separate sections will appear for FTP and SFTP, enabling you to click a button to add user(s) who can connect to a {shortprodname} computer via FTP/SFTP
@@ -468,15 +444,12 @@ image::image11.png[image,width=468,height=204]
 ** FTP users are automatically added as SFTP users
 ** Deleting an SFTP user will automatically delete the user from FTP
 ** The Port is fixed; this is the port that the users' system will use to communicate with the {shortprodname} computer
-
++
 .Adding an SFTP User
 image::image12.png[image,width=176,height=129]
 [square]
-
 * Each user that appears in the table can be edited or deleted; however, only the password can be edited. In order to rename a user, you will need to delete the existing user and re-enter it.
-
 * Remember to click Save after changing the password.
-
 * If a user is added, deleted or changed (except for a password change), the changes are saved automatically
 
 [#s_Date-and-Time-Settings]
@@ -527,7 +500,6 @@ If you are using an IZMobileLPI system, contact INEX for details on how to set t
 ========================================
 
 [square]
-
 * Click Add HTTP Integration. Note that this feature enables you to use multiple HTTP channels (see <<f_Adding-an-HTTP-Integration>>).
 +
 [#f_Adding-an-HTTP-Integration]
@@ -579,25 +551,15 @@ See the HTTP API 1.5 document - see <<s_Related-Documents>> .
 
 [square]
 * *Separated Images* - If checked, then images are sent in separate messages after the Event message; if unchecked, images and the Event are sent together in the Event message.
-
 * *Send Images Data* (automatically checked for HTTP API 2.3 and above, as chosen from the Protocol Version dropdown) - If checked, then image data is sent as "data base64 encoded" inside the message; if unchecked, this field is not included in the message.
-
 * *Offline Enabled* - Used if you want to enable offline saving of Events and images via HTTP. If you try to send an Event, but do not have a connection to the server, then this event will be put in an offline queue, and sent again when connection with the server is restored. Note that if you enable offline capabilities, you must configure the offline queue parameters (see <<s_Offline-Queue>>).
-
 * *Send Triggers* (only enabled for HTTP API versions 1.3 to 1.6, as chosen from the Protocol Version dropdown) - If checked, then {shortprodname} will send Trigger Received messages to the server. The meaning of this command is: The camera has received a trigger to create an Event. The Event is being processed, and will be available soon.
-
 * *Keep Alive Interval* (ms) - How often a status message is sent from {shortprodname} to the server
-
 * *Event/Images Timeout* (ms) - If an Event or image message cannot be sent for this timeout period, then the event/image is put in the offline queue
-
 * *Status Timeout* (ms) - If a status message cannot be sent to the server for this amount of time, {shortprodname} stops sending the message, and sends it again at the next Keep Alive Interval
-
 * *Lane ID* - the Lane for which Events and statuses will be sent ("All" or a specific Lane)
-
 * *After clicking the Save button, adding/editing an integration can take several seconds*
-
 * *Each integration (channel) that appears in the table can be edited or deleted*
-
 * *If you delete an entry, you will be asked to verify the deletion.*
 
 [#s_Plate-Recognizer-Not-Used]
@@ -653,13 +615,9 @@ image::image17.png[image,width=493,height=152]
 When Monitoring Integration (IZMonitoring Server Integration) is enabled, the following parameters appear:
 [square]
 * *URL* - URL of the IZMonitoring Server
-
 * *Keep Alive Timeout (seconds)* - How often {shortprodname} sends Keep Alive messages. If the Server does not receive another Keep Alive message before this time expires, the overall status (severity) of the product (camera) will be set to "Offline" automatically by the Server.
-
 * *Status Timeout (seconds)* - How often {shortprodname} sends a full status message to the Server.
-
 * *Disk Critical Threshold -* When the percentage of used space on the disk (where the {shortprodname} storage is located) is above this number, then a critical disk status is sent to the Server.
-
 * *Remember to click the Save button at the end of the Detector Configuration section after making changes.*
 
 [#s_ZAP-Integration]
@@ -726,7 +684,6 @@ The "trigger time" used can be influenced by using the rising edge or falling ed
 * +++<u>+++Disabled+++</u>+++ - Triggers will not be generated
 * +++<u>+++OnRise+++</u>+++ - A trigger is generated when the voltage level sensed on the trigger wires moves from low to high
 * +++<u>+++OnFall+++</u>+++ - A trigger is generated when the voltage level sensed on the trigger wires moves from high to low
-
 * *Remember to click the Save button under the Detection Configuration section after changing these parameters.*
 
 [#s_INEX-IO-Controller]
@@ -854,7 +811,6 @@ The following parameters are used to configure these processes. *Remember to cli
 ** +++<u>+++Israel+++</u>+++
 ** +++<u>+++North America+++</u>+++ - general recognition that includes all U.S.A. states
 ** +++<u>+++North America (OR)+++</u>+++ - same as North America, with the addition of syntax checking (against predefined patterns of characters) for Oregon state
-
 [square]
 * *State* - The State within the selected Region for which characters on the plate will be recognized. You can also select "ALL"; this indicates that the recognition engine will use a general model for this Region.
 * *Skip stacked characters (only for Regions with stacked character plates)* - When enabled, causes stacked characters to be excluded from the plate read.
@@ -867,25 +823,13 @@ For faster traffic, you will only be able to set it to a small number of reads.
 
 * *Wait before event emit, ms* - (affects results in NonTriggered or Hybrid modes) +
 The minimum time from the first plate read until the time the Event will be built (emitted) - which can result in a greater number of frames used than the "Min plate read count" parameter. You may want to get LPR results with better confidence by increasing this number. {shortprodname} will wait for more correct reads before the Event is built (see <<f_Illustration-of-Wait-Before-Event-Emit>>). +
-+ +
 As a vehicle approaches a camera, waiting longer will usually (depending on road geometry) result in images of the plate getting larger and easier to read accurately. +
-+ +
 Note that in hybrid mode, it is recommended to set this parameter greater than 0. Setting this parameter to 0 will result in lower read confidence, since the trigger and the first read will occur close together.
 
-+
-
 [#f_Illustration-of-Wait-Before-Event-Emit]
-
-
 .Illustration of Wait Before Event Emit
-
 image::image25.png[image,width=504,height=186]
-
-
-+
-
 [square]
-
 * *LP forget interval, ms* - {shortprodname} may not have been able to read a plate over the course of several frames, which appear between two groups of frames with correct reads. +
 + +
 If the size of this "hole" is large, then the vehicle has probably disappeared but then returned. This value controls whether or not to consider the two sequences of captures to be a single Event, or two separate Events.
