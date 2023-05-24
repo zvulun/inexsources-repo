@@ -827,7 +827,9 @@ As a vehicle approaches a camera, waiting longer will usually (depending on road
 Note that in hybrid mode, it is recommended to set this parameter greater than 0. Setting this parameter to 0 will result in lower read confidence, since the trigger and the first read will occur close together.
 
 [#f_Illustration-of-Wait-Before-Event-Emit]
+
 .Illustration of Wait Before Event Emit
+
 image::image25.png[image,width=504,height=186]
 [square]
 * *LP forget interval, ms* - {shortprodname} may not have been able to read a plate over the course of several frames, which appear between two groups of frames with correct reads. +
@@ -836,7 +838,6 @@ If the size of this "hole" is large, then the vehicle has probably disappeared b
 .Illustration of LP Forget Interval
 
 image::image26.png[image,width=507,height=97]
-
 
 [square]
 * *Max Levenshtein distance* - Different reads of the same plate may not be identical due to shadows, sunlight, blurred images, etc. However, we want to minimize these effects by treating slightly different reads as the same result. We allow a maximum "distance" (number of changes required to match two strings) between plate reads in an Event. If the distance is less than or equal to this parameter, then the comparison is considered to be a valid match for the Event.
@@ -867,13 +868,17 @@ image::image26.png[image,width=507,height=97]
 * *LPR Stub Enabled* -If a plate was detected, but without a plate read, {shortprodname} sends the text defined in the LPR Stub text box, along with the LPR Stub Confidence value:
 [disc]
 ** *LPR Stub* - for example, "NOREAD"
-*** LPR Stub Confidence* - for example, 0
+** *LPR Stub Confidence* - for example, 0
 [square]
 * *Hybrid Pre Time (for Hybrid mode only)* -Time in milliseconds before the trigger to search for the closest Event to the trigger (see <<f_Illustration-of-Hybrid-Pre-Post-Time>>)
 * *Hybrid Post Time (for Hybrid mode only)* - Time in milliseconds after the trigger to search for the closest Event to the trigger (see <<f_Illustration-of-Hybrid-Pre-Post-Time>>)
+
 [#f_Illustration-of-Hybrid-Pre-Post-Time]
+
 .Illustration of Hybrid Pre/Post Time
+
 image::image27.png[image,width=624,height=170]
+
 [disc]
 ** Trigger 1 will be checked against the Hybrid Pre/Post time and use the closest Event - Event 1 or Event 2 (most likely). Note that Trigger 1 is closest to +++<u>+++Event+++</u>+++ 2, even though it is closer to the +++<u>+++best LPR frame+++</u>+++ in Event 1.
 ** Trigger 2 will use Event 2.
