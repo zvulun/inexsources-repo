@@ -1017,7 +1017,7 @@ You could also position cameras to be in different positions (front/rear as in a
 [circle]
 *** RTSP stream URL example: +
 rtsp://<camera IP address>/cam0_0
-*** HTTP URL example:
+*** HTTP URL example: +
 http:// <camera IP address>
 [disc]
 ** *Type* - Type of camera (LPR or View); used for integration with IZCentral
@@ -1078,6 +1078,8 @@ image::image33.png[image,width=136,height=113]
 ** You can also use these controls to move through the grid (next/previous Event, or start/end of Events).
 ** Start the display running in real-time again using the Run button () or by clicking on the large image. This will refresh the display, and resume displaying Events, starting from the 20 most recent Events.
 
++
+
 [NOTE]
 
 ========================================
@@ -1091,6 +1093,8 @@ As you Pause/Run the Live grid, you may see momentary icons ( or ) appearing in 
 [square]
 * The text below the Pause/Run controls displays a summary of the Event's information.
 * The thumbnail images below the larger image pane display the overview and plate patch images from each camera. Click on one of the thumbnail images to display it in the larger image pane.
+
++
 
 [NOTE]
 
