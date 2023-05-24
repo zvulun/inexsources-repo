@@ -1067,7 +1067,7 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
 image::image33.png[image,width=136,height=113]
 
-[circle]
+
 *** Select the additional columns to display, such as: +++<u>+++State+++</u>+++ (state displayed on plate), +++<u>+++State Confidence+++</u>+++ (confidence that the state has been recognized accurately), +++<u>+++Class+++</u>+++ (vehicle class, such as car or truck), +++<u>+++Class Confidence+++</u>+++ (confidence that the class has been recognized accurately) and +++<u>+++Direction+++</u>+++ (direction vehicle was traveling - forward or backward - according to the direction arrow configured in the Calibration tab - see <<s_Calibration-Tab>>). (These additional columns will also appear on the Search tab - see <<s_Search-Tab>>)
 [square]
 * Pause/Run mode:
@@ -1075,7 +1075,6 @@ image::image33.png[image,width=136,height=113]
 ** Pause the grid display by clicking on a row, or by using the pause button in the middle of the controls under the large image (). You can also click on the large image to toggle between Pause and Run mode. This is useful if you want to examine a specific Event.
 ** You can also use these controls to move through the grid (next/previous Event, or start/end of Events).
 ** Start the display running in real-time again using the Run button () or by clicking on the large image. This will refresh the display, and resume displaying Events, starting from the 20 most recent Events.
-
 +
 
 [NOTE]
@@ -1087,6 +1086,8 @@ image::image33.png[image,width=136,height=113]
 As you Pause/Run the Live grid, you may see momentary icons ( or ) appearing in the middle of the large image pane to indicate the mode.
 
 ========================================
+
++
 
 [square]
 * The text below the Pause/Run controls displays a summary of the Event's information.
