@@ -1331,7 +1331,7 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 ========================================
 
 +
-
++
 [circle]
 *** *Latitude* - latitude coordinate of Camera System's location
 *** *Longitude* - longitude coordinate of Camera System's location
