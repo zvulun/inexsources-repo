@@ -1167,39 +1167,23 @@ After applying filters, remember that you will need to use the page controls to 
 ========================================
 
 [square]
-
 * *Numeric filters* (Event ID, Confidences) - Enter a specific number (example '30'), a number and a '>' symbol (example '>30') or a number and a '<' symbol (example '<30')
-
 * *Lane Name* - Select All, or a specific lane
-
 * *Time* - Click in the filter box to display a date/time selection popup. Uncheck the check box to clear the filter (see <<f_Search-Tab-Time-Filter-Selection-Popup>>).
 
 +
-
 [#f_Search-Tab-Time-Filter-Selection-Popup]
-
-
 .Search Tab: Time Filter Selection Popup
-
 image::image36.png[image,width=317,height=308]
-
-
 +
 
 [disc]
-
 ** Use the buttons at the top of the From/To sections to move between months
-
 ** Use the calendar grids to select dates
-
 ** Use the sliders to specify time
-
 ** Click the Now button to select the current time/date
-
 [square]
-
 * *Text filters* (LPR, State, Class) - Enter characters to find within the strings. For example, KZ will find **+++<u>+++KZ+++</u>+++**R3791 and J**+++<u>+++KZ+++</u>+++**0714.
-
 * *Direction* - Select All, Forward, (Unknown) or Backward
 
 [#s_Calibration-Tab]
@@ -1231,15 +1215,10 @@ image::image37.png[image,width=624,height=313]
 .. *Roll*: Adjust the Roll so the license plate's image is horizontally straight, parallel to the ground (not tilted to one side).
 
 +
-
 [#f_Pan-Tilt-Roll-Angle-Adjustments]
-
-
 .Pan/Tilt/Roll (Angle) Adjustments
-
 image::image39.png[image,width=311,height=186]
-
-
++
 . When the correct position is achieved, make a preliminary tightening of the mounting screws.
 
 . Define the Region of Interest (*ROI*) by dragging on the corners (vertices) of the trapezoidal region. For optimum recognition accuracy, the ROI should be large enough to capture the region where plates could be found in images.
@@ -1261,13 +1240,13 @@ This parameter can also be configured by dragging the small circle on the horizo
 This parameter can be used to ignore small plate reads. For example, if the image was taken when a vehicle is too far away, the characters are too small to be read - even by a human.
 
 . Define the *Plate Width Max*: Events will only be created for plate reads whose width is less than or equal to this parameter. It is recommended to enter approximately 350 in the *Plate Width Max* text box. +
-+ +
++
 This parameter can also be configured by dragging the large circle on the horizontal line on the Calibration tab (expressed in pixels). +
-+ +
++
 This parameter can be used to prevent false reads, such as large numbers on trucks.
 
 . Use the zoom and focus buttons to adjust the view of the video until the width of the plate is 150 pixels, and its plate image is clear and sharp. (The surrounding items, such as the vehicle body, do not need to be as sharp as the plate.)
-
++
 [IMPORTANT]
 
 ========================================
@@ -1277,9 +1256,10 @@ There is a delay between a click of a zoom/focus button and when you see the eff
 As you adjust the zoom and focus, you may need to reposition the camera in order to get the image of the plate back to the desired position.
 
 ========================================
++
 
 . *Direction (red arrow on video):* drag the head of the arrow around to point to the angle at which you expect vehicles to be moving**.** (The vehicle's direction is also sent to the IZCloud as part of an Event.) You can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>). +
-+ +
++
 You can set the "Ignore Opposite Direction" parameter in the Lanes section to ignore all Events for vehicles moving in the direction opposite to the direction arrow in the Calibration tab (see <<s_Lanes>>).
 
 . When you have finished, click the *Save* button. Wait several seconds for the display to refresh automatically, which indicates that the {shortprodname} recognition software is running again with the updated parameters.
@@ -1317,15 +1297,10 @@ This section provides the same information as in the upper right corner of the s
 === System Info Tab: Firmware Section
 
 [square]
-
 * Firmware Version - the firmware version of the IZIC board (proprietary INEX electronics) in the Camera System/DPU
-
 * New Firmware - enables you to update new firmware in the IZIC board
-
 [disc]
-
 ** Choose File - click this button to browse for the firmware file
-
 ** Update Firmware - click this button to update the firmware using the file you chose
 
 [#s_System-Info-Tab-Night-Mode-Section-for-Specific-Camera-Models-Only]
@@ -1335,23 +1310,14 @@ This section provides the same information as in the upper right corner of the s
 These parameters affect how {shortprodname} controls an external illuminator:
 
 [square]
-
 * *Night Mode*
-
 [disc]
-
 ** +++<u>+++Disable+++</u>+++ - never trigger the illuminator
-
 ** +++<u>+++Enable+++</u>+++ - camera and external illuminator behavior are optimized for night-time recognition. Recommended use is for calibration.
-
 [circle]
-
 *** *OV LED Intensity* - Relative intensity of the built-in white LEDs, expressed as a percentage of the maximum possible intensity
-
 *** *Illuminator Intensity* - (for IZS illuminators, synchronized with the Overview camera) Relative intensity of an external illuminator's LEDs, expressed as a percentage of the maximum possible intensity
-
 [disc]
-
 ** +++<u>+++Auto+++</u>+++ - automatically senses day/night, in order to decide whether to trigger an external illuminator, according to the Camera System's location (as defined by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
 
 +
@@ -1367,17 +1333,11 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 +
 
 [circle]
-
 *** *Latitude* - latitude coordinate of Camera System's location
-
 *** *Longitude* - longitude coordinate of Camera System's location
-
 *** *Post-Sunrise Offset* - time after actual sunrise to be considered as the start of the day
-
 *** *Pre-Sunset Offset* -time before actual sunset to be considered the end of the day
-
 [square]
-
 * *Remember to click the Save button at the end of this section after making changes.*
 
 [#s_System-Info-Tab-LPR-LED]
@@ -1387,17 +1347,12 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 These parameters enable you to control the camera's built-in IR LEDs.
 
 [square]
-
 * Mode
-
+[disc]
 ** *Off* - LEDs off
-
 ** *Multi-flash* - each frame is illuminated with a different light intensity
-
 ** *Anti-flickering* - reduces the visible flickering of the built-in IR LED illumination by disabling multi-flash mode and adjusting flash frequency
-
 [square]
-
 * *Intensity* - light intensity in percent, where 0 is no light, and 100 is maximum light
 
 [#s_Troubleshooting]
