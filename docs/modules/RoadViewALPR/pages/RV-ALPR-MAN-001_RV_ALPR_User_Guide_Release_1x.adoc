@@ -130,7 +130,7 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 * Use IZ Discovery to find he IP address of the {shortprodname} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Changing-the-RoadView-Computers-IP-Address-and-Network-Settings>> .
 * Review the different trigger sources and sequences, and triggering operational modes (see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>)
 * Log in to {shortprodname}, and configure {shortprodname} using the Settings tab, including adding the connected Lanes and cameras - see <<s_Settings-Tab>> .
-* On the Calibration tab, adjust the zoom and focus to get a clear, sharp picture. Set the expected plate minimum and maximum width, capture zone and other parameters. See <<s_Search-Tab>> .
+* On the Calibration tab, adjust the zoom and focus to get a clear, sharp picture. Set the expected plate minimum and maximum width, capture zone and other parameters. See <<s_Calibration-Tab>> .
 * On the Live tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<s_Live-Journal-Tab>> .
 * Use the Search tab to find records stored in the {shortprodname} database. See <<s_Search-Tab>> .
 
