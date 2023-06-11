@@ -404,7 +404,7 @@ If you want {shortprodname} to work with {software-server}, {shortprodname} can 
 
 .Calibration Tab
 
-image::/./DemoImages/image7.png[image,width=624,height=313]
+image::./DemoImages/image7.png[image,width=624,height=313]
 
 . When you see a vehicle at a typical capture position on the video, click on the video to pause it.
 
