@@ -340,7 +340,7 @@ image::./Demo/image5.png[image,width=490,height=180]
 
 .ZAP Integration Section
 
-image::./Demo/[image,width=393,height=448]
+image::./Demo/image6.png[image,width=393,height=448]
 
 [NOTE]
 
