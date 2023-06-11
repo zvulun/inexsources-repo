@@ -158,7 +158,7 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 
 .Connecting a Laptop
 
-image::image1.png[image,width=312,height=195]
+image::./Demo/image1.png[image,width=312,height=195]
 
 Connect your laptop to the same network switch the computer running {shortprodname} is connected to.
 
@@ -212,7 +212,7 @@ If any device on your network is connected via wireless, {software-discovery} wi
 
 .{software-discovery} Utility
 
-image::image2.PNG[image,width=503,height=337]
+image::./Demo/image2.PNG[image,width=503,height=337]
 
 . If {software-discovery} does not recognize a device:
 
@@ -230,7 +230,7 @@ image::image2.PNG[image,width=503,height=337]
 
 .Changing the Computer's Network Settings
 
-image::image3.png[image,width=226,height=230]
+image::./Demo/image3.png[image,width=226,height=230]
 
 [NOTE]
 
@@ -288,7 +288,7 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 .Logout (Multi-line Menu)
 
-image::image4.png[image,width=136,height=113]
+image::./Demo/image4.png[image,width=136,height=113]
 
 [NOTE]
 
@@ -318,7 +318,7 @@ The Time Zone selections are organized by continent. For example, the "America/"
 
 .Date and Time Settings Section
 
-image::image5.png[image,width=490,height=180]
+image::./Demo/image5.png[image,width=490,height=180]
 
 * Set Time (Automatically/Manually)
 
@@ -340,7 +340,7 @@ image::image5.png[image,width=490,height=180]
 
 .ZAP Integration Section
 
-image::image6.png[image,width=393,height=448]
+image::./Demo/[image,width=393,height=448]
 
 [NOTE]
 
@@ -404,11 +404,11 @@ If you want {shortprodname} to work with {software-server}, {shortprodname} can 
 
 .Calibration Tab
 
-image::./DemoImages/image7.png[image,width=624,height=313]
+image::./Demo/image7.png[image,width=624,height=313]
 
 . When you see a vehicle at a typical capture position on the video, click on the video to pause it.
 
-. It is recommended to use the view called "Draw image by maintaining aspect ratio (two-headed arrow)". You select this view by clicking on the right-most button at the upper left of the screen: image:image8.png[image,width=21,height=15]
+. It is recommended to use the view called "Draw image by maintaining aspect ratio (two-headed arrow)". You select this view by clicking on the right-most button at the upper left of the screen: image:./Demo/image8.png[image,width=21,height=15]
 
 . Select a camera from the dropdown list (LPR or OV).
 
@@ -428,7 +428,7 @@ image::./DemoImages/image7.png[image,width=624,height=313]
 
 .Pan/Tilt/Roll (Angle) Adjustments
 
-image::image9.png[image,width=311,height=186]
+image::./Demo/[image,width=311,height=186]
 
 . When the correct position is achieved, make a preliminary tightening of the mounting screws.
 
