@@ -428,7 +428,7 @@ image::./Demo/image7.png[image,width=624,height=313]
 
 .Pan/Tilt/Roll (Angle) Adjustments
 
-image::./Demo/[image,width=311,height=186]
+image::./Demo/image8.png[image,width=311,height=186]
 
 . When the correct position is achieved, make a preliminary tightening of the mounting screws.
 
