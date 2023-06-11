@@ -31,70 +31,70 @@ Doc. No. RV-ALPR-MAN-001
 // of file
 toc::[]
 
-{empty}[#s_About-This-Document]
+[#s_About-This-Document]
 
 == About This Document
 
-{empty}[#s_Who-Should-Read-this-Document]
+[#s_Who-Should-Read-this-Document]
 
 === Who Should Read this Document
 
 This document is for:
 
-* *Technical personnel* who want to install, configure, maintain and use \{docproductname} in their ALPR systems
+* *Technical personnel* who want to install, configure, maintain and use {docproductname} in their ALPR systems
 
-* *Project managers* who want to understand \{docproductname}'s capabilities
+* *Project managers* who want to understand {docproductname}'s capabilities
 
-{empty}[#s_Related-Documents]
+[#s_Related-Documents]
 
 === Recommended Reading/Related Documents
 
-{empty}[#t_Related-Documents]
+[#t_Related-Documents]
 
 .Related Documents
 
 [width="100%",cols="56%,44%",options="header",]
 |===
 |Doc. No. |Title
-|xref:RoadViewALPR:DocList.adoc[RV-ALPRrrr-MAN-001] |\{docproductname} Release Notes (for Release rrr)
-|xref: RoadViewALPR:DocList.adoc[RV-VDANLYTCS-TDSHEET] |\{shortprodname} Video Analytics Technical Data Sheet
-|xref:IZIO:DocList.adoc[IZIO-6060-MAN-001] |\{hw-iocontroller} Digital IO Controller Installation and User Guide
-|xref:IZIO:DocList.adoc[IZIO-6060-TECH-002] |ADAM (\{hw-iocontroller}) P2P Configuration
+|xref:RoadViewALPR:DocList.adoc[RV-ALPRrrr-MAN-001] |{docproductname} Release Notes (for Release rrr)
+|xref: RoadViewALPR:DocList.adoc[RV-VDANLYTCS-TDSHEET] |{shortprodname} Video Analytics Technical Data Sheet
+|xref:IZIO:DocList.adoc[IZIO-6060-MAN-001] |{hw-iocontroller} Digital IO Controller Installation and User Guide
+|xref:IZIO:DocList.adoc[IZIO-6060-TECH-002] |ADAM ({hw-iocontroller}) P2P Configuration
 a|
 xref:IZREMRELAY:DocList.adoc[IZREMRELAY-REV-A-TDSHEET]
 
 xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 
-|\{hw-webrelay-single} Remote (Web) Relays Series: Data Sheet and supporting documentation
-|xref:IZDiscovery:DocList.adoc[IZ Discovery Utility] |\{software-discovery} Utility software components
-|xref:ZAP-4-5:DocList.adoc[ZAP-450-SDK-002] |ZAP: \{compname-long} Application Protocol, Version 4.5
-|xref:ZAP-4-5:DocList.adoc[API-HTTPM-ICD-00n_INEX_HTTP_API_Rx_y_v_W] |\{compname-short} HTTP API for Major Version "M", Release "x.y"; document version W
-|xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-041] |\{software-monitoring}: Camera Monitoring API
-|xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-042] |\{software-monitoring} API
-|xref: IZCentral:DocList.adoc[IZCENTRAL-CORE-MAN-001] |IZCentral User Guide
+|{hw-webrelay-single} Remote (Web) Relays Series: Data Sheet and supporting documentation
+|xref:IZDiscovery:DocList.adoc[IZ Discovery Utility] |{software-discovery} Utility software components
+|xref:ZAP-4-5:DocList.adoc[ZAP-450-SDK-002] |ZAP: {compname-long} Application Protocol, Version 4.5
+|xref:ZAP-4-5:DocList.adoc[API-HTTPM-ICD-00n_INEX_HTTP_API_Rx_y_v_W] |{compname-short} HTTP API for Major Version "M", Release "x.y"; document version W
+|xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-041] |{software-monitoring}: Camera Monitoring API
+|xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-042] |{software-monitoring} API
+|xref: IZCentral:DocList.adoc[IZCENTRAL-CORE-MAN-001] |{software-server} User Guide
 |xref:EULA:DocList.adoc[EULA-400-DOC-001]}_* |Software End User License Agreement (includes list of open source software)
-|xref:SLN-AmanoONE:DocList.adoc[RV-AMANO-MAN-001] |\{compname-short} ALPR Installation for AMANO
-|xref:SLN-IZCloudIntegration:DocList.adoc[RV-IZCLOUD-MAN-001] |\{compname-short} \{software-cloud} Integration
-|xref:SLN-TIBA:DocList.adoc[RV-TIBA-MAN-001] |\{compname-short} TIBA Integration
+|xref:SLN-AmanoONE:DocList.adoc[RV-AMANO-MAN-001] |{compname-short} ALPR Installation for AMANO
+|xref:SLN-IZCloudIntegration:DocList.adoc[RV-IZCLOUD-MAN-001] |{compname-short} {software-cloud} Integration
+|xref:SLN-TIBA:DocList.adoc[RV-TIBA-MAN-001] |{compname-short} TIBA Integration
 |===
 
-{empty}[#s_Applicability]
+[#s_Applicability]
 
 === Applicability
 
-This document is applicable to \{docproductname} software, release 1.15.64 and above.
+This document is applicable to {docproductname} software, release 1.15.64 and above.
 
-{empty}[#s_Support]
+[#s_Support]
 
 === Support
 
-Contact our support team via our website: http://www.\{compname-short}technologies.com
+Contact our support team via our website: http://www.inextechnologies.com
 
-{empty}[#s_Glossary-of-Terms]
+[#s_Glossary-of-Terms]
 
 == Glossary of Terms
 
-{empty}[#t_Glossary]
+[#t_Glossary]
 
 .Glossary
 
@@ -103,31 +103,31 @@ Contact our support team via our website: http://www.\{compname-short}technologi
 |Term |Explanation
 |ALPR |Automatic License Plate Recognition
 |DHCP |Dynamic Host Configuration Protocol. A DHCP server assigns a unique Internet Protocol (IP) address to each device connected to a network.
-|DPU |DPU is a generic term for \{compname-med} Data Processing Units. \{shortprodname} software can run on \{compname-med} DPUs with graphic processors, or on ALPR All-in-one Camera Systems with built-in processors.
-|IZ |\{compname-short}/ZAMIR (former company name; now called \{compname-long}, also called \{compname-med})
-|IZ ALPR system |An Automatic License Plate Recognition system utilizing cameras and \{shortprodname} software. The IZ ALPR system can capture LPR Events, and transmit them to other systems such as IZCentral.
-|IZCentral |Server software that communicates with one or more IZ ALPR systems. IZCentral provides a central repository for all LPR Events generated by the \{shortprodname}(s). IZCentral can also interface with many 3rd party systems via their proprietary protocols.
+|DPU |DPU is a generic term for {compname-med} Data Processing Units. {shortprodname} software can run on {compname-med} DPUs with graphic processors, or on ALPR All-in-one Camera Systems with built-in processors.
+|IZ |{compname-short}/ZAMIR (former company name; now called {compname-long}, also called {compname-med})
+|IZ ALPR system |An Automatic License Plate Recognition system utilizing cameras and {shortprodname} software. The IZ ALPR system can capture LPR Events, and transmit them to other systems such as {software-server}.
+|{software-server} |Server software that communicates with one or more IZ ALPR systems. {software-server} provides a central repository for all LPR Events generated by the {shortprodname}(s). {software-server} can also interface with many 3rd party systems via their proprietary protocols.
 |LPR Event |The identified occurrence of a passing vehicle by the IZ ALPR System. An LPR Event includes metadata (location, lane identifiers, timestamp, the identified license plate number, recognition confidence, and more), plus a set of related images; typically, an Overview image, an LPR camera image and an image of the license plate. Also called a Vehicle Event or Event. An Event may include images from more than one camera in the same Lane.
-|\{shortprodname} |The software responsible for capturing LPR Events, and transmitting them to other systems.
+|{shortprodname} |The software responsible for capturing LPR Events, and transmitting them to other systems.
 |.NET |Software framework that runs primarily on Microsoft Windows. See also WCF.
 |NIC |Network Interface Card
 |RTSP |Real Time Streaming Protocol. A network protocol designed to control streaming media servers.
 |Trigger |A command sent to an IZ ALPR system to create an LPR Event. Trigger sources can be from hardware signals, generated by software, or sent by a 3^rd^ party system via various protocols.
 |WCF |Windows Communication Foundation. A Microsoft class library that is included with the .NET Framework. See also .NET.
-|ZAP |Zamir Application Protocol - Proprietary \{compname-long} protocol for interfacing with an IZ ALPR system and IZCentral.
+|ZAP |Zamir Application Protocol - Proprietary {compname-long} protocol for interfacing with an IZ ALPR system and {software-server}.
 |===
 
-{empty}[#s_System-Requirements]
+[#s_System-Requirements]
 
 == System Requirements
 
-You will need to provide a laptop computer to use for configuration. +++If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight+++. Required software:
+You will need to provide a laptop computer to use for configuration. +++<u>+++If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight+++</u>+++. Required software:
 
 * Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 
 * Internet Explorer browser version 11 or higher, or the latest version of Chrome
 
-{empty}[NOTE]
+[NOTE]
 
 ========================================
 
@@ -136,115 +136,111 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 
 ========================================
 
-{empty}[#s_Quick-Overview-of-Steps]
+[#s_Quick-Overview-of-Steps]
 
 == Quick Overview of Steps
 
-* Reserve IP addresses for the components in your ALPR system - \{shortprodname} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>> .
+* Reserve IP addresses for the components in your ALPR system - {shortprodname} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>> .
 
-* Use \{software-discovery} to find the initial IP Addresses of the cameras connected to your network - see <<s_Determining-the-IP-Addresses-of-the-Connected-Cameras>> .
+* Use {software-discovery} to find the initial IP Addresses of the cameras connected to your network - see <<s_Determining-the-IP-Addresses-of-the-Connected-Cameras>> .
 
-* Log into each camera, and change its IP address according to the requirements of your network. +++Use fixed addresses+++. Record these new addresses for use in \{shortprodname} configuration. See <<s_Changing-the-IP-Addresses-of-the-Cameras>> .
+* Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {shortprodname} configuration. See <<s_Changing-the-IP-Addresses-of-the-Cameras>> .
 
-{empty}[#s_Preparation-for-Configuration]
+[#s_Preparation-for-Configuration]
 
 == Preparation for Configuration
 
-{empty}[#s_Connecting-a-Computer-Laptop-to-the-Network]
+[#s_Connecting-a-Computer-Laptop-to-the-Network]
 
 === Connecting a Computer/Laptop to the Network
 
-{empty}[#f_Connecting-a-Laptop]
+[#f_Connecting-a-Laptop]
 
 .Connecting a Laptop
 
-image:extracted-media/media/image1.png[image,width=312,height=195]
+image::image1.png[image,width=312,height=195]
 
-Connect your laptop to the same network switch the computer running \{shortprodname} is connected to.
+Connect your laptop to the same network switch the computer running {shortprodname} is connected to.
 
-{empty}[#s_Reserving-IP-Addresses-in-your-Network]
+[#s_Reserving-IP-Addresses-in-your-Network]
 
 === Reserving IP Addresses in your Network
 
-The \{compname-short} cameras have been pre-configured with default IP addresses. You will probably need to change these addresses to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your ALPR system (\{shortprodname} computer and cameras).
+The {compname-short} cameras have been pre-configured with default IP addresses. You will probably need to change these addresses to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your ALPR system ({shortprodname} computer and cameras).
 
-{empty}[#s_Determining-the-IP-Addresses-of-the-Connected-Cameras]
+[#s_Determining-the-IP-Addresses-of-the-Connected-Cameras]
 
 === Determining the IP Addresses of the Connected Cameras
 
-See your camera's Installation Guide for an explanation of how to determine the initial IP addresses of cameras on your network (using \{software-discovery}). You will need this information to log into the cameras, and to change the cameras' IP addresses.
+See your camera's Installation Guide for an explanation of how to determine the initial IP addresses of cameras on your network (using {software-discovery}). You will need this information to log into the cameras, and to change the cameras' IP addresses.
 
-{empty}[#s_Changing-the-IP-Addresses-of-the-Cameras]
+[#s_Changing-the-IP-Addresses-of-the-Cameras]
 
 === Changing the IP Addresses of the Cameras
 
-See your camera's Installation Guide for an explanation of how to log in to a camera, and how to edit its IP address (fixed addresses are highly recommended). Record the new addresses; you will need them to configure the \{shortprodname} software.
+See your camera's Installation Guide for an explanation of how to log in to a camera, and how to edit its IP address (fixed addresses are highly recommended). Record the new addresses; you will need them to configure the {shortprodname} software.
 
-{empty}[#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
+[#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
 
-=== Determining the IP Address of the \{shortprodname} Computer with \{software-discovery}
+=== Determining the IP Address of the {shortprodname} Computer with {software-discovery}
 
-The \{software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
+The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
 
-{empty}[NOTE]
-
-========================================
-
-If any device on your network is connected via wireless, \{software-discovery} will not recognize the device. In addition, if the computer running \{software-discovery} is connected via wireless, you will not see any devices displayed.
+[NOTE]
 
 ========================================
 
-. Download the \{software-discovery} software (see <<s_Related-Documents>>)
+If any device on your network is connected via wireless, {software-discovery} will not recognize the device. In addition, if the computer running {software-discovery} is connected via wireless, you will not see any devices displayed.
 
-. Run \{software-discovery}
+========================================
 
-. When \{software-discovery} first runs, you may see a Windows security warning. If so, click Run.
+. Download the {software-discovery} software (see <<s_Related-Documents>>)
+
+. Run {software-discovery}
+
+. When {software-discovery} first runs, you may see a Windows security warning. If so, click Run.
 
 . If you see a message related to the Windows firewall, click Allow.
 
-. \{software-discovery} will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
+. {software-discovery} will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
 
 .. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-the-RoadView-Computer-s-IP-Address-and-Network-Settings>>).
 
 .. Click Clear List to refresh the discovery process.
 
-{empty}[#f_IZ-Discovery-Utility]
+[#f_IZ-Discovery-Utility]
 
-.\{software-discovery} Utility
+.{software-discovery} Utility
 
-____
-image:extracted-media/media/image2.PNG[image,width=503,height=337]
-____
+image::image2.PNG[image,width=503,height=337]
 
-. If \{software-discovery} does not recognize a device:
+. If {software-discovery} does not recognize a device:
 
 ** Press the device's reset button (if available)
 
 ** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
 
-** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run \{software-discovery} again.
+** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run {software-discovery} again.
 
-{empty}[#s_Changing-the-RoadView-Computer-s-IP-Address-and-Network-Settings]
+[#s_Changing-the-RoadView-Computer-s-IP-Address-and-Network-Settings]
 
-=== Changing the \{shortprodname} Computer's IP Address and Network Settings
+=== Changing the {shortprodname} Computer's IP Address and Network Settings
 
-{empty}[#f_Changing-the-Computer-s-Network-Settings]
+[#f_Changing-the-Computer-s-Network-Settings]
 
 .Changing the Computer's Network Settings
 
-____
-image:extracted-media/media/image3.png[image,width=226,height=230]
-____
+image::image3.png[image,width=226,height=230]
 
-{empty}[NOTE]
+[NOTE]
 
 ========================================
 
-The device's IP Address +++cannot+++ be set to 10.10.2.xx or 10.10.3.xx
+The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
 
-*+++It is highly recommended to use a fixed IP address (not DHCP)+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages
 
-A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using \{software-discovery}.
+A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using {software-discovery}.
 
 If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
 
@@ -272,95 +268,91 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 .. Write down the new IP Address and click Save
 
-. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close \{software-discovery}, and then reopen it.
+. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
 
 . Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (see <<s_Logging-In-and-Logging-Out>>) and change the IP address.
 
-{empty}[#s_Logging-In-and-Logging-Out]
+[#s_Logging-In-and-Logging-Out]
 
 == Logging In and Logging Out
 
-{empty}[#s_Logging-Out-Multi-line-Menu-Icon]
+[#s_Logging-Out-Multi-line-Menu-Icon]
 
 === Logging Out (Multi-line Menu Icon)
 
-* Click on the multi-line menu icon at the upper right of the \{shortprodname} screen
+* Click on the multi-line menu icon at the upper right of the {shortprodname} screen
 
 * Select "Logout"
 
-{empty}[#f_Logout-Multi-line-Menu]
+[#f_Logout-Multi-line-Menu]
 
 .Logout (Multi-line Menu)
 
-____
-image:extracted-media/media/image4.png[image,width=136,height=113]
-____
+image::image4.png[image,width=136,height=113]
 
-{empty}[NOTE]
+[NOTE]
 
 ========================================
 
-The Network Settings refer to the +++\{shortprodname} computer+++ (+++Camera System or DPU)+++ - NOT the computer on which the browser displaying the GUI is running.
+The Network Settings refer to the +++<u>+++{shortprodname} computer+++</u>+++ (+++<u>+++Camera System or DPU)+++</u>+++ - NOT the computer on which the browser displaying the GUI is running.
 
-*+++It is highly recommended to use a fixed IP address (not DHCP)+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
 
 ========================================
 
-{empty}[#s_Date-and-Time-Settings]
+[#s_Date-and-Time-Settings]
 
 === Date and Time Settings
 
-{empty}[NOTE]
+[NOTE]
 
 ========================================
 
-The Date and Time Settings refer to the location of the +++\{shortprodname} computer+++ (+++Camera System or DPU)+++ - NOT the computer on which the browser displaying the GUI is running.
+The Date and Time Settings refer to the location of the +++<u>+++{shortprodname} computer+++</u>+++ (+++<u>+++Camera System or DPU)+++</u>+++ - NOT the computer on which the browser displaying the GUI is running.
 
 The Time Zone selections are organized by continent. For example, the "America/" prefix covers various cities and countries in North America (U.S. and Canada) and South America.
 
 ========================================
 
-{empty}[#f_Date-and-Time-Settings-Section]
+[#f_Date-and-Time-Settings-Section]
 
 .Date and Time Settings Section
 
-____
-image:extracted-media/media/image5.png[image,width=490,height=180]
-____
+image::image5.png[image,width=490,height=180]
 
 * Set Time (Automatically/Manually)
 
-** If *Automatic*, the date and time will be updated from a central Network Time server. Select the appropriate server, and the interval at which you want \{shortprodname} to poll for the date and time (selected from the Polling Interval dropdown).
+** If *Automatic*, the date and time will be updated from a central Network Time server. Select the appropriate server, and the interval at which you want {shortprodname} to poll for the date and time (selected from the Polling Interval dropdown).
 
 *** Click the "Update Now" button to update the date and time immediately.
 
 *** The icon (green check mark or red "x") indicates if the URL of the NTP server is correct, and the connection to it was successful.
 
-** If *Manual*, click in the *Date and Time* box to display a calendar/time popup. You should also select a *Time Zone*; set it to the local time at the location in which the Camera System/DPU is installed (+++not+++ the UTC default).
+** If *Manual*, click in the *Date and Time* box to display a calendar/time popup. You should also select a *Time Zone*; set it to the local time at the location in which the Camera System/DPU is installed (+++<u>+++not+++</u>+++ the UTC default).
 
 * Remember to click the Save button at the end of this section after making changes.
 
-{empty}[#s_ZAP-Integration]
+[#s_ZAP-Integration]
 
 === ZAP Integration
 
-{empty}[#f_ZAP-Integration-Section]
+[#f_ZAP-Integration-Section]
 
 .ZAP Integration Section
 
-image:extracted-media/media/image6.png[image,width=393,height=448]
+image::image6.png[image,width=393,height=448]
 
-{empty}[NOTE]
-
-========================================
-
-\{shortprodname} can send Events via HTTP, and act as both a ZAP Server and ZAP Client - all simultaneously.
+[NOTE]
 
 ========================================
 
-* *ZAP Server* - Check the box to have \{shortprodname} act as a ZAP Server, to which ZAP Clients can connect (see the ZAP Protocol document for details):
+{shortprodname} can send Events via HTTP, and act as both a ZAP Server and ZAP Client - all simultaneously.
 
-** *Ports* - Each Lane configured in \{shortprodname} will automatically have its own row in the table. Each Lane should have a different port number.
+========================================
+
+* *ZAP Server* - Check the box to have {shortprodname} act as a ZAP Server, to which ZAP Clients can connect (see the ZAP Protocol document for details):
+
+** *Ports* - Each Lane configured in {shortprodname} will automatically have its own row in the table. Each Lane should have a different port number.
 
 ** *ZAP Version* - ZAP communication protocol version. It is recommended to use version 4.4. The connected clients must use the same version.
 
@@ -370,25 +362,25 @@ image:extracted-media/media/image6.png[image,width=393,height=448]
 
 ** *Offline Enabled* - check this box to enable the ZAP offline queue
 
-** *FTP Enabled (for ZAP Server) -* when a client is connected to \{shortprodname} via ZAP, images can be sent to the client via FTP if this checkbox is checked.
+** *FTP Enabled (for ZAP Server) -* when a client is connected to {shortprodname} via ZAP, images can be sent to the client via FTP if this checkbox is checked.
 
-*** +++FTP Server+++ - the IP address of the FTP server
+*** +++<u>+++FTP Server+++</u>+++ - the IP address of the FTP server
 
-*** +++FTP Port+++ - the port on the FTP server listening for FTP messages
+*** +++<u>+++FTP Port+++</u>+++ - the port on the FTP server listening for FTP messages
 
-*** +++FTP Folder+++ - the folder path on the FTP server where the images will be stored
+*** +++<u>+++FTP Folder+++</u>+++ - the folder path on the FTP server where the images will be stored
 
-*** +++FTP User+++ - the username used to access the FTP server
+*** +++<u>+++FTP User+++</u>+++ - the username used to access the FTP server
 
-*** +++FTP Password+++ - the password used to access the FTP server
+*** +++<u>+++FTP Password+++</u>+++ - the password used to access the FTP server
 
-*** +++FTP Keep Alive Rate (seconds)+++ - time (in seconds) between attempts to check that the connection with the FTP server is still alive
+*** +++<u>+++FTP Keep Alive Rate (seconds)+++</u>+++ - time (in seconds) between attempts to check that the connection with the FTP server is still alive
 
-* *ZAP Client* - Check the box to have \{shortprodname} act as a ZAP Client, which will connect to a ZAP Server (see the ZAP Protocol document for details). +
+* *ZAP Client* - Check the box to have {shortprodname} act as a ZAP Client, which will connect to a ZAP Server (see the ZAP Protocol document for details). +
  +
-If you want \{shortprodname} to work with IZCentral, \{shortprodname} can only be working as a ZAP Client. In this mode, the \{shortprodname} ZAP Client port must match the IZCentral ZAP port (see the IZCentral documentation - see <<s_Related-Documents>>)
+If you want {shortprodname} to work with {software-server}, {shortprodname} can only be working as a ZAP Client. In this mode, the {shortprodname} ZAP Client port must match the {software-server} ZAP port (see the {software-server} documentation - see <<s_Related-Documents>>)
 
-** *IP* - The IP address of the ZAP Server (to which \{shortprodname} acting as a client should connect)
+** *IP* - The IP address of the ZAP Server (to which {shortprodname} acting as a client should connect)
 
 ** *Port* - The port number of the ZAP Server
 
@@ -400,23 +392,23 @@ If you want \{shortprodname} to work with IZCentral, \{shortprodname} can only b
 
 ** *Offline Enabled* - check this box to enable the ZAP offline queue
 
-** *FTP Enabled (for ZAP Client) -* when \{shortprodname} is connected to a ZAP server, images can be sent to the server via FTP if this checkbox is checked. (See the FTP Server items for the definition of the additional FTP parameters.)
+** *FTP Enabled (for ZAP Client) -* when {shortprodname} is connected to a ZAP server, images can be sent to the server via FTP if this checkbox is checked. (See the FTP Server items for the definition of the additional FTP parameters.)
 
 * Remember to click the Save button under the Detection Configuration section after changing these parameters.
 
-{empty}[#s_Calibration-Tab]
+[#s_Calibration-Tab]
 
 == Calibration Tab
 
-{empty}[#f_Calibration-Tab]
+[#f_Calibration-Tab]
 
 .Calibration Tab
 
-image:extracted-media/media/image7.png[image,width=624,height=313]
+image::image7.png[image,width=624,height=313]
 
 . When you see a vehicle at a typical capture position on the video, click on the video to pause it.
 
-. It is recommended to use the view called "Draw image by maintaining aspect ratio (two-headed arrow)". You select this view by clicking on the right-most button at the upper left of the screen: image:extracted-media/media/image8.png[image,width=21,height=15]
+. It is recommended to use the view called "Draw image by maintaining aspect ratio (two-headed arrow)". You select this view by clicking on the right-most button at the upper left of the screen: image:image8.png[image,width=21,height=15]
 
 . Select a camera from the dropdown list (LPR or OV).
 
@@ -432,19 +424,17 @@ image:extracted-media/media/image7.png[image,width=624,height=313]
 
 .. *Roll*: Adjust the Roll so the license plate's image is horizontally straight, parallel to the ground (not tilted to one side).
 
-{empty}[#f_Pan-Tilt-Roll-Angle-Adjustments]
+[#f_Pan-Tilt-Roll-Angle-Adjustments]
 
 .Pan/Tilt/Roll (Angle) Adjustments
 
-____
-image:extracted-media/media/image9.png[image,width=311,height=186]
-____
+image::image9.png[image,width=311,height=186]
 
 . When the correct position is achieved, make a preliminary tightening of the mounting screws.
 
 . Define the Region of Interest (*ROI*) by dragging on the corners (vertices) of the trapezoidal region. For optimum recognition accuracy, the ROI should be large enough to capture the region where plates could be found in images.
 
-{empty}[NOTE]
+[NOTE]
 
 ========================================
 
@@ -462,7 +452,7 @@ This parameter can be used to prevent false reads, such as large numbers on truc
 
 . Use the zoom and focus buttons to adjust the view of the video until the width of the plate is 150 pixels, and its plate image is clear and sharp. (The surrounding items, such as the vehicle body, do not need to be as sharp as the plate.)
 
-{empty}[NOTE]
+[NOTE]
 
 ========================================
 
@@ -472,20 +462,20 @@ As you adjust the zoom and focus, you may need to reposition the camera in order
 
 ========================================
 
-. *Direction (red arrow on video):* drag the head of the arrow around to point to the angle at which you expect vehicles to be moving**.** (The vehicle's direction is also sent to the \{software-cloud} as part of an Event.) You can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen. +
+. *Direction (red arrow on video):* drag the head of the arrow around to point to the angle at which you expect vehicles to be moving**.** (The vehicle's direction is also sent to the {software-cloud} as part of an Event.) You can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen. +
 You can set the "Ignore Opposite Direction" parameter in the Lanes section to ignore all Events for vehicles moving in the direction opposite to the direction arrow in the Calibration tab
 
-. When you have finished, click the *Save* button. Wait several seconds for the display to refresh automatically, which indicates that the \{shortprodname} recognition software is running again with the updated parameters.
+. When you have finished, click the *Save* button. Wait several seconds for the display to refresh automatically, which indicates that the {shortprodname} recognition software is running again with the updated parameters.
 
 . When the correct position is achieved, make a final tightening of the mounting hardware.
 
 . Repeat these steps for the other camera.
 
-{empty}[#s_Troubleshooting]
+[#s_Troubleshooting]
 
 == Troubleshooting
 
-{empty}[NOTE]
+[NOTE]
 
 ========================================
 
@@ -493,7 +483,7 @@ For details about items in the following list related to hardware or configurati
 
 ========================================
 
-{empty}[#t_Troubleshooting]
+[#t_Troubleshooting]
 
 .Troubleshooting
 
@@ -502,11 +492,11 @@ For details about items in the following list related to hardware or configurati
 |Symptom |Possible Solution
 |Thumbnails in Settings tab, in the Camera section at bottom have been replaced by red exclamation points and/or +
 The Live tab and Search tab are empty (no Events are detected) a|
-* Verify that each camera's IP address in the Camera System (or connected to the DPU), and the \{shortprodname} computer's IP address are all on the same subnet.
+* Verify that each camera's IP address in the Camera System (or connected to the DPU), and the {shortprodname} computer's IP address are all on the same subnet.
 
 * Verify that stable power at the correct level is being supplied to the cameras, even when under a heavy processing load.
 
-* Verify that the IP address(es) configured in \{shortprodname} match the IP addresses that you configured in the camera(s)..
+* Verify that the IP address(es) configured in {shortprodname} match the IP addresses that you configured in the camera(s)..
 
 |Recognition rates are low a|
 * On the Calibration tab, increase the size of the Region of Interest (ROI) - it may be too small to capture plates with high confidence
@@ -523,7 +513,7 @@ Examine the video from the Camera on the Calibration tab:
 
 |===
 
-{empty}[#s_Appendix-A-Document-Change-History]
+[#s_Appendix-A-Document-Change-History]
 
 == Appendix A - Document Change History
 
@@ -570,26 +560,26 @@ Updates for software version 1.9.13:
 
 * Camera Add/Edit dialog has changed since Lanes are defined in the new Lanes section
 
-* New screen shot for \{software-discovery} - First column changed from Product to Serial Number
+* New screen shot for {software-discovery} - First column changed from Product to Serial Number
 
 * Added notes reminding user that some settings may be different for IZMobileLPI configuration
 
 |1.30 |Mar. 3, 2021 a|
 Updates for software version 1.9.25
 
-* Support for new version of \{software-discovery} utility; new \{software-discovery} screen capture
+* Support for new version of {software-discovery} utility; new {software-discovery} screen capture
 
-* HTTP API 2.3 support (selectable from a new dropdown in the Settings screen), including triggering, was implemented - you can now trigger Events using the HTTP API protocol by sending the trigger from an external application to \{shortprodname} - see the HTTP API documentation. HTTP API 2.3 also supports the Communication options of Separated Images and Send Images Data.
+* HTTP API 2.3 support (selectable from a new dropdown in the Settings screen), including triggering, was implemented - you can now trigger Events using the HTTP API protocol by sending the trigger from an external application to {shortprodname} - see the HTTP API documentation. HTTP API 2.3 also supports the Communication options of Separated Images and Send Images Data.
 
 * New screen capture taken for Settings screen and associated dialogs
 
-|1.31 |Mar. 11, 2021 |* Improved quality of \{software-discovery} screen shots
+|1.31 |Mar. 11, 2021 |* Improved quality of {software-discovery} screen shots
 |1.40 |Apr. 19, 2021 a|
 * Removed cameras and IZODPU-G from Related Documents
 
 * Updated HTTP API document file format in Related Documents
 
-* Changed IZODPU-G to DPU where appropriate, since there are other DPUs that run \{shortprodname} software
+* Changed IZODPU-G to DPU where appropriate, since there are other DPUs that run {shortprodname} software
 
 * Changed screen shot of logging out, since multi-line menu icon at upper right now has an additional option
 
@@ -607,7 +597,7 @@ Updates for version 1.13.13 of the software:
 
 * Removed wiring diagrams (due to constant change)
 
-* Made minor edits to \{software-discovery} section
+* Made minor edits to {software-discovery} section
 
 * Added new parameters to Detector Configuration: skip stacked characters, state recognition, send default state, default state value, state confidence threshold
 
@@ -625,7 +615,7 @@ Updates for version 1.13.13 of the software:
 |1.47 |June 13, 2021 a|
 Updates for latest production software release - 1.13.17:
 
-* \{shortprodname} GUI can now be accessed using https at the start of the URL
+* {shortprodname} GUI can now be accessed using https at the start of the URL
 
 * https can now be used in the HTTP Integration URL
 
@@ -635,13 +625,13 @@ Updates for latest production software release - 1.13.17:
 
 * Plate Width Min and Plate Width Max were moved from Detector Configuration section in Settings tab to the Calibration tab
 
-|1.48 |July 13, 2021 |* Changed name and filename of document, and name of software in document - to reflect new name for this version of \{shortprodname} which is "\{docproductname}"
+|1.48 |July 13, 2021 |* Changed name and filename of document, and name of software in document - to reflect new name for this version of {shortprodname} which is "{docproductname}"
 |1.50 |Jan. 9, 2022 a|
 Updates for latest production software release - 1.15.59; changes from 1.13.17 include:
 
-* For new functionality and parameter changes, see the \{docproductname} Release Notes
+* For new functionality and parameter changes, see the {docproductname} Release Notes
 
-* Expanded Direct Trigger and \{compname-short} I/O Controller explanations
+* Expanded Direct Trigger and {compname-short} I/O Controller explanations
 
 * Moved Trigger and mode diagrams to separate section earlier in document
 
@@ -664,7 +654,7 @@ Updates for latest production software release - 1.15.59; changes from 1.13.17 i
 |1.60 |Oct. 27, 2022 a|
 * Updates for latest production software release - 1.15.64.31
 
-* Chrome added as a possible browser for running \{shortprodname}
+* Chrome added as a possible browser for running {shortprodname}
 
 * Screen shots updated/added to reflect new features
 
@@ -674,7 +664,7 @@ Updates for latest production software release - 1.15.59; changes from 1.13.17 i
 
 * New configuration section - Plate Recognizer
 
-* \{software-cloud} Integration - added Remote URL field to Lanes table; updated GPIO explanation to match Remote URL explanation
+* {software-cloud} Integration - added Remote URL field to Lanes table; updated GPIO explanation to match Remote URL explanation
 
 * New configuration section - Designa Integration
 
@@ -710,9 +700,9 @@ Updates for releases 1.15.64.32 to 1.15.64.48:
 
 * AMANO Integration section added in Settings tab; separate document referenced
 
-* \{software-cloud} Integration - separate document created and referenced
+* {software-cloud} Integration - separate document created and referenced
 
-* \{compname-short} I/O Controller section: In Server mode, advanced P2P mode support was added (available via the \{hw-iocontroller}/ADAM configuration application); enables \{hw-iocontroller}/ADAM to send to multiple \{shortprodname} instances
+* {compname-short} I/O Controller section: In Server mode, advanced P2P mode support was added (available via the {hw-iocontroller}/ADAM configuration application); enables {hw-iocontroller}/ADAM to send to multiple {shortprodname} instances
 
 * LPR LED section was added in System Info tab
 
@@ -725,27 +715,27 @@ Updates for releases 1.15.64.32 to 1.15.64.48:
 |1.66 |Feb. 21, 2023 a|
 Updates for release 1.15.64.54:
 
-* New screen shot for System Info; added note that some System Info sections may not appear depending on your version of \{shortprodname}
+* New screen shot for System Info; added note that some System Info sections may not appear depending on your version of {shortprodname}
 
 * TIBA Integration section added in Settings tab; separate document referenced
 
 * New parameters added in ZAP Integration section for both Server and Client
 
-* Added text explaining how to configure \{shortprodname} acting as a ZAP Client can communicate with IZCentral
+* Added text explaining how to configure {shortprodname} acting as a ZAP Client can communicate with {software-server}
 
 |1.67 |Mar. 23, 2023 a|
-* New screen shot for updated Date and Time section on Settings tab; the interval at which \{shortprodname} polls for the date and time is now selected from discrete values instead of a number of milliseconds
+* New screen shot for updated Date and Time section on Settings tab; the interval at which {shortprodname} polls for the date and time is now selected from discrete values instead of a number of milliseconds
 
 * Included missing State dropdown explanation in Detector Configuration section on Settings tab; added new "ALL" selection
 
 * Due to the updated software version number, new screen shots were taken for the "Software Version and Camera Information" section on the Settings tab, and the complete System Info tab
 
-* Updated some of the \{software-discovery} wording to match other documents
+* Updated some of the {software-discovery} wording to match other documents
 
-* Clarified which browser to use when running \{shortprodname}
+* Clarified which browser to use when running {shortprodname}
 
 |1.68 |Apr. 16, 2023 |* Preparation for online conversion: Put rectangle around screen shot pictures in PPT - instead of using Word borders
-|1.69 |Apr. 16, 2023 |* Added document reference to \{shortprodname} Video Analytics Data Sheet
+|1.69 |Apr. 16, 2023 |* Added document reference to {shortprodname} Video Analytics Data Sheet
 |1.70 |May. 17, 2023 |* Corrections discovered during conversion to online version (for example, cross-references)
 |--- |--- |* From this point on, see the GitHub commit history comments
 |===
