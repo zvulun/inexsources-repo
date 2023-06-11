@@ -2,7 +2,7 @@
 
 * xref:RoadViewALPR:RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView User Guide (draft under construction)]
 
-* xref:/modules/RoadViewALPR/UserGuide/pages/RV-MACROTEST_PREPROCESSTEST.adoc[Test of Macro-processed Demo File (draft under construction)]
+* xref:/./UserGuide/pages/RV-MACROTEST_PREPROCESSTEST.adoc[Test of Macro-processed Demo File (draft under construction)]
 
 More documents can be found at https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=sharing[GDriveLink, window=_blank]
 
