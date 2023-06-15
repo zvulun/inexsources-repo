@@ -57,7 +57,7 @@ This document is for:
 |===
 |Doc. No. |Title
 |xref:RoadViewALPR:DocList.adoc[RV-ALPRrrr-MAN-001] |{docproductname} Release Notes (for Release rrr)
-|xref: RoadViewALPR:DocList.adoc[RV-VDANLYTCS-TDSHEET] |{shortprodname} Video Analytics Technical Data Sheet
+|xref:RoadViewALPR:DocList.adoc[RV-VDANLYTCS-TDSHEET] |{shortprodname} Video Analytics Technical Data Sheet
 |xref:IZIO:DocList.adoc[IZIO-6060-MAN-001] |{hw-iocontroller} Digital IO Controller Installation and User Guide
 |xref:IZIO:DocList.adoc[IZIO-6060-TECH-002] |ADAM ({hw-iocontroller}) P2P Configuration
 a|
@@ -71,8 +71,8 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 |xref:ZAP-4-5:DocList.adoc[API-HTTPM-ICD-00n_INEX_HTTP_API_Rx_y_v_W] |{compname-short} HTTP API for Major Version "M", Release "x.y"; document version W
 |xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-041] |{software-monitoring}: Camera Monitoring API
 |xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-042] |{software-monitoring} API
-|xref: IZCentral:DocList.adoc[IZCENTRAL-CORE-MAN-001] |IZCentral User Guide
-|xref:EULA:DocList.adoc[EULA-400-DOC-001]}_* |Software End User License Agreement (includes list of open source software)
+|xref:IZCentral:DocList.adoc[IZCENTRAL-CORE-MAN-001] |IZCentral User Guide
+|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 |xref:SLN-AmanoONE:DocList.adoc[RV-AMANO-MAN-001] |{compname-short} ALPR Installation for AMANO
 |xref:SLN-IZCloudIntegration:DocList.adoc[RV-IZCLOUD-MAN-001] |{compname-short} {software-cloud} Integration
 |xref:SLN-TIBA:DocList.adoc[RV-TIBA-MAN-001] |{compname-short} TIBA Integration
