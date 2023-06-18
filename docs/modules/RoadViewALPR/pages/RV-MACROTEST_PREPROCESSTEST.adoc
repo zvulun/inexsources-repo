@@ -78,15 +78,15 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 |xref:SLN-TIBA:DocList.adoc[RV-TIBA-MAN-001] |{compname-short} TIBA Integration
 |===
 
-//[#s_Applicability]
+[#s_Applicability]
 
 === Applicability
 
 This document is applicable to {docproductname} software, release 1.15.64 and above.
 
-//[#s_Support]
+[#s_Support]
 
-=== Applicability
+=== Support
 
 Contact our support team via our website: http://www.inextechnologies.com
 
