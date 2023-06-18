@@ -126,7 +126,7 @@ You will need to provide a laptop computer to use for configuration. +++<u>+++If
 * Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 
 * Internet Explorer browser version 11 or higher, or the latest version of Chrome
-
++
 [NOTE]
 
 ========================================
