@@ -31,7 +31,7 @@ Doc. No. RV-ALPR-MAN-001
 // of file
 toc::[]
 
-{empty} [#s_About-This-Document]
+[#s_About-This-Document]
 
 == About This Document
 
@@ -342,6 +342,7 @@ image::./Demo/image5.png[image,width=490,height=180]
 
 .ZAP Integration Section
 image::./Demo/image6.png[image,width=393,height=448]
+
 [NOTE]
 ========================================
 {shortprodname} can send Events via HTTP, and act as both a ZAP Server and ZAP Client - all simultaneously.
