@@ -53,29 +53,29 @@ This document is for:
 
 .Related Documents
 
-[width="100%",cols="43%,38%,19%",options="header",]
+[width="100%",cols="56%,44%",options="header",]
 |===
-|Doc. No. |Title |Doc. Version
-|xref:RoadViewALPR:DocList.adoc[RV-ALPRrrr-MAN-001] |{docproductname} Release Notes (for Release rrr) |Latest
-|xref:RoadViewALPR:DocList.adoc[RV-VDANLYTCS-TDSHEET] |{shortprodname} Video Analytics Technical Data Sheet |Latest
-|xref:IZIO:DocList.adoc[IZIO-6060-MAN-001] |{hw-iocontroller} Digital IO Controller Installation and User Guide |1.xx
-|xref:IZIO:DocList.adoc[IZIO-6060-TECH-002] |ADAM ({hw-iocontroller}) P2P Configuration |Latest
+|Doc. No. |Title
+|xref:RoadViewALPR:DocList.adoc[RV-ALPRrrr-MAN-001] |{docproductname} Release Notes (for Release rrr)
+|xref:RoadViewALPR:DocList.adoc[RV-VDANLYTCS-TDSHEET] |{shortprodname} Video Analytics Technical Data Sheet
+|xref:IZIO:DocList.adoc[IZIO-6060-MAN-001] |{hw-iocontroller} Digital IO Controller Installation and User Guide
+|xref:IZIO:DocList.adoc[IZIO-6060-TECH-002] |ADAM ({hw-iocontroller}) P2P Configuration
 a|
 xref:IZREMRELAY:DocList.adoc[IZREMRELAY-REV-A-TDSHEET]
 
 xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 
-|{hw-webrelay-single} Remote (Web) Relays Series: Data Sheet and supporting documentation |Latest
-|xref:IZDiscovery:DocList.adoc[IZ Discovery Utility] |{software-discovery} Utility software components |Latest
-|xref:ZAP-4-5:DocList.adoc[ZAP-450-SDK-002] |ZAP: {compname-long} Application Protocol, Version 4.5 |1.xx
-|xref:ZAP-4-5:DocList.adoc[API-HTTPM-ICD-00n_INEX_HTTP_API_Rx_y_v_W] |{compname-short} HTTP API for Major Version "M", Release "x.y"; document version W |Latest for HTTP release being used
-|xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-041] |{software-monitoring}: Camera Monitoring API |Latest
-|xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-042] |{software-monitoring} API |Latest
-|xref:IZCentral:DocList.adoc[IZCENTRAL-CORE-MAN-001] |{software-server} User Guide |3.xx
-|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software) |4.xx
-|xref:SLN-AmanoONE:DocList.adoc[RV-AMANO-MAN-001] |{compname-short} ALPR Installation for AMANO |Latest
-|xref:SLN-IZCloudIntegration:DocList.adoc[RV-IZCLOUD-MAN-001] |{compname-short} {software-cloud} Integration |Latest
-|xref:SLN-TIBA:DocList.adoc[RV-TIBA-MAN-001] |{compname-short} TIBA Integration |Latest
+|{hw-webrelay-single} Remote (Web) Relays Series: Data Sheet and supporting documentation
+|xref:IZDiscovery:DocList.adoc[IZ Discovery Utility] |{software-discovery} Utility software components
+|xref:ZAP-4-5:DocList.adoc[ZAP-450-SDK-002] |ZAP: {compname-long} Application Protocol, Version 4.5
+|xref:ZAP-4-5:DocList.adoc[API-HTTPM-ICD-00n_INEX_HTTP_API_Rx_y_v_W] |{compname-short} HTTP API for Major Version "M", Release "x.y"; document version W
+|xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-041] |{software-monitoring}: Camera Monitoring API
+|xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-042] |{software-monitoring} API
+|xref:IZCentral:DocList.adoc[IZCENTRAL-CORE-MAN-001] |{software-server} User Guide
+|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+|xref:SLN-AmanoONE:DocList.adoc[RV-AMANO-MAN-001] |{compname-short} ALPR Installation for AMANO
+|xref:SLN-IZCloudIntegration:DocList.adoc[RV-IZCLOUD-MAN-001] |{compname-short} {software-cloud} Integration
+|xref:SLN-TIBA:DocList.adoc[RV-TIBA-MAN-001] |{compname-short} TIBA Integration
 |===
 
 [#s_Applicability]
@@ -126,7 +126,7 @@ You will need to provide a laptop computer to use for configuration. +++<u>+++If
 * Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 
 * Internet Explorer browser version 11 or higher, or the latest version of Chrome
-+
+
 [NOTE]
 
 ========================================
@@ -186,7 +186,7 @@ See your camera's Installation Guide for an explanation of how to log in to a ca
 
 The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
 
-[NOTE]
+[IMPORTANT]
 
 ========================================
 
@@ -207,12 +207,12 @@ If any device on your network is connected via wireless, {software-discovery} wi
 .. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-the-RoadView-Computer-s-IP-Address-and-Network-Settings>>).
 
 .. Click Clear List to refresh the discovery process.
-+
+
 [#f_IZ-Discovery-Utility]
 
 .{software-discovery} Utility
 
-image::./Demo/image2.PNG[image,width=503,height=337]
+image::./Demo/image2.png[image,width=503,height=337]
 
 . If {software-discovery} does not recognize a device:
 
@@ -290,7 +290,7 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 image::./Demo/image4.png[image,width=136,height=113]
 
-[NOTE]
+[IMPORTANT]
 
 ========================================
 
@@ -304,7 +304,7 @@ The Network Settings refer to the +++<u>+++{shortprodname} computer+++</u>+++ (+
 
 === Date and Time Settings
 
-[NOTE]
+[IMPORTANT]
 
 ========================================
 
@@ -423,7 +423,7 @@ image::./Demo/image7.png[image,width=624,height=313]
 .. *Tilt:* Adjust the Tilt so that the image of every expected plate position (depending on the vehicle type, such as passenger cars, jeeps, trucks, etc.) will be in the middle of the screen (from top to bottom).
 
 .. *Roll*: Adjust the Roll so the license plate's image is horizontally straight, parallel to the ground (not tilted to one side).
-+
+
 [#f_Pan-Tilt-Roll-Angle-Adjustments]
 
 .Pan/Tilt/Roll (Angle) Adjustments
@@ -433,7 +433,7 @@ image::./Demo/image9.png[image,width=311,height=186]
 . When the correct position is achieved, make a preliminary tightening of the mounting screws.
 
 . Define the Region of Interest (*ROI*) by dragging on the corners (vertices) of the trapezoidal region. For optimum recognition accuracy, the ROI should be large enough to capture the region where plates could be found in images.
-+
+
 [NOTE]
 
 ========================================
@@ -451,8 +451,8 @@ This parameter can also be configured by dragging the large circle on the horizo
 This parameter can be used to prevent false reads, such as large numbers on trucks.
 
 . Use the zoom and focus buttons to adjust the view of the video until the width of the plate is 150 pixels, and its plate image is clear and sharp. (The surrounding items, such as the vehicle body, do not need to be as sharp as the plate.)
-+
-[NOTE]
+
+[IMPORTANT]
 
 ========================================
 
