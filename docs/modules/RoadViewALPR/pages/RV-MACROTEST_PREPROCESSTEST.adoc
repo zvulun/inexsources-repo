@@ -126,7 +126,7 @@ You will need to provide a laptop computer to use for configuration. +++<u>+++If
 * Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 
 * Internet Explorer browser version 11 or higher, or the latest version of Chrome
-
++
 [NOTE]
 
 ========================================
@@ -207,7 +207,7 @@ If any device on your network is connected via wireless, {software-discovery} wi
 .. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-the-RoadView-Computer-s-IP-Address-and-Network-Settings>>).
 
 .. Click Clear List to refresh the discovery process.
-
++
 [#f_IZ-Discovery-Utility]
 
 .{software-discovery} Utility
