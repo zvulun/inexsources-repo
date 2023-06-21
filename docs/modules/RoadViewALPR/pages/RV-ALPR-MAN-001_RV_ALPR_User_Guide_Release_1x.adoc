@@ -233,7 +233,7 @@ If any device on your network is connected via wireless, {software-discovery} wi
 .. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-the-RoadView-Computer-s-IP-Address-and-Network-Settings>>).
 
 .. Click Clear List to refresh the discovery process.
-
++
 [#f_IZ-Discovery-Utility]
 
 .{software-discovery} Utility
@@ -310,7 +310,7 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 . Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {shortprodname} computer. For example: +
 http://192.115.120.76/
-
++
 [IMPORTANT]
 
 ========================================
@@ -320,7 +320,7 @@ The {shortprodname} GUI can now be accessed using https at the start of the URL.
 ========================================
 
 . In the login screen, enter the default username and password: (root, root):
-
++
 [#f_Logging-In-to-the-Computer]
 
 .Logging In to the Computer
@@ -386,7 +386,7 @@ image::./UserGuide/image7.png[image,width=632,height=431]
 * +++<u>+++NonTriggered+++</u>+++ - Events are created and reported using LPR video analytics
 
 * +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
-
++
 [NOTE]
 
 ========================================
@@ -396,7 +396,7 @@ Triggered mode must be used for DOT (USDOT number image capture) cameras.
 ========================================
 
 * +++<u>+++Hybrid+++</u>+++ - Events are continually created internally by LPR video analytics, but are only reported when a trigger is received. The Event closest in time to the trigger will be reported (sent to storage). See <<s_Detector-Configuration>> where the Hybrid Pre/Post Time parameters are described.
-
++
 [NOTE]
 
 ========================================
@@ -570,7 +570,7 @@ If you are using an IZMobileLPI system, contact {compname-short} for details on 
 image::./UserGuide/image15.png[image,width=264,height=384]
 
 * *HTTP URL* - URL for an external system to listen on, in order to receive Events from {shortprodname} via the {compname-short} HTTP protocol (see the appropriate {compname-short} HTTP API Protocol document - see <<s_Related-Documents>>).
-
++
 [NOTE]
 
 ========================================
@@ -585,7 +585,7 @@ For {software-server}, "api" is mandatory; also, {software-server} currently onl
 http://<IP address of {software-server} or 3^rd^ party computer>:<port number>/api +
 For example (port is typically 5801): +
 http://195.163.2.73:5801/api
-
++
 [IMPORTANT]
 
 ========================================
@@ -595,7 +595,7 @@ For secure communication, https can be used in the URL. In such a case, use the 
 ========================================
 
 * *Protocol Version* - The appropriate HTTP API version to use for your application.
-
++
 [NOTE]
 
 ========================================
@@ -764,7 +764,7 @@ If you want {shortprodname} to work with {software-server}, {shortprodname} can 
 
 ** *FTP Enabled (for ZAP Client) -* when {shortprodname} is connected to a ZAP server, images can be sent to the server via FTP if this checkbox is checked. (See the FTP Server items for the definition of the additional FTP parameters.)
 
-* Remember to click the Save button under the Detection Configuration section after changing these parameters.
+* *Remember to click the Save button under the Detection Configuration section after changing these parameters.*
 
 [#s_Direct-Trigger]
 
@@ -924,13 +924,13 @@ The following parameters are used to configure these processes. *Remember to cli
 
 * *Region* - Region for which characters on the plate will be recognized. Select from the following options:
 
-** Australia
+** +++<u>+++Australia+++</u>+++
 
 ** +++<u>+++Canada/North America+++</u>+++ - same as North America LPR, with a different state recognition model that includes Canadian states.
 
-** Europe
+** +++<u>+++Europe+++</u>+++
 
-** Israel
+** +++<u>+++Israel+++</u>+++
 
 ** +++<u>+++North America+++</u>+++ - general recognition that includes all U.S.A. states
 
@@ -954,7 +954,7 @@ For faster traffic, you will only be able to set it to a small number of reads.
 The minimum time from the first plate read until the time the Event will be built (emitted) - which can result in a greater number of frames used than the "Min plate read count" parameter. You may want to get LPR results with better confidence by increasing this number. {shortprodname} will wait for more correct reads before the Event is built (see <<f_Illustration-of-Wait-Before-Event-Emit>>). +
 As a vehicle approaches a camera, waiting longer will usually (depending on road geometry) result in images of the plate getting larger and easier to read accurately. +
 Note that in hybrid mode, it is recommended to set this parameter greater than 0. Setting this parameter to 0 will result in lower read confidence, since the trigger and the first read will occur close together.
-
++
 [#f_Illustration-of-Wait-Before-Event-Emit]
 
 .Illustration of Wait Before Event Emit
@@ -963,7 +963,7 @@ image::./UserGuide/image25.png[image,width=504,height=186]
 
 * *LP forget interval, ms* - {shortprodname} may not have been able to read a plate over the course of several frames, which appear between two groups of frames with correct reads. +
 If the size of this "hole" is large, then the vehicle has probably disappeared but then returned. This value controls whether or not to consider the two sequences of captures to be a single Event, or two separate Events.
-
++
 [#f_Illustration-of-LP-Forget-Interval]
 
 .Illustration of LP Forget Interval
@@ -1015,7 +1015,7 @@ image::./UserGuide/image26.png[image,width=507,height=97]
 * *Hybrid Pre Time (for Hybrid mode only)* -Time in milliseconds before the trigger to search for the closest Event to the trigger (see <<f_Illustration-of-Hybrid-Pre-Post-Time>>)
 
 * *Hybrid Post Time (for Hybrid mode only)* - Time in milliseconds after the trigger to search for the closest Event to the trigger (see <<f_Illustration-of-Hybrid-Pre-Post-Time>>)
-
++
 [#f_Illustration-of-Hybrid-Pre-Post-Time]
 
 .Illustration of Hybrid Pre/Post Time
@@ -1045,7 +1045,7 @@ image::./UserGuide/image28.png[image,width=617,height=87]
 ** +++<u>+++Delete+++</u>+++ - delete the Lane (a warning will be displayed)
 
 ** +++<u>+++Trigger+++</u>+++ - send a software trigger immediately to {shortprodname} (works in all modes except NonTriggered)
-
++
 [NOTE]
 
 ========================================
@@ -1057,7 +1057,7 @@ The images from all cameras capturing the same physical lane will be combined in
 Each "Lane" is actually a virtual Lane. For example, if you have two Camera Systems capturing the same physical lane, you will need to create two different "Lanes", and associate each Camera System's cameras with a different "Lane".
 
 ========================================
-
++
 [#f_Add-Edit-Lane-Dialog]
 
 .Add/Edit Lane Dialog
@@ -1067,7 +1067,7 @@ image::./UserGuide/image29.png[image,width=265,height=151]
 * *ID* (required) - The identification number of the lane to be captured by the cameras. This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
 
 * *Name* (required) - The name of the Lane as it will appear in the GUI. This name will also be sent in HTTP and ZAP messages.
-
++
 [NOTE]
 
 ========================================
@@ -1117,7 +1117,7 @@ If you are using an IZMobileLPI system, contact {compname-short} for details on 
 * *Camera table headers:* Camera ID, Lane ID, Name, URL, Type (as configured when the camera was added)
 
 * *Image* - Thumbnail image from a recent camera image
-
++
 [WARNING]
 
 ========================================
@@ -1129,7 +1129,7 @@ If you add a camera, or edit a camera's parameters and click the Save button in 
 ========================================
 
 * *Add Camera* (button at end of Cameras section):
-
++
 [#f_Add-Edit-Camera-Dialog]
 
 .Add/Edit Camera Dialog
@@ -1137,7 +1137,7 @@ If you add a camera, or edit a camera's parameters and click the Save button in 
 image::./UserGuide/image31.png[image,width=230,height=272]
 
 ** *Lane ID* - The identification number of the lane being captured by the camera(s). Select a Lane number you defined (see <<s_Lanes>>). This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
-
++
 [NOTE]
 
 ========================================
@@ -1211,7 +1211,7 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 *** Click on the multi-line menu icon at the upper right of the {shortprodname} screen
 
 *** Select "Configure Journal"
-
++
 [#f_Configure-Journal-Multi-line-Menu]
 
 .Configure Journal (Multi-line Menu)
@@ -1227,7 +1227,7 @@ image::./UserGuide/image33.png[image,width=136,height=113]
 ** You can also use these controls to move through the grid (next/previous Event, or start/end of Events).
 
 ** Start the display running in real-time again using the Run button () or by clicking on the large image. This will refresh the display, and resume displaying Events, starting from the 20 most recent Events.
-
++
 [NOTE]
 
 ========================================
@@ -1241,7 +1241,7 @@ As you Pause/Run the Live grid, you may see momentary icons ( or ) appearing in 
 * The text below the Pause/Run controls displays a summary of the Event's information.
 
 * The thumbnail images below the larger image pane display the overview and plate patch images from each camera. Click on one of the thumbnail images to display it in the larger image pane.
-
++
 [NOTE]
 
 ========================================
@@ -1315,7 +1315,7 @@ After applying filters, remember that you will need to use the page controls to 
 * *Lane Name* - Select All, or a specific lane
 
 * *Time* - Click in the filter box to display a date/time selection popup. Uncheck the check box to clear the filter (see <<f_Search-Tab-Time-Filter-Selection-Popup>>).
-
++
 [#f_Search-Tab-Time-Filter-Selection-Popup]
 
 .Search Tab: Time Filter Selection Popup
@@ -1361,7 +1361,7 @@ image::./UserGuide/image37.png[image,width=624,height=313]
 .. *Tilt:* Adjust the Tilt so that the image of every expected plate position (depending on the vehicle type, such as passenger cars, jeeps, trucks, etc.) will be in the middle of the screen (from top to bottom).
 
 .. *Roll*: Adjust the Roll so the license plate's image is horizontally straight, parallel to the ground (not tilted to one side).
-
++
 [#f_Pan-Tilt-Roll-Angle-Adjustments]
 
 .Pan/Tilt/Roll (Angle) Adjustments
@@ -1371,7 +1371,7 @@ image::./UserGuide/image39.png[image,width=311,height=186]
 . When the correct position is achieved, make a preliminary tightening of the mounting screws.
 
 . Define the Region of Interest (*ROI*) by dragging on the corners (vertices) of the trapezoidal region. For optimum recognition accuracy, the ROI should be large enough to capture the region where plates could be found in images.
-
++
 [NOTE]
 
 ========================================
@@ -1389,7 +1389,7 @@ This parameter can also be configured by dragging the large circle on the horizo
 This parameter can be used to prevent false reads, such as large numbers on trucks.
 
 . Use the zoom and focus buttons to adjust the view of the video until the width of the plate is 150 pixels, and its plate image is clear and sharp. (The surrounding items, such as the vehicle body, do not need to be as sharp as the plate.)
-
++
 [IMPORTANT]
 
 ========================================
@@ -1462,7 +1462,7 @@ These parameters affect how {shortprodname} controls an external illuminator:
 *** *Illuminator Intensity* - (for IZS illuminators, synchronized with the Overview camera) Relative intensity of an external illuminator's LEDs, expressed as a percentage of the maximum possible intensity
 
 ** +++<u>+++Auto+++</u>+++ - automatically senses day/night, in order to decide whether to trigger an external illuminator, according to the Camera System's location (as defined by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
-
++
 [NOTE]
 
 ========================================
@@ -1479,7 +1479,7 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 
 *** *Pre-Sunset Offset* -time before actual sunset to be considered the end of the day
 
-* Remember to click the Save button at the end of this section after making changes.
+* *Remember to click the Save button at the end of this section after making changes.*
 
 [#s_System-Info-Tab-LPR-LED]
 
