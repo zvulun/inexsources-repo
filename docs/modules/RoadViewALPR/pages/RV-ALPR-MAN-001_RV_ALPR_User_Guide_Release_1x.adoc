@@ -288,7 +288,7 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 . To change the IP address:
 
-.. Verify that the address is not used by any other device on the network
+.. *Verify that the address is not used by any other device on the network*
 
 .. Be sure to uncheck the DHCP box
 
@@ -494,7 +494,7 @@ Be sure to click the Save button at the end of this section if you change these 
 ** Deleting an SFTP user will automatically delete the user from FTP
 
 ** The Port is fixed; this is the port that the users' system will use to communicate with the {shortprodname} computer
-
++
 [#f_Adding-an-SFTP-User]
 
 .Adding an SFTP User
@@ -670,13 +670,13 @@ image::./UserGuide/image16.png[image,width=528,height=158]
 
 These parameters are currently used to configure offline Event storage for HTTP Integration (see <<s_HTTP-Integration>>)
 
-* Send Offline Events Every - not currently used
+* *Send Offline Events Every* - not currently used
 
 * *Expiration Enabled* - Enables the following parameters:
 
 ** *Offline Events Expire After* - If an Event was added to the offline queue because there was no connection with client, and the connection with the client was not restored within this time, the Event will be removed from the offline queue.
 
-** Send Offline Events After - not currently used
+** *Send Offline Events After* - not currently used
 
 [#s_Monitoring-IZMonitoring-Server-Integration]
 
