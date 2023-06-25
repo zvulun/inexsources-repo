@@ -212,9 +212,9 @@ See your camera's Installation Guide for an explanation of how to log in to a ca
 
 include::ROOT:partial$p-izdiscovery-sec1.adoc[First part of IZ Discovery text]
 
-[#s_Changing-the-RoadView-Computer-s-IP-Address-and-Network-Settings]
+[#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
 
-=== Changing the {shortprodname} Computer's IP Address and Network Settings
+=== Changing a Device's IP Address and Network Settings
 
 include::ROOT:partial$p-izdiscovery-sec2.adoc[Second part of IZ Discovery text]
 

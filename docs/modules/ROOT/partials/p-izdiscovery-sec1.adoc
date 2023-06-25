@@ -18,7 +18,7 @@ If any device on your network is connected via wireless, {software-discovery} wi
 
 . {software-discovery} will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
 
-.. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-the-RoadView-Computer-s-IP-Address-and-Network-Settings>>).
+.. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>>).
 
 .. Click Clear List to refresh the discovery process.
 +
@@ -26,7 +26,7 @@ If any device on your network is connected via wireless, {software-discovery} wi
 
 .{software-discovery} Utility
 
-image::./UserGuide/image2.png[image,width=503,height=337]
+image::ROOT:image$/RoadViewALPR/RV-1_9-FIG-012b_IZDiscovery6020MainScreen.png[IZ Disovery Main Screen,width=503,height=337]
 
 . If {software-discovery} does not recognize a device:
 

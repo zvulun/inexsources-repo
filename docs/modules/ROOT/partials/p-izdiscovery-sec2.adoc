@@ -1,8 +1,8 @@
-[#f_Changing-the-Computer-s-Network-Settings]
+[#f_Changing-the-Device-s-Network-Settings]
 
-.Changing the Computer's Network Settings
+.Changing the Device's Network Settings
 
-image::./UserGuide/image3.png[image,width=226,height=230]
+image::ROOT:image$/RoadViewALPR/RV-1_9-FIG-013b_ChangeIPUnCheckDHCP.png[IZ Discovery Network Setting Dialog,width=226,height=230]
 
 [NOTE]
 
