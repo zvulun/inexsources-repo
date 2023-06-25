@@ -18,7 +18,7 @@ If any device on your network is connected via wireless, {software-discovery} wi
 
 . {software-discovery} will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
 
-.. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>>).
+.. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Alternative-Anchor>>).
 
 .. Click Clear List to refresh the discovery process.
 +

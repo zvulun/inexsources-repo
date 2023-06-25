@@ -1,6 +1,3 @@
-:XRef-RVLogin: IZDiscovery
-
-
 [#f_Changing-the-Device-s-Network-Settings]
 
 .Changing the Device's Network Settings
@@ -13,11 +10,7 @@ image::ROOT:image$/RoadViewALPR/RV-1_9-FIG-013b_ChangeIPUnCheckDHCP.png[IZ Disco
 
 The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
 
-*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages (see
-ifeval::["{XRef-RVLogin}" == "IZDiscovery"]
-<<s_Logging-In-and-Logging-Out>>
-endif::[]
-).
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages (see <<s_Logging-In-and-Logging-Out>>).
 
 A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using {software-discovery}.
 
