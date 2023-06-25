@@ -1,0 +1,47 @@
+[#f_Changing-the-Computer-s-Network-Settings]
+
+.Changing the Computer's Network Settings
+
+image::./UserGuide/image3.png[image,width=226,height=230]
+
+[NOTE]
+
+========================================
+
+The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
+
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages (see <<s_Logging-In-and-Logging-Out>>).
+
+A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using {software-discovery}.
+
+If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
+
+You can also change the IP address using the {shortprodname} Settings tab (see <<s_Network-Settings>>).
+
+========================================
+
+To change the device's mode (fixed or dynamic [DHCP]), or IP address:
+
+. Select the relevant line in the list of devices and double-click on it.
+
+. The Network Settings window appears
+
+. To change the mode:
+
+.. Check or uncheck the DHCP box
+
+.. Click Save
+
+. To change the IP address:
+
+.. *Verify that the address is not used by any other device on the network*
+
+.. Be sure to uncheck the DHCP box
+
+.. Enter the network address parameters
+
+.. Write down the new IP Address and click Save
+
+. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
+
+. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (see <<s_Logging-In-and-Logging-Out>>) and change the IP address (see <<s_Network-Settings>>).
