@@ -1469,6 +1469,13 @@ Examine the video from the Camera on the Calibration tab:
 
 |===
 
+== Notices, Safety Precautions and Certifications
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+
 [#s_Appendix-A-Document-Change-History]
 
 == Appendix A - Document Change History

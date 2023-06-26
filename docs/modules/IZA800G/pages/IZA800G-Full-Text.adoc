@@ -107,8 +107,6 @@ Contact INEX Technologies for document ordering information.
 
 |===
 
-include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
-
 == Quick Installation Overview
 
 * Unpack the Camera System - see <<s_Package-Contents>> .
