@@ -989,7 +989,7 @@ Power undervoltage, overvoltage and/or incorrect polarity will damage the unit a
 
 include::ROOT:partial$p-izdiscovery-sec1.adoc[First part of IZ Discovery text]
 
-[#s_Changing-IP-Address]
+[#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
 
 === Changing a Device's IP Address and Network Settings
 
