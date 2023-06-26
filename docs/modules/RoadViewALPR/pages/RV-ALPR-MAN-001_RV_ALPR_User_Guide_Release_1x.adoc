@@ -1,5 +1,17 @@
 :docproductname: RoadView ALPR
 :shortprodname: RoadView
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+:xref-type-RoadView:
+:!xref-type-IZ800:
+:!xref-type-IZ600F:
+
+
+
+
 = {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
