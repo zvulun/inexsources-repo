@@ -146,7 +146,7 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 
 * Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {shortprodname} configuration. See <<s_Changing-the-IP-Addresses-of-the-Cameras>> .
 
-* Use {software-discovery} to find the IP address of the {shortprodname} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Changing-the-RoadView-Computer-s-IP-Address-and-Network-Settings>> .
+* Use {software-discovery} to find the IP address of the {shortprodname} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>> .
 
 * Review the different trigger sources and sequences, and triggering operational modes (see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>)
 

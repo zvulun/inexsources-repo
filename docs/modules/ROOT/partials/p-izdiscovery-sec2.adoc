@@ -10,13 +10,25 @@ image::ROOT:image$/RoadViewALPR/RV-1_9-FIG-013b_ChangeIPUnCheckDHCP.png[IZ Disco
 
 The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
 
-*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages (see <<s_Logging-In-and-Logging-Out>>).
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages (see
+ifeval::["{shortprodname}" == "RoadView"]
+<<s_Logging-In-and-Logging-Out>>
+endif::[]
+ifeval::["{shortprodname}" == "IZA800G"]
+<<ps_Logging-In-to-the-Camera>>
+endif::[]
+).
 
 A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using {software-discovery}.
 
 If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
 
+ifeval::["{shortprodname}" == "RoadView"]
 You can also change the IP address using the {shortprodname} Settings tab (see <<s_Network-Settings>>).
+endif::[]
+ifeval::["{shortprodname}" == "IZA800G"]
+You can also log in to each camera's configuration application to change its IP address (see <<ps_Logging-In-to-the-Camera>>).
+endif::[]
 
 ========================================
 
@@ -44,4 +56,19 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 . The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
 
-. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (see <<s_Logging-In-and-Logging-Out>>) and change the IP address (see <<s_Network-Settings>>).
+. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (see
+ifeval::["{shortprodname}" == "RoadView"]
+<<s_Logging-In-and-Logging-Out>>
+endif::[]
+ifeval::["{shortprodname}" == "IZA800G"]
+<<ps_Logging-In-to-the-Camera>>
+endif::[]
+)
+and change the IP address (see
+ifeval::["{shortprodname}" == "RoadView"]
+<<s_Network-Settings>>
+endif::[]
+ifeval::["{shortprodname}" == "IZA800G"]
+<<ps_Logging-In-to-the-Camera>>
+endif::[]
+).
