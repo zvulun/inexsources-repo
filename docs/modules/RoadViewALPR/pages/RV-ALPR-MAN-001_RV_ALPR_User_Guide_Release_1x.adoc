@@ -96,12 +96,6 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 
 This document is applicable to {docproductname} software, release 1.15.64 and above.
 
-[#s_Support]
-
-=== Support
-
-Contact our support team via our website: http://www.inextechnologies.com
-
 [#s_Glossary-of-Terms]
 
 == Glossary of Terms
@@ -1475,6 +1469,7 @@ include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
 [#s_Appendix-A-Document-Change-History]
 
