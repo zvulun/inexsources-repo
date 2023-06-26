@@ -995,6 +995,7 @@ include::ROOT:partial$p-izdiscovery-sec1.adoc[First part of IZ Discovery text]
 
 include::ROOT:partial$p-izdiscovery-sec2.adoc[Second part of IZ Discovery text]
 
+[#ps_Configuring-a-Camera]
 == Configuring a Camera
 
 *_\{Zvulun: entire section could be a partial}_*

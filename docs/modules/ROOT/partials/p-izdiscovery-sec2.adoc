@@ -27,7 +27,9 @@ ifeval::["{shortprodname}" == "RoadView"]
 You can also change the IP address using the {shortprodname} Settings tab (see <<s_Network-Settings>>).
 endif::[]
 ifeval::["{shortprodname}" == "IZA800G"]
-You can also log in to each camera's configuration application to change its IP address (see <<ps_Logging-In-to-the-Camera>>).
+Be sure to define IP addresses for each camera in the Camera System, plus the IP address of the onboard computer. It is recommended to use sequential IP addresses; for example: 192.168.5.64, 65, 66
+
+You can also log in to each camera's configuration application to change its IP address (see <<ps_Configuring-a-Camera>>).
 endif::[]
 
 ========================================
