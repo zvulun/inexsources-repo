@@ -69,6 +69,6 @@ ifeval::["{shortprodname}" == "RoadView"]
 <<s_Network-Settings>>
 endif::[]
 ifeval::["{shortprodname}" == "IZA800G"]
-<<ps_Logging-In-to-the-Camera>>
+<<ps_Changing-a-Camera-s-IP-Address>>
 endif::[]
 ).
