@@ -1694,6 +1694,6 @@ Updates for release 1.15.64.54:
 
 |1.68 |Apr. 16, 2023 a|* Preparation for online conversion: Put rectangle around screen shot pictures in PPT - instead of using Word borders
 |1.69 |Apr. 16, 2023 a|* Added document reference to {shortprodname} Video Analytics Data Sheet
-|1.70 |May. 17, 2023 a|* Corrections discovered during conversion to online version (for example, cross-references)
+|1.70 |June 27, 2023 a|* Corrections discovered during conversion to online version (for example, cross-references)
 |--- |--- a|* From this point on, see the GitHub commit history comments
 |===
