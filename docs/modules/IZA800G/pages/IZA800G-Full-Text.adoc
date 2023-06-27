@@ -938,7 +938,7 @@ image::image39.png[image,width=486,height=219]
 [#s_Connecting-System-Components]
 === Connecting the Camera System, Illuminator, Power Supply and Network
 
-[WARNING]
+[CAUTION]
 ====
 image:image40.png[image,width=33,height=29] Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
 
