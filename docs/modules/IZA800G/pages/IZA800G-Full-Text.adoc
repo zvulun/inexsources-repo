@@ -121,6 +121,10 @@ Contact INEX Technologies for document ordering information.
 * Log in to RoadView, and configure RoadView, including adding the connected cameras - see <<ps_Using-RoadView>> and the xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
 * On the Journal tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<ps_Using-RoadView>> and the xref:RoadViewALPR:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[RoadView ALPR User Guide,window=read-later].
 
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
 == Camera System Overview
 
 [#s_Package-Contents]
@@ -1195,11 +1199,6 @@ include::ROOT:partial$p-regulatory-IP67.adoc[IP67 Regulatory Notice]
 include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
 
 include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
-
-include::ROOT:partial$p-training.adoc[Training Section]
-
-include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
-
 
 == Appendix A - Document Change History
 

@@ -96,6 +96,8 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 
 This document is applicable to {docproductname} software, release 1.15.64 and above.
 
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
 [#s_Glossary-of-Terms]
 
 == Glossary of Terms
@@ -1468,8 +1470,6 @@ Examine the video from the Camera on the Calibration tab:
 include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
-
-include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
 [#s_Appendix-A-Document-Change-History]
 

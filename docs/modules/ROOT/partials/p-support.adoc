@@ -5,5 +5,5 @@
 //:!sectnums:
 
 === Support
-If you have any questions, please contact our support team via our http://www.inextechnologies.com[INEX Technologies Website,window=read-later].
+If you have any questions, please contact our support team via our http://www.inextechnologies.com[{compname-long} Website,window=read-later].
 
