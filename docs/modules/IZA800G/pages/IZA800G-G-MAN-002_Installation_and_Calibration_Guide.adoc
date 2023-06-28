@@ -1,0 +1,46 @@
+:docproductname: IZA800G
+:shortprodname: IZA800G
+:shortprodname2: IZA800
+:eyesafetystandard-1: IEC62471 Group 1
+:recognitionpixels: 150
+:resolutionwidth: 1920
+:FOVplatewidths: 12.8
+:platewidthfeet: 1
+:capturelinefeet: 12
+:capturelinemeters: 3.7
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+:!xref-type-RoadView:
+:xref-type-IZ800:
+:!xref-type-IZ600F:
+
+
+= {docproductname}
+//enable the TOC to be placed in a specific position
+:toc: macro
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+[.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== ALPR All-in-one AI Camera System
+[discrete]
+=== Installation and Calibration Guide
+Doc. No. IZA800G-G-MAN-002
+
+image:ROOT:image$/IZA800G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left] image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
+
+// restore section numbering from here on
+:sectnums: all
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+toc::[]
