@@ -12,7 +12,7 @@ The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.
 
 *+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages (see
 ifdef::xref-type-RoadView[<<s_Logging-In-and-Logging-Out>>]
-ifdef::xref-type-IZ800[<<s_Logging-In-to-the-Camera>>]
+ifdef::xref-type-IZ800G[<<s_Logging-In-to-the-Camera>>]
 ).
 
 A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using {software-discovery}.
@@ -22,12 +22,12 @@ If you want to copy the IP address (for login to the device) you will need to un
 ifdef::xref-type-RoadView[]
 You can also change the IP address using the {shortprodname} Settings tab (see <<s_Network-Settings>>).
 endif::xref-type-RoadView[]
-ifdef::xref-type-IZ800[]
+ifdef::xref-type-IZ800G[]
 
 Be sure to define IP addresses for each camera in the Camera System, plus the IP address of the onboard computer. It is recommended to use sequential IP addresses; for example: 192.168.5.64, 65, 66
 
 You can also log in to each camera's configuration application to change its IP address (see <<s_Configuring-a-Camera>>).
-endif::xref-type-IZ800[]
+endif::xref-type-IZ800G[]
 
 ========================================
 
@@ -57,9 +57,9 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 . Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (see
 ifdef::xref-type-RoadView[<<s_Logging-In-and-Logging-Out>>]
-ifdef::xref-type-IZ800[<<s_Logging-In-to-the-Camera>>]
+ifdef::xref-type-IZ800G[<<s_Logging-In-to-the-Camera>>]
 )
 and change the IP address (see
 ifdef::xref-type-RoadView[<<s_Network-Settings>>]
-ifdef::xref-type-IZ800[<<s_Changing-a-Camera-s-IP-Address>>]
+ifdef::xref-type-IZ800G[<<s_Changing-a-Camera-s-IP-Address>>]
 ).
