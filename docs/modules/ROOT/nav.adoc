@@ -75,7 +75,6 @@
 ** xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG (IZS Illuminator Signals)]
 ** xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR (IZS Illuminator Power)]
 * Software
-// Need to add IZCloud Agent
 ** xref:RoadViewALPR:DocList.adoc[RoadView ALPR]
 ** xref:IZCloudHttpAPI:DocList.adoc[IZCloud HTTP API]
 ** xref:IZCloudAgent:DocList.adoc[IZCloud Agent]
@@ -84,8 +83,8 @@
 ** xref:ZAP-4-5:DocList.adoc[ZAP 4.5]
 ** xref:IZDiscovery:DocList.adoc[IZ Discovery]
 ** xref:EULA:DocList.adoc[EULA]
-
-
+* NDAA
+** xref:NDAA:DocList.adoc[NDAA Sec. 889 Compliance]
 
 ////
 Here is the previous menu
