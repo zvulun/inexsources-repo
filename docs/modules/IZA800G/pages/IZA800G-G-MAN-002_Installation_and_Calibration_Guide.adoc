@@ -51,3 +51,1329 @@ image:ROOT:image$/IZA800G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
 toc::[]
+
+[#s_About-this-Document]
+
+== About this Document
+
+[#s_Who-Should-Read-this-Document]
+
+=== Who Should Read this Document
+
+This document is for:
+
+* *Technical personnel* who need to install IZA Camera Systems.
+
+[NOTE]
+
+========================================
+
+This document does not take the place of training by {compname-possess} certified specialists. Contact {compname-long} to schedule training.
+
+========================================
+
+[#s_Related-Documents]
+
+=== Recommended Reading/Related Documents
+
+Contact {compname-long} for document ordering information.
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[width="100%",cols="45%,55%",options="header",]
+|===
+|Doc. No. |Title
+|xref:IZA800G:DocList.adoc[{shortprodname}-G-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+|xref:IZCAB-A800-PAS:DocList.adoc[IZCABA800PAS-REV-x-TDSHEET] |Power/Signals Cable for {shortprodname} System Technical Data Sheet
+|xref:IZCAB-A800-LAN:DocList.adoc[IZCABA800LAN-REV-x-TDSHEET] |LAN Cable for {shortprodname} System Technical Data Sheet
+|xref:IZA800G:DocList.adoc[{shortprodname}-G-TECH-001] |{shortprodname} Quick Start
+|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
+|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+|xref:RoadViewALPR:DocList.adoc[RV-ALPR-MAN-001] |{software-ALPR-long} User Guide
+|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+|xref:IZS:DocList.adoc[{illum-strobe}-S-MAN-002] |{illum-strobe} Strobe Illuminator Series User Guide
+|xref:IZPWR:DocList.adoc[IZPWRSRFC-REV-x-TDSHEET] |IZPWR Surface Mount Power Supplies Technical Data Sheet
+|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+|xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
+|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+[#s_Support]
+
+=== Support
+
+If you have any questions, please contact our support team via our website: +
+http://
+
+[#s_Quick-Installation-Overview]
+
+== Quick Installation Overview
+
+* Unpack the Camera System - see <<s_Package-Contents>> .
+
+* Gather any additional items needed - see <<s_Required-Optional-Accessories-Not-Included>> .
+
+* Plan your physical installation - see <<s_Planning-Your-Installation>> .
+
+* Install the hardware (including cable construction) - see <<s_Hardware-Installation>> .
+
+* Reserve IP addresses for the components in your ALPR system - {software-ALPR} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>> .
+
+* Use {software-discovery} to find the initial IP Addresses of the cameras connected to your network - see <<s_Recognizing-Devices-with-IZ-Discovery>> .
+
+* Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {software-ALPR} configuration - see <<s_Logging-In-to-the-Camera>>, and <<s_Changing-a-Camera-s-IP-Address>> .
+
+* Calibrate the cameras - see <<s_Calibrating-the-Cameras>>
+
+* Use {software-discovery} to find the IP address of the {software-ALPR} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+
+* Log in to {software-ALPR}, and configure {software-ALPR}, including adding the connected cameras - see <<s_Using-RoadView>> and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+
+* On the Live (Journal) tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<s_Using-RoadView>> and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+
+[#s_Camera-System-Overview]
+
+== Camera System Overview
+
+[#s_Package-Contents]
+
+=== Package Contents
+
+Carefully unpack the contents of the ALPR Camera System package.
+
+[#f_Package-Contents]
+
+.Package Contents
+
+image::./UserGuide/image1.png[image,width=460,height=345]
+
+[#f_Mounting-Adapter-Plate]
+
+.Mounting Adapter Plate
+
+image::./UserGuide/image2.png[image,width=349,height=199]
+
+The package includes:
+
+* {shortprodname} ALPR All-in-one AI Camera System
+
+* LAN cable or field-mountable cable connector
+
+* Power/Signals cable or field-mountable cable connector
+
+* Mounting adapter plate with screws: 3 - 18-8 stainless steel thread-locking socket head screws, 1/4"-20 thread size, 5/8" long; Allen heads; used to attach the mounting adapter plate to the housing
+
+[NOTE]
+
+========================================
+
+If any parts are missing or damaged, please contact {compname-long}.
+
+========================================
+
+[#s_Camera-System-Details-and-Dimensions]
+
+=== Camera System Details and Dimensions
+
+The {shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and ITS applications, with different models available for different distances and illumination requirements. It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade. The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system. A computer running license plate recognition software is also built in.
+
+[#f_Front-View-of-the-ALPR-Camera-System]
+
+.Front View of the ALPR Camera System
+
+image::./UserGuide/image3.png[image,width=566,height=280]
+
+[#f_Underside-of-the-ALPR-Camera-System]
+
+.Underside of the ALPR Camera System
+
+image::./UserGuide/image4.png[image,width=624,height=236]
+
+[#f_Dimensions]
+
+.Dimensions
+
+image::./UserGuide/image5.png[image,width=315,height=205]
+
+image::./UserGuide/image6.png[image,width=463,height=224]
+
+image::./UserGuide/image7.png[image,width=489,height=252]
+
+[#s_Multi-flash-Technology]
+
+=== Multi-flash Technology
+
+The Camera System's illuminators project different light intensities in a sequence (also called multi-flash technology). This produces a series of video frames with varying degrees of illumination, which helps to determine the best possible recognition.
+
+[#f_Frames-with-Different-Illumination-Intensities]
+
+.Frames with Different Illumination Intensities
+
+image::./UserGuide/image8.png[image,width=524,height=75]
+
+[#s_Built-in-White-LEDs-White-LED-Models]
+
+=== Built-in White LEDs (White LED Models)
+
+Some of the built-in LEDs of some models of the {shortprodname} are white. They are used for overview image illumination.
+
+[#f_IZA800G-White-LED-Positions]
+
+.{shortprodname} White LED Positions
+
+image::./UserGuide/image9.png[image,width=279,height=215]
+
+[#s_Specifications]
+
+=== Specifications
+
+.Technical Specifications[#t_Technical-Specifications]
+
+*_REINSERT THE SPECIFICATION TABLE HERE WITH VARIABLES FOR THE ITEMS THAT COULD CHANGE LIKE LPR AND VEHICLE ANALYTICS!!_*
+
+* LPR Capture Distance is measured from camera to plate
+
+[#s_Required-Optional-Accessories-Not-Included]
+
+== Required/Optional Accessories (Not Included)
+
+[#s_Required-Accessories]
+
+=== Required Accessories
+
+* An Allen wrench used to attach the mounting adapter plate to the housing (if applicable); size 3/16" (4.76 mm)
+
+* 8-wire cable for power/signals; recommended to use E119932-1/LL84201, 24 gauge (size of each wire); see <<s_Constructing-the-Power-Signals-Cable>> .
+
+* 2 mm flat screwdriver for tightening the screw terminals of the power/signals connector (see <<s_Constructing-the-Power-Signals-Cable>>).
+
+* 16 mm torque wrench for tightening the nuts of the power/signals connector, and for attaching the connector to the Camera System.
+
+* Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters). **See <<**s_Constructing-the-LAN-Cable**>> for important LAN cable information.**
+
+* Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
+
+[IMPORTANT]
+
+========================================
+
+All network cable extensions and repeaters must be shielded.
+
+========================================
+
+* You will need to provide a laptop computer to use for configuration. If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight. Required software:
+
+** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
+
+** Internet Explorer browser version 11 or higher. +
+You can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link] (to enable access to the camera configuration application -see <<s_Logging-In-to-the-Camera>>).
+
+* The following accessories can be supplied by {compname-med}:
+
+[#t_Required-Accessories]
+
+.Required Accessories
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Item |Notes
+|24VDC power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
+|Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the Mounting Hardware documentation for details (see <<s_Related-Documents>>).
+|===
+
+[#s_Optional-Accessories]
+
+=== Optional Accessories
+
+* Prefabricated Power/Signals and LAN cables
+
+* {hw-iocontroller} Digital I/O Controller
+
+* External Illuminator - Can be used to enhance overview vehicle image quality, for front and/or rear capture. It is recommended to use an illuminator power supply separate from the Camera System's supply.
+
+** Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
+
+** Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
+
+[#s_Planning-Your-Installation]
+
+== Planning Your Installation
+
+[#s_Horizontal-Field-of-View-Capture-Line]
+
+=== Horizontal Field of View (Capture Line)
+
+Your Camera System's Field of View (FOV) is the area that the camera can "see". You can think of this area as an imaginary rectangle rising from the lane upwards. The width of this area is called the horizontal FOV or "capture line".
+
+See <<s_Specifications>> for the horizontal and vertical FOV specifications.
+
+[#f_Field-of-View-Capture-Line]
+
+.Field of View (Capture Line)
+
+image::./UserGuide/image10.png[image,width=634,height=194]
+
+Select your Camera System's position so that license plates are always within the capture line and parallel to it, with the Camera System facing as straight at the plates as possible - as shown in the following diagrams:
+
+[#f_Plates-Within-Capture-Line]
+
+.Plates Within Capture Line
+
+image::./UserGuide/image11.png[image,width=247,height=411]
+
+[#f_Plates-Parallel-to-Capture-Line-Away-from-Road-Curves]
+
+.Plates Parallel to Capture Line - Away from Road Curves
+
+image::./UserGuide/image12.png[image,width=503,height=314]
+
+[#s_Angles-and-Distances]
+
+=== Angles and Distances
+
+[IMPORTANT]
+
+========================================
+
+Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
+
+========================================
+
+[#f_Horizontal-Camera-Angle-Pan-Angle]
+
+.Horizontal Camera Angle (Pan Angle)
+
+image::./UserGuide/image13.png[image,width=310,height=332]
+
+[NOTE]
+
+========================================
+
+The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
+
+If you must capture plates on a curve, place the Camera System on the side of the road that minimizes the horizontal angle.
+
+At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
+
+For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
+
+========================================
+
+[#f_Vertical-Camera-Angle-Tilt-Angle-and-Line-of-Sight-Distance-from-Plate]
+
+.Vertical Camera Angle (Tilt Angle) and Line-of-Sight Distance from Plate
+
+image::./UserGuide/image14.png[image,width=626,height=194]
+
+[NOTE]
+
+========================================
+
+The distance from the Camera System to the capture line must be within the viewing range of the LPR camera.
+
+Adjust the vertical angle so that the Camera System can read plates at all of their expected heights from the road.
+
+The maximum vertical angle allowed is 30°.
+
+Larger angles and/or greater mounting heights may be required in order to recognize plates on vehicles close to each other (such as in slow/congested traffic).
+
+At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
+
+For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
+
+========================================
+
+[#s_Position-of-the-Sun-in-Relation-to-the-Camera-System]
+
+=== Position of the Sun in Relation to the Camera System
+
+The Camera System should +++<u>+++not+++</u>+++ be positioned so that the rays of the sun behind the Camera System shine along the camera-to-plate axis. Reflective plates will cause severe glare to be reflected back to the camera, obscuring the image of the plate's characters.
+
+Avoid/mitigate by:
+
+* Not installing the Camera System in an east/west direction
+
+* Installing the Camera System near a building that shields it from the sun's rays
+
+* Installing the Camera System on a short pole
+
+* Using a double-Camera System installation (2 different angles or front/rear)
+
+[#f_Sun-Behind-Camera-System-on-Same-Axis-as-Line-of-Sight-from-Camera-to-Plate]
+
+.Sun Behind Camera System (on Same Axis as Line-of-Sight from Camera to Plate)
+
+image::./UserGuide/image15.png[image,width=628,height=232]
+
+[#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
+
+=== Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
+
+[#f_External-Illuminator]
+
+.External Illuminator
+
+image::./UserGuide/image16.png[image,width=136,height=121]
+
+[#s_Matching-Your-Camera-System-to-an-INEX-Illuminator]
+
+==== Matching Your Camera System to an {compname-short} Illuminator
+
+[IMPORTANT]
+
+========================================
+
+The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the {compname-short} Camera System. See the appropriate Illuminator Series User Guide(s) for compatibility information (see <<s_Related-Documents>>).
+
+========================================
+
+*The {compname-short} {shortprodname} Camera System is typically used with the {illum-strobe} series strobe illuminators.*
+
+By using the following guidelines, you can match the illuminator you need to the {compname-short} Camera System being used.
+
+* The number of illuminator LEDs and beam angle must match the distance type (long or short) of the Camera System being used, as follows:
+
+** Fewer LEDs and wider beam angles are used for short distances
+
+** More LEDs and narrower beam angles are used for longer distances
+
+The results of applying these guidelines can be found in the appropriate Illuminator Series User Guide(s)
+
+[#s_Illuminator-Triggering-and-Pulse-Width]
+
+==== Illuminator Triggering and Pulse Width
+
+You can trigger an illuminator from the OV camera by using appropriate wiring (see <<s_Typical-Wiring-Diagrams>>). The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
+
+[#s_Illuminator-Mounting-and-Aiming]
+
+==== Illuminator Mounting and Aiming
+
+**See the illuminator guides for further details about installation and mounting considerations (see <<**s_Related-Documents>>**).**
+
+* Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
+
+* Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
+
+[#s_Verifying-Infrared-type-Illuminator-Operation]
+
+==== Verifying Infrared-type Illuminator Operation
+
+You can look at an infrared-type illuminator with a smartphone camera to see if it is working.
+
+[#s_Additional-Installation-Considerations]
+
+=== Additional Installation Considerations
+
+[#t_Additional-Installation-Considerations]
+
+.Additional Installation Considerations
+
+[width="100%",cols="40%,60%",options="header",]
+|===
+|Item |Considerations
+|*Surge Protection* a|* On power, network and data cables
+|*Correct, Stable and Sufficient Power* a|
+* Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+* Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
+
+a|
+*Cable Extensions*
+
+*IMPORTANT*
+
++++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
+
+a|
+* Power - Use a cable gauge sufficient to deliver 24 VDC at the Camera System
+
+* LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable should not exceed 328 feet (100 meters).
+
+* In order to use the connector included with the Camera System, the outer diameter of the LAN cable must be in the range of 0.20" to 0.25" (5.0 to 6.5 mm).
+
+|Front/Rear Capture - or Both a|
+* Country requirements
+
+* Vehicle types
+
+* Protruding parts that obscure plates (such as rear hooks)
+
+* Recessed plates
+
+|Objects with character-like appearances (interpreted as characters on a plate, resulting in false reads) a|
+Avoid having these items in the Field of View:
+
+* Fences with patterns
+
+* Barriers
+
+* Signs
+
+|Obstructions (blocking FOV) a|
+* Entry gates
+
+* Trees and bushes (even before fully grown)
+
+* Bright light (sun/artificial) shining directly into Camera System's front window
+
+* Weather - snow, heavy rain, dust storms
+
+* Dirt on front window (see <<s_Troubleshooting-and-Maintenance>>)
+
+|Mounting a|
+* Typically gantry (can also be on wall/pole)
+
+* Additional construction if needed
+
+|===
+
+[#s_Hardware-Installation]
+
+== Hardware Installation
+
+[#s_Typical-Wiring-Diagrams]
+
+=== Typical Wiring Diagrams
+
+Here are typical wiring diagrams for capturing license plate images. Note that the type and configuration of the power supply may be different than the one you are using at your site. See <<t_Wiring-Diagram-Legend-Bill-of-Materials>> for a legend/bill of materials.
+
+[IMPORTANT]
+
+========================================
+
+All network cable extensions and repeaters must be shielded.
+
+*After mounting, remove the protective film from the front window of the Camera System.*
+
+*========================================*
+
+[#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
+
+.Typical Camera System with Illuminator Wiring Diagram
+
+image::./UserGuide/image17.png[image,width=530,height=324]
+
+[#t_Wiring-Diagram-Legend-Bill-of-Materials]
+
+.Wiring Diagram Legend/Bill of Materials
+
+[width="100%",cols="12%,51%,37%",options="header",]
+|===
+|Item |Description |Ordering Information
+|A a|*LAN Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]
+|B a|*Power/Signals Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
+|C a|*Power Supply:* 24 VDC, 100/120W; DIN rail/surface mount options +
++
+Can power 2 cameras from a single power supply a|
+{compname-short} P/N:
+
+* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR120-24-TDK-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK]
+
+|D a|*Illuminator Power Cable* |Included; {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
+|E a|*Illuminator Signals Cable* |Included; {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
+|F a|*{illum-strobe} Strobe Illuminator* |{compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Iluminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
+|===
+
+[#f_Typical-Camera-System-Wiring-Diagram]
+
+.Typical Camera System Wiring Diagram
+
+image::./UserGuide/image18.png[image,width=424,height=356]
+
+[#s_Mounting-the-Camera-System]
+
+=== Mounting the Camera System
+
+Secure the Camera System to the appropriate mounting hardware (see the Mounting Hardware documentation - see <<s_Related-Documents>>).
+
+[#s_Constructing-the-Power-Signals-Cable]
+
+=== Constructing the Power/Signals Cable
+
+[IMPORTANT]
+
+========================================
+
+At the end of this procedure, you will need to check that there is conductivity from the shield wire (at the power supply end of the cable) to the body of the connector that will be connected to the Camera System.
+
+========================================
+
+Use the cable type recommended in the Required Accessories section (see <<s_Required-Accessories>>).
+
+. Lay out the parts from the power connector package.
+
+[#f_Power-Signals-Cable-Laying-Out-Connector-Parts]
+
+.Power/Signals Cable: Laying Out Connector Parts
+
+image::./UserGuide/image19.png[image,width=494,height=203]
+
+. Thread the cable through the sealing nut and rubber seal.
+
+[#f_Power-Signals-Cable-Threading-Cable-Through-Sealing-Nut-and-Rubber-Seal]
+
+.Power/Signals Cable: Threading Cable Through Sealing Nut and Rubber Seal
+
+image::./UserGuide/image20.jpg[image,width=507,height=128]
+
+. Prepare the cable shielding:
+
+.. Thread the cable all the way through the clamp cage body. Strip off the outer insulation of the cable, leaving the individual insulated wires exposed to a length of 18mm. *Be careful not to cut into the inner foil and plastic jackets (casings) surrounding the individual insulated wires.*
+
+.. Slit the foil jacket, and bend it back onto the outer insulation.
+
+.. Carefully cut away the plastic jacket enclosing the individual insulated wires.
+
+.. Wrap the shield wire (the one without insulation) 1-2 times around the foil jacket that you bent back.
+
+[#f_Power-Signals-Cable-Stripping-Off-the-Outer-Insulation]
+
+.Power/Signals Cable: Stripping Off the Outer Insulation
+
+image::./UserGuide/image21.png[image,width=468,height=197]
+
+. Peel the backing off of the conductive foil to expose the adhesive.
+
+[#f_Power-Signals-Cable-Peeling-Backing-off-Conductive-Foil]
+
+.Power/Signals Cable: Peeling Backing off Conductive Foil
+
+image::./UserGuide/image22.png[image,width=159,height=179]
+
+. Wrap the conductive foil around the point at which the outer insulation was stripped, to cover and make contact with the shield wire and foil jacket.
+
+[#f_Power-Signals-Cable-Wrapping-Conductive-Foil-Around-Shield-Wire-and-Jacket]
+
+.Power/Signals Cable: Wrapping Conductive Foil Around Shield Wire and Jacket
+
+image::./UserGuide/image23.png[image,width=307,height=194]
+
+. Strip off 5 mm from each individual wire. Insert each wire into its appropriate screw terminal, and tighten with a 2 mm flat screwdriver. +
+The suggested wire colors and pinouts are shown in the following Figures. The notch between pins 1 and 2 on the face of the connector corresponds to the notch on the circular body of the screw terminals.
+
+[#f_Power-Signals-Cable-Power-Signals-Pinouts]
+
+.Power/Signals Cable: Power/Signals Pinouts
+
+image::./UserGuide/image24.png[image,width=138,height=265]
+
+[width="100%",cols="14%,50%,36%",options="header",]
+|===
+|Pin |Power/Trigger |Wire Color
+|1 |24 VDC (-) / GND |Black
+|2 |Dry Trigger 5V({plus}) |Brown
+|3 |Wet Trigger GND/ +
+OV Strobe (-) |White
+|4 |Dry/Wet Trig Input |Blue
+|5 |24 VDC ({plus}) |Red
+|6 |RS485 (A) |Orange
+|7 |RS485 (B) |Yellow
+|8 |OV Strobe ({plus}) |Green
+| |Shield +
+(Connector Body) |---
+|===
+
+[#f_Power-Signals-Cable-Attaching-the-Wires-to-the-Screw-Terminals]
+
+.Power/Signals Cable: Attaching the Wires to the Screw Terminals
+
+image::./UserGuide/image25.png[image,width=173,height=213]
+
+. Insert the screw terminals body into the clamp cage housing. Note how the tabs on the screw terminals fit into the grooves in the clamp cage housing.
+
+[#f_Power-Signals-Cable-Inserting-Screw-Terminals-Tabs-into-Clamp-Cage-Housing]
+
+.Power/Signals Cable: Inserting Screw Terminals' Tabs into Clamp Cage Housing
+
+image::./UserGuide/image26.png[image,width=421,height=295]
+
+. Verify that the conductive foil is now making contact with the spring sleeve protrusions inside the clamp cage housing. Use a 16 mm torque wrench to tighten the nut that fastens the clamp cage housing to the screw terminals body (torque 4-6 kgf.cm / 0.39-0.59 N.m.).
+
+[#f_Power-Signals-Cable-Foil-in-Contact-with-Spring-Inside-Clamp-Cage-Housing]
+
+.Power/Signals Cable: Foil in Contact with Spring Inside Clamp Cage Housing
+
+image::./UserGuide/image27.png[image,width=520,height=285]
+
+. Slide the sealing nut along the cable, and insert it in between the clamp cage protrusions.
+
+[#f_Power-Cable-Inserting-the-Sealing-Nut-into-the-Clamp-Cage]
+
+.Power Cable: Inserting the Sealing Nut into the Clamp Cage
+
+image::./UserGuide/image28.png[image,width=202,height=254]
+
+. Using a 16 mm wrench, tighten the nut that seals the end of the clamp cage housing. (torque 4-6 kgf.cm / 0.39-0.59 N.m.). Verify that the sealing nut is in tight contact with the inner body of the nut (to provide insulation against moisture). The sealing nut may pucker a bit due to the pressure of the nut; this is normal.
+
+[#f_Power-Cable-Tightening-the-Nut-to-Seal-the-Clamp-Cage]
+
+.Power Cable: Tightening the Nut to Seal the Clamp Cage
+
+image::./UserGuide/image29.png[image,width=445,height=201]
+
+. The point in the cable at which you will be connecting the power wires ({plus}, - and ground) to the power supply may be in the middle of the cable. (This part of the cable is typically inside a connection box to seal all connections from moisture.)
+
+.. Strip off a portion of outer insulation of the cable at the end you will be connecting to the power supply. Remove enough insulation so the shield wire will be long enough to wrap several times around the foil jacket (see next steps) and come out of the cable to reach the power supply ground wire. *Be careful not to cut into the inner foil and plastic jackets (casings) surrounding the individual insulated wires.*
+
+.. Slit the foil jacket, and bend it back onto the outer insulation. Leave enough foil exposed so the shield wire can be wrapped several times around the foil.
+
+.. Carefully cut away the plastic jacket enclosing the individual insulated wires.
+
+.. Wrap the shield wire (the one without insulation) several times around the foil jacket that you bent back. There must be a tight contact between the shield wire and the foil.
+
+[#f_Power-Cable-Wrapping-the-Shield-Wire-at-Power-Supply-End]
+
+.Power Cable: Wrapping the Shield Wire at Power Supply End
+
+image::./UserGuide/image30.png[image,width=478,height=194]
+
+.. IMPORTANT: Check that there is conductivity from the shield wire (at the power supply end of the cable) to the body of the connector that will be connected to the camera.
+
+.. You can seal the shield wire wrapping on the cable with insulation tape or heat shrink tubing.
+
+. Connect the shield wire to the ground wire of the power supply. You may need to extend the shield wire by soldering an additional wire on to it.
+
+. Connect the ({plus}) and (-) wires from the cable to the power supply.
+
+[#f_Power-Cable-Connecting-the-Cable-Wires-to-the-Power-Supply]
+
+.Power Cable: Connecting the Cable Wires to the Power Supply
+
+image::./UserGuide/image31.png[image,width=350,height=196]
+
+. Connect the remaining signal wires (see <<s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network>>).
+
+[#s_Constructing-the-LAN-Cable]
+
+=== Constructing the LAN Cable
+
+[IMPORTANT]
+
+========================================
+
+If you are building your own LAN cables, you must use RJ45 connectors with metal bodies. You must ensure that there is conductivity between the bodies of the connectors at each end of the cable. You can do this by extracting the cable's shield wire before attaching the connector to the cable, and then soldering the shield wire to the body of the connector (see the following Figures).
+
+The outer diameter of the LAN cable must be in the range of 0.20" to 0.25" (5.0 to 6.5 mm).
+
+If you are using prefabricated CAT 5e/6 cables with metal-body RJ45 connectors, the shield wires have typically already been connected to each connector body. However, you must still check that there is conductivity between the bodies of the connectors at each end of the cable.
+
+========================================
+
+[#f_LAN-Cable-Extracting-the-Shield-Wire]
+
+.LAN Cable: Extracting the Shield Wire
+
+image::./UserGuide/image32.png[image,width=302,height=211]
+
+[#f_LAN-Cable-Shield-Wire-Soldered-to-Connector-Body]
+
+.LAN Cable: Shield Wire Soldered to Connector Body
+
+image::./UserGuide/image33.png[image,width=305,height=228]
+
+. Lay out the parts from the network (LAN) connector package.
+
+[#f_LAN-Cable-Connector-Parts]
+
+.LAN Cable: Connector Parts
+
+image::./UserGuide/image34.png[image,width=437,height=178]
+
+. Slip the sealing nut over the RJ45 connector onto the LAN cable, with the inner threads in the direction of the RJ45 connector.
+
+[#f_LAN-Cable-Slipping-Sealing-Nut-Over-RJ45-Connector]
+
+.LAN Cable: Slipping Sealing Nut Over RJ45 Connector
+
+image::./UserGuide/image35.png[image,width=243,height=234]
+
+. Open the rubber sealing ring at its split, and put it on the cable.
+
+[#f_LAN-Cable-Attaching-Rubber-Sealing-Ring-to-Cable]
+
+.LAN Cable: Attaching Rubber Sealing Ring to Cable
+
+image::./UserGuide/image36.png[image,width=381,height=178]
+
+. Orient the support plastic with the wider side (with the thinner walls) towards the RJ45 connector. Put the support plastic on the cable (the split can expand slightly).
+
+[#f_LAN-Cable-Attaching-the-Support-Plastic-to-the-Cable]
+
+.LAN Cable: Attaching the Support Plastic to the Cable
+
+image::./UserGuide/image37.png[image,width=501,height=439]
+
+. Gently push the RJ45 connector into the housing until it fits snugly in the cutout in the housing.
+
+[#f_LAN-Cable-Inserting-RJ45-into-Housing-Cutout]
+
+.LAN Cable: Inserting RJ45 into Housing Cutout
+
+image::./UserGuide/image38.png[image,width=306,height=192]
+
+. Insert the support plastic into the housing, followed by the rubber sealing ring. Seat the rubber sealing ring between the housing's teeth as far in as it will go.
+
+[#f_LAN-Cable-Inserting-the-Support-Plastic-and-Rubber-Ring-into-the-Housing]
+
+.LAN Cable: Inserting the Support Plastic and Rubber Ring into the Housing
+
+image::./UserGuide/image39.png[image,width=488,height=279]
+
+. Tighten the sealing nut (torque 8-15 kgf.cm / 0.78-1.47 N.m.).
+
+[#f_LAN-Cable-Completed-Assembly]
+
+.LAN Cable: Completed Assembly
+
+image::./UserGuide/image40.png[image,width=486,height=219]
+
+[#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
+
+=== Connecting the Camera System, Illuminator, Power Supply and Network
+
+See <<f_Typical-Camera-System-with-Illuminator-Wiring-Diagram>> and <<f_Typical-Camera-System-Wiring-Diagram>> for typical wiring diagrams.
+
+[NOTE]
+
+========================================
+
+Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
+
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+**If you are using an {compname-short} power supply, see its User Guide (see <<**s_Related-Documents>>**) for important information.**
+
+I**MPORTANT: All network cable extensions and repeaters must be shielded.**
+
+The Camera System is not compatible with some GigE switches; suggested switch type: 10/100 Mb
+
+The torques required to connect the cable connectors to the connectors on the Camera System are as follows: Power/signals cable: 3-4 kgf.cm / 0.29-0.39 N.m. +
+LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
+
+========================================
+
+[#s_Connecting-the-AC-Electricity]
+
+=== Connecting the AC Electricity
+
+Connect a plug to the **+++<u>+++L+++</u>+++**ive, **+++<u>+++N+++</u>+++**eutral and Ground terminals of the power supply (see <<f_Typical-Camera-System-with-Illuminator-Wiring-Diagram>> and <<f_Typical-Camera-System-Wiring-Diagram>>).
+
+Plug the power supply into the AC electricity. If required, switch the power supply unit ON.
+
+[NOTE]
+
+========================================
+
+If any power cables were lengthened, ensure that all components receive exactly their rated voltage (see <<s_Specifications>>).
+
+Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+========================================
+
+[#s_Reserving-IP-Addresses-in-your-Network]
+
+== Reserving IP Addresses in your Network
+
+The {compname-short} cameras have been pre-configured with default IP addresses. You will probably need to change these addresses to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your ALPR system ({software-ALPR} computer and cameras).
+
+[#s_Recognizing-Devices-with-IZ-Discovery]
+
+== Recognizing Devices with {software-discovery}
+
+[#s_Installing-and-Using-IZ-Discovery]
+
+=== Installing and Using {software-discovery}
+
+The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
+
+[IMPORTANT]
+
+========================================
+
+If any device on your network is connected via wireless, {software-discovery} will not recognize the device. In addition, if the computer running {software-discovery} is connected via wireless, you will not see any devices displayed.
+
+========================================
+
+. Download the {software-discovery} software components (see <<s_Related-Documents>>)
+
+. Run {software-discovery}
+
+. When {software-discovery} first runs, you may see a Windows security warning. If so, click Run.
+
+. If you see a message related to the Windows firewall, click Allow.
+
+. {software-discovery} will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
+
+.. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>>).
+
+.. Click Clear List to refresh the discovery process.
+
+[#f_IZ-Discovery-Utility]
+
+.{software-discovery} Utility
+
+image::./UserGuide/image41.png[image,width=541,height=362]
+
+. If {software-discovery} does not recognize a device:
+
+** Press the device's reset button (if available)
+
+** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
+
+** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run {software-discovery} again.
+
+[#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
+
+=== Changing a Device's IP Address and Network Settings
+
+[#f_Changing-Device-s-Network-Settings]
+
+.Changing Device's Network Settings
+
+image::./UserGuide/image42.png[image,width=227,height=230]
+
+[NOTE]
+
+========================================
+
+The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
+
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access a device using the same URL every time, even after unexpected power outages (see <<s_Logging-In-to-the-Camera>>).
+
+A dynamic IP address may change upon device reboot. Before opening the device's web interface, you will have to find the current IP address of the device using {software-discovery}.
+
+If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
+
+Be sure to define IP addresses for each camera in the Camera System, plus the IP address of the onboard computer. It is recommended to use sequential IP addresses; for example: 192.168.5.64, 65, 66
+
+You can also log in to each camera's configuration application to change its IP address (see <<s_Configuring-a-Camera>>).
+
+========================================
+
+To change the device's mode (fixed or dynamic [DHCP]), or IP address:
+
+. Select the relevant line in the list of devices and double-click on it.
+
+. The Network Settings window appears
+
+. To change the mode:
+
+.. Check or uncheck the DHCP box
+
+.. Click Save
+
+. To change the IP address:
+
+.. Verify that the address is not used by any other device on the network
+
+.. Be sure to uncheck the DHCP box
+
+.. Enter the network address parameters
+
+.. Write down the new IP Address and click Save
+
+. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
+
+. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (see <<s_Logging-In-to-the-Camera>>), and change the IP address (see <<s_Changing-a-Camera-s-IP-Address>>)
+
+[#s_Configuring-a-Camera]
+
+== Configuring a Camera
+
+[#s_Logging-In-to-the-Camera]
+
+=== Logging In to the Camera
+
+. To view the camera's home page (see <<f_Camera-s-Home-Page>>):
+
+** Open MS Internet Explorer. Enter the IP address of the camera into the address field of the browser. +
+Alternatively, you can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link]. +
+Enter the IP address of the camera into the address field of the browser.
+
+[#f_Camera-s-Home-Page]
+
+.Camera's Home Page
+
+image::./UserGuide/image43.png[image,width=528,height=230]
+
+. Select the function you need from the links at the upper right:
+
+** Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-the-Cameras-Using-RoadView>>).
+
+[NOTE]
+
+========================================
+
+When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
+If you do not have an internet connection to the network on which the camera is installed, wait 30 seconds, and you will be instructed on how to install the ActiveX control locally via the camera's firmware.
+
+The stream of the Live View can also be accessed using an RTSP URL with the following format:
+
+rtsp://[username:password]@<Camera IP address>/cam0_0 +
+where cam0_0 are camera-specific parameters (which in this case enable you to access the primary stream)
+
+To see the stream, use a video player such as the VLC player, located at: +
+https://www.videolan.org/vlc/index.html
+
+========================================
+
+** If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
+
+. When prompted for a login, use the Administrator credentials of root, IZpass12.
+
+[IMPORTANT]
+
+========================================
+
+The Administrator user name (root) cannot be changed, and the Administrator password is encrypted. Therefore, if someone changes the Administrator password, there is no way to find out the password if it gets lost.
+
+========================================
+
+[#s_Changing-a-Camera-s-IP-Address]
+
+=== Changing a Camera's IP Address
+
+[NOTE]
+
+========================================
+
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the camera using the same URL every time, even after unexpected power outages.
+
+========================================
+
+. In the Basic Setup group, click on IP Address:
+
+[#f_Changing-the-Camera-s-IP-Address]
+
+.Changing the Camera's IP Address
+
+image::./UserGuide/image44.png[image,width=524,height=180]
+
+. To change the IP address to a fixed one:
+
+[NOTE]
+
+========================================
+
+The IP address must be unique within the entire ALPR system, and must be within the limits of standard IPv4 address numbering.
+
+========================================
+
+.. Click the Static radio button.
+
+.. Enter the network address parameters (see <<t_IP-Address-Parameters>>). All cameras must be on the same subnet as both the computer you will use to communicate with and configure the camera, and the {compname-short} {software-ALPR} computer.
+
+[IMPORTANT]
+
+========================================
+
+It is highly recommended to record the camera's IP address and port number in a safe place. You will need them if the camera's parameters are reset back to their defaults, and for configuring {compname-short} ALPR software.
+
+========================================
+
+[#t_IP-Address-Parameters]
+
+.IP Address Parameters
+
+[width="100%",cols="28%,20%,52%",options="header",]
+|===
+|Sub-category > Parameter Group |Parameter |Setting
+|IP Address |Service (radio buttons) |Set to Static to be able to access the camera
+|IP Address |IP Address |According to the camera's location and the organization of your network.
+|IP Address |NetMask |According to the camera's location and the organization of your network
+|IP Address |GateWay |According to the camera's location and the organization of your network
+|IP Address |DNS 1 |According to the camera's location and the organization of your network
+|IP Address |DNS 2 |According to the camera's location and the organization of your network
+|===
+
+. Click Apply.
+
+[IMPORTANT]
+
+========================================
+
+After selecting Apply, you will be requested to close your web browser so the updates can take effect. This will take 20 seconds or more, to allow the camera time to reboot. +
+- If you click the browser's Back button, all values will be discarded. +
+- If you click the browser's Refresh button, the application will load the previous values.
+
+========================================
+
+. In the {software-discovery} utility (see <<s_Recognizing-Devices-with-IZ-Discovery>>), click the "Clear List" button, and verify that the camera can be recognized with the new IP address.
+
+[#s_Logging-Out-of-the-Camera]
+
+=== Logging Out of the Camera
+
+Close all windows, and the browser window.
+
+[#s_Calibrating-the-Cameras]
+
+== Calibrating the Cameras
+
+There are two cameras in the Camera System. Both are calibrated in nearly the same way. The LPR camera is set to capture in black and white, and the Overview (OV) camera is set to capture in color.
+
+The OV camera can be used both to display an overview image, and to perform LPR recognition. You may even be able to improve read accuracy by changing the zoom to have one camera "see" closer than the other one.
+
+[#s_Preparing-a-Vehicle-License-Plate]
+
+=== Preparing a Vehicle/License Plate
+
+Move a vehicle next to, and at the middle of the capture line. (This is the position at which the vehicle sensor signals that the vehicle is present.) Ensure that the Camera System is aimed at the middle of the lane, and is at the required capture distance (see <<s_Specifications>> and <<s_Planning-Your-Installation>>).
+
+Alternatively, in a lab, position a license plate at the expected distance and height.
+
+[#s_Calibrating-the-Cameras-Using-RoadView]
+
+=== Calibrating the Cameras Using {software-ALPR}
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for calibration instructions.
+
+[#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
+
+== Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
+
+See <<s_Recognizing-Devices-with-IZ-Discovery>> .
+
+[#s_Using-RoadView]
+
+== Using {software-ALPR}
+
+[#s_Logging-In]
+
+=== Logging In
+
+. Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {software-ALPR} computer. For example: +
+http://192.115.120.76:80/[http://192.115.120.76]/
+
+. You will see the login screen. Enter the default username and password (root, root):
+
+[#f_Logging-In-to-RoadView]
+
+.Logging In to {software-ALPR}
+
+image::./UserGuide/image45.png[image,width=209,height=143]
+
+. You should see the {software-ALPR} Live (Journal) tab. See the {software-ALPR-long} User Guide for instructions for configuring and using {software-ALPR} (see <<s_Related-Documents>>).
+
+[#s_Verifying-the-Installation]
+
+=== Verifying the Installation
+
+* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>> .
+
+* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+
+[#s_Logging-Out]
+
+=== Logging Out
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
+
+[#s_Troubleshooting-and-Maintenance]
+
+== Troubleshooting and Maintenance
+
+[#s_Troubleshooting]
+
+=== Troubleshooting
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+
+[#s_Checking-Mounting-Screws]
+
+=== Checking Mounting Screws
+
+It is recommended to check all mounting screws for proper tightness once every two years.
+
+[#s_Cleaning-the-ALPR-Camera-System]
+
+=== Cleaning the ALPR Camera System
+
+Do not use solvents or strong abrasive detergent when cleaning the Camera System. Use a soft dry cloth to clean the ALPR Camera System's front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
+
+[#s_Appendix-A-Document-Change-History]
+
+== Appendix A - Document Change History
+
+[width="100%",cols="16%,18%,66%",options="header",]
+|===
+|Version |Date |Change
+|1.00 |Aug. 25, 2020 |Initial version
+|1.10 |Nov. 15, 2020 a|
+* Added "AI" to document title
+
+* Added the following certifications to the Regulatory Notices section: CE, RoHS, IP67, ONVIF, IK 10
+
+* Added revision letter to specifications table title
+
+* Replaced specifications table with new one from technical data sheet
+
+* Added NVIDIA and LINUX logos to front page
+
+* Changed header of power/signals cables wire colors to {compname-short} Cable Wire Color
+
+* Removed Note explaining format of ordering numbers.
+
+* Added the word "Compliant" to ONVIF specification description; both in Regulatory Notices and in specification table
+
+* Removed nm specifications from Wavelength specification
+
+* Added technical data sheet to related documents
+
+|1.11 |Nov. 15, 2020 a|* Improved picture of camera in Typical Wiring Diagram figure.
+|1.12 |Feb. 16, 2021 a|* Added NDAA Section 889 compliance to specification table, and NDAA Section 889 Certification of Compliance document to Related Documents
+|1.15 |Mar. 10, 2021 a|
+* Updated links in Related Documents, and removed IP Installer
+
+* Removed IP Installer from instructions, and substituted new {software-discovery} instead
+
+* Matched package contents to description in data sheet
+
+* Replaced specification table with data sheet specification table (new format)
+
+* Added section introducing how to match Camera Systems to Illuminators, with a reference to the illuminator guide for specific information
+
+* Changed power/signals connector pinout table to a text table, plus some updates
+
+|1.16 |Mar. 16, 2021 a|
+* Removed Allen wrench from package contents
+
+* Added mount MNT-W3X-W guide to Related Documents; changed wording to "Mounting Guide**+++<u>+++s+++</u>+++**"
+
+|1.17 |Mar. 16, 2021 a|* Replaced front cover illustration with photo
+|1.18 |Mar. 18, 2021 a|
+* Fixed "Calibrating the Cameras" step numbering
+
+* Added step for using SHIFT-Right or Left Arrow to adjust the marker on the ruler to 150 pixels
+
+* Added tips about dragging to see different parts of the Live View image, and about using the mouse wheel to zoom in and out
+
+|1.20 |Apr. 21, 2021 a|
+* Removed Missing Plate from Vehicle Analytics in specification table
+
+* Added {hw-iocontroller} to Available Accessories in specification table
+
+* Added {hw-iocontroller} to Related Documents table
+
+|1.25 |July 5, 2021 a|
+* Updated model number, wavelength and distance specifications
+
+* Added color of housing
+
+* Added instructions for installing Smart Viewer (required for using the Live View in the camera's calibration software)
+
+* Updated section explaining camera/illuminator compatibility to use new illuminator product designations ({illum-strobe})
+
+|1.26 |July 8, 2021 a|
+* Updated instructions for matching Camera Systems to illuminators
+
+* Changed use of the word "infrared" to "infrared-type" to include different types of illumination
+
+|1.27 |July 11, 2021 a|* Corrected explanation of when dynamic IP addresses change (upon reboot)
+|1.28 |July 13, 2021 a|* Updated document reference to {software-ALPR-long} in Related Documents table
+|1.29 |Aug. 2, 2021 a|
+* Product revision changed from C to F1
+
+* Corrected model numbers - XL model and one L: model use IL (Invisible Infrared) LEDs
+
+|1.30 |Aug. 2, 2021 a|* Changed input voltage to 12-24 VDC in all text and pictures
+|1.31 |Aug. 11, 2021 a|* Minor correction - fixed cross-reference link
+|1.32 |Aug. 17, 2021 a|* OV Strobe ({plus}/-) specification changed from 3.3V non-isolated to 5V isolated
+|1.33 |Sep. 12, 2021 a|* Updated references to power supplies with new model numbers and document file names
+|1.34 |Nov. 1, 2021 a|* Changed LPR/OV strobe output specs from ({plus}/-) 5 V isolated to ({plus}/-) 3.3 V isolated
+|1.35 |Nov. 10, 2021 a|* Reverted power input back from 12-24 VDC to 24 VDC
+|1.36 |Dec. 6, 2021 a|
+* Changed all references to the Mounting Hardware Guide(s) to new updated mounting presentations in the Related Documents table
+
+* Changed all references in the text to "Mounting Hardware Guide" to the more generic "Mounting Hardware documentation"
+
+|1.50 |Jan. 10, 2022 a|
+* Included {shortprodname}W in document: specification table and other relevant places
+
+* Changed Windows requirement to version 10 and up only, not 8
+
+* Calibration is now done via the {software-ALPR-long} software's Calibration tab; text removed will be used in {software-ALPR} User Guide
+
+* Added illustration of {shortprodname}W white LEDs
+
+|1.51 |Jan. 31, 2022 a|* Changed digital outputs (strobe) from 3.3 V to 5 V.
+|1.52 |July 11, 2022 a|* Minor corrections
+|1.60 |Sep. 18, 2022 a|
+Changes for hardware revision F2:
+
+* Added dry/wet camera trigger inputs to power/signals connector
+
+* Removed LPR Illuminator Strobe output from power/signals connector; added RS485 output
+
+Other changes:
+
+* Changed pinout diagrams and tables to conform to new format
+
+* Added link to new Quick Start to Related Documents table
+
+|1.61 |Dec. 14, 2022 a|
+* Added {software-cloud} logo
+
+* Updated specifications: +
+- Changed abbreviation of megapixel to MP +
+- Updated sensor resolution to 3.19 MP, 2048 (H) x 1536 (V) +
+- Underlines removed from table headers +
+- Product revision now at F3 (change in headers of specification table; but row removed in data sheet) +
+- Reduced full names of models to one letter to save space in specifications +
+- Corrected OV illumination specification (G uses ambient light for OV image; GW uses 5 white LEDs) +
+- Columns combined where possible +
+- Updated distance specifications and wording +
+- Changed wording of {compname-short} HTTP API specification +
+- Removed {plus}/- from Digital Output specification +
+- Added links to Accessories Available in specification table +
+- Added IZCAB-A800-PAS and IZCAB-A800-LAN cables to Accessories Available +
+- Removed "Different lengths of prefabricated power/signals cables" from Accessories Available since current length being sold is 15 feet
+
+* Added IZCAB-A800-PAS and IZCAB-A800-LAN to related documents table
+
+* Changed typical wiring diagrams and legend table to match Quick Start
+
+* Added /GW to product name where appropriate since document covers both {shortprodname} and {shortprodname}W
+
+|1.62 |Jan. 11, 2023 a|* Removed GW white light designation for a separate product (will be covered by new model numbers)
+|1.63 |Jan. 11, 2023 a|* Added text to package contents to indicate that some models may include prefabricated cables
+|1.64 |Mar. 20, 2023 a|
+* EULA reference added to Legal Disclaimer, and EULA row added to Related Documents
+
+* Most references (except those in specification tables and bill of materials tables which are reused in other documents) to related documents within text now refer to the Related Documents section (enables link updates to be made in one place)
+
+* Changed name of {illum-strobe} to "Strobe" Illuminator in Related Documents table
+
+* In specification table: added reference to new Analytics document; put each analytic type in a comma-separated list; changed "Lanes Covered" to Field of View (FOV); updated Data Storage specs
+
+* Added text explaining that an IE Tab extension can be added to Chrome to enable access to the camera configuration application.
+
+* Deleted section explaining how to calculate horizontal FOV since FOV now appears in specification table
+
+* Added the word "System" to Camera in selected places to clarify that the subject under discussion is the overall Camera System, not the individual cameras/sensors inside the Camera System.
+
+* Added Note in IP Discovery section to remind user to define IP addresses for each camera and onboard computer.
+
+* Added Note in IP Discovery section to remind user that a camera's IP address can also be changed via the camera's configuration application.
+
+* Added text explaining that {software-ALPR} works with the latest version of Chrome or IE 11 or higher.
+
+* Changed name of {software-ALPR} tab seen initially to "Live (Journal)"
+
+|1.65 |Mar. 20, 2023 a|* Minor corrections to wording and cross references
+|1.66 |Mar. 23, 2023 a|* Updated some of the {software-discovery} wording to match other documents
+|1.70 |July 4, 2023 a|* Corrections discovered during conversion to online version (for example, cross-references)
+|--- |--- a|* From this point on, see the GitHub commit history comments
+|===
