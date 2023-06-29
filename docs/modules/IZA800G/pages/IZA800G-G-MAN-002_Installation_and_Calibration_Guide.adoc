@@ -550,7 +550,7 @@ All network cable extensions and repeaters must be shielded.
 
 *After mounting, remove the protective film from the front window of the Camera System.*
 
-*========================================*
+========================================
 
 [#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
 
