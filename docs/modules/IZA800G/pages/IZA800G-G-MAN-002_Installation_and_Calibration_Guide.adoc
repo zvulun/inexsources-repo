@@ -43,7 +43,7 @@
 === Installation and Calibration Guide
 Doc. No. IZA800G-G-MAN-002
 
-image:ROOT:image$/IZA800G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left] image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
+image:ROOT:image$/IZA800G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left] image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 
 // restore section numbering from here on
 :sectnums: all
@@ -63,7 +63,7 @@ toc::[]
 This document is for:
 
 * *Technical personnel* who need to install IZA Camera Systems.
-
++
 [NOTE]
 
 ========================================
@@ -101,12 +101,13 @@ Contact {compname-long} for document ordering information.
 |xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
 
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
 [#s_Support]
 
-=== Support
-
-If you have any questions, please contact our support team via our website: +
-http://
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
 [#s_Quick-Installation-Overview]
 
@@ -194,11 +195,11 @@ image::./UserGuide/image4.png[image,width=624,height=236]
 
 [#f_Dimensions]
 
-.Dimensions
-
 image::./UserGuide/image5.png[image,width=315,height=205]
 
 image::./UserGuide/image6.png[image,width=463,height=224]
+
+.Dimensions
 
 image::./UserGuide/image7.png[image,width=489,height=252]
 
@@ -1064,27 +1065,21 @@ image::./UserGuide/image44.png[image,width=524,height=180]
 . To change the IP address to a fixed one:
 
 [NOTE]
-
 ========================================
-
 The IP address must be unique within the entire ALPR system, and must be within the limits of standard IPv4 address numbering.
-
 ========================================
 
 .. Click the Static radio button.
 
 .. Enter the network address parameters (see <<t_IP-Address-Parameters>>). All cameras must be on the same subnet as both the computer you will use to communicate with and configure the camera, and the {compname-short} {software-ALPR} computer.
 
+
 [IMPORTANT]
-
 ========================================
-
 It is highly recommended to record the camera's IP address and port number in a safe place. You will need them if the camera's parameters are reset back to their defaults, and for configuring {compname-short} ALPR software.
-
 ========================================
 
 [#t_IP-Address-Parameters]
-
 .IP Address Parameters
 
 [width="100%",cols="28%,20%,52%",options="header",]
@@ -1098,10 +1093,10 @@ It is highly recommended to record the camera's IP address and port number in a 
 |IP Address |DNS 2 |According to the camera's location and the organization of your network
 |===
 
+
 . Click Apply.
 
 [IMPORTANT]
-
 ========================================
 
 After selecting Apply, you will be requested to close your web browser so the updates can take effect. This will take 20 seconds or more, to allow the camera time to reboot. +

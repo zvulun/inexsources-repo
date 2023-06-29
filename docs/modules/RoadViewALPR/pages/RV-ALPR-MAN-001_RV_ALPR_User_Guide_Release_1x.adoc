@@ -218,13 +218,13 @@ See your camera's Installation Guide for an explanation of how to log in to a ca
 
 === Determining the IP Address of the {shortprodname} Computer with {software-discovery}
 
-include::ROOT:partial$p-izdiscovery-sec1.adoc[First part of IZ Discovery text]
+include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec1.adoc[First part of IZ Discovery text]
 
 [#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
 
 === Changing a Device's IP Address and Network Settings
 
-include::ROOT:partial$p-izdiscovery-sec2.adoc[Second part of IZ Discovery text]
+include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec2.adoc[Second part of IZ Discovery text]
 
 [#s_Logging-In-and-Logging-Out]
 
