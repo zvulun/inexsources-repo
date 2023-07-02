@@ -877,7 +877,7 @@ Connect a plug to the **+++<u>+++L+++</u>+++**ive, **+++<u>+++N+++</u>+++**eutra
 
 Plug the power supply into the AC electricity. If required, switch the power supply unit ON.
 
-[NOTE]
+[WARNING]
 
 ========================================
 
