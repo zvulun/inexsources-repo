@@ -11,9 +11,9 @@ Note also that any Figures and Tables will have the proper sequence numbers appl
 INCLUDES
 ////
 
-[square]
+
 * [.underline]*Eye Safety: The following precautions must be observed:*
-[round]
+
 ** Do not stare directly into the front of the Camera System while it is operating.
 ** {docproductname} - {eyesafetystandard-1}:
 

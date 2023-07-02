@@ -43,7 +43,7 @@
 === Installation and Calibration Guide
 Doc. No. IZA800G-G-MAN-002
 
-image:ROOT:image$/IZA800G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
+image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
 
 image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 
@@ -847,7 +847,7 @@ image::./UserGuide/image40.png[image,width=486,height=219]
 
 See <<f_Typical-Camera-System-with-Illuminator-Wiring-Diagram>> and <<f_Typical-Camera-System-Wiring-Diagram>> for typical wiring diagrams.
 
-[NOTE]
+[WARNING]
 
 ========================================
 
