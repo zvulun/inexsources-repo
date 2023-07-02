@@ -245,7 +245,7 @@ image::./UserGuide/image9.png[image,width=279,height=215]
 .^| Specification
 {set:cellbgcolor:#c0c0c0}
 
-.2+.^| Supported Analytics (see the xref:RoadViewALPR:DocList.adoc[Analytics Data Sheet] for details
+.2+.^| Supported Analytics (see the xref:RoadViewALPR:DocList.adoc[Analytics Data Sheet] for details)
 {set:cellbgcolor!}
 .^| LPR Analytics
 .^| Plate Recognition, State of Issue, Type
@@ -395,7 +395,7 @@ image::./UserGuide/image9.png[image,width=279,height=215]
 .^| Video Streaming
 .^| RTSP Protocol
 
-.2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR-long} User Guide]
+.2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR-long} User Guide])
 .^| {compname-short} HTTP API
 .^| LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images.
 
