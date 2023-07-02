@@ -237,7 +237,336 @@ image::./UserGuide/image9.png[image,width=279,height=215]
 
 .Technical Specifications[#t_Technical-Specifications]
 
-*_REINSERT THE SPECIFICATION TABLE HERE WITH VARIABLES FOR THE ITEMS THAT COULD CHANGE LIKE LPR AND VEHICLE ANALYTICS!!_*
+[options="header",cols="24,23,53"]
+|===
+2+.^| Item
+{set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+{set:cellbgcolor:#c0c0c0}
+
+.2+.^| Supported Analytics (see the xref:RoadViewALPR:DocList.adoc[Analytics Data Sheet] for details
+{set:cellbgcolor!}
+.^| LPR Analytics
+.^| Plate Recognition, State of Issue, Type
+
+
+.^| Vehicle Analytics
+.^| Vehicle Detection, Classification, Color, Make; Vehicle Without Plate
+
+2+.^| Field of View (FOV)
+
+.^| 14 ft (H) x 10 ft (V) (4.3 x 3.0 m)
+
+2+.^| Max Vehicle Speed
+
+.^| Up to 120 mph (193 km/h)
+
+2.3+.^| LPR Capture Distance* +
+(for U.S.A. plates)
+
+.^a| * S - Short distance, 5-35 ft (2-11 m)
+
+
+
+.^a| * L - Long distance, 30-70 ft (9-21 m)
+
+
+
+.^a| * XL - Extra-long distance 33-80 ft (10-24 m)
+
+.7+.^| LPR Illumination
+.2+.^| Number of LEDs
+.^a| * DR, IR - 15 high power LEDs
+
+
+
+.^a| * DRW, IRW - 10 high power LEDs
+
+
+.2+.^| Wavelength
+.^a| * DR - Deep Red
+
+
+
+.^a| * IR - Infrared
+
+
+.3+.^| Beam Angle
+.^a| * S- 40°x16°
+
+
+
+.^a| * L - 15°x15°
+
+
+
+.^a| * XL - 15°x15°
+
+.8+.^| LPR Camera
+.^| Shutter Type
+.^| Global
+
+
+.^| Sensor
+.^| Sony IMX265
+
+
+.^| Resolution
+.^| 3.19 MP - 2048 (H) x 1536 (V)
+
+
+.3+.^| Lens
+.^a| * S - 12-40 mm; Motorized Zoom and Auto-focus
+
+
+
+.^a| * L - 12-40 mm; Motorized Zoom and Auto-focus
+
+
+
+.^a| * XL - 12-50 mm; Manual Zoom and Focus
+
+
+.^| Video Compression
+.^| MJPEG, H.264, H.265
+
+
+.^| Video Streaming
+.^| RTSP Protocol
+
+.7+.^| OV Illumination
+.2+.^| Number of LEDs
+.^a| * DR, IR - No visible light LEDs
+
+
+
+.^a| * DRW, IRW - 5 high power LEDs
+
+
+.2+.^| Wavelength
+.^a| * DR, IR, - N/A
+
+
+
+.^a| * DRW, IRW - Visible, Warm White
+
+
+.3+.^| Beam Angle
+.^a| * S - 40°x16°
+
+
+
+.^a| * L - 15°x15°
+
+
+
+.^a| * XL - 15°x15°
+
+.8+.^| OV Camera
+.^| Shutter Type
+.^| Global
+
+
+.^| Sensor
+.^| Sony IMX265
+
+
+.^| Resolution
+.^| 3.19 MP - 2048 (H) x 1536 (V)
+
+
+.3+.^| Lens
+.^a| * S - 12-40 mm; Motorized Zoom and Auto-focus
+
+
+
+.^a| * L - 12-40 mm; Motorized Zoom and Auto-focus
+
+
+
+.^a| * XL - 12-50 mm; Manual Zoom and Focus
+
+
+.^| Video Compression
+.^| MJPEG, H.264, H.265
+
+
+.^| Video Streaming
+.^| RTSP Protocol
+
+.2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR-long} User Guide]
+.^| {compname-short} HTTP API
+.^| LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images.
+
+
+.^| {compname-short} Discovery
+.^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
+
+.8+.^| AI Processor
+.^| GPU
+.^| NVIDIA Maxwell architecture with 128 CUDA® cores
+
+
+.^| CPU
+.^| Quad-core ARM Cortex-A57 MPCore processor
+
+
+.^| RAM
+.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
+
+
+.^| System Storage
+.^| MicroSD, 64 Gb
+
+
+.^| Data Storage
+.^| SSD, 250 Gb
+
+
+.2+.^| RTC Battery
+.^| Maintains real-time clock date and time for 4-6 hours
+
+
+
+.^| Rechargeable; Full charge-up time: 12 hours
+
+
+.^| OS
+.^| Linux Ubuntu 18.04
+
+.4+.^| Environmental
+.^| Ingress Protection
+.^| IP67
+
+
+.^| Operating Temperature
+.^| -22°F to 140°F (-30°C to 60°C)
+
+
+.^| Storage Temperature
+.^| -22°F to 158°F (-30°C to 70°C)
+
+
+.^| Humidity
+.^| 0% - 90% RH, non-condensing
+
+.6+.^| Certifications
+.^| EMC
+.^| FCC Class B/CE
+
+
+.^| Interoperability
+.^| ONVIF compliant, Profile S
+
+
+.^| RoHS
+.^| RoHS
+
+
+.^| Impact Protection
+.^| IK10 (Vandal-proof)
+
+
+.^| Eye Safety
+.^| IEC62471 Group 1
+
+
+.^| NDAA
+.^| NDAA Section 889 compliant
+
+.3+.^| Physical
+.^| Dimensions
+.^| (W x H x D) 6.7" x 4.7" x 17.7" +
+(171 mm x 119 mm x 451 mm)
+
+
+.^| Weight
+.^| 9.0 lbs (4.1 kg)
+
+
+.^| Color
+.^| White
+
+.8+.^| Interface
+.^| Ethernet
+.^| 10/100 BaseT
+
+
+.2+.^| Connectors
+.^| LAN - Waterproof outdoor RJ-45 connector
+
+
+
+.^| Power/Signals - Waterproof outdoor M12 connector
+
+
+.3+.^| Digital Inputs (Trigger)
+.^a| * Dry Trigger: 5V ({plus})
+
+
+
+.^a| * Wet Trigger GND
+
+
+
+.^a| * Dry/Wet Trig Input
+
+
+.2+.^| Digital Outputs
+.^a| * OV Strobe: 5 V isolated
+
+
+
+.^a| * RS485 (A/B)
+
+.2+.^| Power
+.^| Input Voltage
+.^| 24 VDC {plus}/- 10%, Class 2 Low-Voltage
+
+
+.^| Power Consumption
+.^| 25 W
+
+2.3+.^| Accessories Included
+
+.^| Sunshade
+
+
+
+.^| Waterproof outdoor RJ-45 cable connector
+
+
+
+.^| Waterproof outdoor M12 cable connector
+
+2.6+.^| Accessories Available
+
+.^| xref:IZPWR:DocList.adoc[DIN Power Supplies] +
+xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
+
+
+
+.^| xref:IZIO:DocList.adoc[{hw-iocontroller} Digital I/O Controller]
+
+
+
+.^| Power/Signals Cable for {shortprodname} System (xref:IZCAB-A800-PAS:DocList.adoc[IZCABA800PAS])
+
+
+
+.^| LAN Cable for {shortprodname} System (xref:IZCAB-A800-LAN:DocList.adoc[IZCABA800LAN])
+
+
+
+.^| Different xref:MNT-ProdToMountMap:DocList.adoc[mount options] available
+
+
+
+.^| External Illuminator (xref:IZS:DocList.adoc[{illum-strobe} Series])
+
+|===
+
 
 * LPR Capture Distance is measured from camera to plate
 
