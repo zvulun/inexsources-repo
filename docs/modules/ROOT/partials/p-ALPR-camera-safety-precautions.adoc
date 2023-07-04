@@ -4,6 +4,8 @@
 // be seen in the TOC with numbers
 //:!sectnums:
 
+:generic-camera-name: ALPR Camera System
+
 === Safety Precautions
 
 [CAUTION]
@@ -23,15 +25,15 @@ All network cable extensions and repeaters must be shielded.
 Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
 ===============================
 
-* Please read this guide carefully before installing the ALPR Camera System.
+* Please read this guide carefully before installing the {generic-camera-name}.
 * Keep this guide for future reference.
-* Do not disassemble the ALPR Camera System or external illuminator units. Repair or replacement of parts for this ALPR Camera System and its external illuminator units should be supplied by INEX Technologies, and installed by qualified service personnel.
-* Handle and store the ALPR Camera System and external illuminator units with care.
-* Never point the ALPR Camera System directly towards the sun.
-* Do not allow water (e.g. rain) to enter the ALPR Camera System. 
+* Do not disassemble the {generic-camera-name} or external illuminator units. Repair or replacement of parts for this {generic-camera-name} and its external illuminator units should be supplied by INEX Technologies, and installed by qualified service personnel.
+* Handle and store the {generic-camera-name} and external illuminator units with care.
+* Never point the {generic-camera-name} directly towards the sun.
+* Do not allow water (e.g. rain) to enter the {generic-camera-name}.
 * Do not handle the Camera System or external illuminator units unless you have adequate electrostatic discharge (ESD) protection; otherwise, the warranty will be void.
 * You must request that your INEX Technologies-certified service technician install lightning and electrical surge protection on all wiring connected to INEX Technologies' products. The warranty does not cover surge or lightning protection.
-* Do not use the ALPR Camera System or external illuminator units outside of their temperature, humidity and power source ratings as noted in their respective technical specifications.
+* Do not use the {generic-camera-name} or external illuminator units outside of their temperature, humidity and power source ratings as noted in their respective technical specifications.
 * To avoid heat accumulation/overheating, use sufficient ventilation in the product's operating environment.
 * Do not connect several devices to one power adapter since adapter overload may cause overheating or a fire hazard.
 * Stop using the unit immediately if it emits smoke, or if you notice an abnormal smell or sound. In such cases, please contact us. Do not attempt to repair the unit by yourself!
