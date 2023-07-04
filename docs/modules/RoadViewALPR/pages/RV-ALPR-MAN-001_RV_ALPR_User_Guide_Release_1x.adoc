@@ -6,7 +6,7 @@
 // outside partials - should be used in partials
 // Remember to unset all non-relevant attributes
 :xref-type-RoadView:
-:!xref-type-IZ800:
+:!xref-type-IZA800G:
 :!xref-type-IZ600F:
 
 
