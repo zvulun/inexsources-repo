@@ -23,7 +23,7 @@ toc::[]
 
 [#small-camera]
 .{docproductname} Camera
-image::ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera, width="200",align="left"]
+image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
 
 ////
 Note how you do not need a backslash in front of the curly brackets
