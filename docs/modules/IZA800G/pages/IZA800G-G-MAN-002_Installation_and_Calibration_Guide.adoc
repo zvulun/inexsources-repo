@@ -1,5 +1,6 @@
 :docproductname: IZA800G
 :shortprodname: IZA800G
+:generic-camera-name: ALPR Camera System
 
 // These attributes have been soft set
 // In the playbooks, so they can be
@@ -147,7 +148,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 === Package Contents
 
-Carefully unpack the contents of the ALPR Camera System package.
+Carefully unpack the contents of the {generic-camera-name} package.
 
 [#f_Package-Contents]
 
@@ -187,13 +188,13 @@ The {shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and
 
 [#f_Front-View-of-the-ALPR-Camera-System]
 
-.Front View of the ALPR Camera System
+.Front View of the {generic-camera-name}
 
 image::./UserGuide/image3.png[image,width=566,height=280]
 
 [#f_Underside-of-the-ALPR-Camera-System]
 
-.Underside of the ALPR Camera System
+.Underside of the {generic-camera-name}
 
 image::./UserGuide/image4.png[image,width=624,height=236]
 
@@ -1444,9 +1445,9 @@ It is recommended to check all mounting screws for proper tightness once every t
 
 [#s_Cleaning-the-ALPR-Camera-System]
 
-=== Cleaning the ALPR Camera System
+=== Cleaning the {generic-camera-name}
 
-Do not use solvents or strong abrasive detergent when cleaning the Camera System. Use a soft dry cloth to clean the ALPR Camera System's front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
+Do not use solvents or strong abrasive detergent when cleaning the Camera System. Use a soft dry cloth to clean the {generic-camera-name}'s front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
 
 == Notices, Safety Precautions and Certifications
 
