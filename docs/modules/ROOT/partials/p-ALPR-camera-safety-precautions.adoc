@@ -27,8 +27,8 @@ Power undervoltage, overvoltage and/or incorrect polarity will damage the unit a
 
 * Please read this guide carefully before installing the {generic-camera-name}.
 * Keep this guide for future reference.
-* Do not disassemble the {generic-camera-name} or external illuminator units. Repair or replacement of parts for this {generic-camera-name} and its external illuminator units should be supplied by INEX Technologies, and installed by qualified service personnel.
-* Handle and store the {generic-camera-name} and external illuminator units with care.
+* Do not disassemble the {generic-camera-name}ifdef::xref-type-IZA800G[ or external illuminator units]. Repair or replacement of parts for this {generic-camera-name}ifdef::xref-type-IZA800G[ and its external illuminator units ]should be supplied by INEX Technologies, and installed by qualified service personnel.
+* Handle and store the {generic-camera-name}ifdef::xref-type-IZA800G[ and external illuminator units ] with care.
 * Never point the {generic-camera-name} directly towards the sun.
 * Do not allow water (e.g. rain) to enter the {generic-camera-name}.
 * Do not handle the Camera System or external illuminator units unless you have adequate electrostatic discharge (ESD) protection; otherwise, the warranty will be void.
