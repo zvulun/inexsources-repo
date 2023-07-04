@@ -26,7 +26,7 @@
 === Installation and Calibration Guide
 Doc. No. IZA800G-GW-MAN-002
 
-image:ROOT:image$IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left] image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
+image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
 
 // restore section numbering from here on
 :sectnums: all
