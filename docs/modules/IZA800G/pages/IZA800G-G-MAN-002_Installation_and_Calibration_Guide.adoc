@@ -134,13 +134,13 @@ Carefully unpack the contents of the {generic-camera-name} package.
 
 .Package Contents
 
-image::./UserGuide/image1.png[image,width=460,height=345]
+image::ROOT:/IZA800G/image1.png[image,width=460,height=345]
 
 [#f_Mounting-Adapter-Plate]
 
 .Mounting Adapter Plate
 
-image::./UserGuide/image2.png[image,width=349,height=199]
+image::ROOT:/IZA800G/image2.png[image,width=349,height=199]
 
 The package includes:
 
@@ -164,13 +164,14 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 === Camera System Details and Dimensions
 
-The {shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and ITS applications, with different models available for different distances and illumination requirements. It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade. The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system. A computer running license plate recognition software is also built in.
+The {shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and ITS applications, with different models available for different distances and illumination requirements.
+include::ROOT:partial$IZA800G/p-camera-details-intro.adoc[Camera Details Introduction]
 
 [#f_Front-View-of-the-ALPR-Camera-System]
 
 .Front View of the {generic-camera-name}
 
-image::./UserGuide/image3.png[image,width=566,height=280]
+image::ROOT:/IZA800G/image3.png[image,width=566,height=280]
 
 [#f_Underside-of-the-ALPR-Camera-System]
 
@@ -180,35 +181,29 @@ image::./UserGuide/image4.png[image,width=624,height=236]
 
 [#f_Dimensions]
 
-image::./UserGuide/image5.png[image,width=315,height=205]
+image::ROOT:/IZA800G/image5.png[image,width=315,height=205]
 
-image::./UserGuide/image6.png[image,width=463,height=224]
+image::ROOT:/IZA800G/image6.png[image,width=463,height=224]
 
 .Dimensions
 
-image::./UserGuide/image7.png[image,width=489,height=252]
+image::ROOT:/IZA800G/image7.png[image,width=489,height=252]
 
 [#s_Multi-flash-Technology]
 
 === Multi-flash Technology
 
-The Camera System's illuminators project different light intensities in a sequence (also called multi-flash technology). This produces a series of video frames with varying degrees of illumination, which helps to determine the best possible recognition.
-
-[#f_Frames-with-Different-Illumination-Intensities]
-
-.Frames with Different Illumination Intensities
-
-image::./UserGuide/image8.png[image,width=524,height=75]
+include::ROOT:partial$/IZA800G/p-multiflash-technology.adoc[Quick Installation Overview]
 
 [#s_Built-in-White-LEDs-White-LED-Models]
 
 === Built-in White LEDs (White LED Models)
 
-Some of the built-in LEDs of some models of the {shortprodname} are white. They are used for overview image illumination.
+Some of the built-in LEDs of some models of the {docproductname} are white. They are used for overview image illumination.
 
 [#f_IZA800G-White-LED-Positions]
 
-.{shortprodname} White LED Positions
+.{docproductname} White LED Positions
 
 image::./UserGuide/image9.png[image,width=279,height=215]
 
@@ -993,7 +988,7 @@ OV Strobe (-) |White
 |6 |RS485 (A) |Orange
 |7 |RS485 (B) |Yellow
 |8 |OV Strobe ({plus}) |Green
-|image:./UserGuide/GroundSymbol.png[image,width=20,height=26]  |Shield +
+|image:ROOT:GroundSymbol.png[image,width=20,height=26]  |Shield +
 (Connector Body) |---
 |===
 

@@ -1,0 +1,8 @@
+The Camera System's illuminators project different light intensities in a sequence (also called multi-flash technology). This produces a series of video frames with varying degrees of illumination, which helps to determine the best possible recognition.
+
+[#f_Frames-with-Different-Illumination-Intensities]
+
+.Frames with Different Illumination Intensities
+
+image::ROOT:/IZA800G/image8.png[image,width=524,height=75]
+
