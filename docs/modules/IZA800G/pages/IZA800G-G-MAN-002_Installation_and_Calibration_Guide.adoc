@@ -118,27 +118,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 == Quick Installation Overview
 
-* Unpack the Camera System - see <<s_Package-Contents>>.
 
-* Gather any additional items needed - see <<s_Required-Optional-Accessories-Not-Included>>.
-
-* Plan your physical installation - see <<s_Planning-Your-Installation>>.
-
-* Install the hardware (including cable construction) - see <<s_Hardware-Installation>>.
-
-* Reserve IP addresses for the components in your ALPR system - {software-ALPR} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>>.
-
-* Use {software-discovery} to find the initial IP Addresses of the cameras connected to your network - see <<s_Recognizing-Devices-with-IZ-Discovery>>.
-
-* Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {software-ALPR} configuration - see <<s_Logging-In-to-the-Camera>>, and <<s_Changing-a-Camera-s-IP-Address>>.
-
-* Calibrate the cameras - see <<s_Calibrating-the-Cameras>>
-
-* Use {software-discovery} to find the IP address of the {software-ALPR} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
-
-* Log in to {software-ALPR}, and configure {software-ALPR}, including adding the connected cameras - see <<s_Using-RoadView>> and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
-
-* On the Live (Journal) tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<s_Using-RoadView>> and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
 
 [#s_Camera-System-Overview]
 
