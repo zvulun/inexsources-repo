@@ -12,13 +12,14 @@
 
 
 .^| System Storage
-.^|
-ifdef::xref-type-IZA800G[SSD, 250 Gb]
-ifdef::xref-type-IZA500G[eMMC, 12 Gb]
+.^| MicroSD, 64 Gb
+
 
 
 .^| Data Storage
-.^| SSD, 250 Gb
+.^|
+ifdef::xref-type-IZA800G[SSD, 250 Gb]
+ifdef::xref-type-IZA500G[eMMC, 12 Gb]
 
 
 .2+.^| RTC Battery
