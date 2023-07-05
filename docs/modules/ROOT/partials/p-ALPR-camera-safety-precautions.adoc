@@ -4,7 +4,14 @@
 // be seen in the TOC with numbers
 //:!sectnums:
 
-:generic-camera-name: ALPR Camera System
+// These attribute definitions are for
+// test purposes only
+// they will normally be defined in
+// the main document using this file
+// as an include
+// :xref-type-IZA800G:
+// :!xref-type-IZ600F:
+// :generic-camera-name: ALPR Camera System
 
 === Safety Precautions
 
@@ -36,13 +43,20 @@ should be supplied by {compname-long}, and installed by qualified service person
 * Handle and store the {generic-camera-name}
 ifdef::xref-type-IZA800G[and external illuminator units ]
 with care.
+ifdef::xref-type-IZ600F[ Do not drop the camera or subject it to physical shock.]
 * Never point the {generic-camera-name} directly towards the sun.
+ifdef::xref-type-IZ600F[]
+* The sensor can be burned out by a laser beam. When any laser equipment is in use, you must ensure that the surface of the sensor will not be exposed to a laser beam.
+endif::[]
 * Do not allow water (e.g. rain) to enter the {generic-camera-name}.
-* Do not handle the Camera System or external illuminator units unless you have adequate electrostatic discharge (ESD) protection; otherwise, the warranty will be void.
-* You must request that your INEX Technologies-certified service technician install lightning and electrical surge protection on all wiring connected to INEX Technologies' products. The warranty does not cover surge or lightning protection.
+ifdef::xref-type-IZ600F[]
+* Do not touch the sensor or lens with your fingers.
+endif::[]
+* Do not handle the {generic-camera-name} or external illuminator units unless you have adequate electrostatic discharge (ESD) protection; otherwise, the warranty will be void.
+* You must request that your {compname-long}-certified service technician install lightning and electrical surge protection on all wiring connected to {compname-possess} products. The warranty does not cover surge or lightning protection.
 * Do not use the {generic-camera-name} or external illuminator units outside of their temperature, humidity and power source ratings as noted in their respective technical specifications.
 * To avoid heat accumulation/overheating, use sufficient ventilation in the product's operating environment.
 * Do not connect several devices to one power adapter since adapter overload may cause overheating or a fire hazard.
 * Stop using the unit immediately if it emits smoke, or if you notice an abnormal smell or sound. In such cases, please contact us. Do not attempt to repair the unit by yourself!
-* The use of any INEX Technologies' software products or any other software product referred to in this document with internet access shall be used wholly at your own risk. INEX Technologies does not take any responsibility for abnormal operation, privacy leakage or any other damages resulting from cyber attack, hacker attack, virus infection or any other internet security risks.
+* The use of any {compname-possess} software products or any other software product referred to in this document with internet access shall be used wholly at your own risk. {compname-long} does not take any responsibility for abnormal operation, privacy leakage or any other damages resulting from cyber attack, hacker attack, virus infection or any other internet security risks.
 * Proper configuration of all passwords and other security settings is the responsibility of the installer and/or end-user.

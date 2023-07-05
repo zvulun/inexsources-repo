@@ -1,20 +1,6 @@
-//!sectnum momentarily stops section numbering
-// but decided to leave in since all these 
-// warnings will be at the end and should 
-// be seen in the TOC with numbers
-//:!sectnums:
-
-////
-This is the partial containing the eye safety for a docproductname (enclosed in curly brackets in the IZA800G asciidoc file calling the partial with an INCLUDE; and substituted by defining the same variable name at the top of the asciidoc file in which the partial will be included. Note that both
-{docproductname} and {eyesafetystandard-1} are used here.
-Note also that any Figures and Tables will have the proper sequence numbers applied, in synch with any other numbering in the document that calls the INCLUDE, or any other numbering in other
-INCLUDES
-////
-
-
 * [.underline]*Eye Safety: The following precautions must be observed:*
 
-** Do not stare directly into the front of the Camera System while it is operating.
+** Do not stare directly into the front of the {generic-camera-name} while it is operating.
 ** {docproductname} - {eyesafetystandard-1}:
 
 image::ROOT:image$EYE_SAFETY_GRP_1.png[Eye Safety Group 1 Warning Label,width=250,align=center]
