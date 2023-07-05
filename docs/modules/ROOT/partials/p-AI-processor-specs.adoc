@@ -12,7 +12,9 @@
 
 
 .^| System Storage
-.^| MicroSD, 64 Gb
+.^|
+ifdef::xref-type-IZA800G[SSD, 250 Gb]
+ifdef::xref-type-IZA500G[eMMC, 12 Gb]
 
 
 .^| Data Storage
