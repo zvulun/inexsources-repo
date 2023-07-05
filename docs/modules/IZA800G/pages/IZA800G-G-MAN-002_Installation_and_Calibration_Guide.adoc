@@ -118,7 +118,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 == Quick Installation Overview
 
-
+include::ROOT:partial$/IZA800G/p-quick-install-overview.adoc[Quick Installation Overview]
 
 [#s_Camera-System-Overview]
 
