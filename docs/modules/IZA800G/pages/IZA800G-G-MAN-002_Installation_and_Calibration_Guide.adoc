@@ -130,7 +130,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 * Use {software-discovery} to find the initial IP Addresses of the cameras connected to your network - see <<s_Recognizing-Devices-with-IZ-Discovery>> .
 
-* Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {software-ALPR} configuration - see <<s_Logging-In-to-the-Camera>>, and <<s_Changing-a-Camera-s-IP-Address>> .
+* Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {software-ALPR} configuration - see <<s_Logging-In-to-the-Camera>>, and <<s_Changing-a-Camera-s-IP-Address>>.
 
 * Calibrate the cameras - see <<s_Calibrating-the-Cameras>>
 
