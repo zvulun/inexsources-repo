@@ -199,13 +199,7 @@ include::ROOT:partial$/IZA800G/p-multiflash-technology.adoc[Quick Installation O
 
 === Built-in White LEDs (White LED Models)
 
-Some of the built-in LEDs of some models of the {docproductname} are white. They are used for overview image illumination.
-
-[#f_IZA800G-White-LED-Positions]
-
-.{docproductname} White LED Positions
-
-image::./UserGuide/image9.png[image,width=279,height=215]
+include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 
 [#s_Specifications]
 
