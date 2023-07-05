@@ -1,12 +1,2 @@
-//!sectnum momentarily stops section numbering
-// but decided to leave in since all these 
-// warnings will be at the end and should 
-// be seen in the TOC with numbers
-//:!sectnums:
-
-////
-Using only one colon after an image specification enables an inline image
-////
-
-[square]
-* image:ROOT:image$CE_LOGO.png[CE Logo,width=50,align="left"] image:ROOT:image$ROHS_LOGO.png[ROHS Logo,width=70,align="left"] *EU Conformity Statement:* This product and - if applicable, the supplied accessories - are marked with "CE" and comply therefore with the applicable harmonized European standards listed under the EMC Directive 2014/30/EU, and the RoHS Directive 2002/95/EC.
+* image:ROOT:image$CE_LOGO.png[CE Logo,width=50,align="left"] image:ROOT:image$ROHS_LOGO.png[ROHS Logo,width=70,align="left"] *EU Conformity Statement:* +
+This product and - if applicable, the supplied accessories - are marked with "CE" and comply therefore with the applicable harmonized European standards listed under the EMC Directive 2014/30/EU, and the RoHS Directive 2002/95/EC.
