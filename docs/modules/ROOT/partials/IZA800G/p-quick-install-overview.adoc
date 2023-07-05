@@ -6,7 +6,7 @@
 
 * Install the hardware
 ifdef::xref-type-IZA800G[ (including cable construction) ]
-; see <<s_Hardware-Installation>>.
++++-+++ see <<s_Hardware-Installation>>.
 
 * Reserve IP addresses for the components in your ALPR system - {software-ALPR} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>>.
 

@@ -86,30 +86,3 @@
 * NDAA
 ** xref:NDAA:DocList.adoc[NDAA Sec. 889 Compliance]
 
-////
-Here is the previous menu
-* xref:IZA500G-user-guide:IZA500G-sample.adoc[Cameras]
-** xref:IZA500G-user-guide:IZA500G-sample.adoc[IZA500G Installation Guide]
-** xref:IZA800G-user-guide:IZA800G-Full-Text.adoc[IZA800G Installation Guide]
-* xref:IZL-user-guide:IZL-L-MAN-002_Illuminator_User_Guide.adoc[Illuminators]
-** xref:IZL-user-guide:IZL-L-MAN-002_Illuminator_User_Guide.adoc[IZL User Guide]
-** xref:IZS-user-guide:IZS-S-MAN-002_Illuminator_User_Guide.adoc[IZS User Guide]
-* Power Supplies
-
-** https://drive.google.com/drive/folders/1NEqPbvTz7GX3Go00Wmp6BmPu7HuGndnz?usp=sharing[IZPWR Manufacturer Documentation,window=read-later]
-
-** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR DIN Rail Mount Data Sheet,window=read-later]
-
-
-** https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR Surface Mount Data Sheet,window=read-later]
-
-* Accessories
-** xref:IZIO-install-guide:IZIO-6060-MAN-001_Digital_IO_Controller.adoc[Web Relays]
-*** xref:IZIO-install-guide:IZIO-6060-MAN-001_Digital_IO_Controller.adoc[IZIO Installation Guide]
-
-* xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Mounts]
-** xref:Product-to-Mount-Mapping:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[]
-
-* xref:RoadViewALPR-user-guide:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[Software]
-** xref:RoadViewALPR-user-guide:OLD_RV-ALPR-MAN-001_RV_ALPR_User_Guide_Release_1x.adoc[]
-////
