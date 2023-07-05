@@ -1,0 +1,31 @@
+.8+.^| AI Processor
+.^| GPU
+.^| NVIDIA Maxwell architecture with 128 CUDA® cores
+
+
+.^| CPU
+.^| Quad-core ARM Cortex-A57 MPCore processor
+
+
+.^| RAM
+.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
+
+
+.^| System Storage
+.^| MicroSD, 64 Gb
+
+
+.^| Data Storage
+.^| SSD, 250 Gb
+
+
+.2+.^| RTC Battery
+.^| Maintains real-time clock date and time for 4-6 hours
+
+
+
+.^| Rechargeable; Full charge-up time: 12 hours
+
+
+.^| OS
+.^| Linux Ubuntu 18.04

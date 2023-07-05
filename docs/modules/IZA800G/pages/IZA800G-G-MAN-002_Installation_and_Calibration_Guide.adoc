@@ -21,6 +21,7 @@
 
 :!xref-type-RoadView:
 :xref-type-IZA800G:
+:!xref-type-IZA500G:
 :!xref-type-IZ600F:
 
 
@@ -218,11 +219,11 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 .2+.^| Supported Analytics (see the xref:RoadViewALPR:DocList.adoc[Analytics Data Sheet] for details)
 {set:cellbgcolor!}
 .^| LPR Analytics
-.^| Plate Recognition, State of Issue, Type
+.^| {lpr-analytics}
 
 
 .^| Vehicle Analytics
-.^| Vehicle Detection, Classification, Color, Make; Vehicle Without Plate
+.^| {vehicle-analytics}
 
 2+.^| Field of View (FOV)
 
@@ -373,37 +374,7 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 .^| {compname-short} Discovery
 .^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
 
-.8+.^| AI Processor
-.^| GPU
-.^| NVIDIA Maxwell architecture with 128 CUDA® cores
-
-
-.^| CPU
-.^| Quad-core ARM Cortex-A57 MPCore processor
-
-
-.^| RAM
-.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
-
-
-.^| System Storage
-.^| MicroSD, 64 Gb
-
-
-.^| Data Storage
-.^| SSD, 250 Gb
-
-
-.2+.^| RTC Battery
-.^| Maintains real-time clock date and time for 4-6 hours
-
-
-
-.^| Rechargeable; Full charge-up time: 12 hours
-
-
-.^| OS
-.^| Linux Ubuntu 18.04
+include::ROOT:partial$p-AI-processor-specs.adoc
 
 .4+.^| Environmental
 .^| Ingress Protection
