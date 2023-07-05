@@ -118,17 +118,17 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 == Quick Installation Overview
 
-* Unpack the Camera System - see <<s_Package-Contents>> .
+* Unpack the Camera System - see <<s_Package-Contents>>.
 
-* Gather any additional items needed - see <<s_Required-Optional-Accessories-Not-Included>> .
+* Gather any additional items needed - see <<s_Required-Optional-Accessories-Not-Included>>.
 
-* Plan your physical installation - see <<s_Planning-Your-Installation>> .
+* Plan your physical installation - see <<s_Planning-Your-Installation>>.
 
-* Install the hardware (including cable construction) - see <<s_Hardware-Installation>> .
+* Install the hardware (including cable construction) - see <<s_Hardware-Installation>>.
 
-* Reserve IP addresses for the components in your ALPR system - {software-ALPR} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>> .
+* Reserve IP addresses for the components in your ALPR system - {software-ALPR} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>>.
 
-* Use {software-discovery} to find the initial IP Addresses of the cameras connected to your network - see <<s_Recognizing-Devices-with-IZ-Discovery>> .
+* Use {software-discovery} to find the initial IP Addresses of the cameras connected to your network - see <<s_Recognizing-Devices-with-IZ-Discovery>>.
 
 * Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {software-ALPR} configuration - see <<s_Logging-In-to-the-Camera>>, and <<s_Changing-a-Camera-s-IP-Address>>.
 
@@ -581,7 +581,7 @@ xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 
 * An Allen wrench used to attach the mounting adapter plate to the housing (if applicable); size 3/16" (4.76 mm)
 
-* 8-wire cable for power/signals; recommended to use E119932-1/LL84201, 24 gauge (size of each wire); see <<s_Constructing-the-Power-Signals-Cable>> .
+* 8-wire cable for power/signals; recommended to use E119932-1/LL84201, 24 gauge (size of each wire); see <<s_Constructing-the-Power-Signals-Cable>>.
 
 * 2 mm flat screwdriver for tightening the screw terminals of the power/signals connector (see <<s_Constructing-the-Power-Signals-Cable>>).
 
@@ -1390,7 +1390,7 @@ See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for calibr
 
 == Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
 
-See <<s_Recognizing-Devices-with-IZ-Discovery>> .
+See <<s_Recognizing-Devices-with-IZ-Discovery>>.
 
 [#s_Using-RoadView]
 
@@ -1417,7 +1417,7 @@ image::./UserGuide/image45.png[image,width=209,height=143]
 
 === Verifying the Installation
 
-* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>> .
+* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
 
 * Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
 

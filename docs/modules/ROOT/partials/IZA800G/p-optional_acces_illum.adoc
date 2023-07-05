@@ -1,2 +1,2 @@
-** Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact INEX for guidance/training about this subject.
+** Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
 ** Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.

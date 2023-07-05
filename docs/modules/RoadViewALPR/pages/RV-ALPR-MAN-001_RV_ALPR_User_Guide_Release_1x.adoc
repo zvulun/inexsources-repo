@@ -148,23 +148,23 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 
 == Quick Overview of Steps
 
-* Reserve IP addresses for the components in your ALPR system - {shortprodname} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>> .
+* Reserve IP addresses for the components in your ALPR system - {shortprodname} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>>.
 
-* Use {software-discovery} to find the initial IP Addresses of the cameras connected to your network - see <<s_Determining-the-IP-Addresses-of-the-Connected-Cameras>> .
+* Use {software-discovery} to find the initial IP Addresses of the cameras connected to your network - see <<s_Determining-the-IP-Addresses-of-the-Connected-Cameras>>.
 
-* Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {shortprodname} configuration. See <<s_Changing-the-IP-Addresses-of-the-Cameras>> .
+* Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {shortprodname} configuration. See <<s_Changing-the-IP-Addresses-of-the-Cameras>>.
 
-* Use {software-discovery} to find the IP address of the {shortprodname} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>> .
+* Use {software-discovery} to find the IP address of the {shortprodname} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>>.
 
 * Review the different trigger sources and sequences, and triggering operational modes (see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>)
 
 * Log in to {shortprodname}, and configure {shortprodname} using the Settings tab, including adding the connected Lanes and cameras - see <<s_Settings-Tab>>
 
-* On the Calibration tab, adjust the zoom and focus to get a clear, sharp picture. Set the expected plate minimum and maximum width, capture zone and other parameters. See <<s_Calibration-Tab>> .
+* On the Calibration tab, adjust the zoom and focus to get a clear, sharp picture. Set the expected plate minimum and maximum width, capture zone and other parameters. See <<s_Calibration-Tab>>.
 
-* On the Live tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<s_Live-Journal-Tab>> .
+* On the Live tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<s_Live-Journal-Tab>>.
 
-* Use the Search tab to find records stored in the {shortprodname} database. See <<s_Search-Tab>> .
+* Use the Search tab to find records stored in the {shortprodname} database. See <<s_Search-Tab>>.
 
 [#s_System-Overview]
 
@@ -176,7 +176,7 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 
 ========================================
 
-{shortprodname} can send Events to {software-server} or 3rd party systems using various different protocols. See <<s_Trigger-Sources-and-Trigger-Modes-Overview>> .
+{shortprodname} can send Events to {software-server} or 3rd party systems using various different protocols. See <<s_Trigger-Sources-and-Trigger-Modes-Overview>>.
 
 ========================================
 
@@ -328,7 +328,7 @@ Triggered mode must be used for DOT (USDOT number image capture) cameras.
 ========================================
 
 In Hybrid mode, if no recognition was possible (no vehicle, no plate, unrecognizable plate, etc.), an Event will be created as it would be in Triggered mode. The Event will be created using frames captured at the time the Trigger was received, along with the Trigger Pre and Post frames, instead of using the frames from the NonTriggered video analytics. +
-See <<s_Trigger-Sources-and-Trigger-Modes-Overview>> and <<s_Cameras>> .
+See <<s_Trigger-Sources-and-Trigger-Modes-Overview>> and <<s_Cameras>>.
 
 ========================================
 
@@ -479,7 +479,7 @@ image::./UserGuide/image14.png[image,width=698,height=49]
 
 ========================================
 
-{shortprodname} can send Events to {software-server} or 3rd party systems using the {compname-short} HTTP Protocol, {compname-short} ZAP Protocol or other protocols. For details about the {compname-short} HTTP protocol, see the appropriate {compname-short} HTTP API Protocol document - see <<s_Related-Documents>> .
+{shortprodname} can send Events to {software-server} or 3rd party systems using the {compname-short} HTTP Protocol, {compname-short} ZAP Protocol or other protocols. For details about the {compname-short} HTTP protocol, see the appropriate {compname-short} HTTP API Protocol document - see <<s_Related-Documents>>.
 
 {shortprodname} can send Events via HTTP, and act as both a ZAP Server and ZAP Client - all simultaneously.
 
@@ -640,7 +640,7 @@ image::./UserGuide/image18.png[image,width=393,height=448]
 
 ========================================
 
-{shortprodname} can send Events to {software-server} or 3rd party systems using the {compname-short} HTTP Protocol (see <<s_HTTP-Integration>> .) and/or the {compname-short} ZAP Protocol.
+{shortprodname} can send Events to {software-server} or 3rd party systems using the {compname-short} HTTP Protocol (see <<s_HTTP-Integration>>) and/or the {compname-short} ZAP Protocol.
 
 {shortprodname} can send Events via HTTP, and act as both a ZAP Server and ZAP Client - all simultaneously.
 
@@ -728,9 +728,9 @@ The "trigger time" used can be influenced by using the rising edge or falling ed
 
 image::./UserGuide/image20.png[image,width=363,height=107]
 
-The {compname-short} I/O Controller settings are used in Triggered types of operational modes (for example Triggered, Hybrid or NonTriggered With Trigger). See <<s_Trigger-Sources-and-Trigger-Modes-Overview>> .
+The {compname-short} I/O Controller settings are used in Triggered types of operational modes (for example Triggered, Hybrid or NonTriggered With Trigger). See <<s_Trigger-Sources-and-Trigger-Modes-Overview>>.
 
-These parameters are used if triggers are sent via the LAN using an {compname-short} {hw-iocontroller} Digital I/O Controller. See the {hw-iocontroller} Installation and User Guide for instructions on how to install and configure the {hw-iocontroller} (especially its IP address). See <<s_Related-Documents>> .
+These parameters are used if triggers are sent via the LAN using an {compname-short} {hw-iocontroller} Digital I/O Controller. See the {hw-iocontroller} Installation and User Guide for instructions on how to install and configure the {hw-iocontroller} (especially its IP address). See <<s_Related-Documents>>.
 
 The {hw-iocontroller} provides trigger information to {shortprodname}. You can connect dry or wet contacts to the {hw-iocontroller} inputs. The rise and fall of the voltage levels at these inputs (such as pulses from loop controllers) are represented by a bit stream sent by the {hw-iocontroller}/ADAM to {shortprodname}. A change in state of an {hw-iocontroller} input causes the generation of a trigger (see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>).
 
@@ -846,7 +846,7 @@ Plate recognition is done in 3 stages:
 
 The following parameters are used to configure these processes. *Remember to click the Save button at the end of this section after changing these parameters:*
 
-* *Mode* - see <<s_Trigger-Sources-and-Trigger-Modes-Overview>> . Note that parameters may appear or be hidden, depending on the chosen Mode.
+* *Mode* - see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>. Note that parameters may appear or be hidden, depending on the chosen Mode.
 
 * *Region* - Region for which characters on the plate will be recognized. Select from the following options:
 
@@ -1144,7 +1144,7 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
 image::./UserGuide/image33.png[image,width=136,height=113]
 
-*** Select the additional columns to display, such as: +++<u>+++State+++</u>+++ (state displayed on plate), +++<u>+++State Confidence+++</u>+++ (confidence that the state has been recognized accurately), +++<u>+++Class+++</u>+++ (vehicle class, such as car or truck), +++<u>+++Class Confidence+++</u>+++ (confidence that the class has been recognized accurately) and +++<u>+++Direction+++</u>+++ (direction vehicle was traveling - forward or backward - according to the direction arrow configured in the Calibration tab - see <<s_Calibration-Tab>>). (These additional columns will also appear on the Search tab - see <<s_Search-Tab>> .)
+*** Select the additional columns to display, such as: +++<u>+++State+++</u>+++ (state displayed on plate), +++<u>+++State Confidence+++</u>+++ (confidence that the state has been recognized accurately), +++<u>+++Class+++</u>+++ (vehicle class, such as car or truck), +++<u>+++Class Confidence+++</u>+++ (confidence that the class has been recognized accurately) and +++<u>+++Direction+++</u>+++ (direction vehicle was traveling - forward or backward - according to the direction arrow configured in the Calibration tab - see <<s_Calibration-Tab>>). (These additional columns will also appear on the Search tab - see <<s_Search-Tab>>.)
 
 * Pause/Run mode:
 
@@ -1448,7 +1448,7 @@ The Live tab and Search tab are empty (no Events are detected) a|
 
 * Verify that stable power at the correct level is being supplied to the cameras, even when under a heavy processing load.
 
-* Verify that the IP address(es) configured in {shortprodname} match the IP addresses that you configured in the camera(s). See <<s_Cameras>> .
+* Verify that the IP address(es) configured in {shortprodname} match the IP addresses that you configured in the camera(s). See <<s_Cameras>>.
 
 |Recognition rates are low a|
 * On the Calibration tab, increase the size of the Region of Interest (ROI) - it may be too small to capture plates with high confidence
