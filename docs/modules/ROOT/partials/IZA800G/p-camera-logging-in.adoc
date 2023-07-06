@@ -1,0 +1,53 @@
+. To view the camera's home page (see <<f_Camera-s-Home-Page>>):
+
+** Open MS Internet Explorer. Enter the IP address of the camera into the address field of the browser. +
+Alternatively, you can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link]. +
+Enter the IP address of the camera into the address field of the browser.
++
+[#f_Camera-s-Home-Page]
+
+.Camera's Home Page
+
+image::ROOT:/IZA800G/image43.png[image,width=528,height=230]
+
+. Select the function you need from the links at the upper right:
+
+** Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-the-Cameras-Using-RoadView>>).
++
+[NOTE]
+
+========================================
+
+When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
+If you do not have an internet connection to the network on which the camera is installed, wait 30 seconds, and you will be instructed on how to install the ActiveX control locally via the camera's firmware.
+
+The stream of the Live View can also be accessed using an RTSP URL with the following format
+ifdef::xref-type-IZ600F[(assuming you have set the correct permissions in the camera for the user – see <<s_Adding_a_User>>)]
++++:+++
+
+rtsp://[username:password]@<Camera IP address>/cam0_0 +
+where cam0_0 is a camera-specific parameter (which in this case enables you to access the primary stream)
+
+To see the stream, use a video player such as the VLC player, located at: +
+https://www.videolan.org/vlc/index.html
+
+========================================
+
+** If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
+
+. When prompted for a login, use the Administrator credentials of root, IZpass12.
+ifdef::xref-type-IZ600F[]
+You should then create another user for use by other users – with a different name and password (see <<s_Adding-a-User>>).
+endif::xref-type-IZ600F[]
+
++
+========================================
+[IMPORTANT]
+
+The Administrator user name (root) cannot be changed, and the Administrator password is encrypted. Therefore, if someone changes the Administrator password, there is no way to find out the password if it gets lost.
+ifdef::xref-type-IZ600F[]
+If the password gets lost, you will have to reset the device with the FD (Factory Default) button (see <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>>). All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted (see <<s_Adding_a_User>>).
+endif::xref-type-IZ600F[]
+
+========================================
+

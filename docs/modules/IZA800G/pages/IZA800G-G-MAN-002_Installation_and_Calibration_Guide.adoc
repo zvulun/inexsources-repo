@@ -884,50 +884,7 @@ include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec2.adoc[Second part of IZ Dis
 
 === Logging In to the Camera
 
-. To view the camera's home page (see <<f_Camera-s-Home-Page>>):
-
-** Open MS Internet Explorer. Enter the IP address of the camera into the address field of the browser. +
-Alternatively, you can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link]. +
-Enter the IP address of the camera into the address field of the browser.
-+
-[#f_Camera-s-Home-Page]
-
-.Camera's Home Page
-
-image::./UserGuide/image43.png[image,width=528,height=230]
-
-. Select the function you need from the links at the upper right:
-
-** Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-the-Cameras-Using-RoadView>>).
-+
-[NOTE]
-
-========================================
-
-When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
-If you do not have an internet connection to the network on which the camera is installed, wait 30 seconds, and you will be instructed on how to install the ActiveX control locally via the camera's firmware.
-
-The stream of the Live View can also be accessed using an RTSP URL with the following format:
-
-rtsp://[username:password]@<Camera IP address>/cam0_0 +
-where cam0_0 is a camera-specific parameter (which in this case enables you to access the primary stream)
-
-To see the stream, use a video player such as the VLC player, located at: +
-https://www.videolan.org/vlc/index.html
-
-========================================
-
-** If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
-
-. When prompted for a login, use the Administrator credentials of root, IZpass12.
-+
-[IMPORTANT]
-
-========================================
-
-The Administrator user name (root) cannot be changed, and the Administrator password is encrypted. Therefore, if someone changes the Administrator password, there is no way to find out the password if it gets lost.
-
-========================================
+include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
 [#s_Changing-a-Camera-s-IP-Address]
 
