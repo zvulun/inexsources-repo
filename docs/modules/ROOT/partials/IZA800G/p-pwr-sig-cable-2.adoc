@@ -1,0 +1,69 @@
+[#f_Power-Signals-Cable-Attaching-the-Wires-to-the-Screw-Terminals]
+
+.Power/Signals Cable: Attaching the Wires to the Screw Terminals
+
+image::ROOT:/IZA800G/image25.png[image,width=173,height=213]
+--
+. Insert the screw terminals body into the clamp cage housing. Note how the tabs on the screw terminals fit into the grooves in the clamp cage housing.
++
+[#f_Power-Signals-Cable-Inserting-Screw-Terminals-Tabs-into-Clamp-Cage-Housing]
+
+.Power/Signals Cable: Inserting Screw Terminals' Tabs into Clamp Cage Housing
+
+image::ROOT:/IZA800G/image26.png[image,width=421,height=295]
+
+. Verify that the conductive foil is now making contact with the spring sleeve protrusions inside the clamp cage housing. Use a 16 mm torque wrench to tighten the nut that fastens the clamp cage housing to the screw terminals body (torque 4-6 kgf.cm / 0.39-0.59 N.m.).
++
+[#f_Power-Signals-Cable-Foil-in-Contact-with-Spring-Inside-Clamp-Cage-Housing]
+
+.Power/Signals Cable: Foil in Contact with Spring Inside Clamp Cage Housing
+
+image::ROOT:/IZA800G/image27.png[image,width=520,height=285]
+
+. Slide the sealing nut along the cable, and insert it in between the clamp cage protrusions.
++
+[#f_Power-Cable-Inserting-the-Sealing-Nut-into-the-Clamp-Cage]
+
+.Power Cable: Inserting the Sealing Nut into the Clamp Cage
+
+image::ROOT:/IZA800G/image28.png[image,width=202,height=254]
+
+. Using a 16 mm wrench, tighten the nut that seals the end of the clamp cage housing. (torque 4-6 kgf.cm / 0.39-0.59 N.m.). Verify that the sealing nut is in tight contact with the inner body of the nut (to provide insulation against moisture). The sealing nut may pucker a bit due to the pressure of the nut; this is normal.
++
+[#f_Power-Cable-Tightening-the-Nut-to-Seal-the-Clamp-Cage]
+
+.Power Cable: Tightening the Nut to Seal the Clamp Cage
+
+image::ROOT:/IZA800G/image29.png[image,width=445,height=201]
+
+. The point in the cable at which you will be connecting the power wires ({plus}, - and ground) to the power supply may be in the middle of the cable. (This part of the cable is typically inside a connection box to seal all connections from moisture.)
+
+.. Strip off a portion of outer insulation of the cable at the end you will be connecting to the power supply. Remove enough insulation so the shield wire will be long enough to wrap several times around the foil jacket (see next steps) and come out of the cable to reach the power supply ground wire. *Be careful not to cut into the inner foil and plastic jackets (casings) surrounding the individual insulated wires.*
+
+.. Slit the foil jacket, and bend it back onto the outer insulation. Leave enough foil exposed so the shield wire can be wrapped several times around the foil.
+
+.. Carefully cut away the plastic jacket enclosing the individual insulated wires.
+
+.. Wrap the shield wire (the one without insulation) several times around the foil jacket that you bent back. There must be a tight contact between the shield wire and the foil.
++
+[#f_Power-Cable-Wrapping-the-Shield-Wire-at-Power-Supply-End]
+
+.Power Cable: Wrapping the Shield Wire at Power Supply End
+
+image::ROOT:/IZA800G/image30.png[image,width=478,height=194]
+
+.. IMPORTANT: Check that there is conductivity from the shield wire (at the power supply end of the cable) to the body of the connector that will be connected to the camera.
+
+.. You can seal the shield wire wrapping on the cable with insulation tape or heat shrink tubing.
+
+. Connect the shield wire to the ground wire of the power supply. You may need to extend the shield wire by soldering an additional wire on to it.
+
+. Connect the ({plus}) and (-) wires from the cable to the power supply.
++
+[#f_Power-Cable-Connecting-the-Cable-Wires-to-the-Power-Supply]
+
+.Power Cable: Connecting the Cable Wires to the Power Supply
+
+image::ROOT:/IZA800G/image31.png[image,width=350,height=196]
+
+. Connect the remaining signal wires (see <<s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network>>).

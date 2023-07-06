@@ -589,7 +589,7 @@ include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections 
 
 .External Illuminator
 
-image::./UserGuide/image16.png[image,width=136,height=121]
+image::ROOT:/IZA800G/image16.png[image,width=136,height=121]
 
 [#s_Matching-Your-Camera-System-to-an-INEX-Illuminator]
 
@@ -739,7 +739,7 @@ image::./UserGuide/image17.png[image,width=530,height=324]
 |A a|*LAN Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]
 |B a|*Power/Signals Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
 |C a|*Power Supply:* 24 VDC, 100/120W; DIN rail/surface mount options +
-+
+
 Can power 2 cameras from a single power supply a|
 {compname-short} P/N:
 
@@ -772,67 +772,8 @@ Secure the Camera System to the appropriate mounting hardware (see the Mounting 
 
 === Constructing the Power/Signals Cable
 
-[IMPORTANT]
+include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals Cable]
 
-========================================
-
-At the end of this procedure, you will need to check that there is conductivity from the shield wire (at the power supply end of the cable) to the body of the connector that will be connected to the Camera System.
-
-========================================
-
-Use the cable type recommended in the Required Accessories section (see <<s_Required-Accessories>>).
-
-. Lay out the parts from the power connector package.
-+
-[#f_Power-Signals-Cable-Laying-Out-Connector-Parts]
-
-.Power/Signals Cable: Laying Out Connector Parts
-
-image::./UserGuide/image19.png[image,width=494,height=203]
-
-. Thread the cable through the sealing nut and rubber seal.
-+
-[#f_Power-Signals-Cable-Threading-Cable-Through-Sealing-Nut-and-Rubber-Seal]
-
-.Power/Signals Cable: Threading Cable Through Sealing Nut and Rubber Seal
-
-image::./UserGuide/image20.jpg[image,width=507,height=128]
-
-. Prepare the cable shielding:
-
-.. Thread the cable all the way through the clamp cage body. Strip off the outer insulation of the cable, leaving the individual insulated wires exposed to a length of 18mm. *Be careful not to cut into the inner foil and plastic jackets (casings) surrounding the individual insulated wires.*
-
-.. Slit the foil jacket, and bend it back onto the outer insulation.
-
-.. Carefully cut away the plastic jacket enclosing the individual insulated wires.
-
-.. Wrap the shield wire (the one without insulation) 1-2 times around the foil jacket that you bent back.
-+
-[#f_Power-Signals-Cable-Stripping-Off-the-Outer-Insulation]
-
-.Power/Signals Cable: Stripping Off the Outer Insulation
-
-image::./UserGuide/image21.png[image,width=468,height=197]
-
-. Peel the backing off of the conductive foil to expose the adhesive.
-+
-[#f_Power-Signals-Cable-Peeling-Backing-off-Conductive-Foil]
-
-.Power/Signals Cable: Peeling Backing off Conductive Foil
-
-image::./UserGuide/image22.png[image,width=159,height=179]
-
-. Wrap the conductive foil around the point at which the outer insulation was stripped, to cover and make contact with the shield wire and foil jacket.
-+
-[#f_Power-Signals-Cable-Wrapping-Conductive-Foil-Around-Shield-Wire-and-Jacket]
-
-.Power/Signals Cable: Wrapping Conductive Foil Around Shield Wire and Jacket
-
-image::./UserGuide/image23.png[image,width=307,height=194]
-
-. Strip off 5 mm from each individual wire. Insert each wire into its appropriate screw terminal, and tighten with a 2 mm flat screwdriver. The suggested wire colors and pinouts are shown in the following Figures. The notch between pins 1 and 2 on the face of the connector corresponds to the notch on the circular body of the screw terminals.
-+
---
 [#f_Power-Signals-Cable-Power-Signals-Pinouts]
 
 .Power/Signals Cable: Power/Signals Pinouts
@@ -855,75 +796,7 @@ OV Strobe (-) |White
 (Connector Body) |---
 |===
 
-[#f_Power-Signals-Cable-Attaching-the-Wires-to-the-Screw-Terminals]
-
-.Power/Signals Cable: Attaching the Wires to the Screw Terminals
-
-image::./UserGuide/image25.png[image,width=173,height=213]
---
-. Insert the screw terminals body into the clamp cage housing. Note how the tabs on the screw terminals fit into the grooves in the clamp cage housing.
-+
-[#f_Power-Signals-Cable-Inserting-Screw-Terminals-Tabs-into-Clamp-Cage-Housing]
-
-.Power/Signals Cable: Inserting Screw Terminals' Tabs into Clamp Cage Housing
-
-image::./UserGuide/image26.png[image,width=421,height=295]
-
-. Verify that the conductive foil is now making contact with the spring sleeve protrusions inside the clamp cage housing. Use a 16 mm torque wrench to tighten the nut that fastens the clamp cage housing to the screw terminals body (torque 4-6 kgf.cm / 0.39-0.59 N.m.).
-+
-[#f_Power-Signals-Cable-Foil-in-Contact-with-Spring-Inside-Clamp-Cage-Housing]
-
-.Power/Signals Cable: Foil in Contact with Spring Inside Clamp Cage Housing
-
-image::./UserGuide/image27.png[image,width=520,height=285]
-
-. Slide the sealing nut along the cable, and insert it in between the clamp cage protrusions.
-+
-[#f_Power-Cable-Inserting-the-Sealing-Nut-into-the-Clamp-Cage]
-
-.Power Cable: Inserting the Sealing Nut into the Clamp Cage
-
-image::./UserGuide/image28.png[image,width=202,height=254]
-
-. Using a 16 mm wrench, tighten the nut that seals the end of the clamp cage housing. (torque 4-6 kgf.cm / 0.39-0.59 N.m.). Verify that the sealing nut is in tight contact with the inner body of the nut (to provide insulation against moisture). The sealing nut may pucker a bit due to the pressure of the nut; this is normal.
-+
-[#f_Power-Cable-Tightening-the-Nut-to-Seal-the-Clamp-Cage]
-
-.Power Cable: Tightening the Nut to Seal the Clamp Cage
-
-image::./UserGuide/image29.png[image,width=445,height=201]
-
-. The point in the cable at which you will be connecting the power wires ({plus}, - and ground) to the power supply may be in the middle of the cable. (This part of the cable is typically inside a connection box to seal all connections from moisture.)
-
-.. Strip off a portion of outer insulation of the cable at the end you will be connecting to the power supply. Remove enough insulation so the shield wire will be long enough to wrap several times around the foil jacket (see next steps) and come out of the cable to reach the power supply ground wire. *Be careful not to cut into the inner foil and plastic jackets (casings) surrounding the individual insulated wires.*
-
-.. Slit the foil jacket, and bend it back onto the outer insulation. Leave enough foil exposed so the shield wire can be wrapped several times around the foil.
-
-.. Carefully cut away the plastic jacket enclosing the individual insulated wires.
-
-.. Wrap the shield wire (the one without insulation) several times around the foil jacket that you bent back. There must be a tight contact between the shield wire and the foil.
-+
-[#f_Power-Cable-Wrapping-the-Shield-Wire-at-Power-Supply-End]
-
-.Power Cable: Wrapping the Shield Wire at Power Supply End
-
-image::./UserGuide/image30.png[image,width=478,height=194]
-
-.. IMPORTANT: Check that there is conductivity from the shield wire (at the power supply end of the cable) to the body of the connector that will be connected to the camera.
-
-.. You can seal the shield wire wrapping on the cable with insulation tape or heat shrink tubing.
-
-. Connect the shield wire to the ground wire of the power supply. You may need to extend the shield wire by soldering an additional wire on to it.
-
-. Connect the ({plus}) and (-) wires from the cable to the power supply.
-+
-[#f_Power-Cable-Connecting-the-Cable-Wires-to-the-Power-Supply]
-
-.Power Cable: Connecting the Cable Wires to the Power Supply
-
-image::./UserGuide/image31.png[image,width=350,height=196]
-
-. Connect the remaining signal wires (see <<s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network>>).
+include::ROOT:partial$IZA800G/p-pwr-sig-cable-2.adoc[Second Part of Power Signals Cable]
 
 [#s_Constructing-the-LAN-Cable]
 
