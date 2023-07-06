@@ -54,7 +54,7 @@ Some text
 
 See <<small-camera>>
 
-This is a xref to an ID inside the partial that was included below: See <<big-camera>>
+This is a xref to an ID inside the partial that was included below: See TBD
 
 Here is a xref to a section inside this document: See <<specs>>
 
@@ -91,7 +91,7 @@ Here is the {docproductname} spec table
 //since data sheets that also use the same spec tables
 //are treated as separate files in Google drive outside
 //of the antora site
-include::ROOT:partial$p-3col-spec-supported-analytics.adoc[]
+//include::ROOT:partial$p-3col-spec-supported-analytics.adoc[]
 
 2+.^| Lanes Covered
 
@@ -266,7 +266,7 @@ include::ROOT:partial$p-3col-spec-supported-analytics.adoc[]
 //since data sheets that also use the same spec tables
 //are treated as separate files in Google drive outside
 //of the antora site
-include::ROOT:partial$p-3col-spec-physical.adoc[]
+//include::ROOT:partial$p-3col-spec-physical.adoc[]
 
 .8+.^| Interface
 .^| Ethernet

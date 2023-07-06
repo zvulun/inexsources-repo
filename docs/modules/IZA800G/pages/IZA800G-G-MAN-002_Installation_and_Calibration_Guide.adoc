@@ -206,7 +206,9 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 
 === Specifications
 
-.Technical Specifications[#t_Technical-Specifications]
+[#t_Technical-Specifications]
+
+.Technical Specifications
 
 [options="header",cols="24,23,53"]
 |===
@@ -423,7 +425,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 
 .^| Weight
-.^| 9.0 lbs (4.1 kg)
+.^| {iza-weight}}
 
 
 .^| Color
@@ -527,7 +529,7 @@ xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 
 * 16 mm torque wrench for tightening the nuts of the power/signals connector, and for attaching the connector to the Camera System.
 
-* Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters). **See <<**s_Constructing-the-LAN-Cable**>> for important LAN cable information.**
+* Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters). *See <<s_Constructing-the-LAN-Cable>> for important LAN cable information.*
 
 * Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
 +
