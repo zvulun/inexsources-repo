@@ -1,0 +1,80 @@
+
+[IMPORTANT]
+
+========================================
+
+If you are building your own LAN cables, you must use RJ45 connectors with metal bodies. You must ensure that there is conductivity between the bodies of the connectors at each end of the cable. You can do this by extracting the cable's shield wire before attaching the connector to the cable, and then soldering the shield wire to the body of the connector (see the following Figures).
+
+The outer diameter of the LAN cable must be in the range of 0.20" to 0.25" (5.0 to 6.5 mm).
+
+If you are using prefabricated CAT 5e/6 cables with metal-body RJ45 connectors, the shield wires have typically already been connected to each connector body. However, you must still check that there is conductivity between the bodies of the connectors at each end of the cable.
+
+========================================
+
+[#f_LAN-Cable-Extracting-the-Shield-Wire]
+
+.LAN Cable: Extracting the Shield Wire
+
+image::ROOT:/IZA800G/image32.png[image,width=302,height=211]
+
+[#f_LAN-Cable-Shield-Wire-Soldered-to-Connector-Body]
+
+.LAN Cable: Shield Wire Soldered to Connector Body
+
+image::ROOT:/IZA800G/image33.png[image,width=305,height=228]
+
+. Lay out the parts from the network (LAN) connector package.
++
+[#f_LAN-Cable-Connector-Parts]
+
+.LAN Cable: Connector Parts
+
+image::ROOT:/IZA800G/image34.png[image,width=437,height=178]
+
+. Slip the sealing nut over the RJ45 connector onto the LAN cable, with the inner threads in the direction of the RJ45 connector.
++
+[#f_LAN-Cable-Slipping-Sealing-Nut-Over-RJ45-Connector]
+
+.LAN Cable: Slipping Sealing Nut Over RJ45 Connector
+
+image::ROOT:/IZA800G/image35.png[image,width=243,height=234]
+
+. Open the rubber sealing ring at its split, and put it on the cable.
++
+[#f_LAN-Cable-Attaching-Rubber-Sealing-Ring-to-Cable]
+
+.LAN Cable: Attaching Rubber Sealing Ring to Cable
+
+image::ROOT:/IZA800G/image36.png[image,width=381,height=178]
+
+. Orient the support plastic with the wider side (with the thinner walls) towards the RJ45 connector. Put the support plastic on the cable (the split can expand slightly).
++
+[#f_LAN-Cable-Attaching-the-Support-Plastic-to-the-Cable]
+
+.LAN Cable: Attaching the Support Plastic to the Cable
+
+image::ROOT:/IZA800G/image37.png[image,width=501,height=439]
+
+. Gently push the RJ45 connector into the housing until it fits snugly in the cutout in the housing.
++
+[#f_LAN-Cable-Inserting-RJ45-into-Housing-Cutout]
+
+.LAN Cable: Inserting RJ45 into Housing Cutout
+
+image::ROOT:/IZA800G/image38.png[image,width=306,height=192]
+
+. Insert the support plastic into the housing, followed by the rubber sealing ring. Seat the rubber sealing ring between the housing's teeth as far in as it will go.
++
+[#f_LAN-Cable-Inserting-the-Support-Plastic-and-Rubber-Ring-into-the-Housing]
+
+.LAN Cable: Inserting the Support Plastic and Rubber Ring into the Housing
+
+image::ROOT:/IZA800G/image39.png[image,width=488,height=279]
++
+. Tighten the sealing nut (torque 8-15 kgf.cm / 0.78-1.47 N.m.).
+
+[#f_LAN-Cable-Completed-Assembly]
+
+.LAN Cable: Completed Assembly
+
+image::ROOT:/IZA800G/image40.png[image,width=486,height=219]
