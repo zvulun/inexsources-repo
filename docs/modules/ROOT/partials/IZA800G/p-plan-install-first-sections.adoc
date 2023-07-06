@@ -1,0 +1,105 @@
+[#s_Horizontal-Field-of-View-Capture-Line]
+
+=== Horizontal Field of View (Capture Line)
+
+Your camera's Field of View (FOV) is the area that the camera can "see". You can think of this area as an imaginary rectangle rising from the lane upwards. The width of this area is called the horizontal FOV or "capture line".
+
+See <<s_Specifications>> for the horizontal and vertical FOV specifications.
+
+[#f_Field-of-View-Capture-Line]
+
+.Field of View (Capture Line)
+
+image::ROOT:/IZA800G/image10.png[image,width=634,height=194]
+
+Select your camera's position so that license plates are always within the capture line and parallel to it, with the camera facing as straight at the plates as possible - as shown in the following diagrams:
+
+[#f_Plates-Within-Capture-Line]
+
+.Plates Within Capture Line
+
+image::ROOT:/IZA800G/image11.png[image,width=247,height=411]
+
+[#f_Plates-Parallel-to-Capture-Line-Away-from-Road-Curves]
+
+.Plates Parallel to Capture Line - Away from Road Curves
+
+image::ROOT:/IZA800G/image12.png[image,width=503,height=314]
+
+[#s_Angles-and-Distances]
+
+=== Angles and Distances
+
+[IMPORTANT]
+
+========================================
+
+Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
+
+========================================
+
+[#f_Horizontal-Camera-Angle-Pan-Angle]
+
+.Horizontal Camera Angle (Pan Angle)
+
+image::ROOT:/IZA800G/image13.png[image,width=310,height=332]
+
+[NOTE]
+
+========================================
+
+The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
+
+If you must capture plates on a curve, place the camera on the side of the road that minimizes the horizontal angle.
+
+At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
+
+For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
+
+========================================
+
+[#f_Vertical-Camera-Angle-Tilt-Angle-and-Line-of-Sight-Distance-from-Plate]
+
+.Vertical Camera Angle (Tilt Angle) and Line-of-Sight Distance from Plate
+
+image::ROOT:/IZA800G/image14.png[image,width=626,height=194]
+
+[NOTE]
+
+========================================
+
+The distance from the camera to the capture line must be within the viewing range of the LPR camera.
+
+Adjust the vertical angle so that the camera can read plates at all of their expected heights from the road.
+
+The maximum vertical angle allowed is 30°.
+
+Larger angles and/or greater mounting heights may be required in order to recognize plates on vehicles close to each other (such as in slow/congested traffic).
+
+At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
+
+For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
+
+========================================
+
+[#s_Position-of-the-Sun-in-Relation-to-the-Camera-System]
+
+=== Position of the Sun in Relation to the Camera
+
+The camera should +++<u>+++not+++</u>+++ be positioned so that the rays of the sun behind the camera shine along the camera-to-plate axis. Reflective plates will cause severe glare to be reflected back to the camera, obscuring the image of the plate's characters.
+
+Avoid/mitigate by:
+
+* Not installing the camera in an east/west direction
+
+* Installing the camera near a building that shields it from the sun's rays
+
+* Installing the camera on a short pole
+
+* Using a double-camera installation (2 different angles or front/rear)
+
+[#f_Sun-Behind-Camera-System-on-Same-Axis-as-Line-of-Sight-from-Camera-to-Plate]
+
+.Sun Behind Camera (on Same Axis as Line-of-Sight from Camera to Plate)
+
+image::ROOT:/IZA800G/image15.png[image,width=628,height=232]
