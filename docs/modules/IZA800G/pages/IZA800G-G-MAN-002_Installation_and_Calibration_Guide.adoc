@@ -425,7 +425,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 
 .^| Weight
-.^| {iza-weight}}
+.^| {iza-weight}
 
 
 .^| Color
