@@ -781,7 +781,7 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals
 image::./UserGuide/image24.png[image,width=138,height=265]
 
 
-[width="70",cols="1,2,2",options="header",]
+[width="70",cols="1,2,1",options="header",]
 |===
 |Pin |Power/Trigger |Wire Color
 |1 |24 VDC (-) / GND |Black
