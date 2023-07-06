@@ -803,7 +803,9 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-2.adoc[Second Part of Power Signal
 
 === Constructing the LAN Cable
 
-include::ROOT:partial$IZA800G/p-lan-cable.adoc[LAN Cable Construction]
+include::ROOT:partial$IZA800G/p-lan-cable-1.adoc[LAN Cable Construction Part 1]
+
+include::ROOT:partial$IZA800G/p-lan-cable-2.adoc[LAN Cable Construction Part 2]
 
 [#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
 
