@@ -253,7 +253,7 @@ The {shortprodname} GUI can now be accessed using https at the start of the URL.
 
 .Logging In to the Computer
 
-image::./UserGuide/image4.png[image,width=209,height=143]
+image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 . You should see the {shortprodname} Live (Journal) tab (see <<s_Live-Journal-Tab>>). To configure {shortprodname}, switch to the Settings tab (see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>).
 

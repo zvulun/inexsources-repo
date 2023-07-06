@@ -943,7 +943,7 @@ http://192.115.120.76/[http://192.115.120.76/]
 
 .Logging In to {software-ALPR}
 
-image::./UserGuide/image45.png[image,width=209,height=143]
+image::ROOT:RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 . You should see the {software-ALPR} Live (Journal) tab. See the {software-ALPR-long} User Guide for instructions for configuring and using {software-ALPR} (see <<s_Related-Documents>>).
 

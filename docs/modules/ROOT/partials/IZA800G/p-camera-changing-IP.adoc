@@ -22,7 +22,7 @@ The IP address must be unique within the entire ALPR system, and must be within 
 
 .. Click the Static radio button.
 
-.. Enter the network address parameters (see <<t_IP-Address-Parameters>>). All cameras must be on the same subnet as both the computer you will use to communicate with and configure the camera, and the {compname-short} {software-ALPR} computer.
+.. Enter the network address parameters (see <<t_IP-Address-Parameters>>). *All cameras must be on the same subnet as both the computer you will use to communicate with and configure the camera, and the {compname-short} {software-ALPR} computer.*
 
 +
 --
