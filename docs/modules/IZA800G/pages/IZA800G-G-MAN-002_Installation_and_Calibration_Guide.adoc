@@ -910,7 +910,7 @@ If you do not have an internet connection to the network on which the camera is 
 The stream of the Live View can also be accessed using an RTSP URL with the following format:
 
 rtsp://[username:password]@<Camera IP address>/cam0_0 +
-where cam0_0 are camera-specific parameters (which in this case enable you to access the primary stream)
+where cam0_0 is a camera-specific parameter (which in this case enables you to access the primary stream)
 
 To see the stream, use a video player such as the VLC player, located at: +
 https://www.videolan.org/vlc/index.html
