@@ -1,0 +1,60 @@
+[NOTE]
+========================================
+
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the camera using the same URL every time, even after unexpected power outages.
+
+========================================
+
+. In the Basic Setup group, click on IP Address:
++
+[#f_Changing-the-Camera-s-IP-Address]
+
+.Changing the Camera's IP Address
+
+image::ROOT:/IZA800G/image44.png[image,width=524,height=180]
+
+. To change the IP address to a fixed one:
++
+[NOTE]
+========================================
+The IP address must be unique within the entire ALPR system, and must be within the limits of standard IPv4 address numbering.
+========================================
+
+.. Click the Static radio button.
+
+.. Enter the network address parameters (see <<t_IP-Address-Parameters>>). All cameras must be on the same subnet as both the computer you will use to communicate with and configure the camera, and the {compname-short} {software-ALPR} computer.
+
++
+--
+[IMPORTANT]
+========================================
+It is highly recommended to record the camera's IP address and port number in a safe place. You will need them if the camera's parameters are reset back to their defaults, and for configuring {compname-short} ALPR software.
+========================================
+
+[#t_IP-Address-Parameters]
+.IP Address Parameters
+
+[width="100%",cols="28%,20%,52%",options="header",]
+|===
+|Sub-category > Parameter Group |Parameter |Setting
+|IP Address |Service (radio buttons) |Set to Static to be able to access the camera
+|IP Address |IP Address |According to the camera's location and the organization of your network.
+|IP Address |NetMask |According to the camera's location and the organization of your network
+|IP Address |GateWay |According to the camera's location and the organization of your network
+|IP Address |DNS 1 |According to the camera's location and the organization of your network
+|IP Address |DNS 2 |According to the camera's location and the organization of your network
+|===
+
+--
+. Click Apply.
++
+[IMPORTANT]
+========================================
+
+After selecting Apply, you will be requested to close your web browser so the updates can take effect. This will take 20 seconds or more, to allow the camera time to reboot. +
+- If you click the browser's Back button, all values will be discarded. +
+- If you click the browser's Refresh button, the application will load the previous values.
+
+========================================
+
+. In the {software-discovery} utility (see <<s_Recognizing-Devices-with-IZ-Discovery>>), click the "Clear List" button, and verify that the camera can be recognized with the new IP address.

@@ -15,7 +15,6 @@ image::ROOT:/IZA800G/image43.png[image,width=528,height=230]
 ** Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-the-Cameras-Using-RoadView>>).
 +
 [NOTE]
-
 ========================================
 
 When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
@@ -36,15 +35,16 @@ https://www.videolan.org/vlc/index.html
 ** If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
 
 . When prompted for a login, use the Administrator credentials of root, IZpass12.
+
 ifdef::xref-type-IZ600F[]
 You should then create another user for use by other users – with a different name and password (see <<s_Adding-a-User>>).
 endif::xref-type-IZ600F[]
 
 +
-========================================
 [IMPORTANT]
-
+========================================
 The Administrator user name (root) cannot be changed, and the Administrator password is encrypted. Therefore, if someone changes the Administrator password, there is no way to find out the password if it gets lost.
+
 ifdef::xref-type-IZ600F[]
 If the password gets lost, you will have to reset the device with the FD (Factory Default) button (see <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>>). All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted (see <<s_Adding_a_User>>).
 endif::xref-type-IZ600F[]
