@@ -20,8 +20,14 @@ A dynamic IP address may change upon device reboot. Before opening the web inter
 If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
 
 ifdef::xref-type-RoadView[]
-You can also change the IP address using the {shortprodname} Settings tab (see <<s_Network-Settings>>).
+You can change the IP address using the {shortprodname} Settings tab (see <<s_Network-Settings>>).
 endif::xref-type-RoadView[]
+
+ifdef::xref-type-IZIDPUG[]
+You can change the IP address using the {shortprodname} Settings tab (see <<s_Related-Documents>>).
+endif::xref-type-IZIDPUG[]
+
+
 ifdef::xref-type-IZA800G[]
 
 Be sure to define IP addresses for each camera in the Camera System, plus the IP address of the onboard computer. It is recommended to use sequential IP addresses; for example: 192.168.5.64, 65, 66

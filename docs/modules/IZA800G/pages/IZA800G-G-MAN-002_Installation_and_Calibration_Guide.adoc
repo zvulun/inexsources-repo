@@ -23,6 +23,7 @@
 :xref-type-IZA800G:
 :!xref-type-IZA500G:
 :!xref-type-IZ600F:
+:!xref-type-IZIDPUG:
 
 
 = {docproductname}
