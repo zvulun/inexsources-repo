@@ -775,7 +775,7 @@ Secure the Camera System to the appropriate mounting hardware (see the Mounting 
 
 include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals Cable]
 
-[#f_Power-Signals-Cable-Power-Signals-Pinouts]
+[#t_Power-Signals-Cable-Power-Signals-Pinouts]
 
 .Power/Signals Cable: Power/Signals Pinouts
 
