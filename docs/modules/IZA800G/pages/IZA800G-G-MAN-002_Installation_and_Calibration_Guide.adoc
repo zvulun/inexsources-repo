@@ -433,7 +433,7 @@ image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 
 .Wiring Diagram Legend/Bill of Materials
 
-include::ROOT:partial$IZA800G/p-IZA800G-Wiring-Table.adoc[IZA800G Wiring Table]
+include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
@@ -457,7 +457,7 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals
 
 .Power/Signals Cable: Power/Signals Pinouts
 
-include::ROOT:partial$IZA800G/p-IZA800G-Connector-Pinouts.adoc[IZA800G Connector Pinouts]
+include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
 
 include::ROOT:partial$IZA800G/p-pwr-sig-cable-2.adoc[Second Part of Power Signals Cable]
 
