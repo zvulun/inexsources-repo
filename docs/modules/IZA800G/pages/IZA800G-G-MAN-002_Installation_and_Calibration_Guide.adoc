@@ -213,8 +213,6 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 
 include::ROOT:partial$IZA800G/p-IZA800G-spec-table.adoc[IZA800G Specification Table]
 
-+++*+++ LPR Capture Distance is measured from camera to plate
-
 [#s_Required-Optional-Accessories-Not-Included]
 
 == Required/Optional Accessories (Not Included)
@@ -429,40 +427,19 @@ All network cable extensions and repeaters must be shielded.
 
 .Typical Camera System with Illuminator Wiring Diagram
 
-image::./UserGuide/image17.png[image,width=530,height=324]
+image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
 .Wiring Diagram Legend/Bill of Materials
 
-[width="100%",cols="12%,51%,37%",options="header",]
-|===
-|Item |Description |Ordering Information
-|A a|*LAN Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]
-|B a|*Power/Signals Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
-|C a|*Power Supply:* 24 VDC, 100/120W; DIN rail/surface mount options +
-
-Can power 2 cameras from a single power supply a|
-{compname-short} P/N:
-
-* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR120-24-TDK-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK]
-
-|D a|*Illuminator Power Cable* |Included; {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
-|E a|*Illuminator Signals Cable* |Included; {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
-|F a|*{illum-strobe} Strobe Illuminator* |{compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Iluminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
-|===
+include::ROOT:partial$IZA800G/p-IZA800G-Wiring-Table.adoc[IZA800G Wiring Table]
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 .Typical Camera System Wiring Diagram
 
-image::./UserGuide/image18.png[image,width=424,height=356]
+image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 
 [#s_Mounting-the-Camera-System]
 
@@ -480,26 +457,7 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals
 
 .Power/Signals Cable: Power/Signals Pinouts
 
-[cols="1,2a",frame=none,grid=none]
-|===
-| image:./UserGuide/image24.png[image,width=181,height=352]
- |[width="100%",cols="1,2,1",options="header",]
-
-!===
-!Pin !Power/Trigger !Wire Color
-!1 !24 VDC (-) / GND !Black
-!2 !Dry Trigger 5V({plus}) !Brown
-!3 !Wet Trigger GND/ +
-OV Strobe (-) !White
-!4 !Dry/Wet Trig Input !Blue
-!5 !24 VDC ({plus}) !Red
-!6 !RS485 (A) !Orange
-!7 !RS485 (B) !Yellow
-!8 !OV Strobe ({plus}) !Green
-!image:ROOT:GroundSymbol.png[image,width=20,height=26]  !Shield +
-(Connector Body) !---
-!===
-|===
+include::ROOT:partial$IZA800G/p-IZA800G-Connector-Pinouts.adoc[IZA800G Connector Pinouts]
 
 include::ROOT:partial$IZA800G/p-pwr-sig-cable-2.adoc[Second Part of Power Signals Cable]
 

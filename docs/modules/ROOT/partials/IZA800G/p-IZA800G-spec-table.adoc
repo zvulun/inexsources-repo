@@ -241,3 +241,5 @@ xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 .^| External Illuminator (xref:IZS:DocList.adoc[{illum-strobe} Series])
 
 |===
+
++++*+++ LPR Capture Distance is measured from camera to plate
