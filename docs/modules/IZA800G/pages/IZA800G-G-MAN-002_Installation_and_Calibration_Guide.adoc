@@ -495,11 +495,11 @@ xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 
 
 
-.^| Power/Signals Cable for {shortprodname} System (xref:IZCAB-A800-PAS:DocList.adoc[IZCABA800PAS])
+.^| Power/Signals Cable for {shortprodname} System (xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS])
 
 
 
-.^| LAN Cable for {shortprodname} System (xref:IZCAB-A800-LAN:DocList.adoc[IZCABA800LAN])
+.^| LAN Cable for {shortprodname} System (xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN])
 
 
 
