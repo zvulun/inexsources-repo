@@ -211,7 +211,7 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 
 .Technical Specifications
 
-include::ROOT:partial$IZA800G/p-IZA800G-spec-table.adoc[IZA800G Specification Table
+include::ROOT:partial$IZA800G/p-IZA800G-spec-table.adoc[IZA800G Specification Table]
 
 +++*+++ LPR Capture Distance is measured from camera to plate
 
