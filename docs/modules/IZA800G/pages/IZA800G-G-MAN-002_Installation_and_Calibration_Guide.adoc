@@ -214,10 +214,10 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 [options="header",cols="24,23,53"]
 |===
 2+.^| Item
-{set:cellbgcolor:#c0c0c0}
+// {set:cellbgcolor:#c0c0c0}
 
 .^| Specification
-{set:cellbgcolor:#c0c0c0}
+// {set:cellbgcolor:#c0c0c0}
 
 .2+.^| Supported Analytics (see the xref:RoadViewALPR:DocList.adoc[Analytics Data Sheet] for details)
 {set:cellbgcolor!}
@@ -236,48 +236,56 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 
 .^| Up to 120 mph (193 km/h)
 
-2.3+.^| LPR Capture Distance* +
+2.1+.^| LPR Capture Distance* +
 (for U.S.A. plates)
 
 .^a| * S - Short distance, 5-35 ft (2-11 m)
+* L - Long distance, 30-70 ft (9-21 m)
+* XL - Extra-long distance 33-80 ft (10-24 m)
+
+
+// .^a| * S - Short distance, 5-35 ft (2-11 m)
 
 
 
-.^a| * L - Long distance, 30-70 ft (9-21 m)
+// .^a| * L - Long distance, 30-70 ft (9-21 m)
 
 
 
-.^a| * XL - Extra-long distance 33-80 ft (10-24 m)
+//.^a| * XL - Extra-long distance 33-80 ft (10-24 m)
 
-.7+.^| LPR Illumination
-.2+.^| Number of LEDs
+.3+.^| LPR Illumination
+.1+.^| Number of LEDs
 .^a| * DR, IR - 15 high power LEDs
+* DRW, IRW - 10 high power LEDs
 
 
 
-.^a| * DRW, IRW - 10 high power LEDs
+//.^a| * DRW, IRW - 10 high power LEDs
 
-
-.2+.^| Wavelength
+.1+.^| Wavelength
 .^a| * DR - Deep Red
+* IR - Infrared
 
 
 
-.^a| * IR - Infrared
+//.^a| * IR - Infrared
 
 
-.3+.^| Beam Angle
+.1+.^| Beam Angle
 .^a| * S- 40°x16°
+* L - 15°x15°
+* XL - 15°x15°
 
 
 
-.^a| * L - 15°x15°
+//.^a| * L - 15°x15°
 
 
 
-.^a| * XL - 15°x15°
+//.^a| * XL - 15°x15°
 
-.8+.^| LPR Camera
+.6+.^| LPR Camera
 .^| Shutter Type
 .^| Global
 
@@ -290,16 +298,18 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 .^| 3.19 MP - 2048 (H) x 1536 (V)
 
 
-.3+.^| Lens
+.1+.^| Lens
 .^a| * S - 12-40 mm; Motorized Zoom and Auto-focus
+* L - 12-40 mm; Motorized Zoom and Auto-focus
+* XL - 12-50 mm; Manual Zoom and Focus
 
 
 
-.^a| * L - 12-40 mm; Motorized Zoom and Auto-focus
+//.^a| * L - 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^a| * XL - 12-50 mm; Manual Zoom and Focus
+//.^a| * XL - 12-50 mm; Manual Zoom and Focus
 
 
 .^| Video Compression
@@ -309,35 +319,39 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 .^| Video Streaming
 .^| RTSP Protocol
 
-.7+.^| OV Illumination
-.2+.^| Number of LEDs
+.3+.^| OV Illumination
+.1+.^| Number of LEDs
 .^a| * DR, IR - No visible light LEDs
+* DRW, IRW - 5 high power LEDs
 
 
 
-.^a| * DRW, IRW - 5 high power LEDs
+//.^a| * DRW, IRW - 5 high power LEDs
 
 
-.2+.^| Wavelength
+.1+.^| Wavelength
 .^a| * DR, IR, - N/A
+* DRW, IRW - Visible, Warm White
 
 
 
-.^a| * DRW, IRW - Visible, Warm White
+//.^a| * DRW, IRW - Visible, Warm White
 
 
-.3+.^| Beam Angle
+.1+.^| Beam Angle
 .^a| * S - 40°x16°
+* L - 15°x15°
+* XL - 15°x15°
 
 
 
-.^a| * L - 15°x15°
+//.^a| * L - 15°x15°
 
 
 
-.^a| * XL - 15°x15°
+//.^a| * XL - 15°x15°
 
-.8+.^| OV Camera
+.6+.^| OV Camera
 .^| Shutter Type
 .^| Global
 
@@ -350,16 +364,18 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 .^| 3.19 MP - 2048 (H) x 1536 (V)
 
 
-.3+.^| Lens
+.1+.^| Lens
 .^a| * S - 12-40 mm; Motorized Zoom and Auto-focus
+* L - 12-40 mm; Motorized Zoom and Auto-focus
+* XL - 12-50 mm; Manual Zoom and Focus
 
 
 
-.^a| * L - 12-40 mm; Motorized Zoom and Auto-focus
+//.^a| * L - 12-40 mm; Motorized Zoom and Auto-focus
 
 
 
-.^a| * XL - 12-50 mm; Manual Zoom and Focus
+//.^a| * XL - 12-50 mm; Manual Zoom and Focus
 
 
 .^| Video Compression
