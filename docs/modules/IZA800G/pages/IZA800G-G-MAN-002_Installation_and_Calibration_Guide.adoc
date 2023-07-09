@@ -779,23 +779,23 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals
 
 .Power/Signals Cable: Power/Signals Pinouts
 
-image::./UserGuide/image24.png[image,width=138,height=265]
-
-
-[width="60%",cols="1,2,1",options="header", role="center"]
+[cols="1,1a" frame="none"]
 |===
-|Pin |Power/Trigger |Wire Color
-|1 |24 VDC (-) / GND |Black
-|2 |Dry Trigger 5V({plus}) |Brown
-|3 |Wet Trigger GND/ +
-OV Strobe (-) |White
-|4 |Dry/Wet Trig Input |Blue
-|5 |24 VDC ({plus}) |Red
-|6 |RS485 (A) |Orange
-|7 |RS485 (B) |Yellow
-|8 |OV Strobe ({plus}) |Green
-|image:ROOT:GroundSymbol.png[image,width=20,height=26]  |Shield +
-(Connector Body) |---
+| image:./UserGuide/image24.png[image,width=138,height=265] |[width="60%",cols="1,2,1",options="header",]
+!===
+!Pin !Power/Trigger !Wire Color
+!1 !24 VDC (-) / GND !Black
+!2 !Dry Trigger 5V({plus}) !Brown
+!3 !Wet Trigger GND/ +
+OV Strobe (-) !White
+!4 !Dry/Wet Trig Input !Blue
+!5 !24 VDC ({plus}) !Red
+!6 !RS485 (A) !Orange
+!7 !RS485 (B) !Yellow
+!8 !OV Strobe ({plus}) !Green
+!image:ROOT:GroundSymbol.png[image,width=20,height=26]  !Shield +
+(Connector Body) !---
+!===
 |===
 
 include::ROOT:partial$IZA800G/p-pwr-sig-cable-2.adoc[Second Part of Power Signals Cable]
