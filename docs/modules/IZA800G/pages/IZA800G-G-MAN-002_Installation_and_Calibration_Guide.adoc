@@ -779,9 +779,9 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals
 
 .Power/Signals Cable: Power/Signals Pinouts
 
-[cols="1,1a",frame="none",grid="none"]
+[cols="1,2a",grid="none",frame="none"]
 |===
-| image:./UserGuide/image24.png[image,width=138,height=265] |[width="60%",cols="1,2,1",options="header",]
+| image:./UserGuide/image24.png[image,width=138,height=265] |[width="100%",cols="1,2,1",options="header",]
 !===
 !Pin !Power/Trigger !Wire Color
 !1 !24 VDC (-) / GND !Black
