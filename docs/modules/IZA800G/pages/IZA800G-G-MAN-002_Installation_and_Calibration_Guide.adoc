@@ -779,7 +779,7 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals
 
 .Power/Signals Cable: Power/Signals Pinouts
 
-[cols="1,2a",grid=none]
+[cols="1,2a",frame=none,grid=none]
 |===
 | image:./UserGuide/image24.png[image,width=138,height=265]
  |[width="100%",cols="1,2,1",options="header",]
