@@ -1,4 +1,7 @@
-.8+.^| AI Processor
+//.8+.^| AI Processor
+ifndef::xref-type-IZIDPUG[.8+.^| AI Processor]
+ifdef::xref-type-IZIDPUG[.6+.^| AI Processor]
+
 .^| GPU
 .^| NVIDIA Maxwell architecture with 128 CUDA® cores
 
@@ -26,9 +29,10 @@ ifdef::xref-type-IZA500G[eMMC, 12 Gb]
 .^| Maintains real-time clock date and time for 4-6 hours
 
 
-
+ifndef::xref-type-IZIDPUG[]
 .^| Rechargeable; Full charge-up time: 12 hours
 
 
 .^| OS
 .^| Linux Ubuntu 18.04
+endif::xref-type-IZIDPUG[]
