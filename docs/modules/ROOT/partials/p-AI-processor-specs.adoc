@@ -1,6 +1,6 @@
 //.8+.^| AI Processor
 ifndef::xref-type-IZIDPUG[.8+.^| AI Processor]
-ifdef::xref-type-IZIDPUG[.6+.^| AI Processor]
+ifdef::xref-type-IZIDPUG[.5+.^| AI Processor]
 
 .^| GPU
 .^| NVIDIA Maxwell architecture with 128 CUDA® cores
@@ -13,26 +13,30 @@ ifdef::xref-type-IZIDPUG[.6+.^| AI Processor]
 .^| RAM
 .^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
 
-
+ifndef::xref-type-IZIDPUG[]
 .^| System Storage
+
 .^| MicroSD, 64 Gb
+endif::xref-type-IZIDPUG[]
 
 
+.^|
+ifdef::xref-type-IZIDPUG[System and]
+Data Storage
 
-.^| Data Storage
 .^|
 ifdef::xref-type-IZA800G[SSD, 250 Gb]
 ifdef::xref-type-IZA500G[eMMC, 12 Gb]
+ifdef::xref-type-IZIDPUG[250 Gb]
 
-
+ifndef::xref-type-IZIDPUG[]
 .2+.^| RTC Battery
 .^| Maintains real-time clock date and time for 4-6 hours
 
 
-ifndef::xref-type-IZIDPUG[]
-.^| Rechargeable; Full charge-up time: 12 hours
 
+.^| Rechargeable; Full charge-up time: 12 hours
+endif::xref-type-IZIDPUG[]
 
 .^| OS
 .^| Linux Ubuntu 18.04
-endif::xref-type-IZIDPUG[]
