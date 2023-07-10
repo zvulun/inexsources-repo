@@ -3,8 +3,8 @@
 === Logging In
 
 . Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the
-ifdef::IZIDPUG[{hw-indoor-processor}]
-ifndef::IZIDPUG[{software-ALPR} computer]
+ifdef::xref-type-IZIDPUG[{hw-indoor-processor}]
+ifndef::xref-type-IZIDPUG[{software-ALPR} computer]
 +++.+++ For example: +
 http://192.115.120.76/[http://192.115.120.76/]
 
