@@ -595,7 +595,10 @@ See <<s_Recognizing-Devices-with-IZ-Discovery>>.
 
 === Logging In
 
-. Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {software-ALPR} computer. For example: +
+. Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the
+ifdef::IZIDPUG[{hw-indoor-processor}]
+ifndef::IZIDPUG[{software-ALPR}]
+computer. For example: +
 http://192.115.120.76/[http://192.115.120.76/]
 
 . You will see the login screen. Enter the default username and password (root, root):

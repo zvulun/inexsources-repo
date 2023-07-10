@@ -26,7 +26,7 @@ If any device on your network is connected via wireless, {software-discovery} wi
 
 .{software-discovery} Utility
 
-image::ROOT:image$/RoadViewALPR/RV-1_9-FIG-012b_IZDiscovery6020MainScreen.png[IZ Disovery Main Screen,width=503,height=337]
+image::ROOT:image$/IZDiscovery/RV-1_9-FIG-012b_IZDiscovery6020MainScreen.png[IZ Disovery Main Screen,width=503,height=337]
 
 . If {software-discovery} does not recognize a device:
 

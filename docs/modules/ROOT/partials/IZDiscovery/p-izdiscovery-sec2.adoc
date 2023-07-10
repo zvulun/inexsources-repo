@@ -2,7 +2,7 @@
 
 .Changing the Device's Network Settings
 
-image::ROOT:image$/RoadViewALPR/RV-1_9-FIG-013b_ChangeIPUnCheckDHCP.png[IZ Discovery Network Setting Dialog,width=226,height=230]
+image::ROOT:image$/IZDiscovery/RV-1_9-FIG-013b_ChangeIPUnCheckDHCP.png[IZ Discovery Network Setting Dialog,width=226,height=230]
 
 [NOTE]
 
