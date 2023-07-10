@@ -1,0 +1,33 @@
+[#s_Logging-In]
+
+=== Logging In
+
+. Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the
+ifdef::IZIDPUG[{hw-indoor-processor}]
+ifndef::IZIDPUG[{software-ALPR} computer]
++++.+++ For example: +
+http://192.115.120.76/[http://192.115.120.76/]
+
+. You will see the login screen. Enter the default username and password (root, root):
++
+[#f_Logging-In-to-RoadView]
+
+.Logging In to {software-ALPR}
+
+image::ROOT:RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
+
+. You should see the {software-ALPR} Live (Journal) tab. See the {software-ALPR-long} User Guide for instructions for configuring and using {software-ALPR} (see <<s_Related-Documents>>).
+
+[#s_Verifying-the-Installation]
+
+=== Verifying the Installation
+
+* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
+
+* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+
+[#s_Logging-Out]
+
+=== Logging Out
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
