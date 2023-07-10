@@ -38,10 +38,10 @@ Power undervoltage, overvoltage and/or incorrect polarity will damage the unit a
 ifdef::xref-type-IZA800G[or external illuminator units]
 +++.+++
 Repair or replacement of parts for this {generic-camera-name}
-ifdef::xref-type-IZA800G[and its external illuminator units ]
+ifdef::xref-type-IZA800G,xref-type-IZA500G[and its external illuminator units ]
 should be supplied by {compname-long}, and installed by qualified service personnel.
 * Handle and store the {generic-camera-name}
-ifdef::xref-type-IZA800G[and external illuminator units ]
+ifdef::xref-type-IZA800G,xref-type-IZA500G[and external illuminator units ]
 with care.
 ifdef::xref-type-IZ600F[ Do not drop the camera or subject it to physical shock.]
 * Never point the {generic-camera-name} directly towards the sun.
