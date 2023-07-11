@@ -1,6 +1,9 @@
 * Unpack the Camera System - see <<s_Package-Contents>>.
 
-* Gather any additional items needed - see <<s_Required-Optional-Accessories-Not-Included>>.
+* Gather any additional items needed - see
+ifdef::xref-type-IZA800G[<<s_Required-Optional-Accessories-Not-Included>>]
+ifdef::xref-type-IZA500G[<<s_Required-Accessories-Not-Included>>]
++++.+++
 
 * Plan your physical installation - see <<s_Planning-Your-Installation>>.
 

@@ -1,0 +1,18 @@
+[#s_Illuminator-Mounting-and-Aiming]
+
+==== Illuminator Mounting and Aiming
+
+*See the illuminator guides for further details about installation and mounting considerations (see <<s_Related-Documents>>).*
+
+* Mount illuminators at an appropriate distance away from their associated
+ifndef::xref-type-IZ600F[Camera System(s)]
+ifdef::xref-type-IZ600F[camera(s)]
++++,+++ according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
+
+* Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
+
+[#s_Verifying-Infrared-type-Illuminator-Operation]
+
+==== Verifying Infrared-type Illuminator Operation
+
+You can look at an infrared-type illuminator with a smartphone camera to see if it is working.

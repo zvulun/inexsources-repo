@@ -189,7 +189,7 @@ image::ROOT:/IZA800G/image7.png[image,width=489,height=252]
 
 === Multi-flash Technology
 
-include::ROOT:partial$/IZA800G/p-multiflash-technology.adoc[Quick Installation Overview]
+include::ROOT:partial$/IZA800G/p-multiflash-technology.adoc[Multi-flash Technology]
 
 [#s_Built-in-White-LEDs-White-LED-Models]
 
@@ -279,35 +279,7 @@ include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections 
 
 === Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
 
-[#f_External-Illuminator]
-
-.External Illuminator
-
-image::ROOT:/IZA800G/image16.png[image,width=136,height=121]
-
-[#s_Matching-Your-Camera-System-to-an-INEX-Illuminator]
-
-==== Matching Your Camera System to an {compname-short} Illuminator
-
-[IMPORTANT]
-
-========================================
-
-The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the {compname-short} Camera System. See the appropriate Illuminator Series User Guide(s) for compatibility information (see <<s_Related-Documents>>).
-
-========================================
-
-*The {compname-short} {shortprodname} Camera System is typically used with the {illum-strobe} series strobe illuminators.*
-
-By using the following guidelines, you can match the illuminator you need to the {compname-short} Camera System being used.
-
-* The number of illuminator LEDs and beam angle must match the distance type (long or short) of the Camera System being used, as follows:
-
-** Fewer LEDs and wider beam angles are used for short distances
-
-** More LEDs and narrower beam angles are used for longer distances
-
-The results of applying these guidelines can be found in the appropriate Illuminator Series User Guide(s)
+include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
 
 [#s_Illuminator-Triggering-and-Pulse-Width]
 
@@ -315,21 +287,7 @@ The results of applying these guidelines can be found in the appropriate Illumin
 
 You can trigger an illuminator from the OV camera by using appropriate wiring (see <<s_Typical-Wiring-Diagrams>>). The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
 
-[#s_Illuminator-Mounting-and-Aiming]
-
-==== Illuminator Mounting and Aiming
-
-**See the illuminator guides for further details about installation and mounting considerations (see <<**s_Related-Documents>>**).**
-
-* Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
-
-* Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
-
-[#s_Verifying-Infrared-type-Illuminator-Operation]
-
-==== Verifying Infrared-type Illuminator Operation
-
-You can look at an infrared-type illuminator with a smartphone camera to see if it is working.
+include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
 
 [#s_Additional-Installation-Considerations]
 

@@ -1,0 +1,50 @@
+[#f_External-Illuminator]
+
+.External Illuminator
+
+image::ROOT:/IZA800G/image16.png[image,width=136,height=121]
+
+ifndef::xref-type-IZ600F[[#s_Matching-Your-Camera-System-to-an-INEX-Illuminator]]
+ifdef::xref-type-IZ600F[[#s_Matching-Your-Camera-to-an-INEX-Illuminator]]
+
+ifndef::xref-type-IZ600F[==== Matching Your Camera System to an INEX Illuminator]
+ifdef::xref-type-IZ600F[==== Matching Your Camera to an INEX Illuminator]
+
+[IMPORTANT]
+
+========================================
+
+The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the {compname-short}
+ifndef::xref-type-IZ600F[Camera System]
+ifdef::xref-type-IZ600F[camera]
++++.+++ See the appropriate Illuminator Series User Guide(s) for compatibility information (see <<s_Related-Documents>>).
+
+========================================
+
+*The {compname-short} {docproductname}
+ifndef::xref-type-IZ600F[Camera Systems]
+ifdef::xref-type-IZ600F[cameras]
+are typically used with the
+ifdef::xref-type-IZA800G[{illum-strobe}]
+ifdef::xref-type-IZA500G[{illum-non-strobe}]
+ifdef::xref-type-IZ600F[{illum-non-strobe}]
+series
+ifndef::xref-type-IZ600F[strobe]
+illuminators.*
+
+By using the following guidelines, you can match the illuminator you need to the {compname-short}
+ifndef::xref-type-IZ600F[Camera System]
+ifdef::xref-type-IZ600F[camera]
+being used.
+
+* The number of illuminator LEDs and beam angle must match the distance type (long or short) of the
+ifndef::xref-type-IZ600F[Camera System]
+ifdef::xref-type-IZ600F[camera]
+being used, as follows:
+
+** Fewer LEDs and wider beam angles are used for short distances
+
+** More LEDs and narrower beam angles are used for longer distances
+
+The results of applying these guidelines can be found in the appropriate Illuminator Series User Guide(s).
+

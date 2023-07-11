@@ -1,6 +1,6 @@
 Some of the built-in LEDs of some models of the {docproductname} are white. They are used for overview image illumination.
 
-[#f_IZA800G-White-LED-Positions]
+[#f_White-LED-Positions]
 
 .{docproductname} White LED Positions
 

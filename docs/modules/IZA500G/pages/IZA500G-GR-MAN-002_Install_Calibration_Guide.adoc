@@ -52,8 +52,6 @@ image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX
 // of file
 toc::[]
 
-
-
 [#s_About-this-Document]
 
 == About this Document
@@ -113,27 +111,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 == Quick Installation Overview
 
-* Unpack the Camera System - see <<s_Package-Contents>>.
-
-* Gather any additional items needed - see <<s_Required-Accessories-Not-Included>>.
-
-* Plan your physical installation - see <<s_Planning-Your-Installation>>.
-
-* Install the hardware - see <<s_Hardware-Installation>>.
-
-* Reserve IP addresses for the components in your ALPR system - {software-ALPR} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>>.
-
-* Use {software-discovery} to find the initial IP Addresses of the cameras connected to your network - see <<s_Recognizing-Devices-with-IZ-Discovery>>.
-
-* Log into each camera, and change its IP address according to the requirements of your network. +++<u>+++Use fixed addresses+++</u>+++. Record these new addresses for use in {software-ALPR} configuration - see <<s_Logging-In-to-the-Camera>>, and <<s_Changing-a-Camera-s-IP-Address>>.
-
-* Calibrate the cameras - see <<s_Calibrating-the-Cameras>>
-
-* Use {software-discovery} to find the IP address of the {software-ALPR} computer. Change the computer's IP address according to the requirements of your network. See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
-
-* Log in to {software-ALPR}, and configure {software-ALPR}, including adding the connected cameras - see <<s_Using-RoadView>> and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
-
-* On the Live (Journal) tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<s_Using-RoadView>> and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+include::ROOT:partial$/IZA800G/p-quick-install-overview.adoc[Quick Installation Overview]
 
 [#s_Camera-System-Overview]
 
@@ -167,7 +145,9 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 === Camera System Details and Dimensions
 
-The {docproductname} ALPR All-in-one AI Camera System is suitable for parking, car wash, access control and security applications, with different models available for different distances and illumination requirements. It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade. The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system. A computer running license plate recognition software is also built in.
+The {docproductname} ALPR All-in-one AI Camera System is suitable for parking, car wash, access control and security applications, with different models available for different distances and illumination requirements.
+include::ROOT:partial$IZA800G/p-camera-details-intro.adoc[Camera Details Introduction]
+
 
 [#f_Front-View-of-the-ALPR-Camera-System]
 
@@ -187,7 +167,7 @@ image::./UserGuide/image3.png[image,width=624,height=223]
 
 KEEP THE TRIGGER WIRES ISOLATED. SHORTING THE TRIGGER WIRES MAY DAMAGE THE UNIT AND VOID THE WARRANTY.
 
-NOTE: The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
+*+++NOTE:+++* The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
 
 ========================================
 
@@ -199,9 +179,9 @@ image::./UserGuide/image4.png[image,width=411,height=280]
 
 [#f_Dimensions]
 
-image::./UserGuide/image5.png[image,width=321,height=215]
+image::ROOT:/IZA800G/image5.png[image,width=315,height=205]
 
-image::./UserGuide/image6.png[image,width=465,height=224]
+image::ROOT:/IZA800G/image6.png[image,width=463,height=224]
 
 .Dimensions
 
@@ -211,25 +191,13 @@ image::./UserGuide/image7.png[image,width=489,height=252]
 
 === Multi-flash Technology ({shortprodname})
 
-The {shortprodname}'s illuminators project different light intensities in a sequence (also called multi-flash technology). This produces a series of video frames with varying degrees of illumination, which helps to determine the best possible recognition.
-
-[#f_Frames-with-Different-Illumination-Intensities]
-
-.Frames with Different Illumination Intensities
-
-image::./UserGuide/image8.png[image,width=524,height=75]
+include::ROOT:partial$/IZA800G/p-multiflash-technology.adoc[Multi-flash Technology]
 
 [#s_Built-in-White-LEDs-White-LED-Models]
 
 === Built-in White LEDs (White LED Models)
 
-Some of the built-in LEDs of some models of the {docproductname} are white. They are used for overview image illumination.
-
-[#f_IZA500G-GR-White-LED-Positions]
-
-.{docproductname} White LED Positions
-
-image::./UserGuide/image9.png[image,width=279,height=215]
+include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 
 [#s_Specifications]
 
@@ -265,12 +233,12 @@ All network cable extensions and repeaters must be shielded.
 
 ========================================
 
-* You will need to provide a laptop computer to use for configuration. If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight. Required software:
+* You will need to provide a laptop computer to use for configuration. +++<u>+++If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight.+++</u>+++ Required software:
 
 ** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 
 ** Internet Explorer browser version 11 or higher +
-You can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link] (to enable access to the camera configuration application -see <<s_Logging-In-to-the-Camera>>).
+You can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link] (to enable access to the camera configuration application - see <<s_Logging-In-to-the-Camera>>).
 
 * The following accessories can be supplied by {compname-med}:
 
@@ -289,161 +257,15 @@ You can add an IE Tab extension to Chrome at this https://chrome.google.com/webs
 
 == Planning Your Installation
 
-[#s_Horizontal-Field-of-View-Capture-Line]
-
-=== Horizontal Field of View (Capture Line)
-
-Your Camera System's Field of View (FOV) is the area that the camera can "see". You can think of this area as an imaginary rectangle rising from the lane upwards. The width of this area is called the horizontal FOV or "capture line".
-
-See <<s_Specifications>> for the horizontal and vertical FOV specifications.
-
-[#f_Field-of-View-Capture-Line]
-
-.Field of View (Capture Line)
-
-image::./UserGuide/image10.png[image,width=634,height=194]
-
-Select your Camera System's position so that license plates are always within the capture line and parallel to it, with the Camera System facing as straight at the plates as possible - as shown in the following diagrams:
-
-[#f_Plates-Within-Capture-Line]
-
-.Plates Within Capture Line
-
-image::./UserGuide/image11.png[image,width=247,height=411]
-
-[#f_Plates-Parallel-to-Capture-Line-Away-from-Road-Curves]
-
-.Plates Parallel to Capture Line - Away from Road Curves
-
-image::./UserGuide/image12.png[image,width=503,height=314]
-
-[#s_Angles-and-Distances]
-
-=== Angles and Distances
-
-[IMPORTANT]
-
-========================================
-
-Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
-
-========================================
-
-[#f_Horizontal-Camera-Angle-Pan-Angle]
-
-.Horizontal Camera Angle (Pan Angle)
-
-image::./UserGuide/image13.png[image,width=310,height=332]
-
-[NOTE]
-
-========================================
-
-The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
-
-If you must capture plates on a curve, place the Camera System on the side of the road that minimizes the horizontal angle.
-
-At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
-
-For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the car.
-
-========================================
-
-[#f_Vertical-Camera-Angle-Tilt-Angle-and-Line-of-Sight-Distance-from-Plate]
-
-.Vertical Camera Angle (Tilt Angle) and Line-of-Sight Distance from Plate
-
-image::./UserGuide/image14.png[image,width=626,height=194]
-
-[NOTE]
-
-========================================
-
-The distance from the Camera System to the capture line must be within the viewing range of the LPR camera.
-
-Adjust the vertical angle so that the Camera System can read plates at all of their expected heights from the road.
-
-The maximum vertical angle allowed is 30°.
-
-Larger angles and/or greater mounting heights may be required in order to recognize plates on vehicles close to each other (such as in slow/congested traffic).
-
-At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
-
-For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the car.
-
-========================================
-
-[#s_Position-of-the-Sun-in-Relation-to-the-Camera]
-
-=== Position of the Sun in Relation to the Camera
-
-The camera should +++<u>+++not+++</u>+++ be positioned so that the rays of the sun behind the camera shine along the camera-to-plate axis. Reflective plates will cause severe glare to be reflected back to the camera, obscuring the image of the plate's characters.
-
-Avoid/mitigate by:
-
-* Not installing camera in east/west direction
-
-* Installing camera near a building that shields it from the sun's rays
-
-* Installing camera on a short pole
-
-* Using a double-camera installation (2 different angles or front/rear)
-
-[#f_Sun-Behind-Camera-on-Same-Axis-as-Line-of-Sight-from-Camera-to-Plate]
-
-.Sun Behind Camera (on Same Axis as Line-of-Sight from Camera to Plate)
-
-image::./UserGuide/image15.png[image,width=628,height=232]
+include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections of Installation Planning]
 
 [#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
 
 === Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
 
-[#f_External-Illuminator]
+include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
 
-.External Illuminator
-
-image::./UserGuide/image16.png[image,width=136,height=121]
-
-[#s_Matching-Your-Camera-System-to-an-INEX-Illuminator]
-
-==== Matching Your Camera System to an {compname-short} Illuminator
-
-[IMPORTANT]
-
-========================================
-
-The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the {compname-short} Camera System. See the appropriate Illuminator Series User Guide(s) for compatibility information (see <<s_Related-Documents>>).
-
-========================================
-
-*The {compname-short} {docproductname} Camera Systems are typically used with {illum-non-strobe} series illuminators.*
-
-By using the following guidelines, you can match the illuminator you need to the {compname-short} Camera System being used.
-
-* The number of illuminator LEDs and beam angle must match the distance rating of the Camera System being used, as follows:
-
-** Fewer LEDs and wider beam angles are used for short distances
-
-** More LEDs and narrower beam angles are used for longer distances
-
-The results of applying these guidelines can be found in the appropriate Illuminator Series User Guide(s).
-
-[#s_Illuminator-Mounting-and-Aiming]
-
-==== Illuminator Mounting and Aiming
-
-*See the illuminator guides for further details about installation and mounting considerations.*
-
-* Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
-
-* Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
-
-[#s_Verifying-Infrared-type-Illuminator-Operation]
-
-==== Verifying Infrared-type Illuminator Operation
-
-You can look at an infrared-type illuminator with a smartphone camera to see if it is working.
+include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
 
 [#s_Additional-Installation-Considerations]
 
