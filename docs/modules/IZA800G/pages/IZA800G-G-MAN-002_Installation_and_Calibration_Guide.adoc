@@ -6,12 +6,6 @@
 // In the playbooks, so they can be
 // overridden if desired
 //:eyesafetystandard-1: IEC62471 Group 1
-//:recognitionpixels: 150
-//:resolutionwidth: 1920
-//:FOVplatewidths: 12.8
-//:platewidthfeet: 1
-//:capturelinefeet: 12
-//:capturelinemeters: 3.7
 //
 
 // unset and set attributes used to
