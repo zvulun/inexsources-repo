@@ -1294,7 +1294,7 @@ image::./UserGuide/image37.png[image,width=624,height=313]
 
 .Pan/Tilt/Roll (Angle) Adjustments
 
-image::./UserGuide/image39.png[image,width=311,height=186]
+image::ROOT:RoadViewALPR/PanTiltRoll.png[image,width=311,height=186]
 
 . When the correct position is achieved, make a preliminary tightening of the mounting screws.
 
