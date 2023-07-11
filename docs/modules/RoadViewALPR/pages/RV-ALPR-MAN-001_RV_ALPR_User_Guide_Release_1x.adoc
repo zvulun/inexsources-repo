@@ -194,7 +194,7 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 
 .Connecting a Laptop
 
-image::./UserGuide/image1.png[image,width=312,height=195]
+image::ROOT:RoadViewALPR/ConnectLaptopToLAN.png[image,width=312,height=195]
 
 Connect your laptop to the same network switch the computer running {shortprodname} is connected to.
 
