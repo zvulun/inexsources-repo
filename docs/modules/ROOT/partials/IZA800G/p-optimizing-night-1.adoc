@@ -29,7 +29,7 @@ ifdef::xref-type-IZA800G[{illum-strobe}]
 ifdef::xref-type-IZA500G[{illum-non-strobe}]
 ifdef::xref-type-IZ600F[{illum-non-strobe}]
 series
-ifndef::xref-type-IZ600F[strobe]
+ifdef::xref-type-IZA800G[strobe]
 illuminators.*
 
 By using the following guidelines, you can match the illuminator you need to the {compname-short}
