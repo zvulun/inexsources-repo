@@ -1,0 +1,34 @@
+[width="100%",cols="7%,54%,39%",options="header",]
+|===
+|Item |Description |Ordering Information
+|A a|*LAN Cable* |Supplied by integrator
+|B a|**Power Supply for All Components: +
+24 VDC, 50/75W or 100/120W; DIN rail or surface mount +
+{empty} +
+Can power 2 sets of components from a single power supply a|
+For 1 set of components, use {compname-short} P/N:
+
+* xref:IZPWR:DocList.adoc[IZPWR50-24-TDK-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR75-24-MWL-DIN]
+
+For 2 sets of components, use {compname-short} P/N:
+
+* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR120-24-TDK-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK]
+
+|C a|*Inductive Loop* |Supplied by integrator
+|D a|*Loop Detector Wiring Harness* |Included with Loop Detector
+|E a|*Gate* |Supplied by integrator
+|===
+
+*Note:* For device configuration instructions, see the
+xref:LOOP-DTCR-L:DocList.adoc[{hw-loopdetect-l}]
+and
+xref:IZIO:DocList.adoc[{hw-iocontroller}]
+guides. If you need to use an external illuminator, see the https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Illuminator] guide for a table of Camera-to-Illuminator Typical Use Cases.

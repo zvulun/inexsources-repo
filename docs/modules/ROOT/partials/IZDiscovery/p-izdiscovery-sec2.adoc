@@ -67,7 +67,6 @@ ifdef::xref-type-IZIDPUG[using the {software-ALPR} Settings tab]
 ifdef::xref-type-IZIDPUG[the {software-ALPR} User Guide - see <<s_Related-Documents>>.]
 ifdef::xref-type-RoadView[<<s_Logging-In-and-Logging-Out>>]
 ifdef::xref-type-IZA800G,xref-type-IZA500G[<<s_Logging-In-to-the-Camera>>]
-
 ifndef::xref-type-IZIDPUG[) and change the IP address (see]
 ifdef::xref-type-RoadView[<<s_Network-Settings>>]
 ifdef::xref-type-IZA800G,xref-type-IZA500G[<<s_Changing-a-Camera-s-IP-Address>>]

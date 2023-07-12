@@ -96,6 +96,7 @@ Contact {compname-long} for document ordering information.
 |xref:IZPWR:DocList.adoc[IZPWRSRFC-REV-x-TDSHEET] |IZPWR Surface Mount Power Supplies Technical Data Sheet
 |xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
 |xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
+|xref:LOOP-DTCR-L:DocList.adoc[{hw-loopdetect-l}-MAN-001] |{hw-loopdetect-l} Loop Detector Installation and User Guide
 |xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
 
@@ -287,8 +288,8 @@ include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV 
 a|
 *Cable Extensions*
 
-*IMPORTANT +
-*+++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
+*IMPORTANT* +
++++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
 
 a|
 * Power - Use a cable gauge sufficient to deliver 12-24 VDC at the Camera System
@@ -367,54 +368,25 @@ All network cable extensions and repeaters must be shielded.
 
 .Typical Camera System Wiring Diagram
 
-image::./UserGuide/image17.png[image,width=624,height=203]
+image::ROOT:IZA500G/image17.png[image,width=624,height=203]
 
 [#f_Typical-Camera-System-with-Inductive-Loop-Wiring-Diagram]
 
 .Typical Camera System with Inductive Loop Wiring Diagram
 
-image::./UserGuide/image18.png[image,width=624,height=279]
+image::ROOT:IZA500G/image18.png[image,width=624,height=279]
 
 [#f_Typical-Camera-System-with-I-O-Module-Wiring-Diagram]
 
 .Typical Camera System with I/O Module Wiring Diagram
 
-image::./UserGuide/image19.png[image,width=624,height=468]
+image::ROOT:IZA500G/image19.png[image,width=624,height=468]
 
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
 .Wiring Diagram Legend/Bill of Materials
 
-[width="100%",cols="7%,54%,39%",options="header",]
-|===
-|Item |Description |Ordering Information
-|A a|*LAN Cable* |Supplied by integrator
-|B a|**Power Supply for All Components: +
-**24 VDC, 50/75W or 100/120W; DIN rail or surface mount** +
-+
-**Can power 2 sets of components from a single power supply a|
-For 1 set of components, use {compname-short} P/N:
-
-* xref:IZPWR:DocList.adoc[IZPWR50-24-TDK-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR75-24-MWL-DIN]
-
-For 2 sets of components, use {compname-short} P/N:
-
-* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR120-24-TDK-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK]
-
-|C a|*Inductive Loop* |Supplied by integrator
-|D a|*Loop Detector Wiring Harness* |Included with Loop Detector
-|E a|*Gate* |Supplied by integrator
-|===
-
-*Note:* For device configuration instructions, see the https://drive.google.com/drive/folders/1JRBoEy0rRvpy61u5gw3kNj4hI0TOyh0q?usp=share_link[LOOP-DTCR-L] and https://drive.google.com/drive/folders/0B3mb9ZzMk00OQlV0Y2NWTGY1ekk?resourcekey=0-1eCLMt8pA-YUf0JU69r8nw&usp=share_link[{hw-iocontroller}] guides. If you need to use an external illuminator, see the https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Illuminator] guide for a table of Camera-to-Illuminator Typical Use Cases.
+include::ROOT:partial$IZA500G/p-IZA500G-wiring-table.adoc[IZA500G Wiring Table]
 
 [#s_Mounting-the-Camera-System]
 
@@ -470,7 +442,7 @@ If you are using a DIN rail-mount power supply, you will need to cut off the rin
 
 [#f_Conecting-a-Surface-Mount-Power-Supply-to-the-AC-Electricity]
 
-.Conecting a Surface-Mount Power Supply to the AC Electricity
+.Connecting a Surface-Mount Power Supply to the AC Electricity
 
 image::./UserGuide/image21.png[image,width=388,height=242]
 
@@ -502,97 +474,13 @@ The {compname-short} cameras have been pre-configured with default IP addresses.
 
 === Installing and Using {software-discovery}
 
-The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
-
-[IMPORTANT]
-
-========================================
-
-If any device on your network is connected via wireless, {software-discovery} will not recognize the device. In addition, if the computer running {software-discovery} is connected via wireless, you will not see any devices displayed.
-
-========================================
-
-. Download the {software-discovery} software components (see <<s_Related-Documents>>)
-
-. Run {software-discovery}
-
-. When {software-discovery} first runs, you may see a Windows security warning. If so, click Run.
-
-. If you see a message related to the Windows firewall, click Allow.
-
-. {software-discovery} will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
-
-.. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>>).
-
-.. Click Clear List to refresh the discovery process.
-
-[#f_IZ-Discovery-Utility]
-
-.{software-discovery} Utility
-
-image::./UserGuide/image22.png[image,width=541,height=362]
-
-. If {software-discovery} does not recognize a device:
-
-** Press the device's reset button (if available)
-
-** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
-
-** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run {software-discovery} again.
+include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec1.adoc[First part of IZ Discovery text]
 
 [#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
 
 === Changing a Device's IP Address and Network Settings
 
-[#f_Changing-Device-s-Network-Settings]
-
-.Changing Device's Network Settings
-
-image::./UserGuide/image23.png[image,width=227,height=230]
-
-[NOTE]
-
-========================================
-
-The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
-
-*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access a device using the same URL every time, even after unexpected power outages (see <<s_Logging-In-to-the-Camera>>).
-
-A dynamic IP address may change upon device reboot. Before opening the device's web interface, you will have to find the current IP address of the device using {software-discovery}.
-
-If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
-
-Be sure to define IP addresses for each camera in the Camera System, plus the IP address of the onboard computer. It is recommended to use sequential IP addresses; for example: 192.168.5.64, 65, 66
-
-You can also log in to each camera's configuration application to change its IP address (see <<s_Configuring-a-Camera>>).
-
-========================================
-
-To change the device's mode (fixed or dynamic [DHCP]), or IP address:
-
-. Select the relevant line in the list of devices and double-click on it.
-
-. The Network Settings window appears
-
-. To change the mode:
-
-.. Check or uncheck the DHCP box
-
-.. Click Save
-
-. To change the IP address:
-
-.. Verify that the address is not used by any other device on the network
-
-.. Be sure to uncheck the DHCP box
-
-.. Enter the network address parameters
-
-.. Write down the new IP Address and click Save
-
-. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
-
-. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (see <<s_Logging-In-to-the-Camera>>), and change the IP address (see <<s_Changing-a-Camera-s-IP-Address>>)
+include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec2.adoc[Second part of IZ Discovery text]
 
 [#s_Configuring-a-Camera]
 
@@ -602,121 +490,13 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 
 === Logging In to the Camera
 
-. To view the camera's home page (see <<f_Camera-s-Home-Page>>):
-
-** Open MS Internet Explorer. Enter the IP address of the camera into the address field of the browser. +
-Alternatively, you can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link]. +
-Enter the IP address of the camera into the address field of the browser.
-
-[#f_Camera-s-Home-Page]
-
-.Camera's Home Page
-
-image::./UserGuide/image24.png[image,width=516,height=225]
-
-. Select the function you need from the links at the upper right:
-
-** Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-the-Cameras-Using-RoadView>>).
-
-[NOTE]
-
-========================================
-
-When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
-If you do not have an internet connection to the network on which the camera is installed, wait 30 seconds, and you will be instructed on how to install the ActiveX control locally via the camera's firmware.
-
-The stream of the Live View can also be accessed using an RTSP URL with the following format:
-
-rtsp://[username:password]@<Camera IP address>/cam0_0 +
-where cam0_0 are camera-specific parameters (which in this case enable you to access the primary stream)
-
-To see the stream, use a video player such as the VLC player, located at: +
-https://www.videolan.org/vlc/index.html
-
-========================================
-
-** If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
-
-. When prompted for a login, use the Administrator credentials of root, IZpass12.
-
-[IMPORTANT]
-
-========================================
-
-The Administrator user name (root) cannot be changed, and the Administrator password is encrypted. Therefore, if someone changes the Administrator password, there is no way to find out the password if it gets lost.
-
-========================================
+include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
 [#s_Changing-a-Camera-s-IP-Address]
 
 === Changing a Camera's IP Address
 
-[NOTE]
-
-========================================
-
-*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
-
-========================================
-
-. In the Basic Setup group, click on IP Address:
-
-[#f_Changing-the-Camera-s-IP-Address]
-
-.Changing the Camera's IP Address
-
-image::./UserGuide/image25.png[image,width=524,height=180]
-
-. To change the IP address to a fixed one:
-
-[NOTE]
-
-========================================
-
-The IP address must be unique within the entire ALPR system, and must be within the limits of standard IPv4 address numbering.
-
-========================================
-
-.. Click the Static radio button.
-
-.. Enter the network address parameters (see <<t_IP-Address-Parameters>>). All cameras must be on the same subnet as both the computer you will use to communicate with and configure the camera, and the {compname-short} {software-ALPR} computer.
-
-[IMPORTANT]
-
-========================================
-
-It is highly recommended to record the camera's IP address and port number in a safe place. You will need them if the camera's parameters are reset back to their defaults, and for configuring {compname-short} ALPR software.
-
-========================================
-
-[#t_IP-Address-Parameters]
-
-.IP Address Parameters
-
-[width="100%",cols="28%,20%,52%",options="header",]
-|===
-|Sub-category > Parameter Group |Parameter |Setting
-|IP Address |Service (radio buttons) |Set to Static to be able to access the camera
-|IP Address |IP Address |According to the camera's location and the organization of your network.
-|IP Address |NetMask |According to the camera's location and the organization of your network
-|IP Address |GateWay |According to the camera's location and the organization of your network
-|IP Address |DNS 1 |According to the camera's location and the organization of your network
-|IP Address |DNS 2 |According to the camera's location and the organization of your network
-|===
-
-. Click Apply.
-
-[IMPORTANT]
-
-========================================
-
-After selecting Apply, you will be requested to close your web browser so the updates can take effect. This will take 20 seconds or more, to allow the camera time to reboot. +
-- If you click the browser's Back button, all values will be discarded. +
-- If you click the browser's Refresh button, the application will load the previous values.
-
-========================================
-
-. In the {software-discovery} utility (see <<s_Recognizing-Devices-with-IZ-Discovery>>), click the "Clear List" button, and verify that the camera can be recognized with the new IP address.
+include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
 
 [#s_Logging-Out-of-the-Camera]
 
@@ -756,36 +536,7 @@ See <<s_Recognizing-Devices-with-IZ-Discovery>>.
 
 == Using {software-ALPR}
 
-[#s_Logging-In]
-
-=== Logging In
-
-. Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {software-ALPR} computer; for example: +
-http://192.115.120.76:80/[http://192.115.120.76]/
-
-. You will see the login screen. Enter the default username and password (root, root):
-
-[#f_Logging-In-to-RoadView]
-
-.Logging In to {software-ALPR}
-
-image::./UserGuide/image26.png[image,width=209,height=143]
-
-. You should see the {software-ALPR} Live (Journal) tab. See the {software-ALPR-long} User Guide for instructions for configuring and using {software-ALPR} (see <<s_Related-Documents>>).
-
-[#s_Verifying-the-Installation]
-
-=== Verifying the Installation
-
-* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
-
-* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
-
-[#s_Logging-Out]
-
-=== Logging Out
-
-See the {software-ALPR-long} User Guide for (see <<s_Related-Documents>>) logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
+include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[Using RoadView]
 
 [#s_Troubleshooting-and-Maintenance]
 
