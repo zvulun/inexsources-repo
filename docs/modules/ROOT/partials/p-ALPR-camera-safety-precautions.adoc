@@ -35,8 +35,8 @@ Power undervoltage, overvoltage and/or incorrect polarity will damage the unit a
 * Please read this guide carefully before installing the {generic-camera-name}.
 * Keep this guide for future reference.
 * Do not disassemble the {generic-camera-name}
-ifdef::xref-type-IZA800G[or external illuminator units]
-+++.+++
+ifdef::xref-type-IZA800G[or external illuminator units].
+//+++.+++
 Repair or replacement of parts for this {generic-camera-name}
 ifdef::xref-type-IZA800G,xref-type-IZA500G[and its external illuminator units ]
 should be supplied by {compname-long}, and installed by qualified service personnel.
