@@ -208,17 +208,13 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 
 .{shortprodname} Technical Specifications
 
-*_{shortprodname} TABLE NEEDS TO BE CONVERTED_*
-
-* LPR Capture Distance is measured from camera to plate
+include::ROOT:partial$IZA500G/p-IZA500G-spec-table.adoc[IZA500G Specification Table]
 
 [#t_IZA500GR-Technical-Specifications]
 
 .{shortprodname2} Technical Specifications
 
-*_{shortprodname2} SPEC TABLE NEEDS TO BE CONVERTED_*
-
-* LPR Capture Distance is measured from camera to plate
+include::ROOT:partial$IZA500GR/p-IZA500GR-spec-table.adoc[IZA500GR Specification Table]
 
 [#s_Required-Accessories-Not-Included]
 

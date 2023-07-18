@@ -2,7 +2,7 @@
 |===
 |Item |Description |Ordering Information
 |A a|*LAN Cable* |Supplied by integrator
-|B a|**Power Supply for All Components: +
+|B a|*Power Supply for All Components:* +
 24 VDC, 50/75W or 100/120W; DIN rail or surface mount +
 {empty} +
 Can power 2 sets of components from a single power supply a|
