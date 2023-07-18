@@ -160,7 +160,8 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .3+.^| Physical
 .^| Dimensions
-.^| (W x H x D) 6.7" x 4.7" x 17.7" (171 mm x 119 mm x 451 mm)
+.^| (W x H x D) 6.7" x 4.7" x 17.7"+++<br>+++
+(171 mm x 119 mm x 451 mm)
 
 
 .^| Weight
@@ -170,37 +171,28 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| Color
 .^| {iza-weight}
 
-.8+.^| Interface
+.5+.^| Interface
 .^| Ethernet
 .^| 10/100 BaseT
 
 
-.4+.^| Cables
-.^| LAN - CAT 6 Ethernet cable, 6 foot long (1.80 meters), terminated with a male RJ-45 connector
+.2+.^| Cables
+.^a| LAN - CAT 6 Ethernet cable, 6 foot long (1.80 meters),+++<br>+++
+terminated with a male RJ-45 connector
+
+.^a| Power/Signals - 6-foot long (1.80 meters):
+
+* 3-wire power cable, shielded with a polyethylene jacket; ends terminated with metal rings
+* Digital input (trigger) signal wires and relay output connections (see next items)
 
 
-
-.^a| * Power/Signals - 6-foot long (1.80 meters):
-
-
-
-.^a| * 3-wire power cable, shielded with a polyethylene jacket; ends terminated with metal rings
-
-
-
-.^a| * Digital input (trigger) signal wires and relay output connections (see next items)
-
-
-.2+.^| Digital Inputs (Trigger)
+.1+.^| Digital Inputs (Trigger)
 .^a| * Trigger Dry: White ({plus}), Green (-)
+* Trigger Wet: Green ({plus}5-12 V), Blue (GND)
 
 
-
-.^a| * Trigger Wet: Green ({plus}5-12 V), Blue (GND)
-
-
-.^| Relay Output
-.^a| * Dry Contact Relay: Brown (NO), Orange (C)
+.1+.^| Relay Output
+.^a| * Dry Contact Relay: Brown (NO), Orange +++(C)+++
 
 .2+.^| Power
 .^| Input Voltage
