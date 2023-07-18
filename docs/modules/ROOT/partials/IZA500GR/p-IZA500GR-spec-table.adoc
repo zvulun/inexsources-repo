@@ -1,10 +1,10 @@
 [options="header",cols="24,23,53"]
 |===
 2+.^| Item
-//{set:cellbgcolor:#c0c0c0}
+// {set:cellbgcolor:#c0c0c0}
 
 .^| Specification
-//{set:cellbgcolor:#c0c0c0}
+// {set:cellbgcolor:#c0c0c0}
 
 .2+.^| Supported Analytics (see the xref:RoadViewALPR:DocList.adoc[Analytics Data Sheet] for details)
 {set:cellbgcolor!}
@@ -23,28 +23,23 @@
 
 .^| Up to 80 mph (129 km/h)
 
-2+.^| LPR Capture Distance+++*+++ (for U.S.A. plates)
+2+.^| LPR Capture Distance+++*+++ +
+(for U.S.A. plates)
 
 .^| 5-70 ft (1.5-21 m)
 
-.5+.^| LPR Illumination
-.2+.^| Number of LEDs
-.^| * DR, IR -15 high power LEDs
+.3+.^| LPR Illumination
+.1+.^| Number of LEDs
+.^a| * DR, IR -15 high power LEDs
+* DRW, IRW - 10 high power LEDs
 
 
-
-.^| * DRW, IRW - 10 high power LEDs
-
-
-.2+.^| Wavelength
-.^| * DR - Deep Red
+.1+.^| Wavelength
+.^a| * DR - Deep Red
+* IR - Infrared
 
 
-
-.^| * IR - Infrared
-
-
-.^| Beam Angle
+.1+.^| Beam Angle
 .^| 40°x16°
 
 .6+.^| LPR Camera
@@ -71,21 +66,15 @@
 .^| Video Streaming
 .^| RTSP Protocol
 
-.5+.^| OV Illumination
-.2+.^| Number of LEDs
-.^| * DR, IR - No visible light LEDs
+.3+.^| OV Illumination
+.1+.^| Number of LEDs
+.^a| * DR, IR - No visible light LEDs
+* DRW, IRW - 5 high power LEDs
 
 
-
-.^| * DRW, IRW - 5 high power LEDs
-
-
-.2+.^| Wavelength
-.^| * DR, IR - N/A
-
-
-
-.^| * DRW, IRW - Visible, Warm White
+.1+.^| Wavelength
+.^a| * DR, IR - N/A
+* DRW, IRW - Visible, Warm White
 
 
 .^| Beam Angle
@@ -123,37 +112,7 @@
 .^| {compname-short} Discovery
 .^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
 
-.8+.^| AI Processor
-.^| GPU
-.^| NVIDIA Maxwell architecture with 128 CUDA® cores
-
-
-.^| CPU
-.^| Quad-core ARM Cortex-A57 MPCore processor
-
-
-.^| RAM
-.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
-
-
-.^| System Storage
-.^| MicroSD, 64 Gb
-
-
-.^| Data Storage
-.^| eMMC, 12 Gb
-
-
-.2+.^| RTC Battery
-.^| Maintains real-time clock date and time for 4-6 hours
-
-
-
-.^| Rechargeable; Full charge-up time: 12 hours
-
-
-.^| OS
-.^| Linux Ubuntu 18.04
+include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .4+.^| Environmental
 .^| Ingress Protection
@@ -221,23 +180,23 @@
 
 
 
-.^| * 3-wire power cable, shielded with a polyethylene jacket; ends terminated with metal rings
+.^a| * 3-wire power cable, shielded with a polyethylene jacket; ends terminated with metal rings
 
 
 
-.^| * Digital input (trigger) signal wires and relay output connections (see next items)
+.^a| * Digital input (trigger) signal wires and relay output connections (see next items)
 
 
 .2+.^| Digital Inputs (Trigger)
-.^| * Trigger Dry: White ({plus}), Green (-)
+.^a| * Trigger Dry: White ({plus}), Green (-)
 
 
 
-.^| * Trigger Wet: Green ({plus}5-12 V), Blue (GND)
+.^a| * Trigger Wet: Green ({plus}5-12 V), Blue (GND)
 
 
 .^| Relay Output
-.^| * Dry Contact Relay: Brown (NO), Orange (C)
+.^a| * Dry Contact Relay: Brown (NO), Orange (C)
 
 .2+.^| Power
 .^| Input Voltage
