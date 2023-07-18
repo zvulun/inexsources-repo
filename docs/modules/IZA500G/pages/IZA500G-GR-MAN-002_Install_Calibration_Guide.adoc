@@ -208,13 +208,17 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 
 .{shortprodname} Technical Specifications
 
-include::ROOT:partial$IZA500G/p-IZA500G-spec-table.adoc[IZA500G Specification Table]
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specification Table Start]
+
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
 
 [#t_IZA500GR-Technical-Specifications]
 
 .{shortprodname2} Technical Specifications
 
-include::ROOT:partial$IZA500GR/p-IZA500GR-spec-table.adoc[IZA500GR Specification Table]
+include::ROOT:partial$IZA500GR/p-IZA500GR-spec-tbl-start.adoc[IZA500GR Specification Table]
+
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
 
 [#s_Required-Accessories-Not-Included]
 

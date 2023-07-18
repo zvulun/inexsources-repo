@@ -1,0 +1,106 @@
+[options="header",cols="24,23,53"]
+|===
+2+.^| Item
+// {set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+// {set:cellbgcolor:#c0c0c0}
+
+.2+.^| Supported Analytics (see the xref:RoadViewALPR:DocList.adoc[Analytics Data Sheet] for details)
+{set:cellbgcolor!}
+.^| LPR Analytics
+.^| {lpr-analytics}
+
+
+.^| Vehicle Analytics
+.^| {vehicle-analytics}
+
+2+.^| Field of View (FOV)
+
+.^| 12 ft (H) x 8 ft (V) (3.7 x 2.4 m)
+
+2+.^| Max Vehicle Speed
+
+.^| Up to 80 mph (129 km/h)
+
+2+.^| LPR Capture Distance+++*+++ +
+(for U.S.A. plates)
+
+.^| 5-70 ft (1.5-21 m)
+
+.3+.^| LPR Illumination
+.1+.^| Number of LEDs
+.^a| * DR, IR -15 high power LEDs
+* DRW, IRW - 10 high power LEDs
+
+
+.1+.^| Wavelength
+.^a| * DR - Deep Red
+* IR - Infrared
+
+
+.1+.^| Beam Angle
+.^| 40°x16°
+
+.6+.^| LPR Camera
+.^| Shutter Type
+.^| Rolling
+
+
+.^| Sensor
+.^| Sony IMX290
+
+
+.^| Resolution
+.^| 2 MP - 1920 (H) x 1080 (V)
+
+
+.^| Lens
+.^| 5-50 mm; Motorized Zoom and Auto-focus
+
+
+.^| Video Compression
+.^| MJPEG, H.264, H.265
+
+
+.^| Video Streaming
+.^| RTSP Protocol
+
+.3+.^| OV Illumination
+.1+.^| Number of LEDs
+.^a| * DR, IR - No visible light LEDs
+* DRW, IRW - 5 high power LEDs
+
+
+.1+.^| Wavelength
+.^a| * DR, IR - N/A
+* DRW, IRW - Visible, Warm White
+
+
+.^| Beam Angle
+.^| 40°x16°
+
+.6+.^| OV Camera
+.^| Shutter Type
+.^| Rolling
+
+
+.^| Sensor
+.^| Sony IMX290
+
+
+.^| Resolution
+.^| 2 MP - 1920 (H) x 1080 (V)
+
+
+.^| Lens
+.^| 5-50 mm; Motorized Zoom and Auto-focus
+
+
+.^| Video Compression
+.^| MJPEG, H.264, H.265
+
+
+.^| Video Streaming
+.^| RTSP Protocol
+
