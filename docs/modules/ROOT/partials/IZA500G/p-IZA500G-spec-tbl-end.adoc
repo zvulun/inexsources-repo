@@ -55,11 +55,11 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 
 .^| Weight
-.^| 9.0 lbs (4.1 kg)
+.^| {iza-weight}
 
 
 .^| Color
-.^| {iza-weight}
+.^| White
 
 .5+.^| Interface
 .^| Ethernet
@@ -67,8 +67,8 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 
 .2+.^| Cables
-.^a| LAN - CAT 6 Ethernet cable, 6 foot long (1.80 meters),+++<br>+++
-terminated with a male RJ-45 connector
+.^a| LAN - CAT 6 Ethernet cable, 6 foot long+++<br>+++
+(1.80 meters), terminated with a male RJ-45 connector
 
 .^a| Power/Signals - 6-foot long (1.80 meters):
 
@@ -111,7 +111,6 @@ terminated with a male RJ-45 connector
 
 
 .^| Different xref:MNT-ProdToMountMap:DocList.adoc[mount options] available
-
 
 
 .^| External Illuminator (xref:IZL:DocList.adoc[{illum-non-strobe} Series])
