@@ -11,9 +11,8 @@ image::ROOT:image$/IZDiscovery/RV-1_9-FIG-013b_ChangeIPUnCheckDHCP.png[IZ Discov
 The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
 
 *+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages (see
-ifdef::xref-type-RoadView[<<s_Logging-In-and-Logging-Out>>]
-ifdef::xref-type-IZA800G,xref-type-IZA500G[<<s_Logging-In-to-the-Camera>>]
-).
+ifdef::xref-type-RoadView[<<s_Logging-In-and-Logging-Out>>).]
+ifdef::xref-type-IZA800G,xref-type-IZA500G[<<s_Logging-In-to-the-Camera>>).]
 
 A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using {software-discovery}.
 
@@ -64,10 +63,10 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 . Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device
 ifdef::xref-type-IZIDPUG[using the {software-ALPR} Settings tab]
 (see
-ifdef::xref-type-IZIDPUG[the {software-ALPR} User Guide - see <<s_Related-Documents>>.]
-ifdef::xref-type-RoadView[<<s_Logging-In-and-Logging-Out>>]
-ifdef::xref-type-IZA800G,xref-type-IZA500G[<<s_Logging-In-to-the-Camera>>]
-ifndef::xref-type-IZIDPUG[) and change the IP address (see]
-ifdef::xref-type-RoadView[<<s_Network-Settings>>]
-ifdef::xref-type-IZA800G,xref-type-IZA500G[<<s_Changing-a-Camera-s-IP-Address>>]
-).
+ifdef::xref-type-IZIDPUG[the {software-ALPR} User Guide - see <<s_Related-Documents>>)]
+ifdef::xref-type-RoadView[<<s_Logging-In-and-Logging-Out>>)]
+ifdef::xref-type-IZA800G,xref-type-IZA500G[<<s_Logging-In-to-the-Camera>>)]
+ifndef::xref-type-IZIDPUG[and change the IP address (see]
+ifdef::xref-type-RoadView[<<s_Network-Settings>>).]
+ifdef::xref-type-IZA800G,xref-type-IZA500G[<<s_Changing-a-Camera-s-IP-Address>>).]
+
