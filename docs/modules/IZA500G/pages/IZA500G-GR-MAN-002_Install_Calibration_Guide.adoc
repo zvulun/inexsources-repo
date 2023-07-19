@@ -180,9 +180,9 @@ image::./UserGuide/image4.png[image,width=411,height=280]
 
 [#f_Dimensions]
 
-image::ROOT:/IZA800G/image5.png[image,width=315,height=205]
+image::./UserGuide/image5.png[image,width=315,height=205]
 
-image::ROOT:/IZA800G/image6.png[image,width=463,height=224]
+image::./UserGuide/image6.png[image,width=463,height=224]
 
 .Dimensions
 
@@ -199,6 +199,13 @@ include::ROOT:partial$/IZA800G/p-multiflash-technology.adoc[Multi-flash Technolo
 === Built-in White LEDs (White LED Models)
 
 include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
+
+[#f_White-LED-Positions]
+
+.{docproductname} White LED Positions
+
+image::./UserGuide/image9.png[image,width=279,height=215]
+
 
 [#s_Specifications]
 
