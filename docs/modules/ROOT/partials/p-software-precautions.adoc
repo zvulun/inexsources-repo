@@ -1,0 +1,3 @@
+=== Software Precautions
+* The use of any {compname-possess} software products or any other software product referred to in this document with internet access shall be used wholly at your own risk. {compname-long} does not take any responsibility for abnormal operation, privacy leakage or any other damages resulting from cyber attack, hacker attack, virus infection or any other internet security risks.
+* Proper configuration of all passwords and other security settings is the responsibility of the installer and/or end-user.
