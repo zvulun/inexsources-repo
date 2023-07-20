@@ -2,5 +2,11 @@
 
 * xref:IZDiscovery:IZDISCOVERY-IZD-MAN-001_User_Guide.adoc[IZ Discovery User Guide]
 
+Download the components of the IZ Discovery software from these links:
+
+link:../../../../code/IZDiscoverySoftware/IZ_DiscoveryUtility.exe[IZ_DiscoveryUtility.exe]]
+
+link:../../../../code/IZDiscoverySoftware/ObjectListView.dll[ObjectListView.dll]]
+
 More documents/software can be found at https://drive.google.com/drive/folders/1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq?usp=share_link[GDriveLink, window=_blank]
 
