@@ -67,6 +67,7 @@ Contact {compname-long} for document ordering information.
 |===
 |Doc. No. |Title
 |xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
 |xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 |===
 
@@ -118,4 +119,58 @@ image::ROOT:image$/IZDiscovery/RV-1_9-FIG-012b_IZDiscovery6020MainScreen.png[IZ 
 ** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
 
 ** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run {software-discovery} again.
+
+[#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
+
+=== Changing a Device's IP Address and Network Settings
+
+[#f_Changing-the-Device-s-Network-Settings]
+
+.Changing the Device's Network Settings
+
+image::ROOT:image$/IZDiscovery/RV-1_9-FIG-013b_ChangeIPUnCheckDHCP.png[IZ Discovery Network Setting Dialog,width=226,height=230]
+
+[NOTE]
+
+========================================
+
+The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
+
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
+
+A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using {software-discovery}.
+
+If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
+
+For devices using {software-ALPR} software, you can change the IP address using the {software-ALPR} Settings tab (see <<s_Related-Documents>>).
+
+If your device is an {compname-short} Camera System, be sure to define IP addresses for each camera (LPR and Overview), using each camera's configuration application. It is recommended to use sequential IP addresses for the Camera System and its cameras; for example: 192.168.5.64, 65, 66
+
+========================================
+
+To change the device's mode (fixed or dynamic [DHCP]), or IP address:
+
+. Select the relevant line in the list of devices and double-click on it.
+
+. The Network Settings window appears
+
+. To change the mode:
+
+.. Check or uncheck the DHCP box
+
+.. Click Save
+
+. To change the IP address:
+
+.. *Verify that the address is not used by any other device on the network*
+
+.. Be sure to uncheck the DHCP box
+
+.. Enter the network address parameters
+
+.. Write down the new IP Address and click Save
+
+. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
+
+. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (or {software-ALPR}) and change the IP address.
 
