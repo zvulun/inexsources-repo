@@ -79,7 +79,8 @@ xref:IZREMRELAY:DocList.adoc[IZREMRELAY-REV-A-TDSHEET]
 xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 
 |{hw-webrelay-single} Remote (Web) Relays Series: Data Sheet and supporting documentation
-|xref:IZDiscovery:DocList.adoc[IZ Discovery Utility] |{software-discovery} Utility software components
+|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-IZD-MAN-001] |{software-discovery} User Guide
 |xref:ZAP-4-5:DocList.adoc[ZAP-450-SDK-002] |ZAP: {compname-long} Application Protocol, Version 4.5
 |xref:ZAP-4-5:DocList.adoc[API-HTTPM-ICD-00n_INEX_HTTP_API_Rx_y_v_W] |{compname-short} HTTP API for Major Version "M", Release "x.y"; document version W
 |xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-041] |{software-monitoring}: Camera Monitoring API
@@ -219,13 +220,13 @@ See your camera's Installation Guide for an explanation of how to log in to a ca
 
 === Determining the IP Address of the {shortprodname} Computer with {software-discovery}
 
-include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec1.adoc[First part of IZ Discovery text]
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 [#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
 
 === Changing a Device's IP Address and Network Settings
 
-include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec2.adoc[Second part of IZ Discovery text]
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 [#s_Logging-In-and-Logging-Out]
 
@@ -1697,5 +1698,5 @@ Updates for release 1.15.64.54:
 |1.69 |Apr. 16, 2023 a|* Added document reference to {shortprodname} Video Analytics Data Sheet
 |1.70 |June 27, 2023 a|* Corrections discovered during conversion to online version (for example, cross-references)
 |1.71 |July 20, 2023 a|* Removed Video Analytics Data Sheet from Related Documents
-|--- |--- a|* From this point on, see the GitHub commit history comments
+|1.72 |July 23, 2023 a|* Added {software-discovery} User Guide to Related Documents; removed {software-discovery} sections and referred user to Related Documents|--- |--- a|* From this point on, see the GitHub commit history comments
 |===
