@@ -489,13 +489,13 @@ The {compname-short} cameras have been pre-configured with default IP addresses.
 
 === Installing and Using {software-discovery}
 
-include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec1.adoc[First part of IZ Discovery text]
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 [#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
 
 === Changing a Device's IP Address and Network Settings
 
-include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec2.adoc[Second part of IZ Discovery text]
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 [#s_Configuring-a-Camera]
 
@@ -545,7 +545,7 @@ See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for calibr
 
 == Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
 
-See <<s_Recognizing-Devices-with-IZ-Discovery>>.
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 [#s_Using-RoadView]
 
@@ -769,5 +769,8 @@ Other changes:
 |1.65 |Mar. 20, 2023 a|* Minor corrections to wording and cross references
 |1.66 |Mar. 23, 2023 a|* Updated some of the {software-discovery} wording to match other documents
 |1.70 |July 4, 2023 a|* Corrections discovered during conversion to online version (for example, cross-references)
+|1.71 |July 23, 2023 a|* Removed references to Video Analytics Data Sheet from Related Documents and spec. tables; made reference to {software-ALPR} documentation generic
+
+* Added {software-discovery} User Guide to Related Documents; removed {software-discovery} sections and referred user to Related Documents
 |--- |--- a|* From this point on, see the GitHub commit history comments
 |===
