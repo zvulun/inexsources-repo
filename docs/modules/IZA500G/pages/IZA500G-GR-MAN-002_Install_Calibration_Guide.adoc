@@ -538,7 +538,7 @@ See the {software-ALPR-long} User Guide for calibration instructions (see <<s_Re
 
 == Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
 
-See <<s_Recognizing-Devices-with-IZ-Discovery>>.
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 [#s_Using-RoadView]
 
