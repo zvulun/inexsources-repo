@@ -96,8 +96,6 @@ A variety of mounting options are also available.
 
 include::ROOT:partial$IZA800G/p-camera-short-intro-physical.adoc[Camera Details Introduction]
 
-=== Package Contents
-
 [#s_Package-Contents]
 
 === Package Contents
@@ -110,6 +108,17 @@ Carefully unpack the contents of the {generic-camera-name} package.
 
 image::ROOT:/IZA800G/image1.png[image,width=460,height=345]
 
+=== Dimensions
+
+[#f_Dimensions]
+
+image::ROOT:IZA800G/image5.png[image,width=315,height=205]
+
+image::ROOT:IZA800G/image6.png[image,width=463,height=224]
+
+.Dimensions
+
+image::ROOT:IZA800G/image7.png[image,width=489,height=252]
 
 [#s_Specifications]
 
@@ -120,17 +129,6 @@ image::ROOT:/IZA800G/image1.png[image,width=460,height=345]
 .Technical Specifications
 
 include::ROOT:partial$IZA800G/p-IZA800G-spec-table.adoc[IZA800G Specification Table]
-
-=== Dimensions
-[#f_Dimensions]
-
-image::ROOT:IZA800G/image5.png[image,width=315,height=205]
-
-image::ROOT:IZA800G/image6.png[image,width=463,height=224]
-
-.Dimensions
-
-image::ROOT:IZA800G/image7.png[image,width=489,height=252]
 
 === Connectors
 
@@ -165,6 +163,8 @@ include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector
 
 === Optional Accessories
 
+For documentation and part numbers, see <<s_Related-Documents>> and <<s_Specifications>>.
+
 * Prefabricated Power/Signals and LAN cables
 
 * {hw-iocontroller} Digital I/O Controller
@@ -179,21 +179,15 @@ include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector
 
 == Recognizing Devices with {software-discovery}
 
-[#s_Installing-and-Using-IZ-Discovery]
-
-=== Installing and Using {software-discovery}
-
-See the {software-discovery} User Guide (see <<s_Related-Documents>>).
-
-[#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
-
-=== Changing a Device's IP Address and Network Settings
+The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
 
 See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 [#s_Using-RoadView]
 
 == Using {software-ALPR}
+
+{software-ALPR} is advanced ALPR software that reads license plates using sophisticated image recognition algorithms, and creates LPR Events.
 
 [#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
 
