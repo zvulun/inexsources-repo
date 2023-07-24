@@ -55,7 +55,7 @@ toc::[]
 
 [#s_Related-Documents]
 
-=== Recommended Reading/Related Documents
+== Recommended Reading/Related Documents
 
 Contact {compname-long} for document ordering information.
 
