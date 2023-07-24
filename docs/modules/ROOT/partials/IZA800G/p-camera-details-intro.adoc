@@ -1,1 +1,3 @@
-It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade. The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system. A computer running license plate recognition software is also built in.
+It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade.
+The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system.
+A computer running license plate recognition software is also built in.

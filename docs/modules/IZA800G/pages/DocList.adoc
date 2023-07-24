@@ -1,6 +1,6 @@
 = IZA800G Documents List
 
-* xref:IZA800G:IZA800G-G-MAN-002_Installation_and_Calibration_Guide.adoc[IZA800G Installation and Calibration Guide]
+* xref:IZA800G:IZA800G-User-Guide.adoc[IZA800G User Guide]
 
 More documents can be found at https://drive.google.com/drive/folders/1410KtXUpOb7x1wR1-f3LX61AtWi1_2f8?usp=share_link[GDriveLink, window=_blank]
 
