@@ -66,10 +66,11 @@ Contact {compname-long} for document ordering information.
 [width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
+|xref:IZA800G:DocList.adoc[{shortprodname}-G-MAN-002b] |{shortprodname} Installation Guide
+|xref:IZA800G:DocList.adoc[{shortprodname}-G-TECH-001] |{shortprodname} Quick Start
 |xref:IZA800G:DocList.adoc[{shortprodname}-G-xx-TDSHEET] |{shortprodname} Technical Data Sheet
 |xref:IZCAB-A800-PAS:DocList.adoc[IZCABA800PAS-REV-x-TDSHEET] |Power/Signals Cable for {shortprodname} System Technical Data Sheet
 |xref:IZCAB-A800-LAN:DocList.adoc[IZCABA800LAN-REV-x-TDSHEET] |LAN Cable for {shortprodname} System Technical Data Sheet
-|xref:IZA800G:DocList.adoc[{shortprodname}-G-TECH-001] |{shortprodname} Quick Start
 |xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 |xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
 |xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
