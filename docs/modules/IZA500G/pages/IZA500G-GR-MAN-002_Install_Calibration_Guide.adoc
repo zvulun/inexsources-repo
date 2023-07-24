@@ -482,13 +482,13 @@ The {compname-short} cameras have been pre-configured with default IP addresses.
 
 === Installing and Using {software-discovery}
 
-include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec1.adoc[First part of IZ Discovery text]
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 [#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
 
 === Changing a Device's IP Address and Network Settings
 
-include::ROOT:partial$/IZDiscovery/p-izdiscovery-sec2.adoc[Second part of IZ Discovery text]
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 [#s_Configuring-a-Camera]
 
@@ -781,5 +781,8 @@ Changes due to {shortprodname} being upgraded to Rev. D:
 |1.56 |Mar. 23, 2023 a|* Updated some of the {software-discovery} wording to match other documents
 |1.57 |May 24, 2023 a|* In all wiring diagrams, added "A" label to LAN cable connecting switch to camera
 |1.70 |July 18, 2023 a|* Corrections discovered during conversion to online version (for example, cross-references)
+|1.71 |July 24, 2023 a|* Removed references to Video Analytics Data Sheet from Related Documents and spec. tables; made reference to {software-ALPR} documentation generic
+
+* Added {software-discovery} User Guide to Related Documents; removed {software-discovery} sections and referred user to Related Documents
 |--- |--- a|* From this point on, see the GitHub commit history comments
 |===
