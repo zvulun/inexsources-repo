@@ -95,25 +95,28 @@ include::ROOT:partial$p-training.adoc[Training Section]
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
 ==  Checklist
-[%interactive]
-* [ ] Prepare components and tools
 
-* [ ] Plan your site
+* [*] <<s_Prepare-Components-and-Tools,Prepare components and tools>>
 
-* [ ] Install
-ifndef::xref-type-IZ600F[Camera System(s)]
-ifdef::xref-type-IZ600F[camera(s)]
-and other components
+* [*] <<s_Plan-Your-Site,Plan your site>>
 
-* [ ] Connect components (wiring)
+ifndef::xref-type-IZ600F[]
+* [*] <<s_Mounting-the-Camera-System,Install Camera System(s) and other components>>
+endif::[]
 
-* [ ] Power up and set up IP
+ifdef::xref-type-IZ600F[]
+* [*] <<s_Mounting-the-Camera-System,Install camera(s) and other components>>
+endif::[]
 
-* [ ] Configure LPR/OV camera settings
+* [*] <<s_Connect-Components-Wiring,Connect components (wiring)>>
 
-* [ ] Aim and calibrate
+* [*] <<s_Power-Up-and-Set-Up-IP,Power up and set up IP>>
 
-* [ ] Verify system operation
+* [*] <<s_Configuring-a-Camera,Configure LPR/OV camera settings>>
+
+* [*] <<s_Aim-and-Calibrate,Aim and calibrate>>
+
+* [*] Verify system operation
 
 [#s_Prepare-Components-and-Tools]
 
@@ -272,11 +275,11 @@ Avoid having these items in the Field of View:
 [#s_Mounting-the-Camera-System]
 
 ifndef::xref-type-IZ600F[]
-=== Install Camera System(s) and Other Components
+== Install Camera System(s) and Other Components
 endif::[]
 
 ifdef::xref-type-IZ600F[]
-=== Install Camera(s) and other components
+== Install Camera(s) and other components
 endif::[]
 
 
@@ -299,6 +302,8 @@ mounting hardware
 (see the Mounting Hardware documentation - see <<s_Related-Documents>>).
 
 Mount other components (such as junction boxes) in appropriate locations.
+
+[#s_Connect-Components-Wiring]
 
 == Connect Components (Wiring)
 
