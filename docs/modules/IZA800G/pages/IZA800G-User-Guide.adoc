@@ -84,6 +84,17 @@ Contact {compname-long} for document ordering information.
 |xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
 
+== Training and Support
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+[#s_Support]
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+
 ==  Product Description
 
 === Overview
@@ -108,6 +119,12 @@ Carefully unpack the contents of the {generic-camera-name} package.
 .Package Contents
 
 image::ROOT:/IZA800G/image1.png[image,width=460,height=345]
+
+[#f_Mounting-Adapter-Plate]
+
+.Mounting Adapter Plate
+
+image::ROOT:/IZA800G/image2.png[image,width=349,height=199]
 
 === Dimensions
 
@@ -170,11 +187,7 @@ For documentation and part numbers, see <<s_Related-Documents>> and <<s_Specific
 
 * {hw-iocontroller} Digital I/O Controller
 
-* External Illuminator - Can be used to enhance overview vehicle image quality, for front and/or rear capture. It is recommended to use an illuminator power supply separate from the Camera System's supply.
-
-** Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
-
-** Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
+* External Illuminators
 
 [#s_Recognizing-Devices-with-IZ-Discovery]
 
