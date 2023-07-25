@@ -1,4 +1,4 @@
-[width="100%",cols="12%,51%,37%",options="header",]
+[width="100%",cols="12%,47%,41%",options="header",]
 |===
 |Item |Description |Ordering Information
 |A a|*LAN Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]

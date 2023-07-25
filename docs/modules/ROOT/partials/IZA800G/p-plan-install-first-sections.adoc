@@ -4,7 +4,7 @@
 
 Your camera's Field of View (FOV) is the area that the camera can "see". You can think of this area as an imaginary rectangle rising from the lane upwards. The width of this area is called the horizontal FOV or "capture line".
 
-See <<s_Specifications>> for the horizontal and vertical FOV specifications.
+See your camera's User Guide for the horizontal and vertical FOV specifications.
 
 [#f_Field-of-View-Capture-Line]
 

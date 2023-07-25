@@ -119,6 +119,8 @@ and other components
 
 == Prepare Components and Tools
 
+[#s_Required-Accessories]
+
 === Required Accessories
 
 The following accessories can be supplied by {compname-med},
@@ -177,7 +179,7 @@ All network cable extensions and repeaters must be shielded.
 ** Internet Explorer browser version 11 or higher. +
 You can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link] (to enable access to the camera configuration application - see <<s_Logging-In-to-the-Camera>>).
 
-[#s_Planning-Your-Installation]
+//[#s_Planning-Your-Installation]
 
 [#s_Plan-Your-Site]
 
@@ -277,6 +279,18 @@ ifdef::xref-type-IZ600F[]
 === Install Camera(s) and other components
 endif::[]
 
+
+ifndef::xref-type-IZ600F[]
+[IMPORTANT]
+
+========================================
+
+*After mounting, remove the protective film from the front window of the Camera System.*
+
+========================================
+
+endif::[]
+
 Secure the
 ifndef::xref-type-IZ600F[Camera System]
 ifdef::xref-type-IZ600F[camera]
@@ -321,8 +335,6 @@ Here are typical wiring diagrams for capturing license plate images. Note that t
 ========================================
 
 All network cable extensions and repeaters must be shielded.
-
-*After mounting, remove the protective film from the front window of the Camera System.*
 
 ========================================
 
