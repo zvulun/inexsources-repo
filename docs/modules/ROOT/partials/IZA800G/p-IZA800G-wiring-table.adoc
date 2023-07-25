@@ -3,7 +3,8 @@
 |Item |Description |Ordering Information
 |A a|*LAN Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]
 |B a|*Power/Signals Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
-|C a|*Power Supply:* 24 VDC, 100/120W; DIN rail/surface mount options +
+|C a|*Power Supply:* 24 VDC, 100/120W;+++<br>+++
+DIN rail/surface mount options +
 
 Can power 2 cameras from a single power supply a|
 {compname-short} P/N:
