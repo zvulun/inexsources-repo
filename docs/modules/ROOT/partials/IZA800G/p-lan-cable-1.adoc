@@ -1,3 +1,6 @@
+.Click to show Important notes for LAN cable construction
+[%collapsible]
+====
 
 [IMPORTANT]
 
@@ -10,6 +13,8 @@ The outer diameter of the LAN cable must be in the range of 0.20" to 0.25" (5.0 
 If you are using prefabricated CAT 5e/6 cables with metal-body RJ45 connectors, the shield wires have typically already been connected to each connector body. However, you must still check that there is conductivity between the bodies of the connectors at each end of the cable.
 
 ========================================
+
+====
 
 [#f_LAN-Cable-Extracting-the-Shield-Wire]
 

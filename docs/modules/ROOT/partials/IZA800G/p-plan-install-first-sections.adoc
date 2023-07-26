@@ -48,7 +48,7 @@ Installations that position the camera at significant angles in relation to the 
 
 image::ROOT:/IZA800G/image13.png[image,width=310,height=332]
 
-.Click to show Notes
+.Click to show Horizontal Angle Notes
 [%collapsible]
 ====
 [NOTE]
@@ -72,6 +72,10 @@ For plates whose characters are very shiny (for example, silvery), the *weighted
 
 image::ROOT:/IZA800G/image14.png[image,width=626,height=194]
 
+.Click to show Vertical Angle Notes
+[%collapsible]
+====
+
 [NOTE]
 
 ========================================
@@ -89,6 +93,8 @@ At larger angles, the reflectivity of the plates is reduced, resulting in images
 For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
 
 ========================================
+
+====
 
 [#s_Position-of-the-Sun-in-Relation-to-the-Camera-System]
 

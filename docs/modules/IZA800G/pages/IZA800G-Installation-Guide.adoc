@@ -460,17 +460,18 @@ Alternatively, in a lab, position a license plate at the expected distance and h
 
 See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
+[#s_Using-RoadView]
+
+=== Using {software-ALPR}
+
+include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
+
 [#s_Calibrating-the-Cameras-Using-RoadView]
 
 === Calibrating the Cameras Using {software-ALPR}
 
 See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for calibration instructions.
 
-[#s_Using-RoadView]
-
-=== Using {software-ALPR}
-
-include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
 
 [#s_Verify-System-Operation]
 

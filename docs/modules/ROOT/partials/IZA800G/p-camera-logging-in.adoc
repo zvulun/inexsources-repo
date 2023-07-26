@@ -14,6 +14,11 @@ image::ROOT:/IZA800G/image43.png[image,width=528,height=230]
 
 ** Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-the-Cameras-Using-RoadView>>).
 +
+
+.Click to show notes for Live View
+[%collapsible]
+====
+
 [NOTE]
 ========================================
 
@@ -31,6 +36,8 @@ To see the stream, use a video player such as the VLC player, located at: +
 https://www.videolan.org/vlc/index.html
 
 ========================================
+
+====
 
 ** If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
 
