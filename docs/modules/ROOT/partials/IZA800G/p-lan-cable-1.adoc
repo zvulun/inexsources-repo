@@ -1,4 +1,4 @@
-.Click to show Important notes for LAN cable construction
+._Click to show Important notes for LAN cable construction_
 [%collapsible]
 ====
 
