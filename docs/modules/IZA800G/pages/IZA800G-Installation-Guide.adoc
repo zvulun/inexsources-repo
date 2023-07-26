@@ -51,13 +51,26 @@ image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX
 
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
+
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
 toc::[]
+
+====
+
 
 [#s_Related-Documents]
 
 == Recommended Reading/Related Documents
 
 Contact {compname-long} for document ordering information.
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
 
 [#t_Related-Documents]
 
@@ -83,6 +96,8 @@ Contact {compname-long} for document ordering information.
 |xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
 |xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
+
+====
 
 == Training and Support
 
