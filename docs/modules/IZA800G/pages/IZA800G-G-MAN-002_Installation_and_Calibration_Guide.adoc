@@ -174,7 +174,7 @@ image::ROOT:/IZA800G/image3.png[image,width=566,height=280]
 
 .Underside of the {generic-camera-name}
 
-image::./UserGuide/image4.png[image,width=624,height=236]
+image::ROOT:image$/IZA800G/image4.png[image,width=624,height=236]
 
 [#f_Dimensions]
 

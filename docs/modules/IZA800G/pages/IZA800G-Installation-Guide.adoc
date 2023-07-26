@@ -96,27 +96,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 ==  Checklist
 
-* [*] <<s_Prepare-Components-and-Tools,Prepare components and tools>>
-
-* [*] <<s_Plan-Your-Site,Plan your site>>
-
-ifndef::xref-type-IZ600F[]
-* [*] <<s_Mounting-the-Camera-System,Install Camera System(s) and other components>>
-endif::[]
-
-ifdef::xref-type-IZ600F[]
-* [*] <<s_Mounting-the-Camera-System,Install camera(s) and other components>>
-endif::[]
-
-* [*] <<s_Connect-Components-Wiring,Connect components (wiring)>>
-
-* [*] <<s_Power-Up-and-Set-Up-IP,Power up and set up IP>>
-
-* [*] <<s_Configuring-a-Camera,Configure LPR/OV camera settings>>
-
-* [*] <<s_Aim-and-Calibrate,Aim and calibrate>>
-
-* [*] Verify system operation
+include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
 [#s_Prepare-Components-and-Tools]
 
@@ -447,7 +427,7 @@ include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Add
 
 === Camera Settings \{TBD\}
 
-*\{NEED SETTINGS TABLES\}*
+*_\{NEED SETTINGS TABLES\}_*
 
 [#s_Logging-Out-of-the-Camera]
 
@@ -474,23 +454,32 @@ and the {shortprodname} User Guide - see <<s_Related-Documents>>).
 
 Alternatively, in a lab, position a license plate at the expected distance and height.
 
-[#s_Calibrating-the-Cameras-Using-RoadView]
-
-=== Calibrating the Cameras Using {software-ALPR}
-
-See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for calibration instructions.
-
 [#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
 
 === Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
 
 See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
+[#s_Calibrating-the-Cameras-Using-RoadView]
+
+=== Calibrating the Cameras Using {software-ALPR}
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for calibration instructions.
+
 [#s_Using-RoadView]
 
-== Using {software-ALPR}
+=== Using {software-ALPR}
 
-include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[Using RoadView]
+include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
+
+[#s_Verify-System-Operation]
+
+== Verify System Operation
+
+* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
+
+* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+
 
 [#s_Troubleshooting-and-Maintenance]
 

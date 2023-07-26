@@ -1,6 +1,6 @@
 [cols="1,2a",frame=none,grid=none]
 |===
-| image:./UserGuide/image24.png[image,width=181,height=352]
+| image:ROOT:image$/IZA800G/image24.png[image,width=181,height=352]
 |[width="100%",cols="1,2,1",options="header",]
 
 !===
