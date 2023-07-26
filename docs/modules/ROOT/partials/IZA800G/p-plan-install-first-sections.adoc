@@ -34,6 +34,10 @@ image::ROOT:/IZA800G/image12.png[image,width=503,height=314]
 
 ========================================
 
+The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
+
+The maximum vertical angle allowed is 30°.
+
 Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
 
 ========================================
@@ -44,6 +48,9 @@ Installations that position the camera at significant angles in relation to the 
 
 image::ROOT:/IZA800G/image13.png[image,width=310,height=332]
 
+.Click to show Notes
+[%collapsible]
+====
 [NOTE]
 
 ========================================
@@ -58,6 +65,7 @@ For plates whose characters are very shiny (for example, silvery), the *weighted
 
 ========================================
 
+====
 [#f_Vertical-Camera-Angle-Tilt-Angle-and-Line-of-Sight-Distance-from-Plate]
 
 .Vertical Camera Angle (Tilt Angle) and Line-of-Sight Distance from Plate
