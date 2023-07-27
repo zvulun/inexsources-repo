@@ -226,7 +226,8 @@ xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 
 
 
-.^| Power/Signals Cable for {shortprodname} System (xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS])
+.^| Power/Signals Cable for {shortprodname} System+++<br>+++
+(xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS])
 
 
 

@@ -62,29 +62,29 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 [discrete]
 == Key Features and Benefits
-Designed for Tolling, ITS and Traffic Enforcement Applications
+* [*] Designed for Tolling, ITS and Traffic Enforcement Applications
 
-NVIDIA® Artificial Intelligence (AI) GPU processor for lightning fast processing at the edge
+* [*] NVIDIA® Artificial Intelligence (AI) GPU processor for lightning fast processing at the edge
 
-RoadView video analytics on edge for in-depth vehicle analysis
+* [*] RoadView video analytics on edge for in-depth vehicle analysis
 
-Integrated with IZCloud
+* [*] Integrated with IZCloud
 
-Dual sensor provides multiple paths to perfect ALPR reads
+* [*] Dual sensor provides multiple paths to perfect ALPR reads
 
-Multi-flash technology for greater read accuracy and capture under all conditions
+* [*] Multi-flash technology for greater read accuracy and capture under all conditions
 
-Motorized zoom and auto-focus – the key to optimized remote tuning
+* [*] Motorized zoom and auto-focus – the key to optimized remote tuning
 
-Anti-glare technology for all lighting environments
+* [*] Anti-glare technology for all lighting environments
 
-Wide temperature range – operating from -22°F to 140°F (–30°C to 60°C)
+* [*] Wide temperature range – operating from -22°F to 140°F (–30°C to 60°C)
 
-IP67 ingress protection against extreme moisture
+* [*] IP67 ingress protection against extreme moisture
 
-IK10 vandal-proof housing for efficient, worry-free operation
+* [*] IK10 vandal-proof housing for efficient, worry-free operation
 
-NDAA Section 889 compliant for our national security
+* [*] NDAA Section 889 compliant for our national security
 
 image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
