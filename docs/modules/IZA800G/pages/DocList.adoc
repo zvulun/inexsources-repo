@@ -4,5 +4,7 @@
 
 * xref:IZA800G:IZA800G-User-Guide.adoc[IZA800G User Guide]
 
+* xref:IZA800G:IZA800G-Datasheet.adoc[IZA800G Datasheet]
+
 More documents can be found at https://drive.google.com/drive/folders/1410KtXUpOb7x1wR1-f3LX61AtWi1_2f8?usp=share_link[GDriveLink, window=_blank]
 
