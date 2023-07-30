@@ -4,7 +4,7 @@ ifdef::layout-type-userguide[]
 endif::[]
 
 ifdef::layout-type-technote[]
-[cols="1,2a",width="70%",frame=none,grid=none]
+[cols="1,2a",width="80%",frame=none,grid=none]
 endif::[]
 
 
