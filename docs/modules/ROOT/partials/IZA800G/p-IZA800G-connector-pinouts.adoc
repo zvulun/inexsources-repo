@@ -4,7 +4,7 @@ ifdef::layout-type-userguide[]
 endif::[]
 
 ifdef::layout-type-technote[]
-[cols="1,2a",width="80%",frame=none,grid=none]
+[cols="1,2a",width="70%",frame=none,grid=none]
 endif::[]
 
 
@@ -17,7 +17,7 @@ endif::[]
 
 ifdef::layout-type-technote[]
 | image:ROOT:image$/IZA800G/image24.png[image,width=181,height=352]
-|[width="70%",cols="1,2,1",options="header",]
+|[width="100%",cols="1,2,1",options="header",]
 endif::[]
 
 !===
