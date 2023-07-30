@@ -13,11 +13,12 @@
 // outside partials - should be used in partials
 // Remember to unset all non-relevant attributes
 
-:!xref-type-RoadView:
-:xref-type-IZA800G:
-:!xref-type-IZA500G:
-:!xref-type-IZ600F:
-:!xref-type-IZIDPUG:
+//:!xref-type-RoadView:
+//:xref-type-IZA800G:
+:xref-type-IZA800G: true
+//:!xref-type-IZA500G:
+//:!xref-type-IZ600F:
+//:!xref-type-IZIDPUG:
 
 
 = {docproductname}

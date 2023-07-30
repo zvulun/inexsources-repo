@@ -133,7 +133,7 @@ image::ROOT:IZA800G/image7.png[image,width=489,height=252]
 
 [width="100%",cols="14%,27%,28%,31%",options="header",]
 |===
-|Product |Available Part Numbers** | |Product Name
+|Product 2+|Available Part Numbers** |Product Name
 |{shortprodname} a|
 * {shortprodname}-S-DR
 
