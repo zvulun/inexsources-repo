@@ -440,9 +440,9 @@ include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
 include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
 
-=== Camera Settings \{TBD\}
+=== Camera Settings
 
-*_\{NEED SETTINGS TABLES\}_*
+Contact {compname-long} for settings.
 
 [#s_Logging-Out-of-the-Camera]
 
