@@ -179,7 +179,7 @@ a|
 +++**+++ -CABxxF indicates a cable set of xx feet is included
 
 [discrete]
-== Power/Signals Connector Pinout
+== Power/Signals Cable Connector Pinout
 
 include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
 
