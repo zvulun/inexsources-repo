@@ -13,12 +13,9 @@
 // outside partials - should be used in partials
 // Remember to unset all non-relevant attributes
 
-:!xref-type-RoadView:
-:xref-type-IZA800G:
-:!xref-type-IZA500G:
-:!xref-type-IZ600F:
-:!xref-type-IZIDPUG:
 
+:xref-type-IZA800G:
+:layout-type-technote:
 
 = {docproductname}
 //enable the TOC to be placed in a specific position

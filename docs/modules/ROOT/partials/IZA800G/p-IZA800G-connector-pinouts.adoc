@@ -1,7 +1,15 @@
 [cols="1,2a",frame=none,grid=none]
 |===
+
+ifdef::layout-type-userguide[]
 | image:ROOT:image$/IZA800G/image24.png[image,width=181,height=352]
 |[width="100%",cols="1,2,1",options="header",]
+endif::[]
+
+ifdef::layout-type-technote[]
+| image:ROOT:image$/IZA800G/image24.png[image,width=181,height=352]
+|[width="70%",cols="1,2,1",options="header",]
+endif::[]
 
 !===
 !Pin !Power/Trigger !Wire Color
