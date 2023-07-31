@@ -16,7 +16,7 @@
 :xref-type-IZA800G:
 :layout-type-userguide:
 
-= {docproductname} Installation Guide
+= {docproductname}
 
 //enable the TOC to be placed in a specific position
 :toc: macro
@@ -33,8 +33,8 @@
 // discrete removes these headers from the TOC
 [discrete]
 == ALPR All-in-one AI Camera System
-// [discrete]
-// === Installation Guide
+[discrete]
+=== Installation Guide
 Doc. No. IZA800G-MAN-002b
 
 image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]

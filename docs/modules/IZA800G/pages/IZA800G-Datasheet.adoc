@@ -17,7 +17,7 @@
 :xref-type-IZA800G:
 :layout-type-technote:
 
-= {docproductname} Datasheet
+= {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
 //!sectnum momentarily stops section numbering
@@ -36,8 +36,8 @@
 
 [discrete]
 === IZA800G, Rev. F3
-// [discrete]
-// === Datasheet
+[discrete]
+=== Datasheet
 Doc. No. IZA800G-F3-TDSHEET
 
 image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
