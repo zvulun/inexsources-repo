@@ -16,7 +16,9 @@
 :xref-type-IZA800G:
 :layout-type-userguide:
 
-= {docproductname} Installation Guide
+= {docproductname}
+[%notitle]
+= User Guide
 //enable the TOC to be placed in a specific position
 :toc: macro
 //!sectnum momentarily stops section numbering
