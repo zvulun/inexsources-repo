@@ -17,6 +17,8 @@
 :xref-type-IZA800G:
 :layout-type-technote:
 
++++<img src="NEX_DataSheet_Logo_With_Line.png">+++
+
 = {docproductname}
 
 // image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
