@@ -59,4 +59,4 @@ image::ROOT:/IZA800G/image23.png[image,width=307,height=194]
 . Strip off 5 mm from each individual wire. Insert each wire into its appropriate screw terminal, and tighten with a 2 mm flat screwdriver. The suggested wire colors and pinouts are shown in the following Figures. The notch between pins 1 and 2 on the face of the connector corresponds to the notch on the circular body of the screw terminals.
 +
 --
---
+
