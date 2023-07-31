@@ -2,7 +2,7 @@
 [cols="1,2a",width="70%",frame=none,grid=none]
 |===
 | image:ROOT:image$/IZA800G/image24.png[image,width=181,height=352]
-|[width="100%",cols="10%,70%,20%",options="header",]
+|[width="100%",cols="10%,55%,35%",options="header",]
 !===
 !Pin !Power/Trigger !Wire Color
 !1 !24 VDC (-) / GND !Black
