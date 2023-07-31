@@ -17,6 +17,8 @@
 :xref-type-IZA800G:
 :layout-type-technote:
 
+image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
 = {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
