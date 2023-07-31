@@ -20,7 +20,7 @@
 :!xref-type-IZIDPUG:
 
 
-= {docproductname}
+= {docproductname} User Guide
 //enable the TOC to be placed in a specific position
 :toc: macro
 //!sectnum momentarily stops section numbering
@@ -36,9 +36,9 @@
 // discrete removes these headers from the TOC
 [discrete]
 == ALPR All-in-one AI Camera System
-[discrete]
-=== User Guide
-Doc. No. IZA800G-G-MAN-002a
+// [discrete]
+// === User Guide
+Doc. No. IZA800G-MAN-002a
 
 image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
 
