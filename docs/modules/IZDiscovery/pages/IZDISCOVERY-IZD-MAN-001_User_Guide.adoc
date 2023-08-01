@@ -62,6 +62,10 @@ toc::[]
 
 Contact {compname-long} for document ordering information.
 
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
 [#t_Related-Documents]
 
 .Related Documents
@@ -73,6 +77,8 @@ Contact {compname-long} for document ordering information.
 |xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
 |xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 |===
+
+====
 
 [#s_Training]
 
