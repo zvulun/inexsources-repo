@@ -71,20 +71,20 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 
-[#t_Wiring-Diagram-Legend-Bill-of-Materials]
-
-.Wiring Diagram Legend/Bill of Materials
-
-include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
-
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 .Typical Camera System Wiring Diagram
 
 image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 
+[#t_Wiring-Diagram-Legend-Bill-of-Materials]
+
+.Legend
+
+include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
+
 {empty}
 
-Doc. No. IZA800G-TECH-001TDSHEET
+Doc. No. IZA800G-TECH-001
 
 
