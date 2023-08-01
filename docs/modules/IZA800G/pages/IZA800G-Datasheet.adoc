@@ -185,5 +185,8 @@ a|
 
 include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
 
-[.text-right]
-Doc. No. IZA800G-F3-TDSHEET
+[width="100%",cols="100%",frame=none,grid=none]
+|===
+>| Doc. No. IZA800G-F3-TDSHEET
+|===
+
