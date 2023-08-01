@@ -16,7 +16,9 @@
 :xref-type-IZA800G:
 :layout-type-userguide:
 
-= {docproductname}
+= {docproductname} Installation Guide
+
+image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 //enable the TOC to be placed in a specific position
 :toc: macro
@@ -32,10 +34,9 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== ALPR All-in-one AI Camera System
-[discrete]
-=== Installation Guide
-Doc. No. IZA800G-MAN-002b
+== {docproductname} ALPR All-in-one AI Camera System
+//[discrete]
+//=== Installation Guide
 
 image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
 
@@ -307,7 +308,7 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals
 
 [#t_Power-Signals-Cable-Power-Signals-Pinouts]
 
-.Power/Signals Cable: Power/Signals Pinouts
+.Power/Signals Cable Connector Pinout
 
 include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
 
@@ -538,3 +539,5 @@ include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
 
 include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
 
+[.text-right]
+Doc. No. IZA800G-MAN-002b
