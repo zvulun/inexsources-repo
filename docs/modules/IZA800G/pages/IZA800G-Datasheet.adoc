@@ -20,9 +20,7 @@
 //enable the TOC to be placed in a specific position
 //:toc: macro
 
-= {docproductname} Datasheet
-
-xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
+= {docproductname} Datasheet xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
