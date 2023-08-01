@@ -43,7 +43,7 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 //[discrete]
 //=== Datasheet
 
-image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
+//image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -60,10 +60,18 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 // ====
 
+Scan this code for full documentation and software:
+
+[sidebar]
+You will need: Laptop with Windows 10 or above; Windows Feature NET 4.5 enabled, IE 11 or higher+++<br>+++
+After mounting, remove the protective film from the camera's front window. You can use IZ Discovery to find the desired camera and change its network settings
+
 [discrete]
 == Checklist
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
+
+{empty}
 
 [#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
 
