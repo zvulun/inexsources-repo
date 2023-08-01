@@ -8,16 +8,13 @@
 //:eyesafetystandard-1: IEC62471 Group 1
 //
 
-// unset and set attributes used to
-// determine which text/links to sections
+// set attribute (by uncommenting the line)
+// used to determine which text/links to sections
 // outside partials - should be used in partials
-// Remember to unset all non-relevant attributes
+// see the playbook for full list
 
-:!xref-type-RoadView:
 :xref-type-IZA800G:
-:!xref-type-IZA500G:
-:!xref-type-IZ600F:
-:!xref-type-IZIDPUG:
+:layout-type-userguide:
 
 //enable the TOC to be placed in a specific position
 :toc: macro

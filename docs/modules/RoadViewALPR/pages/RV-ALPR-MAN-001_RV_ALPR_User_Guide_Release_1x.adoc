@@ -1,22 +1,21 @@
 :docproductname: RoadView ALPR
 :shortprodname: RoadView
 
-// unset and set attributes used to
-// determine which text/links to sections
+// set attribute (by uncommenting the line)
+// used to determine which text/links to sections
 // outside partials - should be used in partials
-// Remember to unset all non-relevant attributes
+// see the playbook for full list
+
 :xref-type-RoadView:
-:!xref-type-IZA800G:
-:!xref-type-IZA500G:
-:!xref-type-IZ600F:
-:!xref-type-IZIDPUG:
+:layout-type-userguide:
 
-
-
-
-= {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
+
+= {docproductname} User Guide
+
+image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
 //!sectnum momentarily stops section numbering
 :!sectnums:
 
@@ -29,21 +28,21 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-=== User Guide
-[discrete]
-=== Release 1.x
-
-Doc. No. RV-ALPR-MAN-001
-//blank line helps to separate doc no. from TOC
-{empty} +
-{empty} +
+== {shortprodname} Advanced ALPR Software
+Release 1.x
 
 // restore section numbering from here on
 :sectnums: all
 
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
 toc::[]
+
+====
 
 [#s_About-This-Document]
 
@@ -1473,230 +1472,5 @@ include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
-[#s_Appendix-A-Document-Change-History]
-
-== Appendix A - Document Change History
-
-[width="100%",cols="16%,18%,66%",options="header",]
-|===
-|Version |Date |Change
-|1.00 |Aug. 25, 2020 |Initial version
-|1.10 |Sep. 13, 2020 a|
-Version for Release 1.7. Changes from Release 1.6 are:
-
-* Added new Setting parameter: JPEG frame quality, 0-100 (0=no frame sent)
-
-* Added new Setting parameter: JPEG plate quality, 0-100
-
-* New Detector option "Precise license plate detector"
-
-* Cursor changes to magnifying glass when hovering over large Journal image
-
-|1.20 |Dec. 6, 2020 a|
-Version for Release 1.9. Changes from Release 1.7 are:
-
-* Added specific version number (1.9) to Applicability section.
-
-* Improved camera images in typical system figures
-
-* Updated Settings screen shots
-
-* Added explanations of new parameters
-
-* Removed all options from the Detector parameter except for Precise License Plate Detector
-
-* Added new choices in GUI for different operational modes
-
-* Added pictures to illustrate operational and triggering modes
-
-* Changed thumbnail description at bottom of Settings tab to say "Thumbnail image from a recent camera image" instead of from a recent Event
-
-|1.25 |Jan. 11, 2021 a|
-Updates for software version 1.9.13:
-
-* Updated Settings screen - new layout, and less Save buttons (each remaining Save button has a different functionality)
-
-* New sections on Settings screen - software version and camera information, and Lanes section on Settings screen - a list of Lanes can be defined
-
-* Camera Add/Edit dialog has changed since Lanes are defined in the new Lanes section
-
-* New screen shot for {software-discovery} - First column changed from Product to Serial Number
-
-* Added notes reminding user that some settings may be different for IZMobileLPI configuration
-
-|1.30 |Mar. 3, 2021 a|
-Updates for software version 1.9.25
-
-* Support for new version of {software-discovery} utility; new {software-discovery} screen capture
-
-* HTTP API 2.3 support (selectable from a new dropdown in the Settings screen), including triggering, was implemented - you can now trigger Events using the HTTP API protocol by sending the trigger from an external application to {shortprodname} - see the HTTP API documentation. HTTP API 2.3 also supports the Communication options of Separated Images and Send Images Data.
-
-* New screen capture taken for Settings screen and associated dialogs
-
-|1.31 |Mar. 11, 2021 a|* Improved quality of {software-discovery} screen shots
-|1.40 |Apr. 19, 2021 a|
-* Removed cameras and IZODPU-G from Related Documents
-
-* Updated HTTP API document file format in Related Documents
-
-* Changed IZODPU-G to DPU where appropriate, since there are other DPUs that run {shortprodname} software
-
-* Changed screen shot of logging out, since multi-line menu icon at upper right now has an additional option
-
-* Added new screen shots for Settings and Journal tabs
-
-* Added screen shots and explanations for new parameters and new order on Settings tab
-
-* Changed Applicability to 1.11.x
-
-|1.41 |Apr. 29, 2021 a|* Added paragraph to legal disclaimer referring to internet security risks
-|1.45 |May 27, 2021 a|
-Updates for version 1.13.13 of the software:
-
-* Updated glossary
-
-* Removed wiring diagrams (due to constant change)
-
-* Made minor edits to {software-discovery} section
-
-* Added new parameters to Detector Configuration: skip stacked characters, state recognition, send default state, default state value, state confidence threshold
-
-* New calibration tab and parameters
-
-* Updated explanation of Trigger 3 in Hybrid Pre/Post time
-
-* Expanded troubleshooting table
-
-|1.46 |June 1, 2021 a|
-* Changed Journal Settings header to Journal (Optional Local Storage)
-
-* Added text to Journal Settings text: (the parameters only appear if the disk is in use)
-
-|1.47 |June 13, 2021 a|
-Updates for latest production software release - 1.13.17:
-
-* {shortprodname} GUI can now be accessed using https at the start of the URL
-
-* https can now be used in the HTTP Integration URL
-
-* HTTP API 1.4 and 1.5 are now supported (and appear in the HTTP Integration Add/Edit dialog (Protocol Version dropdown)
-
-* User can choose the Lane (or All Lanes) for which Events and statuses will be sent in the HTTP Integration Add/Edit dialog
-
-* Plate Width Min and Plate Width Max were moved from Detector Configuration section in Settings tab to the Calibration tab
-
-|1.48 |July 13, 2021 a|* Changed name and filename of document, and name of software in document - to reflect new name for this version of {shortprodname} which is "{docproductname}"
-|1.50 |Jan. 9, 2022 a|
-Updates for latest production software release - 1.15.59; changes from 1.13.17 include:
-
-* For new functionality and parameter changes, see the {docproductname} Release Notes
-
-* Expanded Direct Trigger and {compname-short} I/O Controller explanations
-
-* Moved Trigger and mode diagrams to separate section earlier in document
-
-* Updated Hybrid mode's 3rd trigger explanation
-
-* Expanded Lanes explanation - how to manage multiple cameras on the same physical lane
-
-* Added Journal explanation - "You can also click on the large image to toggle between Pause and Run mode"
-
-* Calibration tab description updated for new functionality
-
-* Added section for new System Info tab
-
-|1.51 |Jan. 11, 2022 a|* Corrected spelling and typographical errors
-|1.52 |Jan. 23, 2022 a|
-* Added new parameters to Night Mode section on System Info tab; replaced screen shot
-
-* Replaced screen shot of Software Version and Camera Information
-
-|1.60 |Oct. 27, 2022 a|
-* Updates for latest production software release - 1.15.64.31
-
-* Chrome added as a possible browser for running {shortprodname}
-
-* Screen shots updated/added to reflect new features
-
-* Network Settings - DNS1/2 parameters added
-
-* HTTP Integration - added the following parameters: Offline Enabled, Keep Alive Interval, Event/Images Timeout and Status Timeout; also, the Separated Images option now works with all protocol versions, not just 2.3 and above.
-
-* New configuration section - Plate Recognizer
-
-* {software-cloud} Integration - added Remote URL field to Lanes table; updated GPIO explanation to match Remote URL explanation
-
-* New configuration section - Designa Integration
-
-* New configuration section - Offline Queue
-
-* ICP Integration - cannot be used in 1.15.64.31
-
-* IRD Integration - cannot be used in 1.15.64.31
-
-* New configuration section - Events Post-Processing
-
-* Detector Configuration - new parameters: Image Resize, Two Line Plate, Vehicle Class Detection
-
-* Lanes - new parameter: Ignore Opposite Direction
-
-* Journal tab renamed to be "Live" tab; new columns can now be added: Class, Class Confidence and Direction
-
-* New tab added: Search
-
-|1.61 |Oct. 30, 2022 a|* Updated document change history to show that ICP and IRD integration cannot be used in 1.15.64.31.
-|1.65 |Feb. 7, 2023 a|
-Updates for releases 1.15.64.32 to 1.15.64.48:
-
-* Changed format to only include details of core Settings sections; customer- and integration-specific sections will be described in separate documents
-
-* Users can access the Flexwatch sensor configuration application by adding an IE Tab extension to Chrome
-
-* New screen shot of Software Version and Camera Information on the Settings tab
-
-* New screen shot for Adding an HTTP Integration to show new Send Triggers check box, plus explanation of Send Triggers (HTTP API Trigger Received command)
-
-* Plate Recognizer Settings are not used.
-
-* AMANO Integration section added in Settings tab; separate document referenced
-
-* {software-cloud} Integration - separate document created and referenced
-
-* {compname-short} I/O Controller section: In Server mode, advanced P2P mode support was added (available via the {hw-iocontroller}/ADAM configuration application); enables {hw-iocontroller}/ADAM to send to multiple {shortprodname} instances
-
-* LPR LED section was added in System Info tab
-
-* New screen shot of System Info tab
-
-* The Configure Journal selection (available from the three-line menu) that enables you add columns to the Live data grid - also affects the Search data grid
-
-* Support of RTSP protocol for cameras (can enter RTSP URL or HTTP URL when adding a camera); deleted phrase of: "(cam0_0 indicates that the primary stream should be used)"
-
-|1.66 |Feb. 21, 2023 a|
-Updates for release 1.15.64.54:
-
-* New screen shot for System Info; added note that some System Info sections may not appear depending on your version of {shortprodname}
-
-* TIBA Integration section added in Settings tab; separate document referenced
-
-* New parameters added in ZAP Integration section for both Server and Client
-
-* Added text explaining how to configure {shortprodname} acting as a ZAP Client can communicate with {software-server}
-
-|1.67 |Mar. 23, 2023 a|
-* New screen shot for updated Date and Time section on Settings tab; the interval at which {shortprodname} polls for the date and time is now selected from discrete values instead of a number of milliseconds
-
-* Included missing State dropdown explanation in Detector Configuration section on Settings tab; added new "ALL" selection
-
-* Due to the updated software version number, new screen shots were taken for the "Software Version and Camera Information" section on the Settings tab, and the complete System Info tab
-
-* Updated some of the {software-discovery} wording to match other documents
-
-* Clarified which browser to use when running {shortprodname}
-
-|1.68 |Apr. 16, 2023 a|* Preparation for online conversion: Put rectangle around screen shot pictures in PPT - instead of using Word borders
-|1.69 |Apr. 16, 2023 a|* Added document reference to {shortprodname} Video Analytics Data Sheet
-|1.70 |June 27, 2023 a|* Corrections discovered during conversion to online version (for example, cross-references)
-|1.71 |July 20, 2023 a|* Removed Video Analytics Data Sheet from Related Documents
-|1.72 |July 23, 2023 a|* Added {software-discovery} User Guide to Related Documents; removed {software-discovery} sections and referred user to Related Documents|--- |--- a|* From this point on, see the GitHub commit history comments
-|===
+{empty}
+Doc. No. RV-ALPR-MAN-001
