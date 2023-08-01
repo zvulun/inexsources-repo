@@ -116,6 +116,9 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 [#s_Glossary-of-Terms]
 
 == Glossary of Terms
+._Click to show the Glossary_
+[%collapsible]
+====
 
 [#t_Glossary]
 
@@ -139,6 +142,9 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 |WCF |Windows Communication Foundation. A Microsoft class library that is included with the .NET Framework. See also .NET.
 |ZAP |Zamir Application Protocol - Proprietary {compname-long} protocol for interfacing with an IZ ALPR system and {software-server}.
 |===
+
+====
+
 
 [#s_System-Requirements]
 
