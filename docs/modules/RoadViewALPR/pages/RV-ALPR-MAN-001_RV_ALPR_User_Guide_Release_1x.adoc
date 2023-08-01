@@ -62,6 +62,12 @@ This document is for:
 
 === Recommended Reading/Related Documents
 
+Contact {compname-long} for document ordering information.
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
 [#t_Related-Documents]
 
 .Related Documents
@@ -90,6 +96,8 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 |xref:SLN-IZCloudIntegration:DocList.adoc[RV-IZCLOUD-MAN-001] |{compname-short} {software-cloud} Integration
 |xref:SLN-TIBA:DocList.adoc[RV-TIBA-MAN-001] |{compname-short} TIBA Integration
 |===
+
+====
 
 [#s_Applicability]
 
@@ -1472,11 +1480,6 @@ include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
-{empty}
-
-(C) INEX Technologies - All rights reserved.
-// Specifications subject to change without notice. All third-party trademarks are the property of their respective owners.
-
-{empty}
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
 Doc. No. RV-ALPR-MAN-001

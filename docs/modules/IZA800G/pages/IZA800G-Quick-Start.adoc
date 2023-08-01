@@ -93,7 +93,7 @@ image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 
 include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
 
-{empty}
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
 Doc. No. IZA800G-TECH-001
 

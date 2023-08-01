@@ -186,7 +186,7 @@ a|
 
 include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
 
-{empty}
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
 Doc. No. IZA800G-F3-TDSHEET
 
