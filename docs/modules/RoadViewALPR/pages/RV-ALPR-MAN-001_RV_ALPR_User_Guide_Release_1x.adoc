@@ -1473,4 +1473,11 @@ include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
 {empty}
+[sidebar]
+(C) INEX Technologies - All rights reserved.
+Specifications subject to change without notice.
+All third-party trademarks are the property of their respective owners.
+
+{empty}
+
 Doc. No. RV-ALPR-MAN-001
