@@ -105,6 +105,12 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 
 This document is applicable to {docproductname} software, release 1.15.64 and above.
 
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+[#s_Support]
+
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
 [#s_Glossary-of-Terms]

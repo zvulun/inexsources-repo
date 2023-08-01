@@ -8,21 +8,20 @@
 //:eyesafetystandard-1: IEC62471 Group 1
 //
 
-// unset and set attributes used to
-// determine which text/links to sections
+// set attribute (by uncommenting the line)
+// used to determine which text/links to sections
 // outside partials - should be used in partials
-// Remember to unset all non-relevant attributes
+// see the playbook for full list
 
-// :!xref-type-RoadView:
-// :xref-type-IZA800G:
-// :!xref-type-IZA500G:
-// :!xref-type-IZ600F:
-// :!xref-type-IZIDPUG:
+:layout-type-userguide:
 
-
-= {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
+
+= {docproductname} User Guide
+
+image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
 //!sectnum momentarily stops section numbering
 :!sectnums:
 
@@ -35,10 +34,8 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Device Discovery Software
-[discrete]
-=== User Guide
-Doc. No. IZDISCOVERY-IZD-MAN-001
+== {shortprodname} Device Discovery Software
+
 
 // restore section numbering from here on
 :sectnums: all
@@ -47,7 +44,13 @@ Doc. No. IZDISCOVERY-IZD-MAN-001
 
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
 toc::[]
+
+====
 
 [#s_About-this-Document]
 
@@ -182,15 +185,6 @@ include::ROOT:partial$p-software-precautions.adoc[ALPR Camera Safety Precautions
 
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-[#s_Appendix-A-Document-Change-History]
-
-== Appendix A - Document Change History
-
-[width="100%",cols="16%,18%,66%",options="header",]
-|===
-|Version |Date |Change
-|1.00 |July 20, 2023 |Initial version
-|--- |--- a|* From this point on, see the GitHub commit history comments
-|===
-
+Doc. No. IZDISCOVERY-IZD-MAN-001
