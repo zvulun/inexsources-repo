@@ -65,7 +65,7 @@ Click xref:IZA800G:DocList.adoc[here] for full documentation and software.
 [sidebar]
 You will need: Laptop with Windows 10 or above;+++<br>+++
 Windows Feature NET 4.5 enabled, IE 11 or higher.+++<br>+++
-After mounting, remove the protective film from the camera's front window.
+After mounting, remove the protective film from the camera's front window.+++<br>+++
 You can use xref:IZDiscovery:DocList.adoc[IZ Discovery] to find the desired camera and change its network settings
 
 [discrete]
