@@ -266,5 +266,6 @@ include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
 
 include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
 
-[.text-right]
+{empty}
+
 Doc. No. IZA800G-MAN-002a
