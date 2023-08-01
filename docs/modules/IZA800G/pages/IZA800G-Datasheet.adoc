@@ -17,7 +17,7 @@
 :xref-type-IZA800G:
 :layout-type-technote:
 
-= {docproductname}
+= {docproductname} Datasheet
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
@@ -35,12 +35,12 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 // discrete removes these headers from the TOC
 [discrete]
-== ALPR All-in-one AI Camera System
+== IZA800G ALPR All-in-one AI Camera System
 
 [discrete]
-=== IZA800G, Rev. F3
-[discrete]
-=== Datasheet
+=== Rev. F3
+//[discrete]
+//=== Datasheet
 Doc. No. IZA800G-F3-TDSHEET
 
 image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
