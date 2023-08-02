@@ -1,6 +1,6 @@
 = Product-to-Mount Summary/Mapping Documents List
 
-* xref:MNT-ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Product-to-Mount Summary/Mapping (draft v11 under construction)]
+* xref:MNT-ProdToMountMap:MOUNT-MAP-PRSNT-011_ProductToMountMapping.adoc[Product-to-Mount Summary/Mapping]
 
 More documents can be found at https://drive.google.com/drive/folders/1-2TM0zk6V9hCtjFb6t0NTRZMvlLeTv9Z?usp=share_link[GDriveLink, window=_blank]
 
