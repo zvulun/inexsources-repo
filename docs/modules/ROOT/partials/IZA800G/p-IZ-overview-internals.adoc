@@ -1,0 +1,4 @@
+LPR and overview images are captured from dual motorized zoom lenses,
+then processed by a fast AI GPU.
+Illumination can be provided from built-in multi-flash illumination or external illuminators.
+A variety of mounting options are also available.

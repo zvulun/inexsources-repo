@@ -115,10 +115,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 The {shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and ITS applications, with different models available for different distances and illumination requirements.
 
-LPR and overview images are captured from dual motorized zoom lenses,
-then processed by a fast AI GPU.
-Illumination can be provided from built-in multi-flash illumination or external illuminators.
-A variety of mounting options are also available.
+include::ROOT:partial$IZA800G/p-IZ-overview-internals.adoc[IZ Camera Internals Overview Paragraph]
 
 include::ROOT:partial$IZA800G/p-camera-short-intro-physical.adoc[Camera Details Introduction]
 

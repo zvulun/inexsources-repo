@@ -1,0 +1,788 @@
+:docproductname: IZA500G/GR
+:shortprodname: IZA500G
+:shortprodname2: IZA500GR
+:generic-camera-name: ALPR Camera System
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+:!xref-type-RoadView:
+:!xref-type-IZA800G:
+:xref-type-IZA500G:
+:!xref-type-IZ600F:
+:!xref-type-IZIDPUG:
+
+= {docproductname}
+//enable the TOC to be placed in a specific position
+:toc: macro
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== ALPR All-in-one AI Camera System
+[discrete]
+=== Installation and Calibration Guide
+Doc. No. IZA500G-GR-MAN-002
+
+image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
+
+image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+toc::[]
+
+[#s_About-this-Document]
+
+== About this Document
+
+[#s_Who-Should-Read-this-Document]
+
+=== Who Should Read this Document
+
+This document is for:
+
+* *Technical personnel* who need to install IZA Camera Systems.
+
+[NOTE]
+
+========================================
+
+This document does not take the place of training by {compname-possess} certified specialists. Contact {compname-long} to schedule training.
+
+========================================
+
+[#s_Related-Documents]
+
+=== Recommended Reading/Related Documents
+
+Contact {compname-long} for document ordering information.
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[width="100%",cols="51%,49%",options="header",]
+|===
+|Doc. No. |Title
+|xref:IZA500G:DocList.adoc[{shortprodname}-G-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+|xref:IZA500GR:DocList.adoc[{shortprodname2}-GR-xx-TDSHEET] |{shortprodname2} Technical Data Sheet
+|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
+|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-IZD-MAN-001] |{software-discovery} User Guide
+|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+|xref:IZL:DocList.adoc[{illum-non-strobe}-L-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
+|xref:IZPWR:DocList.adoc[IZPWRSRFC-REV-x-TDSHEET] |IZPWR Surface Mount Power Supplies Technical Data Sheet
+|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+|xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
+|xref:LOOP-DTCR-L:DocList.adoc[{hw-loopdetect-l}-MAN-001] |{hw-loopdetect-l} Loop Detector Installation and User Guide
+|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+[#s_Support]
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+[#s_Quick-Installation-Overview]
+
+== Quick Installation Overview
+
+include::ROOT:partial$/IZA800G/p-quick-install-overview.adoc[Quick Installation Overview]
+
+[#s_Camera-System-Overview]
+
+== Camera System Overview
+
+[#s_Package-Contents]
+
+=== Package Contents
+
+Carefully unpack the contents of the {generic-camera-name} package. (For a detailed view of the cables, see <<f_Cable-Details>>.)
+
+[#f_Package-Contents]
+
+.Package Contents
+
+image::./UserGuide/image1.png[image,width=288,height=355]
+
+The package includes:
+
+* {docproductname} ALPR All-in-one AI Camera System
+
+[NOTE]
+
+========================================
+
+If any parts are missing or damaged, please contact {compname-long}.
+
+========================================
+
+[#s_Camera-System-Details-and-Dimensions]
+
+=== Camera System Details and Dimensions
+
+The {docproductname} ALPR All-in-one AI Camera System is suitable for parking, car wash, access control and security applications, with different models available for different distances and illumination requirements.
+include::ROOT:partial$IZA800G/p-camera-details-intro.adoc[Camera Details Introduction]
+
+
+[#f_Front-View-of-the-ALPR-Camera-System]
+
+.Front View of the {generic-camera-name}
+
+image::./UserGuide/image2.png[image,width=624,height=280]
+
+[#f_Underside-of-the-ALPR-Camera-System-and-Cables]
+
+.Underside of the {generic-camera-name} and Cables
+
+image::./UserGuide/image3.png[image,width=624,height=223]
+
+[CAUTION]
+
+========================================
+
+KEEP THE TRIGGER WIRES ISOLATED. SHORTING THE TRIGGER WIRES MAY DAMAGE THE UNIT AND VOID THE WARRANTY.
+
+*+++NOTE:+++* The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
+
+========================================
+
+[#f_Cable-Details]
+
+.Cable Details
+
+image::./UserGuide/image4.png[image,width=411,height=280]
+
+[#f_Dimensions]
+
+image::./UserGuide/image5.png[image,width=315,height=205]
+
+image::./UserGuide/image6.png[image,width=463,height=224]
+
+.Dimensions
+
+image::./UserGuide/image7.png[image,width=489,height=252]
+
+[#s_Multi-flash-Technology-IZA500G]
+
+=== Multi-flash Technology ({shortprodname})
+
+include::ROOT:partial$/IZA800G/p-multiflash-technology.adoc[Multi-flash Technology]
+
+[#s_Built-in-White-LEDs-White-LED-Models]
+
+=== Built-in White LEDs (White LED Models)
+
+include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
+
+[#f_White-LED-Positions]
+
+.{docproductname} White LED Positions
+
+image::./UserGuide/image9.png[image,width=279,height=215]
+
+
+[#s_Specifications]
+
+=== Specifications
+
+[#t_IZA500G-Technical-Specifications]
+
+.{shortprodname} Technical Specifications
+
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specification Table Start]
+
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
+
+[#t_IZA500GR-Technical-Specifications]
+
+.{shortprodname2} Technical Specifications
+
+include::ROOT:partial$IZA500GR/p-IZA500GR-spec-tbl-start.adoc[IZA500GR Specification Table]
+
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
+
+[#s_Required-Accessories-Not-Included]
+
+== Required Accessories (Not Included)
+
+* For installations that require network cabling: typically use CAT 5e/6 cable. The total length of the cable should not exceed 328 feet (100 meters).
+
+[IMPORTANT]
+
+========================================
+
+All network cable extensions and repeaters must be shielded.
+
+========================================
+
+* You will need to provide a laptop computer to use for configuration. +++<u>+++If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight.+++</u>+++ Required software:
+
+** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
+
+** Internet Explorer browser version 11 or higher +
+You can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link] (to enable access to the camera configuration application - see <<s_Logging-In-to-the-Camera>>).
+
+* The following accessories can be supplied by {compname-med}:
+
+[#t_Required-Accessories]
+
+.Required Accessories
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Item |Notes
+|12-24VDC power supply (voltage-adjustable) |{compname-med} model power supply
+|Mounting Hardware (pan-tilt-roll bracket) |Typically on wall or pole; see the Mounting Hardware documentation for details (see <<s_Related-Documents>>)
+|===
+
+[#s_Planning-Your-Installation]
+
+== Planning Your Installation
+
+include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections of Installation Planning]
+
+[#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
+
+=== Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
+
+include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
+
+include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
+
+[#s_Additional-Installation-Considerations]
+
+=== Additional Installation Considerations
+
+[#t_Additional-Installation-Considerations]
+
+.Additional Installation Considerations
+
+[width="100%",cols="40%,60%",options="header",]
+|===
+|Item |Considerations
+|*Surge Protection* a|* On power, network and data cables
+|*Correct, Stable and Sufficient Power* a|
+* Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+* Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
+
+a|
+*Cable Extensions*
+
+*IMPORTANT* +
++++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
+
+a|
+* Power - Use a cable gauge sufficient to deliver 12-24 VDC at the Camera System
+
+* LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable (without a switch) should not exceed 328 feet (100 meters).
+
+|Front/Rear Capture - or Both a|
+* Country requirements
+
+* Vehicle types
+
+* Protruding parts that obscure plates (such as rear hooks)
+
+* Recessed plates
+
+* Desired pre- or post-capture in relation to ticket issue (for parking)
+
+|Objects with character-like appearances (interpreted as characters on a plate, resulting in false reads) a|
+Avoid having these items in the Field of View:
+
+* Fences with patterns
+
+* Barriers
+
+* Signs
+
+|Obstructions (blocking FOV) a|
+* Entry gates
+
+* Trees and bushes (even before fully grown)
+
+* Bright light (sun/artificial) shining directly into Camera System's front window
+
+* Reflective surfaces too close to camera lens
+
+* Weather - snow, heavy rain, dust storms
+
+* Dirt on front window (see <<s_Troubleshooting-and-Maintenance>>)
+
+|Mounting a|
+* Typically on wall/pole
+
+* Additional construction if needed
+
+|===
+
+[#s_Hardware-Installation]
+
+== Hardware Installation
+
+[#s_Typical-Wiring-Diagrams]
+
+=== Typical Wiring Diagrams
+
+Here are typical wiring diagrams for capturing license plate images. Note that the type and configuration of the power supply may be different than the one you are using at your site. See <<t_Wiring-Diagram-Legend-Bill-of-Materials>> for a legend/bill of materials.
+
+[CAUTION]
+
+========================================
+
+KEEP THE TRIGGER WIRES ISOLATED. SHORTING THE TRIGGER WIRES MAY DAMAGE THE UNIT AND VOID THE WARRANTY.
+
+========================================
+
+[IMPORTANT]
+
+========================================
+
+All network cable extensions and repeaters must be shielded.
+
+*After mounting, remove the protective film from the front window of the Camera System.*
+
+========================================
+
+[#f_Typical-Camera-System-Wiring-Diagram]
+
+.Typical Camera System Wiring Diagram
+
+image::ROOT:IZA500G/image17.png[image,width=624,height=203]
+
+[#f_Typical-Camera-System-with-Inductive-Loop-Wiring-Diagram]
+
+.Typical Camera System with Inductive Loop Wiring Diagram
+
+image::ROOT:IZA500G/image18.png[image,width=624,height=279]
+
+[#f_Typical-Camera-System-with-I-O-Module-Wiring-Diagram]
+
+.Typical Camera System with I/O Module Wiring Diagram
+
+image::ROOT:IZA500G/image19.png[image,width=624,height=468]
+
+[#t_Wiring-Diagram-Legend-Bill-of-Materials]
+
+.Wiring Diagram Legend/Bill of Materials
+
+include::ROOT:partial$IZA500G/p-IZA500G-wiring-table.adoc[IZA500G Wiring Table]
+
+[#s_Mounting-the-Camera-System]
+
+=== Mounting the Camera System
+
+Secure the Camera System to the appropriate mounting hardware (see the Mounting Hardware documentation - see <<s_Related-Documents>>).
+
+[#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
+
+=== Connecting the Camera System, Illuminator, Power Supply and Network
+
+See <<s_Typical-Wiring-Diagrams>> for typical wiring diagrams.
+
+[WARNING]
+
+========================================
+
+Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
+
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
+
+*IMPORTANT: All network cable extensions and repeaters must be shielded.*
+
+The Camera System is not compatible with some GigE switches; suggested switch type: 10/100 Mb
+
+========================================
+
+As an example, you can connect the {generic-camera-name}'s power cable to a surface-mounted power supply as follows:
+
+* *Red* - {plus}24 VDC ({plus}V); *Black* - -24 VDC (-V); *Yellow* - ground (FG)
+
+[#f_Connecting-the-Camera-System-to-a-Surface-Mount-Power-Supply]
+
+.Connecting the Camera System to a Surface-Mount Power Supply
+
+image::./UserGuide/image20.png[image,width=271,height=169]
+
+[NOTE]
+
+========================================
+
+If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the power connections, and attach pins in their place.
+
+========================================
+
+[#s_Connecting-the-AC-Electricity]
+
+=== Connecting the AC Electricity
+
+[#f_Conecting-a-Surface-Mount-Power-Supply-to-the-AC-Electricity]
+
+.Connecting a Surface-Mount Power Supply to the AC Electricity
+
+image::./UserGuide/image21.png[image,width=388,height=242]
+
+Plug the power supply into the AC electricity. If required, switch the unit ON.
+
+When the power supply is connected to the AC electricity, its LED will light up.
+
+[IMPORTANT]
+
+========================================
+
+If the power cable was lengthened, adjust the voltage and make sure that the Camera System receives exactly its rated voltage (see <<s_Specifications>>).
+
+Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+========================================
+
+[#s_Reserving-IP-Addresses-in-your-Network]
+
+== Reserving IP Addresses in your Network
+
+The {compname-short} cameras have been pre-configured with default IP addresses. You will probably need to change these addresses to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your ALPR system ({software-ALPR} computer and cameras).
+
+[#s_Recognizing-Devices-with-IZ-Discovery]
+
+== Recognizing Devices with {software-discovery}
+
+[#s_Installing-and-Using-IZ-Discovery]
+
+=== Installing and Using {software-discovery}
+
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
+
+[#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
+
+=== Changing a Device's IP Address and Network Settings
+
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
+
+[#s_Configuring-a-Camera]
+
+== Configuring a Camera
+
+[#s_Logging-In-to-the-Camera]
+
+=== Logging In to the Camera
+
+include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
+
+[#s_Changing-a-Camera-s-IP-Address]
+
+=== Changing a Camera's IP Address
+
+include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
+
+[#s_Logging-Out-of-the-Camera]
+
+=== Logging Out of the Camera
+
+Close all windows, and the browser window.
+
+[#s_Calibrating-the-Cameras]
+
+== Calibrating the Cameras
+
+There are two cameras in the Camera System. Both are calibrated in nearly the same way. The LPR camera is set to capture in black and white, and the Overview (OV) camera is set to capture in color.
+
+The OV camera displays a color overview image, but it is also used to perform LPR recognition. You may even be able to improve read accuracy by changing the zoom to have one camera "see" closer than the other one.
+
+[#s_Preparing-a-Vehicle-License-Plate]
+
+=== Preparing a Vehicle/License Plate
+
+Move a vehicle next to, and at the middle of the capture line. (This is the position at which the vehicle sensor signals that the vehicle is present.) Ensure that the Camera System is aimed at the middle of the lane, and is at the required capture distance (see <<s_Specifications>> and <<s_Planning-Your-Installation>>).
+
+Alternatively, in a lab, position a license plate at the expected distance and height.
+
+[#s_Calibrating-the-Cameras-Using-RoadView]
+
+=== Calibrating the Cameras Using {software-ALPR}
+
+See the {software-ALPR-long} User Guide for calibration instructions (see <<s_Related-Documents>>).
+
+[#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
+
+== Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
+
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
+
+[#s_Using-RoadView]
+
+== Using {software-ALPR}
+
+include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[Using RoadView]
+
+[#s_Troubleshooting-and-Maintenance]
+
+== Troubleshooting and Maintenance
+
+[#s_Troubleshooting]
+
+=== Troubleshooting
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+
+[#s_Checking-Mounting-Screws]
+
+=== Checking Mounting Screws
+
+It is recommended to check all mounting screws for proper tightness once every two years.
+
+[#s_Cleaning-the-ALPR-Camera-System]
+
+=== Cleaning the {generic-camera-name}
+
+Do not use solvents or strong abrasive detergent when cleaning the Camera System. Use a soft dry cloth to clean the {generic-camera-name}'s front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
+
+== Notices, Safety Precautions and Certifications
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
+
+include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
+
+include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IP67.adoc[IP67 Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
+
+[#s_Appendix-A-Document-Change-History]
+
+== Appendix A - Document Change History
+
+[width="100%",cols="16%,18%,66%",options="header",]
+|===
+|Version |Date |Change
+|1.00 |Aug. 25, 2020 |Initial version
+|1.10 |Nov. 15, 2020 a|
+* Added "AI" to title
+
+* Added technical data sheet to related documents
+
+* Added NVIDIA and LINUX logos to front page
+
+* Added the following certifications to the Regulatory Notices section: CE, RoHS, IP67, ONVIF, IK 10
+
+* Added camera trigger wires to pictures
+
+* Added Cautions throughout - not to short the trigger wires
+
+* Added revision letter to specifications table title
+
+* Replaced specifications table with new one from technical data sheet
+
+* Removed Note explaining format of ordering numbers.
+
+* Added the word "Compliant" to ONVIF specification description; both in Regulatory Notices and in specification table
+
+* Removed nm specifications from Wavelength specification
+
+|1.11 |Nov. 16, 2020 a|
+* Changed wording of Cautions throughout to match new wording on label to be put on power/signals cable
+
+* Changed wording of trigger wire functions to match label to be put on power/signals cable - in specification table and in illustrations.
+
+|1.12 |Nov. 17, 2020 a|* Edited wording of Cautions throughout - removed "to each other"
+|1.13 |Dec. 21, 2020 a|* Corrected model number of {shortprodname} in Related Documents section
+|1.14 |Jan. 10, 2021 a|* Made changes/additions to add the {shortprodname2} model to this document; main change was in specification table to indicate {shortprodname2} LPR camera uses a rolling shutter
+|1.15 |Feb. 16, 2021 a|
+* Added NDAA Section 889 compliance to specification table
+
+* Added NDAA Section 889 Certification of Compliance document to Related Documents
+
+|1.20 |Mar. 3, 2021 a|
+Changes due to {shortprodname} being upgraded to Rev. D:
+
+* Separate specification tables created for G and GR models
+
+* G model now has different capture distances (previous extra short XS model replaced by new short-distance S model; previous short S model replaced by new long-distance L model)
+
+* G model now has different LPR lenses and beam angles
+
+|1.25 |Mar. 16, 2021 a|
+* Updated format of specification table to match new data sheet format; Made improvements to make expansion sustainable.
+
+* Replaced old front page picture of camera (mounted with mounting adapter plate on older mount) with photo
+
+* Updated links in Related Documents, and removed IP Installer
+
+* Added illustrations of dimensions
+
+* Changed all illustrations to include glands
+
+* Removed IP Installer from instructions, and substituted new {software-discovery} instead
+
+* Ensured that name of product is uniform throughout (ALPR All-in-one AI Camera System)
+
+* Changed package contents list to match new data sheet format
+
+* Improved {software-discovery} screen captures
+
+* Removed Allen wrench and mounting adapter plate from package contents
+
+* Replaced "Mounting Hardware Guide" with MNT-W3X-W (3-Axis Camera Mount) guide in Related Documents
+
+|1.26 |Apr. 4, 2021 a|* Added missing note to end of {shortprodname} spec table "LPR Capture Distance is measured from camera to plate"
+|1.30 |Apr. 21, 2021 a|
+* Removed Missing Plate from Vehicle Analytics in specification table
+
+* Added {hw-iocontroller} to Available Accessories in specification table
+
+* Added {hw-iocontroller} to Related Documents table
+
+|1.35 |July 1, 2021 a|
+* Updated model number, wavelength and distance specifications
+
+* Added color of housing
+
+* Added instructions for installing Smart Viewer (required for using the Live View in the camera's calibration software)
+
+|1.36 |July 5, 2021 a|
+* Added section explaining camera/illuminator compatibility
+
+* Added {illum-non-strobe} series illuminators to Accessories Available
+
+|1.37 |July 8, 2021 a|
+* Updated instructions for matching Camera Systems to illuminators
+
+* Changed use of the word "infrared" to "infrared-type" to include different types of illumination
+
+|1.38 |July 11, 2021 a|* Corrected explanation of when dynamic IP addresses change (upon reboot)
+|1.39 |July 13, 2021 a|* Updated document reference to {software-ALPR-long} in Related Documents table
+|1.40 |Aug. 2, 2021 a|
+* Changed {shortprodname} specification table header to Revision F1
+
+* Added 128 Gb data storage to {shortprodname} specifications
+
+* Changed input voltage to 12-24 VDC in all text and pictures
+
+|1.41 |Aug. 9, 2021 a|
+* Changed {shortprodname2} specification table header to Revision F1 (for Revision F1 of Q3-2021)
+
+* Added 128 Gb data storage to {shortprodname2} specifications
+
+* Changed input voltage to 12-24 VDC in {shortprodname2} specification table
+
+|1.42 |Sep. 12, 2021 a|* Updated references to power supplies with new model numbers and document file names
+|1.43 |Oct. 31, 2021 a|* Added Relay output connections to specification tables and diagrams showing cables (for Revision F1 of Q4-2021)
+|1.44 |Nov. 10, 2021 a|* Reverted power input back from 12-24 VDC to 24 VDC
+|1.45 |Dec. 5, 2021 a|* Changed all references to the Mounting Hardware Guide(s) to new updated mounting presentations in the Related Documents table; Changed all references in the text to "Mounting Hardware Guide" to the more generic "Mounting Hardware documentation"
+|1.50 |Jan. 9, 2022 a|
+* Included {shortprodname}W in document: specification table and other relevant places
+
+* Changed Windows requirement to version 10 and up only, not 8
+
+* Calibration is now done via the {software-ALPR-long} software's Calibration tab; text removed will be used in {software-ALPR} User Guide
+
+* IZ500G/GW/GR Camera Systems are only used with {illum-non-strobe} Illuminators, not {illum-strobe} Illuminators
+
+* Add illustration of {shortprodname}W white LEDs
+
+|1.51 |July 10, 2022 a|
+* Revision number changed from F1 to F2
+
+* Trigger Wet input changed from {plus}5-24 V to {plus}5-12 V
+
+* Changed input voltage from 24 VDC to 12-24 VDC in all text and pictures
+
+* Fixed text wrapping of wet contact voltage range in Typical Wiring Diagram
+
+|1.52 |Jan. 10, 2023 a|
+* Revision number changed from F2 to F3
+
+* Document now includes: {shortprodname2}
+
+* Merged products into {shortprodname} and {shortprodname2}, with differences in LED options expressed as different model numbers
+
+* Added {software-cloud} logo
+
+* Updated specifications: +
+- Changed abbreviation of megapixel to MP +
+- Underlines removed from table headers +
+- Product revision now at F3 (change in headers of specification table; but row removed in data sheet) +
+- Reduced full names of models to one letter to save space in specifications +
+- Corrected OV illumination specification (IR models use ambient light for OV image; IR{plus}white models use 5 white LEDs) +
+- Columns combined where possible +
+- Updated distance specifications and wording +
+- Changed wording of {compname-short} HTTP API specification +
+- Added links to Accessories Available in specification table
+
+* Changed typical wiring diagrams and legend table to match Quick Start
+
+* Changed LPR capture distance from 8.2-82 ft (2.5-25 m) to 5-70 ft (1.5-21 m)
+
+|1.53 |Mar. 20, 2023 a|
+* EULA reference added to Legal Disclaimer, and EULA row added to Related Documents
+
+* Most references (except those in specification tables and bill of materials tables which are reused in other documents) to related documents within text now refer to the Related Documents section (enables link updates to be made in one place)
+
+* In specification table: added reference to new Analytics document; put each analytic type in a comma-separated list; changed "Lanes Covered" to Field of View (FOV); updated Data Storage specs
+
+* Added text explaining that an IE Tab extension can be added to Chrome to enable access to the camera configuration application.
+
+* Deleted section explaining how to calculate horizontal FOV since FOV now appears in specification table
+
+* Added the word "System" to Camera in selected places to clarify that the subject under discussion is the overall Camera System, not the individual cameras/sensors inside the Camera System.
+
+* Added Note in IP Discovery section to remind user to define IP addresses for each camera and onboard computer.
+
+* Added Note in IP Discovery section to remind user that a camera's IP address can also be changed via the camera's configuration application.
+
+* Added text explaining that {software-ALPR} works with the latest version of Chrome or IE 11 or higher.
+
+* Changed name of {software-ALPR} tab seen initially to "Live (Journal)"
+
+|1.54 |Mar. 20, 2023 a|* Minor corrections to wording and cross references
+|1.55 |Mar. 21, 2023 a|* Corrected {shortprodname2} Data Storage specification
+|1.56 |Mar. 23, 2023 a|* Updated some of the {software-discovery} wording to match other documents
+|1.57 |May 24, 2023 a|* In all wiring diagrams, added "A" label to LAN cable connecting switch to camera
+|1.70 |July 18, 2023 a|* Corrections discovered during conversion to online version (for example, cross-references)
+|1.71 |July 24, 2023 a|* Removed references to Video Analytics Data Sheet from Related Documents and spec. tables; made reference to {software-ALPR} documentation generic
+
+* Added {software-discovery} User Guide to Related Documents; removed {software-discovery} sections and referred user to Related Documents
+|--- |--- a|* From this point on, see the GitHub commit history comments
+|===
