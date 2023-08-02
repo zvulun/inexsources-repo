@@ -13,33 +13,48 @@ ifndef::imagesdir[:imagesdir: ../../images]
 
 image::Slide1.jpg[]
 
+
 image::Slide252.jpg[]
+
 
 image::Slide276.jpg[]
 
+
 image::Slide285.jpg[]
+
 
 image::Slide275.jpg[]
 
+
 image::Slide287.jpg[]
+
 
 image::Slide286.jpg[]
 
+
 image::Slide284.jpg[]
+
 
 image::Slide279.jpg[]
 
+
 image::Slide280.jpg[]
+
 
 image::Slide281.jpg[]
 
+
 image::Slide282.jpg[]
+
 
 image::Slide283.jpg[]
 
+
 image::Slide288.jpg[]
 
+
 image::Slide278.jpg[]
+
 
 image::Slide37.jpg[]
 
