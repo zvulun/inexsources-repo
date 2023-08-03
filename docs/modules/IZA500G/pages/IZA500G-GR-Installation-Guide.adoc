@@ -134,7 +134,7 @@ For documentation and part numbers, see <<s_Related-Documents>>.
 |Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the Mounting Hardware documentation for details (see <<s_Related-Documents>>).
 |===
 
-#s_Optional-Accessories]
+[#s_Optional-Accessories]
 
 === Optional Accessories
 
