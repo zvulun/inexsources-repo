@@ -501,7 +501,7 @@ The OV camera can be used both to display an overview image, and to perform LPR 
 === Preparing a Vehicle/License Plate
 
 Move a vehicle next to, and at the middle of the capture line. (This is the position at which the vehicle sensor signals that the vehicle is present.) Ensure that the Camera System is aimed at the middle of the lane, and is at the required capture distance (see <<s_Plan-Your-Site>>
-and the {shortprodname} User Guide - see <<s_Related-Documents>>).
+and the {docproductname} User Guide - see <<s_Related-Documents>>).
 
 Alternatively, in a lab, position a license plate at the expected distance and height.
 
