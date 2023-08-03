@@ -1,4 +1,5 @@
 :docproductname: IZA500G/GR
+:fileproductname: IZA500G-GR
 :shortprodname: IZA500G
 :shortprodname2: IZA500GR
 :generic-camera-name: ALPR Camera System
@@ -8,20 +9,24 @@
 // overridden if desired
 //:eyesafetystandard-1: IEC62471 Group 1
 
-// unset and set attributes used to
-// determine which text/links to sections
+// used to determine which text/links to sections
 // outside partials - should be used in partials
-// Remember to unset all non-relevant attributes
+// see the playbook for full list
 
-:!xref-type-RoadView:
-:!xref-type-IZA800G:
 :xref-type-IZA500G:
-:!xref-type-IZ600F:
-:!xref-type-IZIDPUG:
+:layout-type-userguide:
 
-= {docproductname}
 //enable the TOC to be placed in a specific position
 :toc: macro
+
+= {docproductname} Installation Guide
+
+xref:IZA500G:DocList.adoc[<- Back to {shortprodname} Documents]
+
+xref:IZA500GR:DocList.adoc[<- Back to {shortprodname2} Documents]
+
+image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
 //!sectnum momentarily stops section numbering
 :!sectnums:
 
@@ -36,8 +41,6 @@
 [discrete]
 == ALPR All-in-one AI Camera System
 [discrete]
-=== Installation and Calibration Guide
-Doc. No. IZA500G-GR-MAN-002
 
 image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
 
@@ -50,33 +53,25 @@ image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX
 
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
 toc::[]
 
-[#s_About-this-Document]
-
-== About this Document
-
-[#s_Who-Should-Read-this-Document]
-
-=== Who Should Read this Document
-
-This document is for:
-
-* *Technical personnel* who need to install IZA Camera Systems.
-
-[NOTE]
-
-========================================
-
-This document does not take the place of training by {compname-possess} certified specialists. Contact {compname-long} to schedule training.
-
-========================================
+====
 
 [#s_Related-Documents]
 
-=== Recommended Reading/Related Documents
+== Recommended Reading/Related Documents
 
 Contact {compname-long} for document ordering information.
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
 
 [#t_Related-Documents]
 
@@ -101,6 +96,10 @@ Contact {compname-long} for document ordering information.
 |xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
 
+====
+
+== Training and Support
+
 [#s_Training]
 
 include::ROOT:partial$p-training.adoc[Training Section]
@@ -109,11 +108,11 @@ include::ROOT:partial$p-training.adoc[Training Section]
 
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
-[#s_Quick-Installation-Overview]
+==  Checklist
 
-== Quick Installation Overview
+include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
-include::ROOT:partial$/IZA800G/p-quick-install-overview.adoc[Quick Installation Overview]
+
 
 [#s_Camera-System-Overview]
 
