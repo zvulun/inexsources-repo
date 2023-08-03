@@ -129,7 +129,7 @@ Carefully unpack the contents of the {generic-camera-name} package. (For a detai
 
 .Package Contents
 
-image::./UserGuide/image1.png[image,width=288,height=355]
+image::ROOT:IZA500G/image1.png[image,width=288,height=355]
 
 The package includes:
 
@@ -181,13 +181,13 @@ image::./UserGuide/image4.png[image,width=411,height=280]
 
 [#f_Dimensions]
 
-image::./UserGuide/image5.png[image,width=315,height=205]
+image::ROOT:IZA500G/image5.png[image,width=315,height=205]
 
-image::./UserGuide/image6.png[image,width=463,height=224]
+image::ROOT:IZA500G/image6.png[image,width=463,height=224]
 
 .Dimensions
 
-image::./UserGuide/image7.png[image,width=489,height=252]
+image::ROOT:IZA500G/image7.png[image,width=489,height=252]
 
 [#s_Multi-flash-Technology-IZA500G]
 
