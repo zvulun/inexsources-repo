@@ -78,8 +78,10 @@ toc::[]
 [width="100%",cols="51%,49%",options="header",]
 |===
 |Doc. No. |Title
-|xref:IZA500G:DocList.adoc[{shortprodname}-G-xx-TDSHEET] |{shortprodname} Technical Data Sheet
-|xref:IZA500GR:DocList.adoc[{shortprodname2}-GR-xx-TDSHEET] |{shortprodname2} Technical Data Sheet
+|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002b] |{docproductname} User Guide
+|xref:IZA500G:DocList.adoc[{fileproductname}-TECH-001] |{docproductname} Quick Start Guide
+|xref:IZA500G:DocList.adoc[{shortprodname}-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+|xref:IZA500GR:DocList.adoc[{shortprodname2}-xx-TDSHEET] |{shortprodname2} Technical Data Sheet
 |xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 |xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
 |xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
@@ -109,6 +111,84 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 ==  Checklist
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
+
+[#s_Prepare-Components-and-Tools]
+
+== Prepare Components and Tools
+
+[#s_Required-Accessories]
+
+=== Required Accessories
+
+The following accessories can be supplied by {compname-med},
+For documentation and part numbers, see <<s_Related-Documents>>.
+
+[#t_Required-Accessories]
+
+.Required Accessories
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Item |Notes
+|24VDC power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
+|Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the Mounting Hardware documentation for details (see <<s_Related-Documents>>).
+|===
+
+#s_Optional-Accessories]
+
+=== Optional Accessories
+
+For documentation and part numbers, see <<s_Related-Documents>>.
+
+* {hw-iocontroller} Digital I/O Controller
+
+* Loop Detector
+
+* External Illuminators
+
+=== Tools
+* An Allen wrench used to attach the mounting adapter plate to the housing (if applicable); size 3/16" (4.76 mm)
+
+* Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters).
+
+* Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
++
+[IMPORTANT]
+
+========================================
+
+For installations that require network cabling: typically use CAT 5e/6 cable. The total length of the cable should not exceed 328 feet (100 meters).
+
+All network cable extensions and repeaters must be shielded.
+
+========================================
+
+=== Laptop Computer
+
+* You will need to provide a laptop computer to use for configuration. If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight. Required software:
+
+** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
+
+** Internet Explorer browser version 11 or higher. +
+You can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link] (to enable access to the camera configuration application - see <<s_Logging-In-to-the-Camera>>).
+
+//[#s_Planning-Your-Installation]
+
+[#s_Plan-Your-Site]
+
+== Plan Your Site
+
+include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections of Installation Planning]
+
+[#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
+
+=== Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
+
+External illuminators can be used to enhance overview vehicle image quality, for front and/or rear capture. It is recommended to use an illuminator power supply separate from the Camera System's supply.
+
+include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
+
+
 
 
 
