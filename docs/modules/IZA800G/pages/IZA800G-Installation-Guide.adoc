@@ -66,8 +66,6 @@ toc::[]
 
 == Recommended Reading/Related Documents
 
-Contact {compname-long} for document ordering information.
-
 ._Click to show the Related Documents table_
 [%collapsible]
 ====
