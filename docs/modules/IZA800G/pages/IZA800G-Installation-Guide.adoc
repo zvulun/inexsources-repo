@@ -115,6 +115,42 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 == Prepare Components and Tools
 
+[#s_Package-Contents]
+
+=== Package Contents
+
+Carefully unpack the contents of the {generic-camera-name} package.
+
+[#f_Package-Contents]
+
+.Package Contents
+
+image::ROOT:/IZA800G/image1.png[image,width=460,height=345]
+
+[#f_Mounting-Adapter-Plate]
+
+.Mounting Adapter Plate
+
+image::ROOT:/IZA800G/image2.png[image,width=349,height=199]
+
+The package includes:
+
+* {shortprodname} ALPR All-in-one AI Camera System
+
+* LAN cable or field-mountable cable connector
+
+* Power/Signals cable or field-mountable cable connector
+
+* Mounting adapter plate with screws: 3 - 18-8 stainless steel thread-locking socket head screws, 1/4"-20 thread size, 5/8" long; Allen heads; used to attach the mounting adapter plate to the housing
+
+[NOTE]
+
+========================================
+
+If any parts are missing or damaged, please contact {compname-long}.
+
+========================================
+
 [#s_Required-Accessories]
 
 === Required Accessories
@@ -212,9 +248,9 @@ include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV 
 [width="100%",cols="40%,60%",options="header",]
 |===
 |Item |Considerations
-|*Surge Protection* a|* On power, network and data cables
+|*Surge Protection* a|* *On power, network and data cables*
 |*Correct, Stable and Sufficient Power* a|
-* Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+* *Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.*
 
 * Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
 
@@ -392,7 +428,7 @@ LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
 
 === Connecting the AC Electricity
 
-Connect a plug to the **+++<u>+++L+++</u>+++**ive, **+++<u>+++N+++</u>+++**eutral and Ground terminals of the power supply (see <<f_Typical-Camera-System-with-Illuminator-Wiring-Diagram>> and <<f_Typical-Camera-System-Wiring-Diagram>>).
+Connect a plug to the **+++<u>+++L+++</u>+++**ive ({plus}V, **+++<u>+++N+++</u>+++**eutral (-V) and Ground (Shield) terminals of the power supply (see <<f_Typical-Camera-System-with-Illuminator-Wiring-Diagram>> and <<f_Typical-Camera-System-Wiring-Diagram>>).
 
 Plug the power supply into the AC electricity. If required, switch the power supply unit ON.
 
