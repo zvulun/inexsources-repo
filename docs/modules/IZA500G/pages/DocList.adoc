@@ -2,7 +2,7 @@
 
 * xref:IZA500G:IZA500G-GR-MAN-002_Install_Calibration_Guide.adoc[IZA500G/GR Installation and Calibration Guide]
 
-* xref:IZA500G:IZA500G-GR-User-Guide.adoc[IZA500G/GR User Guide]
+* xref:IZA500G:IZA500G-GR-User-Guide.adoc[IZA500G/GR User Guide (in progress)]
 
 More documents can be found at https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[GDriveLink, window=_blank]
 
