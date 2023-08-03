@@ -166,6 +166,8 @@ For documentation and part numbers, see <<s_Related-Documents>>.
 
 ========================================
 
+For installations that require network cabling: typically use CAT 5e/6 cable. The total length of the cable should not exceed 328 feet (100 meters).
+
 All network cable extensions and repeaters must be shielded.
 
 ========================================
