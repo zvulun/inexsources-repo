@@ -177,7 +177,7 @@ KEEP THE TRIGGER WIRES ISOLATED. SHORTING THE TRIGGER WIRES MAY DAMAGE THE UNIT 
 
 .Cable Details
 
-image::./UserGuide/image4.png[image,width=411,height=280]
+image::ROOT:IZA500G/image4.png[image,width=411,height=280]
 
 [#f_Dimensions]
 
