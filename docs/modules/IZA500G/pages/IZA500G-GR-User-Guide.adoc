@@ -1,4 +1,5 @@
 :docproductname: IZA500G/GR
+:fileproductname: IZA500G-GR
 :shortprodname: IZA500G
 :shortprodname2: IZA500GR
 :generic-camera-name: ALPR Camera System
@@ -79,8 +80,10 @@ Contact {compname-long} for document ordering information.
 [width="100%",cols="51%,49%",options="header",]
 |===
 |Doc. No. |Title
-|xref:IZA500G:DocList.adoc[{shortprodname}-G-xx-TDSHEET] |{shortprodname} Technical Data Sheet
-|xref:IZA500GR:DocList.adoc[{shortprodname2}-GR-xx-TDSHEET] |{shortprodname2} Technical Data Sheet
+|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002b] |{docproductname} Installation Guide
+|xref:IZA500G:DocList.adoc[{fileproductname}-TECH-001] |{docproductname} Quick Start Guide
+|xref:IZA500G:DocList.adoc[{shortprodname}-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+|xref:IZA500GR:DocList.adoc[{shortprodname2}-xx-TDSHEET] |{shortprodname2} Technical Data Sheet
 |xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 |xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
 |xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
@@ -127,84 +130,19 @@ Carefully unpack the contents of the {generic-camera-name} package.
 
 .Package Contents
 
-image::./UserGuide/image1.png[image,width=288,height=355]
-
-The package includes:
-
-* {docproductname} ALPR All-in-one AI Camera System
-
-[NOTE]
-
-========================================
-
-If any parts are missing or damaged, please contact {compname-long}.
-
-========================================
-
-[#s_Camera-System-Details-and-Dimensions]
-
-=== Camera System Details and Dimensions
-
-The {docproductname} ALPR All-in-one AI Camera System is suitable for parking, car wash, access control and security applications, with different models available for different distances and illumination requirements.
-include::ROOT:partial$IZA800G/p-camera-details-intro.adoc[Camera Details Introduction]
-
-
-[#f_Front-View-of-the-ALPR-Camera-System]
-
-.Front View of the {generic-camera-name}
-
-image::./UserGuide/image2.png[image,width=624,height=280]
-
-[#f_Underside-of-the-ALPR-Camera-System-and-Cables]
-
-.Underside of the {generic-camera-name} and Cables
-
-image::./UserGuide/image3.png[image,width=624,height=223]
-
-[CAUTION]
-
-========================================
-
-KEEP THE TRIGGER WIRES ISOLATED. SHORTING THE TRIGGER WIRES MAY DAMAGE THE UNIT AND VOID THE WARRANTY.
-
-*+++NOTE:+++* The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
-
-========================================
-
-[#f_Cable-Details]
-
-.Cable Details
-
-image::./UserGuide/image4.png[image,width=411,height=280]
+image::ROOT:/IZA500G/image1.png[image,width=288,height=355]
 
 [#f_Dimensions]
 
-image::./UserGuide/image5.png[image,width=315,height=205]
+image::ROOT:/IZA500G/image5.png[image,width=315,height=205]
 
-image::./UserGuide/image6.png[image,width=463,height=224]
+image::ROOT:/IZA500G/image6.png[image,width=463,height=224]
 
 .Dimensions
 
-image::./UserGuide/image7.png[image,width=489,height=252]
+image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 
 [#s_Multi-flash-Technology-IZA500G]
-
-=== Multi-flash Technology ({shortprodname})
-
-include::ROOT:partial$/IZA800G/p-multiflash-technology.adoc[Multi-flash Technology]
-
-[#s_Built-in-White-LEDs-White-LED-Models]
-
-=== Built-in White LEDs (White LED Models)
-
-include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
-
-[#f_White-LED-Positions]
-
-.{docproductname} White LED Positions
-
-image::./UserGuide/image9.png[image,width=279,height=215]
-
 
 [#s_Specifications]
 
@@ -222,9 +160,28 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 
 .{shortprodname2} Technical Specifications
 
-include::ROOT:partial$IZA500GR/p-IZA500GR-spec-tbl-start.adoc[IZA500GR Specification Table]
+include::ROOT:partial$IZA500GR/p-IZA500GR-spec-tbl-start.adoc[IZA500GR Specification Table Start]
 
 include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
+
+[CAUTION]
+
+========================================
+
+KEEP THE TRIGGER WIRES ISOLATED. SHORTING THE TRIGGER WIRES MAY DAMAGE THE UNIT AND VOID THE WARRANTY.
+
+*+++NOTE:+++* The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
+
+========================================
+
+[#f_Cable-Details]
+
+.Cable Details
+
+image::./UserGuide/image4.png[image,width=411,height=280]
+
+
+
 
 [#s_Required-Accessories-Not-Included]
 
