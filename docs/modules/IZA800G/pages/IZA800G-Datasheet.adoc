@@ -170,7 +170,7 @@ a|
 [discrete]
 == IZA800G-S/L/XL-DRW, IRW LED Positions
 
-image::ROOT:IZA800G/image9.png[image,width=315,height=205]
+image::ROOT:IZA800G/image9.png[image,width=223,height=171]
 
 [discrete]
 == Dimensions (inches/cm)
