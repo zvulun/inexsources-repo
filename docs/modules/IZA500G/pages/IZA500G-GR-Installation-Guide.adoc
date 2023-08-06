@@ -78,7 +78,7 @@ toc::[]
 [width="100%",cols="51%,49%",options="header",]
 |===
 |Doc. No. |Title
-|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002b] |{docproductname} User Guide
+|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002a] |{docproductname} User Guide
 |xref:IZA500G:DocList.adoc[{fileproductname}-TECH-001] |{docproductname} Quick Start Guide
 |xref:IZA500G:DocList.adoc[{shortprodname}-xx-TDSHEET] |{shortprodname} Technical Data Sheet
 |xref:IZA500GR:DocList.adoc[{shortprodname2}-xx-TDSHEET] |{shortprodname2} Technical Data Sheet
@@ -574,4 +574,4 @@ include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
 
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-Doc. No. IZA500G-GR-MAN-002b
+Doc. No. {fileproductname}-MAN-002b

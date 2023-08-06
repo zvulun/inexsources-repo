@@ -268,5 +268,5 @@ include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
 
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-Doc. No. IZA800G-MAN-002a
+Doc. No. {shortprodname}-MAN-002a
 

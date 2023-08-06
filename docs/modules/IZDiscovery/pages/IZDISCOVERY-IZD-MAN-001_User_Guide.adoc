@@ -20,7 +20,7 @@
 
 = {docproductname} User Guide
 
-xref:IZDiscovery:DocList.adoc[<- Back to {shortprodname} Documents]
+xref:IZDiscovery:DocList.adoc[<- Back to {shortprodname} Documents/Software]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
