@@ -1,5 +1,5 @@
-:docproductname: IZA800G
-:shortprodname: IZA800G
+:docproductname: IZA500G
+:shortprodname: IZA500G
 :generic-camera-name: ALPR Camera System
 
 // These attributes have been soft set
@@ -14,7 +14,7 @@
 // Remember to unset all non-relevant attributes
 
 
-:xref-type-IZA800G:
+:xref-type-IZA500G:
 :layout-type-technote:
 
 //enable the TOC to be placed in a specific position
@@ -22,7 +22,7 @@
 
 = {docproductname} Datasheet
 
-xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
+xref:IZA500G:DocList.adoc[<- Back to {shortprodname} Documents]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
@@ -64,7 +64,7 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 [discrete]
 == Key Features and Benefits
-* [*] Designed for Tolling, ITS and Traffic Enforcement Applications
+* [*] Designed for Parking, Car Wash, Access Control and Security
 
 * [*] NVIDIA® Artificial Intelligence (AI) GPU processor for lightning fast processing at the edge
 
@@ -101,55 +101,32 @@ image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
 [discrete]
 == Specifications
 
-include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specification Table Start]
+
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
 
 [discrete]
 == Ordering Information
 
-[width="100%",cols="13%,30%,30%,27%",options="header",]
+[width="100%",cols="13%,30%,57%",options="header",]
 |===
-|Product 2+^|Available Part Numbers** |Product Name
+|Product |Available Part Numbers |Product Name
 |{shortprodname} a|
 * {shortprodname}-S-DR
 
-* {shortprodname}-S-DR-CAB15F
-
 * {shortprodname}-S-DRW
-
-* {shortprodname}-S-DRW-CAB15F
 
 * {shortprodname}-S-IR
 
-* {shortprodname}-S-IR-CAB15F
-
 * {shortprodname}-S-IRW
 
-* {shortprodname}-S-IRW-CAB15F
-
-a|
 * {shortprodname}-L-DR
-
-* {shortprodname}-L-DR-CAB15F
 
 * {shortprodname}-L-DRW
 
-* {shortprodname}-L-DRW-CAB15F
-
 * {shortprodname}-L-IR
 
-* {shortprodname}-L-IR-CAB15F
-
 * {shortprodname}-L-IRW
-
-* {shortprodname}-L-IRW-CAB15F
-
-* {shortprodname}-XL-DR
-
-* {shortprodname}-XL-DR-CAB15F
-
-* {shortprodname}-XL-DRW
-
-* {shortprodname}-XL-DRW-CAB15F
 
 |ALPR All-in-one AI Camera System
 |===
@@ -159,27 +136,21 @@ a|
 [discrete]
 == Standard Package Contents
 
-* IZA800G ALPR All-in-one AI Camera System
-
-* LAN cable connector (field-mountable)
-
-* Power/Signals cable connector (field-mountable)
-
-* Mounting adapter plate with screws
+* {shortprodname} ALPR All-in-one AI Camera System
 
 [discrete]
-== IZA800G-S/L/XL-DRW, IRW LED Positions
+== IZA500G-S/L-DRW, IRW LED Positions
 
 image::ROOT:IZA800G/image9.png[image,width=223,height=171]
 
 [discrete]
 == Dimensions (inches/cm)
 
-image::ROOT:IZA800G/image5.png[image,width=315,height=205]
+image::ROOT:/IZA500G/image5.png[image,width=315,height=205]
 
-image::ROOT:IZA800G/image6.png[image,width=463,height=224]
+image::ROOT:/IZA500G/image6.png[image,width=463,height=224]
 
-image::ROOT:IZA800G/image7.png[image,width=489,height=252]
+image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 
 [discrete]
 == Power/Signals Cable Connector Pinout
