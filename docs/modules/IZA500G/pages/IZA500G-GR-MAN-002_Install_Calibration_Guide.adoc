@@ -205,7 +205,7 @@ include::ROOT:partial$/IZA800G/p-white-LEDs.adoc[White LEDs]
 
 .{docproductname} White LED Positions
 
-image::./UserGuide/image9.png[image,width=279,height=215]
+image::ROOT:IZA500G/image9.png[image,width=223,height=171]
 
 
 [#s_Specifications]
