@@ -71,7 +71,7 @@ After mounting, remove the protective film from the camera's front window.+++<br
 You can use xref:IZDiscovery:DocList.adoc[{software-discovery}] to find the desired camera and change its network settings
 
 [discrete]
-== Checklist
+=== Checklist
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
@@ -79,21 +79,28 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 [#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
 
-== Typical Camera System with Illuminator Wiring Diagram
+[discrete]
+=== Typical Camera System with Illuminator Wiring Diagram
 
 //.Typical Camera System with Illuminator Wiring Diagram
 
 image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 
 [#f_Typical-Camera-System-Wiring-Diagram]
-[caption=]
-.Typical Camera System Wiring Diagram
+
+[discrete]
+=== Typical Camera System Wiring Diagram
+
+//.Typical Camera System Wiring Diagram
 
 image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
-.Legend
+[discrete]
+=== Legend
+
+//.Legend
 
 include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
 
