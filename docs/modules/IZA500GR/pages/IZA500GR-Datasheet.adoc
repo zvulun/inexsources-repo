@@ -1,5 +1,5 @@
-:docproductname: IZA500G
-:shortprodname: IZA500G
+:docproductname: IZA500GR
+:shortprodname: IZA500GR
 :generic-camera-name: ALPR Camera System
 
 // These attributes have been soft set
@@ -22,7 +22,7 @@
 
 = {docproductname} Datasheet
 
-xref:IZA500G:DocList.adoc[<- Back to {shortprodname} Documents]
+xref:IZA500GR:DocList.adoc[<- Back to {shortprodname} Documents]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
@@ -101,7 +101,7 @@ image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
 [discrete]
 == Specifications
 
-include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specification Table Start]
+include::ROOT:partial$IZA500GR/p-IZA500GR-spec-tbl-start.adoc[IZA500GR Specification Table Start]
 
 include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
 

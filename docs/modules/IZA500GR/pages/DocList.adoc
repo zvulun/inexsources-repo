@@ -1,5 +1,7 @@
 = IZA500GR Documents List
 
+* xref:IZA500GR:IZA500GR-Datasheet.adoc[IZA500GR Datasheet]
+
 * xref:IZA500G:IZA500G-GR-User-Guide.adoc[IZA500G/GR User Guide]
 
 * xref:IZA500G:IZA500G-GR-Installation-Guide.adoc[IZA500G/GR Installation Guide]
