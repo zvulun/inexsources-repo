@@ -1,5 +1,7 @@
-:docproductname: IZA800G
-:shortprodname: IZA800G
+:docproductname: IZA500G/GR
+:fileproductname: IZA500G-GR
+:shortprodname: IZA500G
+:shortprodname2: IZA500GR
 :generic-camera-name: ALPR Camera System
 
 // These attributes have been soft set
@@ -14,7 +16,7 @@
 // Remember to unset all non-relevant attributes
 
 
-:xref-type-IZA800G:
+:xref-type-IZA500G:
 :layout-type-technote:
 
 //enable the TOC to be placed in a specific position
@@ -22,7 +24,9 @@
 
 = {docproductname} Quick Start Guide
 
-xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
+xref:IZA500G:DocList.adoc[<- Back to {shortprodname} Documents]
+
+xref:IZA500GR:DocList.adoc[<- Back to {shortprodname2} Documents]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
@@ -62,7 +66,7 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 // ====
 
-Click xref:IZA800G:DocList.adoc[here] for full documentation and software.
+Click these links for xref:IZA500G:DocList.adoc[IZA500G] and xref:IZA500GR:DocList.adoc[IZA500GR] full documentation and software.
 
 [sidebar]
 You will need: Laptop with Windows 10 or above;+++<br>+++
@@ -79,14 +83,12 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 [#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
 
-== Typical Camera System with Illuminator Wiring Diagram
-
-//.Typical Camera System with Illuminator Wiring Diagram
+.Typical Camera System with Illuminator Wiring Diagram
 
 image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 
 [#f_Typical-Camera-System-Wiring-Diagram]
-[caption=]
+
 .Typical Camera System Wiring Diagram
 
 image::ROOT:IZA800G/image18.png[image,width=424,height=356]
