@@ -96,13 +96,10 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .^| Sunshade
 
-2.5+.^| Accessories Available
+2.4+.^| Accessories Available
 
-.^| xref:IZPWR:DocList.adoc[DIN Power Supplies]
-
-
-
-.^| xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
+.^| xref:IZPWR:DocList.adoc[DIN Power Supplies] +
+xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 
 
 

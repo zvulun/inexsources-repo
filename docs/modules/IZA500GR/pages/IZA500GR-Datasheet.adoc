@@ -112,21 +112,13 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 |===
 |Product |Available Part Numbers |Product Name
 |{shortprodname} a|
-* {shortprodname}-S-DR
+* {shortprodname}-DR
 
-* {shortprodname}-S-DRW
+* {shortprodname}-DRW
 
-* {shortprodname}-S-IR
+* {shortprodname}-IR
 
-* {shortprodname}-S-IRW
-
-* {shortprodname}-L-DR
-
-* {shortprodname}-L-DRW
-
-* {shortprodname}-L-IR
-
-* {shortprodname}-L-IRW
+* {shortprodname}-IRW
 
 |ALPR All-in-one AI Camera System
 |===
@@ -137,7 +129,7 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 * {shortprodname} ALPR All-in-one AI Camera System
 
 [discrete]
-== {shortprodname}-S/L-DRW, IRW LED Positions
+== {shortprodname}-DRW, IRW LED Positions
 
 image::ROOT:IZA500G/image9.png[image,width=273,height=209]
 
