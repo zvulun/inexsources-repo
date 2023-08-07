@@ -93,7 +93,7 @@ KEEP THE TRIGGER WIRES ISOLATED. SHORTING THE TRIGGER WIRES MAY DAMAGE THE UNIT 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 [discrete]
-=== Typical Camera System Wiring Diagram
+=== Camera System Wiring Diagram
 
 // .Typical Camera System Wiring Diagram
 
@@ -102,7 +102,7 @@ image::ROOT:IZA500G/image17.png[image,width=624,height=203]
 [#f_Typical-Camera-System-with-Inductive-Loop-Wiring-Diagram]
 
 [discrete]
-=== Typical Camera System with Inductive Loop Wiring Diagram
+=== Camera System with Inductive Loop Wiring Diagram
 
 // .Typical Camera System with Inductive Loop Wiring Diagram
 
@@ -111,7 +111,7 @@ image::ROOT:IZA500G/image18.png[image,width=624,height=279]
 [#f_Typical-Camera-System-with-I-O-Module-Wiring-Diagram]
 
 [discrete]
-=== Typical Camera System with I/O Module Wiring Diagram
+=== Camera System with I/O Module Wiring Diagram
 
 // .Typical Camera System with I/O Module Wiring Diagram
 

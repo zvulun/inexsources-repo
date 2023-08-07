@@ -80,7 +80,7 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 [#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
 
 [discrete]
-=== Typical Camera System with Illuminator Wiring Diagram
+=== Camera System with Illuminator Wiring Diagram
 
 //.Typical Camera System with Illuminator Wiring Diagram
 
@@ -89,7 +89,7 @@ image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 [discrete]
-=== Typical Camera System Wiring Diagram
+=== Camera System Wiring Diagram
 
 //.Typical Camera System Wiring Diagram
 
