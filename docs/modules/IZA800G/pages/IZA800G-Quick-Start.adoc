@@ -98,7 +98,7 @@ image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
 [discrete]
-== Legend
+=== Legend
 
 //.Legend
 
