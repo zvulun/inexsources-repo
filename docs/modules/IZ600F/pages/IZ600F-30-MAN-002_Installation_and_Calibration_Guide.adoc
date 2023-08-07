@@ -1,0 +1,4 @@
+:docproductname: IZ600F
+:shortprodname: IZ600F
+:generic-camera-name: camera
+

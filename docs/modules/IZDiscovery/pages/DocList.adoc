@@ -2,5 +2,7 @@
 
 * xref:IZDiscovery:IZDISCOVERY-IZD-MAN-001_User_Guide.adoc[IZ Discovery User Guide]
 
+* https://drive.google.com/drive/folders/1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq?usp=share_link[IZ Discovery Software Components, window=_blank]
+
 More documents/software can be found at https://drive.google.com/drive/folders/1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq?usp=share_link[GDriveLink, window=_blank]
 
