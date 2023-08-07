@@ -71,7 +71,7 @@ After mounting, remove the protective film from the camera's front window.+++<br
 You can use xref:IZDiscovery:DocList.adoc[{software-discovery}] to find the desired camera and change its network settings
 
 [discrete]
-== Checklist
+=== Checklist
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 

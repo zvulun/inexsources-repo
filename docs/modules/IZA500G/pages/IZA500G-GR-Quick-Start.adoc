@@ -81,26 +81,53 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 {empty}
 
-[#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
+[CAUTION]
 
-.Typical Camera System with Illuminator Wiring Diagram
+========================================
 
-image::ROOT:IZA800G/image17.png[image,width=530,height=324]
+KEEP THE TRIGGER WIRES ISOLATED. SHORTING THE TRIGGER WIRES MAY DAMAGE THE UNIT AND VOID THE WARRANTY.
+
+========================================
+
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
-.Typical Camera System Wiring Diagram
+[discrete]
+=== Typical Camera System Wiring Diagram
 
-image::ROOT:IZA800G/image18.png[image,width=424,height=356]
+// .Typical Camera System Wiring Diagram
+
+image::ROOT:IZA500G/image17.png[image,width=624,height=203]
+
+[#f_Typical-Camera-System-with-Inductive-Loop-Wiring-Diagram]
+
+[discrete]
+=== Typical Camera System with Inductive Loop Wiring Diagram
+
+// .Typical Camera System with Inductive Loop Wiring Diagram
+
+image::ROOT:IZA500G/image18.png[image,width=624,height=279]
+
+[#f_Typical-Camera-System-with-I-O-Module-Wiring-Diagram]
+
+[discrete]
+=== Typical Camera System with I/O Module Wiring Diagram
+
+// .Typical Camera System with I/O Module Wiring Diagram
+
+image::ROOT:IZA500G/image19.png[image,width=624,height=468]
 
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
-.Legend
+[discrete]
+=== Legend
 
-include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
+// .Wiring Diagram Legend/Bill of Materials
+
+include::ROOT:partial$IZA500G/p-IZA500G-wiring-table.adoc[IZA500G Wiring Table]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-TECH-001
+Doc. No. {fileproductname}-TECH-001
 
 
