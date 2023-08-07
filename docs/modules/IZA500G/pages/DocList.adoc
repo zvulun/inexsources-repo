@@ -2,7 +2,7 @@
 
 * xref:IZA500G:IZA500G-Datasheet.adoc[IZA500G Datasheet]
 
-* xref:IZA500G:IZA500G-GR-Quick-Start.adoc[IZA500G/GR Quick Start Guide]]
+* xref:IZA500G:IZA500G-GR-Quick-Start.adoc[IZA500G/GR Quick Start Guide]
 
 * xref:IZA500G:IZA500G-GR-User-Guide.adoc[IZA500G/GR User Guide]
 
