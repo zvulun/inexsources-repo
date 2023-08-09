@@ -1,4 +1,6 @@
 = IZ600F Documents List
 
+* xref:IZ600F:IZ600F-30-MAN-002_Installation_and_Calibration_Guide.adoc[IZA600F Installation and Calibration Guide (in progress)]
+
 More documents can be found at https://drive.google.com/drive/folders/1DVDBey9z7SnCF88wLhboAhjOkmoHQrfU?usp=share_link[GDriveLink, window=_blank]
 
