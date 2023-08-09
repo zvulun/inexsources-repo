@@ -75,8 +75,9 @@ Related documents and software can be found at the following links:
 [width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
-|xref:IZ600F:DocList.adoc[{shortprodname}-TECH-003] |{shortprodname} Quick Start
-|https://drive.google.com/drive/folders/1DVDBey9z7SnCF88wLhboAhjOkmoHQrfU?usp=sharing[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet
+|xref:IZ600F:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide
+|xref:IZ600F:DocList.adoc[{shortprodname}-TECH-003] |{shortprodname} Quick Start Guide
+|xref:IZ600F:DocList.adoc[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet
 |https://drive.google.com/drive/folders/10ybds1jlLa9aYitLS2Zfc_3vGRvr2QP1?usp=sharing[MOUNT-{shortprodname}-PRSNT-010] |{shortprodname} Camera Mount Installation documentation
 |https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[{software-discovery} Utility] |{software-discovery} Utility software components
 |https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=sharing[RV-ALPR-MAN-001] |{software-ALPR-long} User Guide
