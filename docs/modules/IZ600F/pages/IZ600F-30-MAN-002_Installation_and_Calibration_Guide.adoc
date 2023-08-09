@@ -1334,7 +1334,7 @@ Read the following instructions before adjusting the camera's position as part o
 
 *+++<u>+++DO NOT OVERTIGHTEN the two Roll screws (3). Excess force can cause the screws to break! There are two Roll screws - one on each side.+++</u>+++*
 
-*+++<u>+++========================================+++</u>+++*
+========================================
 
 To aim the camera, adjust the Pan (screw 2), Tilt (screw 1) and Roll (screw 3) as described in these instructions, and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>). Use the 3 mm Allen/hex key provided to loosen and tighten the adjustment screws.
 
