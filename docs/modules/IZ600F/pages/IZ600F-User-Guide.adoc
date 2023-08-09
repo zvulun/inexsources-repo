@@ -42,7 +42,7 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 //[discrete]
 //=== User Guide
 
-// get proper image
+// correct full camera image
 image:ROOT:image$/IZ600F/IZ600F-30-FIG-001_Full_View.png[Picture of Camera,400,align=left]
 
 // image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
@@ -54,33 +54,17 @@ image:ROOT:image$/IZ600F/IZ600F-30-FIG-001_Full_View.png[Picture of Camera,400,a
 
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
 toc::[]
 
-
-
-[#s_About-this-Document]
-
-== About this Document
-
-[#s_Who-Should-Read-this-Document]
-
-=== Who Should Read this Document
-
-This document is for:
-
-* *Technical personnel* who need to install an {shortprodname} camera in an ALPR system
-
-[NOTE]
-
-========================================
-
-This document does not take the place of training by {compname-possess} certified specialists. Contact {compname-long} to schedule training.
-
-========================================
+====
 
 [#s_Related-Documents]
 
-=== Related Documents and Software
+== Related Documents and Software
 
 Related documents and software can be found at the following links:
 
@@ -88,22 +72,22 @@ Related documents and software can be found at the following links:
 
 .Related Documents and Software
 
-[width="100%",cols="30%,56%,14%",options="header",]
+[width="100%",cols="45%,55%",options="header",]
 |===
-|Doc. No. |Title |Doc. Version
-|https://drive.google.com/drive/folders/1DVDBey9z7SnCF88wLhboAhjOkmoHQrfU?usp=sharing[{shortprodname}-TECH-003] |{shortprodname} Quick Start |1.xx
-|https://drive.google.com/drive/folders/1DVDBey9z7SnCF88wLhboAhjOkmoHQrfU?usp=sharing[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet |Latest
-|https://drive.google.com/drive/folders/10ybds1jlLa9aYitLS2Zfc_3vGRvr2QP1?usp=sharing[MOUNT-{shortprodname}-PRSNT-010] |{shortprodname} Camera Mount Installation documentation |1.xx
-|https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[{software-discovery} Utility] |{software-discovery} Utility software components |Latest
-|https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=sharing[RV-ALPR-MAN-001] |{software-ALPR-long} User Guide |Latest
-|https://drive.google.com/drive/folders/1pN8lGgXbNLrHVzWFKTg0gS-hl_kU5jD-?usp=share_link[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software) |4.xx
-|https://drive.google.com/drive/folders/1xoZCcRySjtV8UCjKUWQyDaUZjhPrUJbm?usp=sharing[{hw-outdoor-processor}-REV-B1-TDSHEET] |{hw-outdoor-processor} AI Outdoor Data Processing Unit: Technical Data Sheet |Latest
-|https://drive.google.com/drive/folders/10NTnof7w9C9P7rWZST_8yUzmRJjkPAIe?usp=sharing[{hw-indoor-processor}-B-MAN-001] |{hw-indoor-processor} Indoor AI Data Processing Unit: Installation and User Guide |Latest
-|https://drive.google.com/drive/folders/12Sp-mKCHTHhyvQCypIsczUWTbX2_u3tH?usp=share_link[{hw-gate-controller}-REV-x-TDSHEET] |Gate Controller and Indoor AI Data Processing Unit: Technical Data Sheet |
-|https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=sharing[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide |1.xx
-|https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRSRFC-REV-x-TDSHEET] |IZPWR Surface Mount Power Supplies Technical Data Sheet |Latest
-|https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet |Latest
-|https://drive.google.com/drive/folders/190lmdZ4xQSpx2Ksn-XVgOINE6D14rhSv?usp=sharing[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance |1.xx
+|Doc. No. |Title
+|xref:IZ600F:DocList.adoc[{shortprodname}-TECH-003] |{shortprodname} Quick Start
+|https://drive.google.com/drive/folders/1DVDBey9z7SnCF88wLhboAhjOkmoHQrfU?usp=sharing[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet
+|https://drive.google.com/drive/folders/10ybds1jlLa9aYitLS2Zfc_3vGRvr2QP1?usp=sharing[MOUNT-{shortprodname}-PRSNT-010] |{shortprodname} Camera Mount Installation documentation
+|https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[{software-discovery} Utility] |{software-discovery} Utility software components
+|https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=sharing[RV-ALPR-MAN-001] |{software-ALPR-long} User Guide
+|https://drive.google.com/drive/folders/1pN8lGgXbNLrHVzWFKTg0gS-hl_kU5jD-?usp=share_link[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+|https://drive.google.com/drive/folders/1xoZCcRySjtV8UCjKUWQyDaUZjhPrUJbm?usp=sharing[{hw-outdoor-processor}-REV-B1-TDSHEET] |{hw-outdoor-processor} AI Outdoor Data Processing Unit: Technical Data Sheet
+|https://drive.google.com/drive/folders/10NTnof7w9C9P7rWZST_8yUzmRJjkPAIe?usp=sharing[{hw-indoor-processor}-B-MAN-001] |{hw-indoor-processor} Indoor AI Data Processing Unit: Installation and User Guide
+|https://drive.google.com/drive/folders/12Sp-mKCHTHhyvQCypIsczUWTbX2_u3tH?usp=share_link[{hw-gate-controller}-REV-x-TDSHEET] |Gate Controller and Indoor AI Data Processing Unit: Technical Data Sheet
+|https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=sharing[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
+|https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRSRFC-REV-x-TDSHEET] |IZPWR Surface Mount Power Supplies Technical Data Sheet
+|https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+|https://drive.google.com/drive/folders/190lmdZ4xQSpx2Ksn-XVgOINE6D14rhSv?usp=sharing[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
 
 [#s_Applicability]

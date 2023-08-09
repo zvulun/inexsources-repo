@@ -85,7 +85,7 @@ toc::[]
 |xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 |xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
 |xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
-|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-IZD-MAN-001] |{software-discovery} User Guide
+|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
 |xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
 |xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 |xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide

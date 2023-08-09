@@ -195,4 +195,4 @@ include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-Doc. No. IZDISCOVERY-IZD-MAN-001
+Doc. No. IZDISCOVERY-MAN-001
