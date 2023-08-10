@@ -80,8 +80,8 @@ toc::[]
 |Doc. No. |Title
 |xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002a] |{docproductname} User Guide
 |xref:IZA500G:DocList.adoc[{fileproductname}-TECH-001] |{docproductname} Quick Start Guide
-|xref:IZA500G:DocList.adoc[{shortprodname}-xx-TDSHEET] |{shortprodname} Technical Data Sheet
-|xref:IZA500GR:DocList.adoc[{shortprodname2}-xx-TDSHEET] |{shortprodname2} Technical Data Sheet
+|xref:IZA500G:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+|xref:IZA500GR:DocList.adoc[{shortprodname2}-REV-xx-TDSHEET] |{shortprodname2} Technical Data Sheet
 |xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 |xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
 |xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
