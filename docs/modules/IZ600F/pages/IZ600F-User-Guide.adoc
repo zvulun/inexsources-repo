@@ -1040,7 +1040,7 @@ Home|Live View|Admin menu (upper right). Use the default user/password = root/IZ
 
 **Set the Access Level to Full, with Unencrypted Authentication (see <<s_Adding-a-User>>), enable the RTSP Service and select a port**. This will enable you to receive the video stream without any special user identification; you can define other users and their roles/permissions later if needed.
 
-*Set the Max. Video Encoding before setting any other parameters (see Max. Video Encoding in Table <<t_Basic-Setup-Parameters>>. Changing this parameter will require a reset, which can change some of the other parameters and their ranges.
+*Set the Max. Video Encoding before setting any other parameters (see Max. Video Encoding in <<t_Basic-Setup-Parameters>>. Changing this parameter will require a reset, which can change some of the other parameters and their ranges.
 
 [#t_Basic-Setup-Parameters]
 
