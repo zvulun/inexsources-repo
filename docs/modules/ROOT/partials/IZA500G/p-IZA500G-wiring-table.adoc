@@ -27,8 +27,14 @@ For 2 sets of components, use {compname-short} P/N:
 |E a|*Gate* |Supplied by integrator
 |===
 
-*Note:* For device configuration instructions, see the
+*Notes:*
+
+* For device configuration instructions, see the
 xref:LOOP-DTCR-L:DocList.adoc[{hw-loopdetect-l}]
 and
 xref:IZIO:DocList.adoc[{hw-iocontroller}]
-guides. If you need to use an external illuminator, see the https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Illuminator] guide for a table of Camera-to-Illuminator Typical Use Cases.
+guides.
+
+* If you need to use an external illuminator, see the xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator Series User Guide]  for a table of Camera-to-Illuminator Typical Use Cases.
+
+* The IZ4POE is required for the PoE{plus} input power option.
