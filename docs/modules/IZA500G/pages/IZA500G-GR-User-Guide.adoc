@@ -92,6 +92,7 @@ toc::[]
 |xref:IZPWR:DocList.adoc[IZPWRSRFC-REV-x-TDSHEET] |IZPWR Surface Mount Power Supplies Technical Data Sheet
 |xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
 |xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
+|xref:IZ4POE:DocList.adoc[{hw-poeinjector}-DIN-REV-1_0-TDSHEET] |{hw-poeinjector} Gigabit 4 Ports PoE++ Injector Technical Data Sheet
 |xref:LOOP-DTCR-L:DocList.adoc[{hw-loopdetect-l}-MAN-001] |{hw-loopdetect-l} Loop Detector Installation and User Guide
 |xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
@@ -174,7 +175,7 @@ The trigger wires have the same functions and colors as shown here, but the labe
 
 .Cable Details
 
-image::ROOT:IZA500G/image4.png[image,width=411,height=280]
+image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
 [#s_Required-Accessories-Not-Included]
 
