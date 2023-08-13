@@ -110,9 +110,9 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 [discrete]
 == Ordering Information
 
-[width="100%",cols="13%,30%,57%",options="header",]
+[width="100%",cols="13%,30%,30%,27%",options="header",]
 |===
-|Product |Available Part Numbers |Product Name
+|Product 2+^|Available Part Numbers |Product Name
 |{shortprodname} a|
 * {shortprodname}-S-DR
 
@@ -125,6 +125,8 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 * {shortprodname}-S-IR-P48
 
 * {shortprodname}-S-IRW
+
+a|
 
 * {shortprodname}-L-DR
 
