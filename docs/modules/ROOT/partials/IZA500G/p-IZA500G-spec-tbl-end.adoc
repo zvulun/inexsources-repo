@@ -86,7 +86,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .2+.^| Power
 .^| Input Voltage Options
-.^a| * No model suffix: 12-24 VDC {plus}/- 10%, Class 2 Low-Voltage
+.^a| * No model suffix: 24 VDC {plus}/- 10%, Class 2 Low-Voltage
 * With P48 model suffix: 48 VDC {plus}/- 10%, Class 2 Low-Voltage or PoE{plus}
 
 
