@@ -87,7 +87,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .2+.^| Power
 .^| Input Voltage Options
 .^a| * No model suffix: 12-24 VDC {plus}/- 10%, Class 2 Low-Voltage
-* With P48 model suffix: 48 VDC {plus}/- 10%, Class 2 Low-Voltage or PoE+
+* With P48 model suffix: 48 VDC {plus}/- 10%, Class 2 Low-Voltage or PoE{plus}
 
 
 .^| Power Consumption
@@ -114,4 +114,4 @@ xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 |===
 
 +++*+++ LPR Capture Distance is measured from camera to plate +++<br>+++
-+++**+++ The IZ4POE is required for the PoE+ input power option
++++**+++ The IZ4POE is required for the PoE{plus} input power option
