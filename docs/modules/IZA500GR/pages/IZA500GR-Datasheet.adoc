@@ -147,7 +147,7 @@ image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 [discrete]
 == LAN and Power/Signals Cable Details
 
-image::ROOT:IZA500G/image4.png[image,width=493,height=336]
+image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
