@@ -116,17 +116,25 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 |{shortprodname} a|
 * {shortprodname}-S-DR
 
+* {shortprodname}-S-DR-P48
+
 * {shortprodname}-S-DRW
 
 * {shortprodname}-S-IR
+
+* {shortprodname}-S-IR-P48
 
 * {shortprodname}-S-IRW
 
 * {shortprodname}-L-DR
 
+* {shortprodname}-L-DR-P48
+
 * {shortprodname}-L-DRW
 
 * {shortprodname}-L-IR
+
+* {shortprodname}-L-IR-P48
 
 * {shortprodname}-L-IRW
 

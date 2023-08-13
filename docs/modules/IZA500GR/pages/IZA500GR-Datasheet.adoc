@@ -116,9 +116,13 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 |{shortprodname} a|
 * {shortprodname}-DR
 
+* {shortprodname}-DR-P48
+
 * {shortprodname}-DRW
 
 * {shortprodname}-IR
+
+* {shortprodname}-IR-P48
 
 * {shortprodname}-IRW
 
@@ -152,5 +156,4 @@ image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
 Doc. No. {shortprodname}-REV-F3-TDSHEET
-
 
