@@ -166,8 +166,6 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 
 ========================================
 
-KEEP THE TRIGGER WIRES ISOLATED. SHORTING THE TRIGGER WIRES MAY DAMAGE THE UNIT AND VOID THE WARRANTY.
-
 *+++NOTE:+++* The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
 
 ========================================

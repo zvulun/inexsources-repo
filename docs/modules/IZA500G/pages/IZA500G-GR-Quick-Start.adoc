@@ -81,15 +81,6 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 {empty}
 
-[CAUTION]
-
-========================================
-
-KEEP THE TRIGGER WIRES ISOLATED. SHORTING THE TRIGGER WIRES MAY DAMAGE THE UNIT AND VOID THE WARRANTY.
-
-========================================
-
-
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 [discrete]

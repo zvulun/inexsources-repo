@@ -80,6 +80,8 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 * [*] Anti-glare technology for all lighting environments
 
+* [*] Flexible power input options - 12-24 VDC, or 48 VDC/PoE+
+
 * [*] Wide temperature range - operating from -22°F to 140°F (-30°C to 60°C)
 
 * [*] IP67 ingress protection against extreme moisture
