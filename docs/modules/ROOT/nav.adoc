@@ -66,7 +66,7 @@
 ** xref:IZREMRELAY:DocList.adoc[IZ-REM-RELAY (Web Relays)]
 ** xref:IZWC:DocList.adoc[IZ-WC (Wiegand Converter)]
 ** xref:IZPANEL:DocList.adoc[IZPanel (Connection Panel)]
-** xref:IZ4POE:DocList.adoc[IZ4POE (Gigabit 4 Ports PoE++ Injector]
+** xref:IZ4POE:DocList.adoc[IZ4POE (Gigabit 4 Ports PoE{plus}{plus} Injector)]
 * Cables
 ** xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE (VES Cable)]
 ** xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES (VES Illuminator)]

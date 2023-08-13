@@ -319,11 +319,11 @@ Mount other components (such as junction boxes) in appropriate locations.
 
 === LAN and Power/Signals Cable Details
 
-[CAUTION]
+[NOTE]
 
 ========================================
 
-*+++NOTE:+++* The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
+The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
 
 ========================================
 

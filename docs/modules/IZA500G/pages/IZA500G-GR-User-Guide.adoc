@@ -162,11 +162,11 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 
 === LAN and Power/Signals Cable Details
 
-[CAUTION]
+[NOTE]
 
 ========================================
 
-*+++NOTE:+++* The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
+The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
 
 ========================================
 
