@@ -102,7 +102,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| xref:IZPWR:DocList.adoc[DIN Power Supplies] +
 xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 
-.^| xref:IZ4POE:DocList.adoc[{hw-poeinjector} Gigabit 4 Ports PoE++ Injector]
+.^| xref:IZ4POE:DocList.adoc[{hw-poeinjector} Gigabit 4 Ports PoE{plus}{plus} Injector]+++**+++
 
 .^| xref:IZIO:DocList.adoc[{hw-iocontroller} Digital I/O Controller]
 
@@ -113,6 +113,5 @@ xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 
 |===
 
-+++*+++ LPR Capture Distance is measured from camera to plate
-
++++*+++ LPR Capture Distance is measured from camera to plate+++<br>+++
 +++**+++ The IZ4POE is required for the PoE+ input power option
