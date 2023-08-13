@@ -113,5 +113,5 @@ xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 
 |===
 
-+++*+++ LPR Capture Distance is measured from camera to plate
++++*+++ LPR Capture Distance is measured from camera to plate+++<br>+++
 +++**+++ The IZ4POE is required for the PoE+ input power option
