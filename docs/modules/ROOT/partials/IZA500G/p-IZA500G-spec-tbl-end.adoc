@@ -97,16 +97,14 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .^| Sunshade
 
-2.4+.^| Accessories Available
+2.5+.^| Accessories Available
 
 .^| xref:IZPWR:DocList.adoc[DIN Power Supplies] +
 xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
 
-
+.^| xref:IZ4POE:DocList.adoc[Digital I/O Controller]
 
 .^| xref:IZIO:DocList.adoc[{hw-iocontroller} Digital I/O Controller]
-
-
 
 .^| Different xref:MNT-ProdToMountMap:DocList.adoc[mount options] available
 
