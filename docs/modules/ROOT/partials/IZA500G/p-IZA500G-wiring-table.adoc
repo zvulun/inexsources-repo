@@ -1,8 +1,8 @@
-[width="100%",cols="7%,54%,39%",options="header",]
+[width="100%",cols="7%,39%,54%",options="header",]
 |===
 |Item |Description |Ordering Information
 |A a|*LAN Cable* |Supplied by integrator
-|B a|*Power Supply for Cameras:*
+|B a|*Power Supply for Cameras*
 a|
 For 1 camera, use a 50/75W, 24 VDC (or 48 VDC for P48 models) supply +
 For 2 cameras, use a 100/120W, 24 VDC (or 48 VDC for P48 models) supply +
@@ -10,7 +10,7 @@ For 4 cameras, use a 240W, 24 VDC (or 48 VDC for P48 models) supply
 |C a|*Inductive Loop* |Supplied by integrator
 |D a|*Loop Detector Wiring Harness* |Included with Loop Detector
 |E a|*Gate* |Supplied by integrator
-|F a|*Power Supply for {hw-poeinjector} (PoE{plus} Injector):*
+|F a|*Power Supply for {hw-poeinjector} (PoE{plus} Injector)*
 a|
 For 1 camera, use a 50W, 48 VDC supply +
 For 2 cameras, use a 120W, 48 VDC supply +
