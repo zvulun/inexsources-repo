@@ -99,7 +99,7 @@ image::ROOT:IZA500G/image17.png[image,width=624,height=203]
 
 // .Typical Camera System Wiring Diagram
 
-image::ROOT:IZA500G/image100.png[image,width=624,height=203]
+image::ROOT:IZA500G/image100.png[image,width=612,height=199]
 
 
 [#f_Typical-Camera-System-with-Inductive-Loop-Wiring-Diagram]
