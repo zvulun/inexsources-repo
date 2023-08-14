@@ -155,7 +155,8 @@ For documentation and part numbers, see <<s_Related-Documents>>.
 [width="100%",cols="33%,67%",options="header",]
 |===
 |Item |Notes
-|24VDC power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
+|24 VDC (or 48 VDC for P48 models using DC input) power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
+|PoE{plus}{plus} Injector | Required for P48 models when using PoE+ power input
 |Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the Mounting Hardware documentation for details (see <<s_Related-Documents>>).
 |===
 
@@ -239,7 +240,7 @@ a|
 +++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
 
 a|
-* Power - Use a cable gauge sufficient to deliver 12-24 VDC at the Camera System
+* Power - Use a cable gauge sufficient to deliver the required voltage at the Camera System
 
 * LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable (without a switch) should not exceed 328 feet (100 meters).
 
