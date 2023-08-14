@@ -111,6 +111,8 @@ image::ROOT:IZA500G/image100.png[image,width=636,height=211]
 
 image::ROOT:IZA500G/image18.png[image,width=624,height=279]
 
++++<div class="pagebreak"> </div>+++
+
 [#f_Typical-Camera-System-with-I-O-Module-Wiring-Diagram]
 
 [discrete]
