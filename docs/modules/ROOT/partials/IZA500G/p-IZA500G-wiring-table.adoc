@@ -22,7 +22,8 @@ For 2 cameras, use a 120W supply +
 For 4 cameras, use a 240W supply
 |===
 
-*Notes:* +
+// *Notes:*
+
 * For device configuration instructions, see the
 xref:LOOP-DTCR-L:DocList.adoc[{hw-loopdetect-l}]
 and
