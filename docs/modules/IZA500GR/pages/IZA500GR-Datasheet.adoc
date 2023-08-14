@@ -82,8 +82,6 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 * [*] Flexible power input options - 24 VDC, or 48 VDC/PoE{plus}
 
-* [*] Flexible power input options - 24 VDC, or 48 VDC/PoE{plus}
-
 * [*] Wide temperature range - operating from -22°F to 140°F (-30°C to 60°C)
 
 * [*] IP67 ingress protection against extreme moisture
