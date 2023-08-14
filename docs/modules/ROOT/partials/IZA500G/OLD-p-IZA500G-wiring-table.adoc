@@ -2,19 +2,29 @@
 |===
 |Item |Description |Ordering Information
 |A a|*LAN Cable* |Supplied by integrator
-|B a|*Power Supply for Cameras:*
-a|
-For 1 camera, use a 50/75W, 24 VDC (or 48 VDC for P48 models) supply +
-For 2 cameras, use a 100/120W, 24 VDC (or 48 VDC for P48 models) supply +
-For 4 cameras, use a 240W, 24 VDC (or 48 VDC for P48 models) supply
+|B a|*Power Supply for Cameras:* +
+24 VDC, 50/75W or 100/120W; DIN rail or surface mount +
+{empty} +
+Can power 2 sets of components from a single power supply a|
+For 1 set of components, use {compname-short} P/N:
+
+* xref:IZPWR:DocList.adoc[IZPWR50-24-TDK-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR75-24-MWL-DIN]
+
+For 2 sets of components, use {compname-short} P/N:
+
+* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR120-24-TDK-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
+
+* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK]
+
 |C a|*Inductive Loop* |Supplied by integrator
 |D a|*Loop Detector Wiring Harness* |Included with Loop Detector
 |E a|*Gate* |Supplied by integrator
-|F a|*Power Supply for {hw-poeinjector} (PoE{plus} Injector):*
-a|
-For 1 camera, use a 50W, 48 VDC supply +
-For 2 cameras, use a 120W, 48 VDC supply +
-For 4 cameras, use a 240W, 48 VDC supply
 |===
 
 *Notes:*
@@ -28,4 +38,3 @@ guides.
 * If you need to use an external illuminator, see the xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator Series User Guide]  for a table of Camera-to-Illuminator Typical Use Cases.
 
 * The xref:IZ4POE:DocList.adoc[{hw-poeinjector}] is required for the PoE{plus} input power option.
-
