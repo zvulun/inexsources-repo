@@ -6,7 +6,7 @@ To see a larger view of an image, right-click on it and select "Open image in ne
 
 To save a document as PDF:
 
-* Expand any collapsed items, such as the Table of Contents, Related Documents and Notes
+* Expand any "Click to..." (collapsed) items, such as the Table of Contents, Related Documents and Notes
 
 * Use your browser's Print command (CTRL-p)
 
