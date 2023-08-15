@@ -4,6 +4,15 @@ Welcome to the INEX/TECH documentation site.
 
 To see a larger view of an image, right-click on it and select "Open image in new tab"
 
-To save a document as PDF, use your browser's Print command (CTRL-p),
-then select Save as PDF as the destination.
+To save a document as PDF:
+
+* Expand any collapsed items, such as the Table of Contents, Related Documents and Notes
+
+* Use your browser's Print command (CTRL-p)
+
+* (Chrome) Select Save as PDF as the destination
+
+* (Chrome) In the More Settings section, select Paper Size of A4, and
+check or uncheck Headers and Footers. Note that if you check Headers and Footers,
+the URL of the site will appear in the footer.
 
