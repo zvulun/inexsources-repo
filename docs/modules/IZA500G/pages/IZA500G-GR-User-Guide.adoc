@@ -278,6 +278,8 @@ include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety P
 
 include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
 
++++<div class="pagebreak"> </div>+++
+
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
 include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
