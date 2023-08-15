@@ -110,25 +110,25 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 [discrete]
 == Ordering Information
 
-[width="100%",cols="24%,24%,30%,22%",options="header",]
+[width="100%",cols="24%,76%",options="header",]
 |===
-|Part Number |Capture Distance |LED Illumination |Power Input
-|{shortprodname}-S-DR |5-35 ft (2-11 m) |Deep Red |24 VDC
-|{shortprodname}-S-DR-P48 |5-35 ft (2-11 m) |Deep Red |48 VDC/PoE{plus}
-|{shortprodname}-S-DRW |5-35 ft (2-11 m) |Deep Red and Visible Light |24 VDC
-|{shortprodname}-S-DRW-P48 |5-35 ft (2-11 m) |Deep Red and Visible Light |48 VDC/PoE{plus}
-|{shortprodname}-S-IR |5-35 ft (2-11 m) |Infrared |24 VDC
-|{shortprodname}-S-IR-P48 |5-35 ft (2-11 m) |Infrared |48 VDC/PoE{plus}
-|{shortprodname}-S-IRW |5-35 ft (2-11 m) |Infrared and Visible Light |24 VDC
-|{shortprodname}-S-IRW-P48 |5-35 ft (2-11 m) |Infrared and Visible Light |48 VDC/PoE{plus}
-|{shortprodname}-L-DR |30-70 ft (9-21 m) |Deep Red |24 VDC
-|{shortprodname}-L-DR-P48 |30-70 ft (9-21 m) |Deep Red |48 VDC/PoE{plus}
-|{shortprodname}-L-DRW |30-70 ft (9-21 m) |Deep Red and Visible Light |24 VDC
-|{shortprodname}-L-DRW-P48 |30-70 ft (9-21 m) |Deep Red and Visible Light |48 VDC/PoE{plus}
-|{shortprodname}-L-IR |30-70 ft (9-21 m) |Infrared |24 VDC
-|{shortprodname}-L-IR-P48 |30-70 ft (9-21 m) |Infrared |48 VDC/PoE{plus}
-|{shortprodname}-L-IRW |30-70 ft (9-21 m) |Infrared and Visible Light |24 VDC
-|{shortprodname}-L-IRW-P48 |30-70 ft (9-21 m) |Infrared and Visible Light |48 VDC/PoE{plus}
+|Part Number |Description
+|{shortprodname}-S-DR |
+|{shortprodname}-S-DR-P48 |
+|{shortprodname}-S-DRW |
+|{shortprodname}-S-DRW-P48 |
+|{shortprodname}-S-IR |
+|{shortprodname}-S-IR-P48 |
+|{shortprodname}-S-IRW |
+|{shortprodname}-S-IRW-P48 |
+|{shortprodname}-L-DR |
+|{shortprodname}-L-DR-P48 |
+|{shortprodname}-L-DRW |
+|{shortprodname}-L-DRW-P48 |
+|{shortprodname}-L-IR |
+|{shortprodname}-L-IR-P48 |
+|{shortprodname}-L-IRW |
+|{shortprodname}-L-IRW-P48 |
 |===
 
 [discrete]
