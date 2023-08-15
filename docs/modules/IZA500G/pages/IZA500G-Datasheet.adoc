@@ -110,7 +110,7 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 [discrete]
 == Ordering Information
 
-[width="100%",cols="24%,76%",options="header",]
+[width="100%",cols="20%,80%",options="header",]
 |===
 |Part Number |Description
 |{shortprodname}-S-DR |Captures at 5-35 ft (2-11 m), Deep Red illumination, 24 VDC input voltage
