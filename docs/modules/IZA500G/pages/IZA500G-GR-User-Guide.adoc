@@ -104,6 +104,8 @@ toc::[]
 
 ====
 
++++<div class="pagebreak"> </div>+++
+
 == Training and Support
 
 [#s_Training]
@@ -146,6 +148,8 @@ image::ROOT:/IZA500G/image6.png[image,width=463,height=224]
 
 image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Specifications]
 
 === Specifications
@@ -157,6 +161,8 @@ image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specification Table Start]
 
 include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
+
++++<div class="pagebreak"> </div>+++
 
 [#t_IZA500GR-Technical-Specifications]
 
