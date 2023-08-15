@@ -6,9 +6,9 @@
 24 VDC for standard models +
 48 VDC for P48 models
 a|
-For 1 camera, use a 50/75W supply (DIN-rail) +
-For 2 cameras, use a 100/120W supply (DIN-rail/surface) +
-For 4 cameras, use a 240W supply (DIN-rail) +
+For 1 camera, use a 50/75W supply (DIN Rail mount) +
+For 2 cameras, use a 100/120W supply (DIN Rail/Surface mount) +
+For 4 cameras, use a 240W supply (DIN Rail mount) +
 
 |C a|*Inductive Loop* |Supplied by integrator
 |D a|*Loop Detector Wiring Harness* |Included with Loop Detector
@@ -17,9 +17,9 @@ For 4 cameras, use a 240W supply (DIN-rail) +
 (PoE{plus} Injector)* +
 Requires 48 VDC
 a|
-For 1 camera, use a 50W supply (DIN-rail) +
-For 2 cameras, use a 120W supply (DIN-rail) +
-For 4 cameras, use a 240W supply (DIN-rail)
+For 1 camera, use a 50W supply (DIN Rail mount) +
+For 2 cameras, use a 120W supply (DIN Rail mount) +
+For 4 cameras, use a 240W supply (DIN Rail mount)
 |===
 
 // *Notes:*
