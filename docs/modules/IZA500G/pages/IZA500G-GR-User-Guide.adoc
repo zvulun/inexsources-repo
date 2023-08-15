@@ -55,6 +55,9 @@ image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX
 // of file
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
+
++++<div class="pagebreak"> </div>+++
+
 ._Click to show the Table of Contents_
 [%collapsible]
 ====
@@ -62,6 +65,8 @@ image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX
 toc::[]
 
 ====
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Related-Documents]
 
