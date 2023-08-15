@@ -188,6 +188,8 @@ The trigger wires have the same functions and colors as shown here, but the labe
 
 image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Required-Accessories-Not-Included]
 
 === Required Accessories (Not Included)
@@ -225,6 +227,8 @@ For documentation and part numbers, see <<s_Related-Documents>> and <<s_Specific
 The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
 
 See the {software-discovery} User Guide (see <<s_Related-Documents>>).
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Using-RoadView]
 
