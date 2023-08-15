@@ -121,14 +121,14 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 |{shortprodname}-S-IR-P48 |5-35 ft (2-11 m) range, Infrared illumination, PoE{plus}, 48 VDC input voltage
 |{shortprodname}-S-IRW |5-35 ft (2-11 m) range, Infrared &amp; Visible Light illumination, 24 VDC input voltage
 |{shortprodname}-S-IRW-P48 |5-35 ft (2-11 m) range, Infrared &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
-|{shortprodname}-L-DR |
-|{shortprodname}-L-DR-P48 |
-|{shortprodname}-L-DRW |
-|{shortprodname}-L-DRW-P48 |
-|{shortprodname}-L-IR |
-|{shortprodname}-L-IR-P48 |
-|{shortprodname}-L-IRW |
-|{shortprodname}-L-IRW-P48 |
+|{shortprodname}-L-DR |30-70 ft (9-21 m) range, Deep Red illumination, 24 VDC input voltage
+|{shortprodname}-L-DR-P48 |30-70 ft (9-21 m) range, Deep Red illumination, PoE{plus}, 48 VDC input voltage
+|{shortprodname}-L-DRW |30-70 ft (9-21 m) range, Deep Red &amp; Visible Light illumination, 24 VDC input voltage
+|{shortprodname}-L-DRW-P48 |30-70 ft (9-21 m) range, Deep Red &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
+|{shortprodname}-L-IR |30-70 ft (9-21 m) range, Infrared illumination, 24 VDC input voltage
+|{shortprodname}-L-IR-P48 |30-70 ft (9-21 m) range, Infrared illumination, PoE{plus}, 48 VDC input voltage
+|{shortprodname}-L-IRW |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, 24 VDC input voltage
+|{shortprodname}-L-IRW-P48 |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
 |===
 
 [discrete]
