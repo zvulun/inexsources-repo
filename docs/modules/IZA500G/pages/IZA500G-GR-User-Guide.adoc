@@ -126,6 +126,8 @@ include::ROOT:partial$IZA800G/p-IZ-overview-internals.adoc[IZ Camera Internals O
 
 include::ROOT:partial$IZA800G/p-camera-short-intro-physical.adoc[Camera Details Introduction]
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Package-Contents]
 
 === Package Contents
@@ -137,6 +139,8 @@ Carefully unpack the contents of the {generic-camera-name} package.
 .Package Contents
 
 image::ROOT:/IZA500G/image1.png[image,width=288,height=355]
+
++++<div class="pagebreak"> </div>+++
 
 [#f_Dimensions]
 
