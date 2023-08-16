@@ -147,6 +147,8 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 ========================================
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Required-Accessories]
 
 === Required Accessories
@@ -165,8 +167,6 @@ For documentation and part numbers, see <<s_Related-Documents>>.
 |PoE{plus}{plus} Injector | Required for P48 models when using PoE+ power input
 |Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the Mounting Hardware documentation for details (see <<s_Related-Documents>>).
 |===
-
-+++<div class="pagebreak"> </div>+++
 
 [#s_Optional-Accessories]
 
