@@ -48,6 +48,8 @@ Installations that position the camera at significant angles in relation to the 
 
 image::ROOT:/IZA800G/image13.png[image,width=310,height=332]
 
+{empty}
+
 ._Click to show notes for Horizontal Angle_
 [%collapsible]
 ====
