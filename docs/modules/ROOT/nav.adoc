@@ -53,11 +53,7 @@
 ** xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[EU Illuminator Mounts]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera/Illuminator Use Cases, window=_blank]
 * Power Supplies
-** xref:IZPWR:DocList.adoc[IZPWR50]
-** xref:IZPWR:DocList.adoc[IZPWR75]
-** xref:IZPWR:DocList.adoc[IZPWR100]
-** xref:IZPWR:DocList.adoc[IZPWR120]
-** xref:IZPWR:DocList.adoc[IZPWR240]
+** xref:IZPWR:DocList.adoc[IZPWR (DIN Rail Mount)]
 * Loop Detectors
 ** xref:LOOP-DTCR-L:DocList.adoc[LOOP-DTCR-L]
 ** xref:LOOP-DTCR-P:DocList.adoc[LOOP-DTCR-P]
