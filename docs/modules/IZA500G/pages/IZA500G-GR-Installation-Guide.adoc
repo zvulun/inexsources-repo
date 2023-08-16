@@ -443,6 +443,8 @@ If you are using a DIN rail-mount power supply, you will need to cut off the rin
 
 ========================================
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Power-Up-and-Set-Up-IP]
 
 == Power Up and Set Up IP
@@ -482,6 +484,8 @@ for instructions on how to change a
 ifndef::xref-type-IZ600F[Camera System's]
 ifdef::xref-type-IZ600F[camera's]
 IP address.
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Configuring-a-Camera]
 
