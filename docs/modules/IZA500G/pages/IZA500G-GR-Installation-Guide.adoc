@@ -513,6 +513,8 @@ Camera settings are typically set by {compname-short}.
 
 Close all windows, and the browser window.
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Calibrating-the-Cameras]
 
 [#s_Aim-and-Calibrate]
