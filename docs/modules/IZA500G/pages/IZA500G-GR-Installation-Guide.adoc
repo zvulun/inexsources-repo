@@ -117,6 +117,8 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Prepare-Components-and-Tools]
 
 == Prepare Components and Tools
@@ -164,6 +166,8 @@ For documentation and part numbers, see <<s_Related-Documents>>.
 |Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the Mounting Hardware documentation for details (see <<s_Related-Documents>>).
 |===
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Optional-Accessories]
 
 === Optional Accessories
@@ -203,6 +207,8 @@ All network cable extensions and repeaters must be shielded.
 You can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link] (to enable access to the camera configuration application - see <<s_Logging-In-to-the-Camera>>).
 
 //[#s_Planning-Your-Installation]
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Plan-Your-Site]
 
