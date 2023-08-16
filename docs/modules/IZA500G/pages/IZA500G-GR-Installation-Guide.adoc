@@ -218,6 +218,8 @@ You can add an IE Tab extension to Chrome at this https://chrome.google.com/webs
 
 include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections of Installation Planning]
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
 
 === Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
@@ -227,6 +229,8 @@ External illuminators can be used to enhance overview vehicle image quality, for
 include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
 
 include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Additional-Installation-Considerations]
 

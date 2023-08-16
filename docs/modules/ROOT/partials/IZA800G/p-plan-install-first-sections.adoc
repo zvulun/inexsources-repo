@@ -98,6 +98,8 @@ For plates whose characters are very shiny (for example, silvery), the *weighted
 
 ====
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Position-of-the-Sun-in-Relation-to-the-Camera-System]
 
 === Position of the Sun in Relation to the Camera
