@@ -16,6 +16,7 @@ image::ROOT:/IZA800G/image43.png[image,width=528,height=230]
 +
 
 .Click to show notes for Live View
+
 [%collapsible]
 ====
 
