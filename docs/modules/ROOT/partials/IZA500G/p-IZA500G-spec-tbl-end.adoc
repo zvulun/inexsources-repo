@@ -99,8 +99,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 2.5+.^| Accessories Available
 
-.^| xref:IZPWR:DocList.adoc[DIN Power Supplies] +
-xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
+.^| xref:IZPWR:DocList.adoc[DIN Power Supplies]
 
 .^| xref:IZ4POE:DocList.adoc[{hw-poeinjector} Gigabit 4-Port PoE{plus}{plus} Injector**]
 

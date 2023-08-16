@@ -4,7 +4,7 @@
 |A a|*LAN Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]
 |B a|*Power/Signals Cable for {shortprodname} System* |{compname-short} P/N: xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
 |C a|*Power Supply:* 24 VDC, 100/120W;+++<br>+++
-DIN rail/surface mount options +
+DIN rail mount +
 
 Can power 2 cameras from a single power supply a|
 {compname-short} P/N:
@@ -14,8 +14,6 @@ Can power 2 cameras from a single power supply a|
 * xref:IZPWR:DocList.adoc[IZPWR120-24-TDK-DIN]
 
 * xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK]
 
 |D a|*Illuminator Power Cable* |Included; {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
 |E a|*Illuminator Signals Cable* |Included; {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]

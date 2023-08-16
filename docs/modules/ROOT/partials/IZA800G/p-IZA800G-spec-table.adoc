@@ -217,10 +217,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 2.6+.^| Accessories Available
 
-.^| xref:IZPWR:DocList.adoc[DIN Power Supplies] +
-xref:IZPWR:DocList.adoc[Surface Mount Power Supplies]
-
-
+.^| xref:IZPWR:DocList.adoc[DIN Power Supplies]
 
 .^| xref:IZIO:DocList.adoc[{hw-iocontroller} Digital I/O Controller]
 
