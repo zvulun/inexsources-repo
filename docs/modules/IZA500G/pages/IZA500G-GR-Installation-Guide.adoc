@@ -40,7 +40,7 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 // discrete removes these headers from the TOC
 [discrete]
 == ALPR All-in-one AI Camera System
-[discrete]
+// [discrete]
 
 image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
 
