@@ -363,7 +363,7 @@ include::ROOT:partial$IZA800G/p-lan-cable-2.adoc[LAN Cable Construction Part 2]
 
 === Typical Wiring Diagrams
 
-See <<t_Power-Signals-Cable-Power-Signals-Pinouts>>, and <<t_Wiring-Diagram-Legend-Bill-of-Materials>> for a legend/bill of materials.
+See <<t_Power-Signals-Cable-Power-Signals-Pinouts>> for the power/signals cable wire colors, and <<t_Wiring-Diagram-Legend-Bill-of-Materials>> for a legend/bill of materials.
 
 [WARNING]
 ========================================
