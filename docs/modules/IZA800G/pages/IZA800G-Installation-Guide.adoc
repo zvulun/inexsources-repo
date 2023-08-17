@@ -388,24 +388,25 @@ LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
 
 image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 
-[#t_Wiring-Diagram-Legend-Bill-of-Materials]
-
-.Wiring Diagram Legend/Bill of Materials
-
-include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
-
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 .Typical Camera System Wiring Diagram
 
 image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 
-[#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
+[#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
-=== Connecting the Camera System, Illuminator, Power Supply and Network
+.Wiring Diagram Legend/Bill of Materials
 
-See <<f_Typical-Camera-System-with-Illuminator-Wiring-Diagram>> and <<f_Typical-Camera-System-Wiring-Diagram>> for typical wiring diagrams.
+include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
 
+[#s_Power-Up-and-Set-Up-IP]
+
+== Power Up and Set Up IP
+
+[#s_Connecting-the-AC-Electricity]
+
+=== Connecting the AC Electricity
 
 [WARNING]
 
@@ -419,27 +420,10 @@ Stable power at the correct level must be supplied to each Camera System, even w
 
 ========================================
 
-[#s_Power-Up-and-Set-Up-IP]
-
-== Power Up and Set Up IP
-
-[#s_Connecting-the-AC-Electricity]
-
-=== Connecting the AC Electricity
-
-Connect a plug to the **+++<u>+++L+++</u>+++**ive ({plus}V, **+++<u>+++N+++</u>+++**eutral (-V) and Ground (Shield) terminals of the power supply (see <<f_Typical-Camera-System-with-Illuminator-Wiring-Diagram>> and <<f_Typical-Camera-System-Wiring-Diagram>>).
+Connect a plug to the **+++<u>+++L+++</u>+++**ive ({plus}V, **+++<u>+++N+++</u>+++**eutral (-V) and Ground (Shield) terminals of the power supply (see <<s_Typical-Wiring-Diagrams>>).
 
 Plug the power supply into the AC electricity. If required, switch the power supply unit ON.
 
-[WARNING]
-
-========================================
-
-If any power cables were lengthened, ensure that all components receive exactly their rated voltage.
-
-Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
-
-========================================
 
 [#s_Reserving-IP-Addresses-in-your-Network]
 
