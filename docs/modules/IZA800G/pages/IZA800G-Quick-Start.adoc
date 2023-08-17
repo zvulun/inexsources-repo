@@ -97,8 +97,6 @@ image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 
 image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 
-+++<div class="pagebreak"> </div>+++
-
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
 [discrete]
