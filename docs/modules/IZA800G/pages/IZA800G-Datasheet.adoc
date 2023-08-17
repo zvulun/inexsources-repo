@@ -108,7 +108,7 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 
 [width="100%",cols="25%,75%",options="header",]
 |===
-|Part Number |Description (-S-/-L- - motorized zoom and auto-focus; -XL- - manual zoom and focus)
+|Part Number |Description (-S-/-L- = motorized zoom and auto-focus; -XL- = manual zoom and focus)
 |{shortprodname}-S-DR |5-35 ft (2-11 m) range, Deep Red illumination
 |{shortprodname}-S-DR-CAB15F |5-35 ft (2-11 m) range, Deep Red illumination, 15 ft cable set
 |{shortprodname}-S-DRW |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination
@@ -125,57 +125,10 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 |{shortprodname}-L-IR-CAB15F |30-70 ft (9-21 m) range, Infrared illumination, 15 ft cable set
 |{shortprodname}-L-IRW |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination
 |{shortprodname}-L-IRW-CAB15F |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, 15 ft cable set
-|===
-
-
-
-
-[width="100%",cols="13%,30%,30%,27%",options="header",]
-|===
-|Product 2+^|Available Part Numbers** |Product Name
-|{shortprodname} a|
-* {shortprodname}-S-DR
-
-* {shortprodname}-S-DR-CAB15F
-
-* {shortprodname}-S-DRW
-
-* {shortprodname}-S-DRW-CAB15F
-
-* {shortprodname}-S-IR
-
-* {shortprodname}-S-IR-CAB15F
-
-* {shortprodname}-S-IRW
-
-* {shortprodname}-S-IRW-CAB15F
-
-a|
-* {shortprodname}-L-DR
-
-* {shortprodname}-L-DR-CAB15F
-
-* {shortprodname}-L-DRW
-
-* {shortprodname}-L-DRW-CAB15F
-
-* {shortprodname}-L-IR
-
-* {shortprodname}-L-IR-CAB15F
-
-* {shortprodname}-L-IRW
-
-* {shortprodname}-L-IRW-CAB15F
-
-* {shortprodname}-XL-DR
-
-* {shortprodname}-XL-DR-CAB15F
-
-* {shortprodname}-XL-DRW
-
-* {shortprodname}-XL-DRW-CAB15F
-
-|ALPR All-in-one AI Camera System
+|{shortprodname}-XL-DR |33-80 ft (10-24 m) range, Deep Red illumination
+|{shortprodname}-XL-DR-CAB15F |33-80 ft (10-24 m) range, Deep Red illumination, 15 ft cable set
+|{shortprodname}-XL-DRW |33-80 ft (10-24 m) range, Deep Red &amp; Visible Light illumination
+|{shortprodname}-XL-DRW-CAB15F |33-80 ft (10-24 m) range, Deep Red &amp; Visible Light illumination, 15 ft cable set
 |===
 
 +++**+++ -CABxxF indicates a cable set of xx feet is included
