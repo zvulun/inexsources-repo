@@ -108,7 +108,7 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 
 [width="100%",cols="25%,75%",options="header",]
 |===
-|Part Number+++**+++ |Description
+|Part Number+++**+++ |Description+++***+++
 |{shortprodname}-S-DR |5-35 ft (2-11 m) range, Deep Red illumination
 |{shortprodname}-S-DR-CAB15F |5-35 ft (2-11 m) range, Deep Red illumination, 15 ft cable set
 |{shortprodname}-S-DRW |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination
@@ -131,8 +131,8 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 |{shortprodname}-XL-DRW-CAB15F |33-80 ft (10-24 m) range, Deep Red &amp; Visible Light illumination, 15 ft cable set
 |===
 
-+++**+++ S/L models have motorized zoom and auto-focus; XL models have manual zoom and focus +
--CABxxF indicates a cable set of xx feet is included
++++**+++ -CABxxF indicates a cable set of xx feet is included
++++***+++ S/L models have motorized zoom and auto-focus; XL models have manual zoom and focus +
 
 [discrete]
 == Standard Package Contents
