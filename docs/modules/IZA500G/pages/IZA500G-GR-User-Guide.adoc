@@ -141,6 +141,8 @@ image::ROOT:/IZA500G/image1.png[image,width=288,height=355]
 
 +++<div class="pagebreak"> </div>+++
 
+=== Dimensions
+
 [#f_Dimensions]
 
 image::ROOT:/IZA500G/image5.png[image,width=315,height=205]

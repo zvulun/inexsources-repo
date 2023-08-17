@@ -156,6 +156,8 @@ image::ROOT:IZA800G/image6.png[image,width=463,height=224]
 
 image::ROOT:IZA800G/image7.png[image,width=489,height=252]
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Specifications]
 
 === Specifications
