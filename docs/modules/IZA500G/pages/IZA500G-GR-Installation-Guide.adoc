@@ -420,10 +420,6 @@ include::ROOT:partial$IZA500G/p-IZA500G-wiring-table.adoc[IZA500G Wiring Table]
 
 === Connecting the AC Electricity
 
-Connect a plug to the **+++<u>+++L+++</u>+++**ive ({plus}V, **+++<u>+++N+++</u>+++**eutral (-V) and Ground (Shield) terminals of the power supply (see <<f_Typical-Camera-System-with-Illuminator-Wiring-Diagram>> and <<f_Typical-Camera-System-Wiring-Diagram>>).
-
-Plug the power supply into the AC electricity. If required, switch the power supply unit ON.
-
 [WARNING]
 
 ========================================
@@ -435,6 +431,11 @@ Power undervoltage, overvoltage and/or incorrect polarity will damage the unit a
 Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
 
 ========================================
+
+
+Connect a plug to the **+++<u>+++L+++</u>+++**ive ({plus}V, **+++<u>+++N+++</u>+++**eutral (-V) and Ground (Shield) terminals of the power supply (see <<f_Typical-Camera-System-with-Illuminator-Wiring-Diagram>> and <<f_Typical-Camera-System-Wiring-Diagram>>).
+
+Plug the power supply into the AC electricity. If required, switch the power supply unit ON.
 
 [#s_Reserving-IP-Addresses-in-your-Network]
 
