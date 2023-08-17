@@ -106,6 +106,30 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 [discrete]
 == Ordering Information
 
+[width="100%",cols="20%,80%",options="header",]
+|===
+|Part Number |Description (S/L - motorized zoom and auto-focus; XL - manual zoom and focus)
+|{shortprodname}-S-DR |5-35 ft (2-11 m) range, Deep Red illumination, 24 VDC input voltage
+|{shortprodname}-S-DR-CAB15F |5-35 ft (2-11 m) range, Deep Red illumination, 15 ft cable set, 24 VDC input voltage
+|{shortprodname}-S-DRW |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination, 24 VDC input voltage
+|{shortprodname}-S-DRW-CAB15F |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
+|{shortprodname}-S-IR |5-35 ft (2-11 m) range, Infrared illumination, 24 VDC input voltage
+|{shortprodname}-S-IR-P48 |5-35 ft (2-11 m) range, Infrared illumination, PoE{plus}, 48 VDC input voltage
+|{shortprodname}-S-IRW |5-35 ft (2-11 m) range, Infrared &amp; Visible Light illumination, 24 VDC input voltage
+|{shortprodname}-S-IRW-P48 |5-35 ft (2-11 m) range, Infrared &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
+|{shortprodname}-L-DR |30-70 ft (9-21 m) range, Deep Red illumination, 24 VDC input voltage
+|{shortprodname}-L-DR-P48 |30-70 ft (9-21 m) range, Deep Red illumination, PoE{plus}, 48 VDC input voltage
+|{shortprodname}-L-DRW |30-70 ft (9-21 m) range, Deep Red &amp; Visible Light illumination, 24 VDC input voltage
+|{shortprodname}-L-DRW-P48 |30-70 ft (9-21 m) range, Deep Red &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
+|{shortprodname}-L-IR |30-70 ft (9-21 m) range, Infrared illumination, 24 VDC input voltage
+|{shortprodname}-L-IR-P48 |30-70 ft (9-21 m) range, Infrared illumination, PoE{plus}, 48 VDC input voltage
+|{shortprodname}-L-IRW |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, 24 VDC input voltage
+|{shortprodname}-L-IRW-P48 |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
+|===
+
+
+
+
 [width="100%",cols="13%,30%,30%,27%",options="header",]
 |===
 |Product 2+^|Available Part Numbers** |Product Name
