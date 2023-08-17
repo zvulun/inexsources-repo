@@ -370,6 +370,8 @@ The Camera System is not compatible with some GigE switches; suggested switch ty
 
 ========================================
 
++++<div class="pagebreak"> </div>+++
+
 [NOTE]
 
 ========================================
