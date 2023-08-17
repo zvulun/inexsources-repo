@@ -360,13 +360,27 @@ image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
 === Typical Wiring Diagrams
 
-Here are typical wiring diagrams for capturing license plate images. Note that the type and configuration of the power supply may be different than the one you are using at your site. See <<t_Wiring-Diagram-Legend-Bill-of-Materials>> for a legend/bill of materials.
-
-[IMPORTANT]
+[WARNING]
 
 ========================================
 
-All network cable extensions and repeaters must be shielded.
+Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
+
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
+
+The Camera System is not compatible with some GigE switches; suggested switch type: 10/100 Mb
+
+========================================
+
+[NOTE]
+
+========================================
+
+If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the Camera System's power connections, and attach pins in their place.
 
 ========================================
 
@@ -399,48 +413,6 @@ image::ROOT:IZA500G/image19.png[image,width=624,height=468]
 .Wiring Diagram Legend/Bill of Materials
 
 include::ROOT:partial$IZA500G/p-IZA500G-wiring-table.adoc[IZA500G Wiring Table]
-
-[#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
-
-=== Connecting the Camera System, Illuminator, Power Supply and Network
-
-See <<s_Typical-Wiring-Diagrams>> for typical wiring diagrams.
-
-[WARNING]
-
-========================================
-
-Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
-
-Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
-
-Turn off/disconnect the external (AC) power supply before connecting cables.
-
-*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
-
-*IMPORTANT: All network cable extensions and repeaters must be shielded.*
-
-The Camera System is not compatible with some GigE switches; suggested switch type: 10/100 Mb
-
-========================================
-
-As an example, you can connect the {generic-camera-name}'s power cable to a surface-mounted power supply as follows:
-
-* *Red* - {plus}24 VDC ({plus}V); *Black* - -24 VDC (-V); *Yellow* - ground (FG)
-
-[#f_Connecting-the-Camera-System-to-a-Surface-Mount-Power-Supply]
-
-.Connecting the Camera System to a Surface-Mount Power Supply
-
-image::./UserGuide/image20.png[image,width=271,height=169]
-
-[NOTE]
-
-========================================
-
-If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the Camera System's power connections, and attach pins in their place.
-
-========================================
 
 +++<div class="pagebreak"> </div>+++
 
