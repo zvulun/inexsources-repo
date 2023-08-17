@@ -362,10 +362,6 @@ image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
 [WARNING]
 ========================================
-Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
-
-Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
-
 Turn off/disconnect the external (AC) power supply before connecting cables.
 
 *If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
@@ -433,6 +429,8 @@ Plug the power supply into the AC electricity. If required, switch the power sup
 If any power cables were lengthened, ensure that all components receive exactly their rated voltage.
 
 Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
 
 ========================================
 
