@@ -434,7 +434,7 @@ Stable power at the correct level must be supplied to each Camera System, even w
 
 ========================================
 
-Connect a plug to the **+++<u>+++L+++</u>+++**ive ({plus}V, **+++<u>+++N+++</u>+++**eutral (-V) and Ground (Shield) terminals of the power supply (see <<s_Typical-Wiring-Diagrams>>).
+Connect a plug to the **+++<u>+++L+++</u>+++**ive ({plus}V), **+++<u>+++N+++</u>+++**eutral (-V) and Ground (Shield) terminals of the power supply (see <<s_Typical-Wiring-Diagrams>>).
 
 Plug the power supply into the AC electricity. If required, switch the power supply unit ON.
 
