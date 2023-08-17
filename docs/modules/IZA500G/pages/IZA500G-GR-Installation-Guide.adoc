@@ -360,6 +360,8 @@ image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
 === Typical Wiring Diagrams
 
+See <<t_Wiring-Diagram-Legend-Bill-of-Materials>> for a legend/bill of materials.
+
 [WARNING]
 ========================================
 Turn off/disconnect the external (AC) power supply before connecting cables.
