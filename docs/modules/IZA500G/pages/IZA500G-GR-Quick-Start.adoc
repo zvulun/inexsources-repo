@@ -83,6 +83,9 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 +++<div class="pagebreak"> </div>+++
 
+[sidebar]
+If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the Camera System's power connections, and attach pins in their place.
+
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 [discrete]
