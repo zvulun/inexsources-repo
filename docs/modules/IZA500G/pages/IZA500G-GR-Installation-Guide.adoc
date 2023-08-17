@@ -361,9 +361,7 @@ image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 === Typical Wiring Diagrams
 
 [WARNING]
-
 ========================================
-
 Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
 
 Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
