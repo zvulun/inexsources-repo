@@ -86,8 +86,6 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 
-+++<div class="pagebreak"> </div>+++
-
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 [discrete]
@@ -96,6 +94,8 @@ image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 //.Typical Camera System Wiring Diagram
 
 image::ROOT:IZA800G/image18.png[image,width=424,height=356]
+
++++<div class="pagebreak"> </div>+++
 
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
