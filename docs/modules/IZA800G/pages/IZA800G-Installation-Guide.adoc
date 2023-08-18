@@ -145,13 +145,9 @@ image::ROOT:/IZA800G/image2.png[image,width=349,height=199]
 * Power/Signals cable or field-mountable cable connector
 
 * Mounting adapter plate with screws: 3 - 18-8 stainless steel thread-locking socket head screws, 1/4"-20 thread size, 5/8" long; Allen heads; used to attach the plate
-[NOTE]
 
-========================================
-
+[sidebar]
 If any parts are missing or damaged, please contact {compname-long}.
-
-========================================
 
 +++<div class="pagebreak"> </div>+++
 
