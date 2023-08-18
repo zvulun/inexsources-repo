@@ -20,9 +20,7 @@ image::ROOT:/IZA800G/image26.png[image,width=421,height=295]
 .Power/Signals Cable: Foil in Contact with Spring Inside Clamp Cage Housing
 
 image::ROOT:/IZA800G/image27.png[image,width=520,height=285]
-
 +++<div class="pagebreak"> </div>+++
-
 . Slide the sealing nut along the cable, and insert it in between the clamp cage protrusions.
 +
 [#f_Power-Cable-Inserting-the-Sealing-Nut-into-the-Clamp-Cage]
@@ -38,9 +36,7 @@ image::ROOT:/IZA800G/image28.png[image,width=202,height=254]
 .Power Cable: Tightening the Nut to Seal the Clamp Cage
 
 image::ROOT:/IZA800G/image29.png[image,width=445,height=201]
-
 +++<div class="pagebreak"> </div>+++
-
 . The point in the cable at which you will be connecting the power wires ({plus}, - and ground) to the power supply may be in the middle of the cable. (This part of the cable is typically inside a connection box to seal all connections from moisture.)
 
 .. Strip off a portion of outer insulation of the cable at the end you will be connecting to the power supply. Remove enough insulation so the shield wire will be long enough to wrap several times around the foil jacket (see next steps) and come out of the cable to reach the power supply ground wire. *Be careful not to cut into the inner foil and plastic jackets (casings) surrounding the individual insulated wires.*
