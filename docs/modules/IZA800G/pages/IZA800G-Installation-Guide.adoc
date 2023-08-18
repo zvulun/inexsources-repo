@@ -138,16 +138,13 @@ image::ROOT:/IZA800G/image1.png[image,width=460,height=345]
 
 image::ROOT:/IZA800G/image2.png[image,width=349,height=199]
 
-The package includes:
-
 * {shortprodname} ALPR All-in-one AI Camera System
 
 * LAN cable or field-mountable cable connector
 
 * Power/Signals cable or field-mountable cable connector
 
-* Mounting adapter plate with screws: 3 - 18-8 stainless steel thread-locking socket head screws, 1/4"-20 thread size, 5/8" long; Allen heads; used to attach the mounting adapter plate to the housing
-
+* Mounting adapter plate with screws: 3 - 18-8 stainless steel thread-locking socket head screws, 1/4"-20 thread size, 5/8" long; Allen heads; used to attach the plate
 [NOTE]
 
 ========================================
