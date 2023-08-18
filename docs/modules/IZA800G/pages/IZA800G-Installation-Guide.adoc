@@ -124,7 +124,7 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 === Package Contents
 
-Carefully unpack the contents of the {generic-camera-name} package.
+// Carefully unpack the contents of the {generic-camera-name} package.
 
 [#f_Package-Contents]
 
