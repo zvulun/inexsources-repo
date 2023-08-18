@@ -359,9 +359,7 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals
 include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
 
 include::ROOT:partial$IZA800G/p-pwr-sig-cable-2.adoc[Second Part of Power Signals Cable]
-
 +++<div class="pagebreak"> </div>+++
-
 [#s_Constructing-the-LAN-Cable]
 
 === Constructing the LAN Cable
@@ -369,7 +367,7 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-2.adoc[Second Part of Power Signal
 include::ROOT:partial$IZA800G/p-lan-cable-1.adoc[LAN Cable Construction Part 1]
 
 include::ROOT:partial$IZA800G/p-lan-cable-2.adoc[LAN Cable Construction Part 2]
-
++++<div class="pagebreak"> </div>+++
 [#s_Typical-Wiring-Diagrams]
 
 === Typical Wiring Diagrams

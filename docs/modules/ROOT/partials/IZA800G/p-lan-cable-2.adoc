@@ -1,4 +1,4 @@
-
++++<div class="pagebreak"> </div>+++
 . Lay out the parts from the network (LAN) connector package.
 +
 [#f_LAN-Cable-Connector-Parts]
@@ -22,7 +22,7 @@ image::ROOT:/IZA800G/image35.png[image,width=243,height=234]
 .LAN Cable: Attaching Rubber Sealing Ring to Cable
 
 image::ROOT:/IZA800G/image36.png[image,width=381,height=178]
-
++++<div class="pagebreak"> </div>+++
 . Orient the support plastic with the wider side (with the thinner walls) towards the RJ45 connector. Put the support plastic on the cable (the split can expand slightly).
 +
 [#f_LAN-Cable-Attaching-the-Support-Plastic-to-the-Cable]
@@ -38,7 +38,7 @@ image::ROOT:/IZA800G/image37.png[image,width=501,height=439]
 .LAN Cable: Inserting RJ45 into Housing Cutout
 
 image::ROOT:/IZA800G/image38.png[image,width=306,height=192]
-
++++<div class="pagebreak"> </div>+++
 . Insert the support plastic into the housing, followed by the rubber sealing ring. Seat the rubber sealing ring between the housing's teeth as far in as it will go.
 +
 [#f_LAN-Cable-Inserting-the-Support-Plastic-and-Rubber-Ring-into-the-Housing]

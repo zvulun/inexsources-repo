@@ -58,7 +58,7 @@ image::ROOT:/IZA800G/image30.png[image,width=478,height=194]
 .. You can seal the shield wire wrapping on the cable with insulation tape or heat shrink tubing.
 
 . Connect the shield wire to the ground wire of the power supply. You may need to extend the shield wire by soldering an additional wire on to it.
-
++++<div class="pagebreak"> </div>+++
 . Connect the ({plus}) and (-) wires from the cable to the power supply.
 +
 [#f_Power-Cable-Connecting-the-Cable-Wires-to-the-Power-Supply]
