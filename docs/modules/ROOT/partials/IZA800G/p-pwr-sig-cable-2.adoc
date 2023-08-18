@@ -4,6 +4,9 @@
 
 image::ROOT:/IZA800G/image25.png[image,width=173,height=213]
 --
+
++++<div class="pagebreak"> </div>+++
+
 . Insert the screw terminals body into the clamp cage housing. Note how the tabs on the screw terminals fit into the grooves in the clamp cage housing.
 +
 [#f_Power-Signals-Cable-Inserting-Screw-Terminals-Tabs-into-Clamp-Cage-Housing]
