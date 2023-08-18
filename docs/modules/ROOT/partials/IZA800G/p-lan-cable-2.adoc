@@ -1,14 +1,13 @@
 +++<div class="pagebreak"> </div>+++
-
+--
 . Lay out the parts from the network (LAN) connector package.
+
 [#f_LAN-Cable-Connector-Parts]
-
 .LAN Cable: Connector Parts
-
 image::ROOT:/IZA800G/image34.png[image,width=437,height=178]
 
 . Slip the sealing nut over the RJ45 connector onto the LAN cable, with the inner threads in the direction of the RJ45 connector.
-+
+
 [#f_LAN-Cable-Slipping-Sealing-Nut-Over-RJ45-Connector]
 
 .LAN Cable: Slipping Sealing Nut Over RJ45 Connector
