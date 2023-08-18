@@ -411,6 +411,8 @@ image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 
 include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Power-Up-and-Set-Up-IP]
 
 == Power Up and Set Up IP
@@ -454,6 +456,8 @@ ifndef::xref-type-IZ600F[Camera System's]
 ifdef::xref-type-IZ600F[camera's]
 IP address.
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Configuring-a-Camera]
 
 == Configure LPR/OV Camera Settings
@@ -479,6 +483,8 @@ Camera settings are typically set by {compname-short}.
 === Logging Out of the Camera
 
 Close all windows, and the browser window.
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Calibrating-the-Cameras]
 
@@ -556,6 +562,8 @@ include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
 
 include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
+
++++<div class="pagebreak"> </div>+++
 
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 

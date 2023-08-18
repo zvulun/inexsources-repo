@@ -468,6 +468,8 @@ IP address.
 
 include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Changing-a-Camera-s-IP-Address]
 
 === Changing a Camera's IP Address
