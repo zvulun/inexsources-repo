@@ -204,8 +204,6 @@ All network cable extensions and repeaters must be shielded.
 
 ========================================
 
-+++<div class="pagebreak"> </div>+++
-
 === Laptop Computer
 
 * You will need to provide a laptop computer to use for configuration. If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight. Required software:
@@ -310,6 +308,8 @@ Avoid having these items in the Field of View:
 * Additional construction if needed
 
 |===
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Mounting-the-Camera-System]
 
