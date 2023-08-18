@@ -1,4 +1,3 @@
-+++<div class="pagebreak"> </div>+++
 . Lay out the parts from the network (LAN) connector package.
 
 [#f_LAN-Cable-Connector-Parts]

@@ -27,3 +27,5 @@ image::ROOT:/IZA800G/image32.png[image,width=302,height=211]
 .LAN Cable: Shield Wire Soldered to Connector Body
 
 image::ROOT:/IZA800G/image33.png[image,width=305,height=228]
+
++++<div class="pagebreak"> </div>+++
