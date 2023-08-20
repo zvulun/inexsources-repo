@@ -1213,6 +1213,8 @@ As you Pause/Run the Live grid, you may see momentary icons ( or ) appearing in 
 
 * The text below the Pause/Run controls displays a summary of the Event's information.
 
++++<div class="pagebreak"> </div>+++
+
 * The thumbnail images below the larger image pane display the overview and plate patch images from each camera. Click on one of the thumbnail images to display it in the larger image pane.
 +
 [NOTE]
@@ -1236,6 +1238,8 @@ If you are using a camera with one sensor (such as the IZ600F), you will see 2 t
 ** As the image enlarges, you may need to readjust the cursor position to re-focus on the area of interest
 
 * To save images, right-click on the large image pane, and save the image
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Search-Tab]
 
