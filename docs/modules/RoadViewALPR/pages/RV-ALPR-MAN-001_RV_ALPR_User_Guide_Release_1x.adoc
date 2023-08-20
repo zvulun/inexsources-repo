@@ -1526,7 +1526,7 @@ Examine the video from the Camera on the Calibration tab:
 
 +++<div class="pagebreak"> </div>+++
 
-== Notices
+== Notice and Legal Disclaimer
 
 include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
