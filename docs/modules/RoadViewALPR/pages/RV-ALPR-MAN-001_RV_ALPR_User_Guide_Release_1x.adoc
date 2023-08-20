@@ -583,6 +583,8 @@ See the HTTP API 1.5 document.
 
 * If you delete an entry, you will be asked to verify the deletion.
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Plate-Recognizer-Not-Used]
 
 === Plate Recognizer (Not Used)
@@ -633,6 +635,8 @@ These parameters are currently used to configure offline Event storage for HTTP 
 
 ** *Send Offline Events After* - not currently used
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Monitoring-IZMonitoring-Server-Integration]
 
 === Monitoring ({software-monitoring} Integration)
@@ -654,6 +658,8 @@ When Monitoring Integration ({software-monitoring} Integration) is enabled, the 
 * *Disk Critical Threshold -* When the percentage of used space on the disk (where the {shortprodname} storage is located) is above this number, then a critical disk status is sent to the Server.
 
 * Remember to click the Save button at the end of the Detector Configuration section after making changes.
+
++++<div class="pagebreak"> </div>+++
 
 [#s_ZAP-Integration]
 
