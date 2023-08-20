@@ -46,6 +46,7 @@ toc::[]
 
 ====
 
++++<div class="pagebreak"> </div>+++
 
 [#s_Related-Documents]
 
@@ -72,7 +73,7 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 
 |{hw-webrelay-single} Remote (Web) Relays Series: Data Sheet and supporting documentation
 |xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
-|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-IZD-MAN-001] |{software-discovery} User Guide
+|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
 |xref:ZAP-4-5:DocList.adoc[ZAP-450-SDK-002] |ZAP: {compname-long} Application Protocol, Version 4.5
 |xref:ZAP-4-5:DocList.adoc[API-HTTPM-ICD-00n_INEX_HTTP_API_Rx_y_v_W] |{compname-short} HTTP API for Major Version "M", Release "x.y"; document version W
 |xref:IZMONSERVER:DocList.adoc[IZMSAPI-HTTP-ICD-041] |{software-monitoring}: Camera Monitoring API
@@ -144,7 +145,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 ========================================
 
-{shortprodname} can send Events to {software-server} or 3rd party systems using various different protocols. See <<s_Trigger-Sources-and-Trigger-Modes-Overview>>.
+{shortprodname} can send Events to {software-server} or 3rd party systems using different protocols. See <<s_Trigger-Sources-and-Trigger-Modes-Overview>>.
 
 ========================================
 
