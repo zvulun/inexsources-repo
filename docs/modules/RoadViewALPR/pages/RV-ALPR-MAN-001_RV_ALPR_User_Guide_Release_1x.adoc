@@ -867,6 +867,8 @@ When Trigger Offset is enabled, the following parameter(s) appear:
 
 The trigger command may arrive at a different time than actual trigger's (physical) arrival time (see <<f_Trigger-Sources-and-Sequence>>). For example, there is often a delay between the time a vehicle passes over an inductive loop, and the time the loop controller generates a pulse. This latency can be compensated for by an "offset".
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Detector-Configuration]
 
 === Detector Configuration
@@ -994,6 +996,8 @@ image::./UserGuide/image27.png[image,width=624,height=170]
 ** Trigger 2 will use Event 2.
 
 ** Trigger 3 will wait for a new Event. If a new Event does not arrive within the Hybrid Post Time, a trigger Event will be created, without an LPR read, but with associated images and a timestamp.
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Lanes]
 
