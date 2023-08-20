@@ -867,8 +867,6 @@ When Trigger Offset is enabled, the following parameter(s) appear:
 
 The trigger command may arrive at a different time than actual trigger's (physical) arrival time (see <<f_Trigger-Sources-and-Sequence>>). For example, there is often a delay between the time a vehicle passes over an inductive loop, and the time the loop controller generates a pulse. This latency can be compensated for by an "offset".
 
-+++<div class="pagebreak"> </div>+++
-
 [#s_Detector-Configuration]
 
 === Detector Configuration
@@ -1061,6 +1059,8 @@ If you have upgraded from a previous {shortprodname} version in which only Lane 
 
 * *Ignore Opposite Direction* - if enabled, then all Events for vehicles moving in the direction opposite to the direction arrow in the Calibration tab will be ignored (see <<s_Calibration-Tab>>). Note that you can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>).
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Cameras]
 
 === Cameras
@@ -1138,6 +1138,8 @@ http:// <camera IP address>
 ** *Trigger Pre* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++<u>+++before+++</u>+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>).
 
 ** *Trigger Post* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++<u>+++after+++</u>+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>)
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Live-Journal-Tab]
 
