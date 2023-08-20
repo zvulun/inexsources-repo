@@ -138,8 +138,6 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 ====
 
-+++<div class="pagebreak"> </div>+++
-
 [#s_System-Overview]
 
 == System Overview
@@ -289,6 +287,8 @@ image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 .Logout (Multi-line Menu)
 
 image::./UserGuide/image5.png[image,width=136,height=113]
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Trigger-Sources-and-Trigger-Modes-Overview]
 
