@@ -66,7 +66,7 @@ toc::[]
 
 .Related Documents
 
-[width="100%",cols="51%,49%",options="header",]
+[width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
 |xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
