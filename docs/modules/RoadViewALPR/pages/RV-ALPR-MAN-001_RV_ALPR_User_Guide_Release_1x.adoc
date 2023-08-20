@@ -492,6 +492,8 @@ image::./UserGuide/image13.png[image,width=490,height=180]
 
 * Remember to click the Save button at the end of this section after making changes.
 
++++<div class="pagebreak"> </div>+++
+
 [#s_HTTP-Integration]
 
 === HTTP Integration
