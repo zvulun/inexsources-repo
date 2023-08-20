@@ -381,6 +381,8 @@ After clicking the Save button at the end of the Detector Configuration section,
 
 ========================================
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Software-Version-and-Camera-Information]
 
 === Software Version and Camera Information
