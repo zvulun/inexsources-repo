@@ -727,6 +727,8 @@ If you want {shortprodname} to work with {software-server}, {shortprodname} can 
 
 * *Remember to click the Save button under the Detection Configuration section after changing these parameters.*
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Direct-Trigger]
 
 === Direct Trigger
