@@ -131,7 +131,7 @@ image::ROOT:image$/IZDiscovery/RV-1_9-FIG-012b_IZDiscovery6020MainScreen.png[IZ 
 
 [#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
 
-=== Changing a Device's IP Address and Network Settings
+== Changing a Device's IP Address and Network Settings
 
 [#f_Changing-the-Device-s-Network-Settings]
 
@@ -182,6 +182,8 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 . The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
 
 . Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (or {software-ALPR}) and change the IP address.
+
++++<div class="pagebreak"> </div>+++
 
 == Notices and Software Precautions
 
