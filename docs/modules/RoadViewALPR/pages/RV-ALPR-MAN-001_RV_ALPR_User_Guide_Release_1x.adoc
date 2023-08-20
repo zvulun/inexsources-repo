@@ -46,25 +46,10 @@ toc::[]
 
 ====
 
-[#s_About-This-Document]
-
-== About This Document
-
-[#s_Who-Should-Read-this-Document]
-
-=== Who Should Read this Document
-
-This document is for:
-
-* *Technical personnel* who want to install, configure, maintain and use {docproductname} in their ALPR systems
-
-* *Project managers* who want to understand {docproductname}'s capabilities
 
 [#s_Related-Documents]
 
-=== Recommended Reading/Related Documents
-
-Contact {compname-long} for document ordering information.
+== Recommended Reading/Related Documents
 
 ._Click to show the Related Documents table_
 [%collapsible]
@@ -74,7 +59,7 @@ Contact {compname-long} for document ordering information.
 
 .Related Documents
 
-[width="100%",cols="56%,44%",options="header",]
+[width="100%",cols="51%,49%",options="header",]
 |===
 |Doc. No. |Title
 |xref:RoadViewALPR:DocList.adoc[RV-ALPRrrr-MAN-001] |{docproductname} Release Notes (for Release rrr)
@@ -103,9 +88,11 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 
 [#s_Applicability]
 
-=== Applicability
+== Applicability
 
 This document is applicable to {docproductname} software, release 1.15.64 and above.
+
+== Training and Support
 
 [#s_Training]
 
@@ -147,6 +134,19 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 ====
 
+[#s_System-Overview]
+
+== System Overview
+
+{shortprodname} is advanced ALPR software that reads license plates using sophisticated image recognition algorithms, and creates LPR Events. {shortprodname} sends LPR Event data via HTTP, the proprietary {compname-short} ZAP protocol or other protocols to other systems, typically {software-server} (see the {software-server} User Guide - see <<s_Related-Documents>>). {shortprodname} can be configured and monitored using a web-based GUI.
+
+[NOTE]
+
+========================================
+
+{shortprodname} can send Events to {software-server} or 3rd party systems using various different protocols. See <<s_Trigger-Sources-and-Trigger-Modes-Overview>>.
+
+========================================
 
 [#s_System-Requirements]
 
@@ -158,14 +158,14 @@ You will need to provide a laptop computer to use for configuration. +++<u>+++If
 
 * Internet Explorer browser version 11 or higher, or the latest version of Chrome
 
-[NOTE]
+// [NOTE]
 
-========================================
+// ========================================
 
-You can add an IE Tab extension to Chrome at this link (to enable access to the Flexwatch camera configuration application): +
-https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd
+// You can add an IE Tab extension to Chrome at this link (to enable access to the Flexwatch camera configuration application): +
+// https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd
 
-========================================
+// ========================================
 
 [#s_Quick-Overview-of-Steps]
 
@@ -188,20 +188,6 @@ https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenad
 * On the Live tab, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence. See <<s_Live-Journal-Tab>>.
 
 * Use the Search tab to find records stored in the {shortprodname} database. See <<s_Search-Tab>>.
-
-[#s_System-Overview]
-
-== System Overview
-
-{shortprodname} is advanced ALPR software that reads license plates using sophisticated image recognition algorithms, and creates LPR Events. {shortprodname} sends LPR Event data via HTTP, the proprietary {compname-short} ZAP protocol or other protocols to other systems, typically {software-server} (see the {software-server} User Guide - see <<s_Related-Documents>>). {shortprodname} can be configured and monitored using a web-based GUI.
-
-[NOTE]
-
-========================================
-
-{shortprodname} can send Events to {software-server} or 3rd party systems using various different protocols. See <<s_Trigger-Sources-and-Trigger-Modes-Overview>>.
-
-========================================
 
 [#s_Preparation-for-Configuration]
 
