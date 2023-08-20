@@ -807,6 +807,8 @@ See separate document.
 
 See separate document.
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Journal-Optional-Local-Storage]
 
 === Journal (Optional Local Storage)
@@ -844,6 +846,8 @@ image::./UserGuide/image22.png[image,width=480,height=160]
 ** *Lev Distance* - the maximum Levenshtein distance between the two plate reads for which the Events will be combined (see <<s_Detector-Configuration>> for a more detailed explanation of Levenshtein distance).
 
 ** *Align to Height* - when the LPR and OV images from the Events are merged, {shortprodname} selects the images in which the plate patch is closest to this percentage of the total height of the LPR/OV image. For example, if the images are 1000 pixels high, and this parameter is set to 75%, then {shortprodname} selects images in which the plate patch is closest (either above or below) a virtual line 750 pixels from the top of the image.
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Trigger-Offset]
 
