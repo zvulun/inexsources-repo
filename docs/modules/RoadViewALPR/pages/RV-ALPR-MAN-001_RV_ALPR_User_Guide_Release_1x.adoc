@@ -1390,6 +1390,8 @@ You can set the "Ignore Opposite Direction" parameter in the Lanes section to ig
 
 . Repeat these steps for the other camera.
 
++++<div class="pagebreak"> </div>+++
+
 [#s_System-Info-Tab]
 
 == System Info Tab
@@ -1478,6 +1480,8 @@ These parameters enable you to control the camera's built-in IR LEDs.
 
 * *Intensity* - light intensity in percent, where 0 is no light, and 100 is maximum light
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Troubleshooting]
 
 == Troubleshooting
@@ -1520,7 +1524,9 @@ Examine the video from the Camera on the Calibration tab:
 
 |===
 
-== Notices, Safety Precautions and Certifications
++++<div class="pagebreak"> </div>+++
+
+== Notices
 
 include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
