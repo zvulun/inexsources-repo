@@ -1273,6 +1273,8 @@ Page controls are located at the upper right of the records grid:
 
 image::./UserGuide/image35.png[image,width=424,height=193]
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Search-Tab-Filters]
 
 === Search Tab: Filters
@@ -1310,6 +1312,8 @@ image::./UserGuide/image36.png[image,width=317,height=308]
 * *Text filters* (LPR, State, Class) - Enter characters to find within the strings. For example, KZ will find **+++<u>+++KZ+++</u>+++**R3791 and J**+++<u>+++KZ+++</u>+++**0714.
 
 * *Direction* - Select All, Forward, (Unknown) or Backward
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Calibration-Tab]
 
