@@ -423,6 +423,8 @@ The Network Settings refer to the +++<u>+++{shortprodname} computer+++</u>+++ (+
 
 ========================================
 
++++<div class="pagebreak"> </div>+++
+
 [#s_FTP-SFTP-Settings]
 
 === FTP/SFTP Settings
@@ -455,6 +457,8 @@ image::./UserGuide/image12.png[image,width=176,height=129]
 * Remember to click Save after changing the password.
 
 * If a user is added, deleted or changed (except for a password change), the changes are saved automatically
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Date-and-Time-Settings]
 
