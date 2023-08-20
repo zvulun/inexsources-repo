@@ -54,6 +54,8 @@ toc::[]
 
 ====
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Related-Documents]
 
 == Recommended Reading/Related Documents
@@ -190,6 +192,8 @@ To change the device's mode (fixed or dynamic [DHCP]), or IP address:
 include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
 include::ROOT:partial$p-software-precautions.adoc[ALPR Camera Safety Precautions]
+
++++<div class="pagebreak"> </div>+++
 
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
