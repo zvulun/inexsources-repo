@@ -54,15 +54,9 @@ toc::[]
 
 ====
 
-[#s_About-this-Document]
-
-== About this Document
-
 [#s_Related-Documents]
 
-=== Recommended Reading/Related Documents
-
-Contact {compname-long} for document ordering information.
+== Recommended Reading/Related Documents
 
 ._Click to show the Related Documents table_
 [%collapsible]
@@ -72,7 +66,7 @@ Contact {compname-long} for document ordering information.
 
 .Related Documents
 
-[width="100%",cols="45%,55%",options="header",]
+[width="100%",cols="51%,49%",options="header",]
 |===
 |Doc. No. |Title
 |xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
@@ -82,6 +76,8 @@ Contact {compname-long} for document ordering information.
 
 ====
 
+== Training and Support
+
 [#s_Training]
 
 include::ROOT:partial$p-training.adoc[Training Section]
@@ -90,9 +86,11 @@ include::ROOT:partial$p-training.adoc[Training Section]
 
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Installing-and-Using-IZ-Discovery]
 
-=== Installing and Using {software-discovery}
+== Installing and Using {software-discovery}
 The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
 
 [IMPORTANT]
