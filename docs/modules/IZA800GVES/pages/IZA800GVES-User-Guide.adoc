@@ -38,47 +38,52 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 // discrete removes these headers from the TOC
 [discrete]
-== {docproductname} VES All-in-one AI Camera System
+== {docproductname} {system-type} All-in-one AI Camera System
 // [discrete]
 // === User Guide
 
+image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
 
+image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 
-[#s_About-this-Document]
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
 
-== About this Document
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
 
-[#s_Who-Should-Read-this-Document]
++++<div class="pagebreak"> </div>+++
 
-=== Who Should Read this Document
+._Click to show the Table of Contents_
+[%collapsible]
+====
 
-This document is for:
+toc::[]
 
-* *Technical personnel* who need to install IZA Camera Systems.
+====
 
-[NOTE]
-
-========================================
-
-This document does not take the place of training by {compname-possess} certified specialists. Contact {compname-long} to schedule training.
-
-========================================
++++<div class="pagebreak"> </div>+++
 
 [#s_Related-Documents]
 
-=== Recommended Reading/Related Documents
+== Recommended Reading/Related Documents
 
-Contact {compname-long} for document ordering information.
+._Click to show the Related Documents table_
+[%collapsible]
+====
 
 [#t_Related-Documents]
 
 .Related Documents
 
-[width="100%",cols="36%,64%",options="header",]
+[width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
-|https://drive.google.com/drive/folders/1Zv941s8KiKIKUpcsDYQnF8Tw5DBNJS0c?usp=sharing[IZA800VGES-VES-TECH-001] |{shortprodname} Quick Start Guide
-|https://drive.google.com/drive/folders/1Zv941s8KiKIKUpcsDYQnF8Tw5DBNJS0c?usp=sharing[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet
+// change the doc numbers on the docs in the Gdrive
+.^|[IZA800GVES-TECH-001] |{shortprodname} Quick Start Guide
+.^|[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet
 |https://drive.google.com/drive/folders/1-2TM0zk6V9hCtjFb6t0NTRZMvlLeTv9Z?usp=sharing[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 |https://drive.google.com/drive/folders/17Yg4kV20Fp7QvsSRtv6vZ_pR-b0qVqXP?usp=sharing[Mounts] |Mounting Hardware documentation
 |https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[{software-discovery} Utility] |{software-discovery} Utility software components
@@ -93,6 +98,8 @@ Contact {compname-long} for document ordering information.
 |https://drive.google.com/drive/folders/1JmAK4YB9cdnadiVI8_odHUWEETqqQjtn?usp=share_link[{hw-connection-panel}-DIN-REV-x-TDSHEET] |DIN Rail Mountable Connection Panel ({hw-connection-panel})
 |https://drive.google.com/drive/folders/190lmdZ4xQSpx2Ksn-XVgOINE6D14rhSv?usp=sharing[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
+
+====
 
 [#s_Support]
 
