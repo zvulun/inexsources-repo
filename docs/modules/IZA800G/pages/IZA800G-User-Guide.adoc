@@ -80,21 +80,21 @@ toc::[]
 [width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
-|xref:IZA800G:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide
-|xref:IZA800G:DocList.adoc[{shortprodname}-TECH-001] |{shortprodname} Quick Start Guide
-|xref:IZA800G:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+.^|xref:IZA800G:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide
+.^|xref:IZA800G:DocList.adoc[{shortprodname}-TECH-001] |{shortprodname} Quick Start Guide
+.^|xref:IZA800G:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
 .^|xref:IZCAB-A800-PAS:DocList.adoc[IZCABA800PAS-REV-x-TDSHEET] |Power/Signals Cable for {shortprodname} System Technical Data Sheet
-|xref:IZCAB-A800-LAN:DocList.adoc[IZCABA800LAN-REV-x-TDSHEET] |LAN Cable for {shortprodname} System Technical Data Sheet
-|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
-|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
-|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
-|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
-|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
-|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
-|xref:IZS:DocList.adoc[{illum-strobe}-MAN-002] |{illum-strobe} Strobe Illuminator Series User Guide
-|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
-|xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
-|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+.^|xref:IZCAB-A800-LAN:DocList.adoc[IZCABA800LAN-REV-x-TDSHEET] |LAN Cable for {shortprodname} System Technical Data Sheet
+.^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+.^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+.^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+.^|xref:IZS:DocList.adoc[{illum-strobe}-MAN-002] |{illum-strobe} Strobe Illuminator Series User Guide
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+.^|xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
 
 ====
