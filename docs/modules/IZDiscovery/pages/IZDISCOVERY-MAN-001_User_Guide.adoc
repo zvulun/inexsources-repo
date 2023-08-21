@@ -71,9 +71,9 @@ toc::[]
 [width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
-|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
-|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
-|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 |===
 
 ====
