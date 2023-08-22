@@ -209,14 +209,14 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 2.7+.^| Accessories Available
 
-.^| xref:IZPWR:DocList.adoc[DIN Power Supplies]
+.^| DIN Rail Mount Power Supplies (xref:IZPWR:DocList.adoc[IZPWR])
 
-.^| xref:IZPANEL:DocList.adoc[DIN Rail Mountable Connection Panel ({hw-connection-panel})]
+.^| DIN Rail Mountable Connection Panel (xref:IZPANEL:DocList.adoc[({hw-connection-panel})]
 
-.^| xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE]
+.^| Composite Cable for {system-type} (xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE])
 
 .^| Power/LAN Cable for {system-type} System+++<br>+++
-(xref:IZCAB-AVES:DocList.adoc[(IZCAB-AVES)])
+(xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES])
 
 .^| Illuminator Cable for {system-type} System (xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES])
 
