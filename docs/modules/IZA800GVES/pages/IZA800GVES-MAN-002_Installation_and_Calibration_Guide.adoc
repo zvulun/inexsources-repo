@@ -101,7 +101,7 @@ Carefully unpack the contents of the {system-type} Camera System package.
 
 .Package Contents
 
-image::./UserGuide/image1.png[image,width=444,height=346]
+image::ROOT:/IZA800GVES/image1.png[image,width=444,height=346]
 
 The package includes:
 
@@ -137,13 +137,13 @@ image::./UserGuide/image3.png[image,width=606,height=236]
 
 [#f_Dimensions]
 
-image::./UserGuide/image4.png[image,width=370,height=199]
+image::ROOT:/IZA800GVES/image4.png[image,width=370,height=199]
 
-image::./UserGuide/image5.png[image,width=467,height=239]
+image::ROOT:/IZA800GVES/image5.png[image,width=467,height=239]
 
 .Dimensions
 
-image::./UserGuide/image6.png[image,width=483,height=269]
+image::ROOT:/IZA800GVES/image6.png[image,width=483,height=269]
 
 [#s_Multi-flash-Technology]
 
