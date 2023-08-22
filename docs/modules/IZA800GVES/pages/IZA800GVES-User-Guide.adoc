@@ -163,6 +163,27 @@ image::ROOT:/IZA800GVES/image6.png[image,width=483,height=269]
 
 include::ROOT:partial$IZA800GVES/p-IZA800GVES-spec-table.adoc[IZA800GVES Specification Table]
 
++++<div class="pagebreak"> </div>+++
+
+=== Connectors on Camera System Housing
+
+[#f_Underside-of-the-ALPR-Camera-System]
+
+.Underside of the {generic-camera-name}
+
+image::ROOT:/IZA800GVES/image3.png[image,width=606,height=236]
+
+=== Power/LAN Cable Connector Pinout
+
+[#t_Power-Signals-Cable-Power-Signals-Pinouts]
+
+.Power/LAN Cable Connector Pinout
+
+
+
+
+
+
 
 
 [#s_Quick-Installation-Overview]
@@ -222,7 +243,7 @@ image::./UserGuide/image2.png[image,width=561,height=284]
 
 .Underside of the Camera System and Connectors
 
-image::./UserGuide/image3.png[image,width=606,height=236]
+
 
 
 [#s_Multi-flash-Technology]

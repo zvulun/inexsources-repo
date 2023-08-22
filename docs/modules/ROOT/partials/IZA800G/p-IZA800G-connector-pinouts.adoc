@@ -4,7 +4,7 @@
 | image:ROOT:image$/IZA800G/image24.png[image,width=181,height=352]
 |[width="100%",cols="10%,55%,35%",options="header",]
 !===
-!Pin !Power/Trigger !Wire Color
+!Pin !Power/Signal !Wire Color
 !1 !24 VDC (-) / GND !Black
 !2 !Dry Trigger 5V({plus}) !Brown
 !3 !Wet Trigger GND/ +
