@@ -40,7 +40,7 @@
 * IR - Infrared
 
 .1+.^| Beam Angle
-.^a| * S- 40°x16°
+.^a| * S - 40°x16°
 * L - 15°x15°
 * XL - 15°x15°
 
