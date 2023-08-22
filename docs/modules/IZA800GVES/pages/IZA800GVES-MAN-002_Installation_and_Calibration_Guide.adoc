@@ -1,3 +1,9 @@
+:docproductname: IZA800GVES
+:shortprodname: IZA800GVES
+:generic-camera-name: VES Camera System
+:system-type: VES
+
+
 [#s_About-this-Document]
 
 == About this Document
@@ -41,9 +47,9 @@ Contact {compname-long} for document ordering information.
 |https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=sharing[{illum-VES}-REV-x-TDSHEET] |{illum-VES} Strobe Illuminator Series Technical Data Sheet
 |https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=sharing[{illum-VES}-VES-MAN-002] |{illum-VES} Strobe Illuminator Series User Guide
 |https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
-|https://drive.google.com/drive/folders/1RnLHJhFwo4Tu_yfUJ1rFoUcnxJxzd-5k?usp=sharing[COMPCABLE-REV-x-TDSHEET] |Composite Cable for {system-VES} (IZ_COMPOSITE_CABLE)
-|https://drive.google.com/drive/folders/1A1kXsMSm38YRO1cDlz7Fgs8_NcQaNwFG?usp=sharing[IZCABS{system-VES}-REV-x-TDSHEET] |Illuminator Cable for {system-VES} (IZCAB-S{system-VES})
-|https://drive.google.com/drive/folders/17KJlkWX6jeHKhoxzIQzhlSbgjlOwtg9N?usp=sharing[IZCABA{system-VES}-REV-x-TDSHEET] |Power/LAN Cable for {system-VES} (IZCAB-A{system-VES})
+|https://drive.google.com/drive/folders/1RnLHJhFwo4Tu_yfUJ1rFoUcnxJxzd-5k?usp=sharing[COMPCABLE-REV-x-TDSHEET] |Composite Cable for {system-type} (IZ_COMPOSITE_CABLE)
+|https://drive.google.com/drive/folders/1A1kXsMSm38YRO1cDlz7Fgs8_NcQaNwFG?usp=sharing[IZCABS{system-type}-REV-x-TDSHEET] |Illuminator Cable for {system-type} (IZCAB-S{system-type})
+|https://drive.google.com/drive/folders/17KJlkWX6jeHKhoxzIQzhlSbgjlOwtg9N?usp=sharing[IZCABA{system-type}-REV-x-TDSHEET] |Power/LAN Cable for {system-type} (IZCAB-A{system-type})
 |https://drive.google.com/drive/folders/1JmAK4YB9cdnadiVI8_odHUWEETqqQjtn?usp=share_link[{hw-connection-panel}-DIN-REV-x-TDSHEET] |DIN Rail Mountable Connection Panel ({hw-connection-panel})
 |https://drive.google.com/drive/folders/190lmdZ4xQSpx2Ksn-XVgOINE6D14rhSv?usp=sharing[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
@@ -89,7 +95,7 @@ http://
 
 === Package Contents
 
-Carefully unpack the contents of the {system-VES} Camera System package.
+Carefully unpack the contents of the {system-type} Camera System package.
 
 [#f_Package-Contents]
 
@@ -99,7 +105,7 @@ image::./UserGuide/image1.png[image,width=444,height=346]
 
 The package includes:
 
-* {shortprodname}, {system-VES} All-in-one AI Camera System
+* {shortprodname}, {system-type} All-in-one AI Camera System
 
 * Power/LAN connector (field-mountable)
 
@@ -115,7 +121,7 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 === Camera System Details and Dimensions
 
-The {shortprodname} {system-VES} All-in-one AI Camera System is suitable for open road tolling, ITS and traffic enforcement applications, with different models available for different distances and illumination requirements. It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade. The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system. A computer running license plate recognition software is also built in.
+The {shortprodname} {system-type} All-in-one AI Camera System is suitable for open road tolling, ITS and traffic enforcement applications, with different models available for different distances and illumination requirements. It has a rugged, all-weather, IP67-compliant, waterproof housing and a protective sunshade. The system consists of a black and white License Plate Recognition (LPR) camera, a color Overview (OV) camera, and an integrated, LED-based illumination system. A computer running license plate recognition software is also built in.
 
 [#f_Front-View-of-the-Camera-System]
 
@@ -157,7 +163,7 @@ image::./UserGuide/image7.png[image,width=524,height=75]
 
 Some of the built-in LEDs of some models of the {shortprodname} are white. They are used for overview image illumination.
 
-[#f_IZA800G{system-VES}-White-LED-Positions]
+[#f_IZA800G{system-type}-White-LED-Positions]
 
 .{shortprodname} White LED Positions
 
@@ -275,8 +281,8 @@ Vehicle Without Plate
 | | |Power/LAN Cable Connector: Waterproof outdoor Binder RD24, part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07]
 |Accessories Available | |https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=sharing[{illum-VES} Strobe Illuminator]
 | | |https://drive.google.com/drive/folders/1RnLHJhFwo4Tu_yfUJ1rFoUcnxJxzd-5k?usp=sharing[IZ Composite Cable]
-| | |https://drive.google.com/drive/folders/1A1kXsMSm38YRO1cDlz7Fgs8_NcQaNwFG?usp=sharing[Illuminator Cable for {system-VES} System (IZCAB-S{system-VES})]
-| | |https://drive.google.com/drive/folders/17KJlkWX6jeHKhoxzIQzhlSbgjlOwtg9N?usp=sharing[Power/LAN Cable for {system-VES} System (IZCAB-A{system-VES})]
+| | |https://drive.google.com/drive/folders/1A1kXsMSm38YRO1cDlz7Fgs8_NcQaNwFG?usp=sharing[Illuminator Cable for {system-type} System (IZCAB-S{system-type})]
+| | |https://drive.google.com/drive/folders/17KJlkWX6jeHKhoxzIQzhlSbgjlOwtg9N?usp=sharing[Power/LAN Cable for {system-type} System (IZCAB-A{system-type})]
 | | |https://drive.google.com/drive/folders/1JmAK4YB9cdnadiVI8_odHUWEETqqQjtn?usp=share_link[DIN Rail Mountable Connection Panel ({hw-connection-panel})]
 | | |https://drive.google.com/drive/folders/17Yg4kV20Fp7QvsSRtv6vZ_pR-b0qVqXP?usp=sharing[Different mount options available]
 | | |https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=share_link[Different power supply options available]
@@ -292,7 +298,7 @@ Vehicle Without Plate
 
 === Required Accessories
 
-* {compname-short} IZ Composite Cable or {compname-short} Power/LAN Cable for {system-VES} System; see <<s_Power-LAN-Cable-Options>>.
+* {compname-short} IZ Composite Cable or {compname-short} Power/LAN Cable for {system-type} System; see <<s_Power-LAN-Cable-Options>>.
 
 * 0.1 in (2.5 mm) flat screwdriver for tightening the screw terminals of the Power/LAN connector (see <<s_Power-LAN-Cable-Options>>) and 0.08 in (2 mm) flat screwdriver for tightening the screw terminal blocks of the {hw-connection-panel}.
 
@@ -342,11 +348,11 @@ You can add an IE Tab extension to Chrome at this https://chrome.google.com/webs
 
 * External Illuminator - Can be used to enhance overview vehicle image quality, for front and/or rear capture.
 
-** Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objecti{system-VES} of your project. Contact {compname-short} for guidance/training about this subject.
+** Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objecti{system-type} of your project. Contact {compname-short} for guidance/training about this subject.
 
 ** Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
 
-* The illuminator is powered via a cable from the Camera System's illuminator panel connector. Use an Illuminator Cable for {system-VES} System.
+* The illuminator is powered via a cable from the Camera System's illuminator panel connector. Use an Illuminator Cable for {system-type} System.
 
 [#s_Planning-Your-Installation]
 
@@ -374,9 +380,9 @@ Select your Camera System's position so that license plates are always within th
 
 image::./UserGuide/image10.png[image,width=247,height=411]
 
-[#f_Plates-Parallel-to-Capture-Line-Away-from-Road-Cur{system-VES}]
+[#f_Plates-Parallel-to-Capture-Line-Away-from-Road-Cur{system-type}]
 
-.Plates Parallel to Capture Line - Away from Road Cur{system-VES}
+.Plates Parallel to Capture Line - Away from Road Cur{system-type}
 
 image::./UserGuide/image11.png[image,width=503,height=314]
 
@@ -506,7 +512,7 @@ You can trigger from the OV camera by using appropriate cabling (see <<s_Typical
 
 *See the illuminator guides for further details about installation and mounting considerations.*
 
-* Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objecti{system-VES} of your project. Contact {compname-short} for guidance/training about this subject.
+* Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objecti{system-type} of your project. Contact {compname-short} for guidance/training about this subject.
 
 * Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
 
@@ -619,11 +625,11 @@ image::./UserGuide/image16.png[image,width=604,height=429]
 |===
 |Item |Description |Ordering Information
 |A a|*LAN Cable* |Supplied by integrator
-|B a|**Power/LAN Cable for {system-VES} System +
+|B a|**Power/LAN Cable for {system-type} System +
 +
 **or build yourself with IZ_COMPOSITE_CABLE and the Power/LAN Cable Connector included with the camera; +
 See <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>> +
-*IZ_COMPOSITE_CABLE maximum allowable length 200 ft (61 m)* |{compname-short} P/N: https://drive.google.com/drive/folders/17KJlkWX6jeHKhoxzIQzhlSbgjlOwtg9N?usp=sharing[IZCAB-A{system-VES}] +
+*IZ_COMPOSITE_CABLE maximum allowable length 200 ft (61 m)* |{compname-short} P/N: https://drive.google.com/drive/folders/17KJlkWX6jeHKhoxzIQzhlSbgjlOwtg9N?usp=sharing[IZCAB-A{system-type}] +
 +
 {compname-short} P/N: https://drive.google.com/drive/folders/1RnLHJhFwo4Tu_yfUJ1rFoUcnxJxzd-5k?usp=share_link[IZ_COMPOSITE_CABLE]; +
 Binder P/N https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07]
@@ -634,7 +640,7 @@ Binder P/N https://www.binder-usa.com/us-en/products/power-connectors/rd24-power
 
 * https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR240-24-MWL-DIN]
 
-|D a|*Illuminator Cable for {system-VES} System* |{compname-short} P/N: https://drive.google.com/drive/folders/1A1kXsMSm38YRO1cDlz7Fgs8_NcQaNwFG?usp=sharing[IZCAB-S{system-VES}]
+|D a|*Illuminator Cable for {system-type} System* |{compname-short} P/N: https://drive.google.com/drive/folders/1A1kXsMSm38YRO1cDlz7Fgs8_NcQaNwFG?usp=sharing[IZCAB-S{system-type}]
 |E a|*DIN Rail Mountable Connection Panel* |{compname-short} P/N: https://drive.google.com/drive/folders/1JmAK4YB9cdnadiVI8_odHUWEETqqQjtn?usp=share_link[{hw-connection-panel}]
 |F a|*{illum-VES} Strobe Illuminator* |{compname-short} P/N: See the https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=share_link[{illum-VES} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
@@ -649,7 +655,7 @@ image::./UserGuide/image17.png[image,width=623,height=324]
 
 === Power/LAN Cable Options
 
-The IZ Composite or prefabricated Power/LAN cables are custom-made for {system-VES} camera applications.
+The IZ Composite or prefabricated Power/LAN cables are custom-made for {system-type} camera applications.
 
 * If you have an IZ Composite Cable, you will need to connect one end to the connector plug supplied with the {shortprodname} camera (see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>).
 
@@ -767,7 +773,7 @@ image::./UserGuide/image22.png[image,width=407,height=218]
 
 The screw terminal for the drain wire is in the middle of the insert, with the screw threaded up from the bottom (see <<f_Screw-Terminals-for-Drain-and-Power-LAN-Connections>>).
 
-All wire colors are those used in the IZ_COMPOSITE_CABLE and IZCAB-A{system-VES} cables.
+All wire colors are those used in the IZ_COMPOSITE_CABLE and IZCAB-A{system-type} cables.
 
 ========================================
 
@@ -1324,7 +1330,7 @@ to +
 * Added text to explain that preparing the cable leads is relevant when using the IZ_COMPOSITE_CABLE
 
 |1.28 |Dec. 4, 2022 a|
-* Updated filenames of {system-VES} cable data sheets in Related Documents table
+* Updated filenames of {system-type} cable data sheets in Related Documents table
 
 * Updated filename of {hw-connection-panel} data sheet in Related Documents table
 
@@ -1340,9 +1346,9 @@ to +
 - Updated distance specifications and wording +
 - Added links to Accessories Available in specification table
 
-* Added IZCAB-A{system-VES} and IZCAB-S{system-VES} designations to Accessories Available
+* Added IZCAB-A{system-type} and IZCAB-S{system-type} designations to Accessories Available
 
-* Changed name from ALPR All-in-one AI Camera System to {system-VES} All-in-one AI Camera System in selected places
+* Changed name from ALPR All-in-one AI Camera System to {system-type} All-in-one AI Camera System in selected places
 
 * Updated specifications to incorporate new models with white light illumination
 
