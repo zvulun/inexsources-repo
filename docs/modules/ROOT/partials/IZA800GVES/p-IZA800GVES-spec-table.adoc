@@ -28,7 +28,6 @@
 
 .^a| * S - Short distance, 5-35 ft (2-11 m)
 * L - Long distance, 30-70 ft (9-21 m)
-* XL - Extra-long distance 33-80 ft (10-24 m)
 
 .3+.^| LPR Illumination
 .1+.^| Number of LEDs
@@ -42,7 +41,6 @@
 .1+.^| Beam Angle
 .^a| * S- 40°x16°
 * L - 15°x15°
-* XL - 15°x15°
 
 .6+.^| LPR Camera
 .^| Shutter Type
@@ -60,7 +58,6 @@
 .1+.^| Lens
 .^a| * S - 6-22 mm; Motorized Zoom and Auto-focus
 * L - 12-40 mm; Motorized Zoom and Auto-focus
-* XL - 12-50 mm; Manual Zoom and Focus
 
 .^| Video Compression
 .^| MJPEG, H.264, H.265
@@ -82,7 +79,7 @@
 .1+.^| Beam Angle
 .^a| * S - 40°x16°
 * L - 15°x15°
-* XL - 15°x15°
+
 
 .6+.^| OV Camera
 .^| Shutter Type
@@ -100,7 +97,7 @@
 .1+.^| Lens
 .^a| * S - 6-22 mm; Motorized Zoom and Auto-focus
 * L - 12-40 mm; Motorized Zoom and Auto-focus
-* XL - 12-50 mm; Manual Zoom and Focus
+
 
 .^| Video Compression
 .^| MJPEG, H.264, H.265
@@ -174,25 +171,23 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .5+.^| Interface
 .^| Ethernet
-.^| 10/100 BaseT
+.^| 100BASE-TX, 2 pairs, Full Duplex
 
 
 .2+.^| Connectors
-.^| LAN - Waterproof outdoor RJ-45 connector
+.^| Power/LAN - Waterproof outdoor RD24 6{plus}PE-pin male connector
 
 
 
-.^| Power/Signals - Waterproof outdoor M12 connector
+.^| Illuminator - Waterproof outdoor RD24 6{plus}PE-pin female connector with protective cap
 
 
-.1+.^| Digital Inputs (Trigger)
-.^a| * Dry Trigger: 5V ({plus})
-* Wet Trigger GND
-* Dry/Wet Trig Input
+.1+.^| Illuminator Configuration
+.^a| RS485: A{plus}, B-
 
-.1+.^| Digital Outputs
-.^a| * OV Strobe: 5 V isolated
-* RS485 (A/B)
+.1+.^| Strobe Output
+.^a| OV Strobe: 5 V isolated
+
 
 
 .2+.^| Power
@@ -203,17 +198,14 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| Power Consumption
 .^| 25 W
 
-2.3+.^| Accessories Included
+2.2+.^| Accessories Included
 
 .^| Sunshade
 
 
 
-.^| Waterproof outdoor RJ-45 cable connector
+.^| Power/LAN Cable Connector: Waterproof outdoor Binder RD24, part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07]
 
-
-
-.^| Waterproof outdoor M12 cable connector
 
 2.6+.^| Accessories Available
 

@@ -1,0 +1,118 @@
+:docproductname: IZA800GVES
+:shortprodname: IZA800GVES
+:generic-camera-name: VES Camera System
+:system-type: VES
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// set attribute (by uncommenting the line)
+// used to determine which text/links to sections
+// outside partials - should be used in partials
+// see the playbook for full list
+
+:xref-type-IZA800G:
+:layout-type-userguide:
+
+//enable the TOC to be placed in a specific position
+:toc: macro
+
+= {docproductname} Installation Guide
+
+xref:IZA800GVES:DocList.adoc[<- Back to {shortprodname} Documents]
+
+image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== {docproductname} {system-type} All-in-one AI Camera System
+// [discrete]
+// === User Guide
+
+image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
+
+image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+
++++<div class="pagebreak"> </div>+++
+
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
+toc::[]
+
+====
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Related-Documents]
+
+== Recommended Reading/Related Documents
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[width="100%",cols="45%,55%",options="header",]
+|===
+|Doc. No. |Title
+// change the doc numbers on the docs in the Gdrive
+.^|xref:IZA800GVES:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide
+.^|xref:IZA800GVES:DocList.adoc[{shortprodname}-TECH-001] |{shortprodname} Quick Start Guide
+.^|xref:IZA800GVES:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+.^|xref:IZ_COMPOSITE_CABLE:DocList.adoc[COMPCABLE-REV-x-TDSHEET] |Composite Cable for {system-type} (IZ_COMPOSITE_CABLE) Technical Data Sheet
+.^|xref:IZCAB-SVES:DocList.adoc[IZCABSVES-REV-x-TDSHEET] |Illuminator Cable for {system-type} (IZCAB-SVES) Technical Data Sheet
+.^|xref:IZCAB-AVES:DocList.adoc[IZCABAVES-REV-x-TDSHEET] |Power/LAN Cable for {system-type} (IZCAB-AVES) Technical Data Sheet
+.^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+.^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+.^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+.^|xref:IZSVES:DocList.adoc[{illum-VES}-MAN-002] |{illum-VES} Strobe Illuminator Series User Guide
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+.^|xref:IZPANEL:DocList.adoc[{hw-connection-panel}-DIN-REV-xxx-001] |{hw-connection-panel} DIN Rail Mountable Connection Panel (IZPanel) Technical Data Sheet
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+====
+
++++<div class="pagebreak"> </div>+++
+
+== Training and Support
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+[#s_Support]
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+==  Checklist
+

@@ -82,31 +82,88 @@ toc::[]
 |===
 |Doc. No. |Title
 // change the doc numbers on the docs in the Gdrive
-.^|[IZA800GVES-TECH-001] |{shortprodname} Quick Start Guide
-.^|[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet
-|https://drive.google.com/drive/folders/1-2TM0zk6V9hCtjFb6t0NTRZMvlLeTv9Z?usp=sharing[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
-|https://drive.google.com/drive/folders/17Yg4kV20Fp7QvsSRtv6vZ_pR-b0qVqXP?usp=sharing[Mounts] |Mounting Hardware documentation
-|https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[{software-discovery} Utility] |{software-discovery} Utility software components
-|https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=sharing[RV-ALPR-MAN-001] |{software-ALPR-long} User Guide
-|https://drive.google.com/drive/folders/1pN8lGgXbNLrHVzWFKTg0gS-hl_kU5jD-?usp=share_link[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
-|https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=sharing[{illum-VES}-REV-x-TDSHEET] |{illum-VES} Strobe Illuminator Series Technical Data Sheet
-|https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=sharing[{illum-VES}-VES-MAN-002] |{illum-VES} Strobe Illuminator Series User Guide
-|https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
-|https://drive.google.com/drive/folders/1RnLHJhFwo4Tu_yfUJ1rFoUcnxJxzd-5k?usp=sharing[COMPCABLE-REV-x-TDSHEET] |Composite Cable for {system-type} (IZ_COMPOSITE_CABLE)
-|https://drive.google.com/drive/folders/1A1kXsMSm38YRO1cDlz7Fgs8_NcQaNwFG?usp=sharing[IZCABS{system-type}-REV-x-TDSHEET] |Illuminator Cable for {system-type} (IZCAB-S{system-type})
-|https://drive.google.com/drive/folders/17KJlkWX6jeHKhoxzIQzhlSbgjlOwtg9N?usp=sharing[IZCABA{system-type}-REV-x-TDSHEET] |Power/LAN Cable for {system-type} (IZCAB-A{system-type})
-|https://drive.google.com/drive/folders/1JmAK4YB9cdnadiVI8_odHUWEETqqQjtn?usp=share_link[{hw-connection-panel}-DIN-REV-x-TDSHEET] |DIN Rail Mountable Connection Panel ({hw-connection-panel})
-|https://drive.google.com/drive/folders/190lmdZ4xQSpx2Ksn-XVgOINE6D14rhSv?usp=sharing[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+.^|xref:IZA800GVES:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide
+.^|xref:IZA800GVES:DocList.adoc[{shortprodname}-TECH-001] |{shortprodname} Quick Start Guide
+.^|xref:IZA800GVES:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+.^|xref:IZ_COMPOSITE_CABLE:DocList.adoc[COMPCABLE-REV-x-TDSHEET] |Composite Cable for {system-type} (IZ_COMPOSITE_CABLE) Technical Data Sheet
+.^|xref:IZCAB-SVES:DocList.adoc[IZCABSVES-REV-x-TDSHEET] |Illuminator Cable for {system-type} (IZCAB-SVES) Technical Data Sheet
+.^|xref:IZCAB-AVES:DocList.adoc[IZCABAVES-REV-x-TDSHEET] |Power/LAN Cable for {system-type} (IZCAB-AVES) Technical Data Sheet
+.^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+.^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+.^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+.^|xref:IZSVES:DocList.adoc[{illum-VES}-MAN-002] |{illum-VES} Strobe Illuminator Series User Guide
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+.^|xref:IZPANEL:DocList.adoc[{hw-connection-panel}-DIN-REV-xxx-001] |{hw-connection-panel} DIN Rail Mountable Connection Panel (IZPanel) Technical Data Sheet
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
 
 ====
 
++++<div class="pagebreak"> </div>+++
+
+== Training and Support
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
 [#s_Support]
 
-=== Support
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
-If you have any questions, please contact our support team via our website: +
-http://
+
+==  Product Description
+
+=== Overview
+
+The {shortprodname} {system-type} All-in-one AI Camera System is suitable for open road tolling, ITS and traffic enforcement applications, with different models available for different distances and illumination requirements.
+
+include::ROOT:partial$IZA800G/p-IZ-overview-internals.adoc[IZ Camera Internals Overview Paragraph]
+
+include::ROOT:partial$IZA800G/p-camera-short-intro-physical.adoc[Camera Details Introduction]
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Package-Contents]
+
+=== Package Contents
+
+Carefully unpack the contents of the {generic-camera-name} package.
+
+[#f_Package-Contents]
+
+.Package Contents
+
+image::ROOT:/IZA800GVES/image1.png[image,width=444,height=346]
+
+=== Dimensions
+
+[#f_Dimensions]
+
+image::ROOT:/IZA800GVES/image4.png[image,width=370,height=199]
+
+image::ROOT:/IZA800GVES/image5.png[image,width=467,height=239]
+
+.Dimensions
+
+image::ROOT:/IZA800GVES/image6.png[image,width=483,height=269]
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Specifications]
+
+=== Specifications
+
+[#t_Technical-Specifications]
+
+.Technical Specifications
+
+
+
+
 
 [#s_Quick-Installation-Overview]
 
@@ -138,23 +195,8 @@ http://
 
 == Camera System Overview
 
-[#s_Package-Contents]
 
-=== Package Contents
 
-Carefully unpack the contents of the {system-type} Camera System package.
-
-[#f_Package-Contents]
-
-.Package Contents
-
-image::./UserGuide/image1.png[image,width=444,height=346]
-
-The package includes:
-
-* {shortprodname}, {system-type} All-in-one AI Camera System
-
-* Power/LAN connector (field-mountable)
 
 [NOTE]
 
@@ -182,15 +224,6 @@ image::./UserGuide/image2.png[image,width=561,height=284]
 
 image::./UserGuide/image3.png[image,width=606,height=236]
 
-[#f_Dimensions]
-
-image::./UserGuide/image4.png[image,width=370,height=199]
-
-image::./UserGuide/image5.png[image,width=467,height=239]
-
-.Dimensions
-
-image::./UserGuide/image6.png[image,width=483,height=269]
 
 [#s_Multi-flash-Technology]
 
