@@ -161,7 +161,7 @@ image::ROOT:/IZA800GVES/image6.png[image,width=483,height=269]
 
 .Technical Specifications
 
-
+include::ROOT:partial$IZA800GVES/p-IZA800GVES-spec-table.adoc[IZA800GVES Specification Table]
 
 
 
