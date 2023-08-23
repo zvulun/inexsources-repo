@@ -131,13 +131,13 @@ include::ROOT:partial$IZA800G/p-camera-short-intro-physical.adoc[Camera Details 
 
 === Package Contents
 
-Carefully unpack the contents of the {generic-camera-name} package.
-
 [#f_Package-Contents]
 
 .Package Contents
 
 image::ROOT:/IZA800GVES/image1.png[image,width=444,height=346]
+
++++<div class="pagebreak"> </div>+++
 
 === Dimensions
 
