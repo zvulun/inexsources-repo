@@ -11,7 +11,7 @@
 !4 !LAN TX (-) !Orange
 !5 !LAN TX ({plus}) !White/Green
 !6 !LAN RX (-) !Green
-!image:ROOT:GroundSymbol.png[image,width=20,height=26]  !Shield +
-(Connector Body) !Silver
+!image:ROOT:GroundSymbol.png[image,width=20,height=26]  !Drain +
+(middle terminal) !Silver
 !===
 |===
