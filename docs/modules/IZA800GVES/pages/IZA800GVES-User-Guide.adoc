@@ -187,6 +187,8 @@ include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Con
 
 === Required Accessories (Not Included)
 
+* Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters).
+
 * The following accessories can be supplied by {compname-med}. For documentation and part numbers, see <<s_Related-Documents>> and <<s_Specifications>>.
 
 [#t_Required-Accessories]

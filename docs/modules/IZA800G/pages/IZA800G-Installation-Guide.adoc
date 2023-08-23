@@ -155,7 +155,7 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 === Required Accessories
 
-The following accessories can be supplied by {compname-med},
+The following accessories can be supplied by {compname-med}.
 For documentation and part numbers, see <<s_Related-Documents>>.
 
 [#t_Required-Accessories]

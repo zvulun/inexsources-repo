@@ -81,22 +81,20 @@ toc::[]
 [width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
-// change the doc numbers on the docs in the Gdrive
-.^|xref:IZA800GVES:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide
-.^|xref:IZA800GVES:DocList.adoc[{shortprodname}-TECH-001] |{shortprodname} Quick Start Guide
-.^|xref:IZA800GVES:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
-.^|xref:IZ_COMPOSITE_CABLE:DocList.adoc[COMPCABLE-REV-x-TDSHEET] |Composite Cable for {system-type} (IZ_COMPOSITE_CABLE) Technical Data Sheet
-.^|xref:IZCAB-SVES:DocList.adoc[IZCABSVES-REV-x-TDSHEET] |Illuminator Cable for {system-type} (IZCAB-SVES) Technical Data Sheet
-.^|xref:IZCAB-AVES:DocList.adoc[IZCABAVES-REV-x-TDSHEET] |Power/LAN Cable for {system-type} (IZCAB-AVES) Technical Data Sheet
+.^|xref:IZA800G:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide
+.^|xref:IZA800G:DocList.adoc[{shortprodname}-TECH-001] |{shortprodname} Quick Start Guide
+.^|xref:IZA800G:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+.^|xref:IZCAB-A800-PAS:DocList.adoc[IZCABA800PAS-REV-x-TDSHEET] |Power/Signals Cable for {shortprodname} System Technical Data Sheet
+.^|xref:IZCAB-A800-LAN:DocList.adoc[IZCABA800LAN-REV-x-TDSHEET] |LAN Cable for {shortprodname} System Technical Data Sheet
 .^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 .^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
 .^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
 .^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
 .^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
 .^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
-.^|xref:IZSVES:DocList.adoc[{illum-VES}-MAN-002] |{illum-VES} Strobe Illuminator Series User Guide
+.^|xref:IZS:DocList.adoc[{illum-strobe}-MAN-002] |{illum-strobe} Strobe Illuminator Series User Guide
 .^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
-.^|xref:IZPANEL:DocList.adoc[{hw-connection-panel}-DIN-REV-xxx-001] |{hw-connection-panel} DIN Rail Mountable Connection Panel (IZPanel) Technical Data Sheet
+.^|xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
 .^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
 
@@ -116,36 +114,110 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 ==  Checklist
 
+include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Prepare-Components-and-Tools]
+
+== Prepare Components and Tools
+
+[#s_Package-Contents]
+
+=== Package Contents
+
+[#f_Package-Contents]
+
+.Package Contents
+
+image::ROOT:/IZA800GVES/image1.png[image,width=444,height=346]
+
+* {shortprodname} {system-type} All-in-one AI Camera System
+
+* Power/LAN connector (field-mountable)
+
+[sidebar]
+If any parts are missing or damaged, please contact {compname-long}.
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Required-Accessories]
+
+=== Required Accessories
+
+The following accessories can be supplied by {compname-med}.
+For documentation and part numbers, see <<s_Related-Documents>>.
+
+[#t_Required-Accessories]
+
+.Required Accessories
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Item |Notes
+|24VDC power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
+|Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the Mounting Hardware documentation for details
+|Power/LAN  cable |Connects the Camera System to power and LAN; IZ Composite Cable or Power/LAN Cable for {system-type} System
+|DIN Rail Mount Connection Panel |Used to connect the Camera System to the LAN and power supply
+|===
+
 [IMPORTANT]
 
 ========================================
 
-When using {compname-short} cables (such as the IZ Composite Cable or the prefabricated Power/LAN Cable), for proper LAN connectivity from the camera via the {hw-connection-panel} (see <<s_Connecting-the-IZ-Panel>>) , the maximum cable length is 200 feet.
+When using {compname-short} cables (such as the IZ Composite Cable or the prefabricated Power/LAN Cable), for proper LAN connectivity from the camera via the {hw-connection-panel} (see <<s_Connecting-the-IZ-Panel>>), the maximum cable length is 200 feet.
 
 ========================================
 
 
+[#s_Optional-Accessories]
+
+=== Optional Accessories
+
+For documentation and part numbers, see <<s_Related-Documents>>.
+
+* External Illuminators
+
+* Prefabricated camera-to-illuminator cables
+
+=== Tools
 
 * 0.1 in (2.5 mm) flat screwdriver for tightening the screw terminals of the Power/LAN connector (see <<s_Power-LAN-Cable-Options>>) and 0.08 in (2 mm) flat screwdriver for tightening the screw terminal blocks of the {hw-connection-panel}.
 
-* Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters). **See <<**s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network**>> for important LAN cable information.**
+* Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters).
 
+* Tools for building camera and LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
++
 [IMPORTANT]
 
 ========================================
+
+For installations that require network cabling: typically use CAT 5e/6 cable. The total length of the cable should not exceed 328 feet (100 meters).
 
 All network cable extensions and repeaters must be shielded.
 
 ========================================
 
-* Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
+=== Laptop Computer
 
 * You will need to provide a laptop computer to use for configuration. If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight. Required software:
 
 ** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 
-** Internet Explorer browser version 11 or higher +
-You can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link] (to enable access to the camera configuration application -see <<s_Logging-In-to-the-Camera>>).
+** Internet Explorer browser version 11 or higher. +
+You can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link] (to enable access to the camera configuration application - see <<s_Logging-In-to-the-Camera>>).
+
+//[#s_Planning-Your-Installation]
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Plan-Your-Site]
+
+== Plan Your Site
+
+include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections of Installation Planning]
+
++++<div class="pagebreak"> </div>+++
 
 
 
