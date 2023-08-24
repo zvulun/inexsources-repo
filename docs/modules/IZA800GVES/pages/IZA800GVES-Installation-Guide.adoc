@@ -220,129 +220,13 @@ include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections 
 +++<div class="pagebreak"> </div>+++
 
 
-
-
-
-
-[#s_Planning-Your-Installation]
-
-== Planning Your Installation
-
-[#s_Horizontal-Field-of-View-Capture-Line]
-
-=== Horizontal Field of View (Capture Line)
-
-Your Camera System's Field of View (FOV) is the area that the camera can "see". You can think of this area as an imaginary rectangle rising from the lane upwards. The width of this area is called the horizontal FOV or "capture line".
-
-See <<s_Specifications>> for the horizontal and vertical FOV specifications.
-
-[#f_Field-of-View-Capture-Line]
-
-.Field of View (Capture Line)
-
-image::./UserGuide/image9.png[image,width=634,height=194]
-
-Select your Camera System's position so that license plates are always within the capture line and parallel to it, with the Camera System facing as straight at the plates as possible - as shown in the following diagrams:
-
-[#f_Plates-Within-Capture-Line]
-
-.Plates Within Capture Line
-
-image::./UserGuide/image10.png[image,width=247,height=411]
-
-[#f_Plates-Parallel-to-Capture-Line-Away-from-Road-Cur{system-type}]
-
-.Plates Parallel to Capture Line - Away from Road Cur{system-type}
-
-image::./UserGuide/image11.png[image,width=503,height=314]
-
-[#s_Angles-and-Distances]
-
-=== Angles and Distances
-
-[IMPORTANT]
-
-========================================
-
-Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
-
-========================================
-
-[#f_Horizontal-Camera-Angle-Pan-Angle]
-
-.Horizontal Camera Angle (Pan Angle)
-
-image::./UserGuide/image12.png[image,width=310,height=332]
-
-[NOTE]
-
-========================================
-
-The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
-
-If you must capture plates on a curve, place the Camera System on the side of the road that minimizes the horizontal angle.
-
-At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
-
-For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
-
-========================================
-
-[#f_Vertical-Camera-Angle-Tilt-Angle-and-Line-of-Sight-Distance-from-Plate]
-
-.Vertical Camera Angle (Tilt Angle) and Line-of-Sight Distance from Plate
-
-image::./UserGuide/image13.png[image,width=626,height=194]
-
-[NOTE]
-
-========================================
-
-The distance from the Camera System to the capture line must be within the viewing range of the LPR camera.
-
-Adjust the vertical angle so that the Camera System can read plates at all of their expected heights from the road.
-
-The maximum vertical angle allowed is 30°.
-
-Larger angles and/or greater mounting heights may be required in order to recognize plates on vehicles close to each other (such as in slow/congested traffic).
-
-At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
-
-For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
-
-========================================
-
-[#s_Position-of-the-Sun-in-Relation-to-the-Camera-System]
-
-=== Position of the Sun in Relation to the Camera System
-
-The Camera System should +++<u>+++not+++</u>+++ be positioned so that the rays of the sun behind the Camera System shine along the camera-to-plate axis. Reflective plates will cause severe glare to be reflected back to the camera, obscuring the image of the plate's characters.
-
-Avoid/mitigate by:
-
-* Not installing the Camera System in an east/west direction
-
-* Installing the Camera System near a building that shields it from the sun's rays
-
-* Installing the Camera System on a short pole
-
-* Using a double-Camera System installation (2 different angles or front/rear)
-
-[#f_Sun-Behind-Camera-System-on-Same-Axis-as-Line-of-Sight-from-Camera-to-Plate]
-
-.Sun Behind Camera System (on Same Axis as Line-of-Sight from Camera to Plate)
-
-image::./UserGuide/image14.png[image,width=628,height=232]
-
 [#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
 
 === Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
 
-[#f_External-Illuminator]
+include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
 
-.External Illuminator
 
-image::./UserGuide/image15.png[image,width=136,height=121]
 
 [#s_Matching-Your-Camera-System-to-an-INEX-Illuminator]
 

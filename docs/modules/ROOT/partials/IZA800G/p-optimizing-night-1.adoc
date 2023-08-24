@@ -25,7 +25,13 @@ See the appropriate Illuminator Series User Guide(s) for compatibility informati
 ifndef::xref-type-IZ600F[Camera Systems]
 ifdef::xref-type-IZ600F[cameras]
 are typically used with the
-ifdef::xref-type-IZA800G[{illum-strobe}]
+ifeval::["{system-type}" == "VES" AND "{xref-type-IZA800G}" == "true"]
+{illum-VES}
+endif::[]
+ifeval::["{system-type}" != "VES" AND "{xref-type-IZA800G}" == "true"]
+{illum-VES}
+endif::[]
+// ifdef::xref-type-IZA800G[{illum-strobe}]
 ifdef::xref-type-IZA500G[{illum-non-strobe}]
 ifdef::xref-type-IZ600F[{illum-non-strobe}]
 series
