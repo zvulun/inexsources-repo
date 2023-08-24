@@ -459,6 +459,8 @@ image::image22.png[image,width=407,height=218]
 . Strip off 0.2 in (5 mm) from each insulated wire (lead).
 
 . Insert each flying lead (stripped wires and drain wire) into the appropriate screw terminal, and tighten the terminal's screw with a 0.1 in (2.5 mm) flat screwdriver. The wire colors and pinouts are shown in the following Figure (see <<f_Building-the-Power-LAN-Cable-with-IZ-COMPOSITE-CABLE>>). You can see small pin numbers near each screw terminal (see <<f_Pin-Numbers-Near-Screw-Terminals>>).
++
+--
 
 [NOTE]
 
@@ -469,6 +471,7 @@ The screw terminal for the drain wire is in the middle of the insert, with the s
 All wire colors are those used in the IZ_COMPOSITE_CABLE and IZCAB-A{system-type} cables.
 
 ========================================
+--
 
 [#f_Building-the-Power-LAN-Cable-with-IZ-COMPOSITE-CABLE]
 
@@ -476,18 +479,21 @@ All wire colors are those used in the IZ_COMPOSITE_CABLE and IZCAB-A{system-type
 
 include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Connector Pinouts]
 
+--
+
 [#f_Pin-Numbers-Near-Screw-Terminals]
 
 .Pin Numbers Near Screw Terminals
 
 image::./UserGuide/image24.png[image,width=245,height=249]
 
+--
 [#f_Screw-Terminals-for-Drain-and-Power-LAN-Connections]
 
 .Screw Terminals for Drain and Power/LAN Connections
 
 image::./UserGuide/image25.png[image,width=401,height=158]
-
+--
 . Verify that there is conductivity from the drain wire (at the end of the cable with the flying leads) to the drain pin on the connector plug.
 
 . Attach the connector plug to a male panel connector (either on the Camera System, or an {illum-VES} illuminator). Be sure the notch on the plug lines up with the protrusion on the panel connector.
