@@ -226,55 +226,17 @@ include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections 
 
 include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
 
-
-
-[#s_Matching-Your-Camera-System-to-an-INEX-Illuminator]
-
-==== Matching Your Camera System to an {compname-short} Illuminator
-
-[IMPORTANT]
-
-========================================
-
-The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the {compname-short} Camera System. See the appropriate Illuminator Series User Guide(s) for compatibility information (see <<s_Related-Documents>>).
-
-========================================
-
-*The {compname-short} {shortprodname} Camera Systems are typically used with the {illum-VES} series strobe illuminators.*
-
-By using the following guidelines, you can match the illuminator you need to the {compname-short} Camera System being used.
-
-* The {illum-VES} illuminators are synchronized with the {shortprodname} OV sensor. You can trigger from the OV camera by connecting the Camera System to the illuminator using appropriate cabling (see <<s_Typical-Wiring-Diagrams>>).
-
-* The number of illuminator LEDs and beam angle must match the distance type (long or short) of the Camera System being used, as follows:
-
-** Fewer LEDs and wider beam angles are used for short distances
-
-** More LEDs and narrower beam angles are used for longer distances
-
-The results of applying these guidelines can be found in the appropriate Illuminator Series User Guide(s).
-
 [#s_Illuminator-Triggering-and-Pulse-Width]
 
 ==== Illuminator Triggering and Pulse Width
 
-You can trigger from the OV camera by using appropriate cabling (see <<s_Typical-Wiring-Diagrams>>). The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
+You can trigger an illuminator from the OV camera by using appropriate cabling (see <<s_Typical-Wiring-Diagrams>>). The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
 
-[#s_Illuminator-Mounting-and-Aiming]
-
-==== Illuminator Mounting and Aiming
-
-*See the illuminator guides for further details about installation and mounting considerations.*
-
-* Mount illuminators at an appropriate distance away from their associated Camera System(s), according to the objecti{system-type} of your project. Contact {compname-short} for guidance/training about this subject.
-
-* Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
+include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
 
 [#s_Verifying-Infrared-type-Illuminator-Operation]
 
-==== Verifying Infrared-type Illuminator Operation
-
-You can look at an infrared-type illuminator with a smartphone camera to see if it is working.
++++<div class="pagebreak"> </div>+++
 
 [#s_Additional-Installation-Considerations]
 
@@ -343,6 +305,244 @@ Avoid having these items in the Field of View:
 
 |===
 
++++<div class="pagebreak"> </div>+++
+
+[#s_Mounting-the-Camera-System]
+
+ifndef::xref-type-IZ600F[]
+== Install Camera System(s) and Other Components
+endif::[]
+
+ifdef::xref-type-IZ600F[]
+== Install Camera(s) and other components
+endif::[]
+
+
+ifndef::xref-type-IZ600F[]
+[IMPORTANT]
+
+========================================
+
+*After mounting, remove the protective film from the front window of the Camera System.*
+
+========================================
+
+endif::[]
+
+Secure the
+ifndef::xref-type-IZ600F[Camera System]
+ifdef::xref-type-IZ600F[camera]
+and illuminators to the appropriate
+mounting hardware
+(see the Mounting Hardware documentation - see <<s_Related-Documents>>).
+
+Mount other components (such as junction boxes) in appropriate locations.
+
+[#s_Connect-Components-Wiring]
+
+== Connect Components (Wiring)
+
+[#s_Power-LAN-Cable-Options]
+
+=== Power/LAN Cable Options
+
+The IZ Composite or prefabricated Power/LAN cables are custom-made for {system-type} camera applications.
+
+* If you have an IZ Composite Cable, you will need to connect one end to the connector plug supplied with the {shortprodname} camera (see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>).
+
+* If you have a prefabricated Power/LAN cable, the connector plug is already attached to one end.
+
+* The other end of the cable consists of flying leads that will need to be connected to the {hw-connection-panel} terminal block connections (see <<s_Connecting-the-IZ-Panel>>)
+
+[#s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug]
+
+=== Connecting the IZ Composite Cable to the Power/LAN Connector Plug
+
+Refer to <<f_Female-Connector-Plug-Assembly>> when following the instructions in this section.
+
+[IMPORTANT]
+
+========================================
+
+Since you will need access to the power/LAN panel connector on the camera to perform this procedure, you should follow these instructions before mounting the camera.
+
+========================================
+
+[#f_Female-Connector-Plug-Assembly]
+
+.Female Connector Plug Assembly
+
+image::image18.png[image,width=624,height=409]
+
+. Measure the length of IZ Composite Cable you will need. Be sure to allow extra length for the parts of the cable that have to:
+
+** Pass through the connector
+
+** Go around bends
+
+** Reach far enough to reach terminals in a connection box, if applicable
++
+
+[IMPORTANT]
+
+========================================
+
+The maximum cable length for proper LAN connectivity via an {hw-connection-panel} is 200 feet (61 m)
+
+At the end of this procedure, you will need to check that there is conductivity from the drain (shield) wire (at the power supply end of the cable) to the drain wire connected to the connector plug.
+
+========================================
++
+
+. Unscrew and separate all of the Power/LAN connector plug parts, including the "female insert" part that exposes the screw terminals inside the plug (see <<f_Female-Connector-Plug-Assembly>>). If the parts are connected together, you can separate the insert as follows:
+
+.. Attach the connector plug to a male panel connector (either on the Camera System, or an {illum-VES} illuminator). Be sure the notch on the plug lines up with the protrusion on the panel connector.
+
+.. Tighten the outer insert ring onto the panel connector to fix it in place.
+
+.. Unscrew the outer sleeve ring from the hood.
+
+.. Match the bevels inside the hood to the bevels of the sleeve.
+
+.. Loosen the sleeve with a series of partial turns (so the wires won't get twisted inside the hood):
+
+... Small turn
+
+... Remove hood from sleeve
+
+... Rotate hood back to original position
+
+... Replace hood on sleeve
+
+... Make another small turn
+
+.. When the sleeve is loose enough, you can loosen it the rest of the way by rotating the sleeve's bevels.
+
+.. Release the outer insert ring and remove the plug from the connector
+
+. Thread the cable through the pressing screw, pinch ring, and "seal" ring.
++
+[#f_Threading-the-Cable-Through-the-Screw-Ring-and-Seal]
+
+.Threading the Cable Through the Screw, Ring and Seal
+
+image::image19.png[image,width=204,height=321]
+
+. Thread the cable into the bottom of the hood and out though the top of the hood. Continue threading the cable through the sleeve.
++
+[#f_Threading-the-Cable-Through-the-Hood-and-Sleeve]
+
+.Threading the Cable Through the Hood and Sleeve
+
+image::image20.png[image,width=334,height=202]
+
+. If needed, turn the inner part of the insert to the desired position. This is typically done with the notch towards the "bottom" (in the same direction as the bottom of the hood). This typical position will enable the cables to leave the connector plug directly towards the back of the Camera System.
++
+[#f_Connector-Plugs-with-Cables-Attached-to-Camera]
+
+.Connector Plugs with Cables Attached to Camera
+
+image::image21.png[image,width=401,height=356]
+
+. Strip off the outer rubber insulation of the cable, leaving the individual insulated wires at a length of 0.8-1.0 in (20-25 mm). There should be enough length in the wires to enable turning the hood to a different position (see <<f_Pin-Numbers-Near-Screw-Terminals>>). *Be careful not to cut into the shield mesh surrounding the inside of the cable, the drain wire strands, and the plastic jackets (casings) surrounding the individual insulated wires.*
+
+. Pull the shield mesh and plastic jacket back along the cable to expose the drain wire. The drain wire is the same color as the shield mesh, and is composed of several strands wound together (see <<f_Locating-the-Drain-Wire>>).
++
+[#f_Locating-the-Drain-Wire]
+
+.Locating the Drain Wire
+
+image::image22.png[image,width=407,height=218]
+
+. Carefully cut away a small amount of the jackets enclosing pairs of the individual insulated wires. Separate the wires.
+
+. Strip off 0.2 in (5 mm) from each insulated wire (lead).
+
+. Insert each flying lead (stripped wires and drain wire) into the appropriate screw terminal, and tighten the terminal's screw with a 0.1 in (2.5 mm) flat screwdriver. The wire colors and pinouts are shown in the following Figure (see <<f_Building-the-Power-LAN-Cable-with-IZ-COMPOSITE-CABLE>>). You can see small pin numbers near each screw terminal (see <<f_Pin-Numbers-Near-Screw-Terminals>>).
+
+[NOTE]
+
+========================================
+
+The screw terminal for the drain wire is in the middle of the insert, with the screw threaded up from the bottom (see <<f_Screw-Terminals-for-Drain-and-Power-LAN-Connections>>).
+
+All wire colors are those used in the IZ_COMPOSITE_CABLE and IZCAB-A{system-type} cables.
+
+========================================
+
+[#f_Building-the-Power-LAN-Cable-with-IZ-COMPOSITE-CABLE]
+
+.Building the Power/LAN Cable with IZ_COMPOSITE_CABLE
+
+include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Connector Pinouts]
+
+[#f_Pin-Numbers-Near-Screw-Terminals]
+
+.Pin Numbers Near Screw Terminals
+
+image::./UserGuide/image24.png[image,width=245,height=249]
+
+[#f_Screw-Terminals-for-Drain-and-Power-LAN-Connections]
+
+.Screw Terminals for Drain and Power/LAN Connections
+
+image::./UserGuide/image25.png[image,width=401,height=158]
+
+. Verify that there is conductivity from the drain wire (at the end of the cable with the flying leads) to the drain pin on the connector plug.
+
+. Attach the connector plug to a male panel connector (either on the Camera System, or an {illum-VES} illuminator). Be sure the notch on the plug lines up with the protrusion on the panel connector.
+
+. Tighten the outer insert ring onto the panel connector to fix it in place.
+
+. Hold the sleeve bevels and being to tighten the sleeve onto the insert
+
+. When you can no longer tighten the sleeve with your fingers, continue a small additional tightening using the bevels to make partial turns, as described in the following steps (so the wires won't get twisted inside the hood):
+
+[IMPORTANT]
+
+========================================
+
+Be sure to tighten the sleeve just enough to feel a little resistance. This will enable the connector plug to be rotated more once it is connected to the camera (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>).
+
+========================================
+
+.. Match the bevels inside the hood to the bevels of the sleeve.
+
+.. Make a small turn
+
+.. Remove the hood from the sleeve
+
+.. Rotate the hood back to its original position
+
+.. Replace the hood on the sleeve
+
+.. Make another small turn
+
+. Once you have finished tightening the sleeve, turn the hood to the desired angle which for which you want the cable to leave the camera (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>).
+
+. Slide the hood along the cable towards the terminal connections by pulling the cable out the bottom of the hood. Leave a small amount space between the hood and the sleeve - this will enable you to loosen/adjust the sleeve in the future (by moving the hood away to make partial turns).
+
+. The sleeve ring's threads (inside the ring facing the bevels) attach the sleeve to the hood's threads; use the sleeve's ring to tighten the attachment.
+
+. Slide the seal, pinch ring and pressing screw nut along the cable. Push the seal all the way up into the hood.
+
+[#f_Power-LAN-Cable-Pushing-the-Seal-into-the-Hood]
+
+.Power/LAN Cable: Pushing the Seal into the Hood
+
+image::./UserGuide/image26.png[image,width=285,height=196]
+
+. Slide the pinch ring into the bottom of the hood.
+
+. Tighten the pressing screw to push the other parts up into the hood. Maximum recommended torque is 10.2 kgf.cm / 1.0 N.m. up to 12.7 kgf.cm / 1.25 N.m.
+
+
+
+
+
+
+
+
 [#s_Hardware-Installation]
 
 == Hardware Installation
@@ -405,213 +605,8 @@ Binder P/N https://www.binder-usa.com/us-en/products/power-connectors/rd24-power
 
 image::./UserGuide/image17.png[image,width=623,height=324]
 
-[#s_Power-LAN-Cable-Options]
 
-=== Power/LAN Cable Options
 
-The IZ Composite or prefabricated Power/LAN cables are custom-made for {system-type} camera applications.
-
-* If you have an IZ Composite Cable, you will need to connect one end to the connector plug supplied with the {shortprodname} camera (see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>).
-
-* If you have a prefabricated Power/LAN cable, the connector plug is already attached to one end.
-
-* The other end of the cable consists of flying leads that will need to be connected to the {hw-connection-panel} terminal block connections (see <<s_Connecting-the-IZ-Panel>>)
-
-[#_Ref107135228 .anchor]##[#s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug]
-
-=== Connecting the IZ Composite Cable to the Power/LAN Connector Plug
-
-Refer to <<f_Female-Connector-Plug-Assembly>> when following the instructions in this section.
-
-[IMPORTANT]
-
-========================================
-
-Since you will need access to the power/LAN panel connector on the camera to perform this procedure, you should follow these instructions before mounting the camera.
-
-========================================
-
-[#f_Female-Connector-Plug-Assembly]
-
-.Female Connector Plug Assembly
-
-image::./UserGuide/image18.png[image,width=624,height=409]
-
-. Measure the length of IZ Composite Cable you will need. Be sure to allow extra length for the parts of the cable that have to:
-
-** Pass through the connector
-
-** Go around bends
-
-** Reach far enough to reach terminals in a connection box, if applicable
-
-[IMPORTANT]
-
-========================================
-
-The maximum cable length for proper LAN connectivity via an {hw-connection-panel} is 200 feet (61 m)
-
-At the end of this procedure, you will need to check that there is conductivity from the drain (shield) wire (at the power supply end of the cable) to the drain wire connected to the connector plug.
-
-========================================
-
-. Unscrew and separate all of the Power/LAN connector plug parts, including the "female insert" part that exposes the screw terminals inside the plug (see <<f_Female-Connector-Plug-Assembly>>). If the parts are connected together, you can separate the insert as follows:
-
-.. Attach the connector plug to a male panel connector (either on the Camera System, or an {illum-VES} illuminator). Be sure the notch on the plug lines up with the protrusion on the panel connector.
-
-.. Tighten the outer insert ring onto the panel connector to fix it in place.
-
-.. Unscrew the outer sleeve ring from the hood.
-
-.. Match the bevels inside the hood to the bevels of the sleeve.
-
-.. Loosen the sleeve with a series of partial turns (so the wires won't get twisted inside the hood):
-
-... Small turn
-
-... Remove hood from sleeve
-
-... Rotate hood back to original position
-
-... Replace hood on sleeve
-
-... Make another small turn
-
-.. When the sleeve is loose enough, you can loosen it the rest of the way by rotating the sleeve's bevels.
-
-.. Release the outer insert ring and remove the plug from the connector
-
-. Thread the cable through the pressing screw, pinch ring, and "seal" ring.
-
-[#f_Threading-the-Cable-Through-the-Screw-Ring-and-Seal]
-
-.Threading the Cable Through the Screw, Ring and Seal
-
-image::./UserGuide/image19.png[image,width=204,height=321]
-
-. Thread the cable into the bottom of the hood and out though the top of the hood. Continue threading the cable through the sleeve.
-
-[#f_Threading-the-Cable-Through-the-Hood-and-Sleeve]
-
-.Threading the Cable Through the Hood and Sleeve
-
-image::./UserGuide/image20.png[image,width=334,height=202]
-
-. If needed, turn the inner part of the insert to the desired position. This is typically done with the notch towards the "bottom" (in the same direction as the bottom of the hood). This typical position will enable the cables to leave the connector plug directly towards the back of the Camera System.
-
-[#f_Connector-Plugs-with-Cables-Attached-to-Camera]
-
-.Connector Plugs with Cables Attached to Camera
-
-image::./UserGuide/image21.png[image,width=401,height=356]
-
-. Strip off the outer rubber insulation of the cable, leaving the individual insulated wires at a length of 0.8-1.0 in (20-25 mm). There should be enough length in the wires to enable turning the hood to a different position (see <<f_Pin-Numbers-Near-Screw-Terminals>>). *Be careful not to cut into the shield mesh surrounding the inside of the cable, the drain wire strands, and the plastic jackets (casings) surrounding the individual insulated wires.*
-
-. Pull the shield mesh and plastic jacket back along the cable to expose the drain wire. The drain wire is the same color as the shield mesh, and is composed of several strands wound together (see <<f_Locating-the-Drain-Wire>>).
-
-[#f_Locating-the-Drain-Wire]
-
-.Locating the Drain Wire
-
-image::./UserGuide/image22.png[image,width=407,height=218]
-
-. Carefully cut away a small amount of the jackets enclosing pairs of the individual insulated wires. Separate the wires.
-
-. Strip off 0.2 in (5 mm) from each insulated wire (lead).
-
-. Insert each flying lead (stripped wires and drain wire) into the appropriate screw terminal, and tighten the terminal's screw with a 0.1 in (2.5 mm) flat screwdriver. The wire colors and pinouts are shown in the following Figure (see <<f_Building-the-Power-LAN-Cable-with-IZ-COMPOSITE-CABLE>>). You can see small pin numbers near each screw terminal (see <<f_Pin-Numbers-Near-Screw-Terminals>>).
-
-[NOTE]
-
-========================================
-
-The screw terminal for the drain wire is in the middle of the insert, with the screw threaded up from the bottom (see <<f_Screw-Terminals-for-Drain-and-Power-LAN-Connections>>).
-
-All wire colors are those used in the IZ_COMPOSITE_CABLE and IZCAB-A{system-type} cables.
-
-========================================
-
-
-[width="100%",cols="59%,41%",options="header",]
-|===
-|image:./UserGuide/image23.png[image,width=328,height=201] a|
-[width="100%",cols="21%,39%,40%",options="header",]
-!===
-!Pin !Signal !Wire Color
-!1 !GND !Black
-!2 !{plus}V (24 VDC) !Red
-!3 !LAN TX ({plus}) !White/Orange
-!4 !LAN TX (-) !Orange
-!5 !LAN RX ({plus}) !White/Green
-!6 !LAN RX (-) !Green
-! !Drain !Silver
-!===
-
-[#f_Building-the-Power-LAN-Cable-with-IZ-COMPOSITE-CABLE]
-
-.Building the Power/LAN Cable with IZ_COMPOSITE_CABLE
-
-|===
-
-[#f_Pin-Numbers-Near-Screw-Terminals]
-
-.Pin Numbers Near Screw Terminals
-
-image::./UserGuide/image24.png[image,width=245,height=249]
-
-[#f_Screw-Terminals-for-Drain-and-Power-LAN-Connections]
-
-.Screw Terminals for Drain and Power/LAN Connections
-
-image::./UserGuide/image25.png[image,width=401,height=158]
-
-. Verify that there is conductivity from the drain wire (at the end of the cable with the flying leads) to the drain pin on the connector plug.
-
-. Attach the connector plug to a male panel connector (either on the Camera System, or an {illum-VES} illuminator). Be sure the notch on the plug lines up with the protrusion on the panel connector.
-
-. Tighten the outer insert ring onto the panel connector to fix it in place.
-
-. Hold the sleeve bevels and being to tighten the sleeve onto the insert
-
-. When you can no longer tighten the sleeve with your fingers, continue a small additional tightening using the bevels to make partial turns, as described in the following steps (so the wires won't get twisted inside the hood):
-
-[IMPORTANT]
-
-========================================
-
-Be sure to tighten the sleeve just enough to feel a little resistance. This will enable the connector plug to be rotated more once it is connected to the camera (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>).
-
-========================================
-
-.. Match the bevels inside the hood to the bevels of the sleeve.
-
-.. Make a small turn
-
-.. Remove the hood from the sleeve
-
-.. Rotate the hood back to its original position
-
-.. Replace the hood on the sleeve
-
-.. Make another small turn
-
-. Once you have finished tightening the sleeve, turn the hood to the desired angle which for which you want the cable to leave the camera (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>).
-
-. Slide the hood along the cable towards the terminal connections by pulling the cable out the bottom of the hood. Leave a small amount space between the hood and the sleeve - this will enable you to loosen/adjust the sleeve in the future (by moving the hood away to make partial turns).
-
-. The sleeve ring's threads (inside the ring facing the bevels) attach the sleeve to the hood's threads; use the sleeve's ring to tighten the attachment.
-
-. Slide the seal, pinch ring and pressing screw nut along the cable. Push the seal all the way up into the hood.
-
-[#f_Power-LAN-Cable-Pushing-the-Seal-into-the-Hood]
-
-.Power/LAN Cable: Pushing the Seal into the Hood
-
-image::./UserGuide/image26.png[image,width=285,height=196]
-
-. Slide the pinch ring into the bottom of the hood.
-
-. Tighten the pressing screw to push the other parts up into the hood. Maximum recommended torque is 10.2 kgf.cm / 1.0 N.m. up to 12.7 kgf.cm / 1.25 N.m.
 
 [#s_Mounting-the-Camera-System]
 

@@ -300,7 +300,7 @@ Avoid having these items in the Field of View:
 
 * Weather - snow, heavy rain, dust storms
 
-* Dirt on front window
+* Dirt on front window (see <<s_Troubleshooting-and-Maintenance>>)
 
 |Mounting a|
 * Typically gantry (can also be on wall/pole)
