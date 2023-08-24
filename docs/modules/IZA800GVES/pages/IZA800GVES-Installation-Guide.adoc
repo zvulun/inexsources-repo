@@ -473,13 +473,13 @@ All wire colors are those used in the IZ_COMPOSITE_CABLE and IZCAB-A{system-type
 ========================================
 --
 
++
+--
 [#f_Building-the-Power-LAN-Cable-with-IZ-COMPOSITE-CABLE]
 
 .Building the Power/LAN Cable with IZ_COMPOSITE_CABLE
 
 include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Connector Pinouts]
-
---
 
 [#f_Pin-Numbers-Near-Screw-Terminals]
 
@@ -487,13 +487,13 @@ include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Con
 
 image::./UserGuide/image24.png[image,width=245,height=249]
 
---
 [#f_Screw-Terminals-for-Drain-and-Power-LAN-Connections]
 
 .Screw Terminals for Drain and Power/LAN Connections
 
 image::./UserGuide/image25.png[image,width=401,height=158]
 --
+
 . Verify that there is conductivity from the drain wire (at the end of the cable with the flying leads) to the drain pin on the connector plug.
 
 . Attach the connector plug to a male panel connector (either on the Camera System, or an {illum-VES} illuminator). Be sure the notch on the plug lines up with the protrusion on the panel connector.
@@ -504,6 +504,8 @@ image::./UserGuide/image25.png[image,width=401,height=158]
 
 . When you can no longer tighten the sleeve with your fingers, continue a small additional tightening using the bevels to make partial turns, as described in the following steps (so the wires won't get twisted inside the hood):
 
++
+--
 [IMPORTANT]
 
 ========================================
@@ -511,6 +513,7 @@ image::./UserGuide/image25.png[image,width=401,height=158]
 Be sure to tighten the sleeve just enough to feel a little resistance. This will enable the connector plug to be rotated more once it is connected to the camera (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>).
 
 ========================================
+--
 
 .. Match the bevels inside the hood to the bevels of the sleeve.
 
@@ -531,7 +534,7 @@ Be sure to tighten the sleeve just enough to feel a little resistance. This will
 . The sleeve ring's threads (inside the ring facing the bevels) attach the sleeve to the hood's threads; use the sleeve's ring to tighten the attachment.
 
 . Slide the seal, pinch ring and pressing screw nut along the cable. Push the seal all the way up into the hood.
-
++
 [#f_Power-LAN-Cable-Pushing-the-Seal-into-the-Hood]
 
 .Power/LAN Cable: Pushing the Seal into the Hood
