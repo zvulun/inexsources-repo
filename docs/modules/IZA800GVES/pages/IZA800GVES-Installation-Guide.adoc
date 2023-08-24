@@ -485,13 +485,13 @@ include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Con
 
 .Pin Numbers Near Screw Terminals
 
-image::./UserGuide/image24.png[image,width=245,height=249]
+image::image24.png[image,width=245,height=249]
 
 [#f_Screw-Terminals-for-Drain-and-Power-LAN-Connections]
 
 .Screw Terminals for Drain and Power/LAN Connections
 
-image::./UserGuide/image25.png[image,width=401,height=158]
+image::image25.png[image,width=401,height=158]
 --
 
 . Verify that there is conductivity from the drain wire (at the end of the cable with the flying leads) to the drain pin on the connector plug.
@@ -539,28 +539,28 @@ Be sure to tighten the sleeve just enough to feel a little resistance. This will
 
 .Power/LAN Cable: Pushing the Seal into the Hood
 
-image::./UserGuide/image26.png[image,width=285,height=196]
+image::image26.png[image,width=285,height=196]
 
 . Slide the pinch ring into the bottom of the hood.
 
 . Tighten the pressing screw to push the other parts up into the hood. Maximum recommended torque is 10.2 kgf.cm / 1.0 N.m. up to 12.7 kgf.cm / 1.25 N.m.
 
-
-
-
-
-
-
-
-[#s_Hardware-Installation]
-
-== Hardware Installation
++++<div class="pagebreak"> </div>+++
 
 [#s_Typical-Wiring-Diagrams]
 
 === Typical Wiring Diagrams
 
-Here are typical wiring diagrams for capturing license plate images. Note that the type and configuration of the power supply may be different than the one you are using at your site. See <<t_Wiring-Diagram-Legend>> for a legend.
+See <<f_Building-the-Power-LAN-Cable-with-IZ-COMPOSITE-CABLE>> for the power/LAN cable wire colors. See <<t_Wiring-Diagram-Legend>> for a legend/bill of materials.
+
+[WARNING]
+========================================
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
+
+========================================
+
 
 [IMPORTANT]
 
@@ -578,19 +578,25 @@ The Camera System is not compatible with some GigE switches; suggested switch ty
 
 .Typical Camera System with Illuminator Wiring Diagram
 
-image::./UserGuide/image16.png[image,width=604,height=429]
+image::image16.png[image,width=604,height=429]
+
+[#f_Typical-Camera-System-Wiring-Diagram]
+
+.Typical Camera System Wiring Diagram
+
+image::image17.png[image,width=623,height=324]
 
 [#t_Wiring-Diagram-Legend]
 
-.Wiring Diagram Legend
+.Wiring Diagram Legend/Bill of Materials
 
 [width="100%",cols="9%,60%,31%",options="header",]
 |===
 |Item |Description |Ordering Information
 |A a|*LAN Cable* |Supplied by integrator
 |B a|**Power/LAN Cable for {system-type} System +
-+
-**or build yourself with IZ_COMPOSITE_CABLE and the Power/LAN Cable Connector included with the camera; +
+
+*or build yourself with IZ_COMPOSITE_CABLE and the Power/LAN Cable Connector included with the camera; +
 See <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>> +
 *IZ_COMPOSITE_CABLE maximum allowable length 200 ft (61 m)* |{compname-short} P/N: https://drive.google.com/drive/folders/17KJlkWX6jeHKhoxzIQzhlSbgjlOwtg9N?usp=sharing[IZCAB-A{system-type}] +
 +
@@ -607,13 +613,6 @@ Binder P/N https://www.binder-usa.com/us-en/products/power-connectors/rd24-power
 |E a|*DIN Rail Mountable Connection Panel* |{compname-short} P/N: https://drive.google.com/drive/folders/1JmAK4YB9cdnadiVI8_odHUWEETqqQjtn?usp=share_link[{hw-connection-panel}]
 |F a|*{illum-VES} Strobe Illuminator* |{compname-short} P/N: See the https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=share_link[{illum-VES} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
-
-[#f_Typical-Camera-System-Wiring-Diagram]
-
-.Typical Camera System Wiring Diagram
-
-image::./UserGuide/image17.png[image,width=623,height=324]
-
 
 
 
