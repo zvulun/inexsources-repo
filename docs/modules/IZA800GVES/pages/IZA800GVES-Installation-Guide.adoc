@@ -578,13 +578,13 @@ The Camera System is not compatible with some GigE switches; suggested switch ty
 
 .Typical Camera System with Illuminator Wiring Diagram
 
-image::image16.png[image,width=604,height=429]
+image::ROOT:IZA800GVES/image16.png[image,width=604,height=429]
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 .Typical Camera System Wiring Diagram
 
-image::image17.png[image,width=623,height=324]
+image::ROOT:IZA800GVES/image17.png[image,width=623,height=324]
 
 [#t_Wiring-Diagram-Legend]
 
