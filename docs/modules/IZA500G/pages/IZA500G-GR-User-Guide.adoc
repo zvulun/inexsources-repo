@@ -195,9 +195,9 @@ image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
 +++<div class="pagebreak"> </div>+++
 
-[#s_Required-Accessories-Not-Included]
+[#s_Required-Accessories]
 
-=== Required Accessories (Not Included)
+=== Required Accessories
 
 * The following accessories can be supplied by {compname-med}:
 

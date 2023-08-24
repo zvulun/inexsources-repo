@@ -1,13 +1,13 @@
 * Unpack the Camera System - see <<s_Package-Contents>>.
 
 * Gather any additional items needed - see
-ifdef::xref-type-IZA800G[<<s_Required-Optional-Accessories-Not-Included>>.]
-ifdef::xref-type-IZA500G[<<s_Required-Accessories-Not-Included>>.]
+ifdef::xref-type-IZA800G,xref-type-IZA800GVES[<<s_Required-Accessories>>.]
+ifdef::xref-type-IZA500G[<<s_Required-Accessories>>.]
 
 * Plan your physical installation - see <<s_Planning-Your-Installation>>.
 
 * Install the hardware
-ifdef::xref-type-IZA800G[ (including cable construction) ]
+ifdef::xref-type-IZA800G,xref-type-IZA800GVES[ (including cable construction) ]
 +++-+++ see <<s_Hardware-Installation>>.
 
 * Reserve IP addresses for the components in your ALPR system - {software-ALPR} computer(s) and camera(s) - see <<s_Reserving-IP-Addresses-in-your-Network>>.
