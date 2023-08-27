@@ -548,6 +548,75 @@ image::image26.png[image,width=285,height=196]
 
 +++<div class="pagebreak"> </div>+++
 
+[#s_Preparing-the-Cable-Leads-IZ-COMPOSITE-CABLE]
+
+=== Preparing the Cable Leads (IZ_COMPOSITE_CABLE)
+
+If you have built the Power/LAN Cable using the IZ_COMPOSITE_CABLE, follow these instructions:
+
+[NOTE]
+
+========================================
+
+To attach the cables to the camera, tighten the outer insert ring onto the corresponding panel connector (see <<f_Female-Connector-Plug-Assembly>>).
+
+After connecting the cables to the camera, you can still rotate them slightly to achieve the desired angle (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>). If you need a bigger rotation, see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>on page link:#_Ref107135228[24].
+
+For a wiring diagram, see <<s_Typical-Wiring-Diagrams>>.
+
+========================================
+
+. From the end of the Power/LAN cable to be connected to the power supply and LAN, strip off the outer rubber insulation of the cable, leaving the individual insulated wires at an appropriate length for connection to the {hw-connection-panel} (see <<s_Connecting-the-IZ-Panel>>). *Be careful not to cut into the shield mesh surrounding the inside of the cable, the drain wire strands, and the plastic jackets (casings) surrounding the individual insulated wires.*
+
+. Pull the shield mesh and plastic jacket back along the cable to expose the drain wire. The drain wire is the same color as the shield mesh, and is composed of several strands wound together (see <<f_Locating-the-Drain-Wire>>).
+
+. Carefully cut away an appropriate amount from the jackets enclosing pairs of the individual insulated wires. Separate the wires.
+
+. Strip off 0.2 in (5 mm) from each insulated wire (lead).
+
+[WARNING]
+
+========================================
+
+Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty. Stable power at the correct level must be supplied to the Camera System, even when under a heavy processing load.
+
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+**If you are using an {compname-short} power supply, see its User Guide (see <<**s_Related-Documents>>**) for important information.**
+
+*All network cable extensions and repeaters must be shielded.*
+
+========================================
+
+[#s_Connecting-the-IZ-Panel]
+
+=== Connecting the IZ Panel
+
+The {hw-connection-panel} is used in connection cabinets. It provides a convenient way to connect the Power/LAN cable from the {shortprodname} camera to the LAN and power supply (see the {hw-connection-panel} documentation referred to in <<s_Related-Documents>>).
+
+[IMPORTANT]
+
+========================================
+
+When using {compname-short} cables (such as the IZ Composite Cable) for LAN connectivity from the camera via the {hw-connection-panel}, the maximum cable length is 200 ft (61 m).
+
+========================================
+
+The screw terminal blocks of the {hw-connection-panel} are plugs. They can be removed for more convenient access when attaching flying leads (wires). Use a 0.08 in (2 mm) flat screwdriver to tighten the terminal screws.
+
+* Power -With the power supply OFF:
+
+** Connect the power supply's (V{plus}), GND and drain terminals to the appropriate connections on the {hw-connection-panel}'s smaller terminal block.
+
+** Connect the camera Power/LAN cable's flying leads (wires) red ({plus}), black (-) and drain flying leads (wires) to the {hw-connection-panel}'s larger terminal block.
+
+* LAN
+
+** Connect the LAN TX {plus}/- and RX {plus}/- leads to the appropriate connections on the {hw-connection-panel}'s larger terminal block.
+
+** Connect your network switch to the RJ45 connector on the {hw-connection-panel}.
+
+
 [#s_Typical-Wiring-Diagrams]
 
 === Typical Wiring Diagrams
@@ -593,85 +662,12 @@ image::ROOT:IZA800GVES/image17.png[image,width=623,height=324]
 
 include::ROOT:partial$IZA800GVES/p-IZA800GVES-wiring-table.adoc[IZA800GVES Wiring Table]
 
++++<div class="pagebreak"> </div>+++
 
 
-[#s_Mounting-the-Camera-System]
 
-=== Mounting the Camera System
 
-Secure the Camera System to the appropriate mounting hardware (see the Mounting Hardware documentation - see <<s_Related-Documents>>).
 
-[#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
-
-=== Connecting the Camera System, Illuminator, Power Supply and Network
-
-[#s_Preparing-the-Cable-Leads-IZ-COMPOSITE-CABLE]
-
-==== Preparing the Cable Leads (IZ_COMPOSITE_CABLE)
-
-If you have built the Power/LAN Cable using the IZ_COMPOSITE_CABLE, follow these instructions:
-
-[NOTE]
-
-========================================
-
-To attach the cables to the camera, tighten the outer insert ring onto the corresponding panel connector (see <<f_Female-Connector-Plug-Assembly>>).
-
-After connecting the cables to the camera, you can still rotate them slightly to achieve the desired angle (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>). If you need a bigger rotation, see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>on page link:#_Ref107135228[24].
-
-For a wiring diagram, see <<s_Typical-Wiring-Diagrams>>.
-
-========================================
-
-. From the end of the Power/LAN cable to be connected to the power supply and LAN, strip off the outer rubber insulation of the cable, leaving the individual insulated wires at an appropriate length for connection to the {hw-connection-panel} (see <<s_Connecting-the-IZ-Panel>>). *Be careful not to cut into the shield mesh surrounding the inside of the cable, the drain wire strands, and the plastic jackets (casings) surrounding the individual insulated wires.*
-
-. Pull the shield mesh and plastic jacket back along the cable to expose the drain wire. The drain wire is the same color as the shield mesh, and is composed of several strands wound together (see <<f_Locating-the-Drain-Wire>>).
-
-. Carefully cut away an appropriate amount from the jackets enclosing pairs of the individual insulated wires. Separate the wires.
-
-. Strip off 0.2 in (5 mm) from each insulated wire (lead).
-
-[WARNING]
-
-========================================
-
-Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty. Stable power at the correct level must be supplied to the Camera System, even when under a heavy processing load.
-
-Turn off/disconnect the external (AC) power supply before connecting cables.
-
-**If you are using an {compname-short} power supply, see its User Guide (see <<**s_Related-Documents>>**) for important information.**
-
-*All network cable extensions and repeaters must be shielded.*
-
-========================================
-
-[#s_Connecting-the-IZ-Panel]
-
-==== Connecting the IZ Panel
-
-The {hw-connection-panel} is used in connection cabinets. It provides a convenient way to connect the Power/LAN cable from the {shortprodname} camera to the LAN and power supply (see the {hw-connection-panel} documentation referred to in <<s_Related-Documents>>).
-
-[IMPORTANT]
-
-========================================
-
-When using {compname-short} cables (such as the IZ Composite Cable) for LAN connectivity from the camera via the {hw-connection-panel}, the maximum cable length is 200 ft (61 m).
-
-========================================
-
-The screw terminal blocks of the {hw-connection-panel} are plugs. They can be removed for more convenient access when attaching flying leads (wires). Use a 0.08 in (2 mm) flat screwdriver to tighten the terminal screws.
-
-* Power -With the power supply OFF:
-
-** Connect the power supply's (V{plus}), GND and drain terminals to the appropriate connections on the {hw-connection-panel}'s smaller terminal block.
-
-** Connect the camera Power/LAN cable's flying leads (wires) red ({plus}), black (-) and drain flying leads (wires) to the {hw-connection-panel}'s larger terminal block.
-
-* LAN
-
-** Connect the LAN TX {plus}/- and RX {plus}/- leads to the appropriate connections on the {hw-connection-panel}'s larger terminal block.
-
-** Connect your network switch to the RJ45 connector on the {hw-connection-panel}.
 
 [#s_Connecting-the-AC-Electricity]
 
@@ -989,3 +985,56 @@ image::./UserGuide/image31.png[image,width=209,height=143]
 === Logging Out
 
 See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
+
+
+[#s_Troubleshooting-and-Maintenance]
+
+== Troubleshooting and Maintenance
+
+[#s_Troubleshooting]
+
+=== Troubleshooting
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+
+[#s_Checking-Mounting-Screws]
+
+=== Checking Mounting Screws
+
+It is recommended to check all mounting screws for proper tightness once every two years.
+
+[#s_Cleaning-the-ALPR-Camera-System]
+
+=== Cleaning the {generic-camera-name}
+
+Do not use solvents or strong abrasive detergent when cleaning the Camera System. Use a soft dry cloth to clean the {generic-camera-name}'s front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
+
++++<div class="pagebreak"> </div>+++
+
+== Notices, Safety Precautions and Certifications
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
+
+include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
+
++++<div class="pagebreak"> </div>+++
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
+
+include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IP67.adoc[IP67 Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
+
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
+
+Doc. No. {shortprodname}-MAN-002b
