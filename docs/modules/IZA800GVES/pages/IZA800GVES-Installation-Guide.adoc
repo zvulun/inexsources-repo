@@ -590,29 +590,7 @@ image::ROOT:IZA800GVES/image17.png[image,width=623,height=324]
 
 .Wiring Diagram Legend/Bill of Materials
 
-[width="100%",cols="9%,60%,31%",options="header",]
-|===
-|Item |Description |Ordering Information
-|A a|*LAN Cable* |Supplied by integrator
-|B a|**Power/LAN Cable for {system-type} System +
-
-*or build yourself with IZ_COMPOSITE_CABLE and the Power/LAN Cable Connector included with the camera; +
-See <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>> +
-*IZ_COMPOSITE_CABLE maximum allowable length 200 ft (61 m)* |{compname-short} P/N: https://drive.google.com/drive/folders/17KJlkWX6jeHKhoxzIQzhlSbgjlOwtg9N?usp=sharing[IZCAB-A{system-type}] +
-+
-{compname-short} P/N: https://drive.google.com/drive/folders/1RnLHJhFwo4Tu_yfUJ1rFoUcnxJxzd-5k?usp=share_link[IZ_COMPOSITE_CABLE]; +
-Binder P/N https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07]
-|C a|*Power Supply:* 24 VDC, 240 W, DIN rail mount a|
-{compname-short} P/N:
-
-* https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR240-24-TDK-DIN]
-
-* https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR240-24-MWL-DIN]
-
-|D a|*Illuminator Cable for {system-type} System* |{compname-short} P/N: https://drive.google.com/drive/folders/1A1kXsMSm38YRO1cDlz7Fgs8_NcQaNwFG?usp=sharing[IZCAB-S{system-type}]
-|E a|*DIN Rail Mountable Connection Panel* |{compname-short} P/N: https://drive.google.com/drive/folders/1JmAK4YB9cdnadiVI8_odHUWEETqqQjtn?usp=share_link[{hw-connection-panel}]
-|F a|*{illum-VES} Strobe Illuminator* |{compname-short} P/N: See the https://drive.google.com/drive/folders/1Woh6fU_1iM3juwsDbkNT30UQtDmVVtox?usp=share_link[{illum-VES} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
-|===
+include::ROOT:partial$IZA800GVES/p-IZA800GVES-wiring-table.adoc[IZA800GVES Wiring Table]
 
 
 
