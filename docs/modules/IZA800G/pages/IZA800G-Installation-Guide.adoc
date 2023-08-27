@@ -330,6 +330,8 @@ Prefabricated cables can be ordered from {compname-short}. See <<s_Related-Docum
 
 include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals Cable]
 
++++<div class="pagebreak"> </div>+++
+
 [#t_Power-Signals-Cable-Power-Signals-Pinouts]
 
 .Power/Signals Cable Connector Pinout
@@ -386,6 +388,8 @@ mounting hardware
 (see the Mounting Hardware documentation - see <<s_Related-Documents>>).
 
 . Mount other components (such as junction boxes) in appropriate locations.
+
++++<div class="pagebreak"> </div>+++
 
 [#s_Connect-Components-Wiring]
 
