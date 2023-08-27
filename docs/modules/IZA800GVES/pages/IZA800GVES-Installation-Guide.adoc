@@ -589,7 +589,7 @@ When using {compname-short} cables (such as the IZ Composite Cable) for LAN conn
 
 To attach the cables to the camera, tighten the outer insert ring onto the corresponding panel connector (see <<f_Female-Connector-Plug-Assembly>>).
 
-After connecting the cables to the camera, you can still rotate them slightly to achieve the desired angle (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>). If you need a bigger rotation, see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>on page link:#_Ref107135228[24].
+After connecting the cables to the camera, you can still rotate them slightly to achieve the desired angle (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>). If you need a bigger rotation, see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>.
 
 ========================================
 
