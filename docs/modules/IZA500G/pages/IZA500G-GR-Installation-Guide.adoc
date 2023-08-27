@@ -295,6 +295,8 @@ Avoid having these items in the Field of View:
 
 |===
 
++++<div class="pagebreak"> </div>+++
+
 [#s_Prepare-Cables]
 
 == Prepare Cables
@@ -370,8 +372,6 @@ The Camera System is not compatible with some GigE switches; suggested switch ty
 
 ========================================
 
-+++<div class="pagebreak"> </div>+++
-
 [NOTE]
 
 ========================================
@@ -379,6 +379,8 @@ The Camera System is not compatible with some GigE switches; suggested switch ty
 If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the Camera System's power connections, and attach pins in their place.
 
 ========================================
+
++++<div class="pagebreak"> </div>+++
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
