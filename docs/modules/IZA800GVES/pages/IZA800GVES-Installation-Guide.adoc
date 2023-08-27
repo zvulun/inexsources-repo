@@ -389,8 +389,6 @@ At the end of this procedure, you will need to check that there is conductivity 
 
 .. Release the outer insert ring and remove the plug from the connector
 
-+++<div class="pagebreak"> </div>+++
-
 . Thread the cable through the pressing screw, pinch ring, and "seal" ring.
 +
 [#f_Threading-the-Cable-Through-the-Screw-Ring-and-Seal]
