@@ -312,7 +312,7 @@ ifdef::xref-type-IZ600F[]
 
 +++<div class="pagebreak"> </div>+++
 
-== Install Camera(s) and other components
+== Install Camera(s) and Other Components
 endif::[]
 
 

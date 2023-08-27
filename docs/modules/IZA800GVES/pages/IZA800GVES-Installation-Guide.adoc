@@ -312,7 +312,7 @@ ifndef::xref-type-IZ600F[]
 endif::[]
 
 ifdef::xref-type-IZ600F[]
-== Install Camera(s) and other components
+== Install Camera(s) and Other Components
 endif::[]
 
 
