@@ -1,7 +1,7 @@
 . To view the camera's home page (see <<f_Camera-s-Home-Page>>):
 
 ** Open MS Internet Explorer. Enter the IP address of the camera into the address field of the browser. +
-Alternatively, you can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link]. +
+Alternatively, you can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link, window=_blank]. +
 Enter the IP address of the camera into the address field of the browser.
 +
 [#f_Camera-s-Home-Page]
@@ -34,7 +34,7 @@ rtsp://[username:password]@<Camera IP address>/cam0_0 +
 where cam0_0 is a camera-specific parameter (which in this case enables you to access the primary stream)
 
 To see the stream, use a video player such as the VLC player, located at: +
-https://www.videolan.org/vlc/index.html
+https://www.videolan.org/vlc/index.html[VLC, window=_blank]
 
 ========================================
 
