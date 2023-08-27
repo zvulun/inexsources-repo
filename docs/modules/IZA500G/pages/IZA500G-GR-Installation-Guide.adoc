@@ -328,9 +328,9 @@ ifndef::xref-type-IZ600F[]
 endif::[]
 
 Secure the
-ifndef::xref-type-IZ600F[Camera System]
-ifdef::xref-type-IZ600F[camera]
-and illuminators to the appropriate
+ifndef::xref-type-IZ600F[Camera System(s)]
+ifdef::xref-type-IZ600F[camera(s)]
+and illuminator(s) to the appropriate
 mounting hardware
 (see the Mounting Hardware documentation - see <<s_Related-Documents>>).
 
