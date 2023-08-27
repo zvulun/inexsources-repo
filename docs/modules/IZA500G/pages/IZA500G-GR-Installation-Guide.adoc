@@ -307,7 +307,12 @@ Avoid having these items in the Field of View:
 
 The trigger wires have the same functions and colors as shown here, but the label on the cable may be worded differently.
 
-You may need to add extensions to the built-in cables. Be sure that there is enough signal and power strength at the components at the end of the extensions.
+When adding extensions to the built-in cables, be sure that there are stable/correct signal and power levels delivered to all components.
+
+For installations that require network cabling: typically use CAT 5e/6 cable. The total length of the cable should not exceed 328 feet (100 meters).
+
+All network cable extensions and repeaters must be shielded.
+
 
 ========================================
 
