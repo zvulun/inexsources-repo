@@ -389,6 +389,11 @@ At the end of this procedure, you will need to check that there is conductivity 
 
 .. Release the outer insert ring and remove the plug from the connector
 
++
+--
++++<div class="pagebreak"> </div>+++
+--
+
 . Thread the cable through the pressing screw, pinch ring, and "seal" ring.
 +
 [#f_Threading-the-Cable-Through-the-Screw-Ring-and-Seal]
@@ -404,6 +409,12 @@ image::image19.png[image,width=204,height=321]
 .Threading the Cable Through the Hood and Sleeve
 
 image::image20.png[image,width=334,height=202]
+
++
+--
++++<div class="pagebreak"> </div>+++
+--
+
 
 . If needed, turn the inner part of the insert to the desired position. This is typically done with the notch towards the "bottom" (in the same direction as the bottom of the hood). This typical position will enable the cables to leave the connector plug directly towards the back of the Camera System.
 +
