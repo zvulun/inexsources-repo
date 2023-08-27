@@ -513,6 +513,11 @@ Be sure to tighten the sleeve just enough to feel a little resistance. This will
 
 . The sleeve ring's threads (inside the ring facing the bevels) attach the sleeve to the hood's threads; use the sleeve's ring to tighten the attachment.
 
++
+--
++++<div class="pagebreak"> </div>+++
+--
+
 . Slide the seal, pinch ring and pressing screw nut along the cable. Push the seal all the way up into the hood.
 +
 [#f_Power-LAN-Cable-Pushing-the-Seal-into-the-Hood]
