@@ -220,7 +220,6 @@ include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections 
 
 +++<div class="pagebreak"> </div>+++
 
-
 [#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
 
 === Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
@@ -234,8 +233,6 @@ include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV 
 You can trigger an illuminator from the OV camera by using appropriate cabling (see <<s_Typical-Wiring-Diagrams>>). The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
 
 include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
-
-[#s_Verifying-Infrared-type-Illuminator-Operation]
 
 +++<div class="pagebreak"> </div>+++
 
