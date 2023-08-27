@@ -305,40 +305,9 @@ Avoid having these items in the Field of View:
 
 +++<div class="pagebreak"> </div>+++
 
-[#s_Mounting-the-Camera-System]
+[#s_Prepare-Cables]
 
-ifndef::xref-type-IZ600F[]
-== Install Camera System(s) and Other Components
-endif::[]
-
-ifdef::xref-type-IZ600F[]
-== Install Camera(s) and Other Components
-endif::[]
-
-
-ifndef::xref-type-IZ600F[]
-[IMPORTANT]
-
-========================================
-
-*After mounting, remove the protective film from the front window of the Camera System.*
-
-========================================
-
-endif::[]
-
-Secure the
-ifndef::xref-type-IZ600F[Camera System]
-ifdef::xref-type-IZ600F[camera]
-and illuminators to the appropriate
-mounting hardware
-(see the Mounting Hardware documentation - see <<s_Related-Documents>>).
-
-Mount other components (such as junction boxes) in appropriate locations.
-
-[#s_Connect-Components-Wiring]
-
-== Connect Components (Wiring)
+== Prepare Cables
 
 [#s_Power-LAN-Cable-Options]
 
@@ -559,6 +528,80 @@ If you have built the Power/LAN Cable using the IZ_COMPOSITE_CABLE, or if you ne
 
 . Strip off 0.2 in (5 mm) from each insulated wire (lead).
 
+
+[#s_Mounting-the-Camera-System]
+
+ifndef::xref-type-IZ600F[]
+== Install Camera System(s) and Other Components
+endif::[]
+
+ifdef::xref-type-IZ600F[]
+== Install Camera(s) and Other Components
+endif::[]
+
+
+[IMPORTANT]
+
+========================================
+
+*Before mounting components, see <<s_Connect-Components-Wiring>> to ensure that your site plan accommodates how the components will be wired together.*
+
+ifndef::xref-type-IZ600F[]
+*After mounting, remove the protective film from the front window of the Camera System.*
+endif::[]
+
+========================================
+
+. Secure the
+ifndef::xref-type-IZ600F[Camera System(s)]
+ifdef::xref-type-IZ600F[camera(s)]
+and illuminator(s) to the appropriate
+mounting hardware
+(see the Mounting Hardware documentation - see <<s_Related-Documents>>).
+
+. Mount other components (such as junction boxes) in appropriate locations.
+
+[#s_Connect-Components-Wiring]
+
+== Connect Components (Wiring)
+
+[#s_Typical-Wiring-Diagrams]
+
+=== Typical Wiring Diagrams
+
+* See <<f_Building-the-Power-LAN-Cable-with-IZ-COMPOSITE-CABLE>> for the power/LAN cable wire colors.
+
+* See <<t_Wiring-Diagram-Legend>> for a legend/bill of materials.
+
+* See <<s_Connecting-the-IZ-Panel>> for instructions on how to connect system components to the {hw-connection-panel}.
+
+[WARNING]
+========================================
+
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
+
+========================================
+
+[#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
+
+.Typical Camera System with Illuminator Wiring Diagram
+
+image::ROOT:IZA800GVES/image16.png[image,width=604,height=429]
+
+[#f_Typical-Camera-System-Wiring-Diagram]
+
+.Typical Camera System Wiring Diagram
+
+image::ROOT:IZA800GVES/image17.png[image,width=623,height=324]
+
+[#t_Wiring-Diagram-Legend]
+
+.Wiring Diagram Legend/Bill of Materials
+
+include::ROOT:partial$IZA800GVES/p-IZA800GVES-wiring-table.adoc[IZA800GVES Wiring Table]
+
 [#s_Connecting-the-IZ-Panel]
 
 === Connecting System Components to the IZ Panel
@@ -616,42 +659,6 @@ The Camera System is not compatible with some GigE switches; suggested switch ty
 ** Connect your network switch to the RJ45 connector on the {hw-connection-panel}.
 
 
-[#s_Typical-Wiring-Diagrams]
-
-=== Typical Wiring Diagrams
-
-* See <<f_Building-the-Power-LAN-Cable-with-IZ-COMPOSITE-CABLE>> for the power/LAN cable wire colors.
-
-* See <<t_Wiring-Diagram-Legend>> for a legend/bill of materials.
-
-* See <<s_Connecting-the-IZ-Panel>> for instructions on how to connect system components to the {hw-connection-panel}.
-
-[WARNING]
-========================================
-
-Turn off/disconnect the external (AC) power supply before connecting cables.
-
-*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
-
-========================================
-
-[#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
-
-.Typical Camera System with Illuminator Wiring Diagram
-
-image::ROOT:IZA800GVES/image16.png[image,width=604,height=429]
-
-[#f_Typical-Camera-System-Wiring-Diagram]
-
-.Typical Camera System Wiring Diagram
-
-image::ROOT:IZA800GVES/image17.png[image,width=623,height=324]
-
-[#t_Wiring-Diagram-Legend]
-
-.Wiring Diagram Legend/Bill of Materials
-
-include::ROOT:partial$IZA800GVES/p-IZA800GVES-wiring-table.adoc[IZA800GVES Wiring Table]
 
 +++<div class="pagebreak"> </div>+++
 
