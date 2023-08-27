@@ -311,40 +311,9 @@ Avoid having these items in the Field of View:
 
 +++<div class="pagebreak"> </div>+++
 
-[#s_Mounting-the-Camera-System]
+[#s_Prepare-Cables]
 
-ifndef::xref-type-IZ600F[]
-== Install Camera System(s) and Other Components
-endif::[]
-
-ifdef::xref-type-IZ600F[]
-== Install Camera(s) and Other Components
-endif::[]
-
-
-ifndef::xref-type-IZ600F[]
-[IMPORTANT]
-
-========================================
-
-*After mounting, remove the protective film from the front window of the Camera System.*
-
-========================================
-
-endif::[]
-
-Secure the
-ifndef::xref-type-IZ600F[Camera System(s)]
-ifdef::xref-type-IZ600F[camera(s)]
-and illuminator(s) to the appropriate
-mounting hardware
-(see the Mounting Hardware documentation - see <<s_Related-Documents>>).
-
-Mount other components (such as junction boxes) in appropriate locations.
-
-[#s_Connect-Components-Wiring]
-
-== Connect Components (Wiring)
+== Prepare Cables
 
 [#s_Constructing-the-Power-Signals-Cable]
 
@@ -369,6 +338,40 @@ include::ROOT:partial$IZA800G/p-lan-cable-1.adoc[LAN Cable Construction Part 1]
 include::ROOT:partial$IZA800G/p-lan-cable-2.adoc[LAN Cable Construction Part 2]
 
 +++<div class="pagebreak"> </div>+++
+
+[#s_Mounting-the-Camera-System]
+
+ifndef::xref-type-IZ600F[]
+== Install Camera System(s) and Other Components
+endif::[]
+
+ifdef::xref-type-IZ600F[]
+== Install Camera(s) and Other Components
+endif::[]
+
+[IMPORTANT]
+
+========================================
+*Before mounting components, see <<s_Connect-Components-Wiring>> to ensure that your site plan accommodates how the components will be wired together.*
+
+ifndef::xref-type-IZ600F[]
+*After mounting, remove the protective film from the front window of the Camera System.*
+endif::[]
+
+========================================
+
+. Secure the
+ifndef::xref-type-IZ600F[Camera System(s)]
+ifdef::xref-type-IZ600F[camera(s)]
+and illuminator(s) to the appropriate
+mounting hardware
+(see the Mounting Hardware documentation - see <<s_Related-Documents>>).
+
+. Mount other components (such as junction boxes) in appropriate locations.
+
+[#s_Connect-Components-Wiring]
+
+== Connect Components (Wiring)
 
 [#s_Typical-Wiring-Diagrams]
 

@@ -138,13 +138,9 @@ The package includes:
 
 * {docproductname} ALPR All-in-one AI Camera System
 
-[NOTE]
-
-========================================
-
+[sidebar]
 If any parts are missing or damaged, please contact {compname-long}.
 
-========================================
 
 +++<div class="pagebreak"> </div>+++
 

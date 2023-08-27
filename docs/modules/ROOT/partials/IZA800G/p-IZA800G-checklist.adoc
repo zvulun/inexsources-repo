@@ -2,6 +2,8 @@
 
 * [*] Plan your site
 
+* [*] Prepare cables
+
 ifndef::xref-type-IZ600F[]
 * [*] Install Camera System(s) and other components
 endif::[]
