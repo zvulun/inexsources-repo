@@ -550,9 +550,9 @@ image::image26.png[image,width=285,height=196]
 
 [#s_Preparing-the-Cable-Leads-IZ-COMPOSITE-CABLE]
 
-=== Preparing the Cable Leads (IZ_COMPOSITE_CABLE)
+=== Preparing the Cable Leads
 
-If you have built the Power/LAN Cable using the IZ_COMPOSITE_CABLE, follow these instructions:
+If you have built the Power/LAN Cable using the IZ_COMPOSITE_CABLE, or if you need to remove more insulation from the IZCAB-AVES Power/LAN cable, follow these instructions:
 
 [NOTE]
 
@@ -582,7 +582,7 @@ Power undervoltage, overvoltage and/or incorrect polarity will damage the unit a
 
 Turn off/disconnect the external (AC) power supply before connecting cables.
 
-*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.**
+*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
 
 *All network cable extensions and repeaters must be shielded.*
 
