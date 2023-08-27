@@ -319,6 +319,15 @@ Avoid having these items in the Field of View:
 
 === Constructing the Power/Signals Cable
 
+[NOTE]
+
+========================================
+
+Prefabricated cables can be ordered from {compname-short}. See <<s_Related-Documents>> and <<t_Wiring-Diagram-Legend-Bill-of-Materials>>.
+
+========================================
+
+
 include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals Cable]
 
 [#t_Power-Signals-Cable-Power-Signals-Pinouts]
@@ -332,6 +341,15 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-2.adoc[Second Part of Power Signal
 [#s_Constructing-the-LAN-Cable]
 
 === Constructing the LAN Cable
+
+[NOTE]
+
+========================================
+
+Prefabricated cables can be ordered from {compname-short}. See <<s_Related-Documents>> and <<t_Wiring-Diagram-Legend-Bill-of-Materials>>.
+
+========================================
+
 
 include::ROOT:partial$IZA800G/p-lan-cable-1.adoc[LAN Cable Construction Part 1]
 
