@@ -582,7 +582,7 @@ Power undervoltage, overvoltage and/or incorrect polarity will damage the unit a
 
 Turn off/disconnect the external (AC) power supply before connecting cables.
 
-**If you are using an {compname-short} power supply, see its User Guide (see <<**s_Related-Documents>>**) for important information.**
+*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.**
 
 *All network cable extensions and repeaters must be shielded.*
 
