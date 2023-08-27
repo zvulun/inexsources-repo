@@ -584,6 +584,19 @@ Turn off/disconnect the external (AC) power supply before connecting cables.
 
 ========================================
 
+[IMPORTANT]
+
+========================================
+
+When using {compname-short} cables (such as the IZ Composite Cable) for LAN connectivity from the camera via the {hw-connection-panel}, the maximum cable length is 200 ft (61 m).
+
+To attach the cables to the camera, tighten the outer insert ring onto the corresponding panel connector (see <<f_Female-Connector-Plug-Assembly>>).
+
+After connecting the cables to the camera, you can still rotate them slightly to achieve the desired angle (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>). If you need a bigger rotation, see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>.
+
+========================================
+
+
 [#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
 
 .Typical Camera System with Illuminator Wiring Diagram
@@ -621,18 +634,6 @@ Turn off/disconnect the external (AC) power supply before connecting cables.
 *If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
 
 *All network cable extensions and repeaters must be shielded.*
-
-========================================
-
-[IMPORTANT]
-
-========================================
-
-When using {compname-short} cables (such as the IZ Composite Cable) for LAN connectivity from the camera via the {hw-connection-panel}, the maximum cable length is 200 ft (61 m).
-
-To attach the cables to the camera, tighten the outer insert ring onto the corresponding panel connector (see <<f_Female-Connector-Plug-Assembly>>).
-
-After connecting the cables to the camera, you can still rotate them slightly to achieve the desired angle (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>). If you need a bigger rotation, see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>.
 
 ========================================
 
