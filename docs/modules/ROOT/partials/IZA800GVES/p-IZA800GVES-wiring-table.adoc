@@ -17,7 +17,7 @@ Binder P/N https://www.binder-usa.com/us-en/products/power-connectors/rd24-power
 
 * xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
 
-|D a|*Illuminator Cable for {system-type} System* |{compname-short} P/N: https://drive.google.com/drive/folders/1A1kXsMSm38YRO1cDlz7Fgs8_NcQaNwFG?usp=sharing[IZCAB-S{system-type}]
+|D a|*Illuminator Cable for {system-type} System* |{compname-short} P/N: xref:IZCAB-SVES:DocList.adoc[IZCAB-S{system-type}]
 |E a|*DIN Rail Mountable Connection Panel* |{compname-short} P/N: xref:IZPANEL:DocList.adoc[{hw-connection-panel}]
 |F a|*{illum-VES} Strobe Illuminator* |{compname-short} P/N: See the xref:IZSVES:DocList.adoc[{illum-VES} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
