@@ -1,0 +1,175 @@
+:docproductname: IZA800GVES
+:shortprodname: IZA800GVES
+:generic-camera-name: VES Camera System
+:system-type: VES
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+
+:xref-type-IZA800GVES:
+:layout-type-technote:
+
+//enable the TOC to be placed in a specific position
+//:toc: macro
+
+= {docproductname} Datasheet
+
+xref:IZA800GVES:DocList.adoc[<- Back to {shortprodname} Documents]
+
+image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== {docproductname} {system-type} All-in-one AI Camera System
+
+[discrete]
+=== Rev. F3
+//[discrete]
+//=== Datasheet
+
+image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
+
+// no section numbers in datasheets
+//:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+// no TOC in datasheets ._Click to show the Table of Contents_
+// [%collapsible]
+// ====
+
+// toc::[]
+
+// ====
+
+[discrete]
+== Key Features and Benefits
+* [*] Designed for Open Road Tolling, ITS and Traffic Enforcement Applications
+
+* [*] NVIDIA® Artificial Intelligence (AI) GPU processor for lightning fast processing at the edge
+
+* [*] RoadView video analytics on edge for in-depth vehicle analysis
+
+* [*] Integrated with {software-cloud}
+
+* [*] Dual sensor provides multiple paths to perfect ALPR reads
+
+* [*] Multi-flash technology for greater read accuracy and capture under all conditions
+
+* [*] Works with {illum-VES} illuminators
+
+* [*] Single-cable and one power supply for easy installation and minimum infrastructure
+
+* [*] Motorized zoom and auto-focus - the key to optimized remote tuning
+
+* [*] Anti-glare technology for all lighting environments
+
+* [*] Wide temperature range - operating from -22°F to 140°F (-30°C to 60°C)
+
+* [*] IP67 ingress protection against extreme moisture
+
+* [*] IK10 vandal-proof housing for efficient, worry-free operation
+
+* [*] NDAA Section 889 compliant for our national security
+
+image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
+image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
+image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
+image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
+image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
+image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
+image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
+image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
+
+[discrete]
+== Specifications
+
+include::ROOT:partial$/IZA800GVES/p-IZA800GVES-spec-table.adoc[IZA800G Spec table]
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Ordering Information
+
+[width="100%",cols="25%,75%",options="header",]
+|===
+|Part Number+++**+++ |Description+++***+++
+|{shortprodname}-S-DR |5-35 ft (2-11 m) range, Deep Red illumination
+|{shortprodname}-S-DR-CAB15F |5-35 ft (2-11 m) range, Deep Red illumination, 15 ft cable set
+|{shortprodname}-S-DRW |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination
+|{shortprodname}-S-DRW-CAB15F |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination, 15 ft cable set
+|{shortprodname}-S-IR |5-35 ft (2-11 m) range, Infrared illumination
+|{shortprodname}-S-IR-CAB15F |5-35 ft (2-11 m) range, Infrared illumination, 15 ft cable set
+|{shortprodname}-S-IRW |5-35 ft (2-11 m) range, Infrared &amp; Visible Light illumination
+|{shortprodname}-S-IRW-CAB15F |5-35 ft (2-11 m) range, Infrared &amp; Visible Light illumination, 15 ft cable set
+|{shortprodname}-L-DR |30-70 ft (9-21 m) range, Deep Red illumination
+|{shortprodname}-L-DR-CAB15F |30-70 ft (9-21 m) range, Deep Red illumination, 15 ft cable set
+|{shortprodname}-L-DRW |30-70 ft (9-21 m) range, Deep Red &amp; Visible Light illumination
+|{shortprodname}-L-DRW-CAB15F |30-70 ft (9-21 m) range, Deep Red &amp; Visible Light illumination, 15 ft cable set
+|{shortprodname}-L-IR |30-70 ft (9-21 m) range, Infrared illumination
+|{shortprodname}-L-IR-CAB15F |30-70 ft (9-21 m) range, Infrared illumination, 15 ft cable set
+|{shortprodname}-L-IRW |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination
+|{shortprodname}-L-IRW-CAB15F |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, 15 ft cable set
+|===
+
++++**+++ All models have motorized zoom and auto-focus +
++++***+++ All models have 24 VDC input voltage
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Standard Package Contents
+
+* {shortprodname} {system-type} All-in-one AI Camera System
+
+* Power/LAN cable connector (field-mountable): Waterproof outdoor Binder RD24, part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07, window=_blank]
+
+[discrete]
+== {shortprodname}-S/L-DRW, IRW LED Positions
+
+image::ROOT:IZA800GVES/image101.png[image,width=223,height=171]
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Dimensions (inches/cm)
+
+image::ROOT:/IZA800GVES/image4.png[image,width=370,height=199]
+
+image::ROOT:/IZA800GVES/image5.png[image,width=467,height=239]
+
+image::ROOT:/IZA800GVES/image6.png[image,width=483,height=269]
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Power/Signals Cable Connector Pinout
+
+include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Connector Pinouts]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+Doc. No. {shortprodname}-REV-F3-TDSHEET
+

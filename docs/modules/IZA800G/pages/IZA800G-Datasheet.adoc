@@ -141,7 +141,7 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 [discrete]
 == Standard Package Contents
 
-* IZA800G ALPR All-in-one AI Camera System
+* {shortprodname} ALPR All-in-one AI Camera System
 
 * LAN cable connector (field-mountable)
 
@@ -151,7 +151,7 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 
 [discrete]
 
-== IZA800G-S/L/XL-DRW, IRW LED Positions
+== {shortprodname}-S/L/XL-DRW, IRW LED Positions
 
 image::ROOT:IZA800G/image9.png[image,width=223,height=171]
 
