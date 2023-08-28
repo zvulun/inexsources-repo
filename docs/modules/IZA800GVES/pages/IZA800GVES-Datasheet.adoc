@@ -93,10 +93,10 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 * [*] NDAA Section 889 compliant for our national security
 
-+
---
-+++<div class="pagebreak"> </div>+++
---
+//+
+//--
+//+++<div class="pagebreak"> </div>+++
+//--
 
 
 image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
