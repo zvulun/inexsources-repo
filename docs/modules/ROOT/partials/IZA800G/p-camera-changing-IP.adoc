@@ -17,7 +17,10 @@ image::ROOT:/IZA800G/image44.png[image,width=524,height=180]
 +
 [NOTE]
 ========================================
-The IP address must be unique within the entire ALPR system, and must be within the limits of standard IPv4 address numbering.
+The IP address must be unique within the entire
+ifndef::xref-type-IZA800GVES[ALPR]
+ifdef::xref-type-IZA800GVES[VES]
+system, and must be within the limits of standard IPv4 address numbering.
 ========================================
 
 .. Click the Static radio button.
@@ -28,7 +31,7 @@ The IP address must be unique within the entire ALPR system, and must be within 
 --
 [IMPORTANT]
 ========================================
-It is highly recommended to record the camera's IP address and port number in a safe place. You will need them if the camera's parameters are reset back to their defaults, and for configuring {compname-short} ALPR software.
+It is highly recommended to record the camera's IP address and port number in a safe place. You will need them if the camera's parameters are reset back to their defaults, and for configuring {compname-short} recognition software.
 ========================================
 
 +++<div class="pagebreak"> </div>+++

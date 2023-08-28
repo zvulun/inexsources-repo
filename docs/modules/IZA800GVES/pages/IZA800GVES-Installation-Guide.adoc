@@ -713,7 +713,7 @@ Plug the power supply into the AC electricity. If required, switch the power sup
 
 === Reserving IP Addresses in your Network
 
-The {compname-short} cameras have been pre-configured with default IP addresses. You will probably need to change these addresses to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your ALPR system ({software-ALPR} computer and cameras).
+The {compname-short} cameras have been pre-configured with default IP addresses. You will probably need to change these addresses to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your system ({software-ALPR} computer and cameras).
 
 [#s_Recognizing-Devices-with-IZ-Discovery]
 
