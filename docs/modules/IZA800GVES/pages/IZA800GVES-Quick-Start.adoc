@@ -85,7 +85,7 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 //.Typical Camera System with Illuminator Wiring Diagram
 
-image::ROOT:IZA800G/image17.png[image,width=530,height=324]
+image::ROOT:IZA800GVES/image16.png[image,width=604,height=429]
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
@@ -94,7 +94,7 @@ image::ROOT:IZA800G/image17.png[image,width=530,height=324]
 
 //.Typical Camera System Wiring Diagram
 
-image::ROOT:IZA800G/image18.png[image,width=424,height=356]
+image::ROOT:IZA800GVES/image17.png[image,width=623,height=324]
 
 +++<div class="pagebreak"> </div>+++
 
@@ -105,7 +105,7 @@ image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 
 //.Legend
 
-include::ROOT:partial$IZA800GVES/p-IZA800GVES-wiring-table.adoc[IZA800G Wiring Table]
+include::ROOT:partial$IZA800GVES/p-IZA800GVES-wiring-table.adoc[IZA800GVES Wiring Table]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
