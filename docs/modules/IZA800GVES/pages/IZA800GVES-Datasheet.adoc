@@ -93,6 +93,12 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 * [*] NDAA Section 889 compliant for our national security
 
++
+--
++++<div class="pagebreak"> </div>+++
+--
+
+
 image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
 image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
@@ -113,7 +119,7 @@ include::ROOT:partial$/IZA800GVES/p-IZA800GVES-spec-table.adoc[IZA800G Spec tabl
 [discrete]
 == Ordering Information
 
-[width="100%",cols="25%,75%",options="header",]
+[width="100%",cols="28%,72%",options="header",]
 |===
 |Part Number+++**+++ |Description+++***+++
 |{shortprodname}-S-DR |5-35 ft (2-11 m) range, Deep Red illumination
@@ -144,7 +150,8 @@ include::ROOT:partial$/IZA800GVES/p-IZA800GVES-spec-table.adoc[IZA800G Spec tabl
 
 * {shortprodname} {system-type} All-in-one AI Camera System
 
-* Power/LAN cable connector (field-mountable): Waterproof outdoor Binder RD24, part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07, window=_blank]
+* Power/LAN cable connector (field-mountable): +
+Waterproof outdoor Binder RD24, part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07, window=_blank]
 
 [discrete]
 == {shortprodname}-S/L-DRW, IRW LED Positions
@@ -165,7 +172,7 @@ image::ROOT:/IZA800GVES/image6.png[image,width=483,height=269]
 +++<div class="pagebreak"> </div>+++
 
 [discrete]
-== Power/Signals Cable Connector Pinout
+== Power/LAN Cable Connector Pinout
 
 include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Connector Pinouts]
 
