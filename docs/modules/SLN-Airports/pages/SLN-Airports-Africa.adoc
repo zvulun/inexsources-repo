@@ -1,5 +1,6 @@
 :docproductname: Africa Airports
 :shortprodname: Airport Solutions
+:shortprodname2: AirportSolutions
 :generic-camera-name: camera
 :system-type: N/A
 
@@ -73,7 +74,7 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 * [*] People counting for real-time terminal population count
 
-* [*] Alerts for crowding in critical areas such as security check, check-in and baggage claim
+* [*] Alerts for crowding in critical areas such as security check, check-in and baggage claim - and to recognize patterns and improve service
 
 
 //+
@@ -95,6 +96,9 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 [discrete]
 == Face Recognition
 
+=== How It works
+
+
 //+++<div class="pagebreak"> </div>+++
 
 [discrete]
@@ -109,7 +113,15 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 [discrete]
 == Crowding Alerts
 
+[discrete]
+== Our Customers
+
+== Contact Us
+Call us for a trial - we can use your existing cameras and other equipment,
+and evaluate how we can integrate with your systems.
+
+
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-AFRICA-01
+Doc. No. {shortprodname2}-AFRICA-SLN
 
