@@ -96,8 +96,6 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 [discrete]
 == Face Recognition
 
-=== How It works
-
 
 //+++<div class="pagebreak"> </div>+++
 
