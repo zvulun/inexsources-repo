@@ -63,6 +63,7 @@
 ** xref:IZWC:DocList.adoc[IZ-WC (Wiegand Converter)]
 ** xref:IZPANEL:DocList.adoc[IZPanel (Connection Panel)]
 ** xref:IZ4POE:DocList.adoc[IZ4POE (Gigabit 4-Port PoE{plus}{plus} Injector)]
+** xref:IZACT50:DocList.adoc[IZACT50 (Access Control Terminal with PIN Keypad)]
 * Cables
 ** xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE (VES Cable)]
 ** xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES (VES Illuminator)]
