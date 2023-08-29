@@ -1,0 +1,115 @@
+:docproductname: Africa Airports
+:shortprodname: Airport Solutions
+:generic-camera-name: camera
+:system-type: N/A
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+
+//:xref-type-IZA800GVES:
+:layout-type-technote:
+
+//enable the TOC to be placed in a specific position
+//:toc: macro
+
+= {docproductname} Solution Description
+
+xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
+
+image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== {docproductname}
+
+//[discrete]
+//=== Rev. F3
+//[discrete]
+//=== Datasheet
+
+// image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,300,align=left]
+
+// no section numbers in datasheets
+//:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+// no TOC in datasheets ._Click to show the Table of Contents_
+// [%collapsible]
+// ====
+
+// toc::[]
+
+// ====
+
+[discrete]
+== Key Features and Benefits
+* [*] Face recognition for comprehensive alerts from all locations - in cars, on streets, at terminal entrances
+
+* [*] Vehicle security alerts from license plate blacklists on roads or at checkpoints
+
+* [*] Unattended baggage alerts
+
+* [*] People counting for real-time terminal population count
+
+* [*] Alerts for crowding in critical areas such as security check, check-in and baggage claim
+
+
+//+
+//--
+//+++<div class="pagebreak"> </div>+++
+//--
+
+
+//image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+//image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
+//image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
+//image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
+//image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
+//image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
+//image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
+//image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
+//image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
+
+[discrete]
+== Face Recognition
+
+//+++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Vehicle Security
+
+[discrete]
+== Unattended Baggage
+
+[discrete]
+== Terminal Population Count
+
+[discrete]
+== Crowding Alerts
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+Doc. No. {shortprodname}-AFRICA-01
+
