@@ -114,6 +114,7 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 [discrete]
 == Our Customers
 
+[discrete]
 == Contact Us
 Call us for a trial - we can use your existing cameras and other equipment,
 and evaluate how we can integrate with your systems.
