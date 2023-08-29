@@ -125,18 +125,18 @@ and evaluate how we can integrate with your systems.
 a|+++<font size="-1">+++ USA Headquarters +
 155 Willowbrook Blvd., Suite 130 +
 Wayne, NJ 07470 +
-(+1) 865-671-1400 +++</font>
-a|Americas +
+(+1) 865-671-1400 +++</font>+++
+a|+++<font size="-1">+++ Americas +
 (+1) 865-671-1400 +
-info@inextechnologies.com
-a|Europe +
+info@inextechnologies.com +++</font>+++
+a|+++<font size="-1">+++ Europe +
 (+43) 676-715-6066 +
-info_eu@inextechnologies.com
-a|Asia and Australia +
+info_eu@inextechnologies.com +++</font>+++
+a|+++<font size="-1">+++ Asia and Australia +
 (+972) 2-545-4100 +
-info_il@inextechnologies.com
+info_il@inextechnologies.com +++</font>+++
 |===
-+++</font>+++
+
 
 https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank]
 
