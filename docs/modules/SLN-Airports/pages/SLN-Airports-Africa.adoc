@@ -119,13 +119,13 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 Call us for a trial - we can use your existing cameras and other equipment,
 and evaluate how we can integrate with your systems.
 
-+++<font size="-1">+++
+
 [table.noborders,width="100%",cols="25%,25%,25%,25%",frame="none",grid="none"]
 |===
-a|USA Headquarters +
+a|+++<font size="-1">+++ USA Headquarters +
 155 Willowbrook Blvd., Suite 130 +
 Wayne, NJ 07470 +
-(+1) 865-671-1400
+(+1) 865-671-1400 +++</font>
 a|Americas +
 (+1) 865-671-1400 +
 info@inextechnologies.com
