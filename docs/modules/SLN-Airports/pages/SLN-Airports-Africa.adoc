@@ -118,15 +118,26 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 Call us for a trial - we can use your existing cameras and other equipment,
 and evaluate how we can integrate with your systems.
 
++++<font size="-1">+++
 [table.noborders,width="100%",cols="25%,25%,25%,25%",frame="none",grid="none"]
 |===
-|USA Headquarters |address2 |address3 |address4
-|address1 |address2 |address3 |address4
-|address1 |address2 |address3 |address4
-|address1 |address2 |address3 |address4
+a|USA Headquarters +
+155 Willowbrook Blvd., Suite 130 +
+Wayne, NJ 07470 +
+(+1) 865-671-1400
+a|Americas +
+(+1) 865-671-1400 +
+info@inextechnologies.com
+a|Europe +
+(+43) 676-715-6066 +
+info_eu@inextechnologies.com
+a|Asia and Australia +
+(+972) 2-545-4100 +
+info_il@inextechnologies.com
 |===
++++</font>+++
 
-https://www.inextechnologies.com/[www.inextechnologies.com]
+https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
