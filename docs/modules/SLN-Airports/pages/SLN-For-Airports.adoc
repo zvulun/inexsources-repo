@@ -73,12 +73,13 @@ of routine checks. It has evolved into a
 comprehensive ecosystem that incorporates
 cutting-edge technologies to ensure the safety
 of all airport users, from passengers to staff.
-Today's airports need to be at the forefront of this revolution.
+Today's airports need to be at the forefront of this revolution. +
+
 Introducing {compname-short} {shortprodname}: a comprehensive approach to airport security.
 
 [discrete]
 == Key Features and Benefits
-* [*] Face recognition for comprehensive alerts everywhere - in cars, on streets, at entrances
+* [*] Face recognition everywhere - in cars, on streets, at entrances
 
 * [*] Vehicle security alerts from license plate blacklists on roads or at checkpoints
 
@@ -110,7 +111,9 @@ and match faces from various locations within
 the airport - terminal entrances, on streets, or even in vehicles.
 Identification of suspected individuals on a watchlist can
 generate real-time alerts, ensuring that potential
-security threats are identified and addressed early.
+security threats are identified and addressed early.+
+
+Pixels across the face provided: minimum – 100, optimal 200
 
 //+++<div class="pagebreak"> </div>+++
 
@@ -158,6 +161,17 @@ prolonged waiting times, and ensuring optimal staff
 allocation during rush hours.
 
 [discrete]
+== Intelligent AI Video Analytics
+Integrated with AI-driven video analytics, our system
+pairs seamlessly with your existing CCTV infrastructure,
+and maximizes accuracy while reducing false positives. +
+
+For example, our ALPR analytics can determine
+the classification, color and make of a vehicle.
+
+
+
+[discrete]
 == Virtual Patrols
 
 //pictures
@@ -187,9 +201,13 @@ for review, investigation and legal action.
 
 [discrete]
 == Contact Us
+As the landscape of threats evolves, the tools we use to
+counter them must stay a step ahead. We invite
+forward-thinking airport security teams to
+journey with us in setting new safety standards.
+
 Call us for a trial - we can use your existing cameras and other equipment,
 and evaluate how we can integrate with your systems.
-
 
 [table.noborders,width="100%",cols="25%,25%,25%,25%",frame="none",grid="none"]
 |===
