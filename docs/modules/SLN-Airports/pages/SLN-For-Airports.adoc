@@ -111,9 +111,8 @@ and match faces from various locations within
 the airport - terminal entrances, on streets, or even in vehicles.
 Identification of suspected individuals on a watchlist can
 generate real-time alerts, ensuring that potential
-security threats are identified and addressed early.+
-
-Pixels across the face provided: minimum – 100, optimal 200
+security threats are identified and addressed early.
+(Pixels across the face provided: minimum – 100, optimal 200)
 
 
 --
@@ -178,8 +177,7 @@ image::CarTypeIdentified.jpg[image,width=300,align=left]
 
 Integrated with AI-driven video analytics, our system
 pairs seamlessly with your existing CCTV infrastructure,
-and maximizes accuracy while reducing false positives. +
-
+and maximizes accuracy while reducing false positives. +++<br>+++
 For example, our ALPR analytics can determine
 the classification, color and make of a vehicle.
 
