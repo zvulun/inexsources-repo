@@ -232,7 +232,8 @@ https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank] +
 +++<font size="-1">+++ USA Headquarters: +
 155 Willowbrook Blvd., Suite 130 +
 Wayne, NJ 07470 +
-({plus}1) 865-671-1400 +++</font>+++
+({plus}1) 865-671-1400 +++</font>+++ +
+
 
 [table.noborders,width="100%",cols="33%,33%,34%",frame="none",grid="none"]
 |===
