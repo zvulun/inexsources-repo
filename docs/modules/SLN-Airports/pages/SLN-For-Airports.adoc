@@ -221,9 +221,9 @@ and evaluate how we can integrate with your systems.
 
 https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank]
 
-[table.noborders,width="100%",cols="25%,25%,25%,25%",frame="none",grid="none"]
+[table.noborders,width="100%",cols="28%,24%,24%,24%",frame="none",grid="none"]
 |===
-a|+++<font size="1.5">+++ USA Headquarters +++<br>+++
+a|+++<font size="-1">+++ USA Headquarters +++<br>+++
 155 Willowbrook Blvd., Suite 130 +++<br>+++
 Wayne, NJ 07470 +++<br>+++
 (+1) 865-671-1400 +++</font>+++
