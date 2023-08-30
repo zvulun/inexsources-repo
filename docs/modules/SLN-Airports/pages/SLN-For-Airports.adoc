@@ -78,7 +78,7 @@ Introducing {compname-short} {shortprodname}: a comprehensive approach to airpor
 
 [discrete]
 == Key Features and Benefits
-* [*] Face recognition for comprehensive alerts from all locations - in cars, on streets, at terminal entrances
+* [*] Face recognition for comprehensive alerts everywhere - in cars, on streets, at entrances
 
 * [*] Vehicle security alerts from license plate blacklists on roads or at checkpoints
 
