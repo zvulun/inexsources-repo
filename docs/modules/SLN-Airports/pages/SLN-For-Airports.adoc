@@ -1,6 +1,6 @@
 :docproductname: Airport Solutions
 :shortprodname: Airport Solutions
-:shortprodname2: AirportSolutions
+:shortprodname2: AIRPORTS
 :generic-camera-name: camera
 :system-type: N/A
 
@@ -68,7 +68,13 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 // generalize for all airports
 [discrete]
 == Executive Summary
-In the modern age, airport security is not just a matter of routine checks. It has evolved into a comprehensive ecosystem that incorporates cutting-edge technologies to ensure the safety of all airport users, from passengers to staff. Africa's airports, being gateways to a rapidly advancing continent, need to be at the forefront of this revolution. Introducing INEX Airport Solutions: a holistic approach to airport security.
+In the modern age, airport security is not just a matter
+of routine checks. It has evolved into a
+comprehensive ecosystem that incorporates
+cutting-edge technologies to ensure the safety
+of all airport users, from passengers to staff.
+Today's airports need to be at the forefront of this revolution.
+Introducing {compname-short} {shortprodname}: a comprehensive approach to airport security.
 
 [discrete]
 == Key Features and Benefits
@@ -82,6 +88,12 @@ In the modern age, airport security is not just a matter of routine checks. It h
 
 * [*] Crowding alerts
 
+* [*] Intelligent AI video analytics
+
+* [*] Virtual patrols
+
+* [*] Video recording
+
 
 //+
 //--
@@ -93,18 +105,27 @@ In the modern age, airport security is not just a matter of routine checks. It h
 
 //pictures of face recognition, driver in car, etc.
 
-Our advanced face recognition algorithms scan and match faces from various locations within the airport - terminal entrances, on streets, or even in vehicles.
-Identification of individuals of interest can generate real-time alerts, ensuring that potential security threats are identified and addressed early.
+Our advanced face recognition algorithms scan
+and match faces from various locations within
+the airport - terminal entrances, on streets, or even in vehicles.
+Identification of suspected individuals on a watchlist can
+generate real-time alerts, ensuring that potential
+security threats are identified and addressed early.
 
 //+++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Vehicle Security
 
-//pictures of face recognition
+//pictures of cars
 
-{compname-short} AI license plate recognition quickly and accurately idenitifies blacklisted vehicles, ensuring immediate action at roads or checkpoints.
-This capability provides increased perimeter and parking lot security, prevention of unauthorized vehicles from accessing sensitive areas, and timely responses to potential threats.
+{compname-short} AI license plate recognition quickly
+and accurately identifies blacklisted vehicles,
+ensuring immediate action at roads or checkpoints.
+This capability provides increased perimeter and
+parking lot security, prevention of unauthorized
+vehicles from accessing sensitive areas,
+and timely responses to potential threats.
 
 
 [discrete]
@@ -113,27 +134,55 @@ This capability provides increased perimeter and parking lot security, preventio
 //pictures of baggage and thermal cameras
 
 
-Unattended baggage is an security threat that is often overlooked.
-Cameras \{ZT: don't think there are sensors\} identify baggage left unattended for prolonged periods, alerting security teams instantly.
+Unattended baggage is an security threat often overlooked.
+Cameras \{ZT: don't think there are sensors\} identify
+baggage left unattended for prolonged periods,
+alerting security teams instantly.
 
 
 [discrete]
 == Terminal Population Count
-Real-time people counting systems can keep track of the number of individuals in the terminal at any given moment.
-This enables efficient crowd management, better resource allocation during peak times, and swift emergency evacuation when needed.
+Real-time people counting systems can track the number
+of individuals in the terminal at any given moment.
+This enables efficient crowd management, better
+resource allocation during peak times,
+and swift emergency evacuation when needed.
 
 
 [discrete]
 == Crowding Alerts
-Areas that often experience crowding can be monitored, such as security checks, check-ins, and baggage claim zones.
-Passenger experience can be enhanced by preventing prolonged waiting times, and ensuring optimal staff allocation during rush hours.
+Areas that often experience crowding can be monitored,
+such as security checks, check-ins, and baggage claim zones.
+You can enhance your passenger experience by preventing
+prolonged waiting times, and ensuring optimal staff
+allocation during rush hours.
+
+[discrete]
+== Virtual Patrols
+
+//pictures
+
+Using cameras and other devices, a site
+can be monitored remotely without the need for on-site guards.
+Virtual patrols provide round-the-clock protection
+without a physical presence, even during off-hours.
+
+
+
+[discrete]
+== Video Recording
+Our advanced video recording features
+ensure continuous capture of surveillance
+footage, along with intelligent storage solutions.
+These recordings ensure that evidence is always available
+for review, investigation and legal action.
 
 
 [discrete]
 == {compname-short} Projects
-* Israel Airport and all airports
+* Israel Airport and all airports and logos
 
-* MGM and convention centers
+* MGM and convention centers and logos
 
 
 [discrete]
@@ -164,5 +213,5 @@ https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname2}-ALL-WP
+Doc. No. SLN-{shortprodname2}-ALL-WP
 

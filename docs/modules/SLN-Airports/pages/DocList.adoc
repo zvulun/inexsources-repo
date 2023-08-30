@@ -1,5 +1,5 @@
 = Solutions for Airports: Documents List
 
-* xref:SLN-Airports:SLN-Airports-Africa.adoc[Africa Airports]
+* xref:SLN-Airports:SLN-For-Airports.adoc[Africa Airports]
 
 More documents can be found at https://drive.google.com/drive/folders/1WYyaqnieD_ZhDT_WyLJci0C1y3v0Jcdp?usp=drive_link[GDriveLink, window=_blank]
