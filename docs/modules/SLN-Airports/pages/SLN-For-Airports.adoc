@@ -24,9 +24,9 @@
 //enable the TOC to be placed in a specific position
 //:toc: macro
 
-= {compname-short} {docproductname} White Paper
+= {compname-short} Solution for Airport Security
 
-xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
+// xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
@@ -142,9 +142,8 @@ and timely responses to potential threats.
 //pictures of baggage and thermal cameras
 
 
-Unattended baggage is an security threat often overlooked.
-Cameras \{ZT: don't think there are sensors\} identify
-baggage left unattended for prolonged periods,
+Unattended baggage is a security threat often overlooked.
+Cameras identify baggage left unattended for prolonged periods,
 alerting security teams instantly.
 
 
@@ -194,7 +193,7 @@ Our advanced video recording features
 ensure continuous capture of surveillance
 footage, along with intelligent storage solutions.
 These recordings ensure that evidence is always available
-for review, investigation and legal action.
+for review, investigation, and legal action.
 
 --
 +++<div class="pagebreak"> </div>+++
@@ -220,6 +219,8 @@ journey with us in setting new safety standards.
 Call us for a trial - we can use your existing cameras and other equipment,
 and evaluate how we can integrate with your systems.
 
+https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank]
+
 [table.noborders,width="100%",cols="25%,25%,25%,25%",frame="none",grid="none"]
 |===
 a|+++<font size="-2">+++ USA Headquarters +++<br>+++
@@ -236,9 +237,6 @@ a|+++<font size="-2">+++ Asia and Australia +++<br>+++
 (+972) 2-545-4100 +++<br>+++
 info_il@inextechnologies.com +++</font>+++
 |===
-
-
-https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
