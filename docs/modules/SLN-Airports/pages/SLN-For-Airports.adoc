@@ -125,7 +125,7 @@ Pixels across the face provided: minimum – 100, optimal 200
 [discrete]
 == Vehicle Security
 
-//pictures of cars
+image:VehicleAlertEmail.png[image,width=300] {empty} image:BlackList.png[image,width=345]
 
 {compname-short} AI license plate recognition quickly
 and accurately identifies blacklisted vehicles,
