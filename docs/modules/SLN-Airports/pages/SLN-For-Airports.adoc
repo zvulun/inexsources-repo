@@ -115,7 +115,12 @@ security threats are identified and addressed early.+
 
 Pixels across the face provided: minimum – 100, optimal 200
 
-//+++<div class="pagebreak"> </div>+++
+
+--
++++<div class="pagebreak"> </div>+++
+--
+
+
 
 [discrete]
 == Vehicle Security
@@ -191,6 +196,9 @@ footage, along with intelligent storage solutions.
 These recordings ensure that evidence is always available
 for review, investigation and legal action.
 
+--
++++<div class="pagebreak"> </div>+++
+--
 
 [discrete]
 == {compname-short} Projects
@@ -198,6 +206,9 @@ for review, investigation and legal action.
 
 * MGM and convention centers and logos
 
+--
++++<div class="pagebreak"> </div>+++
+--
 
 [discrete]
 == Contact Us
