@@ -173,6 +173,9 @@ allocation during rush hours.
 
 [discrete]
 == Intelligent AI Video Analytics
+
+image::CarTypeIdentified.jpg[image,width=300,align=left]
+
 Integrated with AI-driven video analytics, our system
 pairs seamlessly with your existing CCTV infrastructure,
 and maximizes accuracy while reducing false positives. +
