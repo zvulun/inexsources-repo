@@ -192,10 +192,11 @@ can be monitored remotely without the need for on-site guards.
 Virtual patrols provide round-the-clock protection
 without a physical presence, even during off-hours.
 
-
-
 [discrete]
 == Video Recording
+
+image::VideoRecording.jpg[image,width=300,align=left]
+
 Our advanced video recording features
 ensure continuous capture of surveillance
 footage, along with intelligent storage solutions.
