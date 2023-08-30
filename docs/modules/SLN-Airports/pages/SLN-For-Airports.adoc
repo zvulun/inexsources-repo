@@ -140,7 +140,7 @@ and timely responses to potential threats.
 == Unattended Baggage
 
 //pictures of baggage and thermal cameras
-image::UnattendedBag.jpg[image,width=624,height=409]
+image::UnattendedBag.jpg[image,width=300]
 
 Unattended baggage is a security threat often overlooked.
 Cameras identify baggage left unattended for prolonged periods,
