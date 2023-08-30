@@ -149,15 +149,22 @@ alerting security teams instantly.
 
 [discrete]
 == Terminal Population Count
+
+image::AirportPopulationCount.png[image,width=300,align=left]
+
 Real-time people counting systems can track the number
 of individuals in the terminal at any given moment.
-This enables efficient crowd management, better
+This enables efficient terminal management, better
 resource allocation during peak times,
 and swift emergency evacuation when needed.
 
 
+
 [discrete]
 == Crowding Alerts
+
+image::Crowding.jpg[image,width=300,align=left]
+
 Areas that often experience crowding can be monitored,
 such as security checks, check-ins, and baggage claim zones.
 You can enhance your passenger experience by preventing
@@ -178,7 +185,7 @@ the classification, color and make of a vehicle.
 [discrete]
 == Virtual Patrols
 
-//pictures
+image::VirtualPatrolOperator.jpg[image,width=300,align=left]
 
 Using cameras and other devices, a site
 can be monitored remotely without the need for on-site guards.
