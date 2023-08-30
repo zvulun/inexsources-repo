@@ -119,7 +119,7 @@ include::ROOT:partial$/IZA800GVES/p-IZA800GVES-spec-table.adoc[IZA800G Spec tabl
 [discrete]
 == Ordering Information
 
-[table.noborders,width="100%",cols="28%,72%",options="header",frame="none",grid="none"]
+[table.noborders,width="100%",cols="28%,72%",options="header",]
 |===
 |Part Number+++**+++ |Description+++***+++
 |{shortprodname}-S-DR |5-35 ft (2-11 m) range, Deep Red illumination
