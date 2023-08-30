@@ -1,8 +1,10 @@
-:docproductname: Africa Airports
+:docproductname: Airport Solutions
 :shortprodname: Airport Solutions
 :shortprodname2: AirportSolutions
 :generic-camera-name: camera
 :system-type: N/A
+
+// change name of file
 
 // These attributes have been soft set
 // In the playbooks, so they can be
@@ -22,7 +24,7 @@
 //enable the TOC to be placed in a specific position
 //:toc: macro
 
-= {docproductname} Solution Description
+= {compname-short} {docproductname} White Paper
 
 xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
 
@@ -40,7 +42,7 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 // discrete removes these headers from the TOC
 [discrete]
-== {docproductname}
+== *{docproductname}*
 
 //[discrete]
 //=== Rev. F3
@@ -63,6 +65,10 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 // toc::[]
 
 // ====
+// generalize for all airports
+[discrete]
+== Executive Summary
+In the modern age, airport security is not just a matter of routine checks. It has evolved into a comprehensive ecosystem that incorporates cutting-edge technologies to ensure the safety of all airport users, from passengers to staff. Africa's airports, being gateways to a rapidly advancing continent, need to be at the forefront of this revolution. Introducing INEX Airport Solutions: a holistic approach to airport security.
 
 [discrete]
 == Key Features and Benefits
@@ -72,9 +78,9 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 * [*] Unattended baggage alerts
 
-* [*] People counting for real-time terminal population count
+* [*] Terminal population count in real time
 
-* [*] Alerts for crowding in critical areas such as security check, check-in and baggage claim - and to recognize patterns and improve service
+* [*] Crowding alerts
 
 
 //+
@@ -85,23 +91,50 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 [discrete]
 == Face Recognition
 
+//pictures of face recognition, driver in car, etc.
+
+Our advanced face recognition algorithms scan and match faces from various locations within the airport - terminal entrances, on streets, or even in vehicles.
+Identification of individuals of interest can generate real-time alerts, ensuring that potential security threats are identified and addressed early.
 
 //+++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Vehicle Security
 
+//pictures of face recognition
+
+{compname-short} AI license plate recognition quickly and accurately idenitifies blacklisted vehicles, ensuring immediate action at roads or checkpoints.
+This capability provides increased perimeter and parking lot security, prevention of unauthorized vehicles from accessing sensitive areas, and timely responses to potential threats.
+
+
 [discrete]
 == Unattended Baggage
 
+//pictures of baggage and thermal cameras
+
+
+Unattended baggage is an security threat that is often overlooked.
+Cameras \{ZT: don't think there are sensors\} identify baggage left unattended for prolonged periods, alerting security teams instantly.
+
+
 [discrete]
 == Terminal Population Count
+Real-time people counting systems can keep track of the number of individuals in the terminal at any given moment.
+This enables efficient crowd management, better resource allocation during peak times, and swift emergency evacuation when needed.
+
 
 [discrete]
 == Crowding Alerts
+Areas that often experience crowding can be monitored, such as security checks, check-ins, and baggage claim zones.
+Passenger experience can be enhanced by preventing prolonged waiting times, and ensuring optimal staff allocation during rush hours.
+
 
 [discrete]
-== Our Customers
+== {compname-short} Projects
+* Israel Airport and all airports
+
+* MGM and convention centers
+
 
 [discrete]
 == Contact Us
@@ -131,5 +164,5 @@ https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname2}-AFRICA-SLN
+Doc. No. {shortprodname2}-ALL-WP
 
