@@ -1,5 +1,5 @@
 :docproductname: Airport Solutions
-:shortprodname: Airport Solutions
+:shortprodname: Airport Security
 :shortprodname2: AIRPORTS
 :generic-camera-name: camera
 :system-type: N/A
@@ -75,7 +75,7 @@ cutting-edge technologies to ensure the safety
 of all airport users, from passengers to staff.
 Today's airports need to be at the forefront of this revolution. +
 
-Introducing {compname-short} {shortprodname}: a comprehensive approach to airport security.
+Introducing the {compname-short} Solution for {shortprodname}:
 
 [discrete]
 == Key Features and Benefits
@@ -104,7 +104,7 @@ Introducing {compname-short} {shortprodname}: a comprehensive approach to airpor
 [discrete]
 == Face Recognition
 
-//pictures of face recognition, driver in car, etc.
+image:FaceRecognitionScan.jpg[image,width=300] {empty} image:FaceRecognizeOnStreet.jpg[image,width=340]
 
 Our advanced face recognition algorithms scan
 and match faces from various locations within
@@ -140,7 +140,7 @@ and timely responses to potential threats.
 == Unattended Baggage
 
 //pictures of baggage and thermal cameras
-image::UnattendedBag.jpg[image,width=300]
+image::UnattendedBag.jpg[image,width=300,align=left]
 
 Unattended baggage is a security threat often overlooked.
 Cameras identify baggage left unattended for prolonged periods,
