@@ -41,8 +41,8 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 // [.white]#{shortprodname}#
 
 // discrete removes these headers from the TOC
-[discrete]
-== *{docproductname}*
+//[discrete]
+//== *{docproductname}*
 
 //[discrete]
 //=== Rev. F3
@@ -140,7 +140,7 @@ and timely responses to potential threats.
 == Unattended Baggage
 
 //pictures of baggage and thermal cameras
-
+image::UnattendedBag.jpg[image,width=624,height=409]
 
 Unattended baggage is a security threat often overlooked.
 Cameras identify baggage left unattended for prolonged periods,
