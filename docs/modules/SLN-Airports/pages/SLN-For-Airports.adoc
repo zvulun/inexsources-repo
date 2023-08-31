@@ -212,15 +212,14 @@ for review, investigation, and legal action.
 
 [table.noborders,width="100%",cols="50%,50%",frame="none",grid="none"]
 |===
-<.^a|* +++<font size="+1">+++Ben Gurion Airport, Israel +++</font>+++ {empty} image:Airport-Ben-Gurion.png[image,width=100,align=left]
-<.^a|* +++<font size="+1">+++Ho Chi Minh City, Vietnam +++</font>+++ {empty} image:Airport-Vietnam.png[image,width=100,align=left]
+<.<a|* +++<font size="+1">+++Ben Gurion Airport, Israel +++</font>+++ {empty} image:Airport-Ben-Gurion.png[image,width=100,align=left]
+<.<a|* +++<font size="+1">+++Ho Chi Minh City, Vietnam +++</font>+++ {empty} image:Airport-Vietnam.png[image,width=100,align=left]
 <.^a|* +++<font size="+1">+++Austin-Bergstrom, TX +++</font>+++ {empty} image:Airport-Austin-Bergstrom.png[image,width=100,align=left]
 <.^a|* +++<font size="+1">+++Omaha, NB +++</font>+++ {empty} image:Airport-Omaha.png[image,width=50,align=left]
 <.^a|* +++<font size="+1">+++Orlando, FL +++</font>+++ {empty} image:Airport-Orlando.png[image,width=75,align=left]
 <.^a|* +++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ {empty} image:Airport-Raleigh-Durham.png[image,width=50,align=left]
 <.^a|* +++<font size="+1">+++San Bernardino, CA +++</font>+++ {empty} image:Airport-SanBernardino.png[image,width=75,align=left]
 <.^a|* +++<font size="+1">+++Bellingham Intl Airport, WA +++</font>+++ {empty} image:Airport-Bellingham.png[image,width=50,align=left]
-
 |===
 
 [discrete]
