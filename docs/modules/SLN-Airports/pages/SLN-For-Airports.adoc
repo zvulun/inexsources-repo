@@ -210,6 +210,8 @@ for review, investigation, and legal action.
 [discrete]
 === Airports
 
+* +++<font size="+1">+++Ben Gurion Airport, Israel +++</font>+++ {empty}image:Airport-Vietnam.png[image,width=100,align=left]
+
 [table.noborders,width="100%",cols="35%,15%,25%,25%",frame="none",grid="none"]
 |===
 >.^a|+++<font size="+1">+++Ben Gurion Airport, Israel +++</font>+++ <.^a|image:Airport-Ben-Gurion.png[image,width=300,align=left] >.^a|+++<font size="+1">+++Ho Chi Minh City (HCMC) Airport +++<br>+++ (TIA), Vietnam+++</font>+++ <.^a|image:Airport-Vietnam.png[image,width=100,align=left]
