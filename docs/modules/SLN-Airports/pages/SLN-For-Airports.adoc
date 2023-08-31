@@ -210,9 +210,16 @@ for review, investigation, and legal action.
 
 [discrete]
 == {compname-short} Projects
+
 * Israel Airport and all airports and logos
 
 * MGM and convention centers and logos
+
+[table.noborders,width="100%",cols="25%,25%,25%,25%",frame="none",grid="none"]
+|===
+a|Austin-Bergstrom, TX a|image:Airport-Austin-Bergstrom.png[image,width=300,align=left] a|Omaha, NB a|image:Airport-Omaha.png[image,width=300,align=left]
+|===
+
 
 --
 +++<div class="pagebreak"> </div>+++
