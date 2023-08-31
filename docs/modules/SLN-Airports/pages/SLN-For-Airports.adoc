@@ -223,7 +223,6 @@ for review, investigation, and legal action.
 |===
 
 {empty} +
-{empty}
 
 [discrete]
 === Vehicle Security (Parking)
