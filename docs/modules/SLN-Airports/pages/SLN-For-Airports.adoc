@@ -204,22 +204,17 @@ footage, along with intelligent storage solutions.
 These recordings ensure that evidence is always available
 for review, investigation, and legal action.
 
---
-+++<div class="pagebreak"> </div>+++
---
-
 [discrete]
 == {compname-short} Projects
 
-* Israel Airport and all airports and logos
-
-* MGM and convention centers and logos
+[discrete]
+=== Airports
 
 [table.noborders,width="100%",cols="35%,15%,25%,25%",frame="none",grid="none"]
 |===
+>.^a|+++<font size="+1">+++Ben Gurion Airport, Israel +++</font>+++ <.^a|image:Airport-Ben-Gurion.png[image,width=300,align=left] >.^a|+++<font size="+1">+++Ho Chi Minh City (HCMC) Airport +++<br>+++ (TIA), Vietnam+++</font>+++ <.^a|image:Airport-Vietnam.png[image,width=100,align=left]
 >.^a|+++<font size="+1">+++Austin-Bergstrom, TX +++</font>+++ <.^a|image:Airport-Austin-Bergstrom.png[image,width=100,align=left] >.^a|+++<font size="+1">+++Omaha, NB +++</font>+++ <.^a|image::Airport-Omaha.png[image,width=50,align=left]
 >.^a|+++<font size="+1">+++Orlando, FL +++</font>+++ <.^a|image:Airport-Orlando.png[image,width=75,align=left] >.^a|+++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ <.^a|image:Airport-Raleigh-Durham.png[image,width=50,align=left]
->.^a|+++<font size="+1">+++Ben Gurion Airport, Israel +++</font>+++ <.^a|image:Airport-Ben-Gurion.png[image,width=300,align=left] >.^a|+++<font size="+1">+++Ho Chi Minh City (HCMC) Airport +++<br>+++ (TIA), Vietnam+++</font>+++ <.^a|image:Airport-Vietnam.png[image,width=100,align=left]
 //>.^a|+++<font size="+1">+++<name> +++</font>+++ <.^a|image:<logoname>[image,width=250,align=left] >.^a|+++<font size="+1">+++<name>+++</font>+++ <.^a|image:<logoname>[image,width=50,align=left]
 //>.^a|+++<font size="+1">+++<name> +++</font>+++ <.^a|image:<logoname>[image,width=250,align=left] >.^a|+++<font size="+1">+++<name>+++</font>+++ <.^a|image:<logoname>[image,width=50,align=left]
 //>.^a|+++<font size="+1">+++<name> +++</font>+++ <.^a|image:<logoname>[image,width=250,align=left] >.^a|+++<font size="+1">+++<name>+++</font>+++ <.^a|image:<logoname>[image,width=50,align=left]
@@ -228,11 +223,17 @@ for review, investigation, and legal action.
 //>.^a|+++<font size="+1">+++<name> +++</font>+++ <.^a|image:<logoname>[image,width=250,align=left] >.^a|+++<font size="+1">+++<name>+++</font>+++ <.^a|image:<logoname>[image,width=50,align=left]
 //>.^a|+++<font size="+1">+++<name> +++</font>+++ <.^a|image:<logoname>[image,width=250,align=left] >.^a|+++<font size="+1">+++<name>+++</font>+++ <.^a|image:<logoname>[image,width=50,align=left]
 |===
+
+[discrete]
+=== Vehicle Security (Parking)
+
 
 
 --
 +++<div class="pagebreak"> </div>+++
 --
+
+
 
 [discrete]
 == Contact Us
