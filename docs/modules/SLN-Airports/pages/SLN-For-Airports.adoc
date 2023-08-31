@@ -214,7 +214,7 @@ for review, investigation, and legal action.
 |===
 <.^a|* +++<font size="+1">+++Ben Gurion Airport, Israel +++</font>+++ {empty} image:Airport-Ben-Gurion.png[image,width=100,align=left] <.^a|* +++<font size="+1">+++Ho Chi Minh City (TIA), Vietnam +++</font>+++ {empty} image:Airport-Vietnam.png[image,width=100,align=left]
 <.^a|* +++<font size="+1">+++Austin-Bergstrom, TX +++</font>+++ {empty} image:Airport-Austin-Bergstrom.png[image,width=100,align=left] <.^a|* +++<font size="+1">+++Omaha, NB +++</font>+++ {empty} image:Airport-Omaha.png[image,width=50,align=left]
-//<.^a|+++<font size="+1">+++Orlando, FL +++</font>+++ <.^a|image:Airport-Orlando.png[image,width=75,align=left] >.^a|+++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ <.^a|image:Airport-Raleigh-Durham.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++Orlando, FL +++</font>+++ {empty} image:Airport-Orlando.png[image,width=75,align=left] <.^a|* +++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ {empty} image:Airport-Raleigh-Durham.png[image,width=50,align=left]
 |===
 
 [discrete]
