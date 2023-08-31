@@ -231,8 +231,8 @@ for review, investigation, and legal action.
 <.<a|* +++<font size="+1">+++The Mirage +++</font>+++ {empty} image:Parking-Mirage.png[image,width=100,align=left]
 <.^a|* +++<font size="+1">+++Barclays Center, NY +++</font>+++ {empty} image:Parking-Barclays.png[image,width=100,align=left]
 <.^a|* +++<font size="+1">+++MET Square, MD +++</font>+++ {empty} image:Parking-MET-Square.png[image,width=50,align=left]
-//<.^a|* +++<font size="+1">+++Orlando, FL +++</font>+++ {empty} image:Airport-Orlando.png[image,width=75,align=left]
-//<.^a|* +++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ {empty} image:Airport-Raleigh-Durham.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++UBS Arena, NY +++</font>+++ {empty} image:Parking-UBS-Arena.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Marriott HQ, MD+++</font>+++ {empty} image:Parking-Marriott-HQ.png[image,width=50,align=left]
 //<.^a|* +++<font size="+1">+++San Bernardino, CA +++</font>+++ {empty} image:Airport-SanBernardino.png[image,width=75,align=left]
 //<.^a|* +++<font size="+1">+++Bellingham Intl Airport, WA +++</font>+++ {empty} image:Airport-Bellingham.png[image,width=50,align=left]
 |===
