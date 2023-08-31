@@ -218,6 +218,9 @@ for review, investigation, and legal action.
 <.^a|* +++<font size="+1">+++Omaha, NB +++</font>+++ {empty} image:Airport-Omaha.png[image,width=50,align=left]
 <.^a|* +++<font size="+1">+++Orlando, FL +++</font>+++ {empty} image:Airport-Orlando.png[image,width=75,align=left]
 <.^a|* +++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ {empty} image:Airport-Raleigh-Durham.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++San Bernardino, CA +++</font>+++ {empty} image:Airport-SanBernardino.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Bellingham Intl Airport, WA +++</font>+++ {empty} image:Airport-Bellingham.png[image,width=50,align=left]
+
 |===
 
 [discrete]
