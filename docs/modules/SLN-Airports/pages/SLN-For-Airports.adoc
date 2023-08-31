@@ -222,7 +222,7 @@ for review, investigation, and legal action.
 <.^a|* +++<font size="+1">+++Bellingham Intl Airport, WA +++</font>+++ {empty} image:Airport-Bellingham.png[image,width=50,align=left]
 |===
 
-{empty}
+{empty} +
 
 [discrete]
 === Vehicle Security (Parking)
