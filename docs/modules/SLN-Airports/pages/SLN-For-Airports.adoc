@@ -217,7 +217,7 @@ for review, investigation, and legal action.
 
 [table.noborders,width="100%",cols="25%,25%,25%,25%",frame="none",grid="none"]
 |===
-a|Austin-Bergstrom, TX a|image:Airport-Austin-Bergstrom.png[image,width=300,align=left] a|Omaha, NB a|image:Airport-Omaha.png[image,width=300,align=left]
+^a|Austin-Bergstrom, TX ^a|image:Airport-Austin-Bergstrom.png[image,width=300,align=left] ^a|Omaha, NB ^a|image:Airport-Omaha.png[image,width=40,align=left]
 |===
 
 
