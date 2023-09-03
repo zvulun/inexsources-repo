@@ -176,6 +176,10 @@ You can enhance your passenger experience by preventing
 prolonged waiting times, and ensuring optimal staff
 allocation during rush hours.
 
+--
++++<div class="pagebreak"> </div>+++
+--
+
 [discrete]
 == Intelligent AI Video Analytics
 
@@ -186,10 +190,6 @@ pairs seamlessly with your existing CCTV infrastructure,
 and maximizes accuracy while reducing false positives. +++<br>+++
 For example, our ALPR analytics can determine
 the classification, color and make of a vehicle.
-
---
-+++<div class="pagebreak"> </div>+++
---
 
 [discrete]
 == Virtual Patrols
