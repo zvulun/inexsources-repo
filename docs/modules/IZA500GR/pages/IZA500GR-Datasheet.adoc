@@ -22,7 +22,7 @@
 
 = {docproductname} Datasheet
 
-xref:IZA500GR:DocList.adoc[<- Back to {shortprodname} Documents]
+//xref:IZA500GR:DocList.adoc[<- Back to {shortprodname} Documents]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 

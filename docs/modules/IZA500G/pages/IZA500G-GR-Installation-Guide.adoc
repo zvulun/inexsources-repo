@@ -21,9 +21,9 @@
 
 = {docproductname} Installation Guide
 
-xref:IZA500G:DocList.adoc[<- Back to {shortprodname} Documents]
+//xref:IZA500G:DocList.adoc[<- Back to {shortprodname} Documents]
 
-xref:IZA500GR:DocList.adoc[<- Back to {shortprodname2} Documents]
+//xref:IZA500GR:DocList.adoc[<- Back to {shortprodname2} Documents]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
@@ -77,7 +77,7 @@ toc::[]
 
 .Related Documents
 
-[width="100%",cols="51%,49%",options="header",]
+[table.withborders,width="100%",cols="51%,49%",options="header",]
 |===
 |Doc. No. |Title
 .^|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002a] |{docproductname} User Guide

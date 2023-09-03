@@ -1,4 +1,4 @@
-[options="header",cols="24,23,53"]
+[table.withborders,options="header",cols="24,23,53"]
 |===
 2+.^| Item
 // {set:cellbgcolor:#c0c0c0}

@@ -1,8 +1,8 @@
 
-[cols="1,2a",width="70%",frame=none,grid=none]
+[table.withborders,cols="1,2a",width="70%",frame=none,grid=none]
 |===
 | image:ROOT:image$/IZA800GVES/image23.png[image,width=217,height=422]
-|[width="100%",cols="10%,55%,35%",options="header",]
+|[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
 !===
 !Pin !Power/LAN !Wire Color
 !1 !GND !Black

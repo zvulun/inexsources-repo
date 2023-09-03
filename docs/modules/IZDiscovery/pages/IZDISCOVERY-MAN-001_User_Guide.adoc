@@ -20,7 +20,7 @@
 
 = {docproductname} User Guide
 
-xref:IZDiscovery:DocList.adoc[<- Back to {shortprodname} Documents/Software]
+//xref:IZDiscovery:DocList.adoc[<- Back to {shortprodname} Documents/Software]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
@@ -68,7 +68,7 @@ toc::[]
 
 .Related Documents
 
-[width="100%",cols="45%,55%",options="header",]
+[table.withborders,width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
 .^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components

@@ -14,7 +14,7 @@
 
 = {docproductname} User Guide
 
-xref:RoadViewALPR:DocList.adoc[<- Back to {shortprodname} Documents]
+//xref:RoadViewALPR:DocList.adoc[<- Back to {shortprodname} Documents]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
@@ -60,7 +60,7 @@ toc::[]
 
 .Related Documents
 
-[width="100%",cols="51%,49%",options="header",]
+[table.withborders,width="100%",cols="51%,49%",options="header",]
 |===
 |Doc. No. |Title
 .^|xref:RoadViewALPR:DocList.adoc[RV-ALPRrrr-MAN-001] |{docproductname} Release Notes (for Release rrr)

@@ -79,11 +79,13 @@ Introducing the {compname-short} Solution for {shortprodname}:
 
 [discrete]
 == Key Features and Benefits
-* [*] Face recognition everywhere - in cars, on streets, at entrances
+* [*] Face recognition
 
-* [*] Vehicle security alerts from license plate blacklists on roads or at checkpoints
+* [*] Vehicle security alerts from license plate blacklists
 
 * [*] Unattended baggage alerts
+
+* [*] Suspicious behavior alerts
 
 * [*] Terminal population count in real time
 
@@ -92,9 +94,6 @@ Introducing the {compname-short} Solution for {shortprodname}:
 * [*] Intelligent AI video analytics
 
 * [*] Virtual patrols
-
-* [*] Video recording
-
 
 //+
 //--
@@ -112,7 +111,6 @@ the airport - terminal entrances, on streets, or even in vehicles.
 Identification of suspected individuals on a watchlist can
 generate real-time alerts, ensuring that potential
 security threats are identified and addressed early.
-(Pixels across the face provided: minimum – 100, optimal 200)
 
 
 --
@@ -143,26 +141,32 @@ image::UnattendedBag.jpg[image,width=300,align=left]
 
 Unattended baggage is a security threat often overlooked.
 Cameras identify baggage left unattended for prolonged periods,
-alerting security teams instantly.
-
+alerting security teams instantly. The system can associate each
+piece of baggage with its original owner, reducing false alerts caused
+by other people in the vicinity of the abandoned bag.
 
 [discrete]
-== Terminal Population Count
+== Suspicious Behavior Alerts
 
-image::AirportPopulationCount.png[image,width=300,align=left]
+image::RunningBusinessmen.jpg[image,width=300,align=left]
+
+Real-time people tracking systems can alert security personnel
+to suspicious behaviors.
+These include people running, walking in the opposite direction,
+stopping, or not carrying baggage.
+Such alerts can provide early warning of
+potential security threats.
+
+[discrete]
+== Terminal Population Count and Crowding Alerts
+
+image:AirportPopulationCount.png[image,width=300,align=left] {empty} image:Crowding.jpg[image,width=300,align=left]
 
 Real-time people counting systems can track the number
 of individuals in the terminal at any given moment.
 This enables efficient terminal management, better
 resource allocation during peak times,
 and swift emergency evacuation when needed.
-
-
-
-[discrete]
-== Crowding Alerts
-
-image::Crowding.jpg[image,width=300,align=left]
 
 Areas that often experience crowding can be monitored,
 such as security checks, check-ins, and baggage claim zones.
@@ -188,29 +192,19 @@ the classification, color and make of a vehicle.
 
 image::VirtualPatrolOperator.jpg[image,width=300,align=left]
 
-Using cameras and other devices, a site
-can be monitored remotely without the need for on-site guards.
-Virtual patrols provide round-the-clock protection
-without a physical presence, even during off-hours.
-
-[discrete]
-== Video Recording
-
-image::VideoRecording.jpg[image,width=300,align=left]
-
-Our advanced video recording features
-ensure continuous capture of surveillance
-footage, along with intelligent storage solutions.
-These recordings ensure that evidence is always available
-for review, investigation, and legal action.
-
+Virtual patrol is a concept that includes several
+of the video-based airport security system
+features mentioned here.
+You can use technology to simulate
+or enhance traditional physical patrolling
+conducted by security personnel.
+A site can be monitored remotely without the
+need for on-site guards.
 [discrete]
 == {compname-short} Projects
+Here is a partial list of major {compname-short} projects for airports and security clients.
 
-[discrete]
-=== Airports
-
-[table.noborders,width="100%",cols="50%,50%",frame="none",grid="none"]
+[width="100%",cols="50%,50%",frame="none",grid="none"]
 |===
 <.<a|* +++<font size="+1">+++Ben Gurion Airport, Israel +++</font>+++ {empty} image:Airport-Ben-Gurion.png[image,width=100,align=left]
 <.<a|* +++<font size="+1">+++Ho Chi Minh City, Vietnam +++</font>+++ {empty} image:Airport-Vietnam.png[image,width=100,align=left]
@@ -220,15 +214,8 @@ for review, investigation, and legal action.
 <.^a|* +++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ {empty} image:Airport-Raleigh-Durham.png[image,width=50,align=left]
 <.^a|* +++<font size="+1">+++San Bernardino, CA +++</font>+++ {empty} image:Airport-SanBernardino.png[image,width=75,align=left]
 <.^a|* +++<font size="+1">+++Bellingham Intl Airport, WA +++</font>+++ {empty} image:Airport-Bellingham.png[image,width=50,align=left]
-|===
-
-{empty} +
-
-[discrete]
-=== Vehicle Security (Parking)
-
-[width="100%",cols="50%,50%",frame="none",grid="none"]
-|===
+// San Jose
+// San Diego
 <.<a|* +++<font size="+1">+++MGM Grand +++</font>+++ {empty} image:Parking-MGM-Grand.png[image,width=50,align=left]
 <.<a|* +++<font size="+1">+++The Mirage +++</font>+++ {empty} image:Parking-Mirage.png[image,width=100,align=left]
 <.^a|* +++<font size="+1">+++Barclays Center, NY +++</font>+++ {empty} image:Parking-Barclays.png[image,width=50,align=left]

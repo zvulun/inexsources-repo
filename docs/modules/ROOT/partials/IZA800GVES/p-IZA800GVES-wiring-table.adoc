@@ -1,4 +1,4 @@
-[width="100%",cols="7%,52%,41%",options="header",]
+[table.withborders,width="100%",cols="7%,52%,41%",options="header",]
 |===
 |Item |Description |Ordering Information
 |A a|*LAN Cable* |Supplied by integrator

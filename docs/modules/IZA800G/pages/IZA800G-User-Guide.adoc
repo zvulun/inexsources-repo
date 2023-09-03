@@ -21,7 +21,7 @@
 
 = {docproductname} User Guide
 
-xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
+//xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
 
 image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
@@ -77,7 +77,7 @@ toc::[]
 
 .Related Documents
 
-[width="100%",cols="45%,55%",options="header",]
+[table.withborders,width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
 .^|xref:IZA800G:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide

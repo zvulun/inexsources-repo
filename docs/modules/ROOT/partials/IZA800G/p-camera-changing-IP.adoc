@@ -40,7 +40,7 @@ It is highly recommended to record the camera's IP address and port number in a 
 
 .IP Address Parameters
 
-[width="100%",cols="28%,20%,52%",options="header",]
+[table.withborders,width="100%",cols="28%,20%,52%",options="header",]
 |===
 |Sub-category > Parameter Group |Parameter |Setting
 |IP Address |Service (radio buttons) |Set to Static to be able to access the camera
