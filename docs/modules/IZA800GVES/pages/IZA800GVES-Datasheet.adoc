@@ -39,7 +39,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== {docproductname} {system-type} All-in-one AI Camera System
+== {system-type} All-in-one AI Camera System
 
 [discrete]
 === Rev. F3

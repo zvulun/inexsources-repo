@@ -36,7 +36,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== {shortprodname} Device Discovery Software
+== Device Discovery Software
 
 
 // restore section numbering from here on

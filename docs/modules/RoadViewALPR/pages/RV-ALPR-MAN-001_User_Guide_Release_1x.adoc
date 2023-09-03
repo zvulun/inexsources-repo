@@ -30,7 +30,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== {shortprodname} Advanced ALPR Software
+== Advanced ALPR Software
 Release 1.x
 
 // restore section numbering from here on
