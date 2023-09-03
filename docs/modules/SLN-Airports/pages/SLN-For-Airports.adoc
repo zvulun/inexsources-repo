@@ -246,10 +246,6 @@ and evaluate how we can integrate with your systems.
 |===
 a| https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank]
 a| {empty}
-|===
-
-[width="100%",cols="50%,50%",frame="none",grid="none"]
-|===
 a|+++<font size="-1">+++ USA Headquarters: +
 155 Willowbrook Blvd., Suite 130 +
 Wayne, NJ 07470 +
