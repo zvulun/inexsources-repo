@@ -100,6 +100,11 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
 image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
 
+--
++++<div class="pagebreak"> </div>+++
+--
+
+
 [discrete]
 == Specifications
 
