@@ -1,7 +1,7 @@
 [width="100%",cols="50%,50%",frame="none",grid="none"]
 |===
-a| +++<font size="1">+++ https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank] +++</font>+++ +
-+++<font size="1">+++ USA Headquarters: +
+a| +++<font size="-1">+++ https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank] +++</font>+++ +
++++<font size="-1">+++ USA Headquarters: +
 155 Willowbrook Blvd., Suite 130 +
 Wayne, NJ 07470 +
 ({plus}1) 865-671-1400 +++</font>+++
@@ -11,13 +11,13 @@ a| {empty}
 
 [width="100%",cols="33%,33%,34%",frame="none",grid="none"]
 |===
-a|+++<font size="1">+++ Americas +++<br>+++
+a|+++<font size="-1">+++ Americas +++<br>+++
 ({plus}1) 865-671-1400 +++<br>+++
 info@inextechnologies.com +++</font>+++
-a|+++<font size="1">+++ Europe +++<br>+++
+a|+++<font size="-1">+++ Europe +++<br>+++
 ({plus}43) 676-715-6066 +++<br>+++
 info_eu@inextechnologies.com +++</font>+++
-a|+++<font size="1">+++ Asia and Australia +++<br>+++
+a|+++<font size="-1">+++ Asia and Australia +++<br>+++
 ({plus}972) 2-545-4100 +++<br>+++
 info_il@inextechnologies.com +++</font>+++
 |===
