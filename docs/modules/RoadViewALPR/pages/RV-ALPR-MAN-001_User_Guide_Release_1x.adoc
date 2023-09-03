@@ -1498,7 +1498,7 @@ For details about items in the following list related to hardware or configurati
 
 .Troubleshooting
 
-[width="100%",cols="35%,65%",options="header",]
+[table.withborders,width="100%",cols="35%,65%",options="header",]
 |===
 |Symptom |Possible Solution
 |Thumbnails in Settings tab, in the Camera section at bottom have been replaced by red exclamation points and/or +
