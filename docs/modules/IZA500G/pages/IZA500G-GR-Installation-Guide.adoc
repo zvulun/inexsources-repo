@@ -25,7 +25,7 @@
 
 //xref:IZA500GR:DocList.adoc[<- Back to {shortprodname2} Documents]
 
-image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 //!sectnum momentarily stops section numbering
 :!sectnums:

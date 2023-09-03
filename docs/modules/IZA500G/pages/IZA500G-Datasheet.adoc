@@ -24,7 +24,7 @@
 
 //xref:IZA500G:DocList.adoc[<- Back to {shortprodname} Documents]
 
-image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 //!sectnum momentarily stops section numbering
 :!sectnums:
@@ -163,6 +163,8 @@ image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 == LAN and Power/Signals Cable Details
 
 image::ROOT:IZA500G/image4.png[image,width=542,height=370]
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
