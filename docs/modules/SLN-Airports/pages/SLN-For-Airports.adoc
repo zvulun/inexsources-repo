@@ -241,7 +241,12 @@ journey with us in setting new safety standards.
 Call us for a trial - we can use your existing cameras and other equipment,
 and evaluate how we can integrate with your systems.
 
-https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank] +
+
+[width="100%",cols="50%,50%",frame="none",grid="none"]
+|===
+a| https://www.inextechnologies.com/[www.inextechnologies.com, window=_blank]
+a| {empty}
+|===
 
 [width="100%",cols="50%,50%",frame="none",grid="none"]
 |===
