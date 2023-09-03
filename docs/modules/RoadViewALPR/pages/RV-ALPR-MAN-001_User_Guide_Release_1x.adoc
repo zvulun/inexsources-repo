@@ -118,7 +118,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 .Glossary
 
-[width="100%",cols="25%,75%",options="header",]
+[table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Term |Explanation
 |ALPR |Automatic License Plate Recognition

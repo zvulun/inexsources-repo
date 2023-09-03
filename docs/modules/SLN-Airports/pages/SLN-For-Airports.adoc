@@ -28,7 +28,7 @@
 
 // xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
 
-image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 //!sectnum momentarily stops section numbering
 :!sectnums:
@@ -79,9 +79,9 @@ Introducing the {compname-short} Solution for {shortprodname}:
 
 [discrete]
 == Key Features and Benefits
-* [*] Face recognition
+* [*] Face recognition alerts
 
-* [*] Vehicle security alerts from license plate blacklists
+* [*] Vehicle security alerts
 
 * [*] Unattended baggage alerts
 
@@ -143,14 +143,16 @@ alerting security teams instantly. The system can associate each
 piece of baggage with its original owner, reducing false alerts caused
 by other people in the vicinity of the abandoned bag.
 
+
+[discrete]
+== Suspicious Behavior
+
+image::RunningBusinessmen.jpg[image,width=300,align=left]
+
 --
 +++<div class="pagebreak"> </div>+++
 --
 
-[discrete]
-== Suspicious Behavior Alerts
-
-image::RunningBusinessmen.jpg[image,width=300,align=left]
 
 People tracking systems can alert security personnel
 to suspicious behaviors.
@@ -160,9 +162,12 @@ Such alerts can provide early warning of
 potential security threats.
 
 [discrete]
-== Terminal Population Count and Crowding Alerts
+== Terminal Population Count and Crowding Detection
 
-image:AirportPopulationCount.png[image,width=300,align=left] {empty} image:Crowding.jpg[image,width=300,align=left]
+//pictures same size
+
+image:AirportPopulationCount.png[image,width=300,align=left] {empty}
+image:Crowding.jpg[image,width=280,align=left]
 
 Real-time people counting systems can determine the number
 of individuals in the terminal at any given moment.
@@ -176,9 +181,9 @@ You can enhance your passenger experience by preventing
 prolonged waiting times, and ensuring optimal staff
 allocation during rush hours.
 
---
-+++<div class="pagebreak"> </div>+++
---
+//--
+//+++<div class="pagebreak"> </div>+++
+//--
 
 [discrete]
 == Intelligent AI Video Analytics
@@ -206,9 +211,9 @@ off-limits to normal people traffic.
 A site can be monitored remotely without the
 need for on-site guards.
 
---
-+++<div class="pagebreak"> </div>+++
---
+//--
+//+++<div class="pagebreak"> </div>+++
+//--
 
 
 [discrete]
