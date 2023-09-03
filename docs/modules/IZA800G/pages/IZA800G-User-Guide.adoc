@@ -196,7 +196,7 @@ include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector
 
 .Required Accessories
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Item |Notes
 |24VDC power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)

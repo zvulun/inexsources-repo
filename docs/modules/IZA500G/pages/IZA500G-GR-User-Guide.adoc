@@ -205,7 +205,7 @@ image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
 .Required Accessories
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Item |Notes
 |24 VDC (or 48 VDC for P48 models using DC input) power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
