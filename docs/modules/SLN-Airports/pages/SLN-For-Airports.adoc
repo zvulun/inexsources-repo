@@ -196,6 +196,10 @@ and maximizes accuracy while reducing false positives. +++<br>+++
 For example, our ALPR analytics can determine
 the classification, color and make of a vehicle.
 
+--
++++<div class="pagebreak"> </div>+++
+--
+
 [discrete]
 == Virtual Patrols
 
@@ -210,10 +214,6 @@ conducted by security personnel, especially in areas
 off-limits to normal people traffic.
 A site can be monitored remotely without the
 need for on-site guards.
-
-//--
-//+++<div class="pagebreak"> </div>+++
-//--
 
 
 [discrete]
