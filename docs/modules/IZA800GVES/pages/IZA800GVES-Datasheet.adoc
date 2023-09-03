@@ -25,7 +25,7 @@
 
 //xref:IZA800GVES:DocList.adoc[<- Back to {shortprodname} Documents]
 
-image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 //!sectnum momentarily stops section numbering
 :!sectnums:
@@ -180,6 +180,8 @@ image::ROOT:/IZA800GVES/image6.png[image,width=483,height=269]
 == Power/LAN Cable Connector Pinout
 
 include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Connector Pinouts]
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
