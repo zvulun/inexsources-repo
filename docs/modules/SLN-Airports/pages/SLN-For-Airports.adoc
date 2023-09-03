@@ -230,7 +230,7 @@ Here is a partial list of major {compname-short} projects for airports and secur
 <.^a|* +++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ {empty} image:Airport-Raleigh-Durham.png[image,width=50,align=left]
 <.^a|* +++<font size="+1">+++San Bernardino, CA +++</font>+++ {empty} image:Airport-SanBernardino.png[image,width=75,align=left]
 <.^a|* +++<font size="+1">+++Bellingham Intl Airport, WA +++</font>+++ {empty} image:Airport-Bellingham.png[image,width=50,align=left]
-<.^a|* +++<font size="+1">+++San Jose, CA +++</font>+++ {empty} image:Airport-SanJose.png[image,width=60,align=left]
+<.^a|* +++<font size="+1">+++San Jose, CA +++</font>+++ {empty} image:Airport-SanJose.png[image,width=50,align=left]
 <.^a|* +++<font size="+1">+++San Diego, CA +++</font>+++ {empty} image:Airport-SanDiego.png[image,width=70,align=left]
 <.<a|* +++<font size="+1">+++MGM Grand +++</font>+++ {empty} image:Parking-MGM-Grand.png[image,width=50,align=left]
 <.<a|* +++<font size="+1">+++The Mirage +++</font>+++ {empty} image:Parking-Mirage.png[image,width=100,align=left]
