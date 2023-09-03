@@ -143,6 +143,10 @@ alerting security teams instantly. The system can associate each
 piece of baggage with its original owner, reducing false alerts caused
 by other people in the vicinity of the abandoned bag.
 
+--
++++<div class="pagebreak"> </div>+++
+--
+
 [discrete]
 == Suspicious Behavior Alerts
 
@@ -183,7 +187,9 @@ and maximizes accuracy while reducing false positives. +++<br>+++
 For example, our ALPR analytics can determine
 the classification, color and make of a vehicle.
 
-
+--
++++<div class="pagebreak"> </div>+++
+--
 
 [discrete]
 == Virtual Patrols
