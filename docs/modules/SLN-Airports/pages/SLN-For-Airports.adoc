@@ -148,7 +148,7 @@ by other people in the vicinity of the abandoned bag.
 
 image::RunningBusinessmen.jpg[image,width=300,align=left]
 
-Real-time people tracking systems can alert security personnel
+People tracking systems can alert security personnel
 to suspicious behaviors.
 These include people running, walking in the opposite direction,
 stopping, or not carrying baggage.
@@ -160,7 +160,7 @@ potential security threats.
 
 image:AirportPopulationCount.png[image,width=300,align=left] {empty} image:Crowding.jpg[image,width=300,align=left]
 
-Real-time people counting systems can track the number
+Real-time people counting systems can determine the number
 of individuals in the terminal at any given moment.
 This enables efficient terminal management, better
 resource allocation during peak times,
@@ -195,7 +195,8 @@ of the video-based airport security system
 features mentioned here.
 You can use technology to simulate
 or enhance traditional physical patrolling
-conducted by security personnel.
+conducted by security personnel, especially in areas
+off-limits to normal people traffic.
 A site can be monitored remotely without the
 need for on-site guards.
 [discrete]
