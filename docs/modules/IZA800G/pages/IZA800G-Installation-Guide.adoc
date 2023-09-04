@@ -150,9 +150,7 @@ image::ROOT:/IZA800G/image2.png[image,width=349,height=199]
 [sidebar]
 If any parts are missing or damaged, please contact {compname-long}.
 
-//+++<div class="pagebreak"> </div>+++
-
-<<<
++++<div class="pagebreak"> </div>+++
 
 [#s_Required-Accessories]
 
