@@ -1,7 +1,5 @@
 = IZA800GVES Documents List
 
-//* xref:IZA800GVES:NoBorderExperiment.adoc[NoBorderExperiment]
-
 * xref:IZA800GVES:IZA800GVES-Datasheet.adoc[IZA800GVES Datasheet]
 
 * xref:IZA800GVES:IZA800GVES-Quick-Start.adoc[IZA800GVES Quick Start Guide]
