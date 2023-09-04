@@ -152,10 +152,7 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 //+++<div class="pagebreak"> </div>+++
 
---
 <<<
---
-
 
 [#s_Required-Accessories]
 
