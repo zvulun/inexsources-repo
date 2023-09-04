@@ -1,6 +1,6 @@
 = Product-to-Mount Mapping
 
-xref:MNT-ProdToMountMap:DocList.adoc[<- Back to Product-to-Mount Summary/Mapping Documents]
+//xref:MNT-ProdToMountMap:DocList.adoc[<- Back to Product-to-Mount Summary/Mapping Documents]
 
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
