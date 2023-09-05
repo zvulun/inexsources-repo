@@ -1,0 +1,441 @@
+:docproductname: IZA500G
+:shortprodname: IZA500G
+:generic-camera-name: ALPR Camera System
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+
+:xref-type-IZA500G:
+:layout-type-technote:
+
+//enable the TOC to be placed in a specific position
+//:toc: macro
+
+= {docproductname} Hardware Revision History
+
+//xref:IZA500G:DocList.adoc[<- Back to {shortprodname} Documents]
+
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== ALPR All-in-one AI Camera System
+
+//[discrete]
+//=== Rev. F3
+//[discrete]
+//=== Datasheet
+
+//image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
+
+// no section numbers in datasheets
+//:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+// no TOC in datasheets ._Click to show the Table of Contents_
+// [%collapsible]
+// ====
+
+// toc::[]
+
+// ====
+
+[#s_Document-Description]
+
+[discrete]
+== Document Description
+
+Hardware revision histories (HRH) inform our customers about changes being made to our {compname-long} products, such as physical appearance, hardware improvements, changes to package contents, part number changes, etc. Firmware changes are not included.
+
+[#s_Q3-2023-Revision-F3]
+
+[discrete]
+== Q3-2023 Revision F3
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary a|
+* Input voltage now 24VDC or 48VDC (for new P48 models); not 12-24 VDC as was previously
+
+* New power input option of PoE{plus} (for new P48 models; requires {hw-poeinjector} Gigabit 4-Port PoE{plus}{plus} Injector)
+
+* LPR Capture Distance changed from 5-70 ft (1.5-21 m) to: +
+S - Short distance, 5-35 ft (2-11 m) +
+L - Long distance, 30-70 ft (9-21 m)
+
+* Model number additions to accommodate new power options
+
+|Product release date |Q3-2023
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (Rev. F3) |Changed/New (Rev. F3)
+|All models |LPR Capture distance: +
+5-70 ft (1.5-21 m) |S - Short distance, 5-35 ft (2-11m) +
+
+L - Long distance, 30-70 ft (9-21m)
+|--- |--- |{shortprodname}-S-DR-P48
+|--- |--- |{shortprodname}-S-DRW-P48
+|--- |--- |{shortprodname}-S-IR-P48
+|--- |--- |{shortprodname}-S-IRW-P48
+|--- |--- |{shortprodname}-L-DR-P48
+|--- |--- |{shortprodname}-L-DRW-P48
+|--- |--- |{shortprodname}-L-IR-P48
+|--- |--- |{shortprodname}-L-IRW-P48
+|===
+
+[#s_Q4-2022-Revision-F3]
+[discrete]
+== Q4-2022 Revision F3
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary a|
+* Data Storage now eMMC, 12 Gb (was 128 Gb)
+
+* Internal changes
+
+* Addition of white LED option ("W" in part no.)
+
+* Model number changes
+
+|Product release date |Q4-2022
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (Rev. F2) |Changed To (Rev. F3)
+|All models |Data Storage: 128 Gb |Data Storage: eMMC, 12 Gb
+|--- |--- |Internal changes
+|--- |--- |Addition of white LED option +
+("W" in part no.)
+|Part No. {shortprodname}-S-DR |--- |{shortprodname}-S-DR
+|Part No. {shortprodname}W-S-DR |--- |{shortprodname}-S-DRW
+|Part No. {shortprodname}-S-IR |--- |{shortprodname}-S-IR
+|Part No. {shortprodname}W-S-IR |--- |{shortprodname}-S-IRW
+|Part No. {shortprodname}-L-DR |--- |{shortprodname}-L-DR
+|Part No. {shortprodname}W-L-DR |--- |{shortprodname}-L-DRW
+|Part No. {shortprodname}-L-IR |--- |{shortprodname}-L-IR
+|Part No. {shortprodname}W-L-IR |--- |{shortprodname}-L-IRW
+|===
+
+[#s_Q3-2022-Revision-F2]
+[discrete]
+== Q3-2022 Revision F2
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary a|
+* Internal design changes
+
+* Trigger Wet input changed from {plus}5-24 V to {plus}5-12 V
+
+* Power rating reverted back from 18 W to 25 W
+
+|Product release date |Q3-2022
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (Rev. F2) |Changed To (Rev. F2)
+|Part No. {shortprodname}-S-DR .4+.^a|
+* Trigger Wet input: {plus}5-24 V
+
+* Power rating: 18 W
+
+.4+.^a|
+* Trigger Wet input: {plus}5-12 V
+
+* Power rating: 25 W
+
+|Part No. {shortprodname}-S-IR
+|Part No. {shortprodname}-L-DR
+|Part No. {shortprodname}-L-IR
+|===
+
+[#s_Q2-2022-Revision-F2]
+[discrete]
+== Q2-2022 Revision F2
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary a|
+* Internal design changes
+
+* Input voltage changed from 24 VDC to 12-24 VDC
+
+* Power rating changed from 25 W to 18 W
+
+|Product release date |Q2-2022
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (Rev. F1) |Changed To (Rev. F2)
+|Part No. {shortprodname}-S-DR .4+.^|--- .4+.^a|
+* Internal design changes
+
+* Input voltage changed from 24 VDC to 12-24 VDC
+
+* Power rating changed from 25 W to 18 W
+
+|Part No. {shortprodname}-S-IR
+|Part No. {shortprodname}-L-DR
+|Part No. {shortprodname}-L-IR
+|===
+
+[#s_Q4-2021-Revision-F1]
+[discrete]
+== Q4-2021 Revision F1
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary a|
+* Dry contact relay capabilities added
+
+* New power and signals cable (Rev. C-1) to accommodate new relay Normally Open (NO) and Common (C) wires
+
+* Improved power stability when connected to longer power cable extension
+
+* Internal circuitry improvement
+
+|Product release date |Q4-2021
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (Rev. F1) |Changed To (Rev. F1)
+.^|Part No. {shortprodname}-S-DR .4+.^|--- .4+.^a|
+* Dry contact relay capabilities added
+
+* New power and signals cable (Rev. C-1) to accommodate new relay Normally Open (NO) and Common (C) wires
+
+* Improved power stability when connected to longer power cable extension
+
+* Internal circuitry improvement
+
+.^|Part No. {shortprodname}-S-IR
+.^|Part No. {shortprodname}-L-DR
+.^|Part No. {shortprodname}-L-IR
+|===
+
+[#s_Q3-2021-Revision-F1]
+
+== Q3-2021 Revision F1
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary a|
+* Data storage added - 128Gb
+
+* Logo printed on the sunshade
+
+* Field upgradable IZIC firmware
+
+* Jetson hardware watchdog added
+
+* Breathable vent added
+
+* Internal design changes
+
+|Product release date |Q3-2021
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (Rev. D) |Changed To (Rev. F1)
+.^|Part No. {shortprodname}-S-DR .4+.^|--- .4+.^a|
+* Data storage added - 128Gb
+
+* Logo printed on the sunshade
+
+* Field upgradable IZIC firmware
+
+* Jetson hardware watchdog added
+
+* Breathable vent added
+
+* Internal design changes
+
+.^|Part No. {shortprodname}-S-IR
+.^|Part No. {shortprodname}-L-DR
+.^|Part No. {shortprodname}-L-IR
+|===
+
+[#s_Q2-2021-Revision-D]
+
+== Q2-2021 Revision D
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary |Part number changes (see next table)
+|Product release date |Q2-2021
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (Rev. D) |Changed To (Rev. D)
+|Part No. {shortprodname}-S-770 |{shortprodname}-S-770 |{shortprodname}-S-DR
+|Part No. {shortprodname}-S-850 |{shortprodname}-S-850 |{shortprodname}-S-IR
+|Part No. {shortprodname}-L-770 |{shortprodname}-L-770 |{shortprodname}-L-DR
+|Part No. {shortprodname}-L-850 |{shortprodname}-L-850 |{shortprodname}-L-IR
+|===
+
+[#s_Q1-2021-Revision-D]
+
+== Q1-2021 Revision D
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary a|
+* Part number removed (XS)
+
+* Part number added (L)
+
+* Distance ratings changed for part number S
+
+|Product release date |Q1-2021
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (Rev. C) |Changed To (Rev. D)
+|Part No. {shortprodname}-XS-770 |{shortprodname}-XS-770 |--- (removed)
+|Part No. {shortprodname}-XS-850 |{shortprodname}-XS-850 |--- (removed)
+|Distance Rating for +
+{shortprodname}-S-770 |5-12 m |2.4-9.1 m
+|Distance Rating for +
+{shortprodname}-S-850 |5-12 m |2.4-9.1 m
+|New part no. for long distances |--- |{shortprodname}-L-770 (new) - (distance rating: 10-20 m)
+|New part no. for long distances |--- |{shortprodname}-L-850 (new) - (distance rating: 10-20 m)
+|===
+
+[#s_Q4-2020-Revision-C]
+
+== Q4-2020 Revision C
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary a|
+* Direct trigger input added
+
+* Improved stability at high ambient temperature
+
+|Product release date |Q4-2020
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (Rev. B) |Changed To (Rev. C)
+|Part No. {shortprodname}-XS-770 |--- a|
+* Direct trigger input added
+
+* Improved stability at high ambient temperature
+
+|Part No. {shortprodname}-XS-850 | |
+|Part No. {shortprodname}-S-770 | |
+|Part No. {shortprodname}-S-850 | |
+|===
+
+[#s_Q3-2020-Revision-B]
+
+== Q3-2020 Revision B
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary |Internal hardware change
+|Product release date |Q3-2020
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (A2) |Changed To (Rev. B)
+|Part No. {shortprodname}-XS-770 |--- |Internal hardware change
+|Part No. {shortprodname}-XS-850 | |
+|Part No. {shortprodname}-S-770 | |
+|Part No. {shortprodname}-S-850 | |
+|===
+
+[#s_Q2-2020-Revision-A2]
+
+== Q2-2020 Revision A2
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary |Lithium battery replaced by super capacitor
+|Product release date |Q2-2020
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (A1) |Changed To (Rev. A2)
+|Part No. {shortprodname}-XS-770 |Lithium battery |Super capacitor
+|Part No. {shortprodname}-XS-850 | |
+|Part No. {shortprodname}-S-770 | |
+|Part No. {shortprodname}-S-850 | |
+|===
+
+[#s_Q1-2020-Revision-A1]
+
+== Q1-2020 Revision A1
+
+[width="100%",cols="33%,67%",options="header",]
+|===
+|Change Summary |
+|Summary |First release
+|Product release date |Q1-2020
+|===
+
+[width="100%",cols="33%,33%,34%",options="header",]
+|===
+|Changed Item Details |Previous (None) |Changed To (Rev. A1)
+|Part No. {shortprodname}-XS-770 |--- |{shortprodname}-XS-770
+|Part No. {shortprodname}-XS-850 |--- |{shortprodname}-XS-850
+|Part No. {shortprodname}-S-770 |--- |{shortprodname}-S-770
+|Part No. {shortprodname}-S-850 |--- |{shortprodname}-S-850
+|===
+
+
+
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+Doc. No. {shortprodname}-HWHIST
+
+

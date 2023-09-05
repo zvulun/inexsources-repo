@@ -8,5 +8,7 @@
 
 * xref:IZA500G:IZA500G-GR-Installation-Guide.adoc[IZA500G/GR Installation Guide]
 
+* xref:IZA500G:IZA500G-HWHIST.adoc[IZA500G Hardware Revision History]
+
 More documents can be found at https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[GDriveLink, window=_blank]
 
