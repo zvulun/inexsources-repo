@@ -74,7 +74,7 @@ Hardware revision histories (HRH) inform our customers about changes being made 
 [discrete]
 == Q3-2023 Revision F3
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary a|
@@ -91,7 +91,7 @@ L - Long distance, 30-70 ft (9-21 m)
 |Product release date |Q3-2023
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F3) |Changed/New (Rev. F3)
 |All models |LPR Capture distance: +
@@ -112,7 +112,7 @@ L - Long distance, 30-70 ft (9-21m)
 [discrete]
 == Q4-2022 Revision F3
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary a|
@@ -127,7 +127,7 @@ L - Long distance, 30-70 ft (9-21m)
 |Product release date |Q4-2022
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F2) |Changed To (Rev. F3)
 |All models |Data Storage: 128 Gb |Data Storage: eMMC, 12 Gb
@@ -148,7 +148,7 @@ L - Long distance, 30-70 ft (9-21m)
 [discrete]
 == Q3-2022 Revision F2
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary a|
@@ -161,7 +161,7 @@ L - Long distance, 30-70 ft (9-21m)
 |Product release date |Q3-2022
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F2) |Changed To (Rev. F2)
 |Part No. {shortprodname}-S-DR .4+.^a|
@@ -183,7 +183,7 @@ L - Long distance, 30-70 ft (9-21m)
 [discrete]
 == Q2-2022 Revision F2
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary a|
@@ -196,7 +196,7 @@ L - Long distance, 30-70 ft (9-21m)
 |Product release date |Q2-2022
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F1) |Changed To (Rev. F2)
 |Part No. {shortprodname}-S-DR .4+.^|--- .4+.^a|
@@ -215,7 +215,7 @@ L - Long distance, 30-70 ft (9-21m)
 [discrete]
 == Q4-2021 Revision F1
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary a|
@@ -230,7 +230,7 @@ L - Long distance, 30-70 ft (9-21m)
 |Product release date |Q4-2021
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F1) |Changed To (Rev. F1)
 .^|Part No. {shortprodname}-S-DR .4+.^|--- .4+.^a|
@@ -248,10 +248,10 @@ L - Long distance, 30-70 ft (9-21m)
 |===
 
 [#s_Q3-2021-Revision-F1]
-
+[discrete]
 == Q3-2021 Revision F1
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary a|
@@ -270,7 +270,7 @@ L - Long distance, 30-70 ft (9-21m)
 |Product release date |Q3-2021
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. D) |Changed To (Rev. F1)
 .^|Part No. {shortprodname}-S-DR .4+.^|--- .4+.^a|
@@ -292,17 +292,17 @@ L - Long distance, 30-70 ft (9-21m)
 |===
 
 [#s_Q2-2021-Revision-D]
-
+[discrete]
 == Q2-2021 Revision D
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary |Part number changes (see next table)
 |Product release date |Q2-2021
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. D) |Changed To (Rev. D)
 |Part No. {shortprodname}-S-770 |{shortprodname}-S-770 |{shortprodname}-S-DR
@@ -312,10 +312,10 @@ L - Long distance, 30-70 ft (9-21m)
 |===
 
 [#s_Q1-2021-Revision-D]
-
+[discrete]
 == Q1-2021 Revision D
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary a|
@@ -328,7 +328,7 @@ L - Long distance, 30-70 ft (9-21m)
 |Product release date |Q1-2021
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. C) |Changed To (Rev. D)
 |Part No. {shortprodname}-XS-770 |{shortprodname}-XS-770 |--- (removed)
@@ -342,10 +342,10 @@ L - Long distance, 30-70 ft (9-21m)
 |===
 
 [#s_Q4-2020-Revision-C]
-
+[discrete]
 == Q4-2020 Revision C
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary a|
@@ -356,7 +356,7 @@ L - Long distance, 30-70 ft (9-21m)
 |Product release date |Q4-2020
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. B) |Changed To (Rev. C)
 |Part No. {shortprodname}-XS-770 |--- a|
@@ -370,17 +370,17 @@ L - Long distance, 30-70 ft (9-21m)
 |===
 
 [#s_Q3-2020-Revision-B]
-
+[discrete]
 == Q3-2020 Revision B
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary |Internal hardware change
 |Product release date |Q3-2020
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (A2) |Changed To (Rev. B)
 |Part No. {shortprodname}-XS-770 |--- |Internal hardware change
@@ -390,17 +390,17 @@ L - Long distance, 30-70 ft (9-21m)
 |===
 
 [#s_Q2-2020-Revision-A2]
-
+[discrete]
 == Q2-2020 Revision A2
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary |Lithium battery replaced by super capacitor
 |Product release date |Q2-2020
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (A1) |Changed To (Rev. A2)
 |Part No. {shortprodname}-XS-770 |Lithium battery |Super capacitor
@@ -410,17 +410,17 @@ L - Long distance, 30-70 ft (9-21m)
 |===
 
 [#s_Q1-2020-Revision-A1]
-
+[discrete]
 == Q1-2020 Revision A1
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Change Summary |
 |Summary |First release
 |Product release date |Q1-2020
 |===
 
-[width="100%",cols="33%,33%,34%",options="header",]
+[table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (None) |Changed To (Rev. A1)
 |Part No. {shortprodname}-XS-770 |--- |{shortprodname}-XS-770
