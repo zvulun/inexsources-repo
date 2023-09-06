@@ -100,7 +100,7 @@ L - Long distance, 30-70 ft (9-21 m)
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F3) |Changed/New (Rev. F3)
-|All models |LPR Capture distance: +
+.^|All models |LPR Capture distance: +
 5-70 ft (1.5-21 m) |S - Short distance, 5-35 ft (2-11m) +
 
 L - Long distance, 30-70 ft (9-21m)
@@ -113,6 +113,8 @@ L - Long distance, 30-70 ft (9-21m)
 |--- |--- |{shortprodname}-L-IR-P48
 |--- |--- |{shortprodname}-L-IRW-P48
 |===
+
+<<<
 
 [#s_Q4-2022-Revision-F3]
 [discrete]
@@ -151,6 +153,8 @@ L - Long distance, 30-70 ft (9-21m)
 |Part No. {shortprodname}-L-IR |--- |{shortprodname}-L-IR
 |Part No. {shortprodname}W-L-IR |--- |{shortprodname}-L-IRW
 |===
+
+<<<
 
 [#s_Q3-2022-Revision-F2]
 [discrete]
@@ -222,6 +226,8 @@ L - Long distance, 30-70 ft (9-21m)
 |Part No. {shortprodname}-L-DR
 |Part No. {shortprodname}-L-IR
 |===
+
+<<<
 
 [#s_Q4-2021-Revision-F1]
 [discrete]
