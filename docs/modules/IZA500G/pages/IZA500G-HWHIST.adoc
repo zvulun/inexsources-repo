@@ -76,8 +76,8 @@ Hardware revision histories (HRH) inform our customers about changes being made 
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary a|
+2+|Change Summary
+.^|Summary a|
 * Input voltage now 24VDC or 48VDC (for new P48 models); not 12-24 VDC as was previously
 
 * New power input option of PoE{plus} (for new P48 models; requires {hw-poeinjector} Gigabit 4-Port PoE{plus}{plus} Injector)
@@ -90,6 +90,8 @@ L - Long distance, 30-70 ft (9-21 m)
 
 |Product release date |Q3-2023
 |===
+
+{empty} +
 
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
@@ -114,8 +116,8 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary a|
+2+|Change Summary
+.^|Summary a|
 * Data Storage now eMMC, 12 Gb (was 128 Gb)
 
 * Internal changes
