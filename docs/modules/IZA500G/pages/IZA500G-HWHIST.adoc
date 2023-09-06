@@ -114,6 +114,7 @@ L - Long distance, 30-70 ft (9-21m)
 |--- |--- |{shortprodname}-L-IRW-P48
 |===
 
+//page break
 <<<
 
 [#s_Q4-2022-Revision-F3]
