@@ -242,6 +242,8 @@ L - Long distance, 30-70 ft (9-21m)
 |Product release date |Q4-2021
 |===
 
+{empty} +
+
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F1) |Changed To (Rev. F1)
@@ -379,14 +381,14 @@ L - Long distance, 30-70 ft (9-21m)
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. B) |Changed To (Rev. C)
-|Part No. {shortprodname}-XS-770 |--- a|
+.^|Part No. {shortprodname}-XS-770 .4+.^|--- .4+.^a|
 * Direct trigger input added
 
 * Improved stability at high ambient temperature
 
-|Part No. {shortprodname}-XS-850 | |
-|Part No. {shortprodname}-S-770 | |
-|Part No. {shortprodname}-S-850 | |
+.^|Part No. {shortprodname}-XS-850
+.^|Part No. {shortprodname}-S-770
+.^|Part No. {shortprodname}-S-850
 |===
 
 [#s_Q3-2020-Revision-B]
@@ -395,18 +397,20 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary |Internal hardware change
+2+|Change Summary
+.^|Summary |Internal hardware change
 |Product release date |Q3-2020
 |===
+
+{empty} +
 
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (A2) |Changed To (Rev. B)
-|Part No. {shortprodname}-XS-770 |--- |Internal hardware change
-|Part No. {shortprodname}-XS-850 | |
-|Part No. {shortprodname}-S-770 | |
-|Part No. {shortprodname}-S-850 | |
+.^|Part No. {shortprodname}-XS-770 .4+.^|--- .4+.^a|Internal hardware change
+|Part No. {shortprodname}-XS-850
+|Part No. {shortprodname}-S-770
+|Part No. {shortprodname}-S-850
 |===
 
 [#s_Q2-2020-Revision-A2]
@@ -415,18 +419,20 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary |Lithium battery replaced by super capacitor
+2+|Change Summary
+.^|Summary |Lithium battery replaced by super capacitor
 |Product release date |Q2-2020
 |===
+
+{empty} +
 
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (A1) |Changed To (Rev. A2)
-|Part No. {shortprodname}-XS-770 |Lithium battery |Super capacitor
-|Part No. {shortprodname}-XS-850 | |
-|Part No. {shortprodname}-S-770 | |
-|Part No. {shortprodname}-S-850 | |
+.^|Part No. {shortprodname}-XS-770  .4+.^|Lithium battery .4+.^a|Super capacitor
+|Part No. {shortprodname}-XS-850
+|Part No. {shortprodname}-S-770
+|Part No. {shortprodname}-S-850
 |===
 
 [#s_Q1-2020-Revision-A1]
@@ -435,10 +441,12 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary |First release
+2+|Change Summary
+.^|Summary |First release
 |Product release date |Q1-2020
 |===
+
+{empty} +
 
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
@@ -448,9 +456,6 @@ L - Long distance, 30-70 ft (9-21m)
 |Part No. {shortprodname}-S-770 |--- |{shortprodname}-S-770
 |Part No. {shortprodname}-S-850 |--- |{shortprodname}-S-850
 |===
-
-
-
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
