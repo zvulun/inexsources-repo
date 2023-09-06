@@ -142,7 +142,7 @@ L - Long distance, 30-70 ft (9-21m)
 |Changed Item Details |Previous (Rev. F2) |Changed To (Rev. F3)
 |All models |Data Storage: 128 Gb |Data Storage: eMMC, 12 Gb
 |--- |--- |Internal changes
-|--- |--- |Addition of white LED option +
+.^|--- .^|--- |Addition of white LED option +
 ("W" in part no.)
 |Part No. {shortprodname}-S-DR |--- |{shortprodname}-S-DR
 |Part No. {shortprodname}W-S-DR |--- |{shortprodname}-S-DRW
@@ -267,6 +267,8 @@ L - Long distance, 30-70 ft (9-21m)
 .^|Part No. {shortprodname}-L-IR
 |===
 
+<<<
+
 [#s_Q3-2021-Revision-F1]
 [discrete]
 == Q3-2021 Revision F1
@@ -335,6 +337,8 @@ L - Long distance, 30-70 ft (9-21m)
 |Part No. {shortprodname}-L-850 |{shortprodname}-L-850 |{shortprodname}-L-IR
 |===
 
+<<<
+
 [#s_Q1-2021-Revision-D]
 [discrete]
 == Q1-2021 Revision D
@@ -366,6 +370,8 @@ L - Long distance, 30-70 ft (9-21m)
 |New part no. for long distances |--- |{shortprodname}-L-770 (new) - (distance rating: 10-20 m)
 |New part no. for long distances |--- |{shortprodname}-L-850 (new) - (distance rating: 10-20 m)
 |===
+
+<<<
 
 [#s_Q4-2020-Revision-C]
 [discrete]
@@ -418,6 +424,8 @@ L - Long distance, 30-70 ft (9-21m)
 |Part No. {shortprodname}-S-770
 |Part No. {shortprodname}-S-850
 |===
+
+<<<
 
 [#s_Q2-2020-Revision-A2]
 [discrete]
