@@ -1,5 +1,5 @@
 = Solutions for Tolling: Documents List
 
-* xref:SLN-Tolling:SLN-For-Tolling.adoc[{compname-short} Solution for Airport Security]
+* xref:SLN-Tolling:SLN-For-Tolling.adoc[{compname-short} Solutions for Tolling]
 
 More documents can be found at https://drive.google.com/drive/folders/1cnSxLR1RJ-a8xoUp1nptPiqH-szF-5qe?usp=drive_link[GDriveLink, window=_blank]
