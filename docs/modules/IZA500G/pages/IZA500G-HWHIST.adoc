@@ -367,8 +367,8 @@ L - Long distance, 30-70 ft (9-21m)
 {shortprodname}-S-770 |5-12 m |2.4-9.1 m
 |Distance Rating for +
 {shortprodname}-S-850 |5-12 m |2.4-9.1 m
-|New part no. for long distances |--- |{shortprodname}-L-770 (new) - (distance rating: 10-20 m)
-|New part no. for long distances |--- |{shortprodname}-L-850 (new) - (distance rating: 10-20 m)
+.^|New part no. for long distances .^|--- |{shortprodname}-L-770 (new) - (distance rating: 10-20 m)
+.^|New part no. for long distances .^|--- |{shortprodname}-L-850 (new) - (distance rating: 10-20 m)
 |===
 
 <<<
