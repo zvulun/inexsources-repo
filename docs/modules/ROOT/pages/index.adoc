@@ -14,8 +14,9 @@ To save a document as PDF:
 
 * (Chrome) In the More Settings section:
 ** Select Paper Size of A4
+** Check the Background Graphics box (to show the shading in the notes, and on the table headers)
 ** If you check Headers and Footers, you will get page numbers, and
-the URL of the site (you may not want this if printing from a C:\... site generated on your computer)
-** Check the Background Graphics box to show the shading on the table headers
+the URL of the site (but the URL will start with C:\... if you are viewing the site that was generated locally on your computer)
+
 
 
