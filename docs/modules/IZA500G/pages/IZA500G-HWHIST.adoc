@@ -67,7 +67,11 @@
 [discrete]
 == Document Description
 
-Hardware revision histories (HRH) inform our customers about changes being made to our {compname-long} products, such as physical appearance, hardware improvements, changes to package contents, part number changes, etc. Firmware changes are not included.
+Hardware revision histories (HRH) inform our
+customers about changes being made to our {compname-long}
+products, such as physical appearance, hardware
+improvements, changes to package contents, part number
+changes, etc. Firmware changes are not included.
 
 [#s_Q3-2023-Revision-F3]
 
@@ -129,6 +133,8 @@ L - Long distance, 30-70 ft (9-21m)
 |Product release date |Q4-2022
 |===
 
+{empty} +
+
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F2) |Changed To (Rev. F3)
@@ -152,8 +158,8 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary a|
+2+|Change Summary
+.^|Summary a|
 * Internal design changes
 
 * Trigger Wet input changed from {plus}5-24 V to {plus}5-12 V
@@ -162,6 +168,8 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q3-2022
 |===
+
+{empty} +
 
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
@@ -187,8 +195,8 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary a|
+2+|Change Summary
+.^|Summary a|
 * Internal design changes
 
 * Input voltage changed from 24 VDC to 12-24 VDC
@@ -197,6 +205,8 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q2-2022
 |===
+
+{empty} +
 
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
@@ -219,8 +229,8 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary a|
+2+|Change Summary
+.^|Summary a|
 * Dry contact relay capabilities added
 
 * New power and signals cable (Rev. C-1) to accommodate new relay Normally Open (NO) and Common (C) wires
@@ -255,8 +265,8 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary a|
+2+|Change Summary
+.^|Summary a|
 * Data storage added - 128Gb
 
 * Logo printed on the sunshade
@@ -271,6 +281,8 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q3-2021
 |===
+
+{empty} +
 
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
@@ -299,10 +311,12 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary |Part number changes (see next table)
+2+|Change Summary
+.^|Summary |Part number changes (see next table)
 |Product release date |Q2-2021
 |===
+
+{empty} +
 
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
@@ -319,8 +333,8 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary a|
+2+|Change Summary
+.^|Summary a|
 * Part number removed (XS)
 
 * Part number added (L)
@@ -329,6 +343,8 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q1-2021
 |===
+
+{empty} +
 
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
@@ -349,14 +365,16 @@ L - Long distance, 30-70 ft (9-21m)
 
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
-|Change Summary |
-|Summary a|
+2+|Change Summary
+.^|Summary a|
 * Direct trigger input added
 
 * Improved stability at high ambient temperature
 
 |Product release date |Q4-2020
 |===
+
+{empty} +
 
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
