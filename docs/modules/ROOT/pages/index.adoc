@@ -12,7 +12,10 @@ To save a document as PDF:
 
 * (Chrome) Select Save as PDF as the destination
 
-* (Chrome) In the More Settings section, select Paper Size of A4, and
-check or uncheck Headers and Footers. Note that if you check Headers and Footers,
-the URL of the site will appear in the footer.
+* (Chrome) In the More Settings section:
+** Select Paper Size of A4
+** If you check Headers and Footers, you will get page numbers, and
+the URL of the site (you may not want this if printing from a C:\... site generated on your computer)
+** Check the Background Graphics box to show the shading on the table headers
+
 
