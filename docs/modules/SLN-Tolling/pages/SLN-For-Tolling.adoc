@@ -228,8 +228,7 @@ Here is a partial list of major {compname-short} projects for {shortprodname} cl
 [discrete]
 == Contact Us
 //closing paragraph and call to action
-Call us for a trial - we can use your existing equipment,
-and evaluate how we can integrate with your systems.
+Call us for a trial - let us evaluate how we can integrate with and enhance your existing systems.
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
