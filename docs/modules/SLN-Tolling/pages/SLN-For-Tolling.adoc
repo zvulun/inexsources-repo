@@ -68,42 +68,155 @@
 // generalize for all airports
 [discrete]
 == Executive Summary
-// intro paragraph
 
-Introducing {compname-short} Solutions for {shortprodname}:
+*_/{I have avoided giving the impression that our
+system can optimize traffic flow in the executive summary;
+it would sound like Waze....but later on we do put in that
+toll roads can optimize traffic flow (the hint is that
+people will want to use the toll road to avoid congestion)}_*
+
+Toll roads
+are an important part of transportation strategies for
+streamlining ever-expanding traffic flow and reducing congestion.
+Traditional tolling falls short of the  need for
+user-friendly, reliable and scalable toll collection.
+{empty} +
+{compname-short}'s advanced tolling system is a game-changer.
+Using high resolution cameras, AI-driven
+license plate recognition and a sophisticated billing system,
+{compname-short} transforms roads into smart highways.
+The use of eWallets ensures swift seamless transactions,
+no matter how complex a customer's journey through different
+tolling zones at different times.
+
 
 [discrete]
 == Key Features and Benefits
-* [*] First Topic
-* [*] Second Topic
-* [*] Third Topic
+
+* [*] ALPR AI Cameras and Illuminators
+* [*] Comprehensive Video Analytics
+* [*] Integration with Existing Equipment
+* [*] AlphaV Billing System
+* [*] AlphaV eWallet
 
 [discrete]
-== First Topic
-//picture(s)
-//explanatory text
+== ALPR AI Cameras and Illuminators
+
+*_/{TBD: picture(s)}_*
+
+The foundation of {compname-short}'s toll road solution
+lies in its state-of-the-art ALPR
+(Advanced License Plate Recognition) cameras.
+These AI-powered cameras, together with
+dedicated illuminators, ensure real-time,
+clear capture of vehicles -
+even on high-speed open roads, day or night, under
+any weather conditions.
 
 [discrete]
-== Second Topic
-//picture(s)
-//explanatory text
+== Comprehensive Video Analytics
+
+*_/{TBD: picture(s)}_*
+
+{compname-short}'s sophisticated algorithms not only capture
+basic plate details, but delve deeper by identifying:
+
+* *_/{but isn't this obvious? what else to mention -
+based on department of transporation registration records}_* Plate ID: vehicle identification
+
+* *State of Issue:* State or region of the plate's origin
+
+* *Vehicle Type:* Such as commercial, private, government
+
+* *_/{can we promise this?}_* Color
+
+* *_/{can we promise this?}_* Make
 
 [discrete]
-== Third Topic
-//picture(s)
-//explanatory text
+== Integration with Existing Equipment
+
+*_/{TBD: picture(s)}_*
+
+Your existing equipment can be seamlessly integrated
+with the {compname-short} system, for example:
+
+* *RFID:* Radio Frequency Identification is supported, adding
+to the user's options for contactless toll payments.
+
+* *Gate Control:* {compname-short}'s solution manages
+gate control mechanisms, ensuring unimpeded vehicle
+flow while upholding security standards.
+
+
+[discrete]
+== AlphaV Billing System
+
+*_/{TBD: picture(s)}_*
+
+{compname-short}’s innovative AlphaV Billing System
+encompasses:
+
+* *Consolidated Bills:* *_/{original said "open billing" which
+isnt't specific enough; I changed it to Consolidated}_*
+Constructs a unified bill by combining multiple toll
+transactions, providing a user-friendly billing approach
+
+* *Entry/Exit Point Billing:* *_/{original said "closed billing"
+which wasn't clear enough; I changed it to Entry/Exit Point
+Billing}_*
+Charges are determined based on
+entry and exit points of vehicles on specific
+road segments, ensuring accurate and fair billing
+
+* *Dynamic Road Pricing:* Tailors toll fees based on
+variables such as vehicle type, time of day, congestion,
+and other relevant factors. This dynamic approach not
+only optimizes revenue but also manages traffic flow,
+potentially reducing peak-time congestion.
+
+* *Multiple Payment Sources:* Bank, credit card, eWallet
+
+[discrete]
+== AlphaV eWallet
+
+*_/{TBD: picture(s)}_*
+
+The {compname-short} eWallet app isn't just about
+making payments - it's a complete digital bank account
+tailored for convenience. Its outstanding feature is
+streamlining open road tolling. Imagine driving without
+the need for stops or searching for change; the
+eWallet handles tolls effortlessly.
+But there's so much more to offer...
+
+{empty} +
+
+Beyond basic transactions, eWallet gives users more value
+for their money. They can earn cashback and rewards, turning
+everyday payments into savings opportunities. Plus, for those
+who appreciate a good deal, the app showcases special ads and
+tailored promotions. Whether it's discounts at a favorite
+shop, cashback on tolls, or exclusive offers, the {compname-short}
+eWallet becomes a one-stop digital hub for transactions,
+savings, and exciting rewards.
+
+*_/{I didn't know we had a project in Virginia; are you sure
+that you didn't mean Louisiana?}_*
 
 [discrete]
 == {compname-short} Projects
-Here is a partial list of major {compname-short} projects for Tolling clients.
+Here is a partial list of major {compname-short} projects for {shortprodname} clients.
 
 [width="100%",cols="50%,50%",frame="none",grid="none"]
 |===
-//<.<a|* +++<font size="+1">+++Client1, State/Country +++</font>+++ {empty} image:Client1_logo.png[image,width=100,align=left]
-//<.<a|* +++<font size="+1">+++Ho Chi Minh City, Vietnam +++</font>+++ {empty} image:Airport-Vietnam.png[image,width=100,align=left]
-//<.^a|* +++<font size="+1">+++Austin-Bergstrom, TX +++</font>+++ {empty} image:Airport-Austin-Bergstrom.png[image,width=100,align=left]
-//<.^a|* +++<font size="+1">+++Omaha, NB +++</font>+++ {empty} image:Airport-Omaha.png[image,width=50,align=left]
-//<.^a|* +++<font size="+1">+++Orlando, FL +++</font>+++ {empty} image:Airport-Orlando.png[image,width=75,align=left]
+<.<a|* +++<font size="+1">+++Illinois State Toll Highway Authority +++</font>+++ {empty} image:ISTHA-Logo.png[image,width=100,align=left]
+<.<a|* +++<font size="+1">+++New York State Thruway +++</font>+++ {empty} image:NYSTA-Logo.png[image,width=100,align=left]
+<.^a|* +++<font size="+1">+++Virginia Department of Transportation +++</font>+++ {empty} image:VDOT-Logo.png[image,width=100,align=left]
+<.^a|* +++<font size="+1">+++Ohio Turnpike +++</font>+++ {empty} image:OHIO-Logo.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++Singapore Land Transportation Authority, ERP2 +++</font>+++ {empty} image:LTA-Logo.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Ministry of Transport of Vietnam +++</font>+++ {empty} image:VIETNAM-Logo.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Puerto Rico Highways and Transportation Authority +++</font>+++ {empty} image:PUERTORICO-Logo.png[image,width=75,align=left]
+<.^a|{empty} |{empty}
 |===
 
 
@@ -115,7 +228,7 @@ Here is a partial list of major {compname-short} projects for Tolling clients.
 [discrete]
 == Contact Us
 //closing paragraph and call to action
-Call us for a trial - we can use your existing cameras and other equipment,
+Call us for a trial - we can use your existing equipment,
 and evaluate how we can integrate with your systems.
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
@@ -123,5 +236,4 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
 Doc. No. SLN-{shortprodname}-ALL-WP
-
 
