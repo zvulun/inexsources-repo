@@ -24,7 +24,7 @@
 //enable the TOC to be placed in a specific position
 //:toc: macro
 
-= {compname-short} Solutions for Tolling
+= {compname-short} Solutions for TOPICNAME
 
 // xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
 
@@ -95,7 +95,7 @@ Introducing {compname-short} Solutions for {shortprodname}:
 
 [discrete]
 == {compname-short} Projects
-Here is a partial list of major {compname-short} projects for Tolling clients.
+Here is a partial list of major {compname-short} projects for //the topic// clients.
 
 [width="100%",cols="50%,50%",frame="none",grid="none"]
 |===
