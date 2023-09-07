@@ -68,3 +68,88 @@
 // generalize for all airports
 [discrete]
 == Executive Summary
+// intro paragraph
+
+Introducing {compname-short} Solutions for {shortprodname}:
+
+[discrete]
+== Key Features and Benefits
+* [*] First Topic
+* [*] Second Topic
+* [*] Third Topic
+
+[discrete]
+== First Topic
+//picture(s)
+//explanatory text
+
+[discrete]
+== Second Topic
+//picture(s)
+//explanatory text
+
+[discrete]
+== Third Topic
+//picture(s)
+//explanatory text
+
+[discrete]
+== {compname-short} Projects
+Here is a partial list of major {compname-short} projects for //the topic// clients.
+
+[width="100%",cols="50%,50%",frame="none",grid="none"]
+|===
+<.<a|* +++<font size="+1">+++Client1, State/Country +++</font>+++ {empty} image:Client1_logo.png[image,width=100,align=left]
+<.<a|* +++<font size="+1">+++Ho Chi Minh City, Vietnam +++</font>+++ {empty} image:Airport-Vietnam.png[image,width=100,align=left]
+<.^a|* +++<font size="+1">+++Austin-Bergstrom, TX +++</font>+++ {empty} image:Airport-Austin-Bergstrom.png[image,width=100,align=left]
+<.^a|* +++<font size="+1">+++Omaha, NB +++</font>+++ {empty} image:Airport-Omaha.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++Orlando, FL +++</font>+++ {empty} image:Airport-Orlando.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ {empty} image:Airport-Raleigh-Durham.png[image,width=50,align=left]
+|===
+
+[discrete]
+== {compname-short} Projects
+Here is a partial list of major {compname-short} projects for airports and security clients.
+
+[width="100%",cols="50%,50%",frame="none",grid="none"]
+|===
+<.<a|* +++<font size="+1">+++Ben Gurion Airport, Israel +++</font>+++ {empty} image:Airport-Ben-Gurion.png[image,width=100,align=left]
+<.<a|* +++<font size="+1">+++Ho Chi Minh City, Vietnam +++</font>+++ {empty} image:Airport-Vietnam.png[image,width=100,align=left]
+<.^a|* +++<font size="+1">+++Austin-Bergstrom, TX +++</font>+++ {empty} image:Airport-Austin-Bergstrom.png[image,width=100,align=left]
+<.^a|* +++<font size="+1">+++Omaha, NB +++</font>+++ {empty} image:Airport-Omaha.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++Orlando, FL +++</font>+++ {empty} image:Airport-Orlando.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ {empty} image:Airport-Raleigh-Durham.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++San Bernardino, CA +++</font>+++ {empty} image:Airport-SanBernardino.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Bellingham Intl Airport, WA +++</font>+++ {empty} image:Airport-Bellingham.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++San Jose, CA +++</font>+++ {empty} image:Airport-SanJose.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++San Diego, CA +++</font>+++ {empty} image:Airport-SanDiego.png[image,width=70,align=left]
+<.<a|* +++<font size="+1">+++MGM Grand +++</font>+++ {empty} image:Parking-MGM-Grand.png[image,width=50,align=left]
+<.<a|* +++<font size="+1">+++The Mirage +++</font>+++ {empty} image:Parking-Mirage.png[image,width=100,align=left]
+<.^a|* +++<font size="+1">+++Barclays Center, NY +++</font>+++ {empty} image:Parking-Barclays.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++MET Square, MD +++</font>+++ {empty} image:Parking-MET-Square.png[image,width=40,align=left]
+<.^a|* +++<font size="+1">+++UBS Arena, NY +++</font>+++ {empty} image:Parking-UBS-Arena.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Marriott HQ, MD+++</font>+++ {empty} image:Parking-Marriott-HQ.png[image,width=50,align=left]
+//<.^a|* +++<font size="+1">+++San Bernardino, CA +++</font>+++ {empty} image:Airport-SanBernardino.png[image,width=75,align=left]
+//<.^a|* +++<font size="+1">+++Bellingham Intl Airport, WA +++</font>+++ {empty} image:Airport-Bellingham.png[image,width=50,align=left]
+|===
+
+
+--
++++<div class="pagebreak"> </div>+++
+--
+
+
+
+[discrete]
+== Contact Us
+//closing paragraph and call to action
+Call us for a trial - we can use your existing cameras and other equipment,
+and evaluate how we can integrate with your systems.
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+Doc. No. SLN-{shortprodname}-ALL-WP
+
+
