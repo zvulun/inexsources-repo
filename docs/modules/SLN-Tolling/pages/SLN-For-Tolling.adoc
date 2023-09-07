@@ -212,10 +212,10 @@ Here is a partial list of major {compname-short} projects for {shortprodname} cl
 <.<a|* +++<font size="+1">+++Illinois State Toll Highway Authority +++</font>+++ {empty} image:ISTHA-Logo.png[image,width=50,align=left]
 <.<a|* +++<font size="+1">+++New York State Thruway +++</font>+++ {empty} image:NYSTA-Logo.png[image,width=50,align=left]
 <.^a|* +++<font size="+1">+++Virginia Department of Transportation +++</font>+++ {empty} image:VDOT-Logo.png[image,width=100,align=left]
-<.^a|* +++<font size="+1">+++Ohio Turnpike +++</font>+++ {empty} image:OHIO-Logo.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++Ohio Turnpike +++</font>+++ {empty} image:OHIO-Logo.png[image,width=30,align=left]
 <.^a|* +++<font size="+1">+++Singapore Land Transportation Authority, ERP2 +++</font>+++ {empty} image:LTA-Logo.png[image,width=75,align=left]
 <.^a|* +++<font size="+1">+++Ministry of Transport of Vietnam +++</font>+++ {empty} image:VIETNAM-Logo.png[image,width=75,align=left]
-<.^a|* +++<font size="+1">+++Puerto Rico Highways and Transportation Authority +++</font>+++ {empty} image:PUERTORICO-Logo.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Puerto Rico Highways and Transportation Authority +++</font>+++ {empty} image:PUERTORICO-Logo.png[image,width=40,align=left]
 <.^a|{empty} |{empty}
 |===
 
