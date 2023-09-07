@@ -81,6 +81,7 @@ streamlining ever-expanding traffic flow and reducing congestion.
 Traditional tolling falls short of the  need for
 user-friendly, reliable and scalable toll collection.
 {empty} +
+
 {compname-short}'s advanced tolling system is a game-changer.
 Using high resolution cameras, AI-driven
 license plate recognition and a sophisticated billing system,
@@ -188,7 +189,6 @@ streamlining open road tolling. Imagine driving without
 the need for stops or searching for change; the
 eWallet handles tolls effortlessly.
 But there's so much more to offer...
-
 {empty} +
 
 Beyond basic transactions, eWallet gives users more value
@@ -209,8 +209,8 @@ Here is a partial list of major {compname-short} projects for {shortprodname} cl
 
 [width="100%",cols="50%,50%",frame="none",grid="none"]
 |===
-<.<a|* +++<font size="+1">+++Illinois State Toll Highway Authority +++</font>+++ {empty} image:ISTHA-Logo.png[image,width=100,align=left]
-<.<a|* +++<font size="+1">+++New York State Thruway +++</font>+++ {empty} image:NYSTA-Logo.png[image,width=100,align=left]
+<.<a|* +++<font size="+1">+++Illinois State Toll Highway Authority +++</font>+++ {empty} image:ISTHA-Logo.png[image,width=50,align=left]
+<.<a|* +++<font size="+1">+++New York State Thruway +++</font>+++ {empty} image:NYSTA-Logo.png[image,width=50,align=left]
 <.^a|* +++<font size="+1">+++Virginia Department of Transportation +++</font>+++ {empty} image:VDOT-Logo.png[image,width=100,align=left]
 <.^a|* +++<font size="+1">+++Ohio Turnpike +++</font>+++ {empty} image:OHIO-Logo.png[image,width=50,align=left]
 <.^a|* +++<font size="+1">+++Singapore Land Transportation Authority, ERP2 +++</font>+++ {empty} image:LTA-Logo.png[image,width=75,align=left]
