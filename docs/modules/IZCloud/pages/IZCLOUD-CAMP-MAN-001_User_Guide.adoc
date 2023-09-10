@@ -128,6 +128,8 @@ Multiple plates can be separated by commas
 == Viewing Events
 And all images on the Event
 
+image::IZCloud:IZCLOUD-Gates.png[image,width=800]
+
 == Importing a List of Plates
 
 == Exporting a List of Plates
@@ -144,7 +146,7 @@ _*/{need this - it was suggested by Pinchas?}*_
 
 
 
-image::IZCloud:IZCLOUD-Gates.png[image,width=500]
+
 
 
 +++<div class="pagebreak"> </div>+++
