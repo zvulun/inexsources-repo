@@ -63,7 +63,7 @@ toc::[]
 [table.withborders,width="100%",cols="51%,49%",options="header",]
 |===
 |Doc. No. |Title
-.^|xref:RoadViewALPR:DocList.adoc[RV-ALPRrrr-MAN-001] |{docproductname} Release Notes (for Release rrr)
+.^|xref:RoadViewALPR:DocList.adoc[RV-ALPR-MAN-001] |{software-ALPR-long} User Guide
 a|
 xref:IZREMRELAY:DocList.adoc[IZREMRELAY-REV-A-TDSHEET]
 
@@ -115,6 +115,29 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 |===
 
 ====
+
+== Logging In
+
+== Adding a List (Support Team Request)
+Call or email the {compname-short} support team
+_*/{what is the email?}*_
+
+== Adding New People to a List
+Multiple plates can be separated by commas
+
+== Viewing Events
+And all images on the Event
+
+== Importing a List of Plates
+
+== Exporting a List of Plates
+
+== Viewing the Dashboard
+_*/{need this - it was suggested by Pinchas?}*_
+
+== Opening a Gate Immediately (Emergency Open Button)
+
+== Changing Username and Password
 
 
 
