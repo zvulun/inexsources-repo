@@ -128,7 +128,7 @@ Multiple plates can be separated by commas
 == Viewing Events
 And all images on the Event
 
-image::IZCloud:IZCLOUD-Gates.png[image,width=800]
+image::IZCloud:IZCLOUD-CAMP-Gates.png[image,width=800]
 
 == Importing a List of Plates
 
@@ -141,8 +141,9 @@ _*/{need this - it was suggested by Pinchas?}*_
 
 == Changing Username and Password
 
+== Troubleshooting
 
-
+image::IZCloud:IZCLOUD-CAMP-Maintentance-Cameras.png[image,width=800]
 
 
 
