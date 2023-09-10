@@ -105,7 +105,7 @@ image:FaceRecognitionScan.jpg[image,width=300] {empty} image:FaceRecognizeOnStre
 
 Our advanced face recognition algorithms scan
 and match faces from various locations within
-the airport - terminal entrances, on streets, or even in vehicles.
+the terminal.
 Identification of suspected individuals on a watchlist can
 generate real-time alerts, ensuring that potential
 security threats are identified and addressed early.
