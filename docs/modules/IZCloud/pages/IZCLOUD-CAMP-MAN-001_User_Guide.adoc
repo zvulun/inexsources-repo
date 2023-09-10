@@ -144,7 +144,7 @@ _*/{need this - it was suggested by Pinchas?}*_
 
 
 
-image::IZCloud:IZCLOUD-Gates.png[image,width=300]
+image::IZCloud:IZCLOUD-Gates.png[image,width=500]
 
 
 +++<div class="pagebreak"> </div>+++
