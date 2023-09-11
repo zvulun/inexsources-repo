@@ -199,21 +199,70 @@ savings, and exciting rewards.
 *_/{I didn't know we had a project in Virginia; are you sure
 that you didn't mean Louisiana?}_*
 
+== INEX vs. Competitive Tolling Systems
+
+=== Complex Technical Projects
+* *{compname-short}:* One of INEX’s outstanding achievements
+is its proven experience in handling USA projects,
+known for their technically challenging requirements.
+The USA's diverse range of vehicles, vast network of roads,
+and stringent regulations demand advanced AI technology
+for accurate toll collection. {compname-short}'s ability
+to thrive in such an environment attests to its
+technical robustness and adaptability.
+
+* *Competitors:* Even though some competitors
+have ventured into the USA market,
+few have successfully navigated its intricacies
+and technical challenges with the same success as {compname-short}.
+
+=== Experience and Longevity
+* *{compname-short}:* With a solid 20-year tenure
+in the tolling industry, {compname-short} has adapted
+to the evolution of technology and challenges,
+positioning itself as a trusted and reliable solution provider.
+
+* *Competitors:*
+Few competitors can match the {compname-short}'s legacy
+and experience, which can lead to potential gaps
+in understanding the nuances of diverse markets
+or specific regional challenges.
+
+=== Integrated Billing System and Wallets
+* *{compname-short}:* {compname-short} stands out with its
+unique combination of an advanced billing system
+and a dynamic eWallet app, demonstrating its commitment
+to a superior user experience. The billing system smoothly
+integrates with various payment platforms and banks.
+The eWallet goes beyond the norm, functioning as a
+user's digital bank account, complete with cashback
+opportunities, rewards, and tailored promotions.
+This duo guarantees every transaction is not just
+seamless, but also provides benefit to the user.
+
+* *Competitors:* Without the eWallet component, competitors
+are missing out on the convenience and added value that
+{compname-short} offers to its users.
+
 [discrete]
 == {compname-short} Projects
-Here is a partial list of major {compname-short} projects for {shortprodname} clients.
+Here is a partial list of successfully delivered major {compname-short} projects for {shortprodname} clients.
 
-[width="100%",cols="50%,50%",frame="none",grid="none"]
-|===
-<.<a|* +++<font size="+1">+++Illinois State Toll Highway Authority +++</font>+++ {empty} image:ISTHA-Logo.png[image,width=50,align=left]
-<.<a|* +++<font size="+1">+++New York State Thruway +++</font>+++ {empty} image:NYSTA-Logo.png[image,width=50,align=left]
-<.<a|* +++<font size="+1">+++Virginia Department of Transportation +++</font>+++ {empty} image:VDOT-Logo.png[image,width=120,align=left]
-<.<a|* +++<font size="+1">+++Ohio Turnpike +++</font>+++ {empty} image:OHIO-Logo.png[image,width=30,align=left]
-<.<a|* +++<font size="+1">+++Singapore Land Transportation Authority, ERP2 +++</font>+++ {empty} image:LTA-Logo.png[image,width=100,align=left]
-<.<a|* +++<font size="+1">+++Ministry of Transport of Vietnam +++</font>+++ {empty} image:VIETNAM-Logo.png[image,width=40,align=left]
-<.<a|* +++<font size="+1">+++Puerto Rico Highways and Transportation Authority +++</font>+++ {empty} image:PUERTORICO-Logo.png[image,width=30,align=left]
-<.<a|{empty} |{empty}
-|===
+=== Illinois State Toll Highway Authority {empty} image:ISTHA-Logo.png[image,width=50,align=left]
+
+=== New York State Thruway {empty} image:NYSTA-Logo.png[image,width=50,align=left]
+
+=== Virginia Department of Transportation {empty} image:VDOT-Logo.png[image,width=120,align=left]
+
+=== Ohio Turnpike {empty} image:OHIO-Logo.png[image,width=30,align=left]
+
+=== Singapore Land Transportation Authority, ERP2 {empty} image:LTA-Logo.png[image,width=100,align=left]
+
+=== Ministry of Transport of Vietnam {empty} image:VIETNAM-Logo.png[image,width=40,align=left]
+
+=== Puerto Rico Highways and Transportation Authority {empty} image:PUERTORICO-Logo.png[image,width=30,align=left]
+
+
 
 
 --
