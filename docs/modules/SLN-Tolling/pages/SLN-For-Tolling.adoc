@@ -256,7 +256,7 @@ Here is a partial list of successfully delivered major {compname-short} projects
 
 === Ohio Turnpike {empty} image:OHIO-Logo.png[image,width=30,align=left]
 
-=== Singapore Land Transportation Authority, ERP2 {empty} image:LTA-Logo.png[image,width=100,align=left]
+=== Singapore Land Transportation Authority, ERP2 {empty} image:LTA-Logo.png[image,width=150,align=left]
 
 === Ministry of Transport of Vietnam {empty} image:VIETNAM-Logo.png[image,width=40,align=left]
 
