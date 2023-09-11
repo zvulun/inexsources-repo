@@ -248,17 +248,17 @@ are missing out on the convenience and added value that
 == {compname-short} Projects
 Here is a partial list of successfully delivered major {compname-short} projects for {shortprodname} clients.
 
-=== Illinois State Toll Highway Authority {empty} image:ISTHA-Logo.png[image,width=50,align=left]
+=== Illinois State Toll Highway Authority {empty} image:ISTHA-Logo.png[image,width=60,align=left]
 
-=== New York State Thruway {empty} image:NYSTA-Logo.png[image,width=50,align=left]
+=== New York State Thruway {empty} image:NYSTA-Logo.png[image,width=60,align=left]
 
-=== Virginia Department of Transportation {empty} image:VDOT-Logo.png[image,width=120,align=left]
+=== Virginia Department of Transportation {empty} image:VDOT-Logo.png[image,width=130,align=left]
 
-=== Ohio Turnpike {empty} image:OHIO-Logo.png[image,width=30,align=left]
+=== Ohio Turnpike {empty} image:OHIO-Logo.png[image,width=40,align=left]
 
 === Singapore Land Transportation Authority, ERP2 {empty} image:LTA-Logo.png[image,width=150,align=left]
 
-=== Ministry of Transport of Vietnam {empty} image:VIETNAM-Logo.png[image,width=40,align=left]
+=== Ministry of Transport of Vietnam {empty} image:VIETNAM-Logo.png[image,width=45,align=left]
 
 === Puerto Rico Highways and Transportation Authority {empty} image:PUERTORICO-Logo.png[image,width=30,align=left]
 
