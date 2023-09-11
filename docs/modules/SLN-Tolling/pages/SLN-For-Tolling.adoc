@@ -250,7 +250,7 @@ Here is a partial list of successfully delivered major {compname-short} projects
 
 === Illinois State Toll Highway Authority {empty} image:ISTHA-Logo.png[image,width=60,align=left]
 
-=== New York State Thruway {empty} image:NYSTA-Logo.png[image,width=60,align=left]
+=== New York State Thruway {empty} image:NYSTA-Logo.png[image,width=70,align=left]
 
 === Virginia Department of Transportation {empty} image:VDOT-Logo.png[image,width=130,align=left]
 
