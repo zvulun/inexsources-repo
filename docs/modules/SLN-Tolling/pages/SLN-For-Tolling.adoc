@@ -260,7 +260,7 @@ Here is a partial list of successfully delivered major {compname-short} projects
 
 === Ministry of Transport of Vietnam {empty} image:VIETNAM-Logo.png[image,width=45,align=left]
 
-=== Puerto Rico Highways and Transportation Authority {empty} image:PUERTORICO-Logo.png[image,width=30,align=left]
+=== Puerto Rico Highways and Transportation Authority {empty} image:PUERTORICO-Logo.png[image,width=40,align=left]
 
 
 
