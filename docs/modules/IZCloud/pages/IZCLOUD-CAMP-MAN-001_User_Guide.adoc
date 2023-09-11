@@ -139,6 +139,10 @@ image::IZCloud:IZCLOUD-CAMP-Edit-List-Item.png[image,width=800]
 == Viewing Events
 And all images on the Event
 
+Coordinate with {compname-short} support
+to set up access to your site's cameras
+to enable a live video feed on this page.
+
 image::IZCloud:IZCLOUD-CAMP-Gates.png[image,width=800]
 
 image::IZCloud:IZCLOUD-CAMP-Events.png[image,width=800]
