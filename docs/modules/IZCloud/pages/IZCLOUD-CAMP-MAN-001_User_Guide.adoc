@@ -120,32 +120,76 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 == Adding a List (Support Team Request)
 Call or email the {compname-short} support team
-_*/{what is the email?}*_
+*_/{what is the email?}_*
 
 == Adding New People to a List
 Multiple plates can be separated by commas
+
+*_/{Not all buttons in the GUI have tooltips;
+furthermore, some say edit OWNER/delete OWNER -
+Why was the term OWNER used?}_*
+
+*_/{The manage visitors button doesn't work
+it throws an error}_*
+
+image::IZCloud:IZCLOUD-CAMP-List-Vendors.png[image,width=800]
+
+image::IZCloud:IZCLOUD-CAMP-Edit-List-Item.png[image,width=800]
 
 == Viewing Events
 And all images on the Event
 
 image::IZCloud:IZCLOUD-CAMP-Gates.png[image,width=800]
 
+image::IZCloud:IZCLOUD-CAMP-Events.png[image,width=800]
+
+image::IZCloud:IZCLOUD-CAMP-Plate-Detail.png[image,width=800]
+
 == Importing a List of Plates
+*_/{What does the "send activation
+email" check box do in the import
+dialog;  why is the dialog called
+ListPlateOwnerImportSettings?
+This gives the impression I am importing the owner of
+the list, not the owners of the vehicles}_*
+
+*_/{The import/export button has no export -
+only import, and a link to an Excel template for
+importing visitors}_*
+
+*_/{fields not shown in the screen shot are:
+UserName, Email Address, Password, Should Change
+Password {means what?} (True/False), Active (True/False)}_*
+
+image::IZCloud:IZCLOUD-CAMP-Import-Template.png[image,width=800]
 
 == Exporting a List of Plates
 
 == Viewing the Dashboard
-_*/{need this - it was suggested by Pinchas?}*_
+*_/{need this - it was suggested by Pinchas?}_*
 
 == Opening a Gate Immediately (Emergency Open Button)
 
 == Changing Username and Password
 
+*_/{Clicking on the letter of the login name
+at the upper right opens a menu to help
+manage the user's account. My Settings (or
+clicking the person icon on the banner)
+enables you to change the user name; however
+if you select Change Password and cancel,
+the application will crash; F5 to refresh
+seems to recover}_*
+
+image::IZCloud:IZCLOUD-CAMP-My-Settings.png[image,width=800]
+
+image::IZCloud:IZCLOUD-CAMP-Change-Password.png[image,width=800]
+
 == Troubleshooting
 
 image::IZCloud:IZCLOUD-CAMP-Maintentance-Cameras.png[image,width=800]
 
-
+image::IZCloud:IZCLOUD-CAMP-Maintentance-Dashboard.png[image,width=800]
 
 
 
