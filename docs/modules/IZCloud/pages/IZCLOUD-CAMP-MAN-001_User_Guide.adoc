@@ -116,14 +116,138 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 ====
 
+Rule can be enabled when editing a reservation
+can set the car limit
+If more than car limit is attempted,
+cars over limit cannot come in; but
+after 72 hrs (to make sure we didn't
+miss a car leaving)or one of the car leaves
+then an additional car can enter.
+
+
 == Logging In
+*_/{add a note that customer will have
+a custom site URL and will get
+username and password from INEX}_*
+
+== Viewing, Filtering and Exporting Events
+
+Blue background means it was matched to a
+reservation.
+
+Click on the LP images to get all images
+captured at that time
+
+image::IZCloud:IZCLOUD-CAMP-Events.png[image,width=800]
+
+image::IZCloud:IZCLOUD-CAMP-Plate-Detail.png[image,width=800]
+
+
+
+click on man item at right to
+add to a list
+
+How to search for a plate or a name
+put in a letter which becomes a wildcard
+for that letter in any position of the
+plate characters
+
+You can ask INEX to add different columns
+such as the name of the vehicle owner, etc.
+
+Date:
+Click on date range to get a date popup
+click on initial date, then on
+final date. Check box to enable filter.
+
+image::IZCloud:IZCLOUD-CAMP-Calendar-Popup.png[image,width=800]
+
+Enable refresh - disable if you have a lot
+of events, and you are trying to find one/filter
+
+Filter by Gate - use dropdown.
+
+Event Type or Type will not be on most users,
+shows what list car was on.
+
+Matched Plate - shows a match to a plate on a list
+Plate Read and Matched Plate can be 2 characters off
+
+Grant - Allowed in, gate opened
+
+Deny - Access denied, gate not opened
+
+There will be more actions in the future.
+
+Plates should not be on multiple lists
+but if they are, only one list will show
+in the EventType column, and the "man" icon
+will not be shown since plate is on a list.
+
+There is an option INEX can add - Name of owner
+
+Export to Excel button - be sure to select and check
+a time range of a week or less, export will also
+take all filters into account (such as only Vendors)
+
+Alarms will display all vehicles that attempted entry
+that are not on a list. When such a vehicle comes in
+there will be a popup anywhere on the site, and
+user will have to go to the Alarm screen to see a list of
+all of them.
+*_/{get screen shot from Erick}_*
+
+Alarms will be disabled by default - ask INEX if you want them
+
+image::IZCloud:IZCLOUD-CAMP-Unread-Alarms.png[image,width=800]
+
+image::IZCloud:IZCLOUD-CAMP-Alarm-Popup.png[image,width=800]
+
+
+== Viewing Live Video (Gates) and Opening a Gate in an Emergency
+
+Coordinate with {compname-short} support
+to set up access to your site's cameras
+to enable a live video feed on this Gates page.
+
+image::IZCloud:IZCLOUD-CAMP-Gates.png[image,width=800]
+
+* Correct Plate Read: Enables correction of LPR read of
+the last vehicle that passed through the gate
+
+* Emergency Open: Press button, get are you sure,
+then gate opens; for ambulance, police etc.
+
+* Add to List: only active if plate is not already
+on a list
+
+* Add to Reservation: enables manually adding
+car to an imported reservation. Comes from
+a campground reservation site.
+demo site does not have this menu item
+but it will be there.
+
 
 == Adding a List (Support Team Request)
 Call or email the {compname-short} support team
-*_/{what is the email?}_*
+
+Watch Lists is a list of all the lists.
+
+A list can be created to NOT open the gate,
+but still have the plates on that list
+appear in the Events.
+
+List could also be one for which Alerts
+will popup (or only for an unknown vehicle as
+it is on only one site now.)
 
 == Adding New People to a List
 Multiple plates can be separated by commas
+
+Lists are of main people
+Sub-lists are tied to one particular person,
+such as guests for a resident
+
 
 *_/{Not all buttons in the GUI have tooltips;
 furthermore, some say edit OWNER/delete OWNER -
@@ -136,20 +260,8 @@ image::IZCloud:IZCLOUD-CAMP-List-Vendors.png[image,width=800]
 
 image::IZCloud:IZCLOUD-CAMP-Edit-List-Item.png[image,width=800]
 
-== Viewing Events
-And all images on the Event
-
-Coordinate with {compname-short} support
-to set up access to your site's cameras
-to enable a live video feed on this page.
-
-image::IZCloud:IZCLOUD-CAMP-Gates.png[image,width=800]
-
-image::IZCloud:IZCLOUD-CAMP-Events.png[image,width=800]
-
-image::IZCloud:IZCLOUD-CAMP-Plate-Detail.png[image,width=800]
-
 == Importing a List of Plates
+
 *_/{What does the "send activation
 email" check box do in the import
 dialog;  why is the dialog called
@@ -168,11 +280,13 @@ Password {means what?} (True/False), Active (True/False)}_*
 image::IZCloud:IZCLOUD-CAMP-Import-Template.png[image,width=800]
 
 == Exporting a List of Plates
+Via the export button from the Events screen
 
 == Viewing the Dashboard
-*_/{need this - it was suggested by Pinchas?}_*
+*_/{need this - it was suggested by Pinchas? or just
+refer to Troubleshooting section?}_*
 
-== Opening a Gate Immediately (Emergency Open Button)
+image::IZCloud:IZCLOUD-CAMP-Maintentance-Dashboard.png[image,width=800]
 
 == Changing Username and Password
 
@@ -190,6 +304,16 @@ image::IZCloud:IZCLOUD-CAMP-My-Settings.png[image,width=800]
 image::IZCloud:IZCLOUD-CAMP-Change-Password.png[image,width=800]
 
 == Troubleshooting
+Note that the maintenance screen
+is good for seeing if the DPU is online
+It does not indicate anything about
+if the camera is online, or health of the camera
+(we are using IZ600Fs with DPUs)
+
+Review Results in dropdown at side of camera entry
+should show all of the events seen by that
+camera but it is not working.
+
 
 image::IZCloud:IZCLOUD-CAMP-Maintentance-Cameras.png[image,width=800]
 

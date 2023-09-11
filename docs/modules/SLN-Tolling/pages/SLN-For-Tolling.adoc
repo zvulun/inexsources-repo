@@ -249,6 +249,16 @@ are missing out on the convenience and added value that
 Here is a partial list of successfully delivered major {compname-short} projects for {shortprodname} clients.
 
 === Illinois State Toll Highway Authority {empty} image:ISTHA-Logo.png[image,width=60,align=left]
+*_/{Reword these/reduce them - and find out the exact
+conditions of each metric}_*
+
+* Total length of roads - per lane, per direction?
+
+* Number of cameras
+
+* Transactions per year - per each passage on gantry, or per total trip?
+
+* How much revenue from tolls - per year
 
 === New York State Thruway {empty} image:NYSTA-Logo.png[image,width=70,align=left]
 
