@@ -157,23 +157,19 @@ flow while upholding security standards.
 {compname-short}’s innovative AlphaV Billing System
 encompasses:
 
-* *Consolidated Bills:* *_/{original said "open billing" which
-isnt't specific enough; I changed it to Consolidated}_*
-Constructs a unified bill by combining multiple toll
-transactions, providing a user-friendly billing approach
+* *Open Billing:* For toll roads where a fixed amount of is paid,
+regardless of where the vehicle enters/exits or the distance
+travelled
 
-* *Entry/Exit Point Billing:* *_/{original said "closed billing"
-which wasn't clear enough; I changed it to Entry/Exit Point
-Billing}_*
-Charges are determined based on
+* *Closed Billing:* Charges are determined based on
 entry and exit points of vehicles on specific
-road segments, ensuring accurate and fair billing
+road segments, according to the distance travelled
 
 * *Dynamic Road Pricing:* Tailors toll fees based on
 variables such as vehicle type, time of day, congestion,
 and other relevant factors. This dynamic approach not
-only optimizes revenue but also manages traffic flow,
-potentially reducing peak-time congestion.
+only optimizes revenue but can also potentially reduce
+peak-time congestion.
 
 * *Multiple Payment Sources:* Bank, credit card, eWallet
 
