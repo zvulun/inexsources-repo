@@ -114,10 +114,8 @@ and bullets in 3rd column
 .^| Power Consumption
 .^| 25 W
 
-2.3+.^| Accessories Included
-.^| Sunshade
-.^| Waterproof outdoor RJ-45 cable connector
-.^| Waterproof outdoor M12 cable connector
+2.1+.^| Accessories Included
+.^| Patch Cable
 
 2.6+.^| Accessories Available
 .^| DIN Rail Mount Power Supplies (xref:IZPWR:DocList.adoc[IZPWR])
