@@ -1,4 +1,4 @@
-[table.withborders,width="80%",cols="25%,25%,25%,25%",options="header",]
+[table.withborders,width="50%",cols="16%,28%,28%,28%",options="header",]
 |===
 |Color |WG26/34 |RS232 |RS485
 |Red |12 VDC |12 VDC |12 VDC
