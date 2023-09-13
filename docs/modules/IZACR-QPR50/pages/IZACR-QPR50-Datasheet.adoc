@@ -68,13 +68,18 @@ image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,2
 == Key Features and Benefits
 * [*] Recognizes QR codes, PIN inputs and RFID cards
 
+* [*] Flexible connectivity - LAN or WiFi
+
 * [*] *_/{Is this true?}_* Integrated with {software-cloud}
+
+* [*] Anti-vandal housing for efficient, worry-free operation
 
 * [*] Wide temperature range - operating from -22°F to 158°F (-30°C to 70°C)
 
 * [*] IP65 ingress protection against moisture and dust
 
-*_/{Does the product have these certifications?}_*
+*_/{Does the product have these certifications?
+what about anti-vandal?}_*
 
 image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
@@ -97,37 +102,19 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
-|Part Number+++**+++ |Description+++***+++
-|{shortprodname} |5-35 ft (2-11 m) range, Deep Red illumination
-|{shortprodname}-S-DR-CAB15F |5-35 ft (2-11 m) range, Deep Red illumination, 15 ft cable set
-|{shortprodname}-S-DRW |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination
-|{shortprodname}-S-DRW-CAB15F |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination, 15 ft cable set
-|{shortprodname}-S-IR |5-35 ft (2-11 m) range, Infrared illumination
-|{shortprodname}-S-IR-CAB15F |5-35 ft (2-11 m) range, Infrared illumination, 15 ft cable set
-|{shortprodname}-S-IRW |5-35 ft (2-11 m) range, Infrared &amp; Visible Light illumination
-|{shortprodname}-S-IRW-CAB15F |5-35 ft (2-11 m) range, Infrared &amp; Visible Light illumination, 15 ft cable set
-|{shortprodname}-L-DR |30-70 ft (9-21 m) range, Deep Red illumination
-|{shortprodname}-L-DR-CAB15F |30-70 ft (9-21 m) range, Deep Red illumination, 15 ft cable set
-|{shortprodname}-L-DRW |30-70 ft (9-21 m) range, Deep Red &amp; Visible Light illumination
-|{shortprodname}-L-DRW-CAB15F |30-70 ft (9-21 m) range, Deep Red &amp; Visible Light illumination, 15 ft cable set
-|{shortprodname}-L-IR |30-70 ft (9-21 m) range, Infrared illumination
-|{shortprodname}-L-IR-CAB15F |30-70 ft (9-21 m) range, Infrared illumination, 15 ft cable set
-|{shortprodname}-L-IRW |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination
-|{shortprodname}-L-IRW-CAB15F |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, 15 ft cable set
-|{shortprodname}-XL-DR |33-80 ft (10-24 m) range, Deep Red illumination
-|{shortprodname}-XL-DR-CAB15F |33-80 ft (10-24 m) range, Deep Red illumination, 15 ft cable set
-|{shortprodname}-XL-DRW |33-80 ft (10-24 m) range, Deep Red &amp; Visible Light illumination
-|{shortprodname}-XL-DRW-CAB15F |33-80 ft (10-24 m) range, Deep Red &amp; Visible Light illumination, 15 ft cable set
+|Part Number |Description
+.^|{shortprodname} .^|Access Control Reader
+.^|IZACP-2D .^|Two-door Access Control Panel
+.^|IZACA-MCPS .^|Metal case with power supply for {compname-short} access control panels
+.^|IZAC-QPR-1D .^|Single Door Access Bundle (includes reader, control panel and case)
 |===
-
-+++***+++ All models have 12 VDC input voltage
 
 +++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Standard Package Contents
 
-* {shortprodname}
+* {shortprodname} {generic-product-name}
 
 * Patch cable *_/{Is this supplied?}_*
 
@@ -135,6 +122,9 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 
 [discrete]
 == Dimensions (mm)
+
+*_/{Dimension numbers are incorrect
+The keypad is rectangular, not square}_*
 
 image::ROOT:IZACR-QPR50/IZACR-QPR50-Dimensions.png[image,width=700,align=left]
 
