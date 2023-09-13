@@ -136,7 +136,7 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 [discrete]
 == Dimensions (mm)
 
-image::ROOT:IZACR-QPR50/IZACR-QPR50-Dimensions.png[image,width=315,align=left]
+image::ROOT:IZACR-QPR50/IZACR-QPR50-Dimensions.png[image,width=700,align=left]
 
 +++<div class="pagebreak"> </div>+++
 
