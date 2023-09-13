@@ -122,9 +122,9 @@ and bullets in 3rd column
 2.6+.^| Accessories Available
 .^| DIN Rail Mount Power Supplies (xref:IZPWR:DocList.adoc[IZPWR])
 .^| Digital I/O Controller (xref:IZIO:DocList.adoc[{hw-iocontroller}])
-.^| Power/Signals Cable for {shortprodname} System+++<br>+++
+.^| Power/Signals Cable for xxx System+++<br>+++
 (xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS])
-.^| LAN Cable for {shortprodname} System (xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN])
+.^| LAN Cable for xxx System (xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN])
 .^| Different xref:MNT-ProdToMountMap:DocList.adoc[mount options] available
 .^| External Illuminator (xref:IZS:DocList.adoc[{illum-strobe} Series])
 
