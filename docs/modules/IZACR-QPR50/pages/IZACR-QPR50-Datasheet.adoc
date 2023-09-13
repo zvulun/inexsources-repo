@@ -41,11 +41,13 @@
 == Access Control Reader
 
 [discrete]
-=== Rev. F3
+=== Rev. A
 //[discrete]
 //=== Datasheet
 
-image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,400,align=left]
+image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,200,align=left]
+
+
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -66,26 +68,15 @@ image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,4
 == Key Features and Benefits
 * [*] Recognizes QR codes, PIN inputs and RFID cards
 
-* [*] NVIDIA® Artificial Intelligence (AI) GPU processor for lightning fast processing at the edge
+* [*] *_/{Is this true?}_* Integrated with {software-cloud}
 
-* [*] RoadView video analytics on edge for in-depth vehicle analysis
-
-* [*] Integrated with {software-cloud}
-
-* [*] Dual sensor provides multiple paths to perfect ALPR reads
-
-* [*] Multi-flash technology for greater read accuracy and capture under all conditions
-
-* [*] Motorized zoom and auto-focus - the key to optimized remote tuning
-
-* [*] Anti-glare technology for all lighting environments
-
-* [*] Wide temperature range - operating from -22°F to 140°F (-30°C to 60°C)
+* [*] Wide temperature range - operating from -22°F to 158°F (-30°C to 70°C)
 
 * [*] IP65 ingress protection against moisture and dust
 
-* [*] IK10 vandal-proof housing for efficient, worry-free operation
+*_/{Does the product have these certifications?}_*
 
+image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
 image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 

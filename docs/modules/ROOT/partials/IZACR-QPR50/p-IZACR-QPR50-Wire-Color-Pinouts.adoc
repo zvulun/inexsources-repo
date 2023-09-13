@@ -5,7 +5,7 @@
 |Black |GND |GND |GND
 |Green |D0 |RX |4R{plus}
 |White |D1 |TX |4R-
-|Blue |LED |12 VDC |12 VDC
+|Blue |LED | +++---+++ |+++---+++
 |Yellow |BEEP |+++---+++ |+++---+++
 |Gray |WG26/34 |+++---+++ |+++---+++
 |===
