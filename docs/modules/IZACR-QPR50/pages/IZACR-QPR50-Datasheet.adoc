@@ -128,7 +128,7 @@ include::ROOT:partial$/IZACR-QPR50/p-IZACR-QPR50-spec-table.adoc[IZACR-QPR50 Spe
 
 image::ROOT:IZACR-QPR50/IZACR-QPR50-Dimensions.png[image,width=700,align=left]
 
-+++<div class="pagebreak"> </div>+++
+//+++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Patch Cable Wire Color Pinouts
