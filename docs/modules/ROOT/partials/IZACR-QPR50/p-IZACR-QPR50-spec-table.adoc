@@ -93,6 +93,7 @@
 
 2.2+.^| Accessories Available
 .^| Two-door Access Control Panel (xref:IZACP-2D:DocList.adoc[IZACP-2D])
-.^| Metal case with power supply for {compname-short} access control panels (xref:IZACA-MCPS:DocList.adoc[IZACA-MCPS])
+.^| Metal case with power supply for {compname-short} access control +
+panels (xref:IZACA-MCPS:DocList.adoc[IZACA-MCPS])
 |===
 
