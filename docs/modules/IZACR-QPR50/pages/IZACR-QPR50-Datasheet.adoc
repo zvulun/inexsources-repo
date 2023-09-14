@@ -126,6 +126,8 @@ image::ROOT:IZACR-QPR50/IZACR-QPR50-Dimensions.png[image,width=500,align=left]
 
 include::ROOT:partial$IZACR-QPR50/p-IZACR-QPR50-Wire-Color-Pinouts.adoc[IZACR-QPR50 Wire Color Pinouts]
 
+{empty} +
+
 <<<
 
 [discrete]
@@ -133,6 +135,7 @@ include::ROOT:partial$IZACR-QPR50/p-IZACR-QPR50-Wire-Color-Pinouts.adoc[IZACR-QP
 
 image::ROOT:IZACR-QPR50/IZACR-QPR50-System_Diagram.png[image,width=800,align=left]
 
+{empty} +
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
