@@ -45,6 +45,8 @@
 //[discrete]
 //=== Datasheet
 
+{empty} +
+
 image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,200,align=left]
 
 

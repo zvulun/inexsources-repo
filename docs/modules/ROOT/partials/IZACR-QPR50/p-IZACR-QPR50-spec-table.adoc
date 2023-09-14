@@ -64,7 +64,7 @@ not clear from website}_*
 .^| Color
 .^| *_\{is this the color we are using?}_*Black
 
-.5+.^| Interface
+.6+.^| Interface
 .^| Communication Types (via Access Panel)
 .^| LAN, WiFi
 
@@ -74,20 +74,22 @@ not clear from website}_*
 type/description of the connector?}_*
 
 .1+.^| Wiegand (WG26/34)
-.^a| * D0
-* D1
+.^a| * D0, D1
 * LED
 * BEEP
 * WG26/34
 
 .1+.^| RS232
-.^a| * RX
-* TX
+.^a| RX, TX
+
 
 .1+.^| RS485 *_\{changed to
 standard RS485 notation}_*
-.^a| * A (-)
-* B ({plus})
+.^a| A (-), B ({plus})
+
+.1+.^| Indicator
+.^a| Green power indicator
+
 
 .2+.^| Power
 .^| Input Voltage
