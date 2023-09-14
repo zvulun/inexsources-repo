@@ -122,9 +122,11 @@ include::ROOT:partial$/IZACR-QPR50/p-IZACR-QPR50-spec-table.adoc[IZACR-QPR50 Spe
 [discrete]
 == Dimensions (mm)
 
-image::ROOT:IZACR-QPR50/IZACR-QPR50-Dimensions.png[image,width=700,align=left]
+image::ROOT:IZACR-QPR50/IZACR-QPR50-Dimensions.png[image,width=400,align=left]
 
 //+++<div class="pagebreak"> </div>+++
+
+<<<
 
 [discrete]
 == Patch Cable Wire Color Pinouts
@@ -134,9 +136,6 @@ image::ROOT:IZACR-QPR50/IZACR-QPR50-Patch-Cable-Colored-Leads.png[image,width=39
 {empty} +
 
 include::ROOT:partial$IZACR-QPR50/p-IZACR-QPR50-Wire-Color-Pinouts.adoc[IZACR-QPR50 Wire Color Pinouts]
-
-<<<
-
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
