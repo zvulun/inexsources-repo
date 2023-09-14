@@ -1,11 +1,15 @@
-[table.withborders,width="50%",cols="16%,28%,28%,28%",options="header",]
+[table.withborders,cols="2,2a",width="80%",frame=none,grid=none]
 |===
-|Color |WG26/34 |RS232 |RS485
-|Red |12 VDC |12 VDC |12 VDC
-|Black |GND |GND |GND
-|Green |D0 |RX |4R{plus} (B{plus})
-|White |D1 |TX |4R- (A-)
-|Blue |LED | +++---+++ |+++---+++
-|Yellow |BEEP |+++---+++ |+++---+++
-|Gray |WG26/34 |+++---+++ |+++---+++
+| image:ROOT:IZACR-QPR50/IZACR-QPR50-Patch-Cable-Colored-Leads.png[image,width=400]
+| [table.withborders,width="80%",cols="1,2,2,2",options="header",]
+!===
+!Color !WG26/34 !RS232 !RS485
+!Red !12 VDC !12 VDC !12 VDC
+!Black !GND !GND !GND
+!Green !D0 !RX !4R{plus} (B{plus})
+!White !D1 !TX !4R- (A-)
+!Blue !LED ! +++---+++ !+++---+++
+!Yellow !BEEP !+++---+++ !+++---+++
+!Gray !WG26/34 !+++---+++ !+++---+++
+!===
 |===

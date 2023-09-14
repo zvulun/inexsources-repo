@@ -70,9 +70,7 @@ image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,2
 == Key Features and Benefits
 * [*] Recognizes QR codes, PIN inputs and RFID cards
 
-* [*] Flexible connectivity - LAN or WiFi
-
-* [*] Integrated with {software-cloud} for comprehensive monitoring
+* [*] Integrated with the {software-cloud} Access Control system
 
 * [*] Tempered glass for protection against vandalism
 

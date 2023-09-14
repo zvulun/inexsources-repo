@@ -44,39 +44,41 @@
 .^| Tempered glass panel
 
 
-.3+.^| Physical
+.4+.^| Physical
 .^| Dimensions
 .^| (H x W x D) 4.7" x 2.8" x 0.7" +
 (120 mm x 72 mm x 18 mm)
 
 
+.^| Front Panel
+.^| Tempered glass
+
 .^| Weight
 .^| 11 oz (300 g)
-
 
 .^| Color
 .^| Black
 
 .6+.^| Interface
-.^| Communication Types (via Access Panel)
-.^| LAN, WiFi
-
 
 .1+.^| Connector
 .^| Power/signals pins connector on back of unit
 
-.1+.^| Wiegand (WG26/34)
+.1+.^| Wiegand WG26/34 +
+(Communication to Panel)
 .^a| * D0, D1
-* LED
-* BEEP
 * WG26/34
+
+.1+.^| Additional Signals
+.^a| * LED
+* BEEP
 
 .1+.^| RS232
 .^a| RX, TX
 
 
 .1+.^| RS485
-.^a| 4R- [A (-)], 4R{plus} [B ({plus})]
+.^a| A (-), B ({plus})
 
 .1+.^| Indicator
 .^a| Power indicator (green)
@@ -84,14 +86,11 @@
 
 .2+.^| Power
 .^| Input Voltage
-.^| 12 VDC {plus}
+.^| 12 VDC
 .^| Current Consumption
 .^| < 120 mA
 
 2.1+.^| Accessories Included
 .^| Patch cable
-
-2.1+.^| Accessories Available
-.^| Two-door Access Control Panel (xref:IZACP-2D:DocList.adoc[IZACP-2D])
 |===
 
