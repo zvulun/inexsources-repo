@@ -78,12 +78,14 @@ image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,2
 
 * [*] IP65 ingress protection against moisture and dust
 
-*_\{Does the product have these certifications?
-what about anti-vandal?}_*
+*_\{Assuming that this product has these certifications?
+what about anti-vandal? RoHS - catalog claims
+RoHS but can't see certificate?}_*
 
 image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
-image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
+image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
+//image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 
 --
 +++<div class="pagebreak"> </div>+++
