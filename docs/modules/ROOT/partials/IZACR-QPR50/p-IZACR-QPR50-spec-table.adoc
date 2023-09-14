@@ -6,17 +6,17 @@
 .^| Specification
 // {set:cellbgcolor:#c0c0c0}
 
-2+.^| Recognition Types
-.^| QR, PIN, RFID card
+2+.^| Identification Methods
+.^| QR Code, PIN, RFID Card
 
-.2+.^| QR Reads
+.2+.^| QR Code
 //{set:cellbgcolor!}
 .^| Read Distance
 .^| 0-7.9 in (0-20 cm)
 .^| Read Speed
 .^| < 200 ms
 
-.2+.^| RFID Reads
+.2+.^| RFID Card
 //{set:cellbgcolor!}
 .^| Read Distance
 .^| 1.2-2.0 in (3-5 cm)
@@ -44,7 +44,7 @@
 .^| Tempered glass panel
 
 
-.4+.^| Physical
+.5+.^| Physical
 .^| Dimensions
 .^| (H x W x D) 4.7" x 2.8" x 0.7" +
 (120 mm x 72 mm x 18 mm)
@@ -53,16 +53,16 @@
 .^| Front Panel
 .^| Tempered glass
 
+.^| Case Material
+.^| Aluminum alloy
+
 .^| Weight
 .^| 11 oz (300 g)
 
 .^| Color
 .^| Black
 
-.6+.^| Interface
-
-.1+.^| Connector
-.^| Power/signals pins connector on back of unit
+.4+.^| Connector
 
 .1+.^| Wiegand WG26/34
 .^a| * D0, D1
@@ -79,15 +79,15 @@
 .1+.^| RS485
 .^a| A (-), B ({plus})
 
-.1+.^| Indicator
-.^a| Power indicator (green)
-
-
 .2+.^| Power
 .^| Input Voltage
 .^| 12 VDC
 .^| Current Consumption
 .^| < 120 mA
+
+2+.^| Indicator
+.^| Power indicator (green)
+
 
 2.2+.^| Accessories Included
 .^| Patch cable with flying leads
