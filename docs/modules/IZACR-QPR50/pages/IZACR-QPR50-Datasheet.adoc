@@ -41,7 +41,7 @@
 == Access Control Reader
 
 [discrete]
-=== Rev. A
+=== Rev. A1
 //[discrete]
 //=== Datasheet
 
@@ -125,8 +125,7 @@ include::ROOT:partial$/IZACR-QPR50/p-IZACR-QPR50-spec-table.adoc[IZACR-QPR50 Spe
 [discrete]
 == Dimensions (mm)
 
-*_\{Dimension numbers are incorrect
-The keypad is rectangular, not square}_*
+*_\{dimensions taken from catalog}_*
 
 image::ROOT:IZACR-QPR50/IZACR-QPR50-Dimensions.png[image,width=700,align=left]
 
