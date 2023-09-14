@@ -64,8 +64,7 @@
 .1+.^| Connector
 .^| Power/signals pins connector on back of unit
 
-.1+.^| Wiegand WG26/34 +
-(Communication to Panel)
+.1+.^| Wiegand WG26/34
 .^a| * D0, D1
 * WG26/34
 
