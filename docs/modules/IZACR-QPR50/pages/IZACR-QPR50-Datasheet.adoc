@@ -2,7 +2,7 @@
 :shortprodname: IZACR-QPR50
 :generic-product-name: Access Control Reader
 
-// These attributes have been soft set
+// These  attributes have been soft set
 // In the playbooks, so they can be
 // overridden if desired
 //:eyesafetystandard-1: IEC62471 Group 1
