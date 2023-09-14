@@ -89,7 +89,9 @@
 .^| Current Consumption
 .^| < 120 mA
 
-2.1+.^| Accessories Included
-.^| Patch cable
+2.2+.^| Accessories Included
+.^| Patch cable with flying leads
+.^| Screwdriver for removing
+back mounting plate
 |===
 
