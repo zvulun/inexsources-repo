@@ -41,7 +41,7 @@
 == Access Control Reader
 
 [discrete]
-=== Rev. A1
+=== Rev. A
 //[discrete]
 //=== Datasheet
 
@@ -144,5 +144,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-REV-A1-TDSHEET
+Doc. No. {shortprodname}-REV-A-TDSHEET
 
