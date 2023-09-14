@@ -3,8 +3,8 @@
 |Color |WG26/34 |RS232 |RS485
 |Red |12 VDC |12 VDC |12 VDC
 |Black |GND |GND |GND
-|Green |D0 |RX |4R{plus}
-|White |D1 |TX |4R-
+|Green |D0 |RX |4R{plus} (B{plus})
+|White |D1 |TX |4R- (A-)
 |Blue |LED | +++---+++ |+++---+++
 |Yellow |BEEP |+++---+++ |+++---+++
 |Gray |WG26/34 |+++---+++ |+++---+++
