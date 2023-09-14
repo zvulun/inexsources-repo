@@ -12,17 +12,15 @@
 .2+.^| QR Reads
 //{set:cellbgcolor!}
 .^| Read Distance
-.^| *_\{but website says 0-20 cm}_*0-3.9 in (0-10 cm)
-.^| Reading Speed *_\{is this for RFID, QR or both?
-not clear from website}_*
+.^| 0-7.9 in (0-20 cm)
+.^| Reading Speed
 .^| < 200 ms
 
 .2+.^| RFID Reads
 //{set:cellbgcolor!}
 .^| Read Distance
 .^| 1.2-2.0 in (3-5 cm)
-.^| Reading Speed *_\{is this for RFID, QR or both?
-not clear from website}_*
+.^| Reading Speed
 .^| < 200 ms
 
 .3+.^| Environmental
@@ -88,8 +86,7 @@ not clear from website}_*
 .^| Input Voltage
 .^| 12 VDC {plus}
 .^| Current Consumption
-.^| *_\{catalog says < 60 mA; website says
-standby 100 mA, peak value 300 mA}_*
+.^| < 120 mA
 
 2.1+.^| Accessories Included
 .^| Patch Cable
