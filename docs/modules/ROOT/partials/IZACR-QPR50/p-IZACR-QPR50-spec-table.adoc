@@ -13,14 +13,14 @@
 //{set:cellbgcolor!}
 .^| Read Distance
 .^| 0-7.9 in (0-20 cm)
-.^| Reading Speed
+.^| Read Speed
 .^| < 200 ms
 
 .2+.^| RFID Reads
 //{set:cellbgcolor!}
 .^| Read Distance
 .^| 1.2-2.0 in (3-5 cm)
-.^| Reading Speed
+.^| Read Speed
 .^| < 200 ms
 
 .3+.^| Environmental

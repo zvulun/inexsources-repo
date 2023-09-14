@@ -74,7 +74,7 @@ image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,2
 
 * [*] Integrated with {software-cloud} for comprehensive monitoring
 
-* [*] Anti-vandal housing for efficient, worry-free operation
+* [*] Tempered glass for protection against vandalism
 
 * [*] Wide temperature range - operating from -22°F to 158°F (-30°C to 70°C)
 
