@@ -80,10 +80,6 @@ image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,2
 
 * [*] IP65 ingress protection against moisture and dust
 
-*_\{Assuming that this product has these certifications?
-what about anti-vandal? RoHS - catalog claims
-RoHS but can't see certificate?}_*
-
 image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
 image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
@@ -119,14 +115,12 @@ include::ROOT:partial$/IZACR-QPR50/p-IZACR-QPR50-spec-table.adoc[IZACR-QPR50 Spe
 
 * {shortprodname} {generic-product-name}
 
-* Patch cable *_\{Is this supplied?}_*
+* Patch cable with flying leads
 
 //+++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Dimensions (mm)
-
-*_\{dimensions taken from catalog}_*
 
 image::ROOT:IZACR-QPR50/IZACR-QPR50-Dimensions.png[image,width=700,align=left]
 

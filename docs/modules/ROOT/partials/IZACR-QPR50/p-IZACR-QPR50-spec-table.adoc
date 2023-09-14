@@ -7,7 +7,7 @@
 // {set:cellbgcolor:#c0c0c0}
 
 2+.^| Recognition Types
-.^| QR, PIN, RFID *_\{what type of card - EM?}_*
+.^| QR, PIN, RFID card
 
 .2+.^| QR Reads
 //{set:cellbgcolor!}
@@ -37,13 +37,9 @@ not clear from website}_*
 .^| Humidity
 .^| 10% - 90% RH, non-condensing
 
-.3+.^| Certifications
+.2+.^| Certifications
 .^| EMC
-.^| FCC *_\{what class? B/CE? A? what about CE?}_*
-
-
-.^| *_\{does it have?}_* RoHS
-.^| RoHS
+.^| CE, FCC Part 15, Subpart B
 
 
 .^| Impact Protection
@@ -52,9 +48,8 @@ not clear from website}_*
 
 .3+.^| Physical
 .^| Dimensions
-.^| *_\{taken from catalog}_*
-(H x W x D) 6.5" x 3.1" x 1.0" +
-(165 mm x 80 mm x 25 mm)
+.^| (H x W x D) 4.7" x 2.8" x 0.7" +
+(120 mm x 72 mm x 18 mm)
 
 
 .^| Weight
@@ -62,7 +57,7 @@ not clear from website}_*
 
 
 .^| Color
-.^| *_\{is this the color we are using?}_*Black
+.^| Black
 
 .6+.^| Interface
 .^| Communication Types (via Access Panel)
@@ -70,8 +65,7 @@ not clear from website}_*
 
 
 .1+.^| Connector
-.^| Power/Signals - *_\{what is the
-type/description of the connector?}_*
+.^| Power/Signals on back of unit
 
 .1+.^| Wiegand (WG26/34)
 .^a| * D0, D1
@@ -83,12 +77,11 @@ type/description of the connector?}_*
 .^a| RX, TX
 
 
-.1+.^| RS485 *_\{changed to
-standard RS485 notation}_*
-.^a| A (-), B ({plus})
+.1+.^| RS485
+.^a| 4R- [A (-)], 4R{plus} [B ({plus})]
 
 .1+.^| Indicator
-.^a| Green power indicator
+.^a| Power indicator (green)
 
 
 .2+.^| Power
