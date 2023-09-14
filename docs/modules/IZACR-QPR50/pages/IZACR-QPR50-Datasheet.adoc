@@ -131,7 +131,7 @@ include::ROOT:partial$IZACR-QPR50/p-IZACR-QPR50-Wire-Color-Pinouts.adoc[IZACR-QP
 [discrete]
 == Typical System Diagram
 
-image::ROOT:IZACR-QPR50/IZACR-QPR50-System_Diagram.png[image,width=500,align=left]
+image::ROOT:IZACR-QPR50/IZACR-QPR50-System_Diagram.png[image,width=800,align=left]
 
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
