@@ -102,8 +102,6 @@ include::ROOT:partial$/IZACR-QPR50/p-IZACR-QPR50-spec-table.adoc[IZACR-QPR50 Spe
 |===
 |Part Number |Description
 .^|{shortprodname} .^|Access Control Reader
-.^|IZACP-2D .^|Two-door Access Control Panel
-.^|IZACA-MCPS .^|Metal case with power supply for {compname-short} access control panels
 .^|IZAC-QPR-1D .^|Single Door Access Bundle (includes reader, control panel and case)
 |===
 
