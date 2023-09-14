@@ -97,8 +97,6 @@ image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
 
 include::ROOT:partial$/IZACR-QPR50/p-IZACR-QPR50-spec-table.adoc[IZACR-QPR50 Spec table]
 
-+++<div class="pagebreak"> </div>+++
-
 [discrete]
 == Ordering Information
 
@@ -112,7 +110,7 @@ include::ROOT:partial$/IZACR-QPR50/p-IZACR-QPR50-spec-table.adoc[IZACR-QPR50 Spe
 *_\{if panel can accommodate 2 doors, why is bundle for only one door?}_*
 |===
 
-+++<div class="pagebreak"> </div>+++
+//+++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Standard Package Contents
