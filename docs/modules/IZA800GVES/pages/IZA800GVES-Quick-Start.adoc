@@ -76,6 +76,30 @@ You can use xref:IZDiscovery:DocList.adoc[{software-discovery}] to find the desi
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
+
+{empty} +
+
+[IMPORTANT]
+
+========================================
+When opening or closing the housing's
+captive screws, turn the screws
+ALTERNATELY, a little at a time -
+DO NOT open/close one screw completely.
+This places an extreme angle between
+the captive screws, and may cause paint
+to crack around the screw holes,
+increasing the likelihood of corrosion.
+
+The torques required to connect the
+cable connectors to the connectors
+on the Camera System are as follows:
+Power/signals cable: 3-4 kgf.cm / 0.29-0.39 N.m.
+LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
+
+========================================
+
+
 +++<div class="pagebreak"> </div>+++
 
 [#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
