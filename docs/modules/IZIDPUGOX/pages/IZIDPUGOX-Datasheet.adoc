@@ -45,7 +45,5 @@
 //[discrete]
 //=== Datasheet
 
-{empty} +
-
-image:ROOT:image$/IZIDPUGOX/IZIDPUGOX-Semi-Trans2.png[Picture of AC Reader,200,align=left]
+image:ROOT:image$/IZIDPUGOX/IZIDPUGOX-Semi-Trans2.png[Picture of AC Reader,400,align=left]
 

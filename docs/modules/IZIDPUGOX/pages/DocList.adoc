@@ -1,3 +1,3 @@
 = IZIDPUGOX Documents List
 
-* xref:IZIDPUGOX:IZIDPUGOX-Datasheet.adoc[IZIDPUGOX Datasheet]]
+* xref:IZIDPUGOX:IZIDPUGOX-Datasheet.adoc[IZIDPUGOX Datasheet]
