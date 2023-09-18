@@ -82,7 +82,7 @@ AI frameworks and software platforms
 * [*] Wide temperature range - operating from 14°F to 140°F (-10°C to 60°C)
 
 image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
-image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+//image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
 image:ROOT:image$UKCA_Logo.png[UKCA Logo,28,align=right]
 image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
