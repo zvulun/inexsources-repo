@@ -75,6 +75,8 @@ You can use xref:IZDiscovery:DocList.adoc[{software-discovery}] to find the desi
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
+{empty} +
+
 [IMPORTANT]
 
 ========================================
