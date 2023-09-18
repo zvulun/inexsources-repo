@@ -1,6 +1,6 @@
 :docproductname: IZIDPUGOX
 :shortprodname: IZIDPUGOX
-:generic-product-name: AIndoor AI Data Processing Unit with Orin NX
+:generic-product-name: Indoor AI Data Processing Unit with Orin(TM) NX
 
 // These attributes have been soft set
 // In the playbooks, so they can be
@@ -38,7 +38,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Indoor AI Data Processing Unit with Orin NX
+== Indoor AI Data Processing Unit with Orin(TM) NX
 
 [discrete]
 === Rev. A
@@ -47,3 +47,98 @@
 
 image:ROOT:image$/IZIDPUGOX/IZIDPUGOX-Semi-Trans2.png[Picture of AC Reader,300,align=left]
 
+// no section numbers in datasheets
+//:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+// no TOC in datasheets ._Click to show the Table of Contents_
+// [%collapsible]
+// ====
+
+// toc::[]
+
+// ====
+
+[discrete]
+== Key Features and Benefits
+* [*] Superior AI Performance for production:
+on-device processing with up to 100 TOPS AI
+performance with low power and low latency
+
+* [*] Edge AI device: includes NVIDIA Jetson Orin(TM) NX 16GB production module,
+a cooling fan with a heatsink, enclosure,
+and a power adapter. Supports DIN rail mounting.
+
+* [*] Accelerate solutions to market:
+pre-installed Jetpack with NVIDIA JetPack(TM)
+5.1.1 on the included 128GB NVMe SSD,
+Linux OS BSP, 128GB SSD,
+supports Jetson software and leading
+AI frameworks and software platforms
+
+* [*] Wide temperature range - operating from 14°F to 140°F (-10°C to 60°C)
+
+image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
+image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
+image:ROOT:image$UKCA_Logo.png[UKCA Logo,28,align=right]
+image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
+image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
+
+--
++++<div class="pagebreak"> </div>+++
+--
+
+
+[discrete]
+== Specifications
+
+*_\{copy from seeeds; see JIRA for items to omit/edit}_*
+
+[discrete]
+== Ordering Information
+
+[table.withborders,width="100%",cols="25%,75%",options="header",]
+|===
+|Part Number |Description
+.^|IZIDPUGOX .^|{generic-product-name}
+|===
+
+//+++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Standard Package Contents
+
+* {shortprodname} {generic-product-name}
+
+* 12 VDC Power Supply
+
+//+++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Dimensions (mm)
+*_\{TBD}_*
+
+//image::ROOT:IZACR-QPR50/IZACR-QPR50-Dimensions.png[image,width=500,align=left]
+
+//+++<div class="pagebreak"> </div>+++
+
+
+<<<
+
+[discrete]
+== Typical System Diagram
+*_\{TBD}_*
+
+//image::ROOT:IZACR-QPR50/IZACR-QPR50-System_Diagram.png[image,width=500,align=left]
+
+{empty} +
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+Doc. No. {shortprodname}-REV-A-TDSHEET
