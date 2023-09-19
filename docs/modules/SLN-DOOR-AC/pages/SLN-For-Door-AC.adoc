@@ -98,9 +98,6 @@ image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,1
 
 * [*] IP65 ingress protection against moisture and dust
 
-
-<<<
-
 [discrete]
 == Access Control Panel https://inextechnologies.my.salesforce.com/01t4O000009AxjW?srPos=0&srKp=01t[(IZACP-2D), window=_blank]
 
