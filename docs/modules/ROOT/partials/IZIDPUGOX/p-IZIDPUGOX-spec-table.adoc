@@ -77,7 +77,7 @@ architecture GPU with 32 Tensor Cores
 .^| Black
 
 .^| Mounting Options
-.^| DIN Rail
+.^| DIN Rail, Wall
 
 .4+.^| Interface
 .^| Networking

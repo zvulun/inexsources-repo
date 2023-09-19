@@ -69,7 +69,7 @@ on-device processing with up to 100 TOPS AI
 performance with low power and low latency
 
 * [*] Edge AI device: includes NVIDIA Jetson Orin(TM) NX 16GB production module,
-enclosure, and a power adapter. Supports DIN rail mounting.
+*_\{will there be a fan (was not put in specs)?}_* enclosure, and a power adapter. Supports DIN rail mounting.
 
 * [*] Accelerate solutions to market:
 pre-installed Jetpack with NVIDIA JetPack(TM)
