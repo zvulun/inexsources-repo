@@ -115,6 +115,8 @@ PIN inputs and RFID cards
 * [*] Cloud connectivity RJ45 or WiFi
 * [*] Supports RS485
 
+{empty} +
+
 <<<
 
 [discrete]
