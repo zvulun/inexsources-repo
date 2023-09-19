@@ -33,7 +33,7 @@ architecture GPU with 32 Tensor Cores
 
 2+.^| CPU
 .^| 8-core Arm(R) Cortex(R)-A78AE v8.2
-64-bit CPU 2MB L2 + 4MB L3
+64-bit CPU 2MB L2 {plus} 4MB L3
 
 2+.^| CPU Max Frequency
 .^| 2 GHz
