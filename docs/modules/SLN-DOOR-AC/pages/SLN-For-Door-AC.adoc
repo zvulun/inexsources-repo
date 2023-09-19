@@ -77,6 +77,10 @@ A typical system looks like this:
 
 image::ROOT:IZACR-QPR50/IZACR-QPR50-SLN-Sys-Diagram.png[image,width=800,align=left]
 
+{empty} +
+
+<<<
+
 [discrete]
 == Reader https://inextechnologies.my.salesforce.com/01t4O000009AxjR?srPos=0&srKp=01t[(IZACR-QPR50), window=_blank]
 
@@ -95,6 +99,8 @@ image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,1
 * [*] IP65 ingress protection against moisture and dust
 
 
+<<<
+
 [discrete]
 == Access Control Panel https://inextechnologies.my.salesforce.com/01t4O000009AxjW?srPos=0&srKp=01t[(IZACP-2D), window=_blank]
 
@@ -109,6 +115,8 @@ PIN inputs and RFID cards
 * [*] Integrated with IZCloud
 * [*] Cloud connectivity RJ45 or WiFi
 * [*] Supports RS485
+
+<<<
 
 [discrete]
 == Metal Case https://inextechnologies.my.salesforce.com/01t4O000009Axjb?srPos=0&srKp=01t[(IZACA-MCPS), window=_blank]
