@@ -42,6 +42,11 @@
 
 [discrete]
 === Rev. A
+
+[sidebar]
+
++++<font size="-1">+++ Picture for illustration only - subject to change +++</font>+++
+
 //[discrete]
 //=== Datasheet
 
@@ -64,24 +69,24 @@ image:ROOT:image$/IZIDPUGOX/IZIDPUGOX-Semi-Trans2.png[Picture of AC Reader,300,a
 
 [discrete]
 == Key Features and Benefits
-* [*] Superior AI Performance for production:
-on-device processing with up to 100 TOPS AI
-performance with low power and low latency
+* [*] Designed for Public Security and Traffic Enforcement
 
-* [*] Edge AI device: includes NVIDIA Jetson Orin(TM) NX 16GB production module,
-*_\{will there be a fan (was not put in specs)?}_* enclosure, and a power adapter. Supports DIN rail mounting.
+* [*] Supports 2, 4, and 8 megapixel resolutions - camera agnostic for maximum flexibility
 
-* [*] Accelerate solutions to market:
-pre-installed Jetpack with NVIDIA JetPack(TM)
-5.1.1 on the included 128GB NVMe SSD,
-Linux OS BSP, 128GB SSD,
-supports Jetson software and leading
-AI frameworks and software platforms
+* [*] NVIDIA(R) Artificial Intelligence (AI) GPU processor for lightning fast processing
+
+* [*] RoadView video analytics for in-depth vehicle analysis
+
+* [*] Integrated with IZCloud
 
 * [*] Wide temperature range - operating from 14°F to 140°F (-10°C to 60°C)
 
+* [*] NDAA Section 889 compliant for national security
+
+image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+image:ROOT:image$RoadViewLogo.png[RoadView Logo,100,align=right]
 image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
-//image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
 image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
 image:ROOT:image$UKCA_Logo.png[UKCA Logo,28,align=right]
 image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
@@ -130,9 +135,8 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 
 [discrete]
 == Typical System Diagram
-*_\{TBD}_*
 
-//image::ROOT:IZACR-QPR50/IZACR-QPR50-System_Diagram.png[image,width=500,align=left]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-System-Diagram.png[image,width=500,align=left]
 
 {empty} +
 

@@ -6,6 +6,18 @@
 .^| Specification
 // {set:cellbgcolor:#c0c0c0}
 
+.2+.^| Supported Analytics
+{set:cellbgcolor!}
+.^| LPR Analytics
+.^| {lpr-analytics}
+
+
+.^| Vehicle Analytics
+.^| {vehicle-analytics}
+
+2+.^| Processing Power
+.^| 240 fps@2 MP; 120 fps@4 MP; 60 fps@8 MP
+
 2+.^| Module
 .^| Jetson Orin(TM) NX 16GB
 
@@ -42,7 +54,7 @@ architecture GPU with 32 Tensor Cores
 .^| 128GB NVMe SSD
 
 2+.^| Video Encoder
-.^| 1x 4K60 (H.265); 3x 4K30 (H.265) +
+.^| 1x 4K60 (H.265); 3x 4K30 (H.265); +
 6x 1080p60 (H.265); 12x 1080p30 (H.265)
 
 2+.^| Video Decoder
@@ -60,7 +72,7 @@ architecture GPU with 32 Tensor Cores
 .^| RoHS
 .^| RoHS
 
-.^| *_\{TBD}_* NDAA
+.^| NDAA
 .^| NDAA Section 889 compliant
 
 .5+.^| Physical
@@ -97,9 +109,9 @@ architecture GPU with 32 Tensor Cores
 .^| Input Voltage
 .^| 12 VDC
 .^| Power Consumption
-.^| *_\{TBD}_*
+.^| 35 W
 
 2+.^| Accessories Included
-.^| Power Supply; DC 12V/5A; +
+.^| Power Supply; 12 VDC/5A +
 Barrel Jack 0.22/0.10 in (5.5/2.5 mm)
 |===
