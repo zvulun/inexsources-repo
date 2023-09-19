@@ -67,7 +67,7 @@
 // ====
 // generalize for all airports
 [discrete]
-== Comprehensive Door Access Control  Solution https://inextechnologies.my.salesforce.com/01t4O000009Axjg?srPos=1&srKp=01t[(IZAC-QPR-1D), window=_blank]
+== Comprehensive Door Access Control Solution https://inextechnologies.my.salesforce.com/01t4O000009Axjg?srPos=1&srKp=01t[(IZAC-QPR-1D), window=_blank]
 {compname-short} offers a comprehensive solution for
 {shortprodname} consisting of several products.
 
@@ -113,7 +113,6 @@ PIN inputs and RFID cards
 * [*] Supports up to two doors
 * [*] Integrated with IZCloud
 * [*] Cloud connectivity RJ45 or WiFi
-* [*] Supports RS485
 
 {empty} +
 
@@ -127,6 +126,19 @@ Metal case accessory complete with a power supply unit. Designed to house and po
 image:ROOT:IZACR-QPR50/IZACA-MCPS-Box-Preliminary.png[Picture of Metal Box,100,align=left]
 
 {empty} +
+
+[discrete]
+== Ordering Information
+[table.withborders,width="100%",cols="25%,75%",options="header",]
+|===
+|Part Number |Description
+.^|IZACR-QPR50 .^|Access Control Reader
+.^|IZACP-2D .^|Access Control Panel
+.^|IZACA-MCPS .^|Metal Box for Panel and Power Supply
+.^|IZAC-QPR-1D .^|Single Door Access Bundle (includes reader, control panel and case)
+|===
+
+
 
 [discrete]
 == Contact Us
