@@ -69,7 +69,7 @@ image:ROOT:image$/IZIDPUGOX/IZIDPUGOX-Semi-Trans2.png[Picture of AC Reader,300,a
 == Key Features and Benefits
 * [*] Designed for Public Security and Traffic Enforcement
 
-* [*] Supports 2, 4, and 8 megapixel resolutions - camera agnostic for maximum flexibility
+* [*] Supports up to 8 megapixel resolutions - camera agnostic for maximum flexibility
 
 * [*] NVIDIA(R) Artificial Intelligence (AI) GPU processor for lightning fast processing
 
