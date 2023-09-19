@@ -1,0 +1,105 @@
+[table.withborders,options="header",cols="24,23,53"]
+|===
+2+.^| Item
+// {set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+// {set:cellbgcolor:#c0c0c0}
+
+2+.^| Module
+.^| Jetson Orin(TM) NX 16GB
+
+2+.^| AI Performance
+.^| 100 TOPS
+
+2+.^| GPU
+.^| 1024-core NVIDIA Ampere
+architecture GPU with 32 Tensor Cores
+
+2+.^| GPU Max Frequency
+.^| 918 MHz
+
+2+.^| CPU
+.^| 8-core Arm(R) Cortex(R)-A78AE v8.2
+64-bit CPU 2MB L2 + 4MB L3
+
+2+.^| CPU Max Frequency
+.^| 2 GHz
+
+2+.^| Memory
+.^| 16GB 128-bit LPDDR5 102.4GB/s
+
+2+.^| DL Accelerator
+.^| 2x NVDLA v2
+
+2+.^| DLA Max Frequency
+.^| 614 MHz
+
+2+.^| Vision Accelerator
+.^| 1x PVA v2
+
+2+.^| Storage
+.^| 128GB NVMe SSD
+
+2+.^| Video Encoder
+.^| 1x 4K60 (H.265); 3x 4K30 (H.265) +
+6x 1080p60 (H.265); 12x 1080p30 (H.265)
+
+2+.^| Video Decoder
+.^| 1x 8K30 (H.265); 2x 4K60 (H.265); 4x 4K30 (H.265); +
+9x 1080p60 (H.265); 18x 1080p30 (H.265)
+
+2+.^| Operating Temperature
+.^| 14°F to 140°F (-10°C to 60°C)
+
+
+.3+.^| Certifications
+.^| EMC
+.^| FCC/CE/UKCA
+
+.^| RoHS
+.^| RoHS
+
+.^| *_\{TBD}_* NDAA
+.^| NDAA Section 889 compliant
+
+.5+.^| Physical
+.^| Dimensions
+.^| *_\{TBD}_*
+
+.^| Weight
+.^| *_\{TBD}_*
+
+.^| Case Material
+.^| Aluminum
+
+.^| Color
+.^| Black
+
+.^| Mounting Options
+.^| DIN Rail
+
+.4+.^| Interface
+.^| Networking
+.^| 1* Gigabit Ethernet (10/100/1000M)
+
+.^| USB
+.^| 4* USB 3.2 Type-A (10Gbps); +
+1* USB2.0 Type-C (Device Mode)
+
+.^| Display
+.^| 1* HDMI 2.1
+
+.^| RTC
+.^| CR1220
+
+.2+.^| Power
+.^| Input Voltage
+.^| 12 VDC
+.^| Power Consumption
+.^| *_\{TBD}_*
+
+2+.^| Accessories Included
+.^| Power Supply; DC 12V/5A; +
+Barrel Jack 0.22/0.10 in (5.5/2.5 mm)
+|===
