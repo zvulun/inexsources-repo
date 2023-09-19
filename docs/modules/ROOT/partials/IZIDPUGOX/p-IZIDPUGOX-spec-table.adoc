@@ -16,7 +16,7 @@
 .^| {vehicle-analytics}
 
 2+.^| Processing Power
-.^| 240 fps@2 MP; 120 fps@4 MP; 60 fps@8 MP
+.^| 240 fps@1080p; 60 fps@8MP
 
 2+.^| Module
 .^| Jetson Orin(TM) NX 16GB
