@@ -1,0 +1,26 @@
+* [*] Prepare components and tools
+
+* [*] Plan your site
+
+* [*] Prepare cables
+
+* [*] Configure browser
+
+ifndef::xref-type-IZ600F[]
+* [*] Install Camera System(s) and other components
+endif::[]
+
+ifdef::xref-type-IZ600F[]
+* [*] Install camera(s) and other components
+endif::[]
+
+* [*] Connect components (wiring)
+
+* [*] Power up and set up IP
+
+* [*] Configure LPR/OV camera settings
+
+* [*] Aim and calibrate
+
+* [*] Verify system operation
+
