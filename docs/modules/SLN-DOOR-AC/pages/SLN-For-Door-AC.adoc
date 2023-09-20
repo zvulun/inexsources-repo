@@ -67,7 +67,8 @@
 // ====
 // generalize for all airports
 [discrete]
-== Comprehensive Door Access Control Solution https://inextechnologies.my.salesforce.com/01t4O000009Axjg?srPos=1&srKp=01t[(IZAC-QPR-1D), window=_blank]
+== Comprehensive Door Access Control Solution (IZAC-QPR-1D)
+//== Comprehensive Door Access Control Solution https://inextechnologies.my.salesforce.com/01t4O000009Axjg?srPos=1&srKp=01t[(IZAC-QPR-1D), window=_blank]
 {compname-short} offers a comprehensive solution for
 {shortprodname} consisting of several products.
 
@@ -82,8 +83,8 @@ image::ROOT:IZACR-QPR50/IZACR-QPR50-SLN-Sys-Diagram.png[image,width=800,align=le
 <<<
 
 [discrete]
-== Reader https://inextechnologies.my.salesforce.com/01t4O000009AxjR?srPos=0&srKp=01t[(IZACR-QPR50), window=_blank]
-
+== Reader (IZACR-QPR50)
+//== Reader https://inextechnologies.my.salesforce.com/01t4O000009AxjR?srPos=0&srKp=01t[(IZACR-QPR50), window=_blank]
 A cutting-edge access control reader that recognizes QR codes, PIN inputs, and RFID cards.
 
 image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,120,align=left]
@@ -101,8 +102,8 @@ image:ROOT:image$/IZACR-QPR50/IZACR-QPR50-Front-Panel.png[Picture of AC Reader,1
 {empty} +
 
 [discrete]
-== Access Control Panel https://inextechnologies.my.salesforce.com/01t4O000009AxjW?srPos=0&srKp=01t[(IZACP-2D), window=_blank]
-
+== Access Control Panel (IZACP-2D)
+//== Access Control Panel https://inextechnologies.my.salesforce.com/01t4O000009AxjW?srPos=0&srKp=01t[(IZACP-2D), window=_blank]
 A specialized access control panel
 
 image:ROOT:IZACR-QPR50/IZACP-2D-From-Above.png[Picture of AC Panel,400,align=left]
@@ -119,8 +120,8 @@ PIN inputs and RFID cards
 <<<
 
 [discrete]
-== Metal Case https://inextechnologies.my.salesforce.com/01t4O000009Axjb?srPos=0&srKp=01t[(IZACA-MCPS), window=_blank]
-
+== Metal Case (IZACA-MCPS)
+//== Metal Case https://inextechnologies.my.salesforce.com/01t4O000009Axjb?srPos=0&srKp=01t[(IZACA-MCPS), window=_blank]
 Metal case accessory complete with a power supply unit. Designed to house and power INEX access control panels, this protective case ensures the hardware remains safe, secure, and consistently powered. Robust construction coupled with top-tier electrical components makes it the first choice for reliability and longevity in access control setups.
 
 image:ROOT:IZACR-QPR50/IZACA-MCPS-Box-Preliminary.png[Picture of Metal Box,100,align=left]
