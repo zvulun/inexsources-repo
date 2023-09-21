@@ -113,11 +113,8 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 == What You Will Need
 
-* Computer running Windows 7 or later
-* Internet Explorer (IE) 11 or Edge
-* Chrome *_\{don't tell them this - they will have to pay $19/yr}_*
-You can add an IE Tab extension to Chrome at this link (to enable access to the Flexwatch sensor configuration application):
-https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link, window=_blank]
+* Computer running Windows 10 or later
+* Microsoft Edge browser
 
 ==  Checklist
 
@@ -151,7 +148,13 @@ Explorer mode (IE); change from
 
 .. Internet Explorer mode pages; click the Add button
 
-.. Add all camera IP addresses with their ports
+.. Add all camera IP addresses with their ports +
++
+[NOTE]
+=================================
+These addresses will expire after 30 days and
+must be re-entered
+=================================
 
 . Enter the IP address and ports of one of the cameras;
 each IP address corresponds a station,
@@ -162,10 +165,79 @@ For example: http://95.35.29.15:7111 and http://95.35.29.15:7112
 
 . To log in to a camera:
 
-.. Username/Password is admin/IZpass12
+.. *_\{only for admins}_*Username/Password is admin/IZpass12
+; user is jtmt/jtmt12#$
 
 .. Stay in Internet Explorer mode; do not open in
 Microsoft Edge
+
+== Live
+
+Stay in Main Stream
+Protocol leave as TCP/IP
+
+== Playback
+
+Use calendar to select date
+Lower right button
+Useful if train was missed, etc.
+Download format above list of videos use MP4
+Cameras are recording 24 hours, in segments
+of 8 minutes each. Can select more videos
+using page controls
+
+Can search for a time period at top
+
+This search period is reflected by
+the length of the green line
+at the bottom. You can click in the
+green line or drag the small rectangle
+at the start of the line to show
+videos in other time periods - without
+having to click on the right-side list
+of video times.
+
+
+Double-click on timing to show video
+Lower left are video controls:
+
+* Play/pause
+
+* Stop - closes the video
+
+* Next frame - pauses video, and moves to next
+video frame; there are 5 frames
+per second
+
+* Slow (video must be playing) - click repeatedly to select
+different rates as shown at lower left
+
+* Fast (video must be playing) - click repeatedly to select
+different rates as shown at lower left
+Fast - will be fast
+until the end of the 8 min period;
+when next period is seen, it will
+start to play at normal speed
+
+Use buttons at lower right
+to zoom in on a part of the video
+scale green line will change; this is
+useful for zooming in on a particular time;
+notice that at a finer zoom, you can see
+the small rectangle moving within the
+green line. The scale of the green line
+is adjusted to be some time before and
+some time after the point selected when
+the scale was 24 hours; for example if you
+choose 4:00 in the morning, then click 30 minutes,
+green line is now 3:45 to 4:15.
+
+== Downloading
+All downloads and recordings are saved in
+this directory:
+C:\Users\IZuser\WebDownload
+
+
 
 
 
