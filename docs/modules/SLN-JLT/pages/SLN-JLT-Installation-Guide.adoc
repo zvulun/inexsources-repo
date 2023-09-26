@@ -1,4 +1,4 @@
-:docproductname: Jerusalem Light Rail Train
+:docproductname: Jerusalem Light Train
 :shortprodname: JLT
 :generic-camera-name: camera
 
@@ -354,6 +354,35 @@ any other videos while this download is happening;
 video must be stopped
 
 
+== Configuring Camera
+Screen shots of proper camera configuration can be found at:
+take out edit part of link afterwards
+https://docs.google.com/document/d/1FHLxChSMaf9yhrlNHWQKEP6dKtSqaneyCp6uIIUv0xI/edit?pli=1[Link, window=_blank]
+
+If there is something wrong with a camera
+Georgy checks the document to be sure the settings
+are as they should be (when uploaded)
+He also checks them every week to be sure nothing
+has been changed by a bug.
+
+However, some cameras will not allow a change to the settings
+in which case we replace the camera.
+
+Georgy does this:
+Log in as admin, IZpass12
+Settings, System, Import/Export
+Export (pick location)
+Open new camera
+Login as admin
+Then import
+Then in Settings, Go to Camera, Video, Overlay tab
+Change Title (to the right of the video window) to:
+Name of station<space><dash><space>towards which direction
+train is travelling; we have 2 separate tracks/directions
+at each station
+Click Save
+Can also see the light train site (see JIRA)
+
 
 
 
@@ -365,8 +394,34 @@ video must be stopped
 
 . To access the {software-ALPR} application for each station,
 use the same IP, but a different port for the
-{software-ALPR} application;
+{software-ALPR} application; same IP as cameras,
+but different port for the RV box
 for example http://95.35.29.15:7110
+root, root
+
+Georgy changes time server to time.windows.com
+and zone to Asia/Jerusalem
+Light Train is new section
+External IP must be the same
+as the RV ip in the browser address line
+Report Enabled check box is checked
+
+Reports are sent at 0400 A.M.
+
+Same daily reports can be send from
+reports tab (see buttons at right)
+or downloaded
+
+Reports have links to DPU storage to see images
+
+Calibration tab is really live - click
+on video screen to pause, click again to restart
+Select which camera from menu at right, but
+don't change the ROI, plate width, or direction arrow
+
+Live tab is not really live  - it shows a still picture
+of the last event (triggered when train leaves station)
+
 
 . If you are using IE or Chrome with the IE plugin,
 or Edge running in IE mode, you

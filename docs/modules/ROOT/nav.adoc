@@ -12,7 +12,7 @@
 ** xref:SLN-CloudAC:DocList.adoc[Cloud Access Control]
 ** xref:SLN-DOOR-AC:DocList.adoc[Door Access Control]
 ** xref:SLN-IZCloudIntegration:DocList.adoc[IZCloud Integration]
-** xref:SLN-JLT:DocList.adoc[Jerusalem Light Rail Train]
+** xref:SLN-JLT:DocList.adoc[Jerusalem Light Train]
 ** xref:SLN-LenelS2:DocList.adoc[LenelS2 Integration]
 ** xref:SLN-Parking:DocList.adoc[Parking]
 ** xref:SLN-SecuritySystems:DocList.adoc[Security Systems]
