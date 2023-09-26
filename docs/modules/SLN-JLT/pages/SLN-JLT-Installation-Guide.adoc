@@ -137,10 +137,20 @@ C:\Users\<current Windows username>\WebDownload\PlaybackSnapshot
 
 image::ROOT:SLN-JLT/image-Playback-Tab.png[image,800]
 
+=== Selecting a Segment (Right-hand Pane)
+
 image::ROOT:SLN-JLT/image-segment-selection.png[image,800]
 
 * The camera records video 24 hours per day
-divided into 8 minute segments
+divided into 8-minute segments
+
+* You can also drag the small white rectangle
+on the green timeline to the segment you
+want (see *_\{xref}_*)
+
+=== Video Controls (Lower Left)
+
+image::ROOT:SLN-JLT/image-video-controls.png[image,800]
 
 Can search for a time period at top
 which filters the green line at the
@@ -149,6 +159,11 @@ one of the videos. As will be described
 below, you can also zoom in within this
 selected time period using the buttons
 at the lower right (24hr, 2hr, etc.)
+
+Can search for a time period at top
+which filters the green line at the
+bottom for the day in which you selected
+one of the videos.
 
 This search period is reflected by
 the length of the green line
@@ -160,26 +175,10 @@ having to click on the right-side list
 of video times.
 
 
-Double-click on timing to show video
-Lower left are video controls:
-
-* Play/pause
-
-* Stop - closes the video
-
-* Next frame - pauses video, and moves to next
-video frame; there are 5 frames
-per second
-
-* Slow (video must be playing) - click repeatedly to select
-different rates as shown at lower left
-
-* Fast (video must be playing) - click repeatedly to select
-different rates as shown at lower left
-Fast - will be fast
-until the end of the 8 min period;
-when next period is seen, it will
-start to play at normal speed
+Can search for a time period at top
+which filters the green line at the
+bottom for the day in which you selected
+one of the videos.
 
 Use buttons at lower right
 to zoom in on a part of the video
