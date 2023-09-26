@@ -226,6 +226,10 @@ You must STOP (not pause) the currently
 running video ("record") in order to
 download.
 
+Button download: click on button
+changes to "x" so you can stop it
+number to right of button shows progress
+
 File names of button downloads are:
 01.36.00-01.44.00[R][0@0][63674]
 Time period, [R??],[0@0],[internal ID of the video segment]
@@ -336,6 +340,10 @@ use the same IP, but a different port for the
 but different port for the RV box
 for example http://95.35.29.15:7110
 root, root
+
+=== Using RoadView
+
+*_\{explain as you did in the RV manual}_*
 
 Reports are sent at 0400 A.M.
 
