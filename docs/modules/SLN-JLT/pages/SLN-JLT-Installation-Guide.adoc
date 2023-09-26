@@ -60,8 +60,7 @@ image::ROOT:SLN-JLT/image-MSedge-settings-2.png[image,800]
 . Open Edge and click the 3-dot menu at upper right
 . Select Settings
 . Menu at left - "Default Browser"
-.. Internet Explorer Compatibility section
-.. Allow sites to be reloaded in Internet
+. Allow sites to be reloaded in Internet
 Explorer mode (IE); change from
 "Default" to "Allow"
 
@@ -112,7 +111,7 @@ Name of station - Direction; date and time +
 
 image:ROOT:SLN-JLT/image-digital-zoom-icon.png[image] {sp} {sp} Icon at upper right
 
-* Click on icon once, drag a rectangle, then release
+* Click icon once, drag a rectangle, then release
 
 * Click icon again to return to normal view
 
@@ -122,18 +121,17 @@ image:ROOT:SLN-JLT/image-digital-zoom-icon.png[image] {sp} {sp} Icon at upper ri
 
 image:ROOT:SLN-JLT/image-snapshot-icon.png[image] {sp} {sp} Icon at upper right
 
-Click to save an image of the currently viewed image;
+Click icon to save an image of the currently viewed image;
 a window opens to display the snapshot
 
 [NOTE]
-Snapshot can only take a picture of a normal (not zoomed) view.
+Snapshot takes a picture of a normal (not zoomed) view.
 
 * From the Live tab, images are saved in +
 C:\Users\<current Windows username>\WebDownload\LiveSnapshot
 
 * From the Playback tab, images are saved in +
 C:\Users\<current Windows username>\WebDownload\PlaybackSnapshot
-
 
 == Playing Back and Downloading Stored Video (Playback Tab)
 
@@ -186,7 +184,7 @@ start to play at normal speed
 
 Use buttons at lower right
 to zoom in on a part of the video
-scale green line will change; this is
+scale (resolution) green line will change; this is
 useful for zooming in on a particular time;
 notice that at a finer zoom, you can see
 the small rectangle moving within the
@@ -320,7 +318,11 @@ video must be stopped
 
 [#s_Logging-In-to-RoadView]
 
-== Logging In to Roadview
+== Using Roadview to View Events
+An Event is a train that enters or leaves a station.
+
+
+=== Logging In to RoadView
 
 . To access the {software-ALPR} application for each station,
 use the same IP, but a different port for the
@@ -328,13 +330,6 @@ use the same IP, but a different port for the
 but different port for the RV box
 for example http://95.35.29.15:7110
 root, root
-
-Georgy changes time server to time.windows.com
-and zone to Asia/Jerusalem
-Light Train is new section
-External IP must be the same
-as the RV ip in the browser address line
-Report Enabled check box is checked
 
 Reports are sent at 0400 A.M.
 
