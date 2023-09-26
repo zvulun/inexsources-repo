@@ -112,15 +112,15 @@ Name of station - Direction; date and time +
 
 image:ROOT:SLN-JLT/image-digital-zoom-icon.png[image] {sp} {sp} Icon at upper right
 
-* Click once, drag a rectangle, then release
+* Click on icon once, drag a rectangle, then release
 
-* Click again to return to normal view
+* Click icon again to return to normal view
 
 [#s_Taking-a-Snapshot]
 
 === Taking a Snapshot
 
-
+image:ROOT:SLN-JLT/image-snapshot-icon.png[image] {sp} {sp} Icon at upper right
 
 Click to save an image of the currently viewed image;
 a window opens to display the snapshot
