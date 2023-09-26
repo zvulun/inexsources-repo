@@ -160,7 +160,7 @@ image::ROOT:SLN-JLT/image-video-controls.png[image,800]
 
 === Green Timeline Controls (Bottom)
 
-
+image::ROOT:SLN-JLT/image-timeline-segment-select.png[image,800]
 
 Can search for a time period at top
 which filters the green line at the
