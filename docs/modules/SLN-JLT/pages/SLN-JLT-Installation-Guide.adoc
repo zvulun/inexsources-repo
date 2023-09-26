@@ -101,7 +101,7 @@ image::ROOT:SLN-JLT/image-close-banner-login.png[image,800]
 
 === Logging Out (Logout Tab)
 
-
+image::ROOT:SLN-JLT/image-Logout.png[image,800]
 
 == Viewing Live Video (Live Tab)
 
@@ -158,7 +158,7 @@ want (see *_\{xref}_*).
 
 image::ROOT:SLN-JLT/image-video-controls.png[image,800]
 
-=== Green Timeline Controls (Bottom)
+=== Timeline Controls (Lower Right)
 
 image::ROOT:SLN-JLT/image-timeline-segment-select.png[image,800]
 
