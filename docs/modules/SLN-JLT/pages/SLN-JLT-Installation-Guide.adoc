@@ -81,22 +81,27 @@ http://95.35.29.15:7112/ +
 [NOTE]
 =================================
 Addresses  expire after 30 days and
-must be re-entered
+must be re-entered.
 =================================
 
-== Logging in to a Camera
+== Logging In to a Camera/Logging Out
 
+=== Logging In
 . Enter a camera's IP address/port in the
-browser's address line
+browser's address line.
 
 . Leave the browser in Internet Explorer mode,
-and click the "x" to close its banner
+and click the "x" to close its banner.
 +
 image::ROOT:SLN-JLT/image-close-banner-login.png[image,800]
 
 . Enter the:
 * username = jtmt
 * password = jtmt12#$
+
+=== Logging Out (Logout Tab)
+
+
 
 == Viewing Live Video (Live Tab)
 
@@ -117,12 +122,12 @@ image:ROOT:SLN-JLT/image-digital-zoom-icon.png[image] {sp} {sp} Icon at upper ri
 
 [#s_Taking-a-Snapshot]
 
-=== Taking a Snapshot
+=== Taking a Video Snapshot
 
 image:ROOT:SLN-JLT/image-snapshot-icon.png[image] {sp} {sp} Icon at upper right
 
 Click icon to save an image of the currently viewed image;
-a window opens to display the snapshot
+a window opens to display the snapshot.
 
 [NOTE]
 Snapshot takes a picture of a normal (not zoomed) view.
@@ -142,15 +147,20 @@ image::ROOT:SLN-JLT/image-Playback-Tab.png[image,800]
 image::ROOT:SLN-JLT/image-segment-selection.png[image,800]
 
 * The camera records video 24 hours per day
-divided into 8-minute segments
+divided into 8-minute segments (also called
+"records").
 
 * You can also drag the small white rectangle
 on the green timeline to the segment you
-want (see *_\{xref}_*)
+want (see *_\{xref}_*).
 
 === Video Controls (Lower Left)
 
 image::ROOT:SLN-JLT/image-video-controls.png[image,800]
+
+=== Green Timeline Controls (Bottom)
+
+
 
 Can search for a time period at top
 which filters the green line at the
@@ -197,28 +207,26 @@ green line is now 3:45 to 4:15.
 
 See <<s_Zooming-In>>
 
-=== Taking a Snapshot
+=== Taking a Video Snapshot
 
 See <<s_Taking-a-Snapshot>>
 
 == Downloading
-All downloads and recordings are saved in
-this directory:
+Downloads from buttons in segment list are
+saved in: +
 C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 
 
 
-Something else *_\{could it be
-the selection on the green line?}_*is saved in:
+Downloads from timeline selections are saved in:
 C:\Users\<current Windows username>\WebDownload\VideoClips
-
 
 There are several download modes
 You must STOP (not pause) the currently
 running video ("record") in order to
 download.
 
-File names are:
+File names of button downloads are:
 01.36.00-01.44.00[R][0@0][63674]
 Time period, [R??],[0@0],[internal ID of the video segment]
 The File Explorer date is the date
