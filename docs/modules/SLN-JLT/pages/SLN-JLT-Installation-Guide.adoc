@@ -101,37 +101,39 @@ image::ROOT:SLN-JLT/image-close-banner-login.png[image,800]
 
 == Viewing Live Video (Live Tab)
 
+image::ROOT:SLN-JLT/image-Live-Tab.png[image,800]
 
-Overlay at bottom indicates: +
+The overlay text at the bottom indicates: +
 Name of station - Direction; date and time +
 
 [#s_Zooming-In]
 
 === Zooming In (Digital Zoom)
 
-There is another button at upper right
-called Digital Zoom; while video is even
-playing you can drag a rectangle to
-zoom in on, then click button again
-to go back to normal view. However, pressing
-snapshot when zoomed has no effect; you still
-get a snapshot of normal view.
+image:ROOT:SLN-JLT/image-digital-zoom-icon.png[image] {sp} {sp} Icon at upper right
 
 * Click once, drag a rectangle, then release
+
 * Click again to return to normal view
 
 [#s_Taking-a-Snapshot]
 
 === Taking a Snapshot
 
+
+
 Click to save an image of the currently viewed image;
 a window opens to display the snapshot
+
+[NOTE]
+Snapshot can only take a picture of a normal (not zoomed) view.
 
 * From the Live tab, images are saved in +
 C:\Users\<current Windows username>\WebDownload\LiveSnapshot
 
 * From the Playback tab, images are saved in +
 C:\Users\<current Windows username>\WebDownload\PlaybackSnapshot
+
 
 == Playing Back and Downloading Stored Video (Playback Tab)
 
