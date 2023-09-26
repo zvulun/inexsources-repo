@@ -46,7 +46,7 @@ toc::[]
 
 == Computer Requirements
 
-* Computer running Windows 10 or later
+* Windows 10 or later
 * Microsoft Edge browser
 
 [#s_Configure-Browser]
@@ -80,7 +80,7 @@ http://95.35.29.15:7112/ +
 +
 [NOTE]
 =================================
-These addresses will expire after 30 days and
+Addresses  expire after 30 days and
 must be re-entered
 =================================
 
@@ -135,13 +135,12 @@ C:\Users\<current Windows username>\WebDownload\PlaybackSnapshot
 
 == Playing Back and Downloading Stored Video (Playback Tab)
 
-Use calendar to select date
-Lower right button
-Useful if train was missed, etc.
-Download format above list of videos use MP4
-Cameras are recording 24 hours, in segments
-of 8 minutes each. Can select more videos
-using page controls
+image::ROOT:SLN-JLT/image-Playback-Tab.png[image,800]
+
+image::ROOT:SLN-JLT/image-segment-selection.png[image,800]
+
+* The camera records video 24 hours per day
+divided into 8 minute segments
 
 Can search for a time period at top
 which filters the green line at the
