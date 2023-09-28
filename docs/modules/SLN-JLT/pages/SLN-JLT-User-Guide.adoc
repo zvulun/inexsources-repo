@@ -87,6 +87,8 @@ Addresses  expire after 30 days and
 must be re-entered.
 =================================
 
+<<<
+
 == Logging In to a Camera/Logging Out
 
 === Logging In
@@ -101,8 +103,6 @@ image::ROOT:SLN-JLT/image-close-banner-login.png[image,800]
 . Enter the:
 * username = jtmt
 * password = jtmt12#$
-
-<<<
 
 === Logging Out (Logout Tab)
 
