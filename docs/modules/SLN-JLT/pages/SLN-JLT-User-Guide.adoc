@@ -388,18 +388,52 @@ earlier and later than the range you defined.
 
 <<<
 
-== Using Daily Reports (Received via Email)
+== Using Daily Event Reports (Received via Email)
 
-An Event is a train that enters or leaves a station.
+An Event occurs when a train enters and leaves a station.
 
-*_\{no access to RoadView; instead explain
-report that comes every 24 hrs via email
-show example and a few explanations}_*
+Event reports are sent every day, via email as an Excel
+attachment. They contain Event details from last 24 hours.
 
-Reports are sent every day, via email as an Excel
-attachment. They contain events from last 24 hours
+=== Event Report Station Details Tab
 
-Reports have links to DPU storage to see images
+image::ROOT:SLN-JLT/image-report-details.png[image,800]
+
+* Event ID - unique ID identifying the Event
+
+* Arrival Date/Time; Departure Date/Time - when train arrived/departed
+
+* Direction - the direction that the train was travelling
+in when it arrived at the station (can also be the name of
+the camera viewing that direction)
+
+* Station - station name
+
+* Confidence - the read confidence (as a percentage) that the
+recognition of the train number was correct
+
+* Door - if the door opened when the train stopped in the station
+
+* View - link to the image of the train at the station
+
+* Door - link to a zoomed-in image of the door
+
+* Number - link to a zoomed-in image of the train number
+
+=== Event Report Summary Tab
+
+image::ROOT:SLN-JLT/image-report-summary.png[image,800]
+
+* Report - general information about the report
+
+* Number of Trains per Direction - summary counts of trains
+passing through the station
+
+* Number of Trains per Hour - per hour breakdown counts of trains
+passing through the station
+
+* Low Confidence Detections - detections with a lower
+read confidence than is acceptable
 
 <<<
 
