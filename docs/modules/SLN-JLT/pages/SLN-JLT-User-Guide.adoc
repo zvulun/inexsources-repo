@@ -193,76 +193,78 @@ See <<s_Taking-a-Snapshot>>
 [#s_Downloading-Video-Segments]
 
 == Downloading Video Segments
-Downloads from buttons in segment list are
+
+[TIP]
+==========================
+There are several ways to download segments;
+the batch method is the fastest (see <<s_Batch-Download>>).
+==========================
+
+* You will see popups reminding you that the video
+must be STOPPED (not paused) to download
+
+* You can view downloaded segments using any video player, such as:
+** VLC player (recommended) at +
+https://www.videolan.org/vlc/download-windows.html
+
+** Windows Media Player
+
+=== Single Segment File Download
+
+* Click the down-arrow button in the Segment
+Selection List (see <<s_Selecting-a-Segment>>).
+
+* Button changes to "x" (to stop if needed);
+percentage progress displayed next to button
+
+* Downloads from buttons in segment list are
 saved in: +
 C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 
-*Downloads from bulk downloads are saved
-by default in (can be changed):
+* File names of button downloads look like +
+01.36.00-01.44.00[R][0@0][63674], where:
+** First characters are the segment time period (01.36.00-01.44.00)
+** Remaining characters are internal codes
+
+[NOTE]
+==========================
+The Windows File Explorer "file date" is the date
+the segment was recorded. +
+
+The "file time" may be offset due to time zone differences.
+==========================
+
+[#s_Batch-Download]
+
+=== Batch Download (Multiple Segment Files)
+
+image::ROOT:SLN-JLT/image-batch-download.png[image,800]
+
+. Click the button at the lower left of the Segment
+Selection List (see <<s_Selecting-a-Segment>>).
+
+. Select the date and time range for the
+segments to search for.
+
+. Click Search. All segments with times in the search range will be shown.
+
+. Use check boxes to select files;
+there are page controls at the lower right
+
+. *Be sure to select the file type of "mp4"
+at the bottom of the window BEFORE downloading*
+(the file type column always shows
+"dav", but the download will be in "mp4" format)
+
+. Batch downloads are saved
+by default in (can be changed by clicking Browse):
 C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 
-Downloads from timeline selections are saved in:
-C:\Users\<current Windows username>\WebDownload\VideoClips
-
-There are several download modes
-You must STOP (not pause) the currently
-running video segment (also called a "record") in order to
-download.
-
-Button download: click on button
-changes to "x" so you can stop it
-number to right of button shows progress
-
-File names of button downloads are:
-01.36.00-01.44.00[R][0@0][63674]
-Time period, [R??],[0@0],[internal ID of the video segment]
-The File Explorer date is the date
-when the video was taken (but not the time -
-you see the time in filename)
-
-VLC player is the best way to see video
-https://www.videolan.org/vlc/download-windows.html
-
-Can also use Windows Media Player and other players
+. Click Download; the Download Progress column shows
+progress of each segment's download
 
 
-
-* From pane at right
-
-** click the round button with
-the arrow to download only that
-8 min video segment
-
-
-* Bulk download - this method is a lot faster
-than clicking the individual buttons
-in the previous technique
-The reason is because the main screen
-is using a lot of computing resources;
-this is also why in the main screen
-you have to stop the video before downloading
-
-** use left button at bottom of right pane
-
-** select date and time range for the
-8-minute video segments you want to search for
-
-** Be sure to select the file type of mp4
-at the bottom of this window before downloading
-(search is not affected); file type will always
-show as dav, but download will be according
-to format you select
-
-** can also select a different path for the
-download - different then the default
-noted above
-
-** Use check boxes to select files;
-there are page controls at the lower right
-if you need to see more pages of search results
-
-** Download Progress columns shows
-progress
+=== Timeline Download (Single File of Joined Segments)
 
 * Using Date and Green Line and Scissors
 
@@ -274,7 +276,7 @@ any of the buttons at the bottom
 
 ** Be sure the resolution of the green line
 (24hr, 2 hr...) using the buttons at the lower
-right - is set to the resolution you want
+right - is set to the resolution you want *_\{xref}_*
 
 ** Click on the green line for a starting
 time for a video sample you want
@@ -310,6 +312,10 @@ earlier and later than the times you selected.
 ** download is very slow; cannot play
 any other videos while this download is happening;
 video must be stopped
+
+Downloads from timeline selections are saved in:
+C:\Users\<current Windows username>\WebDownload\VideoClips
+
 
 [#s_Logging-In-to-RoadView]
 
