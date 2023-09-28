@@ -48,6 +48,17 @@ toc::[]
 
 image::ROOT:SLN-JLT/image-station-map.png[image,800]
 
+[IMPORTANT]
+
+=============================
+Your IT team must enable you to access the IP
+and ports of the cameras.
+
+To use the links in this table, you must
+add them to your Microsoft Edge browser
+(see <<s_Configure-Browser>>).
+=============================
+
 [table.withborders,width="100%",cols="34%,33%,33%",options="header",]
 |===
 .^a|Station .^a|Camera 1 (Direction) .^a|Camera 2 (Direction)
@@ -70,14 +81,6 @@ http://95.35.29.15:7112/
 http://46.210.88.108:7111/ .^a|Medical School +
 http://46.210.88.108:7112/
 |===
-
-
-*_\{put table of cameras and IP/ports
-station, camera 1 with new line with URL linked, camera 2 same;
-not hadassah}_*
-
-*_\{Make IMPORTANT note that IT team must enable you to
-access IP and ports of the cameras}_*
 
 == Computer Requirements
 
@@ -187,14 +190,18 @@ C:\Users\<current Windows username>\WebDownload\PlaybackSnapshot
 
 == Playing Back and Downloading Stored Video (Playback Tab)
 
+[NOTE]
+
+================================
+The system stores 4 months of video.
+================================
+
 image::ROOT:SLN-JLT/image-Playback-Tab.png[image,800]
 
 [#s_Selecting-a-Segment]
 
 === Selecting a Segment (Right-hand Pane)
 
-*_\{put somewhere - system stores
-4 months of video back}_*
 
 *_\{in first pane, File Type must be left as dav}_*
 
