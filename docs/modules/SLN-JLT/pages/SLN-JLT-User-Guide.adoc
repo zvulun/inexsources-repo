@@ -50,9 +50,6 @@ toc::[]
 
 image::ROOT:SLN-JLT/image-station-map.png[image,800]
 
-{empty} +
-{empty} +
-
 [IMPORTANT]
 
 =============================
