@@ -211,13 +211,13 @@ https://www.videolan.org/vlc/download-windows.html
 
 === Single Segment File Download
 
-* Click the down-arrow button in the Segment
+* Click the down-arrow button next to the segment in the Segment
 Selection List (see <<s_Selecting-a-Segment>>).
 
 * Button changes to "x" (to stop if needed);
-percentage progress displayed next to button
+percentage progress is displayed next to button
 
-* Downloads from buttons in segment list are
+* Downloads from buttons in the Segment Selection List are
 saved in: +
 C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 
@@ -225,7 +225,7 @@ C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 01.36.00-01.44.00[R][0@0][63674], where:
 ** First characters are the segment time period (01.36.00-01.44.00)
 ** Remaining characters are internal codes
-
++
 [NOTE]
 ==========================
 The Windows File Explorer "file date" is the date
@@ -374,12 +374,6 @@ to view video.
 .. When prompted, click Run at the bottom of the screen
 
 .. Click Allow at the next prompts
-
-[#s_Logging-Out-of-the-Camera]
-
-=== Logging Out of the Camera
-
-Close all windows, and the browser window.
 
 <<<
 
