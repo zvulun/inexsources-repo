@@ -165,15 +165,15 @@ Station Name - Camera Name (Direction); date and time +
 
 image:ROOT:SLN-JLT/image-digital-zoom-icon.png[image] {sp} {sp} Icon at upper right
 
-* Click icon once, drag a rectangle, then release
+. Click icon once, drag a rectangle, then release
 +
 image::ROOT:SLN-JLT/image-zoom-1.png[image,800]
 
-* Zoomed view appears
+. Zoomed view appears
 +
 image::ROOT:SLN-JLT/image-zoom-2.png[image,800]
 
-* Click icon again to return to normal view
+. Click icon again to return to normal view
 
 [#s_Taking-a-Snapshot]
 
