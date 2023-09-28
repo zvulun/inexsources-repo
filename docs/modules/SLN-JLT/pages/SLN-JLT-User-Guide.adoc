@@ -57,8 +57,6 @@ toc::[]
 
 image::ROOT:SLN-JLT/image-MSedge-settings-1.png[image,800]
 
-image::ROOT:SLN-JLT/image-MSedge-settings-2.png[image,800]
-
 . Open Edge and click the 3-dot menu at upper right
 . Select Settings
 . Menu at left - "Default Browser"
@@ -67,6 +65,9 @@ Explorer mode (IE); change from
 "Default" to "Allow"
 
 . Click the Restart button; wait for restart
++
+<<<
+image::ROOT:SLN-JLT/image-MSedge-settings-2.png[image,800]
 
 . Internet Explorer Compatibility
 
