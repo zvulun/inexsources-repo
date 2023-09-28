@@ -173,7 +173,7 @@ image::ROOT:SLN-JLT/image-zoom-1.png[image,800]
 +
 image::ROOT:SLN-JLT/image-zoom-2.png[image,800]
 
-. Click icon again to return to normal view
+. Click icon again to return to full view
 
 [#s_Taking-a-Snapshot]
 
@@ -185,7 +185,8 @@ Click icon to save a static image of the currently viewed video;
 a window opens to display the snapshot.
 
 [NOTE]
-Snapshot takes a picture of a normal (not zoomed) view.
+Snapshot takes a picture of the full view, even
+when you are viewing the zoomed view.
 
 * From the Live tab, snapshots are saved in +
 C:\Users\<current Windows username>\WebDownload\LiveSnapshot
