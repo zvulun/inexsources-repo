@@ -44,6 +44,41 @@ toc::[]
 
 ====
 
+== Light Train Stations - Map and URL List
+
+image::ROOT:SLN-JLT/image-station-map.png[image,800]
+
+[table.withborders,width="100%",cols="34%,33%,33%",options="header",]
+|===
+.^a|Station .^a|Camera 1 (Direction) .^a|Camera 2 (Direction)
+.^a|Neve Ya'akov - North .^a|Final +
+http://44.210.88.16:7111/ .^a|Yitshak Tabenkin +
+http://44.210.88.16:7112/
+.^a|Heil Ha-Avir .^a|Cam1 +
+http://80.250.155.168:7111/ .^a|Cam2 +
+http://80.250.155.168:7112/
+.^a|Giv'at Ha-Mivtar .^a|Es-Sahl +
+http://185.246.253.34:7111/ .^a|Ammunition Hill +
+http://185.246.253.34:7112/
+.^a|Central Bus Station .^a|Ha-Turim +
+http://185.246.253.33:7111/ .^a|Kiryat-Moshe +
+http://185.246.253.33:7112/
+.^a|Mount Herzl .^a|Yefeh-Nof +
+http://95.35.29.15:7111/ .^a|Final +
+http://95.35.29.15:7112/
+.^a|Ora Jct .^a|Kiryat Menahem +
+http://46.210.88.108:7111/ .^a|Medical School +
+http://46.210.88.108:7112/
+|===
+
+
+*_\{put table of cameras and IP/ports
+station, camera 1 with new line with URL linked, camera 2 same;
+not hadassah}_*
+
+*_\{Make IMPORTANT note that IT team must enable you to
+access IP and ports of the cameras}_*
+
 == Computer Requirements
 
 * Windows 10 or later
@@ -100,9 +135,7 @@ and click the "x" to close its banner.
 +
 image::ROOT:SLN-JLT/image-close-banner-login.png[image,800]
 
-. Enter the:
-* username = jtmt
-* password = jtmt12#$
+. Enter the username and password provided by {companyname-short}:
 
 === Logging Out (Logout Tab)
 
@@ -116,6 +149,11 @@ image::ROOT:SLN-JLT/image-Live-Tab.png[image,800]
 
 The overlay text at the bottom indicates: +
 Name of station - Direction; date and time +
+
+*_\{explain parts of screen; put
+the explaation of zoom, etc, with
+a picture of the zoom result
+in  the zoom section}_*
 
 [#s_Zooming-In]
 
@@ -133,7 +171,7 @@ image:ROOT:SLN-JLT/image-digital-zoom-icon.png[image] {sp} {sp} Icon at upper ri
 
 image:ROOT:SLN-JLT/image-snapshot-icon.png[image] {sp} {sp} Icon at upper right
 
-Click icon to save an image of the currently viewed image;
+Click icon to save a static image of the currently viewed video;
 a window opens to display the snapshot.
 
 [NOTE]
@@ -154,6 +192,11 @@ image::ROOT:SLN-JLT/image-Playback-Tab.png[image,800]
 [#s_Selecting-a-Segment]
 
 === Selecting a Segment (Right-hand Pane)
+
+*_\{put somewhere - system stores
+4 months of video back}_*
+
+*_\{in first pane, File Type must be left as dav}_*
 
 image::ROOT:SLN-JLT/image-segment-selection.png[image,800]
 
@@ -332,6 +375,10 @@ earlier and later than the range you defined.
 
 == Using Roadview to View Events *_\{TBD}_*
 An Event is a train that enters or leaves a station.
+
+*_\{no access to RoadView; instead explain
+report that comes every 24 hrs via email
+show example and a few explanations}_*
 
 [#s_Logging-In-to-RoadView]
 === Logging In to RoadView
