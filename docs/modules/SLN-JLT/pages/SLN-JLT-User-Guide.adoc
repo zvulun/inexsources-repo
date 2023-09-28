@@ -154,13 +154,15 @@ divided into 8-minute segments (also called
 on the green timeline to the segment you
 want (see *_\{xref}_*).
 
+* For download options, see *_\{xref}_*
+
 === Video Controls (Lower Left)
 
 image::ROOT:SLN-JLT/image-video-controls.png[image,800]
 
 === Timeline Controls (Lower Right)
 
-image::ROOT:SLN-JLT/image-timeline-segment-select.png[image,800]
+image::ROOT:SLN-JLT/image-timeline-segment-select.png[image,600]
 
 Can search for a time period at top
 which filters the green line at the
