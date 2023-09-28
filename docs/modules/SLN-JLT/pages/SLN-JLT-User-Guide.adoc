@@ -48,6 +48,8 @@ toc::[]
 
 image::ROOT:SLN-JLT/image-station-map.png[image,800]
 
+{empty} +
+
 [IMPORTANT]
 
 =============================
@@ -162,6 +164,8 @@ is on the side of the train, above the door.
 * The overlay text at the bottom indicates: +
 Station Name - Camera Name (Direction); date and time +
 
+<<<
+
 [#s_Zooming-In]
 
 === Zooming In (Digital Zoom)
@@ -177,6 +181,8 @@ image::ROOT:SLN-JLT/image-zoom-1.png[image,800]
 image::ROOT:SLN-JLT/image-zoom-2.png[image,800]
 
 . Click icon again to return to full view
+
+<<<
 
 [#s_Taking-a-Snapshot]
 
@@ -207,7 +213,7 @@ C:\Users\<current Windows username>\WebDownload\PlaybackSnapshot
 The system stores 4 months of video.
 ================================
 
-image::ROOT:SLN-JLT/image-Playback-Tab.png[image,800]
+image::ROOT:SLN-JLT/image-Playback-Tab.png[image,700]
 
 [#s_Selecting-a-Segment]
 
@@ -419,6 +425,8 @@ recognition of the train number was correct
 * Door - link to a zoomed-in image of the door
 
 * Number - link to a zoomed-in image of the train number
+
+<<<
 
 === Event Report Summary Tab
 
