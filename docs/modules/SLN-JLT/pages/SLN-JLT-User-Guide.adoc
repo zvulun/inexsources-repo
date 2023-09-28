@@ -226,6 +226,8 @@ https://www.videolan.org/vlc/download-windows.html
 
 === Single Segment File Download
 
+image::ROOT:SLN-JLT/image-single-download.png[image,200]
+
 * Click the down-arrow button next to the segment in the Segment
 Selection List (see <<s_Selecting-a-Segment>>).
 
