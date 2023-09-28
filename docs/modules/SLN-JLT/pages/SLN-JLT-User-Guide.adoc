@@ -51,7 +51,7 @@ image::ROOT:SLN-JLT/image-station-map.png[image,800]
 [IMPORTANT]
 
 =============================
-Your IT team must enable you to access the IP
+Your IT team must enable you to access the IPs
 and ports of the cameras.
 
 To use the links in this table, you must
@@ -111,17 +111,20 @@ image::ROOT:SLN-JLT/image-MSedge-settings-2.png[image,800]
 
 .. Internet Explorer mode pages; click the Add button
 
-.. Add all camera IP addresses/ports.
-Each IP address identifies a station,
+.. Add all camera URLs.
+In URLs, each IP address identifies a station,
 and each port (typically 7111 or 7112) is
 for the camera viewing each track/direction.
 For example: +
 http://95.35.29.15:7111/ +
 http://95.35.29.15:7112/ +
 +
-[NOTE]
+[IMPORTANT]
 =================================
-Addresses  expire after 30 days and
+Your IT team must enable you
+to access the IPs and ports of the cameras.
+
+Addresses expire after 30 days and
 must be re-entered.
 =================================
 
