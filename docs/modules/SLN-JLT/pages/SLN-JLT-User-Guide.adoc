@@ -433,7 +433,7 @@ passing through the station
 passing through the station
 
 * Low Confidence Detections - detections with a lower
-read confidence than is acceptable
+train number read confidence than is acceptable
 
 <<<
 
