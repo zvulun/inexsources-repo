@@ -135,7 +135,7 @@ and click the "x" to close its banner.
 +
 image::ROOT:SLN-JLT/image-close-banner-login.png[image,800]
 
-. Enter the username and password provided by {companyname-short}:
+. Enter the username and password provided by {compname-short}:
 
 === Logging Out (Logout Tab)
 
