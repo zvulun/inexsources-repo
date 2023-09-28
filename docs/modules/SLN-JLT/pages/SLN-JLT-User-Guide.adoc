@@ -209,6 +209,8 @@ https://www.videolan.org/vlc/download-windows.html
 
 ** Windows Media Player
 
+[#s_Single-Segment-File-Download]
+
 === Single Segment File Download
 
 * Click the down-arrow button next to the segment in the Segment
@@ -217,11 +219,11 @@ Selection List (see <<s_Selecting-a-Segment>>).
 * Button changes to "x" (to stop if needed);
 percentage progress is displayed next to button
 
-* Downloads from buttons in the Segment Selection List are
+* Single segment file downloads are
 saved in: +
 C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 
-* File names of button downloads look like +
+* File names of single segment downloads look like +
 01.36.00-01.44.00[R][0@0][63674], where:
 ** First characters are the segment time period (01.36.00-01.44.00)
 ** Remaining characters are internal codes
@@ -261,61 +263,51 @@ by default in (can be changed by clicking Browse):
 C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 
 . Click Download; the Download Progress column shows
-progress of each segment's download
+progress of each segment's download +
+Filenames have the same format as single segment
+downloads (see <<s_Single-Segment-File-Download>>).
 
-
-=== Timeline Download (Single File of Joined Segments)
-
-* Using Date and Green Line and Scissors
+=== Time Range Download (Single File of Joined Segments)
 
 image::ROOT:SLN-JLT/image-timeline-segment-select.png[image,500]
 
-** In the main playback screen, select
-a date from the calendar - but do not push
-any of the buttons at the bottom
+. In the Playback tab, select
+a date from the calendar (see <<s_Selecting-a-Segment>>).
 
-** Be sure the resolution of the green line
-(24hr, 2 hr...) using the buttons at the lower
-right - is set to the resolution you want *_\{xref}_*
+. Select the resolution of the timeline
+with the buttons at the lower
+right (see <<s_Timeline-Controls>>).
 
-** Click on the green line for a starting
-time for a video sample you want
-to download, then click the scissors button
-and be sure that starting video time
-in the window is correct. This is the left
-value in the window - do not pay attention
-yet to the end time - it may be from a
-previous selection
+. Click on the timeline for a start
+time for the range of segments you want
+to download. You will see the white rectangle
+indicator; drag it to the desired position if needed.
 
-** click on the green line for the end time
-of the video sample, and click the scissors
-button. Verify that the end time is correct
-in the window. (Do not pay attention
-to the video displayed, it is running
-from the end time forward but does not
-affect what we are doing)
+. Click the scissors button
+and verify that the start time
+in the window is correct. (Disregard the end time until
+you select it in the next step.)
 
-** Click the diskette button to download
-the video segment you selected.
+. Click on the timeline or drag the indicator to the end time
 
-** This gives you one file instead of
-several 8 min files. The application
-finds all of the 8 min segments that
-encompass the time period you selected
-and puts them together into one file.
-Note that since the time you selected
-will probably not be on an exact border
-between 8 min segments, the date range
-on the downloaded file may be slightly
-earlier and later than the times you selected.
+. Click the scissors button.
+Verify that the end time in the window is correct.
 
-** download is very slow; cannot play
-any other videos while this download is happening;
-video must be stopped
-
-Downloads from timeline selections are saved in:
+. Click the diskette button to download
+the range's video segments into one file. +
+** Button changes to "x" (to stop if needed);
+percentage progress is displayed +
+** Time range downloads are saved in: +
 C:\Users\<current Windows username>\WebDownload\VideoClips
 
+[NOTE]
+=======================
+Since the range's start/end time
+will usually not be on an exact border
+between 8-minute segments, the date range
+of the downloaded file's name may be slightly
+earlier and later than the range you defined.
+=======================
 
 [#s_Logging-In-to-RoadView]
 
