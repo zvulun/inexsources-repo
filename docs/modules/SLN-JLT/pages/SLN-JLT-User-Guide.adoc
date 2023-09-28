@@ -202,9 +202,6 @@ image::ROOT:SLN-JLT/image-Playback-Tab.png[image,800]
 
 === Selecting a Segment (Right-hand Pane)
 
-
-*_\{in first pane, File Type must be left as dav}_*
-
 image::ROOT:SLN-JLT/image-segment-selection.png[image,800]
 
 * The camera records video 24 hours per day
@@ -380,65 +377,18 @@ earlier and later than the range you defined.
 
 <<<
 
-== Using Roadview to View Events *_\{TBD}_*
+== Using Daily Reports (Received via Email)
+
 An Event is a train that enters or leaves a station.
 
 *_\{no access to RoadView; instead explain
 report that comes every 24 hrs via email
 show example and a few explanations}_*
 
-[#s_Logging-In-to-RoadView]
-=== Logging In to RoadView
-
-. To access the {software-ALPR} application for each station,
-use the same IP, but a different port for the
-{software-ALPR} application; same IP as cameras,
-but different port for the RV box
-for example http://95.35.29.15:7110
-root, root
-
-=== Using RoadView
-
-*_\{explain as you did in the RV manual
-use attributes for vehicle/car/train ?
-note that trains are tracked by number
-on side of second car in train
-Trains consist of several train cars connected
-together;
-an Event is identified by the number
-on the second train car. All of the
-data about the event such as
-door open/close status are for this
-second car}_*
-
-Reports are sent at 0400 A.M. every day
-showing events from last 24 hours; show
-example
-
-Same daily reports can be send from
-reports tab (see buttons at right)
-or downloaded
+Reports are sent every day, via email as an Excel
+attachment. They contain events from last 24 hours
 
 Reports have links to DPU storage to see images
-
-Calibration tab is really live - click
-on video screen to pause, click again to restart
-Select which camera from menu at right, but
-don't change the ROI, plate width, or direction arrow
-
-Live tab is not really live  - it shows a still picture
-of the last event (triggered when train leaves station)
-
-. If you are using IE or Chrome with the IE plugin,
-or Edge running in IE mode, you
-may be asked to download a plugin to be able
-to view video.
-
-.. Click on the displayed "download the plugin" link
-
-.. When prompted, click Run at the bottom of the screen
-
-.. Click Allow at the next prompts
 
 <<<
 
