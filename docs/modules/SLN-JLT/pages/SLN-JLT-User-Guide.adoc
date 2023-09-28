@@ -19,7 +19,7 @@
 //enable the TOC to be placed in a specific position
 :toc: macro
 
-= {docproductname} Installation Guide
+= {docproductname} User Guide
 
 //xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
 
@@ -406,4 +406,4 @@ Do not use solvents or strong abrasive detergent when cleaning the Camera System
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Short Copyright Notice]
 
-Doc. No. {shortprodname}-MAN-002b
+Doc. No. {shortprodname}-MAN-002a

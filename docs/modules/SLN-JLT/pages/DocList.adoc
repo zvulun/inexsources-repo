@@ -1,3 +1,3 @@
-= Jerusalem Light Train Documents List
+= Jerusalem Light Train (JLT) Documents List
 
-* xref:SLN-JLT:SLN-JLT-Installation-Guide.adoc[JLT Installation Guide]
+* xref:SLN-JLT:SLN-JLT-User-Guide.adoc[JLT User Guide]
