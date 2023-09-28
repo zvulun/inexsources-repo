@@ -432,7 +432,7 @@ recognition of the train number was correct
 
 === Event Report Summary Tab
 
-image::ROOT:SLN-JLT/image-report-summary.png[image,400,align=left]
+image::ROOT:SLN-JLT/image-report-summary.png[image,400]
 
 * Report - general information about the report
 
