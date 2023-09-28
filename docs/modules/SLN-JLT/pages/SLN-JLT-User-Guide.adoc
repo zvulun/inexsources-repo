@@ -167,6 +167,8 @@ indicator to move within the segment (see <<s_Timeline-Controls>>).
 
 * For segment download options, see <<s_Downloading-Video-Segments>>
 
+<<<
+
 === Video Controls (Lower Left)
 
 image::ROOT:SLN-JLT/image-video-controls.png[image,800]
@@ -198,6 +200,8 @@ See <<s_Zooming-In>>
 === Taking a Video Snapshot
 
 See <<s_Taking-a-Snapshot>>
+
+<<<
 
 [#s_Downloading-Video-Segments]
 
