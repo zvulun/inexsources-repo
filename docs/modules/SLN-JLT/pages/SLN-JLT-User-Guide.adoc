@@ -141,7 +141,7 @@ and click the "x" to close its banner.
 +
 image::ROOT:SLN-JLT/image-close-banner-login.png[image,800]
 
-. Enter the username and password provided by {compname-short}:
+. Enter the username and password provided by {compname-short}.
 
 === Logging Out (Logout Tab)
 
@@ -296,7 +296,7 @@ percentage progress is displayed next to button
 saved in: +
 C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 
-* File names of single segment downloads look like +
+* File names of single segment downloads look like: +
 01.36.00-01.44.00[R][0@0][63674], where:
 ** First characters are the segment time period (01.36.00-01.44.00)
 ** Remaining characters are internal codes
