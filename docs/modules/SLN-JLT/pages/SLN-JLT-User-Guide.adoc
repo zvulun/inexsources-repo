@@ -132,10 +132,10 @@ a window opens to display the snapshot.
 [NOTE]
 Snapshot takes a picture of a normal (not zoomed) view.
 
-* From the Live tab, images are saved in +
+* From the Live tab, snapshots are saved in +
 C:\Users\<current Windows username>\WebDownload\LiveSnapshot
 
-* From the Playback tab, images are saved in +
+* From the Playback tab, snapshots are saved in +
 C:\Users\<current Windows username>\WebDownload\PlaybackSnapshot
 
 == Playing Back and Downloading Stored Video (Playback Tab)
