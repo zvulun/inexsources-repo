@@ -150,13 +150,14 @@ image::ROOT:SLN-JLT/image-Logout.png[image,800]
 
 image::ROOT:SLN-JLT/image-Live-Tab.png[image,800]
 
-The overlay text at the bottom indicates: +
-Name of station - Direction; date and time +
+* Icons at the upper right enable you to zoom in (see <<s_Zooming-In>>)
+and take still image snapshots (see <<s_Taking-a-Snapshot>>).
 
-*_\{explain parts of screen; put
-the explaation of zoom, etc, with
-a picture of the zoom result
-in  the zoom section}_*
+* Note that the train number recognized by the camera
+is on the side of the train, above the door.
+
+* The overlay text at the bottom indicates: +
+Station Name - Camera Name (Direction); date and time +
 
 [#s_Zooming-In]
 
@@ -165,6 +166,12 @@ in  the zoom section}_*
 image:ROOT:SLN-JLT/image-digital-zoom-icon.png[image] {sp} {sp} Icon at upper right
 
 * Click icon once, drag a rectangle, then release
++
+image::ROOT:SLN-JLT/image-zoom-1.png[image,800]
+
+* Zoomed view appears
++
+image::ROOT:SLN-JLT/image-zoom-2.png[image,800]
 
 * Click icon again to return to normal view
 
