@@ -142,6 +142,8 @@ C:\Users\<current Windows username>\WebDownload\PlaybackSnapshot
 
 image::ROOT:SLN-JLT/image-Playback-Tab.png[image,800]
 
+[#s_Selecting-a-Segment]
+
 === Selecting a Segment (Right-hand Pane)
 
 image::ROOT:SLN-JLT/image-segment-selection.png[image,800]
@@ -150,60 +152,35 @@ image::ROOT:SLN-JLT/image-segment-selection.png[image,800]
 divided into 8-minute segments (also called
 "records").
 
-* You can also drag the small white rectangle
-on the green timeline to the segment you
-want (see *_\{xref}_*).
+* You can also click on the timeline or
+drag the small white rectangle
+indicator to move within the segment (see <<s_Timeline-Controls>>).
 
-* For download options, see *_\{xref}_*
+* For segment download options, see <<s_Downloading-Video-Segments>>
 
 === Video Controls (Lower Left)
 
 image::ROOT:SLN-JLT/image-video-controls.png[image,800]
 
+[#s_Timeline-Controls]
+
 === Timeline Controls (Lower Right)
 
-image::ROOT:SLN-JLT/image-timeline-segment-select.png[image,600]
+image::ROOT:SLN-JLT/image-timeline-controls.png[image,600]
 
-Can search for a time period at top
-which filters the green line at the
-bottom for the day in which you selected
-one of the videos. As will be described
-below, you can also zoom in within this
-selected time period using the buttons
-at the lower right (24hr, 2hr, etc.)
+* Start/end of the timeline is set
+by the filter at the top of the
+Segment List pane (see <<s_Selecting-a-Segment>>).
 
-Can search for a time period at top
-which filters the green line at the
-bottom for the day in which you selected
-one of the videos.
+* Buttons at lower right
+change the timeline scale (resolution).
+Use this to zoom in on a particular time. +
+For example: Click on 4:00 A.M. on the timeline,
+then click the 30min button; the scale
+of the timeline changes to show 3:45 to 4:15.
 
-This search period is reflected by
-the length of the green line
-at the bottom. You can click in the
-green line or drag the small rectangle
-at the start of the line to show
-videos in other time periods - without
-having to click on the right-side list
-of video times.
-
-
-Can search for a time period at top
-which filters the green line at the
-bottom for the day in which you selected
-one of the videos.
-
-Use buttons at lower right
-to zoom in on a part of the video
-scale (resolution) green line will change; this is
-useful for zooming in on a particular time;
-notice that at a finer zoom, you can see
-the small rectangle moving within the
-green line. The scale of the green line
-is adjusted to be some time before and
-some time after the point selected when
-the scale was 24 hours; for example if you
-choose 4:00 in the morning, then click 30 minutes,
-green line is now 3:45 to 4:15.
+* The other controls are used for downloads;
+see <<s_Downloading-Video-Segments>>
 
 === Zooming In (Digital Zoom)
 
@@ -213,19 +190,23 @@ See <<s_Zooming-In>>
 
 See <<s_Taking-a-Snapshot>>
 
-== Downloading
+[#s_Downloading-Video-Segments]
+
+== Downloading Video Segments
 Downloads from buttons in segment list are
 saved in: +
 C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 
-
+*Downloads from bulk downloads are saved
+by default in (can be changed):
+C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 
 Downloads from timeline selections are saved in:
 C:\Users\<current Windows username>\WebDownload\VideoClips
 
 There are several download modes
 You must STOP (not pause) the currently
-running video ("record") in order to
+running video segment (also called a "record") in order to
 download.
 
 Button download: click on button
@@ -264,7 +245,7 @@ you have to stop the video before downloading
 ** use left button at bottom of right pane
 
 ** select date and time range for the
-8 min video segments *_\{may be called records by dahua}_*you want to search
+8-minute video segments you want to search for
 
 ** Be sure to select the file type of mp4
 at the bottom of this window before downloading
@@ -284,6 +265,8 @@ if you need to see more pages of search results
 progress
 
 * Using Date and Green Line and Scissors
+
+image::ROOT:SLN-JLT/image-timeline-segment-select.png[image,600]
 
 ** In the main playback screen, select
 a date from the calendar - but do not push
@@ -345,9 +328,21 @@ root, root
 
 === Using RoadView
 
-*_\{explain as you did in the RV manual}_*
+*_\{explain as you did in the RV manual
+use attributes for vehicle/car/train ?
+note that trains are tracked by number
+on side of second car in train
+Trains consist of several train cars connected
+together;
+an Event is identified by the number
+on the second train car. All of the
+data about the event such as
+door open/close status are for this
+second car}_*
 
-Reports are sent at 0400 A.M.
+Reports are sent at 0400 A.M. every day
+showing events from last 24 hours; show
+example
 
 Same daily reports can be send from
 reports tab (see buttons at right)
@@ -380,31 +375,7 @@ to view video.
 
 Close all windows, and the browser window.
 
-[#s_Troubleshooting-and-Maintenance]
-
-== Troubleshooting and Maintenance
-
-[#s_Troubleshooting]
-
-=== Troubleshooting
-
-*_\{TBD - contact inex if you notice
-any missing trains, etc. whose report
-info doesn't match yours}_*
-
-[#s_Checking-Mounting-Screws]
-
-=== Checking Mounting Screws
-
-It is recommended to check all mounting screws for proper tightness once every two years.
-
-[#s_Cleaning-the-ALPR-Camera-System]
-
-=== Cleaning the {generic-camera-name}
-
-Do not use solvents or strong abrasive detergent when cleaning the Camera System. Use a soft dry cloth to clean the {generic-camera-name}'s front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
-
-+++<div class="pagebreak"> </div>+++
+<<<
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Short Copyright Notice]
 
