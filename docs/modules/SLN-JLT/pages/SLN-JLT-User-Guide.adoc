@@ -49,6 +49,8 @@ toc::[]
 * Windows 10 or later
 * Microsoft Edge browser
 
+<<<
+
 [#s_Configure-Browser]
 
 == Configuring Your Edge Browser
@@ -99,9 +101,13 @@ image::ROOT:SLN-JLT/image-close-banner-login.png[image,800]
 * username = jtmt
 * password = jtmt12#$
 
+<<<
+
 === Logging Out (Logout Tab)
 
 image::ROOT:SLN-JLT/image-Logout.png[image,800]
+
+<<<
 
 == Viewing Live Video (Live Tab)
 
@@ -137,6 +143,8 @@ C:\Users\<current Windows username>\WebDownload\LiveSnapshot
 
 * From the Playback tab, snapshots are saved in +
 C:\Users\<current Windows username>\WebDownload\PlaybackSnapshot
+
+<<<
 
 == Playing Back and Downloading Stored Video (Playback Tab)
 
