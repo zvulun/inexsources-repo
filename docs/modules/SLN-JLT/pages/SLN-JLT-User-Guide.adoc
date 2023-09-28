@@ -213,7 +213,7 @@ C:\Users\<current Windows username>\WebDownload\PlaybackSnapshot
 The system stores 4 months of video.
 ================================
 
-image::ROOT:SLN-JLT/image-Playback-Tab.png[image,700]
+image::ROOT:SLN-JLT/image-Playback-Tab.png[image,500]
 
 [#s_Selecting-a-Segment]
 
@@ -442,8 +442,6 @@ passing through the station
 
 * Low Confidence Detections - detections with a lower
 train number read confidence than is acceptable
-
-<<<
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Short Copyright Notice]
 
