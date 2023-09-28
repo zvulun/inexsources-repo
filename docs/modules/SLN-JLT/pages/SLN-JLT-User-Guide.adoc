@@ -266,7 +266,7 @@ progress
 
 * Using Date and Green Line and Scissors
 
-image::ROOT:SLN-JLT/image-timeline-segment-select.png[image,400]
+image::ROOT:SLN-JLT/image-timeline-segment-select.png[image,500]
 
 ** In the main playback screen, select
 a date from the calendar - but do not push
