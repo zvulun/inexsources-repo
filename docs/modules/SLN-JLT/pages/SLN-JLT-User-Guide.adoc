@@ -249,6 +249,8 @@ the segment was recorded. +
 The "file time" may be offset due to time zone differences.
 ==========================
 
+<<<
+
 [#s_Batch-Download]
 
 === Batch Download (Multiple Segment Files)
@@ -279,6 +281,8 @@ C:\Users\<current Windows username>\WebDownload\PlaybackRecord
 progress of each segment's download +
 Filenames have the same format as single segment
 downloads (see <<s_Single-Segment-File-Download>>).
+
+<<<
 
 === Time Range Download (Single File of Joined Segments)
 
@@ -322,12 +326,12 @@ of the downloaded file's name may be slightly
 earlier and later than the range you defined.
 =======================
 
-[#s_Logging-In-to-RoadView]
+<<<
 
-== Using Roadview to View Events
+== Using Roadview to View Events *_\{TBD}_*
 An Event is a train that enters or leaves a station.
 
-
+[#s_Logging-In-to-RoadView]
 === Logging In to RoadView
 
 . To access the {software-ALPR} application for each station,
