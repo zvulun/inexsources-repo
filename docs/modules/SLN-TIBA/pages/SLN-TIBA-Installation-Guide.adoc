@@ -51,7 +51,7 @@ toc::[]
 |===
 |Doc. No. |Title
 //.^|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002a] |{docproductname} User Guide
-.^|{shortprodname} User Guide |https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[IZA500G User Guide,window=_blank]
+.^|https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[IZA500G User Guide,window=_blank] |{shortprodname} User Guide
 
 .^|xref:IZA500G:DocList.adoc[{fileproductname}-TECH-001] |{docproductname} Quick Start Guide
 
