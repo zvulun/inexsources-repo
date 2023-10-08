@@ -1,0 +1,112 @@
+:docproductname: TIBA
+:fileprodname: IZA500G
+:shortprodname: IZA500G
+:shortprodname2: TIBA
+:generic-camera-name: ALPR Camera System
+
+// set attribute (by uncommenting the line)
+// used to determine which text/links to sections
+// outside partials - should be used in partials
+// see the playbook for full list
+
+:xref-type-IZA500G:
+:layout-type-userguide:
+
+//enable the TOC to be placed in a specific position
+:toc: macro
+
+= {docproductname} Installation Guide
+
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
+toc::[]
+
+====
+
+<<<
+
+[#s_Related-Documents]
+
+== Recommended Reading/Related Documents
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[table.withborders,width="100%",cols="51%,49%",options="header",]
+|===
+|Doc. No. |Title
+//.^|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002a] |{docproductname} User Guide
+https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[IZA500G User Guide,window=_blank]
+
+.^|xref:IZA500G:DocList.adoc[{fileproductname}-TECH-001] |{docproductname} Quick Start Guide
+
+
+.^|xref:IZA500G:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+
+
+.^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+
+
+.^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
+
+
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+
+
+.^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
+
+
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+
+
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+
+
+.^|xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
+
+
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+
+
+.^|xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
+
+
+.^|xref:IZ4POE:DocList.adoc[{hw-poeinjector}-DIN-REV-xxx-TDSHEET] |{hw-poeinjector} Gigabit 4-Port PoE++ Injector Technical Data Sheet
+
+
+.^|xref:LOOP-DTCR-L:DocList.adoc[{hw-loopdetect-l}-MAN-001] |{hw-loopdetect-l} Loop Detector Installation and User Guide
+
+
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+====
+
+
+== Computer Requirements
+
+* Windows 10 or later
+* Microsoft Edge browser
+
+<<<
+
+
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Short Copyright Notice]
+
+Doc. No. {shortprodname2}-MAN-002b
