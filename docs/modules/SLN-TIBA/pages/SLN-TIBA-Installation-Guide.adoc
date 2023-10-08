@@ -2,7 +2,6 @@
 :docproductname2: IZA500G/GR
 :fileproductname: IZA500G-GR
 :shortprodname: IZA500G
-:shortprodname2: TIBA
 :generic-camera-name: ALPR Camera System
 
 // set attribute (by uncommenting the line)
@@ -12,6 +11,11 @@
 
 :xref-type-IZA500G:
 :layout-type-userguide:
+
+//related doc links are temporarily pointed
+//to GDrive; when the site is live
+//change this to :link-type-site:
+:link-type-gdrive:
 
 //enable the TOC to be placed in a specific position
 :toc: macro
@@ -108,4 +112,4 @@ toc::[]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Short Copyright Notice]
 
-Doc. No. {shortprodname2}-MAN-002b
+Doc. No. {docproductname}-MAN-002b
