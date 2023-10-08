@@ -1,5 +1,5 @@
 :docproductname: TIBA
-:fileprodname: IZA500G
+:fileproductname: IZA500G
 :shortprodname: IZA500G
 :shortprodname2: TIBA
 :generic-camera-name: ALPR Camera System
