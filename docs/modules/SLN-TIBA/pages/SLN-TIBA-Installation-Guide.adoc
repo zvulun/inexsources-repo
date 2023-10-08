@@ -1,5 +1,6 @@
 :docproductname: TIBA
-:fileproductname: IZA500G
+:docproductname2: IZA500G/GR
+:fileproductname: IZA500G-GR
 :shortprodname: IZA500G
 :shortprodname2: TIBA
 :generic-camera-name: ALPR Camera System
@@ -50,8 +51,13 @@ toc::[]
 [table.withborders,width="100%",cols="51%,49%",options="header",]
 |===
 |Doc. No. |Title
-//.^|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002a] |{docproductname} User Guide
-.^|https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[{shortprodname}-MAN-002a,window=_blank] |{shortprodname} User Guide
+//.^|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002b] |{fileproductname} Installation Guide
+.^|https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[{fileproductname}-MAN-002b,window=_blank] |{fileproductname2} Installation Guide
+
+//.^|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002a] |{fileproductname} User Guide
+.^|https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[{fileproductname}-MAN-002a,window=_blank] |{fileproductname2} User Guide
+
+
 
 .^|xref:IZA500G:DocList.adoc[{fileproductname}-TECH-001] |{docproductname} Quick Start Guide
 
