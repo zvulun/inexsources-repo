@@ -147,6 +147,33 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-097_AmanoLaneDesign.png[image,800,align=left]
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=laft]
 
+{empty} +
+
+== Camera Wiring
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=left]
+
+{empty} +
+
+[table.withborders,width="100%",cols="7%,35%,58%",options="header",]
+|===
+|Item |Description |Ordering Information
+|A a|*LAN Cables* |Supplied by integrator
+|B a|*Power Supply for {hw-poeinjector} +
+(PoE{plus} Injector)* +
+Requires 48 VDC
+a|
+For 1 camera, use a 75 W supply (IZPWR75) +
+For 2 cameras, use a 120 W supply (IZPWR120) +
+For 4 cameras, use a 240 W supply (IZPWR240)
+|C a|*Inductive Loop* |Supplied by integrator
+|D a|*Gate* |Supplied by integrator
+|===
+
+
+
+* One
+
 include::ROOT:partial$p-footer-copyright-long.adoc[Short Copyright Notice]
 
 Doc. No. {docproductname}-MAN-002b
