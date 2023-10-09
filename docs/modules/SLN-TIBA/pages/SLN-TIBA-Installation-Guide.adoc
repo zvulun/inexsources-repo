@@ -20,6 +20,8 @@
 //enable the TOC to be placed in a specific position
 :toc: macro
 
+image::ROOT:SLN-TIBA/TIBA_LOGO.png[50,align=left]
+
 = {docproductname} Installation Guide
 
 // restore section numbering from here on
