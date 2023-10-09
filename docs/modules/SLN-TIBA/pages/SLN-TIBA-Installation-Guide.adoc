@@ -20,7 +20,7 @@
 //enable the TOC to be placed in a specific position
 :toc: macro
 
-= INEX ALPR for the {docproductname} Parking System:
+= INEX ALPR for the {docproductname} Parking System
 
 +++<font size="+3">+++ *Installation and Calibration Guide*+++</font>+++
 
