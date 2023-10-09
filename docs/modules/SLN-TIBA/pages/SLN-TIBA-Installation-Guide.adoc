@@ -24,7 +24,7 @@
 
 +++<font size="+3">+++ *Installation and Calibration Guide*+++</font>+++
 
-image::ROOT:SLN-TIBA/TIBA_LOGO.png[20,align=left]
+image::ROOT:SLN-TIBA/TIBA_LOGO.png[50,align=left]
 
 // restore section numbering from here on
 :sectnums: all
