@@ -141,6 +141,7 @@ removable pole mount}_* IZMNTA-WE{plus}MNT-PMA -  pole mount
 === Typical Rear-Capture Design
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-097_AmanoLaneDesign.png[image,800,align=left]
+{empty} +
 
 === Typical Front-Capture Design
 
