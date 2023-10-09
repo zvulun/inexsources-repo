@@ -138,12 +138,12 @@ removable pole mount}_* IZMNTA-WE{plus}MNT-PMA -  pole mount
 
 == Lane Design
 
-=== Typical Rear-Capture Design
+.Typical Rear-Capture Design
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-097_AmanoLaneDesign.png[image,800,align=left]
 {empty} +
 
-=== Typical Front-Capture Design
+.Typical Front-Capture Design
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=laft]
 
@@ -151,10 +151,13 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=laf
 
 == Camera Wiring
 
+.Camera Wiring
+
 image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=left]
 
 {empty} +
 
+.Wiring Table
 [table.withborders,width="100%",cols="7%,35%,58%",options="header",]
 |===
 |Item |Description |Ordering Information
@@ -172,8 +175,6 @@ For 4 cameras, use a 240 W supply (IZPWR240)
 
 == Use {software-discovery} and Allocate IP Addresses
 
-
-
 . Allocate 3 consecutive IP addresses for
 the onboard Jetson processor and the
 LPR and OV sensors.
@@ -182,10 +183,18 @@ For example: +
 * LPR Sensor - http://192.168.5.101/ +
 * OV Sensor - http://192.168.5.102/ +
 
+. Use {software-discovery} to find the
+Jetson processor and LPR/OV sensors, and to
+change their IP addresses to the ones
+you allocated
+
+include::ROOT:partial$IZDiscovery/IZDISCOVERY-To-Include.adoc[leveloffset=+1]
 
 [#s_Configure-Microsoft-Edge]
 
 == Configure Microsoft Edge
+
+.Microsoft Edge - Setting the Default Browser
 
 image::ROOT:SLN-JLT/image-MSedge-settings-1.png[image,800]
 
@@ -198,7 +207,9 @@ Explorer mode (IE); change from
 
 . Click the Restart button; wait for restart
 +
-<<<
+
+.Microsoft Edge - Adding Pages to Internet Explorer Mode
+
 image::ROOT:SLN-TIBA/image-TIBA-MSedge-settings-2.png[image,800]
 
 . Internet Explorer Compatibility
@@ -209,8 +220,8 @@ image::ROOT:SLN-TIBA/image-TIBA-MSedge-settings-2.png[image,800]
 Jetson processor and the LPR and OV sensors.
 For example: +
 http://192.168.5.100/ +
-http://192.168.5.100/ +
-http://192.168.5.100/ +
+http://192.168.5.101/ +
+http://192.168.5.102/ +
 +
 [IMPORTANT]
 =================================
@@ -218,9 +229,14 @@ Addresses expire after 30 days and
 must be re-entered.
 =================================
 
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
+include::ROOT:partial$p-software-precautions.adoc[ALPR Camera Safety Precautions]
 
++++<div class="pagebreak"> </div>+++
 
-include::ROOT:partial$p-footer-copyright-long.adoc[Short Copyright Notice]
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
 Doc. No. {docproductname}-MAN-002b

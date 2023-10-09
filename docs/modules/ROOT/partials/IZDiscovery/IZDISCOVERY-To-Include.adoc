@@ -1,0 +1,93 @@
+
+== Installing and Using {software-discovery}
+The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
+
+[IMPORTANT]
+
+========================================
+
+If any device on your network is connected via wireless, {software-discovery} will not recognize the device. In addition, if the computer running {software-discovery} is connected via wireless, you will not see any devices displayed.
+
+========================================
+
+. Download the {software-discovery} software (https://drive.google.com/drive/folders/1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq?usp=share_link[link, window=_blank])
+
+. Run {software-discovery}
+
+. When {software-discovery} first runs, you may see a Windows security warning. If so, click Run.
+
+. If you see a message related to the Windows firewall, click Allow.
+
+. {software-discovery} will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
+
+.. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>>).
+
+.. Click Clear List to refresh the discovery process.
++
+[#f_IZ-Discovery-Utility]
+
+.{software-discovery} Utility
+
+image::ROOT:image$/IZDiscovery/RV-1_9-FIG-012b_IZDiscovery6020MainScreen.png[IZ Disovery Main Screen,width=503,height=337]
+
+. If {software-discovery} does not recognize a device:
+
+** Press the device's reset button (if available)
+
+** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
+
+** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run {software-discovery} again.
+
+[#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
+
+== Changing a Device's IP Address and Network Settings
+
+[#f_Changing-the-Device-s-Network-Settings]
+
+.Changing the Device's Network Settings
+
+image::ROOT:image$/IZDiscovery/RV-1_9-FIG-013b_ChangeIPUnCheckDHCP.png[IZ Discovery Network Setting Dialog,width=226,height=230]
+
+[NOTE]
+
+========================================
+
+The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
+
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
+
+A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using {software-discovery}.
+
+If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
+
+For devices using {software-ALPR} software, you can change the IP address using the {software-ALPR} Settings tab.
+
+If your device is an {compname-short} Camera System, be sure to define IP addresses for each camera (LPR and Overview), using each camera's configuration application. It is recommended to use sequential IP addresses for the Camera System and its cameras; for example: 192.168.5.64, 65, 66
+
+========================================
+
+To change the device's mode (fixed or dynamic [DHCP]), or IP address:
+
+. Select the relevant line in the list of devices and double-click on it.
+
+. The Network Settings window appears
+
+. To change the mode:
+
+.. Check or uncheck the DHCP box
+
+.. Click Save
+
+. To change the IP address:
+
+.. *Verify that the address is not used by any other device on the network*
+
+.. Be sure to uncheck the DHCP box
+
+.. Enter the network address parameters
+
+.. Write down the new IP Address and click Save
+
+. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
+
+. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (or {software-ALPR}) and change the IP address.
