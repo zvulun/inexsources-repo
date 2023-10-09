@@ -1,8 +1,8 @@
 :docproductname: TIBA
 :docproductname2: IZA500G/GR
 :fileproductname: IZA500G-GR
-:shortprodname: IZA500G
-:generic-camera-name: ALPR Camera System
+:shortprodname: IZA500GR
+:generic-camera-name: ALPR Camera
 
 // set attribute (by uncommenting the line)
 // used to determine which text/links to sections
@@ -20,7 +20,7 @@
 //enable the TOC to be placed in a specific position
 :toc: macro
 
-= INEX ALPR for the {docproductname} Parking System
+= {compname-short} ALPR for the {docproductname} Parking System
 
 +++<font size="+3">+++ *Installation and Calibration Guide*+++</font>+++
 
@@ -43,6 +43,8 @@ toc::[]
 ====
 
 <<<
+
+////
 
 [#s_Related-Documents]
 
@@ -104,15 +106,45 @@ toc::[]
 
 ====
 
+////
 
-== Computer Requirements
+== Background
+This document describes how to install,
+configure and calibrate an {compname-short} {generic-camera-name} for a single lane, to work with the TIBA Parking System.
 
-* Windows 10 or later
+== Applicable Products
+*_\{why do we need this section if we have the BOM?}_*
+{shortprodname} camera (Rev. F3)
+with built-in {software-ALPR} (RV) video analytics - ver *_\{xxxx}_*
+
+== You will Need
+* Computer running with Windows 10 or later
 * Microsoft Edge browser
 
-<<<
+== Solution BOM
+* Camera System:
+** IZA500GR-DRW-P48 - for USA, Mexico, Canada
+** IZA500GR-IRW-P48 - for Israel, EU, Taiwan, Australia, Vietnam, GCC, India, Singapore
+* Power Supply for P48 models
+** IZPWR75{plus}IZ4POE - for a single camera via POE
+** IZPWR120{plus}IZ4POE - for two cameras via POE
+** IZPWR240{plus}IZ4POE - for four cameras via POE
+* Camera Mounting hardware
+** IZMNTA-WE - wall mount
+** *_\{incorrect; IZMNTA-WE comes with
+removable pole mount}_* IZMNTA-WE{plus}MNT-PMA -  pole mount
+** IZMNTA-UC - under-ceiling
+* IZCLOUD-APM - IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
 
+== Lane Design
 
+=== Typical Rear-Capture Design
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-097_AmanoLaneDesign.png[image,800,align=left]
+
+=== Typical Front-Capture Design
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=laft]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Short Copyright Notice]
 
