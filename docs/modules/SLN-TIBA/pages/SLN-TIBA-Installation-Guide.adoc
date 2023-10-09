@@ -138,13 +138,16 @@ removable pole mount}_* IZMNTA-WE{plus}MNT-PMA -  pole mount
 
 == Lane Design
 
+[#f_Rear-Capture]
+
 .Typical Rear-Capture Design
-image::ROOT:SLN-TIBA/IZA500G-FIG-097_AmanoLaneDesign.png[image,800,align=left]
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-097_AmanoLaneDesign.png[image,800,align=center]
 {empty} +
 
 .Typical Front-Capture Design
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=laft]
+image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=center]
 
 {empty} +
 
@@ -152,7 +155,7 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=laf
 
 .Camera Wiring
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=left]
+image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=center]
 
 {empty} +
 
@@ -195,7 +198,7 @@ include::ROOT:partial$IZDiscovery/IZDISCOVERY-To-Include.adoc[leveloffset=+1]
 
 .Microsoft Edge - Setting the Default Browser
 
-image::ROOT:SLN-JLT/image-MSedge-settings-1.png[image,800]
+image::ROOT:SLN-JLT/image-MSedge-settings-1.png[image,800,align=center]
 
 . Open Edge and click the 3-dot menu at upper right
 . Select Settings
@@ -209,7 +212,7 @@ Explorer mode (IE); change from
 
 .Microsoft Edge - Adding Pages to Internet Explorer Mode
 
-image::ROOT:SLN-TIBA/image-TIBA-MSedge-settings-2.png[image,800]
+image::ROOT:SLN-TIBA/image-TIBA-MSedge-settings-2.png[image,800,align=center]
 
 . Internet Explorer Compatibility
 
