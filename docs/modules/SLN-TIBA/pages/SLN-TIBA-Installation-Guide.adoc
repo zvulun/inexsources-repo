@@ -253,7 +253,7 @@ which can change some of the other parameters.*
 
 ===== Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-094_AmanoLPRCameraSettings.png[image,800]
+image::ROOT:SLN-TIBA/IZA500G-FIG-112a_TIBALPRCameraSettings.png[image,800]
 
 *_\{recheck this bullet - unclear - is this
 default day shown here?}_*
