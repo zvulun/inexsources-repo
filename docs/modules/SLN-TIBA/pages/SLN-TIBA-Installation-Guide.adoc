@@ -206,11 +206,84 @@ include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configu
 
 [#s_Logging-In-to-the-Camera]
 
-=== Logging In to the Camera
+=== Logging In to a Camera
 
 include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
+=== Configure LPR Camera
 
+==== LiveView (link at upper right)
+* The focus will be set automatically;
+can be fine-adjusted manually with buttons
+* Use the buttons to Zoom in/out
+
+==== Admin (link at upper right)
+
+* Enter username and password (root/IZpass12)
+* Use the menu at the left to select the parameter
+category/sub-category/group.
++
+[IMPORTANT]
+==================
+*Change [.underline]#only# these settings, and remember to
+click the Apply button at the bottom of
+each parameter section.*
+==================
+
+==== Video &gt; Device &gt; Video Streams
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-093_AmanoLPRVideoStreams.png[image,800]
+
+Set: +
+
+* Max Video Encoding (at bottom) = 2M x 30 fps
++
+[IMPORTANT]
+==================
+*Change this parameter first.
+Changing this parameter will require a reset,
+which can change some of the other parameters.*
+==================
+
+* Primary Stream Frame Rate = 15 fps
+* Primary Stream Image Size = 1920 x 1080
+* Primary Stream Encoding Standard = M-JPEG
+
+.LPR Sensor - Video &amp; Device &gt; Video Streams
+
+===== Video &amp; Device &gt; Video Streams &gt; Camera Settings
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-094_AmanoLPRCameraSettings.png[image,800]
+
+*_\{recheck this bullet - unclear - is this
+default day shown here?}_*
+
+* Click Default(Day) at the top of the parameter table
+*_\{(not shown here???}_*
+
+Set:
+
+* Shutter Time Min = 1/500 - 1/32000
+* Shutter Time Max = equal to Time Min
++
+[NOTE]
+=====================
+If the image is too dark at night, increase
+shutter Time Min/Max. However, higher (longer)
+shutter speeds may cause smearing at higher
+vehicle speeds.
+=====================
+
+* Max AGC gain = 1 - 36
++
+[NOTE]
+=====================
+Use 36 for the lowest noise;
+however, if the image moves,
+increase this value (but the image will be less clear)
+=====================
+
+* Day and Night Control = Black & White
 
 *_\{put in headings, text and config screens from pinchas'
 rough draft}_*
