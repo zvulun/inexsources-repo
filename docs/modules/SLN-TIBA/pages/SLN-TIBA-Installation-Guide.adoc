@@ -249,7 +249,7 @@ which can change some of the other parameters.*
 * Primary Stream Image Size = 1920 x 1080
 * Primary Stream Encoding Standard = M-JPEG
 
-.LPR Sensor - Video &amp; Device &gt; Video Streams
+.LPR Sensor - Video & Device > Video Streams
 
 ===== Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
