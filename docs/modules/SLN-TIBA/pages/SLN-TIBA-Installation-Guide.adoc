@@ -328,7 +328,7 @@ include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
 
 *_\{put in Pinchas' rough draft and Max's screens, etc.}_*
 
-image::ROOT:SLN-TIBA/RVTIBA_Test01.png[image,800]
+image::ROOT:SLN-TIBA/tiba3.png[image,800]
 
 [#s_Verify-System-Operation]
 
