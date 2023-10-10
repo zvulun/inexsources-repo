@@ -210,7 +210,7 @@ include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configu
 
 include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
-=== Configure LPR Camera
+=== Configure the LPR Camera
 
 ==== LiveView (link at upper right)
 * The focus will be set automatically;
@@ -225,14 +225,14 @@ category/sub-category/group.
 +
 [IMPORTANT]
 ==================
-*Change [.underline]#only# these settings, and remember to
+*After changing settings, remember to
 click the Apply button at the bottom of
 each parameter section.*
 ==================
 
 ==== Video &gt; Device &gt; Video Streams
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-093_AmanoLPRVideoStreams.png[image,800]
+image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,800]
 
 Set: +
 
