@@ -1,0 +1,15 @@
+.Microsoft Edge - Setting the Default Browser
+
+image::ROOT:SLN-JLT/image-MSedge-settings-1.png[image,800,align=center]
+
+. Open Edge and click the 3-dot menu at upper right
+. Select Settings
+. Menu at left - "Default Browser"
+. Allow sites to be reloaded in Internet
+Explorer mode (IE); change from
+"Default" to "Allow"
+
+. Click the Restart button; wait for restart
++
+
+.Microsoft Edge - Adding Pages to Internet Explorer Mode

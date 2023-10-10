@@ -1,0 +1,11 @@
+. Internet Explorer Compatibility
+
+.. Internet Explorer mode pages; click the Add button
+
+.. Add URLs
++
+[IMPORTANT]
+=================================
+URLs expire after 30 days and
+must be re-entered.
+=================================
