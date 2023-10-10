@@ -232,7 +232,7 @@ each parameter section.*
 
 ==== Video &gt; Device &gt; Video Streams
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,800]
+image::ROOT:SLN-TIBA/IZA500G-FIG-110_JPGTIBALPRVideoStreams.jpg[image,800]
 
 Set: +
 
