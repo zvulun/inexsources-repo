@@ -115,7 +115,7 @@ configure and calibrate an {compname-short} {generic-camera-name} for a single l
 == Applicable Products
 *_\{why do we need this section if we have the BOM?}_*
 {shortprodname} camera (Rev. F3)
-with built-in {software-ALPR} (RV) video analytics - ver *_\{xxxx}_*
+with built-in {software-ALPR} (RV) video analytics - ver 1.15.54
 
 == Computer and Software Requirements
 * Computer running with Windows 10 or later
@@ -126,9 +126,9 @@ with built-in {software-ALPR} (RV) video analytics - ver *_\{xxxx}_*
 ** IZA500GR-DRW-P48 - for USA, Mexico, Canada
 ** IZA500GR-IRW-P48 - for Israel, EU, Taiwan, Australia, Vietnam, GCC, India, Singapore
 * Power Supply for P48 models
-** IZPWR75{plus}IZ4POE - for a single camera via POE
-** IZPWR120{plus}IZ4POE - for two cameras via POE
-** IZPWR240{plus}IZ4POE - for four cameras via POE
+** IZPWR75{plus}{hw-poeinjector} - for a single camera via POE
+** IZPWR120{plus}{hw-poeinjector} - for two cameras via POE
+** IZPWR240{plus}{hw-poeinjector} - for four cameras via POE
 * Camera Mounting hardware
 ** IZMNTA-WE - wall mount
 ** *_\{incorrect; IZMNTA-WE comes with
@@ -202,17 +202,68 @@ image::ROOT:SLN-TIBA/image-TIBA-MSedge-settings-2.png[image,800, align=center]
 
 include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configuration]]
 
-== Aim the Camera
+== Configure LPR/OV Camera Settings
+
+[#s_Logging-In-to-the-Camera]
+
+=== Logging In to the Camera
+
+include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
 
 
-== Calibrate LPR Sensor
+*_\{put in headings, text and config screens from pinchas'
+rough draft}_*
 
-== Calibrate OV Sensor
+== Aim and Calibrate
 
-== Configure {software-ALPR}
+There are two cameras (sensors) in the Camera System.
+Both are calibrated in nearly the same way.
+The LPR camera is set to capture in black and white,
+and the Overview (OV) camera is set to capture in color.
 
-*_\{see Pinchas' first draft and Max's screens}_*
+The OV camera can be used both to display an overview image,
+and to perform LPR recognition.
+You may even be able to improve read accuracy by
+changing the zoom to have one camera "see" closer
+than the other one.
+
+[#s_Preparing-a-Vehicle-License-Plate]
+
+=== Preparing a Vehicle/License Plate
+
+Move a vehicle next to, and at the middle of
+the capture line. (This is the position at
+which the vehicle sensor signals that the
+vehicle is present.) Ensure that the Camera System
+is aimed at the middle of the lane, and is at the
+required capture distance.
+
+Alternatively, in a lab, position a license plate
+at the expected distance and height.
+
+
+[#s_Using-RoadView]
+
+=== Using {software-ALPR}
+
+include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
+
+[#s_Calibrating-the-Cameras-Using-RoadView]
+
+=== Calibrating the Cameras Using {software-ALPR}
+
+*_\{put in Pinchas' rough draft and Max's screens, etc.}_*
+
+
+[#s_Verify-System-Operation]
+
+== Verify System Operation
+
+* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
+
+* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+
 
 == Legal Notices
 
