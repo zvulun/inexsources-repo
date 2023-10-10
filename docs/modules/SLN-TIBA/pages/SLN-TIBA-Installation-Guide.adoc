@@ -232,7 +232,7 @@ each parameter section.*
 
 ==== Video &gt; Device &gt; Video Streams
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,800]
+image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,600]
 
 Set: +
 
@@ -253,7 +253,7 @@ which can change some of the other parameters.*
 
 ===== Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,800]
+image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,600]
 
 *_\{recheck this bullet - unclear - is this
 default day shown here?}_*
