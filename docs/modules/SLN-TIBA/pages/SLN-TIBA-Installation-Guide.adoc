@@ -179,14 +179,14 @@ For 4 cameras, use a 240 W supply (IZPWR240)
 
 . Allocate 3 consecutive IP addresses for
 the onboard processor and the
-LPR and OV sensors.
+LPR and OV cameras (sensors).
 For example: +
 * Processor - http://192.168.5.100/ +
-* LPR Sensor - http://192.168.5.101/ +
-* OV Sensor - http://192.168.5.102/ +
+* LPR Camera - http://192.168.5.101/ +
+* OV Camera - http://192.168.5.102/ +
 
 . Use {software-discovery} to find the
-onboard processor and LPR/OV sensors, and to
+onboard processor and LPR/OV cameras, and to
 change their IP addresses to the ones
 you allocated.
 
@@ -226,19 +226,19 @@ click the Apply button at the bottom of
 each parameter section.*
 ==================
 
-== Configure the LPR Camera
+== Configure the LPR Camera (Sensor)
 
 Change the parameters to match the following screen captures:
 
-=== LPR Sensor - Video &amp; Device &gt; Video Streams
+=== LPR Camera - Video &amp; Device &gt; Video Streams
 
-.LPR Sensor - Video &amp; Device &gt; Video Streams
+.LPR Camera - Video &amp; Device &gt; Video Streams
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,600]
 
 {empty} +
 
-=== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 [NOTE]
 =====================
@@ -257,39 +257,39 @@ value for the lowest noise;
 increase this value (but the image will be less clear).
 =====================
 
-.LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,600]
 
 {empty} +
 
-=== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
-.LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
 
 {empty} +
 
-=== LPR Sensor - System &gt; Access Level
+=== LPR Camera - System &gt; Access Level
 
-.LPR Sensor - System &gt; Access Level
+.LPR Camera - System &gt; Access Level
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
 
-== Configure the OV Camera
+== Configure the OV Camera (Sensor)
 
 Change the parameters to match the following screen captures:
 
-=== OV Sensor - Video &amp; Device &gt; Video Streams
+=== OV Camera - Video &amp; Device &gt; Video Streams
 
-.OV Sensor - Video &amp; Device &gt; Video Streams
+.OV Camera - Video &amp; Device &gt; Video Streams
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,600]
 
 {empty} +
 
-=== OV Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 [NOTE]
 =====================
@@ -308,23 +308,23 @@ value for the lowest noise;
 increase this value (but the image will be less clear).
 =====================
 
-.OV Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+.OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-113_TIBAOVCameraSettings.png[image,600]
 
 {empty} +
 
-=== OV Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
-.OV Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+.OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-115_TIBAOVPrimaryStream.png[image,600]
 
 {empty} +
 
-=== OV Sensor - System &gt; Access Level
+=== OV Camera - System &gt; Access Level
 
-.OV Sensor - System &gt; Access Level
+.OV Camera - System &gt; Access Level
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-117_TIBAOVAccessLevel.png[image,600]
 
@@ -347,7 +347,7 @@ than the other one.
 
 Move a vehicle next to, and at the middle of
 the capture line. (This is the position at
-which the vehicle sensor signals that the
+which the vehicle detector signals that the
 vehicle is present.) Ensure that the Camera System
 is aimed at the middle of the lane, and is at the
 required capture distance.
