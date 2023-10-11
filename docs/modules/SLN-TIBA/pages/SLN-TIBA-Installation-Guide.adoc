@@ -751,6 +751,12 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-004a_Detector_Configuration.png[image,500]
 
 == Configure {software-ALPR} - System Info Tab
 
+Set the parameters as shown here:
+
+.System Info Tab
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,600]
+
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
 
