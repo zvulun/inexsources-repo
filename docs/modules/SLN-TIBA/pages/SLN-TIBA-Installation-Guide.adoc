@@ -229,6 +229,13 @@ each parameter section.*
 
 == Configure the LPR Camera (Sensor)
 
+[IMPORTANT]
+==================
+*After changing settings, remember to
+click the Apply button at the bottom of
+each parameter section.*
+==================
+
 Change the parameters to match the following screen captures:
 
 === LPR Camera - Video &amp; Device &gt; Video Streams
@@ -279,6 +286,13 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
 image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
 
 == Configure the OV Camera (Sensor)
+
+[IMPORTANT]
+==================
+*After changing settings, remember to
+click the Apply button at the bottom of
+each parameter section.*
+==================
 
 Change the parameters to match the following screen captures:
 
@@ -547,7 +561,7 @@ and associate each Camera System's cameras with a different "Lane".
 
 .Add/Edit Lane Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,200]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,400]
 
 * *ID* (required) - The identification number of
 the lane to be captured by the cameras.
@@ -615,7 +629,7 @@ following changes: +
 
 .Add/Edit Camera Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-006a_EditCameraDialog.png[image,200]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-006a_EditCameraDialog.png[image,400]
 
 ** *Lane ID* - The identification number of the
 lane being captured by the camera(s).
