@@ -250,8 +250,9 @@ Shutter Time Min/Max. However, higher (longer)
 shutter speeds may cause smearing at higher
 vehicle speeds.
 
-Use a Max AGC Gain of 36 for the lowest noise;
-however, if the image moves,
+Use the recommended Max AGC Gain
+value for the lowest noise;
+*_\{is this still true?}_* however, if the image moves,
 increase this value (but the image will be less clear).
 =====================
 
@@ -276,6 +277,59 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
 .LPR Sensor - System &gt; Access Level
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
+
+== Configure the OV Camera
+
+Change the parameters to match the following screen captures:
+
+=== OV Sensor - Video &amp; Device &gt; Video Streams
+
+.OV Sensor - Video &amp; Device &gt; Video Streams
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,600]
+
+{empty} +
+
+=== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+
+[NOTE]
+=====================
+Before changing the Camera Settings parameters, be sure to click
+the Default(Day) link at the top of
+the Camera Settings table.
+
+If the image is too dark at night, increase
+Shutter Time Min/Max. However, higher (longer)
+shutter speeds may cause smearing at higher
+vehicle speeds.
+
+Use the recommended Max AGC Gain
+value for the lowest noise;
+*_\{is this still true?}_* however, if the image moves,
+increase this value (but the image will be less clear).
+=====================
+
+=== OV Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+
+.OV Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-113_TIBAOVCameraSettings.png[image,600]
+
+{empty} +
+
+=== OV Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+
+.OV Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-115_TIBAOVPrimaryStream.png[image,600]
+
+{empty} +
+
+=== OV Sensor - System &gt; Access Level
+
+.OV Sensor - System &gt; Access Level
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-117_TIBAOVAccessLevel.png[image,600]
 
 == Aim and Calibrate
 
