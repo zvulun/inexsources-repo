@@ -208,8 +208,6 @@ include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configu
 
 include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
-== Configure the LPR Camera
-
 === LiveView (link at upper right)
 * The focus will be set automatically;
 can be fine-adjusted manually with buttons
@@ -227,6 +225,9 @@ category/sub-category/group.
 click the Apply button at the bottom of
 each parameter section.*
 ==================
+
+
+== Configure the LPR Camera
 
 === Change LPR Camera Parameters
 
