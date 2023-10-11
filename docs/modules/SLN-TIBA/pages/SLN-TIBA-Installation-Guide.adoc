@@ -328,7 +328,7 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-115_TIBAOVPrimaryStream.png[image,600]
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-117_TIBAOVAccessLevel.png[image,600]
 
-== Aim and Calibrate
+== Prepare to Aim and Calibrate
 
 There are two cameras (sensors) in the Camera System.
 Both are calibrated in nearly the same way.
@@ -341,10 +341,6 @@ You may even be able to improve read accuracy by
 changing the zoom to have one camera "see" closer
 than the other one.
 
-[#s_Preparing-a-Vehicle-License-Plate]
-
-=== Preparing a Vehicle/License Plate
-
 Move a vehicle next to, and at the middle of
 the capture line. (This is the position at
 which the vehicle detector signals that the
@@ -355,16 +351,41 @@ required capture distance.
 Alternatively, in a lab, position a license plate
 at the expected distance and height.
 
-
 [#s_Using-RoadView]
 
-=== Using {software-ALPR}
+== Log In to {software-ALPR}
 
-include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
+=== Logging In
+. Open a Microsoft Edge browser.
+
+. Type in the IP address of the {software-ALPR} computer.
+For example: +
+http://192.168.5.100/[http://192.168.5.100/]
+
+. You will see the login screen. Enter the default username and password (root, root):
++
+[#f_Logging-In-to-RoadView]
+
+.Logging In to {software-ALPR}
+
+image::ROOT:RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
+
+. You should see the {software-ALPR} Live (Journal) tab.
+
+[#s_Logging-Out]
+
+=== Logging Out
+
+Use the multi-line dropdown menu icon in the upper right corner of the screen.
+
+== Configure {software-ALPR}
+
+
+
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
 
-=== Calibrating the Cameras Using {software-ALPR}
+== Calibrating the Cameras Using {software-ALPR}
 
 *_\{put in Pinchas' rough draft and Max's screens, etc.}_*
 
