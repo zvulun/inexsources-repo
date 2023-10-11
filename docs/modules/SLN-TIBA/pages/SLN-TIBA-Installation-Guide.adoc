@@ -264,16 +264,6 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
 Before changing the Camera Settings parameters, be sure to click
 the Default(Day) link at the top of
 the Camera Settings table.
-
-If the image is too dark at night, increase
-Shutter Time Min/Max. However, higher (longer)
-shutter speeds may cause smearing at higher
-vehicle speeds.
-
-Use the recommended Max AGC Gain
-value for the lowest noise;
-*_\{is this still true?}_* however, if the image moves,
-increase this value (but the image will be less clear).
 =====================
 
 .LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
@@ -322,16 +312,6 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
 Before changing the Camera Settings parameters, be sure to click
 the Default(Day) link at the top of
 the Camera Settings table.
-
-If the image is too dark at night, increase
-Shutter Time Min/Max. However, higher (longer)
-shutter speeds may cause smearing at higher
-vehicle speeds.
-
-Use the recommended Max AGC Gain
-value for the lowest noise;
-*_\{is this still true?}_* however, if the image moves,
-increase this value (but the image will be less clear).
 =====================
 
 .OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
