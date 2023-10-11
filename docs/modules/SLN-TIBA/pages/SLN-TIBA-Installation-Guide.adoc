@@ -264,6 +264,7 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
 Before changing the Camera Settings parameters, be sure to click
 the Default(Day) link at the top of
 the Camera Settings table.
+*_\{need to tell user any other tips about AGC or Shutter times?}_*
 =====================
 
 .LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
@@ -271,6 +272,8 @@ the Camera Settings table.
 image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,400]
 
 {empty} +
+
+<<<
 
 === LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
@@ -285,6 +288,8 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
 .LPR Camera - System &gt; Access Level
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
+
+<<<
 
 == Configure the OV Camera (Sensor)
 
@@ -312,6 +317,7 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
 Before changing the Camera Settings parameters, be sure to click
 the Default(Day) link at the top of
 the Camera Settings table.
+*_\{need to tell user any other tips about AGC or Shutter times?}_*
 =====================
 
 .OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
