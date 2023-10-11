@@ -230,63 +230,36 @@ click the Apply button at the bottom of
 each parameter section.*
 ==================
 
-==== Video &amp; Device &gt; Video Streams
+==== Parameters to Change
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,600]
-
-Set: +
-
-* Max Video Encoding (at bottom) = 2M x 30 fps
-+
-[IMPORTANT]
-==================
-*Change this parameter first.
-Changing this parameter will require a reset,
-which can change some of the other parameters.*
-==================
-
-* Primary Stream Frame Rate = 15 fps
-* Primary Stream Image Size = 1920 x 1080
-* Primary Stream Encoding Standard = M-JPEG
+Change the parameters to match the following screen captures:
 
 .LPR Sensor - Video &amp; Device &gt; Video Streams
 
-===== Video &amp; Device &gt; Video Streams &gt; Camera Settings
+image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,600]
+{empty} +
+
+.LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,600]
 
-*_\{recheck this bullet - unclear - is this
-default day shown here?}_*
-
-* Click Default(Day) at the top of the parameter table
-*_\{(not shown here???}_*
-
-Set:
-
-* Shutter Time Min = 1/500 - 1/32000
-* Shutter Time Max = equal to Time Min
-+
 [NOTE]
 =====================
+Before changing parameters, be sure to click
+the Default(Day) link at the top of
+the Camera Settings table.
+
 If the image is too dark at night, increase
-shutter Time Min/Max. However, higher (longer)
+Shutter Time Min/Max. However, higher (longer)
 shutter speeds may cause smearing at higher
 vehicle speeds.
-=====================
 
-* Max AGC gain = 1 - 36
-+
-[NOTE]
-=====================
-Use 36 for the lowest noise;
+Use a Max AGC Gain of 36 for the lowest noise;
 however, if the image moves,
-increase this value (but the image will be less clear)
+increase this value (but the image will be less clear).
 =====================
 
-* Day and Night Control = Black & White
 
-*_\{put in headings, text and config screens from pinchas'
-rough draft}_*
 
 == Aim and Calibrate
 
@@ -328,7 +301,7 @@ include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
 
 *_\{put in Pinchas' rough draft and Max's screens, etc.}_*
 
-image::ROOT:SLN-TIBA/tiba3new.png[image,800]
+
 
 [#s_Verify-System-Operation]
 
