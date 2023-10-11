@@ -561,7 +561,7 @@ and associate each Camera System's cameras with a different "Lane".
 
 .Add/Edit Lane Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,350]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,320]
 
 * *ID* (required) - The identification number of
 the lane to be captured by the cameras.
@@ -629,7 +629,7 @@ following changes: +
 
 .Add/Edit Camera Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-006a_EditCameraDialog.png[image,350]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-006a_EditCameraDialog.png[image,320]
 
 ** *Lane ID* - The identification number of the
 lane being captured by the camera(s).
