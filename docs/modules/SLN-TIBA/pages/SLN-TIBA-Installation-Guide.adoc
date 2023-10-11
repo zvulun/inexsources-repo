@@ -397,6 +397,9 @@ to a different location (time zone).
 [NOTE]
 
 ========================================
+Configure the parameters in the order in this
+section of the document.
+
 After clicking the Save button at the end of the
 Detector Configuration section, it will take
 several seconds before the Live tab
@@ -501,71 +504,6 @@ Camera System is installed
 
 * Remember to click the Save button at the end
 of this section after making changes.
-
-[#s_IZCloud-Integration]
-
-=== {software-cloud} Integration
-
-Enable {software-cloud} Integration and
-set the parameters as follows:
-
-.{software-cloud} Integration
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,600]
-
-#s_TIBA-Integration]
-
-=== {docproductname} Integration
-
-Enable {docproductname} Integration and
-set the parameters as follows:
-
-.{docproductname} Integration
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,600]
-
-=== Direct Trigger
-
-Set the Direct Trigger as shown here:
-
-[#f_Direct-Trigger-Section]
-
-.Direct Trigger Section
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
-
-* Remember to click the Save button under
-the Detection Configuration section after
-changing these parameters.
-
-[#s_Trigger-Offset]
-
-=== Trigger Offset
-
-Enable Trigger Offset and
-set the parameter as follows:
-
-[#f_Trigger-Offset-Section]
-
-.Trigger Offset Section
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
-
-[#s_Detector-Configuration]
-
-=== Detector Configuration
-
-* Set the parameters as follows.
-
-* Remember to click the Save button
-at the end of this section after
-changing these parameters.
-
-[#f_Detector-Configuration-Section]
-
-.Detector Configuration Section
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-004a_Detector_Configuration.png[image,600]
 
 [#s_Lanes]
 
@@ -735,6 +673,73 @@ Number of frames to be included in the set of frames used
 to build an Event - +++<u>+++after+++</u>+++ the trigger
 occurs.
 ////
+
+
+[#s_IZCloud-Integration]
+
+=== {software-cloud} Integration
+
+Enable {software-cloud} Integration and
+set the parameters as follows:
+
+.{software-cloud} Integration
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,600]
+
+#s_TIBA-Integration]
+
+=== {docproductname} Integration
+
+Enable {docproductname} Integration and
+set the parameters as follows:
+
+.{docproductname} Integration
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,600]
+
+=== Direct Trigger
+
+Set the Direct Trigger as shown here:
+
+[#f_Direct-Trigger-Section]
+
+.Direct Trigger Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
+
+* Remember to click the Save button under
+the Detection Configuration section after
+changing these parameters.
+
+[#s_Trigger-Offset]
+
+=== Trigger Offset
+
+Enable Trigger Offset and
+set the parameter as follows:
+
+[#f_Trigger-Offset-Section]
+
+.Trigger Offset Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
+
+[#s_Detector-Configuration]
+
+=== Detector Configuration
+
+* Set the parameters as follows.
+
+* Remember to click the Save button
+at the end of this section after
+changing these parameters.
+
+[#f_Detector-Configuration-Section]
+
+.Detector Configuration Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-004a_Detector_Configuration.png[image,600]
+
 
 == Configure {software-ALPR} - System Info Tab
 
