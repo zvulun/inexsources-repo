@@ -391,6 +391,8 @@ image::ROOT:RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 . You should see the {software-ALPR} Live (Journal) tab.
 
+<<<
+
 === Logging Out (Multi-line Menu Icon)
 
 * Click on the multi-line menu icon at the upper right of the {shortprodname} screen
@@ -442,6 +444,8 @@ The box at the upper right of the Settings screen shows:
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,400]
 
+<<<
+
 [#s_Network-Settings]
 
 === Network Settings
@@ -472,6 +476,8 @@ you to access the computer using the same URL every time,
 even after unexpected power outages.
 
 ========================================
+
+<<<
 
 [#s_Date-and-Time-Settings]
 
@@ -521,6 +527,8 @@ Camera System is installed
 
 * Remember to click the Save button at the end
 of this section after making changes.
+
+<<<
 
 [#s_Lanes]
 
@@ -587,6 +595,8 @@ from the rear of vehicles
 * *Passageway* - Unused
 
 * *Ignore Opposite Direction* - Unused
+
+<<<
 
 [#s_Cameras]
 
@@ -685,6 +695,7 @@ to build an Event - +++<u>+++after+++</u>+++ the trigger
 occurs.
 ////
 
+<<<
 
 [#s_IZCloud-Integration]
 
@@ -735,6 +746,8 @@ set the parameter as follows:
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
 
+<<<
+
 [#s_Detector-Configuration]
 
 === Detector Configuration
@@ -751,6 +764,7 @@ changing these parameters.
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-004a_Detector_Configuration.png[image,500]
 
+<<<
 
 == Configure {software-ALPR} - System Info Tab
 
@@ -762,6 +776,8 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,500]
 
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
+
+<<<
 
 == Calibrating the Cameras Using {software-ALPR}
 
@@ -885,6 +901,7 @@ tightening of the mounting hardware.
 
 . Repeat these steps for the other camera.
 
+<<<
 
 [#s_Verify-System-Operation]
 
@@ -906,6 +923,8 @@ has sufficient accuracy and confidence.
 
 * You can use the Search tab to find Event records stored in the
 {software-ALPR} database.
+
+<<<
 
 [#s_Troubleshooting]
 
@@ -941,6 +960,7 @@ Examine the video from the Camera on the Calibration tab:
 
 |===
 
+<<<
 
 == Legal Notices
 
