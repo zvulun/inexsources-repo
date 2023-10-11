@@ -255,6 +255,8 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
 
 {empty} +
 
+<<<
+
 === LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 [NOTE]
