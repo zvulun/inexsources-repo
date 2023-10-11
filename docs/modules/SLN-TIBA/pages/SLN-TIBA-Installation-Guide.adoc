@@ -719,7 +719,7 @@ Set the Direct Trigger as shown here:
 
 .Direct Trigger Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,300]
 
 * Remember to click the Save button under
 the Detection Configuration section after
