@@ -356,7 +356,7 @@ at the expected distance and height.
 == Log In to {software-ALPR}
 
 === Logging In
-. Open a Microsoft Edge browser.
+. Open a Microsoft Edge browser in Internet Explorer mode.
 
 . Type in the IP address of the {software-ALPR} computer.
 For example: +
