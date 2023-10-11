@@ -755,7 +755,7 @@ Set the parameters as shown here:
 
 .System Info Tab
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,600]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,500]
 
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
