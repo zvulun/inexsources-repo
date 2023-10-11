@@ -593,7 +593,7 @@ from the rear of vehicles
 
 .Cameras Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-004c_Cameras.png[image,600]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-004c_Cameras.png[image,800]
 
 * Actions:
 
@@ -694,7 +694,7 @@ set the parameters as follows:
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,600]
 
-#s_TIBA-Integration]
+[#s_TIBA-Integration]
 
 === {docproductname} Integration
 
@@ -713,7 +713,7 @@ Set the Direct Trigger as shown here:
 
 .Direct Trigger Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,300]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,340]
 
 * Remember to click the Save button under
 the Detection Configuration section after
