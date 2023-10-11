@@ -372,15 +372,53 @@ image::ROOT:RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 . You should see the {software-ALPR} Live (Journal) tab.
 
-[#s_Logging-Out]
+=== Logging Out (Multi-line Menu Icon)
 
-=== Logging Out
+* Click on the multi-line menu icon at the upper right of the {shortprodname} screen
 
-Use the multi-line dropdown menu icon in the upper right corner of the screen.
+* Select "Logout"
 
-== Configure {software-ALPR}
+[#f_Logout-Multi-line-Menu]
+
+.Logout (Multi-line Menu)
+
+image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
+
+== Configure {software-ALPR} - Settings Tab
+
+Use the Settings tab after the first installation or
+reinstallation of the IZ ALPR system, or when some
+fundamental parameters need updating.
+For example, if the Camera System or DPU was moved
+to a different location (time zone).
+
+[NOTE]
+
+========================================
+
+After clicking the Save button at the end of the Detector Configuration section, it will take several seconds before the Live tab can start displaying Events. Also, some defaults and/or available parameters may change, depending on the Detector Configuration "Mode" selected.
+
+========================================
+
+[#s_Software-Version-and-Camera-Information]
+
+=== Software Version and Camera Information
+
+The box at the upper right of the Settings screen shows:
+
+* The {shortprodname} software version
+
+* The model, part number and serial number of the camera(s) {shortprodname} is communicating with:
+
+[#f_Software-Version-and-Camera-Information-Section]
+
+.Software Version and Camera Information Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,width=356,height=130]
 
 
+
+== Configure {software-ALPR} - System Info Tab
 
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
