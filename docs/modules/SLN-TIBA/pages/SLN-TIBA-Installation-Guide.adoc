@@ -849,7 +849,7 @@ such as large numbers on trucks.
 
 . Use the zoom and focus buttons to adjust
 the view of the video until the width of the plate
-is *_\{still true?}_*150 pixels, and its plate image is clear and sharp.
+is *_\{still true?}_* 150 pixels, and its plate image is clear and sharp.
 (The surrounding items, such as the vehicle body,
 do not need to be as sharp as the plate.)
 +
@@ -890,7 +890,7 @@ tightening of the mounting hardware.
 * Using a license plate mounted in a lab,
 or by driving a vehicle through the lane,
 verify that an Event is generated with the
-correct plate read (recorded in the {software-ALPR} Live (Journal)
+correct plate read, as recorded in the {software-ALPR} Live (Journal)
 tab.
 
 .Live (Journal) Tab
@@ -908,14 +908,6 @@ has sufficient accuracy and confidence.
 
 == Troubleshooting
 
-[NOTE]
-
-========================================
-
-For details about items in the following list related to hardware or configuration, see your camera's Installation and Calibration Guide.
-
-========================================
-
 [#t_Troubleshooting]
 
 .Troubleshooting
@@ -925,11 +917,11 @@ For details about items in the following list related to hardware or configurati
 |Symptom |Possible Solution
 |Thumbnails in Settings tab, in the Camera section at bottom have been replaced by red exclamation points and/or +
 The Live tab and Search tab are empty (no Events are detected) a|
-* Verify that each camera's IP address in the Camera System (or connected to the DPU), and the {shortprodname} computer's IP address are all on the same subnet.
+* Verify that each camera's IP address in the Camera System, and the {software-ALPR} computer's IP address are all on the same subnet.
 
 * Verify that stable power at the correct level is being supplied to the cameras, even when under a heavy processing load.
 
-* Verify that the IP address(es) configured in {shortprodname} match the IP addresses that you configured in the camera(s). See <<s_Cameras>>.
+* Verify that the IP address(es) configured in {software-ALPR} match the IP addresses that you configured in the camera(s). See <<s_Cameras>>.
 
 |Recognition rates are low a|
 * On the Calibration tab, increase the size of the Region of Interest (ROI) - it may be too small to capture plates with high confidence
@@ -938,11 +930,11 @@ The Live tab and Search tab are empty (no Events are detected) a|
 
 Examine the video from the Camera on the Calibration tab:
 
-* If all license plates are not fully visible, re-aim the Camera so that the Camera's field of view fully covers the capture zone. For a more precise adjustment, verify that the license plate's images are as close to the middle of the video display as possible.
+* If all license plates are not fully visible, re-aim the Camera System so that the each camera's field of view fully covers the capture zone. For a more precise adjustment, verify that the license plate's images are as close to the middle of the video display as possible.
 
 * If the images are spotted, remove dirt and dust from the front window of the Camera System with a soft cloth and mild soap
 
-* If the images are not sharp, adjust the zoom and focus of the camera
+* If the images are not sharp, adjust the zoom and focus of each camera.
 
 |===
 
