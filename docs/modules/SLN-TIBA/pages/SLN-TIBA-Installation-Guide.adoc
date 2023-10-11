@@ -629,7 +629,7 @@ following changes: +
 
 .Add/Edit Camera Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-006a_EditCameraDialog.png[image,320]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-006a_EditCameraDialog.png[image,300]
 
 ** *Lane ID* - The identification number of the
 lane being captured by the camera(s).
@@ -672,12 +672,6 @@ http:// <camera IP address>
 
 ** *Trigger Pre* -
 Set as shown
-
-////
-Number of frames to be included in the set of frames used
-to build an Event - +++<u>+++before+++</u>+++ the trigger
-occurs.
-////
 
 ** *Trigger Post* -
 Set as shown
