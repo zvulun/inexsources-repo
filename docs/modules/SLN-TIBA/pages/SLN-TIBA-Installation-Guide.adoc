@@ -202,9 +202,8 @@ include::ROOT:partial$IZDiscovery/p-IZDISCOVERY-To-Include.adoc[leveloffset=+1]
 == Configure Microsoft Edge
 
 include::ROOT:partial$p-configure-ms-edge-1.adoc[First part of MS Edge configuration]
-
++
 <<<
-
 image::ROOT:SLN-TIBA/image-TIBA-MSedge-settings-2.png[image,800, align=center]
 
 include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configuration]]
