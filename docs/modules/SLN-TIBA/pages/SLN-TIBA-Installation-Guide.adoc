@@ -137,6 +137,8 @@ removable pole mount}_* IZMNTA-WE{plus}MNT-PMA -  pole mount
 ** IZMNTA-UC - under-ceiling
 * IZCLOUD-APM - IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
 
+<<<
+
 == Lane Design
 
 [#f_Rear-Capture]
@@ -151,6 +153,8 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-097_AmanoLaneDesign.png[image,800,align=center]
 image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=center]
 
 {empty} +
+
+<<<
 
 == Camera Wiring
 
