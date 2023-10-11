@@ -263,12 +263,15 @@ increase this value (but the image will be less clear).
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,600]
 
+{empty} +
 
 ===== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
 .LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
+
+{empty} +
 
 ===== LPR Sensor - System &gt; Access Level
 
