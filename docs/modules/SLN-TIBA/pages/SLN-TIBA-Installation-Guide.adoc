@@ -178,7 +178,7 @@ For 4 cameras, use a 240 W supply (IZPWR240)
 == Use {software-discovery} and Allocate IP Addresses
 
 . Allocate 3 consecutive IP addresses for
-the onboard Jetson processor and the
+the onboard processor and the
 LPR and OV sensors.
 For example: +
 * Processor - http://192.168.5.100/ +
@@ -186,7 +186,7 @@ For example: +
 * OV Sensor - http://192.168.5.102/ +
 
 . Use {software-discovery} to find the
-Jetson processor and LPR/OV sensors, and to
+onboard processor and LPR/OV sensors, and to
 change their IP addresses to the ones
 you allocated.
 
@@ -234,10 +234,14 @@ each parameter section.*
 
 Change the parameters to match the following screen captures:
 
+===== LPR Sensor - Video &amp; Device &gt; Video Streams
+
 .LPR Sensor - Video &amp; Device &gt; Video Streams
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,600]
 {empty} +
+
+===== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 [NOTE]
 =====================
@@ -259,6 +263,18 @@ increase this value (but the image will be less clear).
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,600]
 
+
+===== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+
+.LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
+
+===== LPR Sensor - System &gt; Access Level
+
+.LPR Sensor - System &gt; Access Level
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
 
 == Aim and Calibrate
 
