@@ -414,7 +414,9 @@ The box at the upper right of the Settings screen shows:
 
 .Software Version and Camera Information Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,width=356,height=130]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image]
+
+
 
 
 
