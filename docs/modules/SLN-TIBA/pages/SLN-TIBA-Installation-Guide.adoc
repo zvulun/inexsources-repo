@@ -529,7 +529,7 @@ Use this section to add and configure Lanes.
 
 .Lanes Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-004b_Lanes.png[image,600]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-004b_Lanes.png[image,800]
 
 * Actions:
 
