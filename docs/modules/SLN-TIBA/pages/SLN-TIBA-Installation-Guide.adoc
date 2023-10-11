@@ -706,7 +706,7 @@ set the parameters as follows:
 
 .{software-cloud} Integration
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,600]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,550]
 
 [#s_TIBA-Integration]
 
@@ -717,7 +717,7 @@ set the parameters as follows:
 
 .{docproductname} Integration
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,600]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,550]
 
 === Direct Trigger
 
