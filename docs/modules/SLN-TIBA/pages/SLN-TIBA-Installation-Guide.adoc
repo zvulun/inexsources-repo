@@ -310,6 +310,8 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
 
 {empty} +
 
+<<<
+
 === OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 [NOTE]
@@ -326,6 +328,8 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-113_TIBAOVCameraSettings.png[image,400]
 
 {empty} +
 
+<<<
+
 === OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
 .OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
@@ -339,6 +343,8 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-115_TIBAOVPrimaryStream.png[image,600]
 .OV Camera - System &gt; Access Level
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-117_TIBAOVAccessLevel.png[image,600]
+
+<<<
 
 == Prepare to Aim and Calibrate
 
