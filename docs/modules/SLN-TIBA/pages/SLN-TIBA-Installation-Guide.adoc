@@ -208,7 +208,7 @@ include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configu
 
 include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
-=== LiveView (link at upper right)
+=== Live View (link at upper right)
 * The focus will be set automatically;
 can be fine-adjusted manually with buttons
 * Use the buttons to Zoom in/out
@@ -226,21 +226,18 @@ click the Apply button at the bottom of
 each parameter section.*
 ==================
 
-
 == Configure the LPR Camera
-
-=== Change LPR Camera Parameters
 
 Change the parameters to match the following screen captures:
 
-==== LPR Sensor - Video &amp; Device &gt; Video Streams
+=== LPR Sensor - Video &amp; Device &gt; Video Streams
 
 .LPR Sensor - Video &amp; Device &gt; Video Streams
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,600]
 {empty} +
 
-==== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+=== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 [NOTE]
 =====================
@@ -258,7 +255,7 @@ however, if the image moves,
 increase this value (but the image will be less clear).
 =====================
 
-==== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+=== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 .LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
@@ -266,7 +263,7 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,600]
 
 {empty} +
 
-==== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+=== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
 .LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
@@ -274,7 +271,7 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
 
 {empty} +
 
-==== LPR Sensor - System &gt; Access Level
+=== LPR Sensor - System &gt; Access Level
 
 .LPR Sensor - System &gt; Access Level
 
