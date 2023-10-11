@@ -110,7 +110,8 @@ toc::[]
 
 == Background
 This document describes how to install,
-configure and calibrate an {compname-short} {generic-camera-name} for a single lane, to work with the TIBA Parking System.
+configure and calibrate an {compname-short} {generic-camera-name}
+for a single lane, to work with the {docproductname} Parking System.
 
 == Applicable Products
 *_\{why do we need this section if we have the BOM?}_*
@@ -388,7 +389,7 @@ image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
 == Configure {software-ALPR} - Settings Tab
 
 Use the Settings tab after the first installation or
-reinstallation of the IZ ALPR system, or when some
+re-installation of the ALPR system, or when some
 fundamental parameters need updating.
 For example, if the Camera System was moved
 to a different location (time zone).
@@ -512,7 +513,228 @@ set the parameters as follows:
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,600]
 
+#s_TIBA-Integration]
 
+=== {docproductname} Integration
+
+Enable {docproductname} Integration and
+set the parameters as follows:
+
+.{docproductname} Integration
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,600]
+
+=== Direct Trigger
+
+Set the Direct Trigger as shown here:
+
+[#f_Direct-Trigger-Section]
+
+.Direct Trigger Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
+
+* Remember to click the Save button under
+the Detection Configuration section after
+changing these parameters.
+
+[#s_Trigger-Offset]
+
+=== Trigger Offset
+
+Enable Trigger Offset and
+set the parameter as follows:
+
+[#f_Trigger-Offset-Section]
+
+.Trigger Offset Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
+
+[#s_Detector-Configuration]
+
+=== Detector Configuration
+
+* Set the parameters as follows.
+
+* Remember to click the Save button
+at the end of this section after
+changing these parameters.
+
+[#f_Detector-Configuration-Section]
+
+.Detector Configuration Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-004a_Detector_Configuration.png[image,600]
+
+[#s_Lanes]
+
+=== Lanes
+
+Use this section to add and configure Lanes.
+
+[#f_Lanes-Section]
+
+.Lanes Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-004b_Lanes.png[image,600]
+
+* Actions:
+
+** +++<u>+++Edit+++</u>+++ - edit the Lane's parameters
+
+** +++<u>+++Delete+++</u>+++ - delete the Lane
+(a warning will be displayed)
+
+** +++<u>+++Trigger+++</u>+++ - send a software trigger
+immediately to {software-ALPR}
++
+[NOTE]
+
+========================================
+
+Each Lane number must be unique in the overall ALPR system.
+
+The images from all cameras capturing the same physical lane
+will be combined into a single Event.
+
+Each "Lane" is actually a virtual Lane. For example,
+if you have two Camera Systems capturing the same physical lane,
+you will need to create two different "Lanes",
+and associate each Camera System's cameras with a different "Lane".
+
+========================================
++
+[#f_Add-Edit-Lane-Dialog]
+
+.Add/Edit Lane Dialog
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,200]
+
+* *ID* (required) - The identification number of
+the lane to be captured by the cameras.
+This number will appear associated with Events in the Live tab.
+
+* *Name* (required) - The name of the Lane as it will appear
+throughout the user interface (GUI).
+
+* *Location* - Select one of the following options:
+
+** *Unknown* - the camera's position relative to vehicles
+is unknown.
+
+** *Front* - the camera in this Lane is capturing images
+from the front of vehicles
+
+** *Rear* - the camera in this Lane is capturing images
+from the rear of vehicles
+
+* *Passageway* - Unused
+
+* *Ignore Opposite Direction* - Unused
+
+[#s_Cameras]
+
+=== Cameras
+
+[#f_Cameras-Section]
+
+.Cameras Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-004c_Cameras.png[image,600]
+
+* Actions:
+
+** +++<u>+++Edit+++</u>+++ - edit the camera's parameters
+(see <<f_Add-Edit-Camera-Dialog>>)
+
+** +++<u>+++Delete+++</u>+++ - delete the camera
+(a warning will be displayed)
+
+* *Camera table headers:* Camera ID, Lane ID, Name, URL,
+Type (as configured when the camera was added)
+
+* *Image* - Thumbnail image from a recent camera image
++
+[WARNING]
+
+========================================
+If you add a camera, or edit a camera's parameters and
+click the Save button in this dialog
+(even if you did not change the URL),
+you may see a warning icon in the Image column.
+The reappearance of the image indicates that the
+core software has restarted, and Events will resume
+being captured and displayed in the Live tab, with the
+following changes: +
+- The Transaction ID will restart at 1 for that camera. +
+- The history of previous Events for that camera will be cleared
+========================================
+
+* *Add Camera* (button at end of Cameras section):
++
+[#f_Add-Edit-Camera-Dialog]
+
+.Add/Edit Camera Dialog
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-006a_EditCameraDialog.png[image,200]
+
+** *Lane ID* - The identification number of the
+lane being captured by the camera(s).
+Select a Lane number you defined (see <<s_Lanes>>).
+This number will appear associated with Events in the Live tab.
++
+[NOTE]
+
+========================================
+
+The images from all cameras capturing the same physical
+lane will be combined into a single Event.
+
+Using the same Lane ID for different cameras
+(even the LPR and OV cameras within the same Camera System)
+will combine the reads into one Event (see <<s_Lanes>>).
+You may even be able to improve read accuracy by changing
+the zoom to have one camera "see" closer than the other one.
+
+You could also position cameras to be in different positions
+(front/rear).
+
+========================================
+
+** *Camera ID* - For internal use; should be unique in the
+overall ALPR system
+
+** *Name* - Camera name for internal use; should be unique
+in the overall ALPR system
+
+** *URL* - RTSP or HTTP URL:
+
+*** RTSP stream URL example: +
+rtsp:// <camera IP address>/cam0_0
+
+*** HTTP URL example: +
+http:// <camera IP address>
+
+** *Type* - Type of camera (LPR or View)
+
+** *Trigger Pre* -
+Set as shown
+
+////
+Number of frames to be included in the set of frames used
+to build an Event - +++<u>+++before+++</u>+++ the trigger
+occurs.
+////
+
+** *Trigger Post* -
+Set as shown
+
+////
+Number of frames to be included in the set of frames used
+to build an Event - +++<u>+++after+++</u>+++ the trigger
+occurs.
+////
 
 == Configure {software-ALPR} - System Info Tab
 
