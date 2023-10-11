@@ -389,15 +389,19 @@ image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
 Use the Settings tab after the first installation or
 reinstallation of the IZ ALPR system, or when some
 fundamental parameters need updating.
-For example, if the Camera System or DPU was moved
+For example, if the Camera System was moved
 to a different location (time zone).
 
 [NOTE]
 
 ========================================
-
-After clicking the Save button at the end of the Detector Configuration section, it will take several seconds before the Live tab can start displaying Events. Also, some defaults and/or available parameters may change, depending on the Detector Configuration "Mode" selected.
-
+After clicking the Save button at the end of the
+Detector Configuration section, it will take
+several seconds before the Live tab
+can start displaying Events.
+Also, some defaults and/or available
+parameters may change, depending on the
+Detector Configuration "Mode" selected.
 ========================================
 
 [#s_Software-Version-and-Camera-Information]
@@ -414,9 +418,11 @@ The box at the upper right of the Settings screen shows:
 
 .Software Version and Camera Information Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,400]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-001aa_VersionAndCameraInfo.png[image,400]
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-001b_Network.png[image,600]
+
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-001bb_Network.png[image,600]
 
 
 
