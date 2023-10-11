@@ -727,16 +727,28 @@ Detector Configuration section after making changes.*
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,550]
 
-* *TIBA URL* - the URL of the TIBA server
-* *User Name* - username to access the TIBA server
-* *Password* - password to access the TIBA server
-* *Token* - token for access to the TIBA server
-* *Camera Port* - the HTTPS port on which RoadView listens for capture and “open gate” commands
-* *Auth Key* - the key that should be in one of the headers sent by the TIBA server, in the HTTP requests for capture and “open gate” commands
-* *Auth Value* - the value for the header with the key defined by Auth Key, that should match the value sent by the TIBA server, in the HTTP requests for capture and “open gate” commands
-* *Lanes:*
-** *Lane ID* - this table is automatically populated with the number of lanes defined in the Lanes section at the bottom of the Settings tab
-** *GPIO* - the nn number that identifies the GPIOnn pin on the NVIDIA Jetson processor's I/O module. A signal is sent to this pin when an “open gate” command is received from the TIBA server. See the NVIDIA Jetson documentation for further information. (See next Note)
+* *TIBA URL* - the URL of the {docproductname} server
+* *User Name* - username to access the {docproductname} server
+* *Password* - password to access the {docproductname} server
+* *Token* - token for access to the {docproductname} server
+* *Camera Port* - the HTTPS port on which RoadView
+listens for capture and “open gate” commands
+* *Auth Key* - the key that should be in one of the
+headers sent by the {docproductname} server, in the
+HTTP requests for capture and “open gate” commands
+* *Auth Value* - the value for the header with the key
+defined by Auth Key, that should match the value sent
+by the {docproductname} server, in the HTTP requests
+for capture and “open gate” commands
+* *Lane ID* - this table is automatically populated
+with the number of lanes defined in the Lanes section
+at the bottom of the Settings tab
+* *GPIO* - the nn number that identifies the
+GPIOnn pin on the NVIDIA Jetson processor's I/O module.
+A signal is sent to this pin when an "open gate"
+command is received from the {docproductname} server.
+See the NVIDIA Jetson documentation for further information.
+(See next Note)
 +
 [NOTE]
 ========================
