@@ -202,11 +202,9 @@ image::ROOT:SLN-TIBA/image-TIBA-MSedge-settings-2.png[image,800, align=center]
 
 include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configuration]]
 
-== Configure LPR/OV Camera Settings
-
 [#s_Logging-In-to-the-Camera]
 
-=== Logging In to a Camera
+== Log In to a Camera
 
 include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
