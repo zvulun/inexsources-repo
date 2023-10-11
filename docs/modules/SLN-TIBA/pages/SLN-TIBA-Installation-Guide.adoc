@@ -235,6 +235,7 @@ Change the parameters to match the following screen captures:
 .LPR Sensor - Video &amp; Device &gt; Video Streams
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,600]
+
 {empty} +
 
 === LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
@@ -255,8 +256,6 @@ value for the lowest noise;
 *_\{is this still true?}_* however, if the image moves,
 increase this value (but the image will be less clear).
 =====================
-
-=== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 .LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
@@ -290,7 +289,7 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,600]
 
 {empty} +
 
-=== LPR Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+=== OV Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 [NOTE]
 =====================
@@ -308,8 +307,6 @@ value for the lowest noise;
 *_\{is this still true?}_* however, if the image moves,
 increase this value (but the image will be less clear).
 =====================
-
-=== OV Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
 .OV Sensor - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
