@@ -234,6 +234,8 @@ click the Apply button at the bottom of
 each parameter section.*
 ==================
 
+<<<
+
 == Configure the LPR Camera (Sensor)
 
 [IMPORTANT]
