@@ -395,10 +395,14 @@ Use the multi-line dropdown menu icon in the upper right corner of the screen.
 
 == Verify System Operation
 
-* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
+* Using a license plate mounted in a lab,
+or by driving a vehicle through the lane,
+verify that an Event is generated with the
+correct plate read (recorded in the {software-ALPR} Live (Journal) tab.
+
+*_\{show picture of Live tab}_*
 
 * Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
-
 
 == Legal Notices
 
