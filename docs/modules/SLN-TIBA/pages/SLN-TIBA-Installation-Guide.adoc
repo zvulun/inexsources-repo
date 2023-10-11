@@ -362,7 +362,8 @@ at the expected distance and height.
 For example: +
 http://192.168.5.100/[http://192.168.5.100/]
 
-. You will see the login screen. Enter the default username and password (root, root):
+. You will see the login screen. Enter the default username
+and password (root, root):
 +
 [#f_Logging-In-to-RoadView]
 
@@ -410,7 +411,7 @@ Detector Configuration "Mode" selected.
 
 The box at the upper right of the Settings screen shows:
 
-* The {shortprodname} software version
+* The {shortprodname} software version (verify this is the correct version)
 
 * The model, part number and serial number of the camera(s) {shortprodname} is communicating with:
 
@@ -420,11 +421,96 @@ The box at the upper right of the Settings screen shows:
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,400]
 
+[#s_Network-Settings]
 
+=== Network Settings
+
+[#f_Network-Settings-Section]
+
+.Network Settings Section
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-001b_Network.png[image,600]
 
+* If needed, set the {shortprodname} computer's IP address parameters.
 
+* Remember to click the Save button in this section;
+the change will be applied immediately.
+
+[IMPORTANT]
+
+========================================
+
+The Network Settings refer to the
++++<u>+++{software-ALPR} computer+++</u>+++
+(+++<u>+++Camera System)+++</u>+++ - NOT the
+computer on which the browser displaying the GUI is running.
+
+*+++<u>+++It is highly recommended to use a fixed IP
+address (not DHCP)+++</u>+++*. A fixed IP address enables
+you to access the computer using the same URL every time,
+even after unexpected power outages.
+
+========================================
+
+[#s_Date-and-Time-Settings]
+
+=== Date and Time Settings
+
+[IMPORTANT]
+
+========================================
+
+The Date and Time Settings refer to the location of the
++++<u>+++{software-ALPR} computer+++</u>+++
+(+++<u>+++Camera System)+++</u>+++ - NOT the
+computer on which the browser displaying the GUI is running.
+
+The Time Zone selections are organized by continent.
+For example, the "America/" prefix covers various cities
+and countries in North America (U.S. and Canada) and South America.
+
+========================================
+
+[#f_Date-and-Time-Settings-Section]
+
+.Date and Time Settings Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-001d_Date_Time.png[image,600]
+
+// * Set Time (Automatically/Manually)
+
+* Select "Set Time Manually"
+
+////
+** If *Automatic*, the date and time will be updated from a central Network Time server. Select the appropriate server, and the interval at which you want {shortprodname} to poll for the date and time (selected from the Polling Interval dropdown).
+
+*** Click the "Update Now" button to update the date and time immediately.
+
+*** The icon (green check mark or red "x") indicates if the URL of the NTP server is correct, and the connection to it was successful.
+
+
+** If *Manual*, click in the *Date and Time* box to display a calendar/time popup. You should also select a *Time Zone*; set it to the local time at the location in which the Camera System/DPU is installed (+++<u>+++not+++</u>+++ the UTC default).
+////
+
+* Click in the *Date and Time* box to display a
+calendar/time popup. You should also select a *Time Zone*;
+set it to the local time at the location in which the
+Camera System is installed
+(+++<u>+++not+++</u>+++ the UTC default).
+
+* Remember to click the Save button at the end
+of this section after making changes.
+
+[#s_IZCloud-Integration]
+
+=== {software-cloud} Integration
+
+Enable {software-cloud} Integration and
+set the parameters as follows:
+
+.{software-cloud} Integration
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,600]
 
 
 
