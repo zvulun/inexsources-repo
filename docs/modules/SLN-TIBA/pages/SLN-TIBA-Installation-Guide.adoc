@@ -416,6 +416,8 @@ The box at the upper right of the Settings screen shows:
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,400]
 
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-001b_Network.png[image,600]
+
 
 
 
