@@ -768,23 +768,38 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,600]
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-011a_CalibrationTab.png[image,800]
 
-. When you see a vehicle at a typical capture position on the video, click on the video to pause it.
+. When you see a vehicle at a typical
+capture position on the video, click on the video to pause it.
 
-. It is recommended to use the view called "Draw image by maintaining aspect ratio (two-headed arrow)". You select this view by clicking on the right-most button at the upper left of the screen: image:./UserGuide/image38.png[image,width=18,height=11]
+. It is recommended to use the view called
+"Draw image by maintaining aspect ratio (two-headed arrow)".
+You select this view by clicking on the right-most button
+at the upper left of the
+screen: image:RoadViewALPR:UserGuide/image38.png[image,30]
 
 . Select a camera from the dropdown list (LPR or OV).
 
-. The Frame Width (horizontal) and Frame Height (vertical) are displayed at the lower left, and are set automatically according to the Camera's hardware configuration. See your Camera's Installation and Calibration Guide.
+. The Frame Width (horizontal) and Frame Height (vertical)
+are displayed at the lower left, and are set automatically.
 
-. The Frame Timestamp at the lower left displays the date and time that the image is being taken/was taken by the camera.
+. The Frame Timestamp at the lower left displays the date
+and time that the image is being taken/was taken by the camera.
 
-. Aim the camera using the mounting bracket's adjustment hardware (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>).
+. Aim the camera using the mounting bracket's adjustment
+hardware (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>).
 
-.. *Pan*: Adjust the Pan so that the image of the license plate is in the horizontal middle of the Field of View.
+.. *Pan*: Adjust the Pan so that the image of the license
+plate is in the horizontal middle of the Field of View.
 
-.. *Tilt:* Adjust the Tilt so that the image of every expected plate position (depending on the vehicle type, such as passenger cars, jeeps, trucks, etc.) will be in the middle of the screen (from top to bottom).
+.. *Tilt:* Adjust the Tilt so that the image
+of every expected plate position
+(depending on the vehicle type, such as passenger cars,
+jeeps, trucks, etc.) will be in the middle of the screen
+(from top to bottom).
 
-.. *Roll*: Adjust the Roll so the license plate's image is horizontally straight, parallel to the ground (not tilted to one side).
+.. *Roll*: Adjust the Roll so the license plate's
+image is horizontally straight, parallel to the ground
+(not tilted to one side).
 +
 [#f_Pan-Tilt-Roll-Angle-Adjustments]
 
@@ -792,44 +807,78 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-011a_CalibrationTab.png[image,800]
 
 image::ROOT:RoadViewALPR/PanTiltRoll.png[image,width=311,height=186]
 
-. When the correct position is achieved, make a preliminary tightening of the mounting screws.
+. When the correct position is achieved, make a preliminary
+tightening of the mounting screws.
 
-. Define the Region of Interest (*ROI*) by dragging on the corners (vertices) of the trapezoidal region. For optimum recognition accuracy, the ROI should be large enough to capture the region where plates could be found in images.
+. Define the Region of Interest (*ROI*) by dragging
+on the corners (vertices) of the trapezoidal region.
+For optimum recognition accuracy, the ROI should be
+large enough to capture the region where plates
+could be found in images.
 +
 [NOTE]
 
 ========================================
 
-The following settings for the LPR and OV cameras are saved separately. For example, you may want a Region of Interest that is different for each camera.
+The following settings for the LPR and OV cameras are saved
+separately. For example, you may want a Region of Interest
+that is different for each camera.
 
 ========================================
 
-. Define the *Plate Width Min*: Events will only be created for plate reads whose width is greater than or equal to this parameter. It is recommended to enter 150 in the *Plate Width Min* text box. +
-This parameter can also be configured by dragging the small circle on the horizontal line on the Calibration tab (expressed in pixels). +
-This parameter can be used to ignore small plate reads. For example, if the image was taken when a vehicle is too far away, the characters are too small to be read - even by a human.
+. Define the *Plate Width Min*: Events will only be created
+for plate reads whose width is greater than or equal
+to this parameter. Enter the desired value
+in the *Plate Width Min* text box. +
+This parameter can also be configured by dragging the
+small circle on the horizontal line on the Calibration tab
+(expressed in pixels). +
+This parameter can be used to ignore small plate reads.
+For example, if the image was taken when a vehicle is too far
+away, the characters are too small to be read - even by a human.
 
-. Define the *Plate Width Max*: Events will only be created for plate reads whose width is less than or equal to this parameter. It is recommended to enter approximately 350 in the *Plate Width Max* text box. +
-This parameter can also be configured by dragging the large circle on the horizontal line on the Calibration tab (expressed in pixels). +
-This parameter can be used to prevent false reads, such as large numbers on trucks.
+. Define the *Plate Width Max*: Events will only be
+created for plate reads whose width is less than or
+equal to this parameter. Enter
+the desired value in the *Plate Width Max* text box. +
+This parameter can also be configured by dragging
+the large circle on the horizontal line on the
+Calibration tab (expressed in pixels). +
+This parameter can be used to prevent false reads,
+such as large numbers on trucks.
 
-. Use the zoom and focus buttons to adjust the view of the video until the width of the plate is 150 pixels, and its plate image is clear and sharp. (The surrounding items, such as the vehicle body, do not need to be as sharp as the plate.)
+. Use the zoom and focus buttons to adjust
+the view of the video until the width of the plate
+is *_\{still true?}_*150 pixels, and its plate image is clear and sharp.
+(The surrounding items, such as the vehicle body,
+do not need to be as sharp as the plate.)
 +
 [IMPORTANT]
 
 ========================================
 
-There is a delay between a click of a zoom/focus button and when you see the effect on the screen. Be sure to wait until you see the change on the screen before clicking the button again. Clicking the button multiple times will cause you to "overshoot" the desired zoom/focus.
+There is a delay between a click of a zoom/focus button
+and when you see the effect on the screen.
+Be sure to wait until you see the change
+on the screen before clicking the button again.
+Clicking the button multiple times will cause you
+to "overshoot" the desired zoom/focus.
 
-As you adjust the zoom and focus, you may need to reposition the camera in order to get the image of the plate back to the desired position.
+As you adjust the zoom and focus,
+you may need to reposition the camera in order to
+get the image of the plate back to the desired position.
 
 ========================================
 
-. *Direction (red arrow on video):* drag the head of the arrow around to point to the angle at which you expect vehicles to be moving**.** (The vehicle's direction is also sent to the {software-cloud} as part of an Event.) You can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>). +
-You can set the "Ignore Opposite Direction" parameter in the Lanes section to ignore all Events for vehicles moving in the direction opposite to the direction arrow in the Calibration tab (see <<s_Lanes>>).
+. *Direction (red arrow on video):* Not used
 
-. When you have finished, click the *Save* button. Wait several seconds for the display to refresh automatically, which indicates that the {shortprodname} recognition software is running again with the updated parameters.
+. When you have finished, click the *Save* button.
+Wait several seconds for the display to refresh automatically,
+which indicates that the {software-ALPR} recognition software
+is running again with the updated parameters.
 
-. When the correct position is achieved, make a final tightening of the mounting hardware.
+. When the correct position is achieved, make a final
+tightening of the mounting hardware.
 
 . Repeat these steps for the other camera.
 
@@ -841,11 +890,62 @@ You can set the "Ignore Opposite Direction" parameter in the Lanes section to ig
 * Using a license plate mounted in a lab,
 or by driving a vehicle through the lane,
 verify that an Event is generated with the
-correct plate read (recorded in the {software-ALPR} Live (Journal) tab.
+correct plate read (recorded in the {software-ALPR} Live (Journal)
+tab.
 
-*_\{show picture of Live tab}_*
+.Live (Journal) Tab
 
-* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-009a_LiveTab.png[image,800]
+
+* Once the lane is active, verify that Events are being generated
+for each vehicle passing each camera, and that the recognition
+has sufficient accuracy and confidence.
+
+* You can use the Search tab to find Event records stored in the
+{software-ALPR} database.
+
+[#s_Troubleshooting]
+
+== Troubleshooting
+
+[NOTE]
+
+========================================
+
+For details about items in the following list related to hardware or configuration, see your camera's Installation and Calibration Guide.
+
+========================================
+
+[#t_Troubleshooting]
+
+.Troubleshooting
+
+[table.withborders,width="100%",cols="35%,65%",options="header",]
+|===
+|Symptom |Possible Solution
+|Thumbnails in Settings tab, in the Camera section at bottom have been replaced by red exclamation points and/or +
+The Live tab and Search tab are empty (no Events are detected) a|
+* Verify that each camera's IP address in the Camera System (or connected to the DPU), and the {shortprodname} computer's IP address are all on the same subnet.
+
+* Verify that stable power at the correct level is being supplied to the cameras, even when under a heavy processing load.
+
+* Verify that the IP address(es) configured in {shortprodname} match the IP addresses that you configured in the camera(s). See <<s_Cameras>>.
+
+|Recognition rates are low a|
+* On the Calibration tab, increase the size of the Region of Interest (ROI) - it may be too small to capture plates with high confidence
+
+* On the Calibration tab, try to reduce the Plate Width Min and increase the Plate Width Max
+
+Examine the video from the Camera on the Calibration tab:
+
+* If all license plates are not fully visible, re-aim the Camera so that the Camera's field of view fully covers the capture zone. For a more precise adjustment, verify that the license plate's images are as close to the middle of the video display as possible.
+
+* If the images are spotted, remove dirt and dust from the front window of the Camera System with a soft cloth and mild soap
+
+* If the images are not sharp, adjust the zoom and focus of the camera
+
+|===
+
 
 == Legal Notices
 
