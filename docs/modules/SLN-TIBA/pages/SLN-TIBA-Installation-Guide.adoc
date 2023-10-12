@@ -748,10 +748,11 @@ image is sent as part of the Event; if there
 was no recognition, the OV image is sent
 * *Send OV Image* - when enabled, the OV image
 is always sent as part of the Event
-* *Lane ID* - this table is automatically populated
+* *Lanes:*
+** *Lane ID* - this table is automatically populated
 with the number of lanes defined in the Lanes section
 at the bottom of the Settings tab
-* *GPIO* - the nn number that identifies the
+** *GPIO* - the nn number that identifies the
 GPIOnn pin on the NVIDIA Jetson processor's I/O module.
 A signal is sent to this pin when an "open gate"
 command is received from the {docproductname} server.
@@ -954,8 +955,6 @@ is running again with the updated parameters.
 tightening of the mounting hardware.
 
 . Repeat these steps for the other camera.
-
-<<<
 
 [#s_Verify-System-Operation]
 
