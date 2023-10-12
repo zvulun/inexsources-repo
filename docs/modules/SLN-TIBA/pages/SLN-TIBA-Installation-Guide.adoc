@@ -632,7 +632,8 @@ The reappearance of the image indicates that the
 core software has restarted, and Events will resume
 being captured and displayed in the Live tab, with the
 following changes: +
-- The Transaction ID will restart at 1 for that camera. +
+- The Transaction ID will continue to increase from the
+last Transaction ID. +
 - The history of previous Events for that camera will be cleared
 ========================================
 
@@ -673,10 +674,12 @@ overall ALPR system
 ** *Name* - Camera name for internal use; should be unique
 in the overall ALPR system
 
-** *URL* - RTSP or HTTP URL:
+// ** *URL* - RTSP or HTTP URL:
 
-*** RTSP stream URL example: +
-rtsp:// <camera IP address>/cam0_0
+//*** RTSP stream URL example: +
+//rtsp:// <camera IP address>/cam0_0
+
+** *URL* - HTTP URL:
 
 *** HTTP URL example: +
 http:// <camera IP address>
@@ -730,7 +733,6 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,550]
 * *TIBA URL* - the URL of the {docproductname} server
 * *User Name* - username to access the {docproductname} server
 * *Password* - password to access the {docproductname} server
-* *Token* - token for access to the {docproductname} server
 * *Camera Port* - the HTTPS port on which RoadView
 listens for capture and “open gate” commands
 * *Auth Key* - the key that should be in one of the
@@ -740,6 +742,8 @@ HTTP requests for capture and “open gate” commands
 defined by Auth Key, that should match the value sent
 by the {docproductname} server, in the HTTP requests
 for capture and “open gate” commands
+* *Send Plate Image* - *_\{TBD}_*
+* *Send OV Image* - *_\{TBD}_*
 * *Lane ID* - this table is automatically populated
 with the number of lanes defined in the Lanes section
 at the bottom of the Settings tab
