@@ -572,7 +572,7 @@ and associate each Camera System's cameras with a different "Lane".
 
 .Add/Edit Lane Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,340]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,300]
 
 * *ID* (required) - The identification number of
 the lane to be captured by the cameras.
@@ -742,8 +742,7 @@ HTTP requests for capture and “open gate” commands
 defined by Auth Key, that should match the value sent
 by the {docproductname} server, in the HTTP requests
 for capture and “open gate” commands
-* *Send Plate Image* - *_\{TBD}_*
-* *Send OV Image* - *_\{TBD}_*
+* *Send Plate Image/Send OV Image* - *_\{TBD}_*
 * *Lane ID* - this table is automatically populated
 with the number of lanes defined in the Lanes section
 at the bottom of the Settings tab
