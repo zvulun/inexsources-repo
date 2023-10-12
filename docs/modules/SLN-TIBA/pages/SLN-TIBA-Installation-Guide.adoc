@@ -752,6 +752,9 @@ is always sent as part of the Event
 ** *Lane ID* - this table is automatically populated
 with the number of lanes defined in the Lanes section
 at the bottom of the Settings tab
++
+<<<
+
 ** *GPIO* - the nn number that identifies the
 GPIOnn pin on the NVIDIA Jetson processor's I/O module.
 A signal is sent to this pin when an "open gate"
