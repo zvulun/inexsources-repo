@@ -19,7 +19,7 @@
 .^| 240 fps@1080p; 60 fps@8MP
 
 2+.^| Module
-.^| Jetson Orin(TM) NX 16GB
+.^| Jetson Orin(TM) NX 16 GB
 
 2+.^| AI Performance
 .^| 100 TOPS
@@ -40,7 +40,7 @@ architecture GPU with 32 Tensor Cores
 .^| 2 GHz
 
 2+.^| Memory
-.^| 16GB 128-bit LPDDR5 102.4GB/s
+.^| 16 GB 128-bit LPDDR5 102.4 GB/s
 
 2+.^| DL Accelerator
 .^| 2x NVDLA v2
@@ -51,8 +51,19 @@ architecture GPU with 32 Tensor Cores
 2+.^| Vision Accelerator
 .^| 1x PVA v2
 
-2+.^| Storage
-.^| 128GB NVMe SSD
+.4+.^| Storage
+.^| IZIDPUGOX-128G
+.^| 128 GB NVMe SSD
+
+.^| IZIDPUGOX-256G
+.^| 256 GB NVMe SSD
+
+.^| IZIDPUGOX-512G
+.^| 512 GB NVMe SSD
+
+.^| IZIDPUGOX-1T
+.^| 1 TB NVMe SSD
+
 
 2+.^| Video Encoder
 .^| 1x 4K60 (H.265); 3x 4K30 (H.265); +
@@ -97,7 +108,7 @@ architecture GPU with 32 Tensor Cores
 .^| 1* Gigabit Ethernet (10/100/1000M)
 
 .^| USB
-.^| 4* USB 3.2 Type-A (10Gbps); +
+.^| 4* USB 3.2 Type-A (10 Gbps); +
 1* USB2.0 Type-C (Device Mode)
 
 .^| Display

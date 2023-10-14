@@ -107,10 +107,10 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-.^|IZIDPUGOX-128G .^|{generic-product-name} with 128 Gb storage
-.^|IZIDPUGOX-256G .^|{generic-product-name} with 256 Gb storage
-.^|IZIDPUGOX-512G .^|{generic-product-name} with 512 Gb storage
-.^|IZIDPUGOX-1T .^|{generic-product-name} with 1 Tb storage
+.^|IZIDPUGOX-128G .^|{generic-product-name} with 128 GB storage
+.^|IZIDPUGOX-256G .^|{generic-product-name} with 256 GB storage
+.^|IZIDPUGOX-512G .^|{generic-product-name} with 512 GB storage
+.^|IZIDPUGOX-1T .^|{generic-product-name} with 1 TB storage
 |===
 
 //+++<div class="pagebreak"> </div>+++
