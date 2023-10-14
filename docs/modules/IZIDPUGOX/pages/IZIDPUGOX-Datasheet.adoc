@@ -1,6 +1,6 @@
 :docproductname: IZIDPUGOX
 :shortprodname: IZIDPUGOX
-:generic-product-name: Indoor AI Data Processing Unit with Orin(TM) NX
+:generic-product-name: Industrial AI Data Processing Unit with Orin(TM) NX
 
 // These attributes have been soft set
 // In the playbooks, so they can be
@@ -38,7 +38,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Indoor AI Data Processing Unit with Orin(TM) NX
+== Industrial AI Data Processing Unit with Orin(TM) NX
 
 [discrete]
 === Rev. A
@@ -107,7 +107,10 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-.^|IZIDPUGOX .^|{generic-product-name}
+.^|IZIDPUGOX-128G .^|{generic-product-name} with 128 Gb storage
+.^|IZIDPUGOX-256G .^|{generic-product-name} with 256 Gb storage
+.^|IZIDPUGOX-512G .^|{generic-product-name} with 512 Gb storage
+.^|IZIDPUGOX-1T .^|{generic-product-name} with 1 Tb storage
 |===
 
 //+++<div class="pagebreak"> </div>+++
