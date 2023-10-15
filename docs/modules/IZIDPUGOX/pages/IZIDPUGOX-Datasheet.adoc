@@ -129,7 +129,7 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 [discrete]
 == Dimensions (mm)
 
-image::ROOT:IZIDPUGOX/IZIDPUGOX-Dimensions.png[image,500]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-Dimensions2.png[image,500]
 
 [discrete]
 == Typical System Diagram
