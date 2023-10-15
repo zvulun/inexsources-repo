@@ -134,7 +134,7 @@ image::ROOT:IZIDPUGOX/IZIDPUGOX-Dimensions2b.png[image,500]
 [discrete]
 == Typical System Diagram
 
-image::ROOT:IZIDPUGOX/IZIDPUGOX-System-Diagram.png[image,width=800,align=left]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-System-Diagram2.png[image,width=800,align=left]
 
 {empty} +
 
