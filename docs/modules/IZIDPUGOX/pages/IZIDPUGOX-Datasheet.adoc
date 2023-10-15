@@ -127,7 +127,7 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 <<<
 
 [discrete]
-== Dimensions (mm)
+== Dimensions
 
 image::ROOT:IZIDPUGOX/IZIDPUGOX-Dimensions2b.png[image,500]
 
