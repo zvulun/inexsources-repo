@@ -132,8 +132,7 @@ with built-in {software-ALPR} (RV) video analytics - ver 1.15.54
 ** IZPWR240{plus}{hw-poeinjector} - for four cameras via POE
 * Camera Mounting hardware
 ** IZMNTA-WE - wall mount
-** *_\{incorrect; IZMNTA-WE comes with
-removable pole mount}_* IZMNTA-WE{plus}MNT-PMA -  pole mount
+** IZMNTA-WE{plus}MNT-PMA -  pole mount
 ** IZMNTA-UC - under-ceiling
 * IZCLOUD-APM - IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
 
@@ -168,16 +167,18 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=center]
 [table.withborders,width="100%",cols="7%,35%,58%",options="header",]
 |===
 |Item |Description |Ordering Information
-|A a|*LAN Cables* |Supplied by integrator
-|B a|*Power Supply for {hw-poeinjector} +
+.^|A .^a|*LAN Cable(s) - CAT6, max. length 328 ft (100 m)* .^|Supplied by integrator; 6.6 ft (2 m) included with camera
+.^|B .^a|*PAS (Power and Signals) Cable* .^|6.6 ft (2 m) cable included with camera
+.^|C .^a|*Power Supply for {hw-poeinjector} +
 (PoE{plus} Injector)* +
 Requires 48 VDC
-a|
+.^a|
 For 1 camera, use a 75 W supply (IZPWR75) +
 For 2 cameras, use a 120 W supply (IZPWR120) +
 For 4 cameras, use a 240 W supply (IZPWR240)
-|C a|*Inductive Loop* |Supplied by integrator
-|D a|*Gate* |Supplied by integrator
+.^|D .^a|*Gate* .^|Supplied by integrator
+.^|E .^a|*Inductive Loop* .^|Supplied by integrator
+
 |===
 
 == Use {software-discovery} and Allocate IP Addresses
