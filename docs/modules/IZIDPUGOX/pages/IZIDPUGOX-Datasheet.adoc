@@ -48,7 +48,7 @@
 //[discrete]
 //=== Datasheet
 
-image:ROOT:IZIDPUGOX/IZIDPUGOX-Front-Page.png[Picture of DPU,800,align=left]
+image:ROOT:IZIDPUGOX/IZIDPUGOX-Front-Page.png[Picture of DPU,700,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
