@@ -43,12 +43,12 @@
 [discrete]
 === Rev. A
 //[sidebar]
-+++<font size="-1">+++ Picture for illustration only - subject to change +++</font>+++
+//+++<font size="-1">+++ Picture for illustration only - subject to change +++</font>+++
 
 //[discrete]
 //=== Datasheet
 
-image:ROOT:IZIDPUGOX/IZIDPUGOX-Front-Page.png[Picture of DPU,300,align=left]
+image:ROOT:IZIDPUGOX/IZIDPUGOX-Front-Page.png[Picture of DPU,800,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -127,7 +127,7 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 [discrete]
 == Dimensions (mm)
 
-image::ROOT:IZIDPUGOX/IZIDPUGOX-Dimensions.png[image,width=500,align=left]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-Dimensions.png[image,width=600]
 
 //+++<div class="pagebreak"> </div>+++
 
@@ -137,7 +137,7 @@ image::ROOT:IZIDPUGOX/IZIDPUGOX-Dimensions.png[image,width=500,align=left]
 [discrete]
 == Typical System Diagram
 
-image::ROOT:IZIDPUGOX/IZIDPUGOX-System-Diagram.png[image,width=500,align=left]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-System-Diagram.png[image,width=800,align=left]
 
 {empty} +
 
