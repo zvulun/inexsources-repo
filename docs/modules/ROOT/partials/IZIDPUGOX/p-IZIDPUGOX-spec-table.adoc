@@ -88,11 +88,11 @@ architecture GPU with 32 Tensor Cores
 .^| NDAA Section 889 compliant
 
 .5+.^| Physical
-.^| Dimensions
-.^| *_\{TBD}_*
+.^| Dimensions (W x H x D)
+.^| 4.5 x 1.5" x 3.4" (114 x 38 x 87 mm)
 
 .^| Weight
-.^| *_\{TBD}_*
+.^| *_\{TBD - not on manf'r site/datasheet}_*
 
 .^| Case Material
 .^| Aluminum
