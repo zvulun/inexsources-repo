@@ -264,7 +264,7 @@ each parameter section.*
 
 <<<
 
-== Configure the LPR Camera (Sensor)
+== LPR Camera (Sensor) Configuration
 
 The camera(s) are pre-configured;
 this section displays typical settings
@@ -326,7 +326,7 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
 
 <<<
 
-== Configure the OV Camera (Sensor)
+== OV Camera (Sensor) Configuration
 
 The camera(s) are pre-configured;
 this section displays typical settings
@@ -1020,19 +1020,10 @@ You can:
 * Benefit from daily analytical reports, which provide
 insights into ALPR performance
 
-*_\{take pic of login screen;
-In lanes screen, }_*
-
-image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Events.png[image,800]
-
-*_\{use text from SF; tell you have to configure in RV
-then you can log in and see IZCloud screen shots
-Read Rate = with no read mistakes
-Read Rate N-1 = with up to 1 read mistake
-Read Rate N-1 = with up to 2 read mistakes
-Actions in the Maintenacne> camera screen:
+*_\{
 Last Review
 Plate = Plate read; Plate REview = True read
+
 Maintenance Dashboard - HIstorical Avg Read rate
 is daily report - hover on a dot to get details
 Use Gate dropdown to select which camera
@@ -1081,6 +1072,8 @@ and click the Logout button.
 
 image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Logout.png[image,400]
 
+[#s_IZCloud-Events]
+
 === {software-cloud} Events
 
 The Events page enables you to view live Events.
@@ -1089,9 +1082,9 @@ The Events page enables you to view live Events.
 
 image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Events.png[image,800]
 
-Filters:
+Columns/Filters:
 
-* *Time Stamp*
+* *TimeStamp*
 ** Click in the text box to display a calendar
 popup.
 ** Click once to select a start date
@@ -1111,6 +1104,8 @@ image::ROOT:SLN-TIBA/IZCloud-BorderSelect-Date-Range.png[image,250,align=center]
 
 * *Gate* - Select All, or a specific lane
 
+* *Event Type* - Unused
+
 * *Plate* - Enter characters to find
 within the strings. For example,
 KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
@@ -1120,8 +1115,9 @@ to display plate, LPR and Overview
 images of the Event
 
 * *Resident* -
-*_\{should I call this "unused"?}_*
-
+*_\{should I call this "unused"? or is it
+the vehicle owner name; Enter characters
+to find within the names }_*
 
 === {software-cloud} Maintenance - Cameras
 
@@ -1132,9 +1128,67 @@ image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
 
 image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Cameras.png[image,800]
 
+Columns/Filters:
 
+* *Name* - Enter characters
+to find within the first names of the lanes
+
+* *Lot* - Parking lot location of each lane;
+use the dropdown to select a lot
+
+* *Status* - Camera status (online or offline)
+
+* *Read Rate* - with no read mistakes
+
+* *Read Rate N-1* - with up to 1 read mistake
+
+* *Read Rate N-2* - with up to 2 read mistakes
+
+* *Actions* - select Last Review from the dropdown
+to display the Last Review page, filtered for
+by the lane on that row (see <<s_Last-Review>>).
+
+[#s_Last-Review]
+
+.{software-cloud} Maintenance - Last Review
 
 === {software-cloud} Maintenance - Last Review
+
+Select "Last Review" from the Maintenance menu
+image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
+
+.{software-cloud} Last Review Page
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-LastReview-Lane1.png[image,800]
+
+Columns/Filters:
+
+* *TimeStamp* - same as in <<s_IZCloud-Events>>
+
+* *Gate* - same as in <<s_IZCloud-Events>>
+
+* *Plate* - Plate read; filter works as in
+<<s_IZCloud-Events>>
+
+* *Plate Review* - True read; filter works as in
+<<s_IZCloud-Events>>
+
+* *Plate Image* - same as in <<s_IZCloud-Events>>
+
+* *Read Status* - *_\{need to describe all the read statuses
+in the dropdown filter}_*
+
+** *Correct* -
+
+** *N-1 Read* -
+
+** *N-2 Read* -
+
+** *False Read* -
+
+** *False Reject* -
+
+** *Non-Qualified* -
 
 === {software-cloud} Maintenance - Dashboard
 
