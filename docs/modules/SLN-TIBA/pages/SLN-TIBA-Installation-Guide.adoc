@@ -812,7 +812,7 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-004a_Detector_Configuration.png[image,500]
 == IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
 
 
-image::ROOT:SLN-TIBA/IZCLOUD-TIBA-Events.png[image,800]
+image::ROOT:SLN-TIBA/IZCloud-TIBA-Events.png[image,800]
 
 *_\{use text from SF; tell you have to configure in RV
 then you can log in and see IZCloud screen shots
