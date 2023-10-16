@@ -223,9 +223,6 @@ you allocated.
 
 include::ROOT:partial$IZDiscovery/p-IZDISCOVERY-To-Include.adoc[leveloffset=+1]
 
-*_\{just mention Chrome and Edge;
-comment out this configuration section}_*
-
 ////
 [#s_Configure-Microsoft-Edge]
 
@@ -933,6 +930,27 @@ that is different for each camera.
 
 ========================================
 
+. Use the zoom and focus buttons to adjust
+the view of the video until the width of the plate
+is withing the extent of the vertices, and
+its plate image is clear and sharp.
+(The surrounding items, such as the vehicle body,
+do not need to be as sharp as the plate.)
++
+[IMPORTANT]
+========================================
+There is a delay between a click of a zoom/focus button
+and when you see the effect on the screen.
+Be sure to wait until you see the change
+on the screen before clicking the button again.
+Clicking the button multiple times will cause you
+to "overshoot" the desired zoom/focus.
+
+As you adjust the zoom and focus,
+you may need to reposition the camera in order to
+get the image of the plate back to the desired position.
+========================================
+
 . Define the *Plate Width Min*: Events will only be created
 for plate reads whose width is greater than or equal
 to this parameter. Enter the desired value
@@ -953,29 +971,6 @@ the large circle on the horizontal line on the
 Calibration tab (expressed in pixels). +
 This parameter can be used to prevent false reads,
 such as large numbers on trucks.
-
-. Use the zoom and focus buttons to adjust
-the view of the video until the width of the plate
-is *_\{withing the extent of the vertices}_* 150 pixels, and its plate image is clear and sharp.
-(The surrounding items, such as the vehicle body,
-do not need to be as sharp as the plate.)
-+
-[IMPORTANT]
-
-========================================
-
-There is a delay between a click of a zoom/focus button
-and when you see the effect on the screen.
-Be sure to wait until you see the change
-on the screen before clicking the button again.
-Clicking the button multiple times will cause you
-to "overshoot" the desired zoom/focus.
-
-As you adjust the zoom and focus,
-you may need to reposition the camera in order to
-get the image of the plate back to the desired position.
-
-========================================
 
 . *Direction (red arrow on video):* Not used
 
@@ -1065,23 +1060,61 @@ set the parameters as follows:
 Detector Configuration section after making changes.
 
 
-.{software-cloud} Integration - {software-ALPR} Settings Section
+.{software-ALPR} Settings Tab - {software-cloud} Integration Section
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,550]
 
 === Logging In to {software-cloud}
 
+Enter your user name and password.
+
+.{software-cloud} Login
+
+image::ROOT:SLN-TIBA/IZCloud-BorderLogin.png[image,400]
+
 === Logging Out of {software-cloud}
 
-=== Events
+Click on your user name at the upper-right of the screen
+and click the Logout button.
 
-=== Maintenance - Cameras
+.{software-cloud} Logout
 
-=== Maintenance - Last Review
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Logout.png[image,400]
 
-=== Maintenance - Dashboard
+=== {software-cloud} Events
 
-=== Lanes
+The Events page enables you to view live Events.
+
+.{software-cloud} Events
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Events.png[image,800]
+
+* Click inside  time stamp filter
+box to display a calendar popup.
+You can select
+** a specific date, or +
+
+.{software-cloud}: Calendar Popup
+
+image::ROOT:SLN-TIBA/IZCloud-BorderCalendar-Popup.png[image,400]
+
+** a range by clicking on a
+start date, then clicking on
+an end date +
+
+.{software-cloud}: Selecting a Data Range
+
+image::ROOT:SLN-TIBA/IZCloud-BorderSelect-Date-Range.png[image,300]
+
+* xxx
+
+=== {software-cloud} Maintenance - Cameras
+
+=== {software-cloud} Maintenance - Last Review
+
+=== {software-cloud} Maintenance - Dashboard
+
+=== {software-cloud} Lanes
 
 
 <<<
