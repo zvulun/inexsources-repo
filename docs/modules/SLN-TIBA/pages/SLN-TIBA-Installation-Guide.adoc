@@ -196,7 +196,7 @@ length 328 ft (100 m), OD 6.5-7.0 mm
 .^|Supplied by integrator; 6.6 ft (2 m) included with camera
 .^|C .^a|*PAS (Power and Signals) Cable* -  22-26 AWG, OD 7.0-7.2 mm
 .^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
-.^|D .^a|*Power Supply 48 VDC*
+.^|D .^a|*Power Supply* - 48 VDC
 .^a|
 For 1 camera, use a 75 W supply (IZPWR75-48) +
 For 2 cameras, use a 120 W supply (IZPWR120-48) +
@@ -1089,26 +1089,50 @@ The Events page enables you to view live Events.
 
 image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Events.png[image,800]
 
-* Click inside  time stamp filter
-box to display a calendar popup.
-You can select
-** a specific date, or +
+Filters:
 
+* *Time Stamp*
+** Click in the text box to display a calendar
+popup.
+** Click once to select a start date
+** Click again to select an end date
+(even if the same date)
+** After selecting a range, the filter's checkbox
+will be selected. To clear the filter,
+clear the checkbox. +
++
 .{software-cloud}: Calendar Popup
 
 image::ROOT:SLN-TIBA/IZCloud-BorderCalendar-Popup.png[image,400]
 
-** a range by clicking on a
-start date, then clicking on
-an end date +
-
 .{software-cloud}: Selecting a Data Range
 
-image::ROOT:SLN-TIBA/IZCloud-BorderSelect-Date-Range.png[image,300]
+image::ROOT:SLN-TIBA/IZCloud-BorderSelect-Date-Range.png[image,250,align=center]
 
-* xxx
+* *Gate* - Select All, or a specific lane
+
+* *Plate* - Enter characters to find
+within the strings. For example,
+KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
+
+* *Plate Image* - click on an image
+to display plate, LPR and Overview
+images of the Event
+
+* *Resident* -
+*_\{should I call this "unused"?}_*
+
 
 === {software-cloud} Maintenance - Cameras
+
+Select "Cameras" from the Maintenance menu
+image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
+
+.{software-cloud} Cameras Page
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Cameras.png[image,800]
+
+
 
 === {software-cloud} Maintenance - Last Review
 
