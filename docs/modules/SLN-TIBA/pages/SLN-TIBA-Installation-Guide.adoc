@@ -1069,7 +1069,20 @@ Detector Configuration section after making changes.
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,550]
 
-=== Logging In to {software-ALPR}
+=== Logging In to {software-cloud}
+
+=== Logging Out of {software-cloud}
+
+=== Events
+
+=== Maintenance - Cameras
+
+=== Maintenance - Last Review
+
+=== Maintenance - Dashboard
+
+=== Lanes
+
 
 <<<
 
