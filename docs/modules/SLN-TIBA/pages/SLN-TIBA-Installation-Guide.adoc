@@ -115,7 +115,7 @@ for a single lane, to work with the {docproductname} Parking System.
 
 == Computer and Software Requirements
 * Computer running with Windows 10 or later
-* Microsoft Edge browser
+* Chrome or Microsoft Edge browser
 
 == Solution BOM
 * Camera System:
@@ -135,11 +135,33 @@ for a single lane, to work with the {docproductname} Parking System.
 
 == Lane Design
 
-*_\{make table of distances and coverage
-take FOV, Max Speed and LPR capture distance
-from data sheet spec table into small
-table
-}_*
+*_\{since the table is here
+should I remove the distance
+recommendations in the lane design
+drawings?}_*
+
+[table.withborders,options="header",cols="24,23,53"]
+|===
+2+.^| Item
+// {set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+// {set:cellbgcolor:#c0c0c0}
+2+.^| Field of View (FOV)
+
+.^| 12 ft (H) x 8 ft (V) (3.7 x 2.4 m)
+
+2+.^| Max Vehicle Speed
+
+.^| Up to 80 mph (129 km/h)
+
+2+.^| LPR Capture Distance +
+(for U.S.A. plates; +
+measured from camera to plate)
+
+.^| 5-70 ft (1.5-21 m)
+
+|===
 
 [#f_Rear-Capture]
 
@@ -168,15 +190,15 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=center]
 [table.withborders,width="100%",cols="7%,35%,58%",options="header",]
 |===
 |Item |Description |Ordering Information
-.^|A .^a|*LAN Patch Cable(s) - CAT6, max. length 3.3 ft (1 m)* .^|Supplied by integrator
-.^|B .^a|*LAN Cable(s) - CAT6, 4 pairs, 26 AWG, max.
-length 328 ft (100 m), OD *_\{6-12 mm; ask Dima; we use 7.2 mm}_* *
+.^|A .^a|*LAN Patch Cable(s)* - CAT6, max. length 3.3 ft (1 m) .^|Supplied by integrator
+.^|B .^a|*LAN Cable(s)* - CAT6, 4 pairs, 26 AWG, max.
+length 328 ft (100 m), OD 6.5-7.0 mm
 .^|Supplied by integrator; 6.6 ft (2 m) included with camera
-.^|C .^a|*PAS (Power and Signals) Cable -  22-26 AWG, OD *_\{5-10 mm; ask Dima 6.2}_* * .^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
+.^|C .^a|*PAS (Power and Signals) Cable* -  22-26 AWG, OD 7.0-7.2 mm
+.^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
 .^|D .^a|*Power Supply 48 VDC*
 .^a|
-For 1 camera, use a 75 W supply (*_\{add this model to the data sheet/
-SF}_*IZPWR75-48) +
+For 1 camera, use a 75 W supply (IZPWR75-48) +
 For 2 cameras, use a 120 W supply (IZPWR120-48) +
 For 4 cameras, use a 240 W supply (IZPWR240-48)
 .^|E .^a|*Gate* .^|Supplied by integrator
@@ -201,6 +223,10 @@ you allocated.
 
 include::ROOT:partial$IZDiscovery/p-IZDISCOVERY-To-Include.adoc[leveloffset=+1]
 
+*_\{just mention Chrome and Edge;
+comment out this configuration section}_*
+
+////
 [#s_Configure-Microsoft-Edge]
 
 == Configure Microsoft Edge
@@ -211,6 +237,7 @@ include::ROOT:partial$p-configure-ms-edge-1.adoc[First part of MS Edge configura
 image::ROOT:SLN-TIBA/image-TIBA-MSedge-settings-2.png[image,800, align=center]
 
 include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configuration]]
+////
 
 <<<
 
@@ -242,9 +269,11 @@ each parameter section.*
 
 == Configure the LPR Camera (Sensor)
 
-*_\{take new screen shots of same 4 groups;
-but comes preconfigured}_*
+The camera(s) are pre-configured;
+this section displays typical settings
+for reference.
 
+////
 [IMPORTANT]
 ==================
 *After changing settings, remember to
@@ -253,6 +282,7 @@ each parameter section.*
 ==================
 
 Change the parameters to match the following screen captures:
+////
 
 === LPR Camera - Video &amp; Device &gt; Video Streams
 
@@ -266,12 +296,14 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
 
 === LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
+////
 [NOTE]
 =====================
 Before changing the Camera Settings parameters, be sure to click
 the Default(Day) link at the top of
 the Camera Settings table.
 =====================
+////
 
 .LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
@@ -299,6 +331,12 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
 
 == Configure the OV Camera (Sensor)
 
+The camera(s) are pre-configured;
+this section displays typical settings
+for reference.
+
+
+////
 [IMPORTANT]
 ==================
 *After changing settings, remember to
@@ -307,6 +345,7 @@ each parameter section.*
 ==================
 
 Change the parameters to match the following screen captures:
+////
 
 === OV Camera - Video &amp; Device &gt; Video Streams
 
@@ -320,12 +359,14 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
 
 === OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
+////
 [NOTE]
 =====================
 Before changing the Camera Settings parameters, be sure to click
 the Default(Day) link at the top of
 the Camera Settings table.
 =====================
+////
 
 .OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
@@ -409,6 +450,8 @@ image::ROOT:RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 .Logout (Multi-line Menu)
 
 image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
+
+[#s_Configure-RoadView-Settings-Tab]
 
 == Configure {software-ALPR} - Settings Tab
 
@@ -809,41 +852,6 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-004a_Detector_Configuration.png[image,500]
 
 <<<
 
-== IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
-
-
-image::ROOT:SLN-TIBA/IZCloud-TIBA-Events.png[image,800]
-
-*_\{use text from SF; tell you have to configure in RV
-then you can log in and see IZCloud screen shots
-Read Rate = with no read mistakes
-Read Rate N-1 = with up to 1 read mistake
-Read Rate N-1 = with up to 2 read mistakes
-Actions in the Maintenacne> camera screen:
-Last Review
-Plate = Plate read; Plate REview = True read
-Maintenance Dashboard - HIstorical Avg Read rate
-is daily report - hover on a dot to get details
-Use Gate dropdown to select which camera
-only write about lanes from campgrounds
-or not at all}_*
-
-[#s_IZCloud-Integration]
-
-=== {software-cloud} Integration
-
-Enable {software-cloud} Integration and
-set the parameters as follows:
-
-* Remember to click the Save button at the end of the
-Detector Configuration section after making changes.
-
-
-.{software-cloud} Integration
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,550]
-
-
 == Configure {software-ALPR} - System Info Tab
 
 Set the parameters as shown here:
@@ -855,10 +863,9 @@ of this section after making changes.
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,500]
 
+<<<
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
-
-<<<
 
 == Calibrating the Cameras Using {software-ALPR}
 
@@ -1002,6 +1009,67 @@ has sufficient accuracy and confidence.
 
 * You can use the Search tab to find Event records stored in the
 {software-ALPR} database.
+
+<<<
+
+[#s_IZCloud-Integration]
+
+== IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
+
+{software-cloud} ALPR Performance Monitoring software ({software-cloud}-APM)
+is an advanced SaaS (Software as a Service) application.
+You can:
+
+* Monitor real-time Events seamlessly
+* Quickly and accurately search for license plates
+* Benefit from daily analytical reports, which provide
+insights into ALPR performance
+
+*_\{take pic of login screen;
+In lanes screen, }_*
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Events.png[image,800]
+
+*_\{use text from SF; tell you have to configure in RV
+then you can log in and see IZCloud screen shots
+Read Rate = with no read mistakes
+Read Rate N-1 = with up to 1 read mistake
+Read Rate N-1 = with up to 2 read mistakes
+Actions in the Maintenacne> camera screen:
+Last Review
+Plate = Plate read; Plate REview = True read
+Maintenance Dashboard - HIstorical Avg Read rate
+is daily report - hover on a dot to get details
+Use Gate dropdown to select which camera
+only write about lanes from campgrounds
+or not at all
+You can click on bar chart - not just hover -
+to get to the Last Review screen pre-filtered
+for that Lane; click on bars
+(only for online cameras) of read rate to
+show the list of reads used for that camera
+to get the statistics}_*
+
+*_\{Click license plate to
+see images of plate and ov in a separate
+window - in both lanes and Events screens}_*
+
+=== Configuring {software-cloud} Integration in {software-ALPR}
+
+* Log in to {software-ALPR} (see <<s_Using-RoadView>>).
+
+* On the Settings tab, enable {software-cloud} Integration and
+set the parameters as follows:
+
+* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
+
+
+.{software-cloud} Integration - {software-ALPR} Settings Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,550]
+
+=== Logging In to {software-ALPR}
 
 <<<
 
