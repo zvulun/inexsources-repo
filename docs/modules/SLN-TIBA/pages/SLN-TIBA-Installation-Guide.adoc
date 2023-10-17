@@ -1285,7 +1285,9 @@ security policy allows transmitting the outbound
 video stream from the camera.
 ======================
 
-image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes.png[image,800]
+.{software-cloud} Lanes Page
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes.png[image,500]
 
 * Click on the license plate
 image to display plate, LPR and Overview
