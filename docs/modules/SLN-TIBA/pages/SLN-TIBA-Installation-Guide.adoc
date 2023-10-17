@@ -1045,12 +1045,12 @@ image::ROOT:SLN-TIBA/IZCloud-BorderLogin.png[image,400]
 
 === Logging Out of {software-cloud}
 
-Click on your user name at the upper-right of the screen
-and click the Logout button.
+Click on your user name at the upper-right of the screen,
+then click the Logout button.
 
 .{software-cloud} Logout
 
-image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Logout.png[image,400]
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Logout.png[image,200]
 
 [#s_IZCloud-Events]
 
@@ -1101,6 +1101,8 @@ to find within the names }_*
 
 === {software-cloud} Maintenance - Cameras
 
+*_\{enables you to do what?}_*
+
 Select "Cameras" from the Maintenance menu
 image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
 
@@ -1125,7 +1127,7 @@ use the dropdown to select a lot
 * *Read Rate N-2* - with up to 2 read mistakes
 
 * *Actions* - select Last Review from the dropdown
-to display the Last Review page, filtered for
+to display the Last Review page, filtered
 by the lane on that row (see <<s_Last-Review>>).
 
 [#s_Last-Review]
@@ -1166,12 +1168,16 @@ mistake
 mistakes
 
 ** *False Read* - an automatic read
-with confidence below an acceptable
-threshold *_\{where is this set?}_*
+with a low confidence below an acceptable
+threshold *_\{is this correct?}_* (as set in the {software-ALPR} Settings tab,
+in the Detector Configuration section
+*_\{which parameter - detector confidence or
+plate reader confidence}_*
+- see <<s_Detector-Configuration>>).
 
 ** *False Reject* - *_\{please verify}_* an
 automatic read that should not have been
-rejected due to low confidence
+rejected due to a low confidence
 
 ** *Non-Qualified* - cannot be read
 by a human; examples include:
@@ -1186,12 +1192,12 @@ by a human; examples include:
 
 === {software-cloud} Maintenance - Dashboard
 
+The Dashboard page enables you to *_\{do what?}_*
+
 Select "Dashboard" from the Maintenance menu
 image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
 
 .{software-cloud} Dashboard Page
-
-The Dashboard page enables you to *_\{do what?}_*
 
 image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-DashBrd-HoverBarChart.png[image,800]
 
@@ -1212,7 +1218,7 @@ for that Lane; click on bars
 show the list of reads used for that camera
 to get the statistics}_*
 
-[#s_Lanes]
+[#s_IZCloud-Lanes]
 
 === {software-cloud} Lanes
 
