@@ -1180,8 +1180,7 @@ with a low confidence below an acceptable
 threshold *_\{is this correct?}_* (as set in the {software-ALPR} Settings tab,
 in the Detector Configuration section
 *_\{which parameter - detector confidence or
-plate reader confidence}_*
-- see <<s_Detector-Configuration>>).
+plate reader confidence}_* - see <<s_Detector-Configuration>>).
 
 ** *False Reject* - *_\{please verify}_* an
 automatic read that should not have been
@@ -1231,9 +1230,7 @@ to get the statistics}_*
 The Lanes page enables you to:
 * View live video
 * View the license plate read for the current Event
-* Correct the plate read *_\{does this change
-the plate read, or just put the correction into the
-true read field (Plate Review on the Last Review page)}_*
+* Correct the plate read
 * Open the lane's gate in an emergency
 
 [NOTE]
@@ -1248,15 +1245,15 @@ image to display plate, LPR and Overview
 images of the Event
 
 * Click the Correct Plate Read button
-to *_\{does this change
-the plate read, or just put the correction into the
-true read field (Plate Review on the Last Review page)}_* correct the read +
+to correct the read.  *_\{please verify}_* A new Event is created
+with the updated read. +
+
+* Click the Emergency Open button to
+open the lane's gate in an emergency
 
 .{software-cloud} Lanes - Correct Plate Read
 
 image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes-CorrectPlate.png[image,400]
-
-
 
 <<<
 
