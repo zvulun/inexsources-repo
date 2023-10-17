@@ -1265,7 +1265,7 @@ is generated daily. Hover on a point to show details.
 
 === {software-cloud} Lanes
 
-The Lanes page enables you to:
+The Lanes page enables you to (see <<f_IZCloud-Lanes-Page>>):
 
 * View live video
 
@@ -1284,6 +1284,8 @@ Live video is only displayed if your site's
 security policy allows transmitting the outbound
 video stream from the camera.
 ======================
+
+[#f_IZCloud-Lanes-Page]
 
 .{software-cloud} Lanes Page
 
