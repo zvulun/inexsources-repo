@@ -62,7 +62,8 @@ If you want to copy the IP address (for login to the device) you will need to un
 
 For devices using {software-ALPR} software, you can change the IP address using the {software-ALPR} Settings tab.
 
-If your device is an {compname-short} Camera System, be sure to define IP addresses for each camera (LPR and Overview), using each camera's configuration application. It is recommended to use sequential IP addresses for the Camera System and its cameras; for example: 192.168.5.64, 65, 66
+If your device is an {compname-short} Camera System, be sure to define IP addresses for each camera (LPR and Overview), using each camera's configuration application.
+It is recommended to use sequential IP addresses for the Camera System and its cameras; for example: 192.168.5.64, 65, 66
 
 ========================================
 

@@ -122,9 +122,9 @@ for a single lane, to work with the {docproductname} Parking System.
 ** IZA500GR-DRW-P48 - for USA, Mexico, Canada
 ** IZA500GR-IRW-P48 - for Israel, EU, Taiwan, Australia, Vietnam, GCC, India, Singapore
 * Power Supply for P48 models
-** IZPWR75{plus}{hw-poeinjector} - for a single camera via PoE
-** IZPWR120{plus}{hw-poeinjector} - for two cameras via PoE
-** IZPWR240{plus}{hw-poeinjector} - for four cameras via PoE
+** IZPWR75{plus}{hw-poeinjector} - for a single camera
+** IZPWR120{plus}{hw-poeinjector} - for two cameras
+** IZPWR240{plus}{hw-poeinjector} - for four cameras
 * Camera Mounting hardware
 ** IZMNTA-WE - wall mount
 ** IZMNTA-WE{plus}MNT-PMA -  pole mount
@@ -134,11 +134,6 @@ for a single lane, to work with the {docproductname} Parking System.
 <<<
 
 == Lane Design
-
-*_\{Pinchas: since the table is here
-should I remove the distance
-recommendations in the lane design
-drawings?}_*
 
 [table.withborders,options="header",cols="24,23,53"]
 |===
@@ -155,11 +150,11 @@ drawings?}_*
 
 .^| Up to 80 mph (129 km/h)
 
-2+.^| LPR Capture Distance +
+2+.^| LPR Capture Distance (D) +
 (for U.S.A. plates; +
 measured from camera to plate)
 
-.^| 5-70 ft (1.5-21 m)
+.^| 5-70 ft (1.5-21 m); 8 ft (2.4 m) recommended
 
 |===
 
@@ -188,11 +183,11 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=center]
 [table.withborders,width="100%",cols="7%,35%,58%",options="header",]
 |===
 |Item |Description |Ordering Information
-.^|A .^a|*LAN Patch Cable(s)* - CAT6, max. length 3.3 ft (1 m) .^|Supplied by integrator
-.^|B .^a|*LAN Cable(s)* - CAT6, 4 pairs, 26 AWG, max.
-length 328 ft (100 m), OD 6.5-7.0 mm
+.^|A .^a|*LAN Patch Cable* - CAT6, max. length 3.3 ft (1 m) .^|Supplied by integrator
+.^|B .^a|*LAN Cable* - CAT6, shielded, 4 pairs, 22 AWG, max.
+length 328 ft (100 m), *_\{need range}_* OD 6.2 mm
 .^|Supplied by integrator; 6.6 ft (2 m) included with camera
-.^|C .^a|*PAS (Power and Signals) Cable* -  22-26 AWG, OD 7.0-7.2 mm
+.^|C .^a|*PAS (Power and Signals) Cable* - 22 AWG, *_\{need range}_*OD 7.0-7.2 mm
 .^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
 .^|D .^a|*Power Supply* - 48 VDC
 .^a|
@@ -1184,18 +1179,10 @@ mistake
 mistakes
 
 ** *False Read* - there are more than 2 mistakes
-in the automatic read *_\{Pinchas: or is it
-an automatic read that does not
-match the true read?}_* an automatic read
-with a low confidence below an acceptable
-threshold *_\{Pinchas: is this correct?}_* (as set in the {software-ALPR} Settings tab,
-in the Detector Configuration section
-*_\{Pinchas: which parameter - detector confidence or
-plate reader confidence}_* - see <<s_Detector-Configuration>>).
+in the automatic read
 
-** *False Reject* - *_\{Pinchas: please verify}_* an
-automatic read that should not have been
-rejected due to a low confidence
+** *False Reject* - an automatic read that was not generated
+for a qualified Event
 
 ** *Non-Qualified* - cannot be read
 by a human; examples include:
