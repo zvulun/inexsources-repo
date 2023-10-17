@@ -1038,6 +1038,8 @@ Detector Configuration section after making changes.
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,550]
 
+<<<
+
 === Logging In to {software-cloud}
 
 * Type the URL of your {software-cloud} TIBA site
@@ -1057,6 +1059,8 @@ then click the Logout button.
 .{software-cloud} Logout
 
 image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Logout.png[image,200]
+
+<<<
 
 [#s_IZCloud-Events]
 
@@ -1104,6 +1108,10 @@ images of the Event
 * *Owner* - The vehicle owner name; Enter characters
 to find within the names
 
+<<<
+
+[#s_IZCloud-Cameras]
+
 === {software-cloud} Maintenance - Cameras
 
 The Cameras page enables you to view
@@ -1135,6 +1143,8 @@ use the dropdown to select a lot
 * *Actions* - select Last Review from the dropdown
 to display the Last Review page, filtered
 by the lane on that row (see <<s_Last-Review>>).
+
+<<<
 
 [#s_Last-Review]
 
@@ -1195,6 +1205,8 @@ by a human; examples include:
 *** Multiple plates
 *** Obstructed characters
 (by dirt, snow, trailer ball, etc.)
+
+<<<
 
 [#s_Dashboard]
 
