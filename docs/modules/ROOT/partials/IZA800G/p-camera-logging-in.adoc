@@ -27,6 +27,7 @@ If you do not have an internet connection to the network on which the camera is 
 The stream of the Live View can also be accessed using an RTSP URL with this format
 ifdef::xref-type-IZ600F[(assuming you have set the correct permissions in the camera for the user – see <<s_Adding_a_User>>)]
 +++:+++
+
 rtsp://[username:password]@<Camera IP address>/cam0_0 +
 where cam0_0 is a camera-specific parameter (which in this case enables you to access the primary stream)
 
