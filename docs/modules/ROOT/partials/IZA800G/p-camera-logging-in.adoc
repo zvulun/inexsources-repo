@@ -24,7 +24,7 @@ image::ROOT:/IZA800G/image43.png[image,width=528,height=230]
 When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
 If you do not have an internet connection to the network on which the camera is installed, wait 30 seconds, and you will be instructed on how to install the ActiveX control locally via the camera's firmware.
 
-The stream of the Live View can also be accessed using an RTSP URL with the following format
+The stream of the Live View can also be accessed using an RTSP URL with this format
 ifdef::xref-type-IZ600F[(assuming you have set the correct permissions in the camera for the user – see <<s_Adding_a_User>>)]
 +++:+++
 

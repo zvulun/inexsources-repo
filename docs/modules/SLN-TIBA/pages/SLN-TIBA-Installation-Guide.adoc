@@ -1236,11 +1236,6 @@ that are operating but need maintenance/have warnings
 * *Inoperational Lanes* - Lanes with
 cameras not operating
 
-* *Statistic Graphs*
-These graphs show data from "reviewed reads".
-"Reviewed reads" are the Qualifed (human-readable) plate reads
-(out of the total reads for a certain day) that were reviewed.
-
 ////
 *_\{The read rate for the last day
 We only use a maximum of 1000 events from the Review Tool;
@@ -1249,6 +1244,12 @@ Numbers in tooltips are the number of reads reviewed -
 usually only about 80% of total eVents for the day
 because he rest are non-qualified}_*
 ////
+
+
+* *Statistic Graphs*
+These graphs show data from "reviewed reads".
+"Reviewed reads" are the Qualifed (human-readable) plate reads
+(out of the total reads for a certain day) that were reviewed.
 
 ** *Read Rate Bar Chart* (for online/operational cameras):
 
