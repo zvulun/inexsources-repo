@@ -1105,7 +1105,8 @@ to find within the names? first names? }_*
 
 === {software-cloud} Maintenance - Cameras
 
-*_\{enables you to do what?}_*
+The Cameras page enables you to view
+camera status and read rate statistics.
 
 Select "Cameras" from the Maintenance menu
 image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
@@ -1172,7 +1173,9 @@ mistake
 ** *N-2 Read* - an automatic read with up to 2
 mistakes
 
-** *False Read* - an automatic read
+** *False Read* - *_\{or is it
+an automatic read that does not
+match the true read?}_* an automatic read
 with a low confidence below an acceptable
 threshold *_\{is this correct?}_* (as set in the {software-ALPR} Settings tab,
 in the Detector Configuration section
@@ -1228,7 +1231,9 @@ to get the statistics}_*
 The Lanes page enables you to:
 * View live video
 * View the license plate read for the current Event
-* Correct the plate read
+* Correct the plate read *_\{does this change
+the plate read, or just put the correction into the
+true read field (Plate Review on the Last Review page)}_*
 * Open the lane's gate in an emergency
 
 [NOTE]
@@ -1238,24 +1243,30 @@ security policy allows transmitting the outbound
 video stream from the camera.
 ======================
 
-
-
-
-
 * Click on the license plate
 image to display plate, LPR and Overview
 images of the Event
+
+* Click the Correct Plate Read button
+to *_\{does this change
+the plate read, or just put the correction into the
+true read field (Plate Review on the Last Review page)}_* correct the read +
+
+.{software-cloud} Lanes - Correct Plate Read
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes-CorrectPlate.png[image,400]
+
 
 
 <<<
 
 [#s_Troubleshooting]
 
-== Troubleshooting
+== {software-ALPR} Troubleshooting
 
 [#t_Troubleshooting]
 
-.Troubleshooting
+.{software-ALPR} Troubleshooting
 
 [table.withborders,width="100%",cols="35%,65%",options="header",]
 |===
