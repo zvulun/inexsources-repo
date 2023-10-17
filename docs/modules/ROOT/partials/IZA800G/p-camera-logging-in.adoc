@@ -47,6 +47,8 @@ You should then create another user for use by other users – with a different 
 endif::xref-type-IZ600F[]
 
 +
+{empty} +
++
 [IMPORTANT]
 ========================================
 The Administrator user name (root) cannot be changed, and the Administrator password is encrypted. Therefore, if someone changes the Administrator password, there is no way to find out the password if it gets lost.
