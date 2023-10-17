@@ -36,7 +36,7 @@ image::ROOT:image$/IZDiscovery/RV-1_9-FIG-012b_IZDiscovery6020MainScreen.png[IZ 
 
 ** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
 
-** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run {software-discovery} again.
+** Check the LAN cable between your laptop and the network, and the LAN cable between the device and the LAN switch. Replace the cable(s) and run {software-discovery} again.
 
 [#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
 
