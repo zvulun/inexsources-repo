@@ -1216,7 +1216,7 @@ Page Elements:
 * *Operational Lanes* - Lanes with
 cameras operating properly
 
-* *Require Maintenance* - *_\{please verify}_*Lanes with cameras
+* *Require Maintenance* - *_\{please verify}_* Lanes with cameras
 that are operating but need maintenance
 
 * *Inoperational Lanes* - Lanes with
@@ -1256,6 +1256,9 @@ The Lanes page enables you to:
 
 [NOTE]
 ======================
+Plate images and video are displayed for
+lanes with online/operational cameras.
+
 Live video is only displayed if your site's
 security policy allows transmitting the outbound
 video stream from the camera.
