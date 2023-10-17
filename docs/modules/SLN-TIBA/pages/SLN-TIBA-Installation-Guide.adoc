@@ -1211,11 +1211,28 @@ image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-DashBrd-HoverBarChart.png[image,800]
 
 Page Elements:
 
-Maintenance Dashboard - HIstorical Avg Read rate
-is daily report - hover on a dot to get details
-Use Gate dropdown to select which camera
-only write about lanes from campgrounds
-or not at all
+* *Total Lanes* - Total number of lanes in the system
+
+* *Operational Lanes* - Lanes with
+cameras operating properly
+
+* *Require Maintenance* - *_\{please verify}_*Lanes with cameras
+that are operating but need maintenance
+
+* *Inoperational Lanes* - Lanes with
+cameras not operating
+
+* *Read Rate Bar Chart* (for online/operational cameras) -
+Hover over a bar to show details.
+*_\{only shows a small amount of Review Events Count.
+What data is used and over what time period to
+generate the bars?}_*
+Click to jump to the Last Review
+page for that lane (see <<s_Last-Review>>).
+
+* *Historical Average Read Rate* - Each data point
+is generated daily. Hover on a point to show details.
+
 You can click on bar chart - not just hover -
 to get to the Last Review screen pre-filtered
 for that Lane; click on bars
@@ -1228,9 +1245,13 @@ to get the statistics}_*
 === {software-cloud} Lanes
 
 The Lanes page enables you to:
+
 * View live video
+
 * View the license plate read for the current Event
+
 * Correct the plate read
+
 * Open the lane's gate in an emergency
 
 [NOTE]
@@ -1240,20 +1261,23 @@ security policy allows transmitting the outbound
 video stream from the camera.
 ======================
 
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes.png[image,800]
+
 * Click on the license plate
 image to display plate, LPR and Overview
 images of the Event
+
+* Click the Emergency Open button to
+open the lane's gate in an emergency
 
 * Click the Correct Plate Read button
 to correct the read.  *_\{please verify}_* A new Event is created
 with the updated read. +
 
-* Click the Emergency Open button to
-open the lane's gate in an emergency
-
 .{software-cloud} Lanes - Correct Plate Read
 
 image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes-CorrectPlate.png[image,400]
+
 
 <<<
 
