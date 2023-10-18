@@ -436,7 +436,7 @@ image::ROOT:RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 === Logging Out (Multi-line Menu Icon)
 
-* Click on the multi-line menu icon at the upper right of the {shortprodname} screen
+* Click on the multi-line menu icon at the upper right of the {software-ALPR} screen
 
 * Select "Logout"
 
@@ -477,9 +477,9 @@ Detector Configuration "Mode" selected.
 
 The box at the upper right of the Settings screen shows:
 
-* The {shortprodname} software version (verify this is the correct version as shown)
+* The {software-ALPR} software version (verify that the version is correct)
 
-* The model, part number and serial number of the camera(s) {shortprodname} is communicating with:
+* The model, part number and serial number of the camera(s) {software-ALPR} is communicating with:
 
 [#f_Software-Version-and-Camera-Information-Section]
 
@@ -781,12 +781,9 @@ at the bottom of the Settings tab
 +
 <<<
 
-** *GPIO* - the nn number that identifies the
-GPIOnn pin on the NVIDIA Jetson processor's I/O module.
-A signal is sent to this pin when an "open gate"
-command is received from the {docproductname} server.
-See the NVIDIA Jetson documentation for further information.
-(See next Note)
+** *GPIO* - set to 0
+
+////
 +
 [NOTE]
 ========================
@@ -794,10 +791,15 @@ In addition to the GPIO signal, a signal is also
 sent to the camera; this signal can be used to
 open a gate via a relay.
 ========================
+////
 
 === Direct Trigger
 
-Set the Direct Trigger as shown here:
+Set the Direct Trigger as follows:
+
+* For Front Capture - OnRise
+
+* For Rear Capture - OnFall
 
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
@@ -809,13 +811,19 @@ Detector Configuration section after making changes.
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
 
-
 [#s_Trigger-Offset]
 
 === Trigger Offset
 
-Enable Trigger Offset and
-set the parameter as follows:
+A trigger command may arrive at a different
+time than actual trigger’s (physical) arrival
+time. For example, there is often a delay between
+the time a vehicle passes over an inductive loop,
+and the time the loop controller generates a pulse.
+This latency can be compensated for by an "offset".
+
+* Enable Trigger Offset and
+set the parameter
 
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
@@ -833,7 +841,7 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
 
 === Detector Configuration
 
-* Set the parameters as follows.
+* Set the parameters as shown here
 
 * Remember to click the Save button
 at the end of this section after
@@ -844,6 +852,40 @@ changing these parameters.
 .Detector Configuration Section
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-004a_Detector_Configuration.png[image,500]
+
+Explanations of frequently used parameters:
+
+* *Mode* - Note that parameters may appear or be hidden, depending on the chosen Mode.
+
+** +++<u>+++NonTriggered+++</u>+++ - Events are created and reported using LPR video analytics
+
+** +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
+
+** +++<u>+++Hybrid+++</u>+++ - Events are continually created internally by LPR video analytics, but are only reported when a trigger is received. The Event closest in time to the trigger will be reported (sent to storage). See <<s_Detector-Configuration>> where the Hybrid Pre/Post Time parameters are described.
+
+** +++<u>+++NonTriggered With Trigger+++</u>+++ - NonTriggered Events are continually created and reported by LPR video analytics. In addition, Triggered Events are created and reported when a trigger is received.
+
+* *Region* - Region for which characters on the plate will be recognized. Select from the following options:
+
+** +++<u>+++Australia+++</u>+++
+
+** +++<u>+++Canada/North America+++</u>+++ - same as North America LPR, with a different state recognition model that includes Canadian states.
+
+** +++<u>+++Europe+++</u>+++
+
+** +++<u>+++Israel+++</u>+++
+
+** +++<u>+++North America+++</u>+++ - general recognition that includes all U.S.A. states
+
+** +++<u>+++North America (OR)+++</u>+++ - same as North America, with the addition of syntax checking (against predefined patterns of characters) for Oregon state
+
+* *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
+
+* *Image Resize* - when enabled, and the Event confidence is equal or higher than the Resize Confidence parameter, then each LPR and OV image is resized according to the Image Width (and the height is resized proportionally).
+
+** *Image Width* - the resize width
+
+** *Resize Confidence* - the Event confidence threshold for enabling resizing
 
 <<<
 
@@ -856,7 +898,47 @@ of this section after making changes.
 
 .System Info Tab
 
+* Set the parameters as shown here
+
+* Remember to click the Save button
+at the end of this section after
+changing these parameters.
+
+
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,500]
+
+Explanations of frequently used parameters:
+
+* Night Mode
+
+** +++<u>+++Disable+++</u>+++ - never trigger the illuminator
+
+** +++<u>+++Enable+++</u>+++ - camera and external illuminator behavior are optimized for night-time recognition. Recommended use is for calibration.
+
+*** *OV LED Intensity* - Relative intensity of the built-in white LEDs, expressed as a percentage of the maximum possible intensity
+
+*** *Illuminator Intensity* - (for IZS illuminators, synchronized with the Overview camera) Relative intensity of an external illuminator's LEDs, expressed as a percentage of the maximum possible intensity
+
+** +++<u>+++Auto+++</u>+++ - automatically senses day/night, in order to decide whether to trigger an external illuminator, according to the Camera System's location (as defined by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
++
+[NOTE]
+
+========================================
+
+Latitude and Longitude are user-entered coordinates; determine them using Google maps, by clicking on the location where the Camera System will be installed (remember to put in a minus sign as needed)
+
+========================================
+
+*** *Latitude* - latitude coordinate of Camera System's location
+
+*** *Longitude* - longitude coordinate of Camera System's location
+
+*** *Post-Sunrise Offset* - time after actual sunrise to be considered as the start of the day
+
+*** *Pre-Sunset Offset* -time before actual sunset to be considered the end of the day
+
+* *Remember to click the Save button at the end of this section after making changes.*
+
 
 <<<
 
