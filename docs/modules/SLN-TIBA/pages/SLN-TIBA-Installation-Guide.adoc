@@ -843,7 +843,7 @@ the image from the Lane 1 TIBA –
 loop is directly under the barrier bar,
 “-200” will move capturing point upstream
 on the lane and capture the plate before
-it is obstructed from view
+it is obstructed from view by the bar
 
 * Enable Trigger Offset and
 set the parameter
