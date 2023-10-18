@@ -774,14 +774,14 @@ image is sent as part of the Event; if there
 was no recognition, the OV image is sent
 * *Send OV Image* - when enabled, the OV image
 is always sent as part of the Event
-* *Lanes:*
-** *Lane ID* - this table is automatically populated
+//* *Lanes:*
+* *Lane ID* - this table is automatically populated
 with the number of lanes defined in the Lanes section
 at the bottom of the Settings tab
-+
-<<<
 
-** *GPIO* - set to 0
+* *GPIO* - set to 0
+
+<<<
 
 ////
 +
