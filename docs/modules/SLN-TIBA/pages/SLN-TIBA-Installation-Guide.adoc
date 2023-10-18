@@ -845,7 +845,7 @@ to -200 will move the capture point up
 the lane, and capture the plate before
 it is obstructed from view by the bar.
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003c_TriggerOffsetIllustrated.png[image,800]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003c_TriggerOffsetIllustrated.png[image,400]
 
 * Enable Trigger Offset and
 set the parameter
