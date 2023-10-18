@@ -833,17 +833,19 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
 
 === Trigger Offset
 
-If you want to capture a vehicle
+You can capture a vehicle
 (and create an Event) at a different
-position than the location of the loop
-(before or after), this can be achieved by
-setting the Trigger Offset parameter.
+position than the location of the in-ground loop.
+Use this Trigger Offset parameter to capture
+the vehicle before or after the loop.
 
-the image from the Lane 1 TIBA –
-loop is directly under the barrier bar,
-“-200” will move capturing point upstream
-on the lane and capture the plate before
-it is obstructed from view by the bar
+For example, in this illustration, the loop is directly
+under the barrier bar. Setting the Trigger Offset
+to -200 will move the capture point up
+the lane, and capture the plate before
+it is obstructed from view by the bar.
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003c_TriggerOffsetIllustrated.png[image,800]
 
 * Enable Trigger Offset and
 set the parameter
@@ -880,13 +882,7 @@ Explanations of frequently used parameters:
 
 * *Mode* - Note that parameters may appear or be hidden, depending on the chosen Mode.
 
-** +++<u>+++NonTriggered+++</u>+++ - Events are created and reported using LPR video analytics
-
 ** +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
-
-** +++<u>+++Hybrid+++</u>+++ - Events are continually created internally by LPR video analytics, but are only reported when a trigger is received. The Event closest in time to the trigger will be reported (sent to storage). See <<s_Detector-Configuration>> where the Hybrid Pre/Post Time parameters are described.
-
-** +++<u>+++NonTriggered With Trigger+++</u>+++ - NonTriggered Events are continually created and reported by LPR video analytics. In addition, Triggered Events are created and reported when a trigger is received.
 
 * *Region* - Region for which characters on the plate will be recognized. Select from the following options:
 
@@ -935,15 +931,17 @@ Explanations of frequently used parameters:
 
 * Night Mode
 
-** +++<u>+++Disable+++</u>+++ - never trigger the illuminator
+** +++<u>+++Disable+++</u>+++ - White LEDs are OFF
 
-** +++<u>+++Enable+++</u>+++ - camera and external illuminator behavior are optimized for night-time recognition. Recommended use is for calibration.
+** +++<u>+++Enable+++</u>+++ - White LEDs are ON
 
 *** *OV LED Intensity* - Relative intensity of the built-in white LEDs, expressed as a percentage of the maximum possible intensity
 
-*** *Illuminator Intensity* - (for IZS illuminators, synchronized with the Overview camera) Relative intensity of an external illuminator's LEDs, expressed as a percentage of the maximum possible intensity
+*** *Illuminator Intensity* - Unused
 
-** +++<u>+++Auto+++</u>+++ - automatically senses day/night, in order to decide whether to trigger an external illuminator, according to the Camera System's location (as defined by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
+** +++<u>+++Auto+++</u>+++ - White LEDs are ON at night, OFF during the day,
+according to the Camera System's location (as defined
+by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
 +
 [NOTE]
 
