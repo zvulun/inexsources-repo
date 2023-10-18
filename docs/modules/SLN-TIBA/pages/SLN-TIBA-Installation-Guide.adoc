@@ -943,7 +943,7 @@ Explanations of frequently used parameters:
 
 ** +++<u>+++Auto+++</u>+++ - White LEDs are ON at night, OFF during the day,
 according to the Camera System's location (as defined
-by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
+by the Latitude and Longitude parameters). Additional parameters appear:
 +
 [NOTE]
 
