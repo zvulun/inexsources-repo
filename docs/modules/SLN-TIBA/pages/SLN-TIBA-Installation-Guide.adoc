@@ -937,9 +937,6 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 
 *** *Pre-Sunset Offset* -time before actual sunset to be considered the end of the day
 
-* *Remember to click the Save button at the end of this section after making changes.*
-
-
 <<<
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
