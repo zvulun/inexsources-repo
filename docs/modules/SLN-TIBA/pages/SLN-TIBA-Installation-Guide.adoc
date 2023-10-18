@@ -891,19 +891,11 @@ Explanations of frequently used parameters:
 
 == Configure {software-ALPR} - System Info Tab
 
-Set the parameters as shown here:
-
-* Remember to click the Save button at the end
-of this section after making changes.
-
-.System Info Tab
-
 * Set the parameters as shown here
 
 * Remember to click the Save button
 at the end of this section after
 changing these parameters.
-
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,500]
 
