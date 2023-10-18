@@ -129,7 +129,7 @@ image::ROOT:image$/IZDiscovery/RV-1_9-FIG-012b_IZDiscovery6020MainScreen.png[IZ 
 
 ** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
 
-** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run {software-discovery} again.
+** Check the LAN cable between your laptop and the network, and the LAN cable between the device and the LAN switch. Replace the cable(s) and run {software-discovery} again.
 
 [#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
 
@@ -145,8 +145,6 @@ image::ROOT:image$/IZDiscovery/RV-1_9-FIG-013b_ChangeIPUnCheckDHCP.png[IZ Discov
 
 ========================================
 
-The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
-
 *+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
 
 A dynamic IP address may change upon device reboot. Before opening the web interface, you will have to find the current IP address of the device using {software-discovery}.
@@ -155,7 +153,13 @@ If you want to copy the IP address (for login to the device) you will need to un
 
 For devices using {software-ALPR} software, you can change the IP address using the {software-ALPR} Settings tab (see <<s_Related-Documents>>).
 
-If your device is an {compname-short} Camera System, be sure to define IP addresses for each camera (LPR and Overview), using each camera's configuration application. It is recommended to use sequential IP addresses for the Camera System and its cameras; for example: 192.168.5.64, 65, 66
+If your device is an {compname-short} Camera System,
+be sure to define IP addresses for each camera
+(LPR and Overview), using each camera's configuration
+application.
+It is recommended to use sequential IP addresses
+for the Camera System and its cameras;
+for example: 192.168.5.100, 101, 102
 
 ========================================
 
