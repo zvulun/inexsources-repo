@@ -549,8 +549,8 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-001d_Date_Time.png[image,600]
 
 // * Set Time (Automatically/Manually)
 
-Set Time (Automatically/Manually) -
-*The preferred setting is "Set Time Automatically"*.
+*Set Time (Automatically/Manually) -
+The preferred setting is "Set Time Automatically"*.
 
 * If *Automatic*, the date and time
 will be updated from a central NTP (Network Time) server;
@@ -570,7 +570,7 @@ the date and time immediately.
 indicates if the URL of the NTP server is correct,
 and if the connection to it was successful.
 
-* If an NTP server is not available, select  *Manual*
+* If an NTP server is not available, select  *Manual*.
 Click in the *Date and Time* box to display
 a calendar/time popup.
 
@@ -833,12 +833,17 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
 
 === Trigger Offset
 
-A trigger command may arrive at a different
-time than actual trigger’s (physical) arrival
-time. For example, there is often a delay between
-the time a vehicle passes over an inductive loop,
-and the time the loop controller generates a pulse.
-This latency can be compensated for by an "offset".
+If you want to capture a vehicle
+(and create an Event) at a different
+position than the location of the loop
+(before or after), this can be achieved by
+setting the Trigger Offset parameter.
+
+the image from the Lane 1 TIBA –
+loop is directly under the barrier bar,
+“-200” will move capturing point upstream
+on the lane and capture the plate before
+it is obstructed from view
 
 * Enable Trigger Offset and
 set the parameter
@@ -895,7 +900,16 @@ Explanations of frequently used parameters:
 
 ** +++<u>+++North America+++</u>+++ - general recognition that includes all U.S.A. states
 
-** +++<u>+++North America (OR)+++</u>+++ - same as North America, with the addition of syntax checking (against predefined patterns of characters) for Oregon state
+** +++<u>+++Saudi Arabia+++</u>+++
+
+** +++<u>+++South Africa+++</u>+++
+
+** +++<u>+++Taiwan+++</u>+++
+
+** +++<u>+++United Arab Emirates+++</u>+++
+
+** +++<u>+++Vietnam+++</u>+++
+
 
 * *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
 
