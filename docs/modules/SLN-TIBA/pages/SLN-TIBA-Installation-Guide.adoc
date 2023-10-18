@@ -942,8 +942,8 @@ Explanations of frequently used parameters:
 *** *Illuminator Intensity* - Unused
 
 ** +++<u>+++Auto+++</u>+++ - White LEDs are ON at night, OFF during the day,
-according to the Camera System's location (as defined
-by the Latitude and Longitude parameters). Additional parameters appear:
+according to the Camera System's location (defined
+by the Latitude and Longitude parameters). Additional parameters are:
 +
 [NOTE]
 
