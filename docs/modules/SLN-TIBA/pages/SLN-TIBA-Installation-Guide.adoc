@@ -121,6 +121,7 @@ for a single lane, to work with the {docproductname} Parking System.
 * Camera System:
 ** IZA500GR-DRW-P48 - for USA, Mexico, Canada
 ** IZA500GR-IRW-P48 - for Israel, EU, Taiwan, Australia, Vietnam, GCC, India, Singapore
+** {software-ALPR} Advanced ALPR Software, version 1.15.64.97
 * Power Supply for P48 models
 ** IZPWR75{plus}{hw-poeinjector} - for a single camera
 ** IZPWR120{plus}{hw-poeinjector} - for two cameras
