@@ -851,7 +851,7 @@ it is obstructed from view by the bar.
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-003c_TriggerOffsetIllustrated.png[image,400]
 
 * Enable Trigger Offset and
-set the parameter
+set the parameter (in milliseconds)
 
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
