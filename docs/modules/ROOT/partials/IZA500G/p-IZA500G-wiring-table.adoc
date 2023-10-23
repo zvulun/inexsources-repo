@@ -1,7 +1,9 @@
 [table.withborders,width="100%",cols="7%,35%,58%",options="header",]
 |===
 |Item |Description |Ordering Information
-.^|A .^a|*LAN Patch Cable* - CAT6, max. length 3.3 ft (1 m) for connection to IZ4POE; *_\{what length for connection to IZIO?}_* .^|Supplied by integrator
+.^|A .^a|*LAN Patch Cable* - CAT6, max. length 3.3 ft (1 m) for connection to IZ4POE; +
+382 ft (100 m) for connection to {hw-iocontroller}
+.^|Supplied by integrator
 .^|B .^a|*LAN Cable* - CAT6, shielded, 4 pairs, 22 AWG, max.
 length 328 ft (100 m), OD 5.5-7.9 mm
 .^|Supplied by integrator; 6.6 ft (2 m) included with camera
