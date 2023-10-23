@@ -67,8 +67,11 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 
 .2+.^| Cables
-.^a| LAN - CAT 6 Ethernet cable, 6 foot long+++<br>+++
-(1.80 meters), terminated with a male RJ-45 connector
+.^a| LAN - CAT 6, shielded Ethernet cable, 4 pairs,+++<br>+++
+22 AWG, max. length 328 ft  (100 m), (1.80 meters),+++<br>+++
+OD 5.5-7.9 mm, 6.6 (2 m included with camera terminated+++<br>+++
+with a male RJ-45 connector
+
 
 .^a| Power/Signals - 6-foot long (1.80 meters):
 
