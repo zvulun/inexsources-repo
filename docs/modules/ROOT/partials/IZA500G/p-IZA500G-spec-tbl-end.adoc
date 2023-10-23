@@ -73,11 +73,11 @@ CAT 6, shielded Ethernet cable, 4 pairs, 22 AWG,+++<br>+++
 max. length 328 ft (100 m), OD 5.5-7.9 mm,
 
 
-.^a| Power/Signals (PAS) - 6.6 (2 m) cable included with camera:
+.^a| Power/Signals (PAS) - 6.6 (2 m) cable included with camera;+++<br>+++
+can be extended with: 22 AWG, OD 3.0-7.3 mm
 
 * 3-wire power cable, shielded with a polyethylene jacket; ends terminated with metal rings
 * Digital input (trigger) signal wires and relay output connections (see next items)
-* Can be extended with 22 AWG, OD 3.0-7.3 mm
 
 
 .1+.^| Digital Inputs (Trigger)
