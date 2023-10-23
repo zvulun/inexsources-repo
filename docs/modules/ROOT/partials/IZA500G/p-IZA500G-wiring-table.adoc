@@ -5,9 +5,11 @@
 382 ft (100 m) for connection to {hw-iocontroller}
 .^|Supplied by integrator
 .^|B .^a|*LAN Cable* - CAT6, shielded, 4 pairs, 22 AWG, max.
-length 328 ft (100 m), OD 5.5-7.9 mm
+length 328 ft (100 m), +
+OD 5.5-7.9 mm
 .^|Supplied by integrator; 6.6 ft (2 m) included with camera
-.^|C .^a|*PAS (Power and Signals) Cable* - 22 AWG, OD 3.0-7.3 mm
+.^|C .^a|*PAS (Power and Signals) Cable* - +
+22 AWG, OD 3.0-7.3 mm
 .^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
 .^|D .^a|*Power Supply for Cameras* +
 24 VDC for standard models/ +
