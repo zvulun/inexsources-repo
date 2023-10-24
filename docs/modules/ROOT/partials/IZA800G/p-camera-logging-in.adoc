@@ -1,6 +1,6 @@
 . To view the camera's home page (see <<f_Camera-s-Home-Page>>):
 
-** Open MS Edge in Internet Explorer mode. Enter the IP address of the camera into the address field of the browser. +
+** Open a browser. Enter the IP address of the camera into the address field of the browser. +
 +
 [#f_Camera-s-Home-Page]
 

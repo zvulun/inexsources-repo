@@ -2,7 +2,7 @@
 
 === Logging In
 
-. Open a browser (latest version of Chrome or IE 11 or higher).
+. Open a browser (Chrome or Microsoft Edge).
 ifdef::xref-type-IZIDPUG[Type in the IP address of the {hw-indoor-processor}.]
 ifndef::xref-type-IZIDPUG[Type in the IP address of the {software-ALPR} computer.]
 For example: +
