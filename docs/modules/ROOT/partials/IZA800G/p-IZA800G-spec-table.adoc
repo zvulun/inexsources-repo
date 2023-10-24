@@ -174,7 +174,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .5+.^| Interface
 .^| Ethernet
-.^| 10/100 BaseT
+.^| GigE Ethernet (10/100/1000M)
 
 
 .2+.^| Connectors
