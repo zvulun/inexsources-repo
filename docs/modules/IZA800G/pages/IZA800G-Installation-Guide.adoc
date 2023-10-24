@@ -412,8 +412,6 @@ Turn off/disconnect the external (AC) power supply before connecting cables.
 
 *If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
 
-The Camera System is not compatible with some GigE switches; suggested switch type: 10/100 Mb
-
 ========================================
 
 [NOTE]
