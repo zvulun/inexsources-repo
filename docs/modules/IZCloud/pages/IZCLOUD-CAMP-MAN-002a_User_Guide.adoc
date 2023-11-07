@@ -1,4 +1,5 @@
 :docproductname: IZCloud for Campgrounds
+:fileproductname: IZCLOUD-CAMP
 :shortprodname: IZCloud
 
 // set attribute (by uncommenting the line)
@@ -94,6 +95,8 @@ image::ROOT:IZCloud/IZCloud-BorderCAMP-Logout.png[image,200]
 [#s_IZCloud-Reservations]
 
 == Reservations
+
+*_\{menu icon should be switched with Events icon}_*
 
 The Reservations page enables you to see reservations
 made via an online reservation system.
@@ -294,10 +297,10 @@ between images
 
 image::ROOT:IZCloud/IZCloud-CAMP-ImageDetails.png[image,400]
 
-=== Add To List Button image:ROOT:IZCloud/IZCloud-CAMP-AddToListButton.png[image,20]
+=== Add To List Button
 
 Enables adding the vehicle to a list
-*_\{xref to Vendors and Visitors}_*
+*_\{xref to Vendors and Visitors}_* image:ROOT:IZCloud/IZCloud-CAMP-AddToListButton.png[image,20]
 
 == Access Lists (Watch Lists)
 
@@ -528,29 +531,158 @@ to display single-date calendar popups
 fields blank?}_*
 
 * *List Name* - List in which the entry appears
-*_\{can a plate/person appear in more than one list?}_*
-
-
-== Gates
-*_\{use this text?? see your email summary
-for other info}_*
-Coordinate with {compname-short} support
-to set up access to your site’s
-cameras to enable a live video feed on this page.
-
-Plate images and video are displayed
-for lanes with online/operational cameras.
-
-Live video is only displayed if your site’s
-security policy allows transmitting the
-outbound video stream from the camera.
-
-Click the Correct Plate Read button to correct the read.
-A new Event is created with the updated read.
-
+*_\{can a plate/person appear in more than one list? Yes, but
+Plates should not be on multiple lists but if they are,
+only one list will show in the Event Type column,
+and the "man" icon will not be shown since plate
+is on a list}_*
 
 == Dashboard
+The Dashboard page enables you to see overall
+reservation statuses (checked in/checked out).
 
 *_\{Is it ok to show so many overstays in the dashboard -
 should it be photoshopped - and to which number?}_*
 
+image::ROOT:IZCloud/IZCloud-CAMP-Dashboard.png[image,800]
+
+* *Check In*
+
+** Expected - Reservations expected to arrive today
+
+** Arrived - Reservations arrived today
+
+** Not Arrived - Today's reservations - but have not
+yet arrived today
+
+* *Check Out*
+
+** Expected - Reservations expected to check out today
+
+** Checked Out - Reservations checked out today or previously
+
+** Overstay - Reservations that have overstayed their
+checkout date
+
+[#s_Gates]
+
+== Gates (Live Video And Additional Actions)
+
+*_\{menu icon should not be a camera?}_*
+
+The Gates page enables you to (see <<f_IZCloud-Gates-Page>>):
+
+* View live video
+
+* View the license plate read for the current Event
+
+* Correct the plate read
+
+* Open an entrance's gate in an emergency
+
+* Add the license plate to a list
+
+* Add the license plate to an existing reservation
+
+[#f_IZCloud-Gates-Page]
+
+.Gates Page
+
+image::ROOT:IZCloud/IZCloud-CAMP-Gates.png[image,500]
+
+[NOTE]
+======================
+Coordinate with {compname-short} support
+to set up access to your site’s
+cameras - to enable a live video feed on this page.
+
+Live video is only displayed if your site's
+security policy allows transmitting the outbound
+video stream from the camera.
+
+Plate images and video are displayed for
+lanes with online/operational cameras (see *_\{xref to
+Maintenance-Cameras page}_*.
+======================
+
+* Use the buttons at the upper right of each
+gate's display to select the source
+of the video stream:
+
+** Front/Rear - Front or rear cameras configured
+with a public IP address
+
+** Front Local/Rear Local - Front or rear cameras
+configured with a local network IP address
+
+* Click on the license plate
+image to display plate, LPR and Overview
+images of the Event *_\{xref to see picture}_*
+
+Buttons:
+
+* *Correct Plate Read* - Enables correction of LPR read of
+the last vehicle that passed through the gate. *_\{need
+to tell user this?}_*A new Event is created with the
+updated read. +
++
+.Gates: Correct Plate Read
+
+image::ROOT:IZCloud/IZCloud-CAMP-CorrectPlate.png[image,400]
+
+* *Emergency Open* - Opens the gate manually in case of
+emergency (ambulance, fire, police, etc.)
+
+* *Add to List* - Adds plate to a list; only active if
+plate is not already on a list
+
+* *Add to Reservation* - Adds plate to an existing reservation
+*_\{why is the add to reservation button active
+but the number of the reservation the plate is a part of
+also shows? shouldn't the button be inactive if plate
+is already associated with a reservation?}_* +
++
+
+.Gates: Add to Reservation
+
+image::ROOT:IZCloud/IZCloud-CAMP-AddToReservation.png[image,400]
+
+== Maintenance-Cameras
+
+This page enables you to view camera status.
+
+Select Cameras from the Maintenance menu.
+
+.Maintenance: Cameras
+
+image::ROOT:IZCloud/IZCloud-CAMP-MaintenanceCameras.png[image,800]
+
+* *Status*
+
+** Online - Camera is working properly and
+online (connected to {software-cloud})
+
+** Offline - Camera is offline *_\{not working?}_*
+
+*_\{what are other possible statuses}_*
+
+* *Actions button* - Click the button for
+additional actions:
+
+** Create Test Event - Reads the license plate
+currently in view of the camera and creates
+an Event. *_\{ok to say this?}_*Used for testing/calibration.
+
+== Legal Notices
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+include::ROOT:partial$p-software-precautions.adoc[ALPR Camera Safety Precautions]
+
++++<div class="pagebreak"> </div>+++
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
+
+Doc. No. {fileproductname}-MAN-002a
