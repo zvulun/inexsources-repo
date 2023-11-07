@@ -413,7 +413,7 @@ and use the time controls to select time ranges.
 
 .Add Vendor
 
-image::ROOT:IZCloud/IZCloud-CAMP-AddVendor.png[image,600]
+image::ROOT:IZCloud/IZCloud-CAMP-AddVendor.png[image,300]
 
 === Visitors List
 This is a list of people visiting guests, and their license plates.
@@ -489,7 +489,7 @@ and use the time controls to select time ranges.
 
 .Add Visitor
 
-image::ROOT:IZCloud/IZCloud-CAMP-AddVisitor.png[image,600]
+image::ROOT:IZCloud/IZCloud-CAMP-AddVisitor.png[image,300]
 
 [#s_Search-Watch-Lists]
 
@@ -645,7 +645,7 @@ is already associated with a reservation?}_* +
 
 .Gates: Add to Reservation
 
-image::ROOT:IZCloud/IZCloud-CAMP-AddToReservation.png[image,400]
+image::ROOT:IZCloud/IZCloud-CAMP-AddToReservation.png[image,300]
 
 == Maintenance-Cameras
 
