@@ -216,7 +216,7 @@ with a reservation (see <<s_Clicking-on-Event-Row-Elements>>)
 configured by {compname-short})
 
 * *Plate Image* - Click on an image
-to display plate, LPR and Overview
+to display plate and overview
 images of the Event
 (see <<s_Clicking-on-Event-Row-Elements>>)
 
@@ -266,13 +266,13 @@ reservation (single click)* -
 Displays a popup with reservation details/access history
 (see <<s_IZCloud-Reservations>>).
 
-* *Plate Image (single click)* - Displays plate, LPR and Overview
+* *Plate Image (single click)* - Displays plate and overview
 images of the Event; click on each thumbnail to switch
 between images
 
 [#f_Image-Details]
 
-.Image Details (Plate, LPR and Overview)
+.Image Details (Plate and Overview)
 
 image::ROOT:IZCloud/IZCloud-CAMP-ImageDetails.png[image,400]
 
@@ -568,7 +568,7 @@ with a public IP address
 configured with a local network IP address
 
 * Click on the license plate
-image to display plate, LPR and Overview
+image to display plate and overview
 images of the Event; see <<f_Image-Details>> . (Click on
 each thumbnail to switch between images.)
 
