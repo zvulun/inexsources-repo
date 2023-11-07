@@ -117,10 +117,6 @@ Click on a row to display a popup with reservation details/
 access history.
 =============================
 
-*_\{should I photoshop the number of days
-on the reservation and access records popups
-to increase it by 1 - will this be fixed? YES}_*
-
 * *#* - Reservation number
 
 * *Lot* - Unused
@@ -226,12 +222,12 @@ images of the Event
 
 * *Action:*
 
-** Grant - plate matched to list; gate opened
+** Grant - Plate matched to list; gate opened
 
-** Deny - plate not matched to list; gate not opened
+** Deny - Plate not matched to list; gate not opened
 
-** Open - gate opened manually using Emergency Open button
-on Gates page (see *_\{xref to gates page}_*)
+** Open - Gate opened manually using Emergency Open button
+on Gates page; see <<s_Gates>>
 
 ** Admit - Unused +
 //SPECIAL WAY TO OPEN GATE;
@@ -274,6 +270,8 @@ Displays a popup with reservation details/access history
 images of the Event; click on each thumbnail to switch
 between images
 
+[#f_Image-Details]
+
 .Image Details (Plate, LPR and Overview)
 
 image::ROOT:IZCloud/IZCloud-CAMP-ImageDetails.png[image,400]
@@ -281,7 +279,9 @@ image::ROOT:IZCloud/IZCloud-CAMP-ImageDetails.png[image,400]
 === Add To List Button
 
 Enables adding the vehicle to a list
-*_\{xref to Vendors and Visitors}_* image:ROOT:IZCloud/IZCloud-CAMP-AddToListButton.png[image,20]
+image:ROOT:IZCloud/IZCloud-CAMP-AddToListButton.png[image,20]
+
+See <<s_Vendors-List>> and <<s_Visitors-List>>
 
 == Access Lists (Watch Lists)
 
@@ -312,25 +312,20 @@ image::ROOT:IZCloud/IZCloud-CAMP-GuestsList.png[image,800]
 
 Columns/Filters:
 
-* *Name* - Guest name *_\{TRUE: in some cases, if there are multiple
-names in a reservation, only one name appears that
-only the first name is recorded as the guest -
-is that correct? Ex. Kevin Mulvey,Jane Mulvey -
-plate = jhj7291}_*
+* *Name* - Guest name. If there are multiple
+names in a reservation, only one name appears.
 
-* *Community* - Campground area *_\{AREA - CHANGE EVERYWHERE or unused? - does
-our system work for multiple campgrounds? the
-name of the label should be changed to
-campground}_*
+* *Community* - Campground area
 
 * *Plate* - The guest's license plate
 (multiple vehicles/plates are separated by
 commas)
 
-* *Start Time* - Starting date/time *_\{CHANGE EVERYWHERE}_* that the guest's vehicle
-is allowed to enter the site
+* *Start Time* - Starting date/time that the guest's
+vehicle is allowed to enter the site
 
-* *End Time* - Ending date/time that the guest's vehicle is allowed to enter the site
+* *End Time* - Ending date/time that the guest's
+vehicle is allowed to enter the site
 
 [#s_Vendors-List]
 
@@ -350,13 +345,11 @@ Columns/Filters:
 (multiple vehicles/plates are separated by
 commas)
 
-* *Start Time* - Date *_\{SEE ABOVE}_* the vendor's vehicle
-entered the site *_\{why are all these
-fields blank?}_*
+* *Start Time* - Starting date/time that the guest's
+vehicle is allowed to enter the site
 
-* *End Time* - Date *_\{SEE ABOVE}_* the vendor's vehicle
-left the site *_\{permanently/checked out?}_* *_\{why are all these
-fields blank?}_*
+* *End Time* - Ending date/time that the guest's
+vehicle is allowed to enter the site
 
 Buttons:
 
@@ -388,6 +381,8 @@ and use the time controls to select time ranges.
 
 image::ROOT:IZCloud/IZCloud-CAMP-AddVendor.png[image,400]
 
+[#s_Visitors-List]
+
 === Visitors List
 This is a list of people visiting guests, and their license plates.
 You can add, edit or delete visitors on this list.
@@ -417,16 +412,13 @@ KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
 (multiple vehicles/plates are separated by
 commas)
 
-* *Start Time* - Date *_\{SEE ABOVE}_* the visitor's vehicle
-entered the site *_\{why are all these
-fields blank?}_*
+* *Start Time* - Starting date/time that the guest's
+vehicle is allowed to enter the site
 
-* *End Time* - Date *_\{SEE ABOVE}_* the visitor's vehicle
-left the site *_\{permanently/checked out?}_*  *_\{why are all these
-fields blank?}_*
+* *End Time* - Ending date/time that the guest's
+vehicle is allowed to enter the site
 
-Buttons: *_\{YESI am assuming the same buttons
-are used as for the vendors list}_*
+Buttons:
 
 * *Edit
 image:ROOT:IZCloud/IZCloud-CAMP-EditRowEntryButton.png[image,20]
@@ -488,33 +480,24 @@ KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
 
 * *Name* - Person associated with license plate
 
-* *Start Time* - Date *_\{SEE ABOVE}_* the person's vehicle
-entered the site. To filter, click in the date box
-to display single-date calendar popups
-*_\{why are all these
-fields blank?}_*
+* *Start Time* - Starting date/time that the guest's
+vehicle is allowed to enter the site.
+To filter, click in the date box
+to display single-date calendar popups.
 
-* *End Time* - Date *_\{SEE ABOVE}_* the person's vehicle
-left the site *_\{permanently/checked out?}_*. To filter, click in the date box
-to display single-date calendar popups
-*_\{why are all these
-fields blank?}_*
+* *End Time* - Ending date/time that the guest's
+vehicle is allowed to enter the site.
+To filter, click in the date box
+to display single-date calendar popups.
 
 * *List Name* - List in which the entry appears
-*_\{SEE ABOVE - DELETE COMMENT can a plate/person appear in more than one list? Yes, but
-Plates should not be on multiple lists but if they are,
-only one list will show in the Event Type column,
-and the "man" icon will not be shown since plate
-is on a list}_*
 
 == Dashboard
 The Dashboard page enables you to see overall
 reservation statuses (checked in/checked out).
 
-*_\{Is it ok to show so many overstays in the dashboard -
-should it be photoshopped - and to which number?
-FIX TO BE: checked out 10, overstay 30
-add in that you can click on each number to see details}_*
+Click on each status number to see a detailed list of
+guests with that status.
 
 image::ROOT:IZCloud/IZCloud-CAMP-Dashboard.png[image,800]
 
@@ -571,8 +554,7 @@ security policy allows transmitting the outbound
 video stream from the camera.
 
 Plate images and video are displayed for
-lanes with online/operational cameras (see *_\{xref to
-Maintenance-Cameras page}_*.
+lanes with online/operational cameras (see <<s_Maintenance-Cameras>>).
 ======================
 
 * Use the buttons at the upper right of each
@@ -587,7 +569,8 @@ configured with a local network IP address
 
 * Click on the license plate
 image to display plate, LPR and Overview
-images of the Event *_\{xref to see picture}_*
+images of the Event; see <<f_Image-Details>> . (Click on
+each thumbnail to switch between images.)
 
 Buttons:
 
@@ -613,6 +596,8 @@ plate is not already on a list
 
 image::ROOT:IZCloud/IZCloud-CAMP-AddToReservation.png[image,600]
 
+[#s_Maintenance-Cameras]
+
 == Maintenance-Cameras
 
 This page enables you to view camera status.
@@ -626,7 +611,7 @@ image::ROOT:IZCloud/IZCloud-CAMP-MaintenanceCameras.png[image,800]
 * *Status*
 
 ** Online - Camera is working properly and
-online (connected to *_\{change to product name?}_* {software-cloud})
+online (connected to {software-cloud})
 
 ** Offline - Camera is offline (not connected to {software-cloud})
 
