@@ -47,6 +47,8 @@ toc::[]
 
 ====
 
+<<<
+
 [#s_Applicability]
 
 == Applicability
@@ -155,6 +157,8 @@ the site
 
 * *Last Entry/Exit* - Last entry/exit of a reservation's vehicle(s)
 
+
+<<<
 
 [#s_IZCloud-Events]
 
@@ -282,6 +286,8 @@ Enables adding the vehicle to a list
 image:ROOT:IZCloud/IZCloud-CAMP-AddToListButton.png[image,20]
 
 See <<s_Vendors-List>> and <<s_Visitors-List>>
+
+<<<
 
 == Access Lists (Watch Lists)
 
