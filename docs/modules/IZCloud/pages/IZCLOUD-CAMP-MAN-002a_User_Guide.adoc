@@ -174,17 +174,22 @@ image::ROOT:IZCloud/IZCloud-CAMP-Events.png[image,800]
 === Columns/Filters
 * *Time Stamp*
 ** Click in the text box to display a calendar
-popup.
-** Click once to select a start date
+popup (see <<f_Calendar-Popup>>)
+** Click once to select a start date (see <<f_Selecting-a-Date-Range>>)
 ** Click again to select an end date
 (even if the same date)
 ** After selecting a range, the filter's checkbox
 will be selected. To clear the filter,
 clear the checkbox. +
 +
+
+[#f_Calendar-Popup]
+
 .Calendar Popup
 
 image::ROOT:SLN-TIBA/IZCloud-BorderCalendar-Popup.png[image,400]
+
+[#f_Selecting-a-Date-Range]
 
 .Selecting a Date Range
 
@@ -272,7 +277,7 @@ Displays a popup with reservation details/access history
 
 * *Plate Image (single click)* - Displays plate and overview
 images of the Event; click on each thumbnail to switch
-between images
+between images (see <<f_Image-Details>>)
 
 [#f_Image-Details]
 
@@ -302,11 +307,13 @@ for quick access.
 Displays a page of all lists,
 including the Guests list.
 
+Click on a row to display that list's details.
+
 .Watch Lists
 
 image::ROOT:IZCloud/IZCloud-CAMP-WatchLists.png[image,800]
 
-* Click on a row to display list details
+<<<
 
 === Guests List
 This is a list of people and their license plates
