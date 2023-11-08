@@ -21,9 +21,9 @@
 
 = {docproductname} User Guide
 
-xref:IZ600F:DocList.adoc[<- Back to {shortprodname} Documents]
+//xref:IZ600F:DocList.adoc[<- Back to {shortprodname} Documents]
 
-image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 //!sectnum momentarily stops section numbering
 :!sectnums:
@@ -37,7 +37,7 @@ image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
 
 // discrete removes these headers from the TOC
 [discrete]
-== {docproductname} Bullet ALPR Camera
+== Bullet ALPR Camera
 
 //[discrete]
 //=== User Guide
@@ -52,6 +52,8 @@ image:ROOT:image$/IZ600F/IZ600F-30-FIG-001_Full_View.png[Picture of Camera,400,a
 {empty}
 {empty}
 
+<<<
+
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
 ._Click to show the Table of Contents_
@@ -62,40 +64,48 @@ toc::[]
 
 ====
 
+<<<
+
 [#s_Related-Documents]
 
 == Related Documents and Software
 
-Related documents and software can be found at the following links:
+._Click to show the Related Documents table_
+[%collapsible]
+====
 
 [#t_Related-Documents-and-Software]
 
 .Related Documents and Software
 
-[width="100%",cols="45%,55%",options="header",]
+[table.withborders,width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
-|xref:IZ600F:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide
-|xref:IZ600F:DocList.adoc[{shortprodname}-TECH-003] |{shortprodname} Quick Start Guide
-|xref:IZ600F:DocList.adoc[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet
-|https://drive.google.com/drive/folders/10ybds1jlLa9aYitLS2Zfc_3vGRvr2QP1?usp=sharing[MOUNT-{shortprodname}-PRSNT-010] |{shortprodname} Camera Mount Installation documentation
-|https://drive.google.com/open?id=1s3pU0ZGS9QmaJ5KHYNnu1wWxeCLzpNQq[{software-discovery} Utility] |{software-discovery} Utility software components
-|https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=sharing[RV-ALPR-MAN-001] |{software-ALPR-long} User Guide
-|https://drive.google.com/drive/folders/1pN8lGgXbNLrHVzWFKTg0gS-hl_kU5jD-?usp=share_link[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
-|https://drive.google.com/drive/folders/1xoZCcRySjtV8UCjKUWQyDaUZjhPrUJbm?usp=sharing[{hw-outdoor-processor}-REV-B1-TDSHEET] |{hw-outdoor-processor} AI Outdoor Data Processing Unit: Technical Data Sheet
-|https://drive.google.com/drive/folders/10NTnof7w9C9P7rWZST_8yUzmRJjkPAIe?usp=sharing[{hw-indoor-processor}-B-MAN-001] |{hw-indoor-processor} Indoor AI Data Processing Unit: Installation and User Guide
-|https://drive.google.com/drive/folders/12Sp-mKCHTHhyvQCypIsczUWTbX2_u3tH?usp=share_link[{hw-gate-controller}-REV-x-TDSHEET] |Gate Controller and Indoor AI Data Processing Unit: Technical Data Sheet
-|https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=sharing[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
-|https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRSRFC-REV-x-TDSHEET] |IZPWR Surface Mount Power Supplies Technical Data Sheet
-|https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
-|https://drive.google.com/drive/folders/190lmdZ4xQSpx2Ksn-XVgOINE6D14rhSv?usp=sharing[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+.^|xref:IZ600F:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide
+.^|xref:IZ600F:DocList.adoc[{shortprodname}-TECH-004] |{shortprodname} Quick Start Guide
+.^|xref:IZ600F:DocList.adoc[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet
+.^|xref:MNT-IZ600F-PMAIZ600F:DocList.adoc[MOUNT-IZ600F-PRSNT-010] |{shortprodname} Camera Mount Installation documentation
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+.^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+.^|xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
+.^|xref:IZODPUG:DocList.adoc[{hw-outdoor-processor}-REV-x-TDSHEET] |{hw-outdoor-processor} AI Outdoor Data Processing Unit: Technical Data Sheet
+.^|xref:IZIDPUG:DocList.adoc[{hw-indoor-processor}-x-MAN-001] |{hw-indoor-processor} Indoor AI Data Processing Unit: Installation and User Guide
+.^|xref:IZIDPUGC:DocList.adoc[{hw-gate-controller}-REV-x-TDSHEET] |Gate Controller and Indoor AI Data Processing Unit: Technical Data Sheet
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
+
+====
 
 [#s_Applicability]
 
 === Applicability
 
-This document was written based on {shortprodname} firmware version 4.47-152-rp_ZA. Later versions may require changes to this document.
+This document was written based on {shortprodname}
+*_\{what is the new firmware version?}_*firmware version
+4.47-152-rp_ZA. Later versions may require changes to this document.
 
 [#s_Support]
 
