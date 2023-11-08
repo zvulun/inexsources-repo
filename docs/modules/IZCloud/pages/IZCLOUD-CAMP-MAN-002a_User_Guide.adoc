@@ -340,6 +340,8 @@ vehicle is allowed to enter the site
 * *End Time* - Ending date/time that the guest's
 vehicle is allowed to enter the site
 
+<<<
+
 [#s_Vendors-List]
 
 === Vendors List
@@ -377,7 +379,7 @@ image:ROOT:IZCloud/IZCloud-CAMP-DeleteRowEntryButton.png[image,20]
 
 * *Add to Vendors
 image:ROOT:IZCloud/IZCloud-CAMP-AddToVendorsButton.png[image,70]
-(upper right)* - Adds a vendor to the list
+(upper right)* - Adds a vendor to the list (see <<f_Add-Vendor>>)
 
 ** Plates - License plates associated with the vendor
 
@@ -390,9 +392,13 @@ If you select Limited, click in the date boxes
 to display single-date calendar popups,
 and use the time controls to select time ranges.
 
+[#f_Add-Vendor]
+
 .Add Vendor
 
 image::ROOT:IZCloud/IZCloud-CAMP-AddVendor.png[image,400]
+
+<<<
 
 [#s_Visitors-List]
 
@@ -443,7 +449,7 @@ image:ROOT:IZCloud/IZCloud-CAMP-DeleteRowEntryButton.png[image,20]
 
 * *Add to Visitors
 image:ROOT:IZCloud/IZCloud-CAMP-AddToVisitorsButton.png[image,70]
-(upper right)* - Adds a visitor to the list
+(upper right)* - Adds a visitor to the list (see <<f_Add-Visitor>>)
 
 ** First Name, Last Name - Visitor name
 
@@ -461,6 +467,8 @@ image:ROOT:IZCloud/IZCloud-CAMP-AddToVisitorsButton.png[image,70]
 If you select Limited, click in the date boxes
 to display single-date calendar popups,
 and use the time controls to select time ranges.
+
+[#f_Add-Visitor]
 
 .Add Visitor
 
