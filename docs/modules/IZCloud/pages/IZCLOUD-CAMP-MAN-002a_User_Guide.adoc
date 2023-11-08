@@ -297,11 +297,11 @@ See <<s_Vendors-List>> and <<s_Visitors-List>>
 == Access Lists (Watch Lists)
 
 Access Lists are lists of plates which can be matched to
-when a vehicle arrives at the site.
-image:ROOT:IZCloud/IZCloud-CAMP-AccessListsMenu.png[image,100]
-
-Some of the lists appear in the menu
+when a vehicle arrives at the site. Some of the lists appear in the menu
 for quick access.
+
+image::ROOT:IZCloud/IZCloud-CAMP-AccessListsMenu.png[image,150,align=left]
+
 
 === Watch Lists
 Displays a page of all lists,
