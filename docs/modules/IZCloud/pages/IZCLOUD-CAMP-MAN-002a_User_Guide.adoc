@@ -474,6 +474,8 @@ and use the time controls to select time ranges.
 
 image::ROOT:IZCloud/IZCloud-CAMP-AddVisitor.png[image,400]
 
+<<<
+
 [#s_Search-Watch-Lists]
 
 === Search Watch Lists
@@ -512,6 +514,8 @@ To filter, click in the date box
 to display single-date calendar popups.
 
 * *List Name* - List in which the entry appears
+
+<<<
 
 == Dashboard
 The Dashboard page enables you to see overall
@@ -617,6 +621,8 @@ plate is not already on a list
 
 image::ROOT:IZCloud/IZCloud-CAMP-AddToReservation.png[image,600]
 
+<<<
+
 [#s_Maintenance-Cameras]
 
 == Maintenance-Cameras
@@ -644,6 +650,8 @@ additional actions:
 ** Create Test Event - Reads the license plate
 currently in view of the camera and creates
 an Event. Used for testing/calibration.
+
+<<<
 
 == Legal Notices
 
