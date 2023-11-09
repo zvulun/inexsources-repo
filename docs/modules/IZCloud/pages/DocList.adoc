@@ -2,5 +2,7 @@
 
 * xref:IZCloud:IZCLOUD-CAMP-MAN-002a_User_Guide.adoc[IZCloud for Campgrounds User Guide]
 
+** See also the xref:SLN-Campgrounds:DocList.adoc[Solution for Campgrounds]
+
 More documents can be found at https://drive.google.com/drive/folders/15jf-ZnpiW-kuPmQQFFJ221o1vWTFitQF?usp=drive_link[GDriveLink, window=_blank]
 
