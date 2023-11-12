@@ -14,7 +14,7 @@
 
 .Multi-wire Names and Colors
 
-[table.withborders,cols="1a,1a",width="70%",frame=none,grid=none]
+[table.withborders,cols="4a,2a",width="100%",frame=none,grid=none]
 |===
 //| image:ROOT:image$/IZ600F/IZ600F-cables-connectors.png[image,width=400]
 | [table.withborders,width="100%",cols="68%,32%",options="header",]
