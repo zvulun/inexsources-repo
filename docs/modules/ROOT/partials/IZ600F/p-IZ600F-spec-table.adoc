@@ -1,4 +1,4 @@
-[table.withborders,options="header",cols="24,23,53"]
+[table.withborders,options="header",cols="20,27,53"]
 |===
 2+.^|Item
 // {set:cellbgcolor:#c0c0c0}
@@ -27,7 +27,6 @@ and Camera to Road Edge distance)
 .^a|Image center - 150 +
 Near Edge - 170-260 +
 Far edge - 80-160 +
-{empty} +
 (When installed at the recommended
 height and Camera to Road Edge distance)
 
@@ -35,16 +34,15 @@ height and Camera to Road Edge distance)
 .^a|Image center - 275 +
 Near Edge - 280-430 +
 Far edge - 140-265 +
-{empty} +
 (When installed at the recommended height
 and Camera to Road Edge distance)
 
 .^|Vehicle Speed Range
 .^a|Up to 50 mph (0-80 km/h) +
-With distance = Camera-to-Plate Distance along the road: +
-for distance 8-16 ft (2.5-5.0 m) - max speed 20 mph (32 km/h) +
-for distance 16-33 ft (5 .0-10.0 m) - max speed 30 mph (48 km/h) +
-for distance 33-49 ft (10.0-15.0 m) - max speed 50 mph (80 km/h)
+With Camera-to-Plate Distance along the road: +
+8-16 ft (2.5-5.0 m) - max 20 mph (32 km/h) +
+16-33 ft (5 .0-10.0 m) - max 30 mph (48 km/h) +
+33-49 ft (10.0-15.0 m) - max 50 mph (80 km/h)
 
 .2+.^|LED Illumination
 .^|Built-in Illuminator
