@@ -1,7 +1,7 @@
 
 [table.withborders,cols="3,2a",width="100%",frame=none,grid=none]
 |===
-| image:ROOT:image$/IZ600F/IZ600F-cables-connectors.png[image,width=430]
+| image:ROOT:image$/IZ600F/IZ600F-cables-connectors.png[image,width=450]
 |[table.withborders,width="100%",cols="100%",options="header",]
 !===
 !Connectors
