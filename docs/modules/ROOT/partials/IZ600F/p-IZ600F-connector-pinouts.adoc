@@ -14,7 +14,7 @@
 
 .Multi-wire Names and Colors
 
-[table.withborders,cols="4a,2a",width="100%",frame=none,grid=none]
+[table.withborders,cols="8a,5a",width="100%",frame=none,grid=none]
 |===
 //| image:ROOT:image$/IZ600F/IZ600F-cables-connectors.png[image,width=400]
 | [table.withborders,width="100%",cols="68%,32%",options="header",]
@@ -28,17 +28,17 @@
 | [table.withborders,width="100%",cols="50%,50%",options="header",]
 !===
 !Name !Color
-!RS485 {plus} *** !Gray/Black
-!RS485 - *** !Yellow/Black
-!SPK {plus} *** !Blue/Violet
-!SPK - *** !Brown
-!MIC-R *** !Blue
-!MIC-GND *** !White
-!MIC-L *** !Green
+!RS485 {plus} +++***+++ !Gray/Black
+!RS485 - +++***+++ !Yellow/Black
+!SPK {plus} +++***+++ !Blue/Violet
+!SPK - +++***+++ !Brown
+!MIC-R +++***+++ !Blue
+!MIC-GND +++***+++ !White
+!MIC-L +++***+++ !Green
 !===
 |===
 
-+++*+++ Built-in pull up {plus}12V, dry contact switch can be used. +
++++*+++ Built-in pull up {plus}12V, dry contact switch can be used.
 Default state (N.O./N.C.) is configurable
 
 +++**+++ Default state (N.O./N.C.) is configurable
