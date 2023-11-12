@@ -173,12 +173,7 @@ image::ROOT:IZ600F/IZ600F-Dimensions.png[image,width=623,height=441]
 
 The following Figure illustrates
 the distances and resulting plate images
-mentioned in the specifications table
-(see <<t_Technical-Specifications-Rev-A>>).
-
-[#f_Road-Distances]
-
-.Road Distances
+mentioned in the specifications table.
 
 image::ROOT:IZ600F/IZ600F-RoadDistancesAboveSpecs.png[image,width=623,height=169]
 
@@ -594,56 +589,17 @@ See the Mounting Hardware documentation for details (see <<s_Related-Documents>>
 
 *_\{TBD – 2 complex tables – picture and table, and two tables in one table}_*
 
-[#f_Cable-and-Connectors]
+//[#f_Cable-and-Connectors]
 
-.Cable and Connectors
+//.Cable and Connectors
 
-image::./UserGuide/image14.png[image,width=346,height=277]
+//image::./UserGuide/image14.png[image,width=346,height=277]
 
-[#t_Connectors]
+//[#t_Connectors]
 
-.Connectors
+//.Connectors
 
-[width="100%",cols="100%",options="header",]
-|===
-|Connectors
-|Power input (for 12 VDC) - female barrel connector 5.5 mm outer diameter, 2.1 mm inner pin diameter
-|RJ-45 network input connection
-|Multi-wire cable (see <<t_Multi-wire-Names-and-Colors>>)
-|Analog video output (BNC connector)
-|===
-
-[#t_Multi-wire-Names-and-Colors]
-
-.Multi-wire Names and Colors
-
-[width="100%",cols="68%,32%",options="header",]
-|===
-|Name |Color
-|Digital [Sensor] Input ({plus})* |White/Black
-|Digital [Sensor] Input (GND) |Brown/Black
-|Relay [Alarm] Output (N.O./N.C)** |Green/Violet
-|Relay [Alarm] Output (COM) |Yellow/Violet
-|===
-
-* Built-in pull up {plus}12V, dry contact switch can be used. +
-Default state (N.O./N.C.) is configurable
-
-** Default state (N.O./N.C.) is configurable
-
-[width="100%",cols="68%,32%",options="header",]
-|===
-|Name |Color
-|RS485 {plus} *** |Gray/Black
-|RS485 - *** |Yellow/Black
-|SPK {plus} *** |Blue/Violet
-|SPK - *** |Brown
-|MIC-R *** |Blue
-|MIC-GND *** |White
-|MIC-L *** |Green
-|===
-
-*** Not in use by {compname-short} systems
+include::ROOT:partial$IZ600F/p-IZ600F-connector-pinouts.adoc[IZ600F Connector Pinouts]
 
 [#s_Preparing-System-Components-and-Wiring]
 
