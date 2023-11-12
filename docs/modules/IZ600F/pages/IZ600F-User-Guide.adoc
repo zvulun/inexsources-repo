@@ -99,28 +99,45 @@ toc::[]
 
 ====
 
+<<<
+
 [#s_Applicability]
 
-=== Applicability
+== Applicability
 
 This document was written based on {shortprodname}
 *_\{what is the new firmware version?}_*firmware version
-4.47-152-rp_ZA. Later versions may require changes to this document.
+4.47-152-rp_ZA. Later versions may require changes to
+this document.
+
+== Training and Support
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
 
 [#s_Support]
 
-=== Support
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
-If you have any questions, please contact our support team via our website: +
-http://www.inextechnologies.com
+== Product Description
 
 [#s_Camera-Overview]
 
-== Camera Overview
+=== Overview
+
+The {shortprodname} {generic-camera-name} is suitable
+for parking, access control and security applications,
+with different models available for different illumination requirements.
+
+It has a rugged, all-weather, IP67-compliant,
+waterproof, vandal-proof housing and a protective sunshade.
 
 [#s_Package-Contents]
 
 === Package Contents
+
+Carefully unpack the contents of the {generic-camera-name} package.
 
 The package includes:
 
@@ -148,109 +165,38 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 .{shortprodname} Dimensions (mm)
 
-image::./UserGuide/image1.png[image,width=623,height=441]
+image::ROOT:IZ600F/IZ600F-Dimensions.png[image,width=623,height=441]
 
 [#s_Specifications]
 
-== Specifications
+=== Specifications
 
-The following Figure illustrates the distances and resulting plate images mentioned in the specifications table (see <<t_Technical-Specifications-Rev-A>>).
+The following Figure illustrates
+the distances and resulting plate images
+mentioned in the specifications table
+(see <<t_Technical-Specifications-Rev-A>>).
 
 [#f_Road-Distances]
 
 .Road Distances
 
-image::./UserGuide/image2.png[image,width=623,height=169]
+image::ROOT:IZ600F/IZ600F-RoadDistancesAboveSpecs.png[image,width=623,height=169]
 
 [#t_Technical-Specifications-Rev-A]
 
 .Technical Specifications
 
-*_\{TBD – complex spec table – use doctoolchain}_*
+include::ROOT:partial$IZ600F/p-IZ600F-spec-table.adoc[]
 
-[width="100%",cols="16%,20%,64%",options="header",]
-|===
-|Item | |Specification
-|LPR Imaging |Field of View (FOV) |12 ft (H) x 8 ft (V) (3.7 x 2.4 m)
-| |Camera to Road Edge distance |1.6 ft (0.5 m) - (typical recommended distance)
-| |Camera height |1.6-4.9 ft (0.5-1.5 m) - (typical recommended height)
-| |Camera-to-Plate Distance along the road |8.2-82 ft (2.5-25 m) +
-(When installed at the recommended height and Camera to Road Edge distance)
-| |Pixels Per Plate width (US style plates) |Image center - 150 +
-Near Edge - 170-260 +
-Far edge - 80-160 +
-+
-(When installed at the recommended height and Camera to Road Edge distance)
-| |Pixels Per Plate width (EU style plates) |Image center - 275 +
-Near Edge - 280-430 +
-Far edge - 140-265 +
-+
-(When installed at the recommended height and Camera to Road Edge distance)
-| |Vehicle Speed Range |Up to 50 mph (0-80 km/h) +
-With distance = Camera-to-Plate Distance along the road: +
-for distance 8-16 ft (2.5-5.0 m) - max speed 20 mph (32 km/h) +
-for distance 16-33 ft (5 .0-10.0 m) - max speed 30 mph (48 km/h) +
-for distance 33-49 ft (10.0-15.0 m) - max speed 50 mph (80 km/h)
-|LED Illumination |Built-in Illuminator a|
-* {shortprodname}-IR: 4 Power Infrared LEDs
+[#s_Connectors-and-Wiring-Assignments-Pinout]
 
-* {shortprodname}-DR: 4 Power Deep Red LEDs
+=== Connectors and Wiring Assignments (Pinout)
 
-| |Beam Angle |60°x60°
-|Image |Day/Night Mode |Day/Night/Auto
-| |Day/Night Switch |IR Cut Filter with auto switch
-| |Image Sensor |1/2.8", 3.21M, Progressive Scan CMOS
-| |Sensor Model |Sony IMX123
-| |Image Setting |Rotate Mode, Saturation, Brightness, Contrast, Sharpness
-| |Max. Resolution |2065 (H) × 1553 (V) (approximately 3.21 MP)
-| |Min. Illumination |Color: 0.05 lux, B&W: 0 lux
-| |Shutter |Auto, Manual (1/30 - 1/32000)
-| |Noise Reduction |2D-DNR/3D-DNR
-| |Wide Dynamic Range (WDR) |True WDR, 120 dB
-|Lens |Lens |5 - 50 mm, Motorized Zoom and Auto-focus
-|Video |Video Compression |H.264, H.265, Motion JPEG (MJPEG)
-| |Video Streaming |Motion JPEG and H.264 Triple Streaming (Simultaneously); Independently controllable frame rate and bandwidth
-| |Resolution |3 Megapixels *-* 2048 (H) x 1536 (V)
-| |Quality Control |Low Compression, highest, high, normal, low, lowest
-| |Bit Rate Control |VBR, CBR (H.264 only, 32K~12Mbps)
-| |Frequency Control |60hz, 50hz
-| |Frame Rate |30 fps @ 2048 × 1536
-|Network |Supported Protocols |HTTP, RTP/RTSP(Uni/Multicast), TCP/IP(v4/v6), UDP, FTP, Telnet, HTTPS, RARP, PPPoE, SNMP, PAP, CHAP, DHCP, NTP, SMTP client, uPnP
-| |Dynamic IP |Dynamic DDNS Support
-| |Security |IP filtering, HTTPS, Encrypted and Basic Authentication
-|Environmental |Ingress Protection |IP67
-| |Operating Temperature |-4 °F to 140 °F (-20°C to 60 °C)
-| |Humidity |10% - 90% RH
-|Certifications |EMC |FCC/CE
-| |Interoperability |ONVIF compliant, Profile S
-| |Impact Protection |IK10 (Vandal-proof)
-| |RoHS |RoHS
-| |Eye Safety |Exempt
-| |NDAA |NDAA Section 889 compliant
-|Physical |Dimensions +
-(W x H x D) |(including sunshade fully extended) +
-3.2" x 3.3" x 12.5" (82 mm x 83 mm x 317 mm)
-| |Weight |~2.76 lbs (~1,250 g)
-| |Color |White
-|Interface |Ethernet |10/100 BaseT Ethernet auto sensing
-| |Connectors a|
-* 1 x Ethernet (RJ-45 Female)
+[#t_Connectors]
 
-* 1 x Power (DC barrel jack - Female)
+.Connectors
 
-* Multi-wire (see <<s_Typical-Wiring-Diagram>>)
-
-|Power |Power Supply |12 VDC (male barrel connector required) or PoE (802.3af)
-| |Power Consumption |13.8 Watts
-|Accessories |Accessories Included |Camera mount, 3x axes
-| | |Sunshade, adjustable
-| |Accessories Available |Junction Box
-| | |POE Injector
-| | |Network Switch
-| | |https://drive.google.com/drive/folders/17Yg4kV20Fp7QvsSRtv6vZ_pR-b0qVqXP?usp=share_link[Pole adaptor]
-| | |Different https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=share_link[power supply] options available
-| | |https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Series Illuminator]
-|===
+include::ROOT:partial$IZ600F/p-IZ600F-connector-pinouts.adoc[IZ600F Connector Pinouts]
 
 [#s_Required-Optional-Accessories-Not-Included]
 

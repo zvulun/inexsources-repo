@@ -1,0 +1,204 @@
+[table.withborders,options="header",cols="24,23,53"]
+|===
+2+.^|Item
+// {set:cellbgcolor:#c0c0c0}
+
+.^|Specification
+// {set:cellbgcolor:#c0c0c0}
+
+.7+.^|LPR Imaging
+{set:cellbgcolor!}
+.^|Field of View (FOV)
+.^|12 ft (H) x 8 ft (V) (3.7 x 2.4 m)
+
+
+.^|Camera to Road Edge distance
+.^|1.6 ft (0.5 m) - (typical recommended distance)
+
+.^|Camera height
+.^|1.6-4.9 ft (0.5-1.5 m) - (typical recommended height)
+
+.^|Camera-to-Plate Distance along the road
+.^|8.2-82 ft (2.5-25 m) +
+(When installed at the recommended height
+and Camera to Road Edge distance)
+
+.^|Pixels Per Plate width (US style plates)
+.^a|Image center - 150 +
+Near Edge - 170-260 +
+Far edge - 80-160 +
+{empty} +
+(When installed at the recommended
+height and Camera to Road Edge distance)
+
+.^|Pixels Per Plate width (EU style plates)
+.^a|Image center - 275 +
+Near Edge - 280-430 +
+Far edge - 140-265 +
+{empty} +
+(When installed at the recommended height
+and Camera to Road Edge distance)
+
+.^|Vehicle Speed Range
+.^a|Up to 50 mph (0-80 km/h) +
+With distance = Camera-to-Plate Distance along the road: +
+for distance 8-16 ft (2.5-5.0 m) - max speed 20 mph (32 km/h) +
+for distance 16-33 ft (5 .0-10.0 m) - max speed 30 mph (48 km/h) +
+for distance 33-49 ft (10.0-15.0 m) - max speed 50 mph (80 km/h)
+
+.2+.^|LED Illumination
+.^|Built-in Illuminator
+.^a|* {shortprodname}-IR: 4 Power Infrared LEDs
+
+* {shortprodname}-DR: 4 Power Deep Red LEDs
+
+.^|Beam Angle
+.^|60°x60°
+
+.10+.^|Image
+.^|Day/Night Mode
+.^|Day/Night/Auto
+
+.^|Day/Night Switch
+.^|IR Cut Filter with auto switch
+
+.^|Image Sensor
+.^|1/2.8", 3.21M, Progressive Scan CMOS
+
+.^|Sensor Model
+.^|Sony IMX123
+
+.^|Image Setting
+.^|Rotate Mode, Saturation, Brightness, Contrast, Sharpness
+
+.^|Max. Resolution
+.^|2065 (H) × 1553 (V) (approximately 3.21 MP)
+
+.^|Min. Illumination
+.^|Color: 0.05 lux, B&W: 0 lux
+
+.^|Shutter
+.^|Auto, Manual (1/30 - 1/32000)
+
+.^|Noise Reduction
+.^|2D-DNR/3D-DNR
+
+.^|Wide Dynamic Range (WDR)
+.^|True WDR, 120 dB
+
+.1+.^|Lens
+.^|Lens
+.^|5 - 50 mm, Motorized Zoom and Auto-focus
+
+.7+.^|Video
+.^|Video Compression
+.^|H.264, H.265, Motion JPEG (MJPEG)
+
+.^|Video Streaming
+.^|Motion JPEG and H.264 Triple Streaming (Simultaneously);
+Independently controllable frame rate and bandwidth
+
+.^|Resolution
+.^a|3 Megapixels *-* 2048 (H) x 1536 (V)
+
+.^|Quality Control
+.^|Low Compression, highest, high, normal, low, lowest
+
+.^|Bit Rate Control
+.^|VBR, CBR (H.264 only, 32K~12Mbps)
+
+.^|Frequency Control
+.^|60hz, 50hz
+
+.^|Frame Rate
+.^|30 fps @ 2048 x 1536
+
+.3+.^|Network
+.^|Supported Protocols
+.^|HTTP, RTP/RTSP(Uni/Multicast), TCP/IP(v4/v6), UDP, FTP, Telnet, HTTPS, RARP, PPPoE, SNMP, PAP, CHAP, DHCP, NTP, SMTP client, uPnP
+
+.^|Dynamic IP
+.^|Dynamic DDNS Support
+
+.^|Security
+.^|IP filtering, HTTPS, Encrypted and Basic Authentication
+
+.3+.^|Environmental
+.^|Ingress Protection
+.^|IP67
+
+.^|Operating Temperature
+.^|-4 °F to 140 °F (-20°C to 60 °C)
+
+.^|Humidity
+.^|10% - 90% RH
+
+.6+.^|Certifications
+.^|EMC
+.^|FCC/CE
+
+.^|Interoperability
+.^|ONVIF compliant, Profile S
+
+.^|Impact Protection
+.^|IK10 (Vandal-proof)
+
+.^|RoHS
+.^|RoHS
+
+.^|Eye Safety
+.^|Exempt
+
+.^|NDAA
+.^|NDAA Section 889 compliant
+
+.3+.^|Physical
+.^a|Dimensions +
+(W x H x D)
+.^a|(including sunshade fully extended) +
+3.2" x 3.3" x 12.5" (82 mm x 83 mm x 317 mm)
+
+.^|Weight
+.^|~2.76 lbs (~1,250 g)
+
+.^|Color
+.^|White
+
+.2+.^|Physical
+.^a|Ethernet
+.^a|10/100 BaseT Ethernet auto sensing
+
+.^a|Connectors
+.^a|* 1 x Ethernet (RJ-45 Female)
+
+* 1 x Power (DC barrel jack - Female)
+
+* Multi-wire (see <<s_Typical-Wiring-Diagram>>)
+
+.2+.^|Power
+.^a|Power Supply
+.^a|12 VDC (male barrel connector required) or PoE (802.3af)
+
+.^a|Power Consumption
+.^a|13.8 Watts
+
+2.2+.^|Accessories Included
+.^|Camera mount, 3x axes
+.^|Sunshade, adjustable
+
+2.6+.^|Accessories Available
+.^|Junction Box
+
+.^|POE Injector
+
+.^|Network Switch
+
+.^|xref:MNT-IZ600F-PMAIZ600F:DocList.adoc[Pole mount adaptor]
+
+.^| Different xref:IZPWR:DocList.adoc[power supply] options available
+
+.^| xref:IZL:DocList.adoc[{illum-non-strobe} Series Illuminator]
+
+|===
+
+
