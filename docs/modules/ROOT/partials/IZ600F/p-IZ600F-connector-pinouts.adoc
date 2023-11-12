@@ -24,6 +24,13 @@
 !Digital [Sensor] Input (GND) !Brown/Black
 !Relay [Alarm] Output (N.O./N.C)** !Green/Violet
 !Relay [Alarm] Output (COM) !Yellow/Violet
+2+.^!+++*+++ Built-in pull up {plus}12V, dry contact switch can be used.
+Default state (N.O./N.C.) is configurable
+
++++**+++ Default state (N.O./N.C.) is configurable
+
++++***+++ Not in use by {compname-short} systems
+
 !===
 | [table.withborders,width="100%",cols="50%,50%",options="header",]
 !===
@@ -38,12 +45,6 @@
 !===
 |===
 
-+++*+++ Built-in pull up {plus}12V, dry contact switch can be used.
-Default state (N.O./N.C.) is configurable
-
-+++**+++ Default state (N.O./N.C.) is configurable
-
-+++***+++ Not in use by {compname-short} systems
 
 
 
