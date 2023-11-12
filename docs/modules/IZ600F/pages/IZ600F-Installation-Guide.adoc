@@ -1,0 +1,1220 @@
+:docproductname: IZ600F
+:shortprodname: IZ600F
+:generic-camera-name: camera
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// set attribute (by uncommenting the line)
+// used to determine which text/links to sections
+// outside partials - should be used in partials
+// see the playbook for full list
+
+:xref-type-IZ600F:
+:layout-type-userguide:
+
+//enable the TOC to be placed in a specific position
+:toc: macro
+
+= {docproductname} Installation Guide
+
+//xref:IZ600F:DocList.adoc[<- Back to {shortprodname} Documents]
+
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== Bullet ALPR Camera
+
+//[discrete]
+//=== User Guide
+
+// correct full camera image
+image:ROOT:image$/IZ600F/IZ600F-30-FIG-001_Full_View.png[Picture of Camera,400,align=left]
+
+// image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
+
+<<<
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
+toc::[]
+
+====
+
+<<<
+
+[#s_Related-Documents]
+
+== Related Documents and Software
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
+[#t_Related-Documents-and-Software]
+
+.Related Documents and Software
+
+[table.withborders,width="100%",cols="45%,55%",options="header",]
+|===
+|Doc. No. |Title
+.^|xref:IZ600F:DocList.adoc[{shortprodname}-MAN-002a] |{shortprodname} User Guide
+.^|xref:IZ600F:DocList.adoc[{shortprodname}-TECH-004] |{shortprodname} Quick Start Guide
+.^|xref:IZ600F:DocList.adoc[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet
+.^|xref:MNT-IZ600F-PMAIZ600F:DocList.adoc[MOUNT-IZ600F-PRSNT-010] |{shortprodname} Camera Mount Installation documentation
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+.^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+.^|xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
+.^|xref:IZODPUG:DocList.adoc[{hw-outdoor-processor}-REV-x-TDSHEET] |{hw-outdoor-processor} AI Outdoor Data Processing Unit: Technical Data Sheet
+.^|xref:IZIDPUG:DocList.adoc[{hw-indoor-processor}-x-MAN-001] |{hw-indoor-processor} Indoor AI Data Processing Unit: Installation and User Guide
+.^|xref:IZIDPUGC:DocList.adoc[{hw-gate-controller}-REV-x-TDSHEET] |Gate Controller and Indoor AI Data Processing Unit: Technical Data Sheet
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+====
+
+<<<
+
+[#s_Applicability]
+
+== Applicability
+
+This document was written based on {shortprodname}
+*_\{what is the new firmware version?}_*firmware version
+4.47-152-rp_ZA. Later versions may require changes to
+this document.
+
+== Training and Support
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+[#s_Support]
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+[#s_Planning-Your-Installation]
+
+== Planning Your Installation
+
+[IMPORTANT]
+
+========================================
+
+Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
+
+Reflectivity: +
+- Different levels of reflectivity will change the specified distances +
+- By "Non-reflective", we mean that the colors have good contrast (black on white, for example), and all colors used in the plate are matte (dull finish). +
+- Other Non-reflective schemes (special colors, for example) may change the specified distances. Contact {compname-med} for advice.
+
+========================================
+
+[#s_Installation-Overview-Plate-Types]
+
+=== Installation Overview/Plate Types
+
+. You will first need to determine the ambient lighting conditions (illumination) at your site.
+
+. The lighting conditions may require you to use an external illuminator (see <<s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators>>. You may only be able to determine this during camera configuration.
+
+. Determine the plate types you will be recognizing: reflective, non-reflective or IR (infrared-type)-phobic. Note that both reflective and non-reflective plates can be IR-phobic, as shown in these examples:
+
+** *Reflective IR-phobic plates* use character ink that is transparent to IR light. The IR images of these characters are filled with a color very close to that of the plate's background. This makes it more difficult for an ALPR algorithm to recognize the characters.
+
+[#f_Reflective-IR-phobic-Plate-Example]
+
+.Reflective IR-phobic Plate Example
+
+image::./UserGuide/image4.png[image,width=184,height=207]
+
+** *Non-reflective IR-phobic plates* typically have a combination of red and white characters/background, which reduces the contrast between the characters and the background. This makes it more difficult for an ALPR algorithm to recognize the characters:
+
+[#f_Non-Reflective-IR-phobic-Plate-Examples]
+
+.Non-Reflective IR-phobic Plate Examples
+
+image::./UserGuide/image5.png[image,width=187,height=179]
+
+. Install the camera as described in the following sections.
+
+. Depending upon whether or not the illumination is sufficient at night, and the plate types you need to recognize, you may need to perform the camera calibration and configuration first under dark conditions, with the Day & Night Control set to Night (see <<s_Video-Device>>). If you will also have to recognize plates under light (day) conditions, change the Day & Night Control afterwards to Auto.
+
+[#s_Horizontal-Field-of-View-Capture-Line]
+
+=== Horizontal Field of View (Capture Line)
+
+Your camera's Field of View (FOV) is the area that the camera can "see". You can think of this area as an imaginary rectangle rising from the lane upwards. The width of this area is called the horizontal FOV or "capture line".
+
+See <<s_Specifications>> for the horizontal and vertical FOV specifications.
+
+[#f_Field-of-View-Capture-Line]
+
+.Field of View (Capture Line)
+
+image::./UserGuide/image6.png[image,width=634,height=194]
+
+Select your camera's position so that license plates are always within the capture line and parallel to it, with the camera facing as straight at the plates as possible - as shown in the following diagrams:
+
+[#f_Plates-Within-Capture-Line]
+
+.Plates Within Capture Line
+
+image::./UserGuide/image7.png[image,width=247,height=411]
+
+[#f_Plates-Parallel-to-Capture-Line-Away-from-Road-Curves]
+
+.Plates Parallel to Capture Line - Away from Road Curves
+
+image::./UserGuide/image8.png[image,width=503,height=314]
+
+[#s_Angles-and-Distances]
+
+=== Angles and Distances
+
+[IMPORTANT]
+
+========================================
+
+Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
+
+========================================
+
+[#f_Horizontal-Camera-Angle-Pan-Angle]
+
+.Horizontal Camera Angle (Pan Angle)
+
+image::./UserGuide/image9.png[image,width=247,height=231]
+
+[NOTE]
+
+========================================
+
+The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
+
+If you must capture plates on a curve, place the camera on the side of the road that minimizes the horizontal angle.
+
+At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
+
+For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
+
+========================================
+
+[#f_Vertical-Camera-Angle-Tilt-Angle-and-Line-of-Sight-Distance-from-Plate]
+
+.Vertical Camera Angle (Tilt Angle) and Line-of-Sight Distance from Plate
+
+image::./UserGuide/image10.png[image,width=626,height=194]
+
+[NOTE]
+
+========================================
+
+The line-of-sight distance from the camera to the capture line must be within the viewing range of the camera.
+
+Adjust the vertical angle so that the camera can read plates at all of their expected heights from the road.
+
+The maximum vertical angle allowed is 30°.
+
+Larger angles and/or greater mounting heights may be required in order to recognize plates on vehicles close to each other (such as in slow/congested traffic).
+
+At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
+
+For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
+
+========================================
+
+[#s_Position-of-the-Sun-in-Relation-to-the-Camera]
+
+=== Position of the Sun in Relation to the Camera
+
+The camera should +++<u>+++not+++</u>+++ be positioned so that the rays of the sun behind the camera shine along the camera-to-plate axis. Reflective plates will cause severe glare to be reflected back to the camera, obscuring the image of the plate's characters.
+
+Avoid/mitigate by:
+
+* Not installing the camera in an east/west direction
+
+* Installing the camera near a building that shields it from the sun's rays
+
+* Installing the camera on a short pole
+
+* Using a double-camera installation (2 different angles or front/rear)
+
+[#f_Sun-Behind-Camera-on-Same-Axis-as-Line-of-Sight-from-Camera-to-Plate]
+
+.Sun Behind Camera (on Same Axis as Line-of-Sight from Camera to Plate)
+
+image::./UserGuide/image11.png[image,width=628,height=232]
+
+[#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
+
+=== Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
+
+[#f_External-Illuminator]
+
+.External Illuminator
+
+image::./UserGuide/image12.png[image,width=136,height=121]
+
+[#s_Matching-Your-Camera-to-an-INEX-Illuminator]
+
+==== Matching Your Camera to an {compname-short} Illuminator
+
+[IMPORTANT]
+
+========================================
+
+The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the {compname-short} camera. See the appropriate Illuminator Series User Guide(s) for compatibility information (see <<s_Related-Documents>>).
+
+========================================
+
+*The {compname-short} {shortprodname} cameras are typically used with the {illum-non-strobe} series illuminators.*
+
+By using the following guidelines, you can match the illuminator you need to the {compname-short} camera being used.
+
+The number of illuminator LEDs and beam angle must match the distance rating of the camera being used, as follows:
+
+* Fewer LEDs and wider beam angles are used for short distances
+
+* More LEDs and narrower beam angles are used for longer distances
+
+The results of applying these guidelines can be found in the appropriate Illuminator Series User Guide(s).
+
+[#s_Illuminator-Mounting-and-Aiming]
+
+==== Illuminator Mounting and Aiming
+
+* Mount illuminators at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
+
+* Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
+
+[#s_Verifying-Infrared-type-Operation]
+
+==== Verifying Infrared-type Operation
+
+You can look at an infrared-type illuminator with a smartphone camera to see if it is working.
+
+[#s_Additional-Installation-Considerations]
+
+=== Additional Installation Considerations
+
+[#t_Additional-Installation-Considerations]
+
+.Additional Installation Considerations
+
+[width="100%",cols="40%,60%",options="header",]
+|===
+|Item |Considerations
+|*Surge Protection* a|* On power, network and data cables
+|*Correct, Stable and Sufficient Power* a|
+* Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+* Stable power at the correct level must be supplied to each camera, even under a heavy processing load.
+
+a|
+*Cable Extensions*
+
+*+++<u>+++IMPORTANT+++</u>+++*
+
++++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
+
+a|
+* Supplied cable lengths are approx. 5.5 in (14 cm)
+
+* Power - Use a cable gauge sufficient to deliver 12 VDC at the camera
+
+* LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable (without a switch) should not exceed 328 feet (100 meters).
+
+|Front/Rear Capture - or Both a|
+* Country requirements
+
+* Vehicle types
+
+* Protruding parts that obscure plates (such as rear hooks)
+
+* Recessed plates
+
+|Trigger Hardware (such as inductive loops) a|
+* Trigger device position
+
+* Device is far enough away from other devices to minimize interference
+
+* Point where vehicle is detected is close to capture line
+
+* Minimize distance from trigger device to camera (reduces latency)
+
+|Objects with character-like appearances (interpreted as characters on a plate, resulting in false reads) a|
+Avoid having these items in the Field of View:
+
+* Fences with patterns
+
+* Barriers
+
+* Signs
+
+|Obstructions (blocking FOV) a|
+* Entry gates
+
+* Trees and bushes (even before fully grown)
+
+* Bright light (sun/artificial) shining directly into camera's front window
+
+* Reflective surfaces too close to camera lens
+
+* Weather - snow, heavy rain, dust storms
+
+* Dirt on front window (see <<s_Cleaning-the-Camera>>)
+
+|Bottom opening (screw cover) accessible a|* To be able to perform a hardware (factory default) reset if needed (see <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>>)
+|===
+
+[#s_Typical-Wiring-Diagram]
+
+== Typical Wiring Diagram
+
+Here is a typical wiring diagram for capturing license plate images. Note that the type and configuration of the power supply may be different than the one you are using at your site. *_\{TBD – do you want to put the other quick start wiring diagrams here?}_*
+
+[IMPORTANT]
+
+========================================
+
+All network cable extensions and repeaters must be shielded.
+
+The camera is not compatible with some GigE switches; suggested switch type: 10/100 Mb.
+
+========================================
+
+[#f_Typical-Wiring-Diagram]
+
+.Typical Wiring Diagram
+
+image::./UserGuide/image13.png[image,width=474,height=198]
+
+[width="100%",cols="8%,44%,26%,22%",options="header",]
+|===
+|Item |Description |Ordering Information |
+|A a|*LAN Cables* |Supplied by integrator |
+|B a|*Waterproof Cap for Camera Network Connection* |Included with camera |
+|D a|*Power Supply for {hw-indoor-processor} (Rev. B)* |Included with {hw-indoor-processor} |
+|E a|*Power Supply for Illuminator:* 24 VDC, 100/120W or 240W; DIN rail or surface mount a|
+For {illum-non-strobe}1, use {compname-short} P/N:
+
+* https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR100-24-TDK-DIN]
+
+* https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR120-24-TDK-DIN]
+
+* https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR120-24-MWL-DIN]
+
+* https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR100-24-TDK]
+
+For {illum-non-strobe}2, use {compname-short} P/N:
+
+* https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR240-24-MWL-DIN]
+
+* https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR240-24-TDK-DIN]
+
+|
+|F a|*Power/Signals Cable for Illuminator* |Included with illuminator |
+|J a|*{illum-non-strobe} Illuminator* |{compname-short} P/N: See the https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases |
+|===
+
+[#s_Mounting-the-Camera]
+
+== Mounting the Camera
+
+The {shortprodname} can be mounted on a wall or square pole using its built-in mounting bracket.
+
+You can also use an optional pole mount adapter (PMA) for pole mounting.
+
+See the Mounting Hardware documentation for details (see <<s_Related-Documents>>).
+
+[#s_Connectors-and-Wiring-Assignments-Pinout]
+
+== Connectors and Wiring Assignments (Pinout)
+
+*_\{TBD – 2 complex tables – picture and table, and two tables in one table}_*
+
+//[#f_Cable-and-Connectors]
+
+//.Cable and Connectors
+
+//image::./UserGuide/image14.png[image,width=346,height=277]
+
+//[#t_Connectors]
+
+//.Connectors
+
+include::ROOT:partial$IZ600F/p-IZ600F-connector-pinouts.adoc[IZ600F Connector Pinouts]
+
+[#s_Preparing-System-Components-and-Wiring]
+
+== Preparing System Components and Wiring
+
+. If needed, prepare all the conduits that cables will pass through.
+
+. Prepare all wiring/cables between the system components, and from the system components to the camera's mounting location (see <<s_Planning-Your-Installation>> and <<s_Typical-Wiring-Diagram>>).
+
+. If you will be using external illuminator(s), mount them at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
+
+[#s_Preparing-the-Cable-Connections]
+
+== Preparing the Cable Connections
+
+[#s_Waterproof-Cap-for-Network]
+
+=== Waterproof Cap for Network
+
+The parts are in a separate plastic bag in the box.
+
+[#f_Assembling-the-Waterproof-Cap]
+
+.Assembling the Waterproof Cap
+
+image::./UserGuide/image15.png[image,width=632,height=144]
+
+[#t_Waterproof-Cap-Components]
+
+.Waterproof Cap Components
+
+[width="100%",cols="18%,82%",options="header",]
+|===
+|No. |Component
+|1 |Camera's Network Interface Socket
+|2 |O-Type Gasket (separate, in package)
+|3 |Network Plug
+|4 |Waterproof Endcap
+|5 |Waterproof Rubber Gasket
+|6 |Lock Nut
+|7 |Network Cable from Router/Switch
+|===
+
+. Unscrew the lock nut (6) from the waterproof endcap (4).
+
+. Feed the network cable (without a plug at the end) (7) through the:
+
+.. Lock nut (6)
+
+.. Waterproof rubber gasket (5). The rubber gasket may already be mounted inside the endcap. If the rubber gasket is not mounted and has an inset ridge, the ridge must face the waterproof endcap (4) so it can fit on the ridge inside the endcap.
+
+.. Waterproof endcap (4)
+
+. Crimp a male RJ-45 network plug (3) onto the end of the cable, taking care to insert the twisted pairs of wires in the correct order.
+
+[#s_Power-Connections]
+
+=== Power Connections
+
+* If you are using a 12 VDC power supply, you must provide a male barrel connector (5.5 mm outer diameter, 2.1 mm inner diameter) to connect the ({plus}) and (-) of the power supply to the camera's male power connector.
+
+* If you are using PoE, be sure that your PoE connection is compatible with IEEE 802.3af, and can provide 12 VDC at 1.2 Amp.
+
+[#s_Connecting-and-Waterproofing-the-Cables]
+
+== Connecting and Waterproofing the Cables
+
+[WARNING]
+
+========================================
+
+Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+Stable power at the correct level must be supplied to each camera, even when under a heavy processing load.
+
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+**If you are using an {compname-short} power supply, see its User Guide (see <<**s_Related-Documents>>**) for important information.**
+
+*IMPORTANT: All network cable extensions and repeaters must be shielded.*
+
+If any power cables were lengthened, ensure that all cameras receive exactly their rated voltage (see <<s_Specifications>>).
+
+========================================
+
+. Bring the base of the camera near the mounting location.
+
+. Seat the O-type gasket (2) onto the end of the camera's network interface socket (1) (see <<f_Assembling-the-Waterproof-Cap>>). Ensure that the gasket lies flat on the socket, without gaps or twists (see <<f_Seating-the-O-type-Gasket>>).
+
+[#f_Seating-the-O-type-Gasket]
+
+.Seating the O-type Gasket
+
+image::./UserGuide/image16.png[image,width=187,height=126]
+
+. Insert the network plug (3) into the camera's network interface socket (1).
+
+[#f_Inserting-the-Network-Plug]
+
+.Inserting the Network Plug
+
+image::./UserGuide/image17.png[image,width=291,height=173]
+
+. If needed, insert the rubber gasket (5) into the endcap (4). If there is a ridge, fit the rubber gasket inset ridge on the ridge inside the endcap.
+
+[#f_Rubber-Gasket-Inset-Ridge-Fitting-on-Ridge-Inside-Endcap]
+
+.Rubber Gasket Inset Ridge: Fitting on Ridge Inside Endcap
+
+image::./UserGuide/image19.png[image,width=333,height=222]
+
+. Align the tabs in the endcap with the open areas between the threads on the camera's network interface socket (see <<f_Securing-the-Waterproof-Jacket>>).
+
+. Turn the endcap clockwise all the way (until the tabs fit into the grooves in the camera's network interface socket).
+
+[#f_Securing-the-Waterproof-Jacket]
+
+.Securing the Waterproof Jacket
+
+image::./UserGuide/image20.png[image,width=414,height=361]
+
+. Connect the power and other wires. For a typical wiring diagram, see <<s_Typical-Wiring-Diagram>>. For details about connections to external illuminators, see the relevant Illuminator guide (see <<s_Related-Documents>>).
+
+. Insulate all connection points with waterproof insulating tape (such as butyl tape).
+
+[IMPORTANT]
+
+========================================
+
+You must seal all connections with waterproof insulating tape, including any unused connectors (such as the BNC connector and multi-wire cable), the ferrite core in the middle of the cable and the cable splitter (see <<f_Insulating-the-Cable-and-Connections>>).
+
+========================================
+
+[#f_Insulating-the-Cable-and-Connections]
+
+.Insulating the Cable and Connections
+
+image::./UserGuide/image21.png[image,width=630,height=236]
+
+[#s_Reserving-IP-Addresses-in-your-Network]
+
+== Reserving IP Addresses in your Network
+
+You may need to change the addresses of cameras and other devices to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your ALPR system ({software-ALPR} computer and cameras).
+
+[#s_Recognizing-Devices-with-IZ-Discovery]
+
+== Recognizing Devices with {software-discovery}
+
+[#s_Installing-and-Using-IZ-Discovery]
+
+=== Installing and Using {software-discovery}
+
+The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
+
+[IMPORTANT]
+
+========================================
+
+If any device on your network is connected via wireless, {software-discovery} will not recognize the device. In addition, if the computer running {software-discovery} is connected via wireless, you will not see any devices displayed.
+
+========================================
+
+. Download the {software-discovery} software components (see <<s_Related-Documents>>).
+
+. Run {software-discovery}
+
+. When {software-discovery} first runs, you may see a Windows security warning. If so, click Run.
+
+. If you see a message related to the Windows firewall, click Allow.
+
+. {software-discovery} will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
+
+.. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>>).
+
+.. Click Clear List to refresh the discovery process.
+
+[#f_IZ-Discovery-Utility]
+
+.{software-discovery} Utility
+
+image::./UserGuide/image22.png[image,width=541,height=362]
+
+. If {software-discovery} does not recognize a device:
+
+** Press the device's reset button (if available)
+
+** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
+
+** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run {software-discovery} again.
+
+[#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
+
+=== Changing a Device's IP Address and Network Settings
+
+[#f_Changing-Device-s-Network-Settings]
+
+.Changing Device's Network Settings
+
+image::./UserGuide/image23.png[image,width=227,height=230]
+
+[NOTE]
+
+========================================
+
+The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
+
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access a device using the same URL every time, even after unexpected power outages (see <<s_Changing-the-Camera-s-IP-Address>>).
+
+A dynamic IP address may change upon device reboot. Before opening the device's web interface, you will have to find the current IP address of the device using {software-discovery}.
+
+If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
+
+You can also log in to each camera's configuration application to change its IP address (see <<s_Related-Documents>>).
+
+========================================
+
+To change the device's mode (fixed or dynamic [DHCP]), or IP address:
+
+. Select the relevant line in the list of devices and double-click on it.
+
+. The Network Settings window appears
+
+. To change the mode:
+
+.. Check or uncheck the DHCP box
+
+.. Click Save
+
+. To change the IP address:
+
+.. Verify that the address is not used by any other device on the network
+
+.. Be sure to uncheck the DHCP box
+
+.. Enter the network address parameters
+
+.. Write down the new IP Address and click Save
+
+. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
+
+. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device (see <<s_Logging-In-to-the-Camera>>), and change the IP address (see <<s_Changing-the-Camera-s-IP-Address>>)
+
+[#s_Configuring-the-Camera]
+
+== Configuring the Camera
+
+[#s_Logging-In-to-the-Camera]
+
+=== Logging In to the Camera
+
+. To view the camera's home page (see <<f_Camera-s-Home-Page>>):
+
+** Open MS Internet Explorer. Enter the IP address of the camera into the address field of the browser. +
+Alternatively, you can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link]. +
+Enter the IP address of the camera into the address field of the browser.
+
+[#f_Camera-s-Home-Page]
+
+.Camera's Home Page
+
+image::./UserGuide/image24.png[image,width=530,height=228]
+
+. Select the function you need from the links at the upper right:
+
+** Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-the-Camera-Using-RoadView>>).
+
+[NOTE]
+
+========================================
+
+When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
+If you do not have an internet connection to the network on which the camera is installed, wait 30 seconds, and you will be instructed on how to install the ActiveX control locally via the camera's firmware. +
+The stream of the Live View can also be accessed using an RTSP URL with the following format (assuming you have set the correct permissions in the camera for the user - see <<s_Adding-a-User>>):
+
+rtsp://[username:password]@<Camera IP address>/cam0_0 +
+where cam0_0 are camera-specific parameters (which in this case enable you to access the primary stream). To see the stream, use a video player such as the VLC player, located at: +
+https://www.videolan.org/vlc/index.html
+
+========================================
+
+** If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
+
+. When prompted for a login, use the Administrator credentials of root, IZpass12. You should then create another user for use by other users - with a different name and password (see <<s_Adding-a-User>>).
+
+[IMPORTANT]
+
+========================================
+
+The Administrator user name (root) cannot be changed, and the Administrator password is encrypted. Therefore, if someone changes the Administrator password, there is no way to find out the password if it gets lost. If the password gets lost, you will have to reset the device with the FD (Factory Default) button (see <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>>). All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted (see <<s_System-User>>).
+
+========================================
+
+[#s_Using-the-Camera-s-Configuration-Screens]
+
+=== Using the Camera's Configuration Screens
+
+[NOTE]
+
+========================================
+
+Most configuration parameters may already have been pre-set for you. You only need to change the parameters described in this section.
+
+========================================
+
+You can drill down to the configuration parameters as follows (see <<f_Configuration-Elements>>):
+
+* *Category* (bold); left sidebar; will display a sub-menu (table of this item's nodes). Click to expand/collapse its nodes.
+
+** {plus}Sub-category; click on the plus sign to open the sub-category's nodes. Note that a sub-category can also have its own Parameter Group (parameters in right-hand pane).
+
+*** >>Parameter Group; click to display a set of parameter controls in the right-hand pane. The bottom of the right-hand pane will have a sub-menu (table of the group's nodes, plus other related nodes for convenience).
+
+[IMPORTANT]
+
+========================================
+
+After changing parameters, remember to click the "Apply" button at the end of the list of parameters. (The Back button returns to a sub-menu without making the change.)
+
+========================================
+
+[#f_Configuration-Elements]
+
+.Configuration Elements
+
+image::./UserGuide/image26.png[image,width=619,height=347]
+
+[#s_Logging-Out-of-the-Camera]
+
+=== Logging Out of the Camera
+
+Close all windows, and the browser window.
+
+[#s_Basic-Setup]
+
+=== Basic Setup
+
+[NOTE]
+
+========================================
+
+The settings in this section are for basic license plate recognition. Other applications may require different settings.
+
+========================================
+
+Three video streams are available for use, each with its own RTSP URL. The URLs are: rtsp://<Camera IP address>/cam0_n, where n is 0,1 or 2 for the primary, secondary or tertiary streams, respectively. {compname-short} uses the "primary" stream, which can supply video for up to 3 clients.
+
+Enter the camera's IP address in Internet Explorer, and click on the Admin link in the +
+Home|Live View|Admin menu (upper right). Use the default user/password = root/IZpass12
+
+**Set the Access Level to Full, with Unencrypted Authentication (see <<s_Adding-a-User>>), enable the RTSP Service and select a port**. This will enable you to receive the video stream without any special user identification; you can define other users and their roles/permissions later if needed.
+
+*Set the Max. Video Encoding before setting any other parameters (see Max. Video Encoding in <<t_Basic-Setup-Parameters>>. Changing this parameter will require a reset, which can change some of the other parameters and their ranges.
+
+[#t_Basic-Setup-Parameters]
+
+.Basic Setup Parameters
+
+[width="100%",cols="28%,20%,52%",options="header",]
+|===
+|Sub-category > Parameter Group |Parameter |Setting
+|IP Address |IP Address |According to the camera's location and the organization of your network (see <<s_Changing-the-Camera-s-IP-Address>>)
+|IP Address |NetMask |According to the camera's location and the organization of your network
+|IP Address |GateWay |According to the camera's location and the organization of your network
+|IP Address |DNS 1 |According to the camera's location and the organization of your network
+|IP Address |DNS 2 |According to the camera's location and the organization of your network
+|*RTP/RTSP* a|*Service* a|*Enable*
+|*RTP/RTSP* a|*RTSP Port* a|*Set the desired RTSP port; typically 554 (default)*
+|*Video Streams* a|*Max Frame Rate* a|
+* For U.S. (60 Hz electricity) - 30 fps
+
+* For Europe (50 Hz electricity) - 25 fps
+
+|Video Streams |Video with…(several parameters) |Any item checked here could interfere with the management/analytic software. The text that will be overlaid should be outside the Region of Interest (ROI) of the analytic software.
+|Video Streams |Time Stamp |If this is turned on, it could interfere with the management/analytic software. The text that will be overlaid should be outside the Region of Interest (ROI) of the analytic software.
+|Video Streams |TV Out |Enable
+|Video Streams |Audio Codec |Leave at default
+|Video Streams |Primary Stream > Frame Rate |The options available are determined by the Max. Video Encoding setting in this parameter group.
+|Video Streams |Primary Stream > Image Size |The options available are determined by the Max. Video Encoding setting in this parameter group.
+|Video Streams |Primary Stream > Encoding Standard |The options available are determined by the Max. Video Encoding setting in this parameter group.
+|Video Streams |Primary Stream > Audio |Not in use by {compname-short} software
+|*Video Streams* |*Max. Video Encoding* a|
+*+++<u>+++IMPORTANT+++</u>+++*
+
++++<u>+++Changing this parameter will require a reset, which can change some of the other parameters. Re-check parameter values after doing a reset.+++</u>+++
+
+* Set according to your needs
+
+|Primary Stream - for Primary Stream Encoding Standard set to M-JPEG |Image Quality a|* Set Image Quality to the highest quality according to the data capacity of your system. The higher the quality, the higher the data size required. The recommended levels are High, Highest or Low Compression (very high quality).
+|Primary Stream - for Primary Stream Encoding Standard set to H.264 |H.264 Profile a|* Main
+|Primary Stream - for Primary Stream Encoding Standard set to H.264 |Rate Control Mode/Target Bitrate +
+ +
+Rate Control Mode/Image Quality a|
+* If set to CBR (Constant Bit Rate), which helps to keep the bandwidth fixed, then set Target Bitrate = 10 Mbps
+
+* If set to VBR (Variable Bit Rate), then set Image Quality = Low Compression
+
+|Primary Stream - for Primary Stream Encoding Standard set to H.264 |GOP Structure (Group of Pictures Structure) a|* The interval at which a keyframe is created in the video stream. Set to 5-10 if your network can handle the increased bandwidth (these relatively low values will help to ensure that you don't lose video)
+|===
+
+[#s_Changing-the-Camera-s-IP-Address]
+
+=== Changing the Camera's IP Address
+
+. In the Basic Setup group, click on IP Address:
+
+[NOTE]
+
+========================================
+
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
+
+========================================
+
+[#f_Changing-the-Camera-s-IP-Address]
+
+.Changing the Camera's IP Address
+
+image::./UserGuide/image28.png[image,width=624,height=214]
+
+. To change the IP address to a fixed one:
+
+[NOTE]
+
+========================================
+
+The IP address must be unique within the entire ALPR system, and must be within the limits of standard IPv4 address numbering.
+
+========================================
+
+.. Click the Static radio button.
+
+.. Enter the network address parameters. All cameras must be on the same subnet as both the computer you will use to communicate with and configure the camera, and the {compname-short} software computer.
+
+[IMPORTANT]
+
+========================================
+
+It is highly recommended to record the camera's IP address and port number in a safe place. You will need them if the camera's parameters are reset back to their defaults, and for configuring {compname-short} management software.
+
+========================================
+
+. Click Apply.
+
+[IMPORTANT]
+
+========================================
+
+After selecting Apply, you will be requested to close your web browser so the updates can take effect. This will take 20 seconds or more, to allow the camera time to reboot. +
+- If you click the browser's Back button, all values will be discarded. +
+- If you click the browser's Refresh button, the application will load the previous values.
+
+========================================
+
+. In the {software-discovery} utility (see <<s_Reserving-IP-Addresses-in-your-Network>>), click the "Clear List" button, and verify that the camera can be recognized with the new IP address.
+
+[#s_Video-Device]
+
+=== Video & Device
+
+[NOTE]
+
+========================================
+
+The settings in this section are for basic license plate recognition. Other applications may require different settings.
+
+========================================
+
+[#t_Video-Device-Parameters]
+
+.Video & Device Parameters
+
+[width="100%",cols="28%,20%,52%",options="header",]
+|===
+|Sub-category > Parameter Group |Parameter |Setting
+|Video Streams |(See <<s_Basic-Setup>>) |---
+|Video Streams > Camera Settings |DC IRIS Enable a|* Set according to your needs; typically Enable
+|Video Streams > Camera Settings |AE Metering Mode a|* Average or Center
+|Video Streams > Camera Settings |Shutter Control a|* Use Auto (shutter speed chosen automatically from range of all available shutter speeds or Manual (same as Auto but within range you define) +
+If Manual, set Shutter Time Max to a lower value than 1/30, typically 1/1000, to prevent smearing of moving vehicle images.
+|Video Streams > Camera Settings |Shutter Time Min a|* Set according to your needs; typically 1/32000
+|Video Streams > Camera Settings |Shutter Time Max a|* Typically 1/1000; however, if the image is too dark at night, increase to 1/500 - but may cause smearing at higher vehicle speeds
+|Video Streams > Camera Settings |3DNR a|* 0
+|Video Streams > Camera Settings |Max AGC Gain a|* 36 for low noise; however, if the image moves, increase this value - but the image will be less clear.
+|Video Streams > Camera Settings |Sense Up Level a|* Off
+|Video Streams > Camera Settings |Back Light Compensation a|* Disable
+|Video Streams > Camera Settings |Auto Exposure Weight a|* 100%
+|Video Streams > Camera Settings |D-WDR Enable a|* Set according to your needs.
+|Video Streams > Camera Settings |D-WDR (Digital Wide Dynamic Range) a|* If Enabled, start with 0. But if the plate appears dark on a bright background, you will have to experiment with this value. The goal is to get a good plate image, with low noise and good brightness.
+|Video Streams > Camera Settings |White Balance a|* Auto
+|Video Streams > Camera Settings |3DNR a|* 0
+|Video Streams > Camera Settings |Day & Night Control a|* Set as needed
+|Video Streams > Camera Settings |Vertical Flip a|* Set as needed
+|Video Streams > Camera Settings |Horizontal Flip a|* Set as needed
+|Motion Detection |--- a|* Disable
+|ROI |--- a|* Disable
+|Privacy Zone |--- a|* Do not use
+|DI (Digital [Sensor] Input Type)/ +
+DO (Relay [Alarm] Output Type) |Sensor Input Type +
+Alarm Output Type a|* Set each to Normally Open/Normally Closed as needed
+|===
+
+[#s_System-User]
+
+=== System > User
+
+[#s_Adding-a-User]
+
+==== Adding a User
+
+[IMPORTANT]
+
+========================================
+
+The built-in Administrator username and password is root, IZpass12. *+++<u>+++However, it is highly recommended to create at least one other user which should be publicized instead.+++</u>+++*
+
+**It is also highly recommended to change the Administrator's password (using the System > Admin. Password parameter group) occasionally to keep the camera secure. However, if this password is lost, you will have to reset the device with the FD (Factory Default) button (see <<**s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>>**). All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted.**
+
+Only the Administrator (or a registered user with an Administrator role) can see the Admin (configuration) screens via the web interface.
+
+========================================
+
+[NOTE]
+
+========================================
+
+The stream of the Live View can also be accessed using an RTSP URL with the following format (assuming you have set the correct permissions in the camera for the user - see the explanations in this section):
+
+rtsp://[username:password]@<Camera IP address>/cam0_0 +
+where cam0_0 are camera-specific parameters (which in this case enable you to access the primary stream)
+
+Record this URL with the user name and password details for use when setting parameters in {compname-short} management software.
+
+========================================
+
+To add a user:
+
+. Log in to the camera (see <<s_Logging-In-to-the-Camera>>).
+
+. Navigate to the System > Access Level configuration page, and select the Access Level you need:
+
+[#f_Changing-the-Access-Level-System-Access-Level]
+
+.Changing the Access Level (System > Access Level)
+
+image::./UserGuide/image29.png[image,width=357,height=242]
+
+** If System > Access Level = Full Access (recommended initial setting before defining other users and their permissions):
+
+*** Anyone (even a non-registered user) can use the Live View
+
+*** The RTSP URL can be used without a user name and password to see the Live View
+
+** If you want to limit access to the camera by registering users, you must set the System > Access Level to Limited Access.
+
+*** Users must be registered with a password to see the Live View via the web interface. Note: Since @ is used as a separator in the RTSP URL syntax, it is recommended not to use this character in the password.
+
+*** The RTSP URL must be used with a user name and password, and the user must be at an Administrator role level to see the Live View.
+
+. If you change the Access Permission, click the Apply button under the Access Permission section.
+
+. In most cases, you will want to set the Authentication to "Unencrypted". If you change the Authentication, click the Apply button (you will be prompted to close the browser, and you will have to log in again).
+
+. Navigate to System > User (see <<f_User-Screen-System-User>>):
+
+[#f_User-Screen-System-User]
+
+.User Screen (System > User)
+
+image::./UserGuide/image31.png[image,width=474,height=598]
+
+. Click the Add radio button, and enter the new user's details and role. (The User ID is the user name; the Name is a text field to use for the full name of the user or other identifying details.)
+
+[#f_Adding-a-User]
+
+.Adding a User
+
+image::./UserGuide/image33.png[image,width=472,height=201]
+
+. Click the Apply button at the bottom of the screen.
+
+[#s_Editing-a-User]
+
+==== Editing a User
+
+Click the Edit radio button, select a user to edit, and modify the details as needed. Remember to click the Apply button at the bottom of the screen.
+
+[#f_Editing-a-User]
+
+.Editing a User
+
+image::./UserGuide/image35.png[image,width=477,height=165]
+
+[#s_Deleting-a-User]
+
+==== Deleting a User
+
+Click the Delete radio button, select a user to delete, and click the Delete button.
+
+[WARNING]
+
+========================================
+
+The deletion happens immediately; there is *+++<u>+++no+++</u>+++* confirmation message (such as "are you sure?")
+
+========================================
+
+[#f_Deleting-a-User]
+
+.Deleting a User
+
+image::./UserGuide/image37.png[image,width=316,height=192]
+
+[#s_Calibrating-the-Camera]
+
+== Calibrating the Camera
+
+[#s_Preparing-a-Vehicle-License-Plate]
+
+=== Preparing a Vehicle/License Plate
+
+Move a vehicle next to, and at the middle of the capture line. (This is the position at which the vehicle sensor signals that the vehicle is present.) Ensure that the camera is aimed at the middle of the lane, and is at the required capture distance (see <<s_Specifications>> and <<s_Planning-Your-Installation>>).
+
+Alternatively, in a lab, position a license plate at the expected distance and height.
+
+[#s_Calibrating-the-Camera-Using-RoadView]
+
+=== Calibrating the Camera Using {software-ALPR}
+
+[IMPORTANT]
+
+========================================
+
+See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Using-RoadView>> for instructions on how to log in to the computer running {software-ALPR} in your system.
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for calibration instructions.
+
+Read the following instructions before adjusting the camera's position as part of the calibration procedure; they are specifically for the {shortprodname} camera.
+
+*+++<u>+++DO NOT OVERTIGHTEN the two Roll screws (3). Excess force can cause the screws to break! There are two Roll screws - one on each side.+++</u>+++*
+
+========================================
+
+To aim the camera, adjust the Pan (screw 2), Tilt (screw 1) and Roll (screw 3) as described in these instructions, and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>). Use the 3 mm Allen/hex key provided to loosen and tighten the adjustment screws.
+
+[#f_Pan-Tilt-Roll-Angle-Adjustments]
+
+.Pan/Tilt/Roll (Angle) Adjustments
+
+image::./UserGuide/image39.png[image,width=387,height=167]
+
+See the following Note:
+
+[NOTE]
+
+========================================
+
+The inner mechanisms of adjustments 2 (pan) and 1 (tilt) [see <<f_Pan-Tilt-Roll-Angle-Adjustments>>] have small teeth. When the teeth mesh with protrusions in the housing, the adjustment position becomes fixed in place. Each tooth corresponds to a certain number of degrees of angle (6° per tooth). However, the distance between each tooth is not always small enough for finer adjustments (that are often required to aim the camera). If the camera is used with a pole mount adapter, you can achieve these finer adjustments by moving the adapter slightly - around the pole.
+
+========================================
+
+[#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
+
+== Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
+
+See <<s_Recognizing-Devices-with-IZ-Discovery>>.
+
+[#s_Using-RoadView]
+
+== Using {software-ALPR}
+
+[#s_Logging-In]
+
+=== Logging In
+
+. Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {software-ALPR} computer. For example: +
+http://192.115.120.76:80/[http://192.115.120.76]/
+
+. You will see the login screen. Enter the default username and password (root, root):
+
+[#f_Logging-In-to-RoadView]
+
+.Logging In to {software-ALPR}
+
+image::./UserGuide/image40.png[image,width=209,height=143]
+
+. You should see the {software-ALPR} Live (Journal) tab. See the {software-ALPR-long} User Guide for instructions for configuring and using {software-ALPR} (see <<s_Related-Documents>>).
+
+[#s_Verifying-the-Installation]
+
+=== Verifying the Installation
+
+* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
+
+* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+
+[#s_Logging-Out]
+
+=== Logging Out
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
+
+[#s_Hardware-Reset-Resets-Parameters-and-Administrator-Password]
+
+== Hardware Reset (Resets Parameters and Administrator Password)
+
+In some cases (such as if the Administrator password is lost), you will need to perform a hardware reset using the FD (Factory Default) button. **All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted (see <<**s_System-User>>**)**.
+
+To perform a hardware reset:
+
+. Unscrew the round cover on the bottom of the camera:
+
+[#f_Unscrewing-the-Round-Cover]
+
+.Unscrewing the Round Cover
+
+image::./UserGuide/image41.png[image,width=192,height=183]
+
+. Locate the Factory Default (reset) button (see <<f_Factory-Default-Reset-Button-and-LEDs>>).
+
+. Using a thin item such as a small screwdriver, hold the button down for several seconds until the communication LEDs shut off. The 2 communication LEDs (red/flashing and green/static) are mounted next to each another on the same side of the circuit board you see.
+
+. After the communication LEDs shut off, wait until they light up again. You can then use the camera and configure its parameters.
+
+[#f_Factory-Default-Reset-Button-and-LEDs]
+
+.Factory Default (Reset) Button and LEDs
+
+image::./UserGuide/image42.png[image,width=630,height=513]
+
+[#s_Maintenance]
+
+== Maintenance
+
+[#s_Checking-Mounting-Screws]
+
+=== Checking Mounting Screws
+
+It is recommended to check all mounting screws for proper tightness once every two years.
+
+[#s_Cleaning-the-Camera]
+
+=== Cleaning the Camera
+
+Do not use solvents or strong abrasive detergent when cleaning the camera. Use a soft dry cloth to clean the ALPR camera's front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
+
