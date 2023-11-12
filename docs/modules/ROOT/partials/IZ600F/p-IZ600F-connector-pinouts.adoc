@@ -7,7 +7,43 @@
 !Connectors
 !Power input (for 12 VDC) - female barrel connector 5.5 mm outer diameter, 2.1 mm inner pin diameter
 !RJ-45 network input connection
-!Multi-wire cable (see <<t_Multi-wire-Names-and-Colors>>)
+!Multi-wire cable (see next Table)
 !Analog video output (BNC connector)
 !===
 |===
+
+.Multi-wire Names and Colors
+
+[table.withborders,cols="1a,1a",width="70%",frame=none,grid=none]
+|===
+//| image:ROOT:image$/IZ600F/IZ600F-cables-connectors.png[image,width=400]
+| [table.withborders,width="100%",cols="68%,32%",options="header",]
+!===
+!Name !Color
+!Digital [Sensor] Input ({plus})* !White/Black
+!Digital [Sensor] Input (GND) !Brown/Black
+!Relay [Alarm] Output (N.O./N.C)** !Green/Violet
+!Relay [Alarm] Output (COM) !Yellow/Violet
+!===
+| [table.withborders,width="100%",cols="50%,50%",options="header",]
+!===
+!Name !Color
+!RS485 {plus} *** !Gray/Black
+!RS485 - *** !Yellow/Black
+!SPK {plus} *** !Blue/Violet
+!SPK - *** !Brown
+!MIC-R *** !Blue
+!MIC-GND *** !White
+!MIC-L *** !Green
+!===
+|===
+
++++*+++ Built-in pull up {plus}12V, dry contact switch can be used. +
+Default state (N.O./N.C.) is configurable
+
++++**+++ Default state (N.O./N.C.) is configurable
+
++++***+++ Not in use by {compname-short} systems
+
+
+
