@@ -171,7 +171,7 @@ Independently controllable frame rate and bandwidth
 
 * 1 x Power (DC barrel jack - Female)
 
-* Multi-wire (see <<s_Typical-Wiring-Diagram>>)
+* Multi-wire (see the wiring assignments table)
 
 .2+.^|Power
 .^a|Power Supply
