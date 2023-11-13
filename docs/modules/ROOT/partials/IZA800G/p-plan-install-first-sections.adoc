@@ -46,7 +46,9 @@ Installations that position the camera at significant angles in relation to the 
 
 .Horizontal Camera Angle (Pan Angle)
 
-image::ROOT:/IZA800G/image13.png[image,width=310,height=332]
+ifndef::xref-type-IZ600F[image::ROOT:/IZA800G/image13.png[image,width=310,height=332]]
+
+ifdef::xref-type-IZ600F[image::ROOT:/IZ600F/IZ600F-30-FIG-025a_CameraAngles.png[image,width=310,height=332]]
 
 +++<div class="pagebreak"> </div>+++
 

@@ -167,6 +167,8 @@ image::./UserGuide/image5.png[image,width=187,height=179]
 
 . Depending upon whether or not the illumination is sufficient at night, and the plate types you need to recognize, you may need to perform the camera calibration and configuration first under dark conditions, with the Day & Night Control set to Night (see <<s_Video-Device>>). If you will also have to recognize plates under light (day) conditions, change the Day & Night Control afterwards to Auto.
 
+include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections of Installation Planning]
+
 [#s_Horizontal-Field-of-View-Capture-Line]
 
 === Horizontal Field of View (Capture Line)
