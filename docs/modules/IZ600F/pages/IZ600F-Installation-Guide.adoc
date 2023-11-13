@@ -297,7 +297,7 @@ include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV 
 
 .Additional Installation Considerations
 
-[width="100%",cols="40%,60%",options="header",]
+[table.withborders,width="100%",cols="40%,60%",options="header",]
 |===
 |Item |Considerations
 |*Surge Protection* a|* On power, network and data cables
@@ -397,7 +397,7 @@ suggested switch type: 10/100 Mb.
 
 image::./UserGuide/image13.png[image,width=474,height=198]
 
-[width="100%",cols="8%,44%,26%,22%",options="header",]
+[table.withborders,width="100%",cols="8%,44%,26%,22%",options="header",]
 |===
 |Item |Description |Ordering Information |
 |A a|*LAN Cables* |Supplied by integrator |
