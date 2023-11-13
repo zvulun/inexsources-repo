@@ -182,7 +182,10 @@ image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height
 
 * Network cabling (typically CAT 5e/6 cable) and switch. The total length of the cable from the network switch to the camera should not exceed 328 feet (100 meters).
 
-* A list of accessories that can be supplied by {compname-med} can be found at the end of the Specifications (see your camera's User Guide).
+* A list of accessories that can be supplied by
+{compname-med} can be found at the end of the
+specifications table (see your camera's
+User Guide and <<s_Typical-Wiring-Diagram>>).
 
 [#s_Optional-Accessories]
 
@@ -206,7 +209,12 @@ image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height
 
 === Tools
 
-* Network (LAN) cabling (typically CAT 5e/6 cable) with *_\{really need metal body?}_* metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters). *See <<s_Preparing-the-Cable-Connections>> for important LAN cable information.*
+* Network (LAN) cabling (typically CAT 5e/6 cable)
+with *_\{really need metal body?}_* metal-body
+RJ45 connectors. The total length of the cable
+should not exceed 328 feet (100 meters).
+*See <<s_Prepare-Cables>>
+for important LAN cable information.*
 
 * Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with *_\{really need metal body?}_* metal bodies.
 +
@@ -248,21 +256,21 @@ Reflectivity: +
 . Determine the plate types you will be recognizing: reflective, non-reflective or IR (infrared-type)-phobic. Note that both reflective and non-reflective plates can be IR-phobic, as shown in these examples:
 
 ** *Reflective IR-phobic plates* use character ink that is transparent to IR light. The IR images of these characters are filled with a color very close to that of the plate's background. This makes it more difficult for an ALPR algorithm to recognize the characters.
-
++
 [#f_Reflective-IR-phobic-Plate-Example]
 
 .Reflective IR-phobic Plate Example
 
 image::./UserGuide/image4.png[image,width=184,height=207]
-
++
 ** *Non-reflective IR-phobic plates* typically have a combination of red and white characters/background, which reduces the contrast between the characters and the background. This makes it more difficult for an ALPR algorithm to recognize the characters:
-
++
 [#f_Non-Reflective-IR-phobic-Plate-Examples]
 
 .Non-Reflective IR-phobic Plate Examples
 
 image::./UserGuide/image5.png[image,width=187,height=179]
-
++
 . Install the camera as described in the following sections.
 
 . Depending upon whether or not the illumination is sufficient at night, and the plate types you need to recognize, you may need to perform the camera calibration and configuration first under dark conditions, with the Day & Night Control set to Night (see <<s_Video-Device>>). If you will also have to recognize plates under light (day) conditions, change the Day & Night Control afterwards to Auto.
@@ -352,14 +360,24 @@ Avoid having these items in the Field of View:
 
 * Dirt on front window (see <<s_Cleaning-the-Camera>>)
 
-|Bottom opening (screw cover) accessible a|* To be able to perform a hardware (factory default) reset if needed (see <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>>)
+|Bottom opening (screw cover) accessible a|* To be able to perform a hardware (factory default) reset if needed (see <<s_Hardware-Reset-Resets-Parameters-and-Administrator-Password>>)
 |===
+
+[#s_Prepare-Cables]
+
+== Prepare Cables
 
 [#s_Typical-Wiring-Diagram]
 
-== Typical Wiring Diagram
+=== Typical Wiring Diagram
 
-Here is a typical wiring diagram for capturing license plate images. Note that the type and configuration of the power supply may be different than the one you are using at your site. *_\{TBD – do you want to put the other quick start wiring diagrams here?}_*
+Here is a typical wiring diagram
+for capturing license plate images.
+Note that the type and configuration
+of the power supply may be different than
+the one you are using at your site.
+*_\{TBD – do you want to put the other
+quick start wiring diagrams here?}_*
 
 [IMPORTANT]
 
@@ -367,7 +385,9 @@ Here is a typical wiring diagram for capturing license plate images. Note that t
 
 All network cable extensions and repeaters must be shielded.
 
-The camera is not compatible with some GigE switches; suggested switch type: 10/100 Mb.
+*_\{remove this part of the note?}_* The camera is
+not compatible with some GigE switches;
+suggested switch type: 10/100 Mb.
 
 ========================================
 
@@ -404,6 +424,59 @@ For {illum-non-strobe}2, use {compname-short} P/N:
 |F a|*Power/Signals Cable for Illuminator* |Included with illuminator |
 |J a|*{illum-non-strobe} Illuminator* |{compname-short} P/N: See the https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases |
 |===
+
+
+[#s_Waterproof-Cap-for-Network]
+
+=== Waterproof Cap for Network
+
+The parts are in a separate plastic bag in the box.
+
+[#f_Assembling-the-Waterproof-Cap]
+
+.Assembling the Waterproof Cap
+
+image::./UserGuide/image15.png[image,width=632,height=144]
+
+[#t_Waterproof-Cap-Components]
+
+.Waterproof Cap Components
+
+[table.withborders,width="100%",cols="18%,82%",options="header",]
+|===
+|No. |Component
+|1 |Camera's Network Interface Socket
+|2 |O-Type Gasket (separate, in package)
+|3 |Network Plug
+|4 |Waterproof Endcap
+|5 |Waterproof Rubber Gasket
+|6 |Lock Nut
+|7 |Network Cable from Router/Switch
+|===
+
+. Unscrew the lock nut (6) from the waterproof endcap (4).
+
+. Feed the network cable (without a plug at the end) (7) through the:
+
+.. Lock nut (6)
+
+.. Waterproof rubber gasket (5). The rubber gasket may already be mounted inside the endcap. If the rubber gasket is not mounted and has an inset ridge, the ridge must face the waterproof endcap (4) so it can fit on the ridge inside the endcap.
+
+.. Waterproof endcap (4)
+
+. Crimp a male RJ-45 network plug (3) onto the end of the cable, taking care to insert the twisted pairs of wires in the correct order.
+
+[#s_Power-Connections]
+
+=== Power Connections
+
+* If you are using a 12 VDC power supply, you must provide a male barrel connector (5.5 mm outer diameter, 2.1 mm inner diameter) to connect the ({plus}) and (-) of the power supply to the camera's female power connector.
+
+* If you are using PoE, be sure that your PoE connection is compatible with IEEE 802.3af, and can provide 12 VDC at 1.2 Amp.
+
+
+
+
 
 [#s_Mounting-the-Camera]
 
@@ -443,57 +516,6 @@ include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connector Pinouts]
 
 . If you will be using external illuminator(s), mount them at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
 
-[#s_Preparing-the-Cable-Connections]
-
-== Preparing the Cable Connections
-
-[#s_Waterproof-Cap-for-Network]
-
-=== Waterproof Cap for Network
-
-The parts are in a separate plastic bag in the box.
-
-[#f_Assembling-the-Waterproof-Cap]
-
-.Assembling the Waterproof Cap
-
-image::./UserGuide/image15.png[image,width=632,height=144]
-
-[#t_Waterproof-Cap-Components]
-
-.Waterproof Cap Components
-
-[width="100%",cols="18%,82%",options="header",]
-|===
-|No. |Component
-|1 |Camera's Network Interface Socket
-|2 |O-Type Gasket (separate, in package)
-|3 |Network Plug
-|4 |Waterproof Endcap
-|5 |Waterproof Rubber Gasket
-|6 |Lock Nut
-|7 |Network Cable from Router/Switch
-|===
-
-. Unscrew the lock nut (6) from the waterproof endcap (4).
-
-. Feed the network cable (without a plug at the end) (7) through the:
-
-.. Lock nut (6)
-
-.. Waterproof rubber gasket (5). The rubber gasket may already be mounted inside the endcap. If the rubber gasket is not mounted and has an inset ridge, the ridge must face the waterproof endcap (4) so it can fit on the ridge inside the endcap.
-
-.. Waterproof endcap (4)
-
-. Crimp a male RJ-45 network plug (3) onto the end of the cable, taking care to insert the twisted pairs of wires in the correct order.
-
-[#s_Power-Connections]
-
-=== Power Connections
-
-* If you are using a 12 VDC power supply, you must provide a male barrel connector (5.5 mm outer diameter, 2.1 mm inner diameter) to connect the ({plus}) and (-) of the power supply to the camera's male power connector.
-
-* If you are using PoE, be sure that your PoE connection is compatible with IEEE 802.3af, and can provide 12 VDC at 1.2 Amp.
 
 [#s_Connecting-and-Waterproofing-the-Cables]
 
