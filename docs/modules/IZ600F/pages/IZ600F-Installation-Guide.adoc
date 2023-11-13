@@ -120,6 +120,11 @@ include::ROOT:partial$p-training.adoc[Training Section]
 
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
+==  Checklist
+
+include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
+
+
 [#s_Planning-Your-Installation]
 
 == Planning Your Installation
@@ -168,112 +173,6 @@ image::./UserGuide/image5.png[image,width=187,height=179]
 . Depending upon whether or not the illumination is sufficient at night, and the plate types you need to recognize, you may need to perform the camera calibration and configuration first under dark conditions, with the Day & Night Control set to Night (see <<s_Video-Device>>). If you will also have to recognize plates under light (day) conditions, change the Day & Night Control afterwards to Auto.
 
 include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections of Installation Planning]
-
-[#s_Horizontal-Field-of-View-Capture-Line]
-
-=== Horizontal Field of View (Capture Line)
-
-Your camera's Field of View (FOV) is the area that the camera can "see". You can think of this area as an imaginary rectangle rising from the lane upwards. The width of this area is called the horizontal FOV or "capture line".
-
-See <<s_Specifications>> for the horizontal and vertical FOV specifications.
-
-[#f_Field-of-View-Capture-Line]
-
-.Field of View (Capture Line)
-
-image::./UserGuide/image6.png[image,width=634,height=194]
-
-Select your camera's position so that license plates are always within the capture line and parallel to it, with the camera facing as straight at the plates as possible - as shown in the following diagrams:
-
-[#f_Plates-Within-Capture-Line]
-
-.Plates Within Capture Line
-
-image::./UserGuide/image7.png[image,width=247,height=411]
-
-[#f_Plates-Parallel-to-Capture-Line-Away-from-Road-Curves]
-
-.Plates Parallel to Capture Line - Away from Road Curves
-
-image::./UserGuide/image8.png[image,width=503,height=314]
-
-[#s_Angles-and-Distances]
-
-=== Angles and Distances
-
-[IMPORTANT]
-
-========================================
-
-Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
-
-========================================
-
-[#f_Horizontal-Camera-Angle-Pan-Angle]
-
-.Horizontal Camera Angle (Pan Angle)
-
-image::./UserGuide/image9.png[image,width=247,height=231]
-
-[NOTE]
-
-========================================
-
-The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
-
-If you must capture plates on a curve, place the camera on the side of the road that minimizes the horizontal angle.
-
-At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
-
-For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
-
-========================================
-
-[#f_Vertical-Camera-Angle-Tilt-Angle-and-Line-of-Sight-Distance-from-Plate]
-
-.Vertical Camera Angle (Tilt Angle) and Line-of-Sight Distance from Plate
-
-image::./UserGuide/image10.png[image,width=626,height=194]
-
-[NOTE]
-
-========================================
-
-The line-of-sight distance from the camera to the capture line must be within the viewing range of the camera.
-
-Adjust the vertical angle so that the camera can read plates at all of their expected heights from the road.
-
-The maximum vertical angle allowed is 30°.
-
-Larger angles and/or greater mounting heights may be required in order to recognize plates on vehicles close to each other (such as in slow/congested traffic).
-
-At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
-
-For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
-
-========================================
-
-[#s_Position-of-the-Sun-in-Relation-to-the-Camera]
-
-=== Position of the Sun in Relation to the Camera
-
-The camera should +++<u>+++not+++</u>+++ be positioned so that the rays of the sun behind the camera shine along the camera-to-plate axis. Reflective plates will cause severe glare to be reflected back to the camera, obscuring the image of the plate's characters.
-
-Avoid/mitigate by:
-
-* Not installing the camera in an east/west direction
-
-* Installing the camera near a building that shields it from the sun's rays
-
-* Installing the camera on a short pole
-
-* Using a double-camera installation (2 different angles or front/rear)
-
-[#f_Sun-Behind-Camera-on-Same-Axis-as-Line-of-Sight-from-Camera-to-Plate]
-
-.Sun Behind Camera (on Same Axis as Line-of-Sight from Camera to Plate)
-
-image::./UserGuide/image11.png[image,width=628,height=232]
 
 [#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
 
@@ -555,7 +454,7 @@ Turn off/disconnect the external (AC) power supply before connecting cables.
 
 *IMPORTANT: All network cable extensions and repeaters must be shielded.*
 
-If any power cables were lengthened, ensure that all cameras receive exactly their rated voltage (see <<s_Specifications>>).
+If any power cables were lengthened, ensure that all cameras receive exactly their rated voltage (see your camera's User Guide).
 
 ========================================
 
@@ -1095,7 +994,7 @@ image::./UserGuide/image37.png[image,width=316,height=192]
 
 === Preparing a Vehicle/License Plate
 
-Move a vehicle next to, and at the middle of the capture line. (This is the position at which the vehicle sensor signals that the vehicle is present.) Ensure that the camera is aimed at the middle of the lane, and is at the required capture distance (see <<s_Specifications>> and <<s_Planning-Your-Installation>>).
+Move a vehicle next to, and at the middle of the capture line. (This is the position at which the vehicle sensor signals that the vehicle is present.) Ensure that the camera is aimed at the middle of the lane, and is at the required capture distance (see your camera's User Guide and <<s_Planning-Your-Installation>>).
 
 Alternatively, in a lab, position a license plate at the expected distance and height.
 
