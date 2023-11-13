@@ -391,6 +391,9 @@ suggested switch type: 10/100 Mb.
 
 ========================================
 
+*_\{rename filenames and put in ROOT/images
+and partials for reuse}_*
+
 [#f_Typical-Wiring-Diagram]
 
 .Typical Wiring Diagram
@@ -473,10 +476,6 @@ image::./UserGuide/image15.png[image,width=632,height=144]
 
 * If you are using PoE, be sure that your PoE connection is compatible with IEEE 802.3af, and can provide 12 VDC at 1.2 Amp.
 
-
-
-
-
 [#s_Mounting-the-Camera]
 
 == Mounting the Camera
@@ -497,7 +496,7 @@ See the Mounting Hardware documentation for details (see <<s_Related-Documents>>
 
 include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connectors]
 
-[#t_Wiriing-Assignments]
+[#t_Wiring-Assignments]
 
 .Multi-wire Names and Colors
 

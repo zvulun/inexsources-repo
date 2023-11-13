@@ -197,7 +197,7 @@ include::ROOT:partial$IZ600F/p-IZ600F-spec-table.adoc[]
 
 include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connectors]
 
-[#t_Wiriing-Assignments]
+[#t_Wiring-Assignments]
 
 .Multi-wire Names and Colors
 
