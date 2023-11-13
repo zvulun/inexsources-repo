@@ -52,8 +52,6 @@ image:ROOT:image$/IZ600F/IZ600F-30-FIG-001_Full_View.png[Picture of Camera,400,a
 {empty}
 {empty}
 
-<<<
-
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
 ._Click to show the Table of Contents_
@@ -157,6 +155,8 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 ========================================
 
+<<<
+
 [#s_Dimensions]
 
 === Dimensions
@@ -166,6 +166,8 @@ If any parts are missing or damaged, please contact {compname-long}.
 .{shortprodname} Dimensions (mm)
 
 image::ROOT:IZ600F/IZ600F-Dimensions.png[image,width=623,height=441]
+
+<<<
 
 [#s_Specifications]
 
@@ -182,6 +184,8 @@ image::ROOT:IZ600F/IZ600F-RoadDistancesAboveSpecs.png[image,width=623,height=169
 .Technical Specifications
 
 include::ROOT:partial$IZ600F/p-IZ600F-spec-table.adoc[]
+
+<<<
 
 [#s_Connectors-and-Wiring-Assignments-Pinout]
 
