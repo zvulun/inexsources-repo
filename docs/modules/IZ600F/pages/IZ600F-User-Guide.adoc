@@ -195,7 +195,13 @@ include::ROOT:partial$IZ600F/p-IZ600F-spec-table.adoc[]
 
 .Connectors
 
-include::ROOT:partial$IZ600F/p-IZ600F-connector-pinouts.adoc[IZ600F Connector Pinouts]
+include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connectors]
+
+[#t_Wiriing-Assignments]
+
+.Multi-wire Names and Colors
+
+include::ROOT:partial$IZ600F/p-IZ600F-wiring-assignments.adoc[IZ600F Wiring Assignments]
 
 <<<
 

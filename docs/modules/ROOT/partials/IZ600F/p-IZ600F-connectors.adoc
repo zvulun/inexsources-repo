@@ -1,0 +1,13 @@
+
+[table.noborders,cols="3,2a",width="100%",frame=none,grid=none]
+|===
+| image:ROOT:image$/IZ600F/IZ600F-cables-connectors.png[image,width=400]
+|[table.withborders,width="100%",cols="100%",options="header",]
+!===
+!Connectors
+!Power input (for 12 VDC) - female barrel connector 5.5 mm outer diameter, 2.1 mm inner pin diameter
+!RJ-45 network input connection
+!Multi-wire cable (see next Table)
+!Analog video output (BNC connector)
+!===
+|===

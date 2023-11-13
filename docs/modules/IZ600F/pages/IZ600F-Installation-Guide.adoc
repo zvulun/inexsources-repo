@@ -471,7 +471,7 @@ See the Mounting Hardware documentation for details (see <<s_Related-Documents>>
 
 //.Connectors
 
-include::ROOT:partial$IZ600F/p-IZ600F-connector-pinouts.adoc[IZ600F Connector Pinouts]
+include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connector Pinouts]
 
 [#s_Preparing-System-Components-and-Wiring]
 
