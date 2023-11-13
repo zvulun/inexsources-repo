@@ -397,13 +397,13 @@ suggested switch type: 10/100 Mb.
 
 image::./UserGuide/image13.png[image,width=474,height=198]
 
-[table.withborders,width="100%",cols="8%,44%,26%,22%",options="header",]
+[table.withborders,width="100%",cols="8%,44%,48%",options="header",]
 |===
-|Item |Description |Ordering Information |
-|A a|*LAN Cables* |Supplied by integrator |
-|B a|*Waterproof Cap for Camera Network Connection* |Included with camera |
-|D a|*Power Supply for {hw-indoor-processor} (Rev. B)* |Included with {hw-indoor-processor} |
-|E a|*Power Supply for Illuminator:* 24 VDC, 100/120W or 240W; DIN rail or surface mount a|
+|Item |Description |Ordering Information
+|A a|*LAN Cables* |Supplied by integrator
+|B a|*Waterproof Cap for Camera Network Connection* |Included with camera
+|D a|*Power Supply for {hw-indoor-processor} (Rev. B)* |Included with {hw-indoor-processor}
+|E a|*Power Supply for Illuminator:* 24 VDC, 100/120W or 240W; DIN rail a|
 For {illum-non-strobe}1, use {compname-short} P/N:
 
 * https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR100-24-TDK-DIN]
@@ -420,9 +420,8 @@ For {illum-non-strobe}2, use {compname-short} P/N:
 
 * https://drive.google.com/drive/folders/0B3mb9ZzMk00OSmZNS21UeEZzRjg?resourcekey=0-3a07-3tXvASZ8GCt7Knpqg&usp=sharing[IZPWR240-24-TDK-DIN]
 
-|
-|F a|*Power/Signals Cable for Illuminator* |Included with illuminator |
-|J a|*{illum-non-strobe} Illuminator* |{compname-short} P/N: See the https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases |
+|F a|*Power/Signals Cable for Illuminator* |Included with illuminator
+|J a|*{illum-non-strobe} Illuminator* |{compname-short} P/N: See the https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
 
 
@@ -492,19 +491,19 @@ See the Mounting Hardware documentation for details (see <<s_Related-Documents>>
 
 == Connectors and Wiring Assignments (Pinout)
 
-*_\{TBD – 2 complex tables – picture and table, and two tables in one table}_*
+[#t_Connectors]
 
-//[#f_Cable-and-Connectors]
+.Connectors
 
-//.Cable and Connectors
+include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connectors]
 
-//image::./UserGuide/image14.png[image,width=346,height=277]
+[#t_Wiriing-Assignments]
 
-//[#t_Connectors]
+.Multi-wire Names and Colors
 
-//.Connectors
+include::ROOT:partial$IZ600F/p-IZ600F-wiring-assignments.adoc[IZ600F Wiring Assignments]
 
-include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connector Pinouts]
+
 
 [#s_Preparing-System-Components-and-Wiring]
 
