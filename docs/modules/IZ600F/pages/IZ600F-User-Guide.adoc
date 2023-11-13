@@ -261,6 +261,31 @@ It is recommended to check all mounting screws for proper tightness once every t
 
 Do not use solvents or strong abrasive detergent when cleaning the camera. Use a soft dry cloth to clean the ALPR camera's front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
 
+== Notices, Safety Precautions and Certifications
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+//include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
+
+//include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
+
++++<div class="pagebreak"> </div>+++
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
+
+include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IP67.adoc[IP67 Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
+
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
+
 
 Doc. No. {shortprodname}-MAN-002a
