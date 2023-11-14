@@ -104,8 +104,8 @@ toc::[]
 == Applicability
 
 This document was written based on {shortprodname}
-*_\{what is the new firmware version?}_*firmware version
-4.47-152-rp_ZA. Later versions may require changes to
+firmware version 4.53-301-rp_ZA.
+Later versions may require changes to
 this document.
 
 == Training and Support

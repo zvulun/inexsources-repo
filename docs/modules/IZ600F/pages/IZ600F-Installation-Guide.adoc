@@ -108,8 +108,7 @@ toc::[]
 == Applicability
 
 This document was written based on {shortprodname}
-*_\{what is the new firmware version?}_*firmware version
-4.47-152-rp_ZA. Later versions may require changes to
+firmware version 4.53-301-rp_ZA. Later versions may require changes to
 this document.
 
 == Training and Support
@@ -212,13 +211,14 @@ User Guide and <<s_Typical-Wiring-Diagram>>).
 === Tools
 
 * Network (LAN) cabling (typically CAT 5e/6 cable)
-with *_\{really need metal body?}_* metal-body
-RJ45 connectors. The total length of the cable
+with RJ45 connectors. The total length of the cable
 should not exceed 328 feet (100 meters).
 *See <<s_Prepare-Cables>>
 for important LAN cable information.*
 
-* Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with *_\{really need metal body?}_* metal bodies.
+* Tools for building LAN cables
+(wire stripper, crimp tool, etc.)
+and RJ45 connectors.
 +
 [IMPORTANT]
 
@@ -612,9 +612,13 @@ must be supplied to each camera,
 even when under a heavy processing load.
 ========================================
 
-Connect a plug to the **+++<u>+++L+++</u>+++**ive ({plus}V), **+++<u>+++N+++</u>+++**eutral (-V) and Ground (Shield) terminals of the power supply (see <<s_Typical-Wiring-Diagram>>).
+Connect a plug to the **+++<u>+++L+++</u>+++**ive ({plus}V),
+**+++<u>+++N+++</u>+++**eutral (-V) and Ground (Shield)
+terminals of the power supply
+(see <<s_Typical-Wiring-Diagram>>).
 
-Plug the power supply into the AC electricity. If required, switch the power supply unit ON.
+Plug the power supply into the AC electricity.
+If required, switch the power supply unit ON.
 
 [#s_Reserving-IP-Addresses-in-your-Network]
 
@@ -643,64 +647,30 @@ IP address.
 
 [#s_Configuring-the-Camera]
 
-== Configuring the Camera
+== Configure LPR/OV Camera Settings
 
 [#s_Logging-In-to-the-Camera]
 
 === Logging In to the Camera
 
-. To view the camera's home page (see <<f_Camera-s-Home-Page>>):
+include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
-** Open MS Internet Explorer. Enter the IP address of the camera into the address field of the browser. +
-Alternatively, you can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link]. +
-Enter the IP address of the camera into the address field of the browser.
+[#s_Logging-Out-of-the-Camera]
 
-[#f_Camera-s-Home-Page]
+=== Logging Out of the Camera
 
-.Camera's Home Page
-
-image::./UserGuide/image24.png[image,width=530,height=228]
-
-. Select the function you need from the links at the upper right:
-
-** Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-the-Camera-Using-RoadView>>).
-
-[NOTE]
-
-========================================
-
-When using Live View for the first time, you may be prompted to download and install an ActiveX control (Smart Viewer). +
-If you do not have an internet connection to the network on which the camera is installed, wait 30 seconds, and you will be instructed on how to install the ActiveX control locally via the camera's firmware. +
-The stream of the Live View can also be accessed using an RTSP URL with the following format (assuming you have set the correct permissions in the camera for the user - see <<s_Adding-a-User>>):
-
-rtsp://[username:password]@<Camera IP address>/cam0_0 +
-where cam0_0 are camera-specific parameters (which in this case enable you to access the primary stream). To see the stream, use a video player such as the VLC player, located at: +
-https://www.videolan.org/vlc/index.html
-
-========================================
-
-** If you need to change the IP address of the camera or other configuration parameters, click the Admin link.
-
-. When prompted for a login, use the Administrator credentials of root, IZpass12. You should then create another user for use by other users - with a different name and password (see <<s_Adding-a-User>>).
-
-[IMPORTANT]
-
-========================================
-
-The Administrator user name (root) cannot be changed, and the Administrator password is encrypted. Therefore, if someone changes the Administrator password, there is no way to find out the password if it gets lost. If the password gets lost, you will have to reset the device with the FD (Factory Default) button (see <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>>). All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted (see <<s_System-User>>).
-
-========================================
+Close all windows, and the browser window.
 
 [#s_Using-the-Camera-s-Configuration-Screens]
 
 === Using the Camera's Configuration Screens
 
 [NOTE]
-
 ========================================
-
-Most configuration parameters may already have been pre-set for you. You only need to change the parameters described in this section.
-
+Most configuration parameters may already
+have been pre-set for you.
+You only need to change the parameters
+described in this section.
 ========================================
 
 You can drill down to the configuration parameters as follows (see <<f_Configuration-Elements>>):
@@ -714,9 +684,11 @@ You can drill down to the configuration parameters as follows (see <<f_Configura
 [IMPORTANT]
 
 ========================================
-
-After changing parameters, remember to click the "Apply" button at the end of the list of parameters. (The Back button returns to a sub-menu without making the change.)
-
+After changing parameters,
+remember to click the "Apply"
+button at the end of the list of parameters.
+(The Back button returns to a sub-menu
+without making the change.)
 ========================================
 
 [#f_Configuration-Elements]
@@ -725,38 +697,51 @@ After changing parameters, remember to click the "Apply" button at the end of th
 
 image::./UserGuide/image26.png[image,width=619,height=347]
 
-[#s_Logging-Out-of-the-Camera]
-
-=== Logging Out of the Camera
-
-Close all windows, and the browser window.
-
 [#s_Basic-Setup]
 
 === Basic Setup
 
 [NOTE]
-
+========================================
+The settings in this section are for basic
+license plate recognition.
+Other applications may require different settings.
 ========================================
 
-The settings in this section are for basic license plate recognition. Other applications may require different settings.
+Three video streams are available for use,
+each with its own RTSP URL.
+The URLs are: rtsp://<Camera IP address>/cam0_n,
+where n is 0,1 or 2 for the primary, secondary
+or tertiary streams, respectively.
+{compname-short} uses the "primary" stream,
+which can supply video for up to 3 clients.
 
-========================================
+Enter the camera's IP address in your browser,
+and click on the Admin link in the
+Home|Live View|Admin menu (upper right).
+Use the default user/password = root/IZpass12
 
-Three video streams are available for use, each with its own RTSP URL. The URLs are: rtsp://<Camera IP address>/cam0_n, where n is 0,1 or 2 for the primary, secondary or tertiary streams, respectively. {compname-short} uses the "primary" stream, which can supply video for up to 3 clients.
+*Set the Access Level to Full,
+with Unencrypted Authentication
+(see <<s_Adding-a-User>>),
+enable the RTSP Service and select a port*.
+This will enable you to receive the video stream
+without any special user identification;
+you can define other users and their
+roles/permissions later if needed.
 
-Enter the camera's IP address in Internet Explorer, and click on the Admin link in the +
-Home|Live View|Admin menu (upper right). Use the default user/password = root/IZpass12
-
-**Set the Access Level to Full, with Unencrypted Authentication (see <<s_Adding-a-User>>), enable the RTSP Service and select a port**. This will enable you to receive the video stream without any special user identification; you can define other users and their roles/permissions later if needed.
-
-*Set the Max. Video Encoding before setting any other parameters (see Max. Video Encoding in <<t_Basic-Setup-Parameters>>. Changing this parameter will require a reset, which can change some of the other parameters and their ranges.
+*Set the Max. Video Encoding before setting
+any other parameters (see Max. Video Encoding
+in <<t_Basic-Setup-Parameters>>*.
+Changing this parameter will require a reset,
+which can change some of the other parameters
+and their ranges.
 
 [#t_Basic-Setup-Parameters]
 
 .Basic Setup Parameters
 
-[width="100%",cols="28%,20%,52%",options="header",]
+[table.withborders,width="100%",cols="28%,20%,52%",options="header",]
 |===
 |Sub-category > Parameter Group |Parameter |Setting
 |IP Address |IP Address |According to the camera's location and the organization of your network (see <<s_Changing-the-Camera-s-IP-Address>>)
@@ -782,7 +767,10 @@ Home|Live View|Admin menu (upper right). Use the default user/password = root/IZ
 |*Video Streams* |*Max. Video Encoding* a|
 *+++<u>+++IMPORTANT+++</u>+++*
 
-+++<u>+++Changing this parameter will require a reset, which can change some of the other parameters. Re-check parameter values after doing a reset.+++</u>+++
++++<u>+++Changing this parameter will
+require a reset, which can change some of the
+other parameters. Re-check parameter values after
+doing a reset.+++</u>+++
 
 * Set according to your needs
 
@@ -1023,7 +1011,7 @@ Move a vehicle next to, and at the middle of the capture line. (This is the posi
 
 Alternatively, in a lab, position a license plate at the expected distance and height.
 
-[#s_Calibrating-the-Camera-Using-RoadView]
+[#s_Calibrating-the-Cameras-Using-RoadView]
 
 === Calibrating the Camera Using {software-ALPR}
 
