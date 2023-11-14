@@ -85,6 +85,8 @@ toc::[]
 .^|xref:IZ600F:DocList.adoc[{shortprodname}-TECH-004] |{shortprodname} Quick Start Guide
 .^|xref:IZ600F:DocList.adoc[{shortprodname}-REV-x-TDSHEET] |{shortprodname} Technical Data Sheet
 .^|xref:MNT-IZ600F-PMAIZ600F:DocList.adoc[MOUNT-IZ600F-PRSNT-010] |{shortprodname} Camera Mount Installation documentation
+.^|xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-005] |EU Illuminator Mounting documentation
+.^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |US Illuminator Mounting documentation
 .^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
 .^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
 .^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
@@ -392,7 +394,8 @@ suggested switch type: 10/100 Mb.
 ========================================
 
 *_\{rename filenames and put in ROOT/images
-and partials for reuse}_*
+and partials for reuse; also show
+diagram with external power supply?}_*
 
 [#f_Typical-Wiring-Diagram]
 
@@ -427,6 +430,29 @@ For {illum-non-strobe}2, use {compname-short} P/N:
 |J a|*{illum-non-strobe} Illuminator* |{compname-short} P/N: See the https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
 
+[#s_Connectors-and-Wiring-Assignments-Pinout]
+
+=== Connectors and Wiring Assignments (Pinout)
+
+[#t_Connectors]
+
+.Connectors
+
+include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connectors]
+
+[#t_Wiring-Assignments]
+
+.Multi-wire Names and Colors
+
+include::ROOT:partial$IZ600F/p-IZ600F-wiring-assignments.adoc[IZ600F Wiring Assignments]
+
+[#s_Power-Connections]
+
+=== Power Connections
+
+* If you are using a 12 VDC power supply, you must provide a male barrel connector (5.5 mm outer diameter, 2.1 mm inner diameter) to connect the ({plus}) and (-) of the power supply to the camera's female power connector.
+
+* If you are using PoE, be sure that your PoE connection is compatible with IEEE 802.3af, and can provide 12 VDC at 1.2 Amp.
 
 [#s_Waterproof-Cap-for-Network]
 
@@ -468,72 +494,80 @@ image::./UserGuide/image15.png[image,width=632,height=144]
 
 . Crimp a male RJ-45 network plug (3) onto the end of the cable, taking care to insert the twisted pairs of wires in the correct order.
 
-[#s_Power-Connections]
+[#s_Install-Cameras-and-Other-Components]
 
-=== Power Connections
+== Install Camera(s) and Other Components
 
-* If you are using a 12 VDC power supply, you must provide a male barrel connector (5.5 mm outer diameter, 2.1 mm inner diameter) to connect the ({plus}) and (-) of the power supply to the camera's female power connector.
+[IMPORTANT]
+========================================
+*Before mounting components, see
+<<s_Prepare-Cables>> to ensure
+that your site plan accommodates how the
+components will be wired together.*
+========================================
 
-* If you are using PoE, be sure that your PoE connection is compatible with IEEE 802.3af, and can provide 12 VDC at 1.2 Amp.
-
-[#s_Mounting-the-Camera]
-
-== Mounting the Camera
-
-The {shortprodname} can be mounted on a wall or square pole using its built-in mounting bracket.
-
-You can also use an optional pole mount adapter (PMA) for pole mounting.
-
-See the Mounting Hardware documentation for details (see <<s_Related-Documents>>).
-
-[#s_Connectors-and-Wiring-Assignments-Pinout]
-
-== Connectors and Wiring Assignments (Pinout)
-
-[#t_Connectors]
-
-.Connectors
-
-include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connectors]
-
-[#t_Wiring-Assignments]
-
-.Multi-wire Names and Colors
-
-include::ROOT:partial$IZ600F/p-IZ600F-wiring-assignments.adoc[IZ600F Wiring Assignments]
-
-
-
-[#s_Preparing-System-Components-and-Wiring]
-
-== Preparing System Components and Wiring
+. Prepare all wiring/cables between the
+system components, and from the system
+components to the camera's mounting
+location (see <<s_Planning-Your-Installation>>
+and <<s_Typical-Wiring-Diagram>>).
 
 . If needed, prepare all the conduits that cables will pass through.
 
-. Prepare all wiring/cables between the system components, and from the system components to the camera's mounting location (see <<s_Planning-Your-Installation>> and <<s_Typical-Wiring-Diagram>>).
+. Mount other wiring-related components (such as junction boxes) in appropriate locations.
++
+[IMPORTANT]
+========================================
+Before mounting the camera,
+you will need to connect the LAN and other
+wires to be connected to other components
+(see <<s_Connect-Components-Wiring>>).
+========================================
 
-. If you will be using external illuminator(s), mount them at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
+. Secure the
+camera(s) and illuminator(s) to the appropriate
+mounting hardware (see the Mounting Hardware
+documentation - see <<s_Related-Documents>>).
 
+** The {shortprodname} can be mounted on a wall or square pole using its built-in mounting bracket.
 
-[#s_Connecting-and-Waterproofing-the-Cables]
+** You can also use an optional pole mount adapter (PMA) for pole mounting.
++
+[NOTE]
+=====================================
+If you will be using external illuminator(s),
+mount them at an appropriate distance away
+from their associated camera(s),
+according to the objectives of your project.
+Contact {compname-short} for guidance/training
+about this subject.
+=====================================
 
-== Connecting and Waterproofing the Cables
+[#s_Connect-Components-Wiring]
+
+== Connect Components (Wiring)
 
 [WARNING]
 
 ========================================
 
-Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+Power undervoltage, overvoltage and/or
+incorrect polarity will damage the unit
+and will void the warranty.
 
-Stable power at the correct level must be supplied to each camera, even when under a heavy processing load.
+Stable power at the correct level
+must be supplied to each camera,
+even when under a heavy processing load.
 
-Turn off/disconnect the external (AC) power supply before connecting cables.
+Turn off/disconnect the external (AC)
+power supply before connecting cables.
 
 **If you are using an {compname-short} power supply, see its User Guide (see <<**s_Related-Documents>>**) for important information.**
 
 *IMPORTANT: All network cable extensions and repeaters must be shielded.*
 
-If any power cables were lengthened, ensure that all cameras receive exactly their rated voltage (see your camera's User Guide).
+If any power cables were lengthened,
+ensure that all cameras receive exactly their rated voltage (see your camera's User Guide).
 
 ========================================
 
