@@ -41,5 +41,5 @@ with {hw-gate-controller}
 
 endif::[]
 
-.^|J .^a|*{illum-non-strobe} Illuminator* .^|{compname-short} P/N: See the https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
+.^|J .^a|*{illum-non-strobe} Illuminator* .^|{compname-short} P/N: See the xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
