@@ -143,7 +143,7 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 .{shortprodname} Dimensions (mm)
 
-image::./UserGuide/image1.png[image,width=623,height=441]
+image::ROOT:IZ600F/IZ600F-Dimensions.png[image,width=623,height=441]
 
 [#s_Specifications]
 
@@ -155,7 +155,7 @@ The following Figure illustrates the distances and resulting plate images mentio
 
 .Road Distances
 
-image::./UserGuide/image2.png[image,width=623,height=169]
+image::ROOT:IZ600F/IZ600F-RoadDistancesAboveSpecs.png[image,width=623,height=169]
 
 [#t_Technical-Specifications-Rev-A]
 
@@ -647,7 +647,8 @@ See the Mounting Hardware documentation for details (see <<s_Related-Documents>>
 
 .Cable and Connectors
 
-image::./UserGuide/image14.png[image,width=346,height=277]
+include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connectors]
+
 
 [#t_Connectors]
 
@@ -666,33 +667,7 @@ image::./UserGuide/image14.png[image,width=346,height=277]
 
 .Multi-wire Names and Colors
 
-[width="100%",cols="68%,32%",options="header",]
-|===
-|Name |Color
-|Digital [Sensor] Input ({plus})* |White/Black
-|Digital [Sensor] Input (GND) |Brown/Black
-|Relay [Alarm] Output (N.O./N.C)** |Green/Violet
-|Relay [Alarm] Output (COM) |Yellow/Violet
-|===
-
-* Built-in pull up {plus}12V, dry contact switch can be used. +
-Default state (N.O./N.C.) is configurable
-
-** Default state (N.O./N.C.) is configurable
-
-[width="100%",cols="68%,32%",options="header",]
-|===
-|Name |Color
-|RS485 {plus} *** |Gray/Black
-|RS485 - *** |Yellow/Black
-|SPK {plus} *** |Blue/Violet
-|SPK - *** |Brown
-|MIC-R *** |Blue
-|MIC-GND *** |White
-|MIC-L *** |Green
-|===
-
-*** Not in use by {compname-short} systems
+include::ROOT:partial$IZ600F/p-IZ600F-wiring-assignments.adoc[IZ600F Wiring Assignments]
 
 [#s_Preparing-System-Components-and-Wiring]
 
