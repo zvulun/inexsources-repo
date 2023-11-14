@@ -1,0 +1,45 @@
+[table.withborders,width="100%",cols="7%,52%,41%",options="header",]
+|===
+|Item |Description |Ordering Information
+.^|A .^a|*LAN Cables* .^|Supplied by integrator
+.^|B .^a|*Waterproof Cap for Camera Network Connection* .^|Included with camera
+
+ifdef::layout-type-technote[]
+.^|C .^a|*Power Supply for Camera:* 12 VDC,
+50/75W; DIN rail +
+{empty} +
+Can power 2 cameras from a single power supply +
+{empty} +
+Connect to camera with a male barrel
+connector 5.5 mm outer diameter,
+2.1 mm inner diameter,
+or cut off connector and connect
+directly to red/black wires .^|{compname-short} P/N:
+xref:IZPWR:DocList.adoc[IZPWR75-12-MWL-DIN]
+endif::[]
+
+.^|D .^a|*Power Supply for {hw-indoor-processor} (Rev. B)* .^|Included with {hw-indoor-processor}
+.^|E .^a|*Power Supply for Illuminator:* 24 VDC, 100/120W or 240W; DIN rail .^a|
+For {illum-non-strobe}1, use {compname-short} P/N: +
+xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
+
+For {illum-non-strobe}2, use {compname-short} P/N: +
+xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
+
+.^|F .^a|*Power/Signals Cable for Illuminator* .^|Included with illuminator
+
+ifdef::layout-type-technote[]
+
+.^|G .^a|*Power Supply for {hw-gate-controller}
+(Rev. A)* .^|Included with {hw-gate-controller}
+
+.^|H .^a|*Cables for Connection from
+{hw-gate-controller} to Gates* .^|Included
+with {hw-gate-controller}
+
+.^|I .^a|*Gates* .^| Supplied by integrator
+
+endif::[]
+
+.^|J .^a|*{illum-non-strobe} Illuminator* .^|{compname-short} P/N: See the https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
+|===
