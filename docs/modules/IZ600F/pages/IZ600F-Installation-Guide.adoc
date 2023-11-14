@@ -395,10 +395,12 @@ image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=474,h
 |Item |Description |Ordering Information
 .^|A .^a|*LAN Cables* .^|Supplied by integrator
 .^|B .^a|*Waterproof Cap for Camera Network Connection* .^|Included with camera
-//ifdef::layout-type-technote
+ifdef::layout-type-userguide
 [.^|C .^a|*Power Supply for Camera:* 12 VDC,
 50/75W; DIN rail +
+{empty} +
 Can power 2 cameras from a single power supply +
+{empty} +
 Connect to camera with a male barrel
 connector 5.5 mm outer diameter,
 2.1 mm inner diameter,
