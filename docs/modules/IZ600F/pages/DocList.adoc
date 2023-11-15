@@ -1,6 +1,6 @@
 = IZ600F Documents List
 
-* xref:IZ600F:IZ600F-User-Guide.adoc[IZ600F User Guide (in progress)]
+* xref:IZ600F:IZ600F-User-Guide.adoc[IZ600F User Guide]
 
 * xref:IZ600F:IZ600F-Installation-Guide.adoc[IZ600F Installation Guide (in progress)]
 
