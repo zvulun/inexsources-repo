@@ -779,7 +779,7 @@ doing a reset.+++</u>+++
 |Primary Stream - for Primary Stream Encoding Standard set to H.264 |Rate Control Mode/Target Bitrate +
  +
 Rate Control Mode/Image Quality a|
-* If set to CBR (Constant Bit Rate), which helps to keep the bandwidth fixed, then set Target Bitrate = 10 Mbps +
+* If set to CBR (Constant Bit Rate), which helps to keep the bandwidth fixed, then set Target Bitrate = 10 Mbps
 
 {empty} +
 
