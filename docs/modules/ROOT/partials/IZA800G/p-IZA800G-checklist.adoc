@@ -16,7 +16,9 @@ endif::[]
 
 * [*] Power up and set up IP
 
-* [*] Configure LPR/OV camera settings
+* [*] Configure
+ifndef::xref-type-IZ600F[LPR/OV]
+camera settings
 
 * [*] Aim and calibrate
 
