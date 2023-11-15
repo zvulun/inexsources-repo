@@ -647,7 +647,7 @@ IP address.
 
 [#s_Configuring-the-Camera]
 
-== Configure LPR/OV Camera Settings
+== Configure Camera Settings
 
 [#s_Logging-In-to-the-Camera]
 
@@ -772,10 +772,10 @@ require a reset, which can change some of the
 other parameters. Re-check parameter values after
 doing a reset.+++</u>+++
 
-* Set according to your needs
+Set according to your needs
 
-|Primary Stream - for Primary Stream Encoding Standard set to M-JPEG |Image Quality a|* Set Image Quality to the highest quality according to the data capacity of your system. The higher the quality, the higher the data size required. The recommended levels are High, Highest or Low Compression (very high quality).
-|Primary Stream - for Primary Stream Encoding Standard set to H.264 |H.264 Profile a|* Main
+|Primary Stream - for Primary Stream Encoding Standard set to M-JPEG |Image Quality a|Set Image Quality to the highest quality according to the data capacity of your system. The higher the quality, the higher the data size required. The recommended levels are High, Highest or Low Compression (very high quality).
+|Primary Stream - for Primary Stream Encoding Standard set to H.264 |H.264 Profile a|Main
 |Primary Stream - for Primary Stream Encoding Standard set to H.264 |Rate Control Mode/Target Bitrate +
  +
 Rate Control Mode/Image Quality a|
@@ -784,64 +784,14 @@ Rate Control Mode/Image Quality a|
 
 * If set to VBR (Variable Bit Rate), then set Image Quality = Low Compression
 
-|Primary Stream - for Primary Stream Encoding Standard set to H.264 |GOP Structure (Group of Pictures Structure) a|* The interval at which a keyframe is created in the video stream. Set to 5-10 if your network can handle the increased bandwidth (these relatively low values will help to ensure that you don't lose video)
+|Primary Stream - for Primary Stream Encoding Standard set to H.264 |GOP Structure (Group of Pictures Structure) a|The interval at which a keyframe is created in the video stream. Set to 5-10 if your network can handle the increased bandwidth (these relatively low values will help to ensure that you don't lose video)
 |===
 
 [#s_Changing-the-Camera-s-IP-Address]
 
 === Changing the Camera's IP Address
 
-. In the Basic Setup group, click on IP Address:
-
-[NOTE]
-
-========================================
-
-*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the computer using the same URL every time, even after unexpected power outages.
-
-========================================
-
-[#f_Changing-the-Camera-s-IP-Address]
-
-.Changing the Camera's IP Address
-
-image::./UserGuide/image28.png[image,width=624,height=214]
-
-. To change the IP address to a fixed one:
-
-[NOTE]
-
-========================================
-
-The IP address must be unique within the entire ALPR system, and must be within the limits of standard IPv4 address numbering.
-
-========================================
-
-.. Click the Static radio button.
-
-.. Enter the network address parameters. All cameras must be on the same subnet as both the computer you will use to communicate with and configure the camera, and the {compname-short} software computer.
-
-[IMPORTANT]
-
-========================================
-
-It is highly recommended to record the camera's IP address and port number in a safe place. You will need them if the camera's parameters are reset back to their defaults, and for configuring {compname-short} management software.
-
-========================================
-
-. Click Apply.
-
-[IMPORTANT]
-
-========================================
-
-After selecting Apply, you will be requested to close your web browser so the updates can take effect. This will take 20 seconds or more, to allow the camera time to reboot. +
-- If you click the browser's Back button, all values will be discarded. +
-- If you click the browser's Refresh button, the application will load the previous values.
-
-========================================
-
-. In the {software-discovery} utility (see <<s_Reserving-IP-Addresses-in-your-Network>>), click the "Clear List" button, and verify that the camera can be recognized with the new IP address.
+include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
 
 [#s_Video-Device]
 

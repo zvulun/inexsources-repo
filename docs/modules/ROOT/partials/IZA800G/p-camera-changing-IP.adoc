@@ -63,4 +63,4 @@ After selecting Apply, you will be requested to close your web browser so the up
 
 ========================================
 
-. In the {software-discovery} utility (see <<s_Recognizing-Devices-with-IZ-Discovery>>), click the "Clear List" button, and verify that the camera can be recognized with the new IP address.
+. In the {software-discovery} utility (see the {software-discovery} User Guide - see <<s_Related-Documents>>), click the "Clear List" button, and verify that the camera can be recognized with the new IP address.
