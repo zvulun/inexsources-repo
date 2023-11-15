@@ -779,8 +779,8 @@ doing a reset.+++</u>+++
 |Primary Stream - for Primary Stream Encoding Standard set to H.264 |Rate Control Mode/Target Bitrate +
  +
 Rate Control Mode/Image Quality a|
-* If set to CBR (Constant Bit Rate), which helps to keep the bandwidth fixed, then set Target Bitrate = 10 Mbps
-
+* If set to CBR (Constant Bit Rate), which helps to keep the bandwidth fixed, then set Target Bitrate = 10 Mbps +
++
 * If set to VBR (Variable Bit Rate), then set Image Quality = Low Compression
 
 |Primary Stream - for Primary Stream Encoding Standard set to H.264 |GOP Structure (Group of Pictures Structure) a|* The interval at which a keyframe is created in the video stream. Set to 5-10 if your network can handle the increased bandwidth (these relatively low values will help to ensure that you don't lose video)
