@@ -809,34 +809,34 @@ The settings in this section are for basic license plate recognition. Other appl
 
 .Video & Device Parameters
 
-[width="100%",cols="28%,20%,52%",options="header",]
+[table.withborders,width="100%",cols="28%,20%,52%",options="header",]
 |===
 |Sub-category > Parameter Group |Parameter |Setting
 |Video Streams |(See <<s_Basic-Setup>>) |---
-|Video Streams > Camera Settings |DC IRIS Enable a|* Set according to your needs; typically Enable
-|Video Streams > Camera Settings |AE Metering Mode a|* Average or Center
-|Video Streams > Camera Settings |Shutter Control a|* Use Auto (shutter speed chosen automatically from range of all available shutter speeds or Manual (same as Auto but within range you define) +
+|Video Streams > Camera Settings |DC IRIS Enable a|Set according to your needs; typically Enable
+|Video Streams > Camera Settings |AE Metering Mode a|Average or Center
+|Video Streams > Camera Settings |Shutter Control a|Use Auto (shutter speed chosen automatically from range of all available shutter speeds or Manual (same as Auto but within range you define) +
 If Manual, set Shutter Time Max to a lower value than 1/30, typically 1/1000, to prevent smearing of moving vehicle images.
-|Video Streams > Camera Settings |Shutter Time Min a|* Set according to your needs; typically 1/32000
-|Video Streams > Camera Settings |Shutter Time Max a|* Typically 1/1000; however, if the image is too dark at night, increase to 1/500 - but may cause smearing at higher vehicle speeds
-|Video Streams > Camera Settings |3DNR a|* 0
-|Video Streams > Camera Settings |Max AGC Gain a|* 36 for low noise; however, if the image moves, increase this value - but the image will be less clear.
-|Video Streams > Camera Settings |Sense Up Level a|* Off
-|Video Streams > Camera Settings |Back Light Compensation a|* Disable
-|Video Streams > Camera Settings |Auto Exposure Weight a|* 100%
-|Video Streams > Camera Settings |D-WDR Enable a|* Set according to your needs.
-|Video Streams > Camera Settings |D-WDR (Digital Wide Dynamic Range) a|* If Enabled, start with 0. But if the plate appears dark on a bright background, you will have to experiment with this value. The goal is to get a good plate image, with low noise and good brightness.
-|Video Streams > Camera Settings |White Balance a|* Auto
-|Video Streams > Camera Settings |3DNR a|* 0
-|Video Streams > Camera Settings |Day & Night Control a|* Set as needed
-|Video Streams > Camera Settings |Vertical Flip a|* Set as needed
-|Video Streams > Camera Settings |Horizontal Flip a|* Set as needed
-|Motion Detection |--- a|* Disable
-|ROI |--- a|* Disable
-|Privacy Zone |--- a|* Do not use
+|Video Streams > Camera Settings |Shutter Time Min a|Set according to your needs; typically 1/32000
+|Video Streams > Camera Settings |Shutter Time Max a|Typically 1/1000; however, if the image is too dark at night, increase to 1/500 - but may cause smearing at higher vehicle speeds
+|Video Streams > Camera Settings |3DNR a|0
+|Video Streams > Camera Settings |Max AGC Gain a|36 for low noise; however, if the image moves, increase this value - but the image will be less clear.
+|Video Streams > Camera Settings |Sense Up Level a|Off
+|Video Streams > Camera Settings |Back Light Compensation a|Disable
+|Video Streams > Camera Settings |Auto Exposure Weight a|100%
+|Video Streams > Camera Settings |D-WDR Enable a|Set according to your needs.
+|Video Streams > Camera Settings |D-WDR (Digital Wide Dynamic Range) a|If Enabled, start with 0. But if the plate appears dark on a bright background, you will have to experiment with this value. The goal is to get a good plate image, with low noise and good brightness.
+|Video Streams > Camera Settings |White Balance a|Auto
+|Video Streams > Camera Settings |3DNR a|0
+|Video Streams > Camera Settings |Day & Night Control a|Set as needed
+|Video Streams > Camera Settings |Vertical Flip a|Set as needed
+|Video Streams > Camera Settings |Horizontal Flip a|Set as needed
+|Motion Detection |--- a|Disable
+|ROI |--- a|Disable
+|Privacy Zone |--- a|Do not use
 |DI (Digital [Sensor] Input Type)/ +
 DO (Relay [Alarm] Output Type) |Sensor Input Type +
-Alarm Output Type a|* Set each to Normally Open/Normally Closed as needed
+Alarm Output Type a|Set each to Normally Open/Normally Closed as needed
 |===
 
 [#s_System-User]
@@ -853,7 +853,7 @@ Alarm Output Type a|* Set each to Normally Open/Normally Closed as needed
 
 The built-in Administrator username and password is root, IZpass12. *+++<u>+++However, it is highly recommended to create at least one other user which should be publicized instead.+++</u>+++*
 
-**It is also highly recommended to change the Administrator's password (using the System > Admin. Password parameter group) occasionally to keep the camera secure. However, if this password is lost, you will have to reset the device with the FD (Factory Default) button (see <<**s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>>**). All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted.**
+*It is also highly recommended to change the Administrator's password (using the System > Admin. Password parameter group) occasionally to keep the camera secure. However, if this password is lost, you will have to reset the device with the FD (Factory Default) button (see <<s_Hardware-Reset-Resets-Parameters-and-Administrator-Password>>). All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted.*
 
 Only the Administrator (or a registered user with an Administrator role) can see the Admin (configuration) screens via the web interface.
 
@@ -868,7 +868,7 @@ The stream of the Live View can also be accessed using an RTSP URL with the foll
 rtsp://[username:password]@<Camera IP address>/cam0_0 +
 where cam0_0 are camera-specific parameters (which in this case enable you to access the primary stream)
 
-Record this URL with the user name and password details for use when setting parameters in {compname-short} management software.
+Record this URL with the username and password details for use when setting parameters in {compname-short} management software.
 
 ========================================
 
@@ -882,7 +882,7 @@ To add a user:
 
 .Changing the Access Level (System > Access Level)
 
-image::./UserGuide/image29.png[image,width=357,height=242]
+image::ROOT:IZ600F/IZ600F-30-FIG-036a_No_Callout_Access_Level_Full.png[image,width=357,height=242]
 
 ** If System > Access Level = Full Access (recommended initial setting before defining other users and their permissions):
 
@@ -906,7 +906,7 @@ image::./UserGuide/image29.png[image,width=357,height=242]
 
 .User Screen (System > User)
 
-image::./UserGuide/image31.png[image,width=474,height=598]
+image::ROOT:IZ600F/IZ600F-30-FIG-008a_FullScreen_Add_User.png[image,width=474,height=598]
 
 . Click the Add radio button, and enter the new user's details and role. (The User ID is the user name; the Name is a text field to use for the full name of the user or other identifying details.)
 
@@ -914,7 +914,7 @@ image::./UserGuide/image31.png[image,width=474,height=598]
 
 .Adding a User
 
-image::./UserGuide/image33.png[image,width=472,height=201]
+image::ROOT:IZ600F/IZ600F-30-FIG-015a_ZoomIn_Add_User.png[image,width=472,height=201]
 
 . Click the Apply button at the bottom of the screen.
 
@@ -928,7 +928,7 @@ Click the Edit radio button, select a user to edit, and modify the details as ne
 
 .Editing a User
 
-image::./UserGuide/image35.png[image,width=477,height=165]
+image::ROOT:IZ600F/IZ600F-30-FIG-016_Edit_User.png[image,width=477,height=165]
 
 [#s_Deleting-a-User]
 
@@ -948,7 +948,7 @@ The deletion happens immediately; there is *+++<u>+++no+++</u>+++* confirmation 
 
 .Deleting a User
 
-image::./UserGuide/image37.png[image,width=316,height=192]
+image::ROOT:IZ600F/IZ600F-30-FIG-017_Delete_User.png[image,width=316,height=192]
 
 [#s_Calibrating-the-Camera]
 
