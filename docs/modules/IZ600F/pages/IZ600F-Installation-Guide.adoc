@@ -877,18 +877,18 @@ To add a user:
 . Log in to the camera (see <<s_Logging-In-to-the-Camera>>).
 
 . Navigate to the System > Access Level configuration page, and select the Access Level you need:
-
++
 [#f_Changing-the-Access-Level-System-Access-Level]
 
 .Changing the Access Level (System > Access Level)
 
 image::ROOT:IZ600F/IZ600F-30-FIG-036a_No_Callout_Access_Level_Full.png[image,width=357,height=242]
 
-** If System > Access Level = Full Access (recommended initial setting before defining other users and their permissions):
+* *If System > Access Level = Full Access (recommended initial setting before defining other users and their permissions):*
 
-*** Anyone (even a non-registered user) can use the Live View
+** *Anyone (even a non-registered user) can use the Live View*
 
-*** The RTSP URL can be used without a user name and password to see the Live View
+** *The RTSP URL can be used without a user name and password to see the Live View*
 
 ** If you want to limit access to the camera by registering users, you must set the System > Access Level to Limited Access.
 
@@ -901,7 +901,7 @@ image::ROOT:IZ600F/IZ600F-30-FIG-036a_No_Callout_Access_Level_Full.png[image,wid
 . In most cases, you will want to set the Authentication to "Unencrypted". If you change the Authentication, click the Apply button (you will be prompted to close the browser, and you will have to log in again).
 
 . Navigate to System > User (see <<f_User-Screen-System-User>>):
-
++
 [#f_User-Screen-System-User]
 
 .User Screen (System > User)
@@ -909,7 +909,7 @@ image::ROOT:IZ600F/IZ600F-30-FIG-036a_No_Callout_Access_Level_Full.png[image,wid
 image::ROOT:IZ600F/IZ600F-30-FIG-008a_FullScreen_Add_User.png[image,width=474,height=598]
 
 . Click the Add radio button, and enter the new user's details and role. (The User ID is the user name; the Name is a text field to use for the full name of the user or other identifying details.)
-
++
 [#f_Adding-a-User]
 
 .Adding a User

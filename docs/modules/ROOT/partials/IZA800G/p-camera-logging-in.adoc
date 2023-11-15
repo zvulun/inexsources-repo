@@ -26,7 +26,7 @@ When using Live View for the first time, you may be prompted to download and ins
 If you do not have an internet connection to the network on which the camera is installed, wait 30 seconds, and you will be instructed on how to install the ActiveX control locally via the camera's firmware.
 
 The stream of the Live View can also be accessed using an RTSP URL with this format
-ifdef::xref-type-IZ600F[(assuming you have set the correct permissions in the camera for the user – see <<s_Adding_a_User>>)]
+ifdef::xref-type-IZ600F[(assuming you have set the correct permissions in the camera for the user – see <<s_Adding-a-User>>)]
 +++:+++
 
 rtsp://[username:password]@<Camera IP address>/cam0_0 +
