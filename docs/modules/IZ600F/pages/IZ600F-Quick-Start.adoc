@@ -69,30 +69,35 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 [table.noborders,cols="50%,50%",width="100%",frame=none,grid=none]
 |===
 
-a| image::ROOT:IZ600F/IZ600F-30-FIG-046_POENoIllumQuickStart.png[]
-a| image::ROOT:IZ600F/IZ600F-30-FIG-045_PSNoIllumQuickStart.png[]
+.^a| image::ROOT:IZ600F/IZ600F-30-FIG-046_POENoIllumQuickStart.png[]
+.^a| image::ROOT:IZ600F/IZ600F-30-FIG-045_PSNoIllumQuickStart.png[]
 
 |===
 
 //[#f_Typical-Camera-System-Wiring-Diagram]
 
 [discrete]
-=== Camera System Wiring Diagram
+=== Camera with Illuminator Wiring Diagram
 
 //.Typical Camera System Wiring Diagram
 
-image::ROOT:IZA800G/image18.png[image,width=424,height=356]
+image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[]
 
-+++<div class="pagebreak"> </div>+++
+//[#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
-[#t_Wiring-Diagram-Legend-Bill-of-Materials]
+<<<
+
+[discrete]
+=== Camera with Gate Controller Wiring Diagram
+
+image::ROOT:IZ600F/IZ600F-30-FIG-048_GatesQuickStartWiring.png[]
 
 [discrete]
 === Legend
 
 //.Legend
 
-include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
+include::ROOT:partial$IZ600F/p-IZ600F-wiring-table.adoc[IZ600F Wiring Table]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
