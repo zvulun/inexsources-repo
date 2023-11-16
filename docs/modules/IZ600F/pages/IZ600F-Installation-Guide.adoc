@@ -681,6 +681,8 @@ include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
 Close all windows, and the browser window.
 
+<<<
+
 [#s_Using-the-Camera-s-Configuration-Screens]
 
 === Using the Camera's Configuration Screens
