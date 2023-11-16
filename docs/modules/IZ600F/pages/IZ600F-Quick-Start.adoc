@@ -54,7 +54,24 @@ settings.
 [discrete]
 === Checklist
 
-include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
+//include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
+
+[table.noborders,cols="50%,50%",width="100%",frame=none,grid=none]
+|===
+
+.^a|item1 +++<br>+++
+item 2+++<br>+++
+item 3+++<br>+++
+item 4 +++<br>+++
+.^a|item1 +++<br>+++
+item 2+++<br>+++
+item 3+++<br>+++
+item 4 +++<br>+++
+item 5
+
+
+|===
+
 
 {empty} +
 
