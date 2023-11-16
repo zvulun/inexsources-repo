@@ -476,6 +476,8 @@ image::./UserGuide/image15.png[image,width=632,height=144]
 
 . Crimp a male RJ-45 network plug (3) onto the end of the cable, taking care to insert the twisted pairs of wires in the correct order.
 
+<<<
+
 [#s_Install-Cameras-and-Other-Components]
 
 == Install Camera(s) and Other Components
