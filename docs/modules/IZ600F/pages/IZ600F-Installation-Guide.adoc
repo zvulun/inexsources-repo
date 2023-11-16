@@ -811,13 +811,13 @@ Rate Control Mode/Image Quality a|
 |Primary Stream - for Primary Stream Encoding Standard set to H.264 |GOP Structure (Group of Pictures Structure) a|The interval at which a keyframe is created in the video stream. Set to 5-10 if your network can handle the increased bandwidth (these relatively low values will help to ensure that you don't lose video)
 |===
 
-<<<
-
 [#s_Changing-the-Camera-s-IP-Address]
 
 === Changing the Camera's IP Address
 
 include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
+
+<<<
 
 [#s_Video-Device]
 
