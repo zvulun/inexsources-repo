@@ -978,6 +978,8 @@ The deletion happens immediately; there is *+++<u>+++no+++</u>+++* confirmation 
 
 image::ROOT:IZ600F/IZ600F-30-FIG-017_Delete_User.png[image,width=250]
 
+<<<
+
 [#s_Hardware-Reset-Resets-Parameters-and-Administrator-Password]
 
 === Hardware Reset (Resets Parameters and Administrator Password)
@@ -1004,7 +1006,9 @@ image::ROOT:IZ600F/IZ600F-30-FIG-018_Bottom_Opening.png[image,width=192,height=1
 
 .Factory Default (Reset) Button and LEDs
 
-image::./UserGuide/image42.png[image,width=630,height=513]
+image::./UserGuide/image42.png[image,width=400]
+
+<<<
 
 [#s_Calibrating-the-Camera]
 
