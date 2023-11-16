@@ -97,7 +97,7 @@ item 5
 
 //.Typical Camera System Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=400]
+image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700,align=left]
 
 //[#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
