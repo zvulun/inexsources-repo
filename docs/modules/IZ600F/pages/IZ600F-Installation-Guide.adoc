@@ -1006,7 +1006,7 @@ image::ROOT:IZ600F/IZ600F-30-FIG-018_Bottom_Opening.png[image,width=192,height=1
 
 .Factory Default (Reset) Button and LEDs
 
-image::./UserGuide/image42.png[image,width=400]
+image::./UserGuide/image42.png[image,width=450]
 
 <<<
 
