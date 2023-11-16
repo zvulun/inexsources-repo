@@ -573,7 +573,7 @@ image::./UserGuide/image19.png[image,width=333,height=222]
 . Align the tabs in the endcap with the open areas between the threads on the camera's network interface socket (see <<f_Securing-the-Waterproof-Jacket>>).
 
 . Turn the endcap clockwise all the way (until the tabs fit into the grooves in the camera's network interface socket).
-See Figure <<f_Securing-the-Waterproof-Jacket>>.
+See <<f_Securing-the-Waterproof-Jacket>>.
 +
 [#f_Securing-the-Waterproof-Jacket]
 
@@ -660,6 +660,8 @@ for instructions on how to change a
 ifndef::xref-type-IZ600F[Camera System's]
 ifdef::xref-type-IZ600F[camera's]
 IP address.
+
+<<<
 
 [#s_Configuring-the-Camera]
 
