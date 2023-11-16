@@ -659,7 +659,9 @@ See the {software-discovery} User Guide (see <<s_Related-Documents>>)
 for instructions on how to change a
 ifndef::xref-type-IZ600F[Camera System's]
 ifdef::xref-type-IZ600F[camera's]
-IP address.
+IP address. You can also use the camera's configuration
+screens to change the IP address
+(see <<s_Changing-the-Camera-s-IP-Address>>).
 
 <<<
 
