@@ -408,6 +408,8 @@ image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=474,h
 
 include::ROOT:partial$IZ600F/p-IZ600F-wiring-table.adoc[IZ600F Wiring Table]
 
+<<<
+
 [#s_Connectors-and-Wiring-Assignments-Pinout]
 
 === Connectors and Wiring Assignments (Pinout)
@@ -431,6 +433,8 @@ include::ROOT:partial$IZ600F/p-IZ600F-wiring-assignments.adoc[IZ600F Wiring Assi
 * If you are using a 12 VDC power supply, you must provide a male barrel connector (5.5 mm outer diameter, 2.1 mm inner diameter) to connect the ({plus}) and (-) of the power supply to the camera's female power connector.
 
 * If you are using PoE, be sure that your PoE connection is compatible with IEEE 802.3af, and can provide 12 VDC at 1.2 Amp.
+
+<<<
 
 [#s_Waterproof-Cap-for-Network]
 
