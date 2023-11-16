@@ -39,6 +39,8 @@ https://www.videolan.org/vlc/index.html[VLC, window=_blank]
 
 ====
 
+<<<
+
 ** If you need to change the camera's IP address
 or other configuration parameters,
 click the Admin link. When prompted for a login,
