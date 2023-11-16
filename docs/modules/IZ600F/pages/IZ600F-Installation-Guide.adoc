@@ -1037,6 +1037,8 @@ See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
 
+<<<
+
 [#s_Calibrating-the-Camera-Using-RoadView]
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
@@ -1075,6 +1077,8 @@ See the following Note:
 The inner mechanisms of adjustments 2 (pan) and 1 (tilt) (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>) have small teeth. When the teeth mesh with protrusions in the housing, the adjustment position becomes fixed in place. Each tooth corresponds to a certain number of degrees of angle (6° per tooth). However, the distance between each tooth is not always small enough for finer adjustments (that are often required to aim the camera). If the camera is used with a pole mount adapter, you can achieve these finer adjustments by moving the adapter slightly - around the pole.
 ========================================
 
+<<<
+
 [#s_Verifying-the-Installation]
 
 [#s_Verify-System-Operation]
@@ -1108,6 +1112,8 @@ It is recommended to check all mounting screws for proper tightness once every t
 === Cleaning the Camera
 
 Do not use solvents or strong abrasive detergent when cleaning the camera. Use a soft dry cloth to clean the ALPR camera's front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
+
+<<<
 
 == Notices, Safety Precautions and Certifications
 
