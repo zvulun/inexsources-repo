@@ -683,8 +683,6 @@ Close all windows, and the browser window.
 
 [#s_Using-the-Camera-s-Configuration-Screens]
 
-<<<
-
 === Using the Camera's Configuration Screens
 
 [NOTE]
