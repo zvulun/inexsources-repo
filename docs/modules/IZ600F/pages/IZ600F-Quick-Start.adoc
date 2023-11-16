@@ -106,7 +106,7 @@ image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700,a
 [discrete]
 === Camera with Gate Controller Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-048_GatesQuickStartWiring.png[]
+image::ROOT:IZ600F/IZ600F-30-FIG-048_GatesQuickStartWiring.png[image,width=700,align=left]
 
 [discrete]
 === Legend
