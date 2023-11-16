@@ -952,6 +952,34 @@ The deletion happens immediately; there is *+++<u>+++no+++</u>+++* confirmation 
 
 image::ROOT:IZ600F/IZ600F-30-FIG-017_Delete_User.png[image,width=316,height=192]
 
+[#s_Hardware-Reset-Resets-Parameters-and-Administrator-Password]
+
+=== Hardware Reset (Resets Parameters and Administrator Password)
+
+In some cases (such as if the Administrator password is lost), you will need to perform a hardware reset using the FD (Factory Default) button. **All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted (see <<s_Adding-a-User>>)*.
+
+To perform a hardware reset:
+
+. Unscrew the round cover on the bottom of the camera:
++
+[#f_Unscrewing-the-Round-Cover]
+
+.Unscrewing the Round Cover
+
+image::ROOT:IZ600F/IZ600F-30-FIG-018_Bottom_Opening.png[image,width=192,height=183]
+
+. Locate the Factory Default (reset) button (see <<f_Factory-Default-Reset-Button-and-LEDs>>).
+
+. Using a thin item such as a small screwdriver, hold the button down for several seconds until the communication LEDs shut off. The 2 communication LEDs (red/flashing and green/static) are mounted next to each another on the same side of the circuit board you see.
+
+. After the communication LEDs shut off, wait until they light up again. You can then use the camera and configure its parameters.
+
+[#f_Factory-Default-Reset-Button-and-LEDs]
+
+.Factory Default (Reset) Button and LEDs
+
+image::./UserGuide/image42.png[image,width=630,height=513]
+
 [#s_Calibrating-the-Camera]
 
 [#s_Aim-and-Calibrate]
@@ -967,14 +995,24 @@ and the {docproductname} User Guide - see <<s_Related-Documents>>).
 
 Alternatively, in a lab, position a license plate at the expected distance and height.
 
+[#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
+
+=== Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
+
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
+
+[#s_Using-RoadView]
+
+=== Using {software-ALPR}
+
+include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
+
 [#s_Calibrating-the-Camera-Using-RoadView]
 
 === Calibrating the Camera Using {software-ALPR}
 
 [IMPORTANT]
-
 ========================================
-
 See <<s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery>> and <<s_Using-RoadView>> for instructions on how to log in to the computer running {software-ALPR} in your system.
 
 See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for calibration instructions.
@@ -985,7 +1023,12 @@ Read the following instructions before adjusting the camera's position as part o
 
 ========================================
 
-To aim the camera, adjust the Pan (screw 2), Tilt (screw 1) and Roll (screw 3) as described in these instructions, and the {software-ALPR-long} User Guide (see <<s_Related-Documents>>). Use the 3 mm Allen/hex key provided to loosen and tighten the adjustment screws.
+To aim the camera, adjust the Pan (screw 2),
+Tilt (screw 1) and Roll (screw 3) as described
+in these instructions, and in the {software-ALPR-long}
+User Guide (see <<s_Related-Documents>>).
+Use the 3 mm Allen/hex key provided to loosen
+and tighten the adjustment screws.
 
 [#f_Pan-Tilt-Roll-Angle-Adjustments]
 
@@ -996,81 +1039,27 @@ image::./UserGuide/image39.png[image,width=387,height=167]
 See the following Note:
 
 [NOTE]
-
 ========================================
-
 The inner mechanisms of adjustments 2 (pan) and 1 (tilt) (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>) have small teeth. When the teeth mesh with protrusions in the housing, the adjustment position becomes fixed in place. Each tooth corresponds to a certain number of degrees of angle (6° per tooth). However, the distance between each tooth is not always small enough for finer adjustments (that are often required to aim the camera). If the camera is used with a pole mount adapter, you can achieve these finer adjustments by moving the adapter slightly - around the pole.
-
 ========================================
-
-[#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
-
-== Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
-
-See <<s_Recognizing-Devices-with-IZ-Discovery>>.
-
-[#s_Using-RoadView]
-
-== Using {software-ALPR}
-
-[#s_Logging-In]
-
-=== Logging In
-
-. Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {software-ALPR} computer. For example: +
-http://192.115.120.76:80/[http://192.115.120.76]/
-
-. You will see the login screen. Enter the default username and password (root, root):
-
-[#f_Logging-In-to-RoadView]
-
-.Logging In to {software-ALPR}
-
-image::./UserGuide/image40.png[image,width=209,height=143]
-
-. You should see the {software-ALPR} Live (Journal) tab. See the {software-ALPR-long} User Guide for instructions for configuring and using {software-ALPR} (see <<s_Related-Documents>>).
 
 [#s_Verifying-the-Installation]
 
-=== Verifying the Installation
+[#s_Verify-System-Operation]
 
-* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
+== Verify System Operation
 
-* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+* Using a license plate mounted in a lab,
+or by driving a vehicle through the lane,
+verify that an Event is generated with the
+correct plate read (recorded in the
+{software-ALPR} Live (Journal) tab).
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
 
-[#s_Logging-Out]
-
-=== Logging Out
-
-See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
-
-[#s_Hardware-Reset-Resets-Parameters-and-Administrator-Password]
-
-== Hardware Reset (Resets Parameters and Administrator Password)
-
-In some cases (such as if the Administrator password is lost), you will need to perform a hardware reset using the FD (Factory Default) button. **All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted (see <<s_Adding-a-User>>)*.
-
-To perform a hardware reset:
-
-. Unscrew the round cover on the bottom of the camera:
-
-[#f_Unscrewing-the-Round-Cover]
-
-.Unscrewing the Round Cover
-
-image::./UserGuide/image41.png[image,width=192,height=183]
-
-. Locate the Factory Default (reset) button (see <<f_Factory-Default-Reset-Button-and-LEDs>>).
-
-. Using a thin item such as a small screwdriver, hold the button down for several seconds until the communication LEDs shut off. The 2 communication LEDs (red/flashing and green/static) are mounted next to each another on the same side of the circuit board you see.
-
-. After the communication LEDs shut off, wait until they light up again. You can then use the camera and configure its parameters.
-
-[#f_Factory-Default-Reset-Button-and-LEDs]
-
-.Factory Default (Reset) Button and LEDs
-
-image::./UserGuide/image42.png[image,width=630,height=513]
+* Once the lane is active, verify that Events
+are being generated for each vehicle passing each
+camera, and that the recognition has sufficient
+accuracy and confidence.
 
 [#s_Maintenance]
 
@@ -1087,4 +1076,33 @@ It is recommended to check all mounting screws for proper tightness once every t
 === Cleaning the Camera
 
 Do not use solvents or strong abrasive detergent when cleaning the camera. Use a soft dry cloth to clean the ALPR camera's front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
+
+== Notices, Safety Precautions and Certifications
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+//include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
+
+//include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
+
++++<div class="pagebreak"> </div>+++
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
+
+include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IP67.adoc[IP67 Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
+
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
+
+
+Doc. No. {shortprodname}-MAN-002b
 
