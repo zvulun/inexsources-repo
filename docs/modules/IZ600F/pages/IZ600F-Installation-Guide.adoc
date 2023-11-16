@@ -976,7 +976,7 @@ The deletion happens immediately; there is *+++<u>+++no+++</u>+++* confirmation 
 
 .Deleting a User
 
-image::ROOT:IZ600F/IZ600F-30-FIG-017_Delete_User.png[image,width=316,height=192]
+image::ROOT:IZ600F/IZ600F-30-FIG-017_Delete_User.png[image,width=250]
 
 [#s_Hardware-Reset-Resets-Parameters-and-Administrator-Password]
 
