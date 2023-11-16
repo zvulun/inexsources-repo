@@ -82,14 +82,14 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 //.Typical Camera System Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=450,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=500,align=left]
 
 //[#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
 [discrete]
 === Camera with Gate Controller Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-048_GatesQuickStartWiring.png[image,width=450,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-048_GatesQuickStartWiring.png[image,width=500,align=left]
 
 <<<
 
