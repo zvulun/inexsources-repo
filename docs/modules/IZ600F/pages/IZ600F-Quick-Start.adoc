@@ -54,24 +54,7 @@ settings.
 [discrete]
 === Checklist
 
-//include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
-
-[table.noborders,cols="50%,50%",width="100%",frame=none,grid=none]
-|===
-
-.^a|item1 +++<br>+++
-item 2+++<br>+++
-item 3+++<br>+++
-item 4 +++<br>+++
-.^a|item1 +++<br>+++
-item 2+++<br>+++
-item 3+++<br>+++
-item 4 +++<br>+++
-item 5
-
-
-|===
-
+include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
 {empty} +
 
@@ -90,6 +73,8 @@ item 5
 
 |===
 
+<<<
+
 //[#f_Typical-Camera-System-Wiring-Diagram]
 
 [discrete]
@@ -97,16 +82,16 @@ item 5
 
 //.Typical Camera System Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=600,align=left]
 
 //[#t_Wiring-Diagram-Legend-Bill-of-Materials]
-
-<<<
 
 [discrete]
 === Camera with Gate Controller Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-048_GatesQuickStartWiring.png[image,width=700,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-048_GatesQuickStartWiring.png[image,width=600,align=left]
+
+<<<
 
 [discrete]
 === Legend
