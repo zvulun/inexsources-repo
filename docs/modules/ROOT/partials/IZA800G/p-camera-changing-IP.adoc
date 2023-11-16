@@ -1,8 +1,13 @@
 [NOTE]
 ========================================
+*+++<u>+++It is highly recommended to use a
+fixed IP address (not DHCP)+++</u>+++*.
+A fixed IP address enables you to access
+the camera using the same URL every time,
+even after unexpected power outages.
 
-*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access the camera using the same URL every time, even after unexpected power outages.
-
+You can also use {software-discovery} to change
+the camera's IP address (see <<s_Related-Documents>>).
 ========================================
 
 . In the Basic Setup group, click on IP Address:
