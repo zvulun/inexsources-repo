@@ -60,6 +60,8 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 //[#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
 
+<<<
+
 [discrete]
 === Camera with PoE or Power Supply Wiring Diagram
 
@@ -72,8 +74,6 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 .^a| image::ROOT:IZ600F/IZ600F-30-FIG-045_PSNoIllumQuickStart.png[]
 
 |===
-
-<<<
 
 //[#f_Typical-Camera-System-Wiring-Diagram]
 
