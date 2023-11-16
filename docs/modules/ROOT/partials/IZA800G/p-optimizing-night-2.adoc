@@ -1,4 +1,6 @@
+ifndef::xref-type-IZ600F[]
 +++<div class="pagebreak"> </div>+++
+endif::[]
 
 [#s_Illuminator-Mounting-and-Aiming]
 

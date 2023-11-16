@@ -299,8 +299,6 @@ include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV 
 
 include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
 
-<<<
-
 [#s_Additional-Installation-Considerations]
 
 === Additional Installation Considerations
