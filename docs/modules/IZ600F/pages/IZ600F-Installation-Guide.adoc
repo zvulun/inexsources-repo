@@ -1070,11 +1070,20 @@ and tighten the adjustment screws.
 
 image::./UserGuide/image39.png[image,width=387,height=167]
 
-See the following Note:
-
 [NOTE]
 ========================================
-The inner mechanisms of adjustments 2 (pan) and 1 (tilt) (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>) have small teeth. When the teeth mesh with protrusions in the housing, the adjustment position becomes fixed in place. Each tooth corresponds to a certain number of degrees of angle (6° per tooth). However, the distance between each tooth is not always small enough for finer adjustments (that are often required to aim the camera). If the camera is used with a pole mount adapter, you can achieve these finer adjustments by moving the adapter slightly - around the pole.
+The inner mechanisms of adjustments 2 (pan) and
+1 (tilt) (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>)
+have small teeth. When the teeth mesh with protrusions
+in the housing, the adjustment position becomes
+fixed in place. Each tooth corresponds to a
+certain number of degrees of angle (6° per tooth).
+However, the distance between each tooth is
+not always small enough for finer adjustments
+(that are often required to aim the camera).
+If the camera is used with a pole mount adapter,
+you can achieve these finer adjustments by
+moving the adapter slightly - around the pole.
 ========================================
 
 <<<
