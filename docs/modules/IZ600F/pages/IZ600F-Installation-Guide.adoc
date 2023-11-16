@@ -348,9 +348,8 @@ a|
 
 * Minimize distance from trigger device to camera (reduces latency)
 
-|Objects with character-like appearances (interpreted as characters on a plate, resulting in false reads) a|
-Avoid having these items in the Field of View:
-
+|Objects with character-like appearances (interpreted as characters on a plate, resulting in false reads);
+avoid having these items in the Field of View a|
 * Fences with patterns
 
 * Barriers
