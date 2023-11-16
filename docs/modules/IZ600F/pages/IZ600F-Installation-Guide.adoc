@@ -865,6 +865,8 @@ DO (Relay [Alarm] Output Type) |Sensor Input Type +
 Alarm Output Type a|Set each to Normally Open/Normally Closed as needed
 |===
 
+<<<
+
 [#s_System-User]
 
 === System > User
