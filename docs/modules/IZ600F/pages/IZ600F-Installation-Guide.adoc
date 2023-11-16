@@ -573,6 +573,7 @@ image::./UserGuide/image19.png[image,width=333,height=222]
 . Align the tabs in the endcap with the open areas between the threads on the camera's network interface socket (see <<f_Securing-the-Waterproof-Jacket>>).
 
 . Turn the endcap clockwise all the way (until the tabs fit into the grooves in the camera's network interface socket).
+See Figure <<f_Securing-the-Waterproof-Jacket>>.
 +
 [#f_Securing-the-Waterproof-Jacket]
 
@@ -601,6 +602,8 @@ and the cable splitter
 .Insulating the Cable and Connections
 
 image::./UserGuide/image21.png[image,width=630,height=236]
+
+<<<
 
 [#s_Power-Up-and-Set-Up-IP]
 
