@@ -14,7 +14,7 @@
 // Remember to unset all non-relevant attributes
 
 
-//:xref-type-IZ600F:
+:xref-type-IZA800G:
 :layout-type-technote:
 
 //enable the TOC to be placed in a specific position
@@ -100,8 +100,7 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 [discrete]
 == Specifications
 
-*_\{TBD}_*
-//include::ROOT:partial$IZ600F/p-IZ600F-spec-table.adoc[]
+include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 
 +++<div class="pagebreak"> </div>+++
 
