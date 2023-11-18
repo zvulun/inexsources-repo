@@ -57,7 +57,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .3+.^| Environmental
 .^| Ingress Protection
-.^| IP67
+.^| IP67 (NEMA6P)
 
 
 .^| Operating Temperature

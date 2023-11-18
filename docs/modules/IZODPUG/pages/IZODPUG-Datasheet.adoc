@@ -102,7 +102,7 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 
 include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 
-+++<div class="pagebreak"> </div>+++
+//+++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Ordering Information
@@ -118,7 +118,7 @@ include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 
 * {shortprodname}, Outdoor AI Data Processing Unit
 
-//+++<div class="pagebreak"> </div>+++
++++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Dimensions (mm)
