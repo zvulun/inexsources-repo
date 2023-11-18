@@ -113,8 +113,6 @@ include::ROOT:partial$IZ600F/p-IZ600F-spec-table.adoc[]
 
 +++*+++ All models have motorized zoom and auto-focus
 
-+++<div class="pagebreak"> </div>+++
-
 [discrete]
 == Standard Package Contents
 
@@ -126,7 +124,7 @@ include::ROOT:partial$IZ600F/p-IZ600F-spec-table.adoc[]
 
 * Screws and anchors to attach the camera to a wall or surface
 
-+++<div class="pagebreak"> </div>+++
+//+++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Dimensions (mm)
