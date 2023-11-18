@@ -1,0 +1,158 @@
+:docproductname: IZ600F
+:shortprodname: IZ600F
+:generic-camera-name: camera
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+
+:xref-type-IZ600F:
+:layout-type-technote:
+
+//enable the TOC to be placed in a specific position
+//:toc: macro
+
+= {docproductname} Datasheet
+
+//xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
+
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== Bullet ALPR Camera
+
+[discrete]
+=== Rev. A
+//[discrete]
+//=== Datasheet
+
+image:ROOT:image$/IZ600F/IZ600F-30-FIG-001_Full_View.png[Picture of Camera,300,align=left]
+
+// no section numbers in datasheets
+//:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+// no TOC in datasheets ._Click to show the Table of Contents_
+// [%collapsible]
+// ====
+
+// toc::[]
+
+// ====
+
+[discrete]
+== Key Features and Benefits
+* [*] Designed for Parking, Access Control and Security
+
+* [*] Compact design for flexible installation and ease of operation
+
+* [*] Cost-effective solution with everything you need for ALPR
+
+* [*] Motorized zoom and auto-focus – the key to optimized remote tuning
+
+* [*] Wide temperature range – operating from -4 °F to 140 °F (-20°C to 60 °C)
+
+* [*] IP67 ingress protection against extreme moisture
+
+* [*] IK10 vandal-proof housing for efficient, worry-free operation
+
+* [*] NDAA Section 889 compliant for our national security
+
+image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
+image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
+image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
+image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
+image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
+
+
+--
++++<div class="pagebreak"> </div>+++
+--
+
+
+[discrete]
+== Specifications
+
+image::ROOT:IZ600F/IZ600F-RoadDistancesAboveSpecs.png[image,width=623,height=169]
+
+include::ROOT:partial$IZ600F/p-IZ600F-spec-table.adoc[]
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Ordering Information
+
+[table.withborders,width="100%",cols="25%,75%",options="header",]
+|===
+|Part Number+++*+++ |Description
+|{shortprodname}-IR |8.2-82 ft (2.5-25 m) range, Infrared illumination
+|{shortprodname}-DR |8.2-82 ft (2.5-25 m) range, Deep Red illumination
+|===
+
++++*+++ All models have motorized zoom and auto-focus
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Standard Package Contents
+
+* {shortprodname}, Bullet ALPR Camera with 3-axis bracket
+
+* LAN cable connector (field-mountable)
+
+* 3 mm Allen/hex key for pan/tilt/roll adjustment
+
+* Screws and anchors to attach the camera to a wall or surface
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Dimensions (mm)
+
+image::ROOT:IZ600F/IZ600F-Dimensions.png[image,width=623,height=441]
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Connectors and Wiring Assignments (Pinout)
+
+//[#t_Connectors]
+
+//.Connectors
+
+include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connectors]
+
+//[#t_Wiring-Assignments]
+
+//.Multi-wire Names and Colors
+
+include::ROOT:partial$IZ600F/p-IZ600F-wiring-assignments.adoc[IZ600F Wiring Assignments]
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+Doc. No. {shortprodname}-REV-A-TDSHEET
+
