@@ -63,17 +63,24 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 <<<
 
 [discrete]
-=== Camera with PoE or Power Supply Wiring Diagram
+=== Camera with PoE Wiring Diagram
+
+image::ROOT:IZ600F/IZ600F-30-FIG-046_POENoIllumQuickStart.png[image,width=300,align=left]
+
+[discrete]
+=== Camera with Power Supply Wiring Diagram
+
+image::ROOT:IZ600F/IZ600F-30-FIG-045_PSNoIllumQuickStart.png[image,width=300,align=left]
 
 //.Typical Camera System with Illuminator Wiring Diagram
 
-[table.noborders,cols="50%,50%",width="100%",frame=none,grid=none]
-|===
+//[table.noborders,cols="50%,50%",width="100%",frame=none,grid=none]
+//|===
 
-.^a| image::ROOT:IZ600F/IZ600F-30-FIG-046_POENoIllumQuickStart.png[image]
-.^a| image::ROOT:IZ600F/IZ600F-30-FIG-045_PSNoIllumQuickStart.png[image]
+//.^a| image::ROOT:IZ600F/IZ600F-30-FIG-046_POENoIllumQuickStart.png[image]
+//.^a| image::ROOT:IZ600F/IZ600F-30-FIG-045_PSNoIllumQuickStart.png[image]
 
-|===
+//|===
 
 //[#f_Typical-Camera-System-Wiring-Diagram]
 
