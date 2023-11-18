@@ -65,7 +65,7 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 [discrete]
 === Camera with PoE Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-046_POENoIllumQuickStart.png[image,width=300,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-046_NEWPOENoIllumQuickStart.png[image,width=300,align=left]
 
 [discrete]
 === Camera with Power Supply Wiring Diagram
