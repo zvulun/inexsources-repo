@@ -70,7 +70,7 @@ image::ROOT:IZ600F/IZ600F-30-FIG-046_NEWPOENoIllumQuickStart.png[image,width=300
 [discrete]
 === Camera with Power Supply Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-045_PSNoIllumQuickStart.png[image,width=300,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-045_NEWPSNoIllumQuickStart.png[image,width=300,align=left]
 
 //.Typical Camera System with Illuminator Wiring Diagram
 
