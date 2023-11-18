@@ -1,5 +1,7 @@
 = IZ600F Documents List
 
+* xref:IZ600F:IZ600F-Datasheet.adoc[IZ600F Datasheet]
+
 * xref:IZ600F:IZ600F-Quick-Start.adoc[IZ600F Quick Start Guide]
 
 * xref:IZ600F:IZ600F-User-Guide.adoc[IZ600F User Guide]
