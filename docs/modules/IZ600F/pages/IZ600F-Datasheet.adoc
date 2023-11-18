@@ -97,6 +97,9 @@ image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
 
 image::ROOT:IZ600F/IZ600F-RoadDistancesAboveSpecs.png[image,width=623,height=169]
 
+{empty}
+
+
 include::ROOT:partial$IZ600F/p-IZ600F-spec-table.adoc[]
 
 +++<div class="pagebreak"> </div>+++
