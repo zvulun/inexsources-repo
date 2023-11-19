@@ -205,8 +205,7 @@ All network cable extensions and repeaters must be shielded.
 
 ** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 
-** Internet Explorer browser version 11 or higher. +
-You can add an IE Tab extension to Chrome at this https://chrome.google.com/webstore/detail/ie-tab/hehijbfgiekmjfkfjpbkbammjbdenadd[link, window=_blank] (to enable access to the camera configuration application - see <<s_Logging-In-to-the-Camera>>).
+** Chrome or Microsoft Edge browser
 
 //[#s_Planning-Your-Installation]
 
@@ -621,13 +620,13 @@ After connecting the cables to the camera, you can still rotate them slightly to
 
 .Typical Camera System with Illuminator Wiring Diagram
 
-image::ROOT:IZA800GVES/image16.png[image,width=604,height=429]
+image::ROOT:IZA800GVES/IZA800GVES-FIG-012c2-NewQuickStartWiring.png[image,width=604,height=429]
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 .Typical Camera System Wiring Diagram
 
-image::ROOT:IZA800GVES/image17.png[image,width=623,height=324]
+image::ROOT:IZA800GVES/IZA800GVES-FIG-012d2-NewNoIllumWiring.png[image,width=623,height=324]
 
 [#t_Wiring-Diagram-Legend]
 
@@ -670,18 +669,8 @@ The screw terminal blocks of the {hw-connection-panel} are plugs. They can be re
 * LAN
 
 ** Connect the LAN TX {plus}/- and RX {plus}/- leads to the appropriate connections on the {hw-connection-panel}'s larger terminal block.
-+
-[NOTE]
-
-========================================
-
-The Camera System is not compatible with some GigE switches; suggested switch type: 10/100 Mbps.
-
-========================================
 
 ** Connect your network switch to the RJ45 connector on the {hw-connection-panel}.
-
-
 
 +++<div class="pagebreak"> </div>+++
 

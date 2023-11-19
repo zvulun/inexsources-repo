@@ -66,10 +66,13 @@
 Click xref:IZA800GVES:DocList.adoc[here] for full documentation and software.
 
 [sidebar]
-You will need: Laptop with Windows 10 or above;+++<br>+++
-Windows Feature NET 4.5 enabled, IE 11 or higher.+++<br>+++
+You will need: Laptop with Windows 10 or above
+with Windows Feature NET 4.5 enabled.+++<br>+++
+Chrome or Microsoft Edge browser.+++<br>+++
 After mounting, remove the protective film from the camera's front window.+++<br>+++
-You can use xref:IZDiscovery:DocList.adoc[{software-discovery}] to find the desired camera and change its network settings
+You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
+to find the desired camera and change its network
+settings.
 
 [discrete]
 === Checklist
@@ -109,7 +112,7 @@ LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
 
 //.Typical Camera System with Illuminator Wiring Diagram
 
-image::ROOT:IZA800GVES/image16.png[image,width=604,height=429]
+image::ROOT:IZA800GVES/IZA800GVES-FIG-012c2-NewQuickStartWiring.png[image,width=604,height=429]
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
@@ -118,7 +121,7 @@ image::ROOT:IZA800GVES/image16.png[image,width=604,height=429]
 
 //.Typical Camera System Wiring Diagram
 
-image::ROOT:IZA800GVES/image17.png[image,width=623,height=324]
+image::ROOT:IZA800GVES/IZA800GVES-FIG-012d2-NewNoIllumWiring.png[image,width=623,height=324]
 
 +++<div class="pagebreak"> </div>+++
 
