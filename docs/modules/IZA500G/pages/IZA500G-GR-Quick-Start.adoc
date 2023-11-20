@@ -69,10 +69,13 @@
 Click these links for xref:IZA500G:DocList.adoc[IZA500G] and xref:IZA500GR:DocList.adoc[IZA500GR] full documentation and software.
 
 [sidebar]
-You will need: Laptop with Windows 10 or above;+++<br>+++
-Windows Feature NET 4.5 enabled, IE 11 or higher.+++<br>+++
+You will need: Laptop with Windows 10 or above
+with Windows Feature NET 4.5 enabled.+++<br>+++
+Chrome or Microsoft Edge browser.+++<br>+++
 After mounting, remove the protective film from the camera's front window.+++<br>+++
-You can use xref:IZDiscovery:DocList.adoc[{software-discovery}] to find the desired camera and change its network settings
+You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
+to find the desired camera and change its network
+settings.
 
 [discrete]
 === Checklist
