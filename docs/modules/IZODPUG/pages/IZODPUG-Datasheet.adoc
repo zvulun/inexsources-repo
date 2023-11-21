@@ -76,8 +76,6 @@ image:ROOT:IZODPUG/IZODPUG-B1-FIG-042_FrontPage.png[image,300]
 
 * [*] PoE/PSE (Power Source Equipment) – provides power and Ethernet to cameras
 
-* [*] Fanless design for high reliability
-
 * [*] Wide temperature range – operating from -4°F to +140°F (-20°C to +60°C)
 
 * [*] IP67 (NEMA6P) ingress protection against extreme moisture
