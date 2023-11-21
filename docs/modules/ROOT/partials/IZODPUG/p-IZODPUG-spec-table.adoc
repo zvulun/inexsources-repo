@@ -99,7 +99,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| LAN – PG13.5 Gland; GigE Ethernet (10/100/1000M)
 
 .^| Cameras
-.^| CAM1/CAM2 – PG13.5 Gland; PoE/PSE* 802.3af;
+.^| CAM1/CAM2 – PG13.5 Gland; PoE/PSE* 802.3af; +
 GigE Ethernet (10/100/1000M)
 
 .2+.^| Power
