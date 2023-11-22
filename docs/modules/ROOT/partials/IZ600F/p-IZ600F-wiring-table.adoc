@@ -30,16 +30,10 @@ xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
 
 ifdef::layout-type-technote[]
 
-.^|G .^a|*Power Supply for {hw-gate-controller}
-(Rev. A)* .^|Included with {hw-gate-controller}
-
-.^|H .^a|*Cables for Connection from
-{hw-gate-controller} to Gates* .^|Included
-with {hw-gate-controller}
-
-.^|I .^a|*Gates* .^| Supplied by integrator
+.^|G .^a|*Gates* .^| Supplied by integrator
 
 endif::[]
 
-.^|J .^a|*{illum-non-strobe} Illuminator* .^|{compname-short} P/N: See the xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
+.^|H .^a|*{illum-non-strobe} Illuminator* .^|{compname-short} P/N: See the xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
+
 |===

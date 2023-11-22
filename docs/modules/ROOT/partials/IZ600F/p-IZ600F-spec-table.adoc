@@ -38,11 +38,7 @@ Far edge - 140-265 +
 and Camera to Road Edge distance)
 
 .^|Vehicle Speed Range
-.^a|Up to 50 mph (0-80 km/h) +
-With Camera-to-Plate Distance along the road: +
-8-16 ft (2.5-5.0 m) - max 20 mph (32 km/h) +
-16-33 ft (5 .0-10.0 m) - max 30 mph (48 km/h) +
-33-49 ft (10.0-15.0 m) - max 50 mph (80 km/h)
+.^a|Up to 50 mph (0-80 km/h)
 
 .2+.^|LED Illumination
 .^|Built-in Illuminator
