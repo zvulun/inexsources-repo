@@ -65,12 +65,12 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 [discrete]
 === Camera with PoE Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-046_NEWPOENoIllumQuickStart.png[image,width=300,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-046_NEWPOENoIllumQuickStart.png[image,width=500,align=left]
 
 [discrete]
 === Camera with Power Supply Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-045_NEWPSNoIllumQuickStart.png[image,width=300,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-045_NEWPSNoIllumQuickStart.png[image,width=500,align=left]
 
 //.Typical Camera System with Illuminator Wiring Diagram
 
@@ -89,16 +89,16 @@ image::ROOT:IZ600F/IZ600F-30-FIG-045_NEWPSNoIllumQuickStart.png[image,width=300,
 
 //.Typical Camera System Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=500,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=600,align=left]
+
+<<<
 
 //[#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
 [discrete]
-=== Camera with Gate Controller Wiring Diagram
+=== Camera with Web Relay for Gate Control Wiring Diagram
 
 image::ROOT:IZ600F/IZ600F-30-FIG-048c_GatesQuickStartWiring.png[image,width=500,align=left]
-
-<<<
 
 [discrete]
 === Legend
