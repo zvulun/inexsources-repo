@@ -399,7 +399,7 @@ All network cable extensions and repeaters must be shielded.
 
 .Typical Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=474,height=198]
+image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700,align=left]
 
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
