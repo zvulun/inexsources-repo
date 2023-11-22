@@ -45,7 +45,6 @@
 * Data Processing Units (DPUs)
 ** xref:IZIDPUG:DocList.adoc[IZIDPUG]
 ** xref:IZIDPUGOX:DocList.adoc[IZIDPUGOX]
-** xref:IZIDPUGC:DocList.adoc[IZIDPUGC]
 ** xref:IZODPUG:DocList.adoc[IZODPUG]
 ** xref:IZVDPUG:DocList.adoc[IZVDPUG]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=507755425&single=true[DPU Comparisons, window=_blank]

@@ -92,7 +92,6 @@ toc::[]
 .^|xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
 .^|xref:IZODPUG:DocList.adoc[{hw-outdoor-processor}-REV-x-TDSHEET] |{hw-outdoor-processor} AI Outdoor Data Processing Unit: Technical Data Sheet
 .^|xref:IZIDPUG:DocList.adoc[{hw-indoor-processor}-x-MAN-001] |{hw-indoor-processor} Indoor AI Data Processing Unit: Installation and User Guide
-.^|xref:IZIDPUGC:DocList.adoc[{hw-gate-controller}-REV-x-TDSHEET] |Gate Controller and Indoor AI Data Processing Unit: Technical Data Sheet
 .^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
 .^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
