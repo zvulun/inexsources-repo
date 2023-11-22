@@ -7,7 +7,6 @@
 ifdef::layout-type-technote[]
 .^|C .^a|*Power Supply for Camera:* 12 VDC,
 50/75W; DIN rail +
-{empty} +
 Can power 2 cameras from a single power supply +
 {empty} +
 Connect to camera with a male barrel
