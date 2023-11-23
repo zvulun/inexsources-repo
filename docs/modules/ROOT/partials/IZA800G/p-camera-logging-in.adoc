@@ -12,7 +12,7 @@ image::ROOT:/IZA800G/image43.png[image,width=528,height=230]
 . Select the function you need from the links at the upper left:
 
 ** Click the Live button to see what the camera is currently viewing.
-*_\{is this correct - or will it mess up the settings?}_* You can also use controls such as zoom and focus.
+You can also use the zoom and focus controls.
 +
 
 .Click to show notes for Live View
@@ -39,7 +39,6 @@ https://www.videolan.org/vlc/index.html[VLC, window=_blank]
 ========================================
 
 ====
-
 <<<
 
 ** If you need to change the camera's IP address
@@ -53,6 +52,7 @@ with a different name and password
 (see <<s_Adding-a-User>>).
 endif::xref-type-IZ600F[]
 
++
 [IMPORTANT]
 ========================================
 The Administrator user name (root) cannot be changed, and the Administrator password is encrypted. Therefore, if someone changes the Administrator password, there is no way to find out the password if it gets lost.

@@ -708,8 +708,6 @@ right-hand pane.
 After changing parameters,
 remember to click the "Apply"
 button at the end of the list of parameters.
-(The Back button returns to a sub-menu
-without making the change.)
 ========================================
 
 [#f_Configuration-Elements]
