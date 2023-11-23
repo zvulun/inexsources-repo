@@ -9,9 +9,10 @@ Enter the IP address of the camera into the address field of the browser. +
 
 image::ROOT:/IZA800G/image43.png[image,width=528,height=230]
 
-. Select the function you need from the links at the upper right:
+. Select the function you need from the links at the upper left:
 
-** Click the Live View link to see what the camera is currently viewing. You can also use controls such as zoom and focus (see <<s_Calibrating-the-Cameras-Using-RoadView>>).
+** Click the Live button to see what the camera is currently viewing.
+*_\{is this correct - or will it mess up the settings?}_* You can also use controls such as zoom and focus.
 +
 
 .Click to show notes for Live View
@@ -43,7 +44,7 @@ https://www.videolan.org/vlc/index.html[VLC, window=_blank]
 
 ** If you need to change the camera's IP address
 or other configuration parameters,
-click the Admin link. When prompted for a login,
+click the Admin button. When prompted for a login,
 use the Administrator username/password credentials
 of root, IZpass12.
 ifdef::xref-type-IZ600F[]

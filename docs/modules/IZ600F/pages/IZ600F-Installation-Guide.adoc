@@ -696,11 +696,11 @@ described in this section.
 
 You can drill down to the configuration parameters as follows (see <<f_Configuration-Elements>>):
 
-* *Category* (bold); left sidebar; will display a sub-menu (table of this item's nodes). Click to expand/collapse its nodes.
+* *Category* (bold); left sidebar; click to display this item's nodes (a set of parameter groups).
 
-** {plus}Sub-category; click on the plus sign to open the sub-category's nodes. Note that a sub-category can also have its own Parameter Group (parameters in right-hand pane).
-
-*** >>Parameter Group; click to display a set of parameter controls in the right-hand pane. The bottom of the right-hand pane will have a sub-menu (table of the group's nodes, plus other related nodes for convenience).
+** >>Parameter Group; click to display
+a set of parameter controls in the
+right-hand pane.
 
 [IMPORTANT]
 
