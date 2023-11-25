@@ -808,7 +808,7 @@ server will be polled for updates
 
 .Stream Setup Parameters
 
-image::ROOT:IZ600F/IZ600F-Stream-Setup.png[image,width=550]
+image::ROOT:IZ600F/IZ600F-Stream-Setup.png[image,width=500]
 
 Three video streams are available for use,
 each with its own RTSP URL.
