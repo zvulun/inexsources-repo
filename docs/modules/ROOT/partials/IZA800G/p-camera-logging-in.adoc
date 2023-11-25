@@ -7,7 +7,7 @@ Enter the IP address of the camera into the address field of the browser. +
 
 .Camera's Home Page
 
-image::ROOT:/IZA800G/image43.png[image,width=528,height=230]
+image::ROOT:/IZA800G/image43.png[image,width=600]
 
 . Select the function you need from the links at the upper left:
 
