@@ -707,8 +707,12 @@ right-hand pane.
 ========================================
 After changing parameters,
 remember to click the "Apply"
-button at the end of the list of parameters.
+button at the end of +++<u>+++each+++</u>+++ set of parameters (some
+parameter groups have more than one set).
 ========================================
+
+*_\{Why has the Max. Video Encoding dropdown disappeared
+from the camera screens?}_*
 
 [#f_Configuration-Elements]
 
@@ -717,6 +721,26 @@ button at the end of the list of parameters.
 image::./UserGuide/image26.png[image,width=619,height=347]
 
 <<<
+
+[#s_Access-Level]
+
+=== Setting the Access Level
+
+*Your first action should be to set the Access Level to Full,
+with "Encrypted & Unencrypted" Authentication*
+
+This will enable you to receive the video stream
+without any special user identification;
+you can define other users and their
+roles/permissions later if needed (see <<s_Adding-a-User>>).
+
+
+=== Enabling the RTSP Service and Port
+
+
+enable the RTSP Service and select a port*.
+
+
 
 [#s_Basic-Setup]
 
@@ -737,23 +761,14 @@ or tertiary streams, respectively.
 {compname-short} uses the "primary" stream,
 which can supply video for up to 3 clients.
 
-Enter the camera's IP address in your browser,
-and click on the Admin link in the
-Home|Live View|Admin menu (upper right).
-Use the default user/password = root/IZpass12
+//Enter the camera's IP address in your browser,
+//and click on the Admin button at the upper left.
+//Use the default user/password = root/IZpass12
 
-*Set the Access Level to Full,
-with Unencrypted Authentication
-(see <<s_Adding-a-User>>),
-enable the RTSP Service and select a port*.
-This will enable you to receive the video stream
-without any special user identification;
-you can define other users and their
-roles/permissions later if needed.
 
 *Set the Max. Video Encoding before setting
 any other parameters (see Max. Video Encoding
-in <<t_Basic-Setup-Parameters>>*.
+in <<t_Basic-Setup-Parameters>>)*.
 Changing this parameter will require a reset,
 which can change some of the other parameters
 and their ranges.
