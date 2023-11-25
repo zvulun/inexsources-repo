@@ -734,11 +734,24 @@ without any special user identification;
 you can define other users and their
 roles/permissions later if needed (see <<s_Adding-a-User>>).
 
+[#s_RTSP]
 
 === Enabling the RTSP Service and Port
 
+.RTP/RTSP Parameters
 
-enable the RTSP Service and select a port*.
+[table.withborders,width="100%",cols="28%,20%,52%",options="header",]
+|===
+|Category > Parameter Group |Parameter |Setting
+|Network > RTP/RTSP a|Service a|Enable
+|Network > RTP/RTSP a|Packet Size a|1
+|Network > RTP/RTSP a|RTSP Port a|Set the desired RTSP port; typically 554 (default)
+|Network > RTP/RTSP a|Keep-Alive a|On
+|Network > RTP/RTSP a|RTP Auth Algorithm a|MD5 (default)
+|Network > RTP/RTSP a|Multicast Service a|Disable
+|===
+
+
 
 
 
@@ -779,7 +792,7 @@ and their ranges.
 
 [table.withborders,width="100%",cols="28%,20%,52%",options="header",]
 |===
-|Sub-category > Parameter Group |Parameter |Setting
+|Category > Parameter Group |Parameter |Setting
 |IP Address |IP Address |According to the camera's location and the organization of your network (see <<s_Changing-the-Camera-s-IP-Address>>)
 |IP Address |NetMask |According to the camera's location and the organization of your network
 |IP Address |GateWay |According to the camera's location and the organization of your network
