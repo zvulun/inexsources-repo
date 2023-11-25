@@ -728,7 +728,7 @@ parameter groups have more than one set).
 
 .Access Level Parameters
 
-image::ROOT:IZ600F/IZ600F-30-FIG-036a_No_Callout_Access_Level_Full.png[image,width-100]
+image::ROOT:IZ600F/IZ600F-30-FIG-036a_No_Callout_Access_Level_Full.png[image,width=300]
 
 *Your first action should be to set the Access Level to Full,
 with "Encrypted & Unencrypted" Authentication*
