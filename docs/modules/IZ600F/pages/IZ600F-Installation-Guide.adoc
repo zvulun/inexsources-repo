@@ -769,7 +769,46 @@ image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=800]
 
 include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
 
+=== Setting the Date & Time
 
+[#f_Date-Time]
+
+.Date & Time
+
+image::ROOT:IZ600F/IZ600F-Date-Time.png[image,800]
+
+[NOTE]
+========================
+The Time Zone selections are organized by continent.
+For example, the "America/" prefix covers various cities
+and countries in North America (U.S. and Canada) and South America.
+========================
+
+[#t_Date-Time]
+
+.Date & Time
+
+[table.withborders,width="100%",cols="28%,20%,52%",options="header",]
+|===
+|Category > Parameter Group |Parameter |Setting
+|System > Date & Time a|Date a|According to the camera's location
+|System > Date & Time a|Time a|According to the camera's location
+(if a time Service is enabled, the time will be set automatically)
+|System > Date & Time a|Time Zone a|According to the camera's location
+|System > Date & Time a|Service a|Enabled
+|System > Date & Time a|NTP Server Address a|The address of the time server
+|System > Date & Time a|Period a|The interval (in seconds) at which the time
+server will be polled for updates
+|System > Date & Time a|NTP Server Time a|Click to get the server time immediately
+|===
+
+=== Configuring Stream Setup
+
+[#f_Stream-Setup]
+
+.Stream Setup Parameters
+
+image::ROOT:IZ600F/IZ600F-Stream-Setup.png[image,800]
 
 Three video streams are available for use,
 each with its own RTSP URL.
@@ -779,60 +818,55 @@ or tertiary streams, respectively.
 {compname-short} uses the "primary" stream,
 which can supply video for up to 3 clients.
 
-//Enter the camera's IP address in your browser,
-//and click on the Admin button at the upper left.
-//Use the default user/password = root/IZpass12
+[#t_Stream-Setup]
 
-
-[#t_Basic-Setup-Parameters]
-
-.Basic Setup Parameters
+.Stream Setup Parameters
 
 [table.withborders,width="100%",cols="28%,20%,52%",options="header",]
 |===
 |Category > Parameter Group |Parameter |Setting
-|Network > IP Address |IP Address |According to the camera's location and the organization of your network (see <<s_Changing-the-Camera-s-IP-Address>>)
-|Network > IP Address |NetMask |According to the camera's location and the organization of your network
-|Network > IP Address |GateWay |According to the camera's location and the organization of your network
-|Network > IP Address |DNS 1 |According to the camera's location and the organization of your network
-|Network > IP Address |DNS 2 |According to the camera's location and the organization of your network
-|*RTP/RTSP* a|*Service* a|*Enable*
-|*RTP/RTSP* a|*RTSP Port* a|*Set the desired RTSP port; typically 554 (default)*
-|*Video Streams* a|*Max Frame Rate* a|
+|Video & Audio > Stream Setup a|Max Frame Rate a|
 * For U.S. (60 Hz electricity) - 30 fps
 
 * For Europe (50 Hz electricity) - 25 fps
 
-|Video Streams |Video with…(several parameters) |Any item checked here could interfere with the management/analytic software. The text that will be overlaid should be outside the Region of Interest (ROI) of the analytic software.
-|Video Streams |Time Stamp |If this is turned on, it could interfere with the management/analytic software. The text that will be overlaid should be outside the Region of Interest (ROI) of the analytic software.
-|Video Streams |TV Out |Enable
-|Video Streams |Audio Codec |Leave at default
-|Video Streams |Primary Stream > Frame Rate |The options available are determined by the Max. Video Encoding setting in this parameter group.
-|Video Streams |Primary Stream > Image Size |The options available are determined by the Max. Video Encoding setting in this parameter group.
-|Video Streams |Primary Stream > Encoding Standard |The options available are determined by the Max. Video Encoding setting in this parameter group.
-|Video Streams |Primary Stream > Audio |Not in use by {compname-short} software
-|*Video Streams* |*Max. Video Encoding* a|
-*+++<u>+++IMPORTANT+++</u>+++*
+|Video & Audio > Stream Setup |Video with Flexible Extra System
+Data |Enable (checked)
+|Video & Audio > Stream Setup |Video with…(several parameters) |Disabled (not checked)
+//Note that Any item checked here could interfere with the management/analytic software.
+//The text that will be overlaid should be outside
+//the Region of Interest (ROI) of the analytic software.
+|Video & Audio > Stream Setup |Time Stamp |Off
+//If this is turned on, it could interfere with the
+//management/analytic software. The text that will be
+//overlaid should be outside the Region of Interest
+//(ROI) of the analytic software.
+|Video & Audio > Stream Setup |TV Out |Enable
+|Video & Audio > Stream Setup |Audio Codec |Leave at default
+|Video & Audio > Stream Setup |Frame Rate |The options available are determined by the Max. Video Encoding setting in this parameter group.
+|Video & Audio > Stream Setup |Primary/Secondary/Tertiary |Click "Primary" (turns red)
+|Video & Audio > Stream Setup |Camera Name |Enter a name for the camera (usually "Primary Stream")
+|Video & Audio > Stream Setup |Frame Rate |5 fps
+|Video & Audio > Stream Setup |Image Size |2048x1536
+|Video & Audio > Stream Setup |Encoding Standard |M-JPEG
+|Video & Audio > Stream Setup |Image Quality |Normal
+|Video & Audio > Stream Setup |Audio |Disable
+//|Primary Stream - for Primary Stream Encoding Standard set to M-JPEG |Image Quality a|Set Image Quality to the highest quality according to the data capacity of your system. The higher the quality, the higher the data size required. The recommended levels are High, Highest or Low Compression (very high quality).
+//|Primary Stream - for Primary Stream Encoding Standard set to H.264 |H.264 Profile a|Main
+//|Primary Stream - for Primary Stream Encoding Standard set to H.264 |Rate Control Mode/Target Bitrate +
+|===
 
-+++<u>+++Changing this parameter will
-require a reset, which can change some of the
-other parameters. Re-check parameter values after
-doing a reset.+++</u>+++
+=== Configuring Camera Setup
 
-Set according to your needs
 
-|Primary Stream - for Primary Stream Encoding Standard set to M-JPEG |Image Quality a|Set Image Quality to the highest quality according to the data capacity of your system. The higher the quality, the higher the data size required. The recommended levels are High, Highest or Low Compression (very high quality).
-|Primary Stream - for Primary Stream Encoding Standard set to H.264 |H.264 Profile a|Main
-|Primary Stream - for Primary Stream Encoding Standard set to H.264 |Rate Control Mode/Target Bitrate +
- +
 Rate Control Mode/Image Quality a|
 * If set to CBR (Constant Bit Rate), which helps to keep the bandwidth fixed, then set Target Bitrate = 10 Mbps +
 
 
 * If set to VBR (Variable Bit Rate), then set Image Quality = Low Compression
 
-|Primary Stream - for Primary Stream Encoding Standard set to H.264 |GOP Structure (Group of Pictures Structure) a|The interval at which a keyframe is created in the video stream. Set to 5-10 if your network can handle the increased bandwidth (these relatively low values will help to ensure that you don't lose video)
-|===
+
+
 
 
 <<<
@@ -887,7 +921,9 @@ Alarm Output Type a|Set each to Normally Open/Normally Closed as needed
 
 [#s_System-User]
 
-=== System > User
+=== Configuring Users/Passwords
+
+*_\{admin p/w has a setup menu item!!!}_*
 
 [#s_Adding-a-User]
 
@@ -922,13 +958,9 @@ To add a user:
 
 . Log in to the camera (see <<s_Logging-In-to-the-Camera>>).
 
-. Navigate to the System > Access Level configuration page, and select the Access Level you need:
+. Navigate to the System > Access Level configuration page,
+and select the Access Level you need (see *_\{xref}_*)
 +
-[#f_Changing-the-Access-Level-System-Access-Level]
-
-.Changing the Access Level (System > Access Level)
-
-image::ROOT:IZ600F/IZ600F-30-FIG-036a_No_Callout_Access_Level_Full.png[image,width=357,height=242]
 
 * *If System > Access Level = Full Access (recommended initial setting before defining other users and their permissions):*
 
@@ -944,13 +976,16 @@ image::ROOT:IZ600F/IZ600F-30-FIG-036a_No_Callout_Access_Level_Full.png[image,wid
 
 . If you change the Access Permission, click the Apply button under the Access Permission section.
 
-. In most cases, you will want to set the Authentication to "Unencrypted". If you change the Authentication, click the Apply button (you will be prompted to close the browser, and you will have to log in again).
+. In most cases, you will want to set the Authentication to
+include "Unencrypted". If you change the Authentication,
+click the Apply button (you will be prompted to close the browser,
+and you will have to log in again).
 
-. Navigate to System > User (see <<f_User-Screen-System-User>>):
+. Navigate to *_\{change the name}_* System > User (see <<f_User-Screen-System-User>>):
 +
 [#f_User-Screen-System-User]
 
-.User Screen (System > User)
+.User Screen (*_\{change the name}_* System > User)
 
 image::ROOT:IZ600F/IZ600F-30-FIG-008a_FullScreen_Add_User.png[image,width=474,height=598]
 
