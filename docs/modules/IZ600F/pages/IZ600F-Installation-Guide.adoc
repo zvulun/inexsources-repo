@@ -724,6 +724,12 @@ parameter groups have more than one set).
 
 === Setting the Access Level
 
+[#f_Access-Level]
+
+.Access Level Parameters
+
+image::ROOT:IZ600F/IZ600F-30-FIG-036a_No_Callout_Access_Level_Full.png[image,width-500]
+
 *Your first action should be to set the Access Level to Full,
 with "Encrypted & Unencrypted" Authentication*
 
@@ -742,6 +748,8 @@ roles/permissions later if needed (see <<s_Adding-a-User>>).
 
 image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=500]
 
+[#t_RTP-RTSP-Parameters]
+
 .RTP/RTSP Parameters
 
 [table.withborders,width="100%",cols="28%,20%,52%",options="header",]
@@ -755,20 +763,13 @@ image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=500]
 |Network > RTP/RTSP a|Multicast Service a|Disable
 |===
 
+[#s_Changing-the-Camera-s-IP-Address]
+
+=== Changing the Camera's IP Address
+
+include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
 
 
-
-
-[#s_Basic-Setup]
-
-=== Basic Setup
-
-[NOTE]
-========================================
-The settings in this section are for basic
-license plate recognition.
-Other applications may require different settings.
-========================================
 
 Three video streams are available for use,
 each with its own RTSP URL.
@@ -783,13 +784,6 @@ which can supply video for up to 3 clients.
 //Use the default user/password = root/IZpass12
 
 
-*Set the Max. Video Encoding before setting
-any other parameters (see Max. Video Encoding
-in <<t_Basic-Setup-Parameters>>)*.
-Changing this parameter will require a reset,
-which can change some of the other parameters
-and their ranges.
-
 [#t_Basic-Setup-Parameters]
 
 .Basic Setup Parameters
@@ -797,11 +791,11 @@ and their ranges.
 [table.withborders,width="100%",cols="28%,20%,52%",options="header",]
 |===
 |Category > Parameter Group |Parameter |Setting
-|IP Address |IP Address |According to the camera's location and the organization of your network (see <<s_Changing-the-Camera-s-IP-Address>>)
-|IP Address |NetMask |According to the camera's location and the organization of your network
-|IP Address |GateWay |According to the camera's location and the organization of your network
-|IP Address |DNS 1 |According to the camera's location and the organization of your network
-|IP Address |DNS 2 |According to the camera's location and the organization of your network
+|Network > IP Address |IP Address |According to the camera's location and the organization of your network (see <<s_Changing-the-Camera-s-IP-Address>>)
+|Network > IP Address |NetMask |According to the camera's location and the organization of your network
+|Network > IP Address |GateWay |According to the camera's location and the organization of your network
+|Network > IP Address |DNS 1 |According to the camera's location and the organization of your network
+|Network > IP Address |DNS 2 |According to the camera's location and the organization of your network
 |*RTP/RTSP* a|*Service* a|*Enable*
 |*RTP/RTSP* a|*RTSP Port* a|*Set the desired RTSP port; typically 554 (default)*
 |*Video Streams* a|*Max Frame Rate* a|
@@ -840,11 +834,6 @@ Rate Control Mode/Image Quality a|
 |Primary Stream - for Primary Stream Encoding Standard set to H.264 |GOP Structure (Group of Pictures Structure) a|The interval at which a keyframe is created in the video stream. Set to 5-10 if your network can handle the increased bandwidth (these relatively low values will help to ensure that you don't lose video)
 |===
 
-[#s_Changing-the-Camera-s-IP-Address]
-
-=== Changing the Camera's IP Address
-
-include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
 
 <<<
 
@@ -867,7 +856,7 @@ The settings in this section are for basic license plate recognition. Other appl
 [table.withborders,width="100%",cols="28%,20%,52%",options="header",]
 |===
 |Sub-category > Parameter Group |Parameter |Setting
-|Video Streams |(See <<s_Basic-Setup>>) |---
+|Video Streams |(See *_\{was s_Basic-Setup}_*) |---
 |Video Streams > Camera Settings |DC IRIS Enable a|Set according to your needs; typically Enable
 |Video Streams > Camera Settings |AE Metering Mode a|Average or Center
 |Video Streams > Camera Settings |Shutter Control a|Use Auto (shutter speed chosen automatically from range of all available shutter speeds or Manual (same as Auto but within range you define) +

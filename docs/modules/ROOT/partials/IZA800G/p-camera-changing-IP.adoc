@@ -10,7 +10,7 @@ You can also use {software-discovery} to change
 the camera's IP address (see <<s_Related-Documents>>).
 ========================================
 
-. In the Basic Setup group, click on IP Address:
+. In the Network group, click on IP Address:
 +
 [#f_Changing-the-Camera-s-IP-Address]
 
