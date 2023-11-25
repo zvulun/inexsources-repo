@@ -775,7 +775,7 @@ include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Add
 
 .Date & Time
 
-image::ROOT:IZ600F/IZ600F-Date-Time.png[image,800]
+image::ROOT:IZ600F/IZ600F-Date-Time.png[image,width=600]
 
 [NOTE]
 ========================
@@ -808,7 +808,7 @@ server will be polled for updates
 
 .Stream Setup Parameters
 
-image::ROOT:IZ600F/IZ600F-Stream-Setup.png[image,800]
+image::ROOT:IZ600F/IZ600F-Stream-Setup.png[image,width=600]
 
 Three video streams are available for use,
 each with its own RTSP URL.
