@@ -736,6 +736,12 @@ roles/permissions later if needed (see <<s_Adding-a-User>>).
 
 === Enabling the RTSP Service and Port
 
+[#f_RTP-RTSP-Parameters]
+
+.RTP/RTSP Parameters
+
+image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=500]
+
 .RTP/RTSP Parameters
 
 [table.withborders,width="100%",cols="28%,20%,52%",options="header",]
@@ -904,7 +910,7 @@ Alarm Output Type a|Set each to Normally Open/Normally Closed as needed
 
 The built-in Administrator username and password is root, IZpass12. *+++<u>+++However, it is highly recommended to create at least one other user which should be publicized instead.+++</u>+++*
 
-*It is also highly recommended to change the Administrator's password (using the System > Admin. Password parameter group) occasionally to keep the camera secure. However, if this password is lost, you will have to reset the device with the FD (Factory Default) button (see <<s_Hardware-Reset-Resets-Parameters-and-Administrator-Password>>). All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted (see <<s_Adding-a-User>>).*
+*It is also highly recommended to change the Administrator's password (using the System > Admin. Password parameter group) occasionally to keep the camera secure. However, if this password is lost, you will have to reset the device with the FD (Factory Default) button (see <<s_Hardware-Reset-Resets-Parameters-and-Administrator-Password>>). All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted.*
 
 Only the Administrator (or a registered user with an Administrator role) can see the Admin (configuration) screens via the web interface.
 
