@@ -686,12 +686,19 @@ Close all windows, and the browser window.
 
 === Using the Camera's Configuration Screens
 
+[#f_Configuration-Elements]
+
+.Configuration Elements
+
+image::./UserGuide/image26.png[image,width=619,height=347]
+
+
 [NOTE]
 ========================================
 Most configuration parameters may already
 have been pre-set for you.
 You only need to change the parameters
-described in this section.
+described in the following sections.
 ========================================
 
 You can drill down to the configuration parameters as follows (see <<f_Configuration-Elements>>):
@@ -710,15 +717,6 @@ remember to click the "Apply"
 button at the end of +++<u>+++each+++</u>+++ set of parameters (some
 parameter groups have more than one set).
 ========================================
-
-*_\{Why has the Max. Video Encoding dropdown disappeared
-from the camera screens?}_*
-
-[#f_Configuration-Elements]
-
-.Configuration Elements
-
-image::./UserGuide/image26.png[image,width=619,height=347]
 
 <<<
 
