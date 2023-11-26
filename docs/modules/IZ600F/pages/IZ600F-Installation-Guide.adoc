@@ -796,6 +796,8 @@ image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=800]
 
 ////
 
+<<<
+
 [#s_Changing-the-Camera-s-IP-Address]
 
 === Changing the Camera's IP Address (Network > IP Address)
