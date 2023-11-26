@@ -409,7 +409,7 @@ All network cable extensions and repeaters must be shielded.
 
 .Typical Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700]
 
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
@@ -800,6 +800,8 @@ image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=800]
 
 include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
 
+<<<
+
 [#s_Date-Time]
 
 === Setting the Date & Time (System > Date & Time)
@@ -841,6 +843,8 @@ server will be polled for updates
 |===
 
 ////
+
+<<<
 
 [#s_Stream-Setup]
 
@@ -922,6 +926,8 @@ Data |Enabled (checked)
 |===
 
 ////
+
+<<<
 
 [#s_Camera-Setup]
 
