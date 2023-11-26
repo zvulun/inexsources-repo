@@ -47,13 +47,13 @@ It is highly recommended to record the camera's IP address and port number in a 
 
 [table.withborders,width="100%",cols="28%,20%,52%",options="header",]
 |===
-|Sub-category > Parameter Group |Parameter |Setting
-|IP Address |Service (radio buttons) |Set to Static to be able to access the camera
-|IP Address |IP Address |According to the camera's location and the organization of your network.
-|IP Address |NetMask |According to the camera's location and the organization of your network
-|IP Address |GateWay |According to the camera's location and the organization of your network
-|IP Address |DNS 1 |According to the camera's location and the organization of your network
-|IP Address |DNS 2 |According to the camera's location and the organization of your network
+|Category > Parameter Group |Parameter |Setting
+|Network > IP Address |Service (radio buttons) |Set to Static to be able to access the camera
+|Network > IP Address |IP Address |According to the camera's location and the organization of your network.
+|Network > IP Address |NetMask |According to the camera's location and the organization of your network
+|Network > IP Address |GateWay |According to the camera's location and the organization of your network
+|Network > IP Address |DNS 1 |According to the camera's location and the organization of your network
+|Network > IP Address |DNS 2 |According to the camera's location and the organization of your network
 |===
 
 --

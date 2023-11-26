@@ -739,29 +739,39 @@ image::ROOT:IZ600F/IZ600F-30-FIG-036a_No_Callout_Access_Level_Full.png[image,wid
 *Your first action should be to set the Access Level to Full,
 with "Encrypted & Unencrypted" Authentication*
 
-This will enable you to receive the video stream
-without any special user identification;
-you can define other users and their
-roles/permissions later if needed (see <<s_Adding-a-User>>).
+An Access Leve of "Full" will enable you to receive the
+video stream without any special user identification, so that:
+//You can define other users and their
+//roles/permissions later if needed (see <<s_Adding-a-User>>).
 
-* If you change the Access Permission, click the Apply button
+* Anyone can use the Live View
+
+* The RTSP URL can be used without a username and password
+to see the Live View
+
+[IMPORTANT]
+============================
+If you change the Access Permission, click the Apply button
 under the Access Permission section.
 
-* In most cases, you will want to set the Authentication to
-include "Unencrypted". If you change the Authentication,
-click the Apply button (you will be prompted to close the browser,
+//* In most cases, you will want to set the Authentication to
+//include "Unencrypted".
+If you change the Authentication, click the Apply button
+in that section (you will be prompted to close the browser,
 and you will have to log in again).
-
+============================
 
 [#s_RTSP]
 
-=== Enabling the RTSP Service and Port
+=== Enabling the RTSP Service and Port (Network > RTP/RTSP)
 
 [#f_RTP-RTSP-Parameters]
 
 .RTP/RTSP Parameters
 
 image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=800]
+
+////
 
 [#t_RTP-RTSP-Parameters]
 
@@ -778,15 +788,17 @@ image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=800]
 |Network > RTP/RTSP a|Multicast Service a|Disable
 |===
 
+////
+
 [#s_Changing-the-Camera-s-IP-Address]
 
-=== Changing the Camera's IP Address
+=== Changing the Camera's IP Address (Network > IP Address)
 
 include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
 
 [#s_Date-Time]
 
-=== Setting the Date & Time
+=== Setting the Date & Time (System > Date & Time)
 
 [#f_Date-Time]
 
@@ -799,7 +811,12 @@ image::ROOT:IZ600F/IZ600F-Date-Time.png[image,width=500]
 The Time Zone selections are organized by continent.
 For example, the "America/" prefix covers various cities
 and countries in North America (U.S. and Canada) and South America.
+
+The "Period" is the interval (in seconds)
+at which the time server will be polled for updates.
 ========================
+
+////
 
 [#t_Date-Time]
 
@@ -819,9 +836,11 @@ server will be polled for updates
 |System > Date & Time a|NTP Server Time a|Click to get the server time immediately
 |===
 
+////
+
 [#s_Stream-Setup]
 
-=== Configuring Stream Setup
+=== Configuring Stream Setup (Video & Audio > Stream Setup)
 
 [#f_Stream-Setup]
 
@@ -836,6 +855,22 @@ where n is 0,1 or 2 for the primary, secondary
 or tertiary streams, respectively.
 {compname-short} uses the "primary" stream,
 which can supply video for up to 3 clients.
+
+Note the following details about some
+of the parameters:
+
+* Max Frame Rate
+** For U.S. (60 Hz electricity) - 30 fps
+** For Europe (50 Hz electricity) - 25 fps
+
+* Primary/Seconday/Tertiary - be sure to click
+"Primary" (turns red)
+
+* If any additional parameters appear below
+the main two sets of parameters, leave them
+at their defaults (depends on camera model)
+
+////
 
 [#t_Stream-Setup]
 
@@ -882,15 +917,29 @@ Data |Enabled (checked)
 //then set ImageQuality = Low Compression
 |===
 
+////
+
 [#s_Camera-Setup]
 
-=== Configuring Camera Setup
+=== Configuring Camera Setup (Video & Audio > Camera Setup)
 
 [#f_Camera-Setup]
 
 .Camera Setup Parameters
 
 image::ROOT:IZ600F/IZ600F-Camera-Setup.png[image,width=500]
+
+Note the following details about some
+of the parameters:
+
+* Mode - click on "Default(Day)"; turns red
+
+* Shutter Control is set to Manual - means that
+the shutter speed will be chosen automatically
+between the Shutter Time Min and Max
+
+
+////
 
 [#t_Camera-Setup]
 
@@ -946,6 +995,8 @@ automatically from range that you define)
 |Video & Audio > Camera Setup |Corridor Mode |Disable
 |===
 
+////
+
 
 === Configuring Motion Detection (Video & Audio > Motion Detection)
 
@@ -965,7 +1016,6 @@ image::ROOT:IZ600F/IZ600F-Motion-Detection.png[image,width=500]
 //Alarm Output Type a|Set each to Normally Open/Normally Closed as needed
 //|===
 
-<<<
 ////
 
 [#s_System-User]
