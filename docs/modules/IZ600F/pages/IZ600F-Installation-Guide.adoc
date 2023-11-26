@@ -966,6 +966,7 @@ image::ROOT:IZ600F/IZ600F-Motion-Detection.png[image,width=500]
 //|===
 
 <<<
+////
 
 [#s_System-User]
 
@@ -1027,11 +1028,11 @@ before defining other users and their permissions):*
 to see the Live View* +
 
 * If you want to limit access to the camera by registering users,
-you must set the System > Access Level to Limited Access (see <<s_Access-Level>>).
+you must set the System > Access Level to Limited Access (see <<s_Access-Level>>). If so, then:
 
 ** Users must be registered with a password to see the Live View
 via the web interface. Note: Since @ is used as a separator in the
-RTSP URL syntax, it is recommended not to use this character in the
+RTSP URL syntax, it is recommended +++<u>+++not+++</u>+++ to use this character in the
 password.
 
 ** The RTSP URL must be used with a user name and password,
@@ -1094,7 +1095,10 @@ image::ROOT:IZ600F/IZ600F-30-FIG-017_Delete_User.png[image,width=250]
 
 ==== Changing the Built-in Administrator Password
 
-*_\{has separate menu item}_*
+Navigate to System > Admin. Password
+
+image::ROOT:IZ600F/IZ600F-Admin-Password.png[image,width=450]
+////
 
 <<<
 
@@ -1102,7 +1106,9 @@ image::ROOT:IZ600F/IZ600F-30-FIG-017_Delete_User.png[image,width=250]
 
 === Hardware Reset (Resets Parameters and Administrator Password)
 
-In some cases (such as if the Administrator password is lost), you will need to perform a hardware reset using the FD (Factory Default) button. **All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted (see <<s_Adding-a-User>>)*.
+In some cases (such as if the Administrator password is lost),
+you will need to perform a hardware reset using the FD (Factory Default)
+button. **All setting values will be reverted to their factory defaults, and any additional user accounts that were created will be deleted (see <<s_Adding-a-User>>)*.
 
 To perform a hardware reset:
 
