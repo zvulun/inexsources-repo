@@ -278,7 +278,13 @@ image::./UserGuide/image5.png[image,width=187,height=179]
 +
 . Install the camera as described in the following sections.
 
-. Depending upon whether or not the illumination is sufficient at night, and the plate types you need to recognize, you may need to perform the camera calibration and configuration first under dark conditions, with the Day & Night Control set to Night (see <<s_Video-Device>>). If you will also have to recognize plates under light (day) conditions, change the Day & Night Control afterwards to Auto.
+. Depending upon whether or not the illumination is sufficient at night,
+and the plate types you need to recognize,
+you may need to perform the camera calibration and configuration
+first under dark conditions, with the Day & Night Control set to Night
+(see <<s_Camera-Setup>>). If you will also have to recognize
+plates under light (day) conditions,
+change the Day & Night Control afterwards to Auto.
 
 <<<
 
@@ -769,6 +775,8 @@ image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=800]
 
 include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
 
+[#s_Date-Time]
+
 === Setting the Date & Time
 
 [#f_Date-Time]
@@ -802,6 +810,8 @@ server will be polled for updates
 |System > Date & Time a|NTP Server Time a|Click to get the server time immediately
 |===
 
+[#s_Stream-Setup]
+
 === Configuring Stream Setup
 
 [#f_Stream-Setup]
@@ -831,7 +841,7 @@ which can supply video for up to 3 clients.
 * For Europe (50 Hz electricity) - 25 fps
 
 |Video & Audio > Stream Setup |Video with Flexible Extra System
-Data |Enable (checked)
+Data |Enabled (checked)
 |Video & Audio > Stream Setup |Video with…(several parameters) |Disabled (not checked)
 //Note that Any item checked here could interfere with the management/analytic software.
 //The text that will be overlaid should be outside
@@ -851,64 +861,85 @@ Data |Enable (checked)
 |Video & Audio > Stream Setup |Encoding Standard |M-JPEG
 |Video & Audio > Stream Setup |Image Quality |Normal
 |Video & Audio > Stream Setup |Audio |Disable
+|Video & Audio > Stream Setup |Additional parameters (depends on camera model) |Leave at default
 //|Primary Stream - for Primary Stream Encoding Standard set to M-JPEG |Image Quality a|Set Image Quality to the highest quality according to the data capacity of your system. The higher the quality, the higher the data size required. The recommended levels are High, Highest or Low Compression (very high quality).
 //|Primary Stream - for Primary Stream Encoding Standard set to H.264 |H.264 Profile a|Main
 //|Primary Stream - for Primary Stream Encoding Standard set to H.264 |Rate Control Mode/Target Bitrate +
+//{empty} +
+//Rate Control/Mode Image Quality a|* If set to CBR (Constant Bit Rate), which helps to keep the bandwidth fixed,
+//then set Target Bitrate = 10 Mbps
+//*If set to VBR (Variable Bit Rate),
+//then set ImageQuality = Low Compression
 |===
+
+[#s_Camera-Setup]
 
 === Configuring Camera Setup
 
+[#f_Camera-Setup]
 
-Rate Control Mode/Image Quality a|
-* If set to CBR (Constant Bit Rate), which helps to keep the bandwidth fixed, then set Target Bitrate = 10 Mbps +
+.Camera Setup Parameters
 
+image::ROOT:IZ600F/IZ600F-Camera-Setup.png[image,width=500]
 
-* If set to VBR (Variable Bit Rate), then set Image Quality = Low Compression
+[#t_Camera-Setup]
 
+.Camera Setup Parameters
 
+[table.withborders,width="100%",cols="28%,20%,52%",options="header",]
+|===
+|Category > Parameter Group |Parameter |Setting
+|Video & Audio > Camera Setup |Mode |Click on "Default (Day)"; turns red
+|Video & Audio > Camera Setup |DC IRIS Enable a|Enable
+//Set according to your needs; typically Enable
+|Video & Audio > Camera Setup |AE Metering Mode a|Center
+//or Average
+|Video & Audio > Camera Setup |Shutter Control a|Manual (shutter speed chosen
+automatically from range that you define)
+//or Automatic (shutter speed chosen automatically from
+//all available shutter speeds.
+//If manual,
+|Video & Audio > Camera Setup |Shutter Time Min a|1/32000
+//Set according to your needs; typically 1/32000
+|Video & Audio > Camera Setup |Shutter Time Max a|1/3000; *_\{should we say this}_*
+however, if the image is too dark at night, increase to 1/500 - but may
+cause smearing at higher vehicle speeds.
+//When the Shutter Control is Manual, set Shutter Time Max to a value lower than 1/30,
+//typically 1/1000, to prevent smearing of moving vehicle images.
+|Video & Audio > Camera Setup |Max AGC Gain a|36
+// 36 is for low noise; however,
+//if the image moves, increase this value -
+//but the image will be less clear.
+|Video & Audio > Camera Setup |Sense Up Level a|Off
+|Video & Audio > Camera Setup |Back Light Compensation a|Disable
+|Video & Audio > Camera Setup |Auto Exposure Weight a|100%
+|Video & Audio > Camera Setup |DOL-WDR Enable a|Disable
+//Set according to your needs.
+|Video & Audio > Camera Setup |D-WDR (Digital Wide Dynamic Range) a|0
+//If Enabled, start with 0. But if the plate appears dark
+//on a bright background, you will have to experiment with this value.
+//The goal is to get a good plate image, with low noise and good brightness.
+|Video & Audio > Camera Setup |Brightness |0
+|Video & Audio > Camera Setup |Contrast |64
+|Video & Audio > Camera Setup |Hue |2
+|Video & Audio > Camera Setup |Saturation |80
+|Video & Audio > Camera Setup |Sharpness |6
+|Video & Audio > Camera Setup |White Balance a|Auto
+|Video & Audio > Camera Setup |3DNR a|3
+|Video & Audio > Camera Setup |Day & Night Control a|Auto(Night B/W)
+|Video & Audio > Camera Setup |Day to Night Dwelling Time |3
+|Video & Audio > Camera Setup |Night to Day Dwelling Time |3
+|Video & Audio > Camera Setup |Day to Night Threshold |3000
+|Video & Audio > Camera Setup |Night to Day Threshold |3900
+|Video & Audio > Camera Setup |Vertical Flip |Disable
+|Video & Audio > Camera Setup |Horizontal Flip |Disable
+|Video & Audio > Camera Setup |Corridor Mode |Disable
+|===
 
-
-
-<<<
-
-[#s_Video-Device]
-
-=== Video & Device
-
-[NOTE]
-
-========================================
-
-The settings in this section are for basic license plate recognition. Other applications may require different settings.
-
-========================================
-
-[#t_Video-Device-Parameters]
-
-.Video & Device Parameters
 
 [table.withborders,width="100%",cols="28%,20%,52%",options="header",]
 |===
 |Sub-category > Parameter Group |Parameter |Setting
-|Video Streams |(See *_\{was s_Basic-Setup}_*) |---
-|Video Streams > Camera Settings |DC IRIS Enable a|Set according to your needs; typically Enable
-|Video Streams > Camera Settings |AE Metering Mode a|Average or Center
-|Video Streams > Camera Settings |Shutter Control a|Use Auto (shutter speed chosen automatically from range of all available shutter speeds or Manual (same as Auto but within range you define) +
-If Manual, set Shutter Time Max to a lower value than 1/30, typically 1/1000, to prevent smearing of moving vehicle images.
-|Video Streams > Camera Settings |Shutter Time Min a|Set according to your needs; typically 1/32000
-|Video Streams > Camera Settings |Shutter Time Max a|Typically 1/1000; however, if the image is too dark at night, increase to 1/500 - but may cause smearing at higher vehicle speeds
-|Video Streams > Camera Settings |3DNR a|0
-|Video Streams > Camera Settings |Max AGC Gain a|36 for low noise; however, if the image moves, increase this value - but the image will be less clear.
-|Video Streams > Camera Settings |Sense Up Level a|Off
-|Video Streams > Camera Settings |Back Light Compensation a|Disable
-|Video Streams > Camera Settings |Auto Exposure Weight a|100%
-|Video Streams > Camera Settings |D-WDR Enable a|Set according to your needs.
-|Video Streams > Camera Settings |D-WDR (Digital Wide Dynamic Range) a|If Enabled, start with 0. But if the plate appears dark on a bright background, you will have to experiment with this value. The goal is to get a good plate image, with low noise and good brightness.
-|Video Streams > Camera Settings |White Balance a|Auto
-|Video Streams > Camera Settings |3DNR a|0
-|Video Streams > Camera Settings |Day & Night Control a|Set as needed
-|Video Streams > Camera Settings |Vertical Flip a|Set as needed
-|Video Streams > Camera Settings |Horizontal Flip a|Set as needed
 |Motion Detection |--- a|Disable
 |ROI |--- a|Disable
 |Privacy Zone |--- a|Do not use
@@ -1030,6 +1061,10 @@ The deletion happens immediately; there is *+++<u>+++no+++</u>+++* confirmation 
 .Deleting a User
 
 image::ROOT:IZ600F/IZ600F-30-FIG-017_Delete_User.png[image,width=250]
+
+==== Changing the Built-in Administrator Password
+
+*_\{has separate menu item}_*
 
 <<<
 
