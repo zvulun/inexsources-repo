@@ -762,8 +762,8 @@ image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=800]
 |===
 |Category > Parameter Group |Parameter |Setting
 |Network > RTP/RTSP a|Service a|Enable
-|Network > RTP/RTSP a|Packet Size a|1
 |Network > RTP/RTSP a|RTSP Port a|Set the desired RTSP port; typically 554 (default)
+|Network > RTP/RTSP a|Packet Size a|1
 |Network > RTP/RTSP a|Keep-Alive a|On
 |Network > RTP/RTSP a|RTP Auth Algorithm a|MD5 (default)
 |Network > RTP/RTSP a|Multicast Service a|Disable
@@ -938,24 +938,29 @@ cause smearing at higher vehicle speeds.
 |===
 
 
-[table.withborders,width="100%",cols="28%,20%,52%",options="header",]
-|===
-|Sub-category > Parameter Group |Parameter |Setting
-|Motion Detection |--- a|Disable
-|ROI |--- a|Disable
-|Privacy Zone |--- a|Do not use
-|DI (Digital [Sensor] Input Type)/ +
-DO (Relay [Alarm] Output Type) |Sensor Input Type +
-Alarm Output Type a|Set each to Normally Open/Normally Closed as needed
-|===
+=== Configuring Motion Detection (Video & Audio > Motion Detection)
+
+Disable motion detection:
+
+[#f_Motion-Detection]
+
+.Motion Detection
+
+image::ROOT:IZ600F/IZ600F-Motion-Detection.png[image,width=500]
+
+//[table.withborders,width="100%",cols="28%,20%,52%",options="header",]
+//|===
+//|Category > Parameter Group |Parameter |Setting
+//|Device > DI (Digital [Sensor] Input Type)/ +
+//DO (Relay [Alarm] Output Type) |Sensor Input Type +
+//Alarm Output Type a|Set each to Normally Open/Normally Closed as needed
+//|===
 
 <<<
 
 [#s_System-User]
 
 === Configuring Users/Passwords
-
-*_\{admin p/w has a setup menu item!!!}_*
 
 [#s_Adding-a-User]
 
@@ -967,7 +972,7 @@ Alarm Output Type a|Set each to Normally Open/Normally Closed as needed
 
 The built-in Administrator username and password is root, IZpass12.
 *+++<u>+++However, it is highly recommended to create at least one other
-user which should be publicized instead.+++</u>+++*
+user (with more restrictive permissions) which should be publicized instead.+++</u>+++*
 
 *It is also highly recommended to change the built-in Administrator's
 password (using the System > Admin. Password parameter group -
@@ -1032,15 +1037,17 @@ include "Unencrypted". If you change the Authentication,
 click the Apply button (you will be prompted to close the browser,
 and you will have to log in again).
 
-. Navigate to *_\{change the name}_* System > User (see <<f_User-Screen-System-User>>):
+. Navigate to System > User (see <<f_User-Screen-System-User>>):
 +
 [#f_User-Screen-System-User]
 
-.User Screen (*_\{change the name}_* System > User)
+.User Parameters (System > User)
 
 image::ROOT:IZ600F/IZ600F-30-FIG-008a_FullScreen_Add_User.png[image,width=474,height=598]
 
-. Click the Add radio button, and enter the new user's details and role. (The User ID is the user name; the Name is a text field to use for the full name of the user or other identifying details.)
+. Click the Add radio button, and enter the new user's details and role.
+(The User ID is the user name; the Name is a text field to use for the
+full name of the user or other identifying details.)
 +
 [#f_Adding-a-User]
 
