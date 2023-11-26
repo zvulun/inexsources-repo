@@ -728,7 +728,7 @@ parameter groups have more than one set).
 
 [#s_Access-Level]
 
-=== Setting the Access Level
+=== Setting the Access Level (System > Access Level)
 
 [#f_Access-Level]
 
@@ -743,6 +743,15 @@ This will enable you to receive the video stream
 without any special user identification;
 you can define other users and their
 roles/permissions later if needed (see <<s_Adding-a-User>>).
+
+* If you change the Access Permission, click the Apply button
+under the Access Permission section.
+
+* In most cases, you will want to set the Authentication to
+include "Unencrypted". If you change the Authentication,
+click the Apply button (you will be prompted to close the browser,
+and you will have to log in again).
+
 
 [#s_RTSP]
 
@@ -902,9 +911,9 @@ automatically from range that you define)
 //If manual,
 |Video & Audio > Camera Setup |Shutter Time Min a|1/32000
 //Set according to your needs; typically 1/32000
-|Video & Audio > Camera Setup |Shutter Time Max a|1/3000; *_\{should we say this}_*
-however, if the image is too dark at night, increase to 1/500 - but may
-cause smearing at higher vehicle speeds.
+|Video & Audio > Camera Setup |Shutter Time Max a|1/3000
+//however, if the image is too dark at night, increase to 1/500 - but may
+//cause smearing at higher vehicle speeds.
 //When the Shutter Control is Manual, set Shutter Time Max to a value lower than 1/30,
 //typically 1/1000, to prevent smearing of moving vehicle images.
 |Video & Audio > Camera Setup |Max AGC Gain a|36
@@ -1028,14 +1037,6 @@ password.
 *** The RTSP URL must be used with a user name and password,
 and the user must be at an Administrator role level to see the
 Live View.
-
-. If you change the Access Permission, click the Apply button
-under the Access Permission section.
-
-. In most cases, you will want to set the Authentication to
-include "Unencrypted". If you change the Authentication,
-click the Apply button (you will be prompted to close the browser,
-and you will have to log in again).
 
 . Navigate to System > User (see <<f_User-Screen-System-User>>):
 +
