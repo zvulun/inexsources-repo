@@ -6,7 +6,7 @@
 
 .Camera's Home Page
 
-image::ROOT:/IZA800G/image43.png[image,width=600]
+image::ROOT:/IZA800G/image43.png[image,width=500]
 
 . Select the function you need from the links at the upper left:
 
