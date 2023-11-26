@@ -1024,17 +1024,17 @@ before defining other users and their permissions):*
 ** *Anyone (even a non-registered user) can use the Live View*
 
 ** *The RTSP URL can be used without a user name and password
-to see the Live View*
+to see the Live View* +
 
-** If you want to limit access to the camera by registering users,
+* If you want to limit access to the camera by registering users,
 you must set the System > Access Level to Limited Access (see <<s_Access-Level>>).
 
-*** Users must be registered with a password to see the Live View
+** Users must be registered with a password to see the Live View
 via the web interface. Note: Since @ is used as a separator in the
 RTSP URL syntax, it is recommended not to use this character in the
 password.
 
-*** The RTSP URL must be used with a user name and password,
+** The RTSP URL must be used with a user name and password,
 and the user must be at an Administrator role level to see the
 Live View.
 
