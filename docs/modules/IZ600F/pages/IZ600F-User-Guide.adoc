@@ -260,6 +260,37 @@ image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height
 
 <<<
 
+[#s_Recognizing-Devices-with-IZ-Discovery]
+
+== Recognizing Devices with {software-discovery}
+
+The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
+
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
+
+[#s_Configuring-the-Camera]
+
+== Configure Camera Settings
+
+See your camera's Installation Guide
+for detailed instructions (see <<s_Related-Documents>>.)
+
+
+[#s_Using-RoadView]
+
+== Using {software-ALPR}
+
+{software-ALPR} is advanced ALPR software that reads license plates using sophisticated image recognition algorithms, and creates LPR Events.
+
+[#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
+
+=== Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
+
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
+
+include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[Using RoadView]
+
+
 == Maintenance
 
 [#s_Checking-Mounting-Screws]
