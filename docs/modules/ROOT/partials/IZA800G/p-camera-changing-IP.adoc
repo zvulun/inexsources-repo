@@ -41,6 +41,8 @@ It is highly recommended to record the camera's IP address and port number in a 
 
 +++<div class="pagebreak"> </div>+++
 
+////
+
 [#t_IP-Address-Parameters]
 
 .IP Address Parameters
@@ -56,7 +58,10 @@ It is highly recommended to record the camera's IP address and port number in a 
 |Network > IP Address |DNS 2 |According to the camera's location and the organization of your network
 |===
 
+////
+
 --
+
 . Click Apply.
 +
 [IMPORTANT]
