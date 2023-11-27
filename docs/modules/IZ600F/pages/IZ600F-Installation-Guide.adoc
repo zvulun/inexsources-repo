@@ -90,6 +90,7 @@ toc::[]
 .^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
 .^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 .^|xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
+.^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Supporting Documentation] |{hw-webrelay-quad} Quad-Relay Remote (WEB) Relay: Supporting Documentation
 .^|xref:IZODPUG:DocList.adoc[{hw-outdoor-processor}-REV-x-TDSHEET] |{hw-outdoor-processor} AI Outdoor Data Processing Unit: Technical Data Sheet
 .^|xref:IZIDPUG:DocList.adoc[{hw-indoor-processor}-x-MAN-001] |{hw-indoor-processor} Indoor AI Data Processing Unit: Installation and User Guide
 .^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
