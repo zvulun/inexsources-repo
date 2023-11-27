@@ -16,7 +16,7 @@ the camera's IP address (see <<s_Related-Documents>>).
 
 .Changing the Camera's IP Address
 
-image::ROOT:/IZA800G/image44.png[image,width=524,height=180]
+image::ROOT:/IZA800G/image44.png[image,width=400]
 
 . To change the IP address to a fixed one:
 +
