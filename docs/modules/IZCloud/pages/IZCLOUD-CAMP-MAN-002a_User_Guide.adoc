@@ -65,19 +65,26 @@ include::ROOT:partial$p-training.adoc[Training Section]
 
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
+Support email and phone numbers:
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+
 <<<
 
 == Computer and Software Requirements
-* Computer running with Windows 10 or later
-* Chrome or Microsoft Edge browser
 
-== Logging In/Logging Out
+Computer with Chrome or other compatible browser
+
+== Logging In/Logging Out/Changing Password
 
 === Logging In
 * Type the URL of your {software-cloud} site
 (provided by {compname-short}) into your browser's address line
 
 * Enter your username and password (provided by {compname-short}).
+
+* If this is your first login, you will be requested to change your password
 
 .Login
 
@@ -98,7 +105,10 @@ image::ROOT:IZCloud/IZCloud-BorderCAMP-Logout.png[image,200]
 
 == Reservations
 
-The Reservations page enables you to see reservations
+*_\{Reservations menu item only appears
+if connected to 3rd party system - reword}_*
+
+If enabled, the Reservations page enables you to see reservations
 made via an online reservation system.
 
 .Reservations
@@ -195,7 +205,8 @@ image::ROOT:SLN-TIBA/IZCloud-BorderCalendar-Popup.png[image,400]
 
 image::ROOT:SLN-TIBA/IZCloud-BorderSelect-Date-Range.png[image,250,align=center]
 
-* *Description* - Unused
+* *Description* - Description entered when adding
+a plate/person to a list (see <<f_Add-Vendor>> for an example)
 
 * *Gate* - Select All, or a specific gate
 
