@@ -105,11 +105,9 @@ image::ROOT:IZCloud/IZCloud-BorderCAMP-Logout.png[image,200]
 
 == Reservations
 
-*_\{Reservations menu item only appears
-if connected to 3rd party system - reword}_*
-
-If enabled, the Reservations page enables you to see reservations
-made via an online reservation system.
+If {shortprodname} is connected to an
+online 3rd-party reservation system, the Reservations
+menu item will be enabled.
 
 .Reservations
 
