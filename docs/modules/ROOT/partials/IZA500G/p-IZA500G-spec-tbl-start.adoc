@@ -27,12 +27,21 @@
 (for U.S.A. plates)
 
 .^a| * S - Short distance, 5-35 ft (2-11 m)
+ifndef::xref-type-DFC-CAMP[]
 * L - Long distance, 30-70 ft (9-21 m)
+endif::xref-type-DFC-CAMP[]
 
 .3+.^| LPR Illumination
 .1+.^| Number of LEDs
-.^a| * DR, IR -15 high power LEDs
+.^a|
+ifndef::xref-type-DFC-CAMP[]
+* DR, IR -15 high power LEDs
 * DRW, IRW - 10 high power LEDs
+endif::xref-type-DFC-CAMP[]
+
+ifdef::xref-type-DFC-CAMP[]
+* IRW - 10 high power LEDs
+endif::xref-type-DFC-CAMP[]
 
 .1+.^| Wavelength
 .^a| * DR - Deep Red

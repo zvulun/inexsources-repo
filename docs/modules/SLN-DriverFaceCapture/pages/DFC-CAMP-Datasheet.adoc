@@ -16,7 +16,7 @@
 // Remember to unset all non-relevant attributes
 
 
-:xref-type-IZA500G:
+:xref-type-DFC-CAMP:
 :layout-type-technote:
 
 //enable the TOC to be placed in a specific position
@@ -101,7 +101,7 @@ image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
 
 
 [discrete]
-== IZA500G Camera System Specifications
+== {shortprodname2}-S-IRW Camera System Specifications
 
 include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specification Table Start]
 
@@ -115,36 +115,49 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 [table.withborders,width="100%",cols="20%,80%",options="header",]
 |===
 |Part Number |Description
-|{shortprodname}-S-DR |5-35 ft (2-11 m) range, Deep Red illumination, 24 VDC input voltage
-|{shortprodname}-S-DR-P48 |5-35 ft (2-11 m) range, Deep Red illumination, PoE{plus}, 48 VDC input voltage
-|{shortprodname}-S-DRW |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination, 24 VDC input voltage
-|{shortprodname}-S-DRW-P48 |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
-|{shortprodname}-S-IR |5-35 ft (2-11 m) range, Infrared illumination, 24 VDC input voltage
-|{shortprodname}-S-IR-P48 |5-35 ft (2-11 m) range, Infrared illumination, PoE{plus}, 48 VDC input voltage
-|{shortprodname}-S-IRW |5-35 ft (2-11 m) range, Infrared &amp; Visible Light illumination, 24 VDC input voltage
-|{shortprodname}-S-IRW-P48 |5-35 ft (2-11 m) range, Infrared &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
-|{shortprodname}-L-DR |30-70 ft (9-21 m) range, Deep Red illumination, 24 VDC input voltage
-|{shortprodname}-L-DR-P48 |30-70 ft (9-21 m) range, Deep Red illumination, PoE{plus}, 48 VDC input voltage
-|{shortprodname}-L-DRW |30-70 ft (9-21 m) range, Deep Red &amp; Visible Light illumination, 24 VDC input voltage
-|{shortprodname}-L-DRW-P48 |30-70 ft (9-21 m) range, Deep Red &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
-|{shortprodname}-L-IR |30-70 ft (9-21 m) range, Infrared illumination, 24 VDC input voltage
-|{shortprodname}-L-IR-P48 |30-70 ft (9-21 m) range, Infrared illumination, PoE{plus}, 48 VDC input voltage
-|{shortprodname}-L-IRW |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, 24 VDC input voltage
-|{shortprodname}-L-IRW-P48 |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
+|IZA500DFC-1L a|All-in-one AI Driver Face Capture (DFC) camera kit for single-lane use. Includes:
+
+* IZA500G Camera System: AI-enabled camera for precise driver face capture
+
+* IZS2 Strobe Illuminator: Windshield-penetrating illumination for vehicle interiors
+
+* Mounting Hardware (x2): Dual sets for camera and illuminator installation
+
+* Power Supply: A power source for the camera and illuminator
+
+a|{empty} +
+{empty} +
+IZCLOUD-DFC-1S +
+{empty} +
+or +
+{empty} +
+IZCLOUD-DFC-1C
+a|IZCloud SaaS Subscription; select one of these options:
+
+* IZCLOUD-DFC-1S: 1 year IZCloud Driver Face Capture
+(DFC) Video License, provided as SaaS;
+Free 14-day history in cloud storage;
+Pricing based on number of camping spots
+
+
+* IZCLOUD-DFC-1C: 1 year IZCloud Driver Face Capture
+(DFC) Video License, provided as SaaS;
+Free 7-day history in cloud storage;
+Pricing based on number of video channels
 |===
 
-[discrete]
-== Standard Package Contents
+//[discrete]
+//== Standard Package Contents
 
-* {shortprodname} ALPR All-in-one AI Camera System
+//* {shortprodname} ALPR All-in-one AI Camera System
 
 [discrete]
-== {shortprodname}-S/L-DRW, IRW LED Positions
+== {shortprodname2}-S-IRW LED Positions
 
 image::ROOT:IZA500G/image9.png[image,width=273,height=209]
 
 [discrete]
-== Dimensions (inches/cm)
+== {shortprodname2} Dimensions (inches/cm)
 
 image::ROOT:/IZA500G/image5.png[image,width=315,height=205]
 
@@ -155,7 +168,7 @@ image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 +++<div class="pagebreak"> </div>+++
 
 [discrete]
-== LAN and Power/Signals Cable Details
+== {shortprodname2} LAN and Power/Signals Cable Details
 
 image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
@@ -163,6 +176,6 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-REV-F3-TDSHEET
+Doc. No. {shortprodname}-CAMP-TDSHEET
 
 
