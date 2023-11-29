@@ -90,8 +90,12 @@ can be extended with: 22 AWG, OD 3.0-7.3 mm
 
 .2+.^| Power
 .^| Input Voltage Options
-.^a| * No model suffix: 24 VDC {plus}/- 10%, Class 2 Low-Voltage
+.^a|
+* No model suffix: 24 VDC {plus}/- 10%, Class 2 Low-Voltage
+
+ifndef::xref-type-DFC-CAMP[]
 * With P48 model suffix: 48 VDC {plus}/- 10%, Class 2 Low-Voltage or PoE{plus}
+endif::xref-type-DFC-CAMP[]
 
 
 .^| Power Consumption

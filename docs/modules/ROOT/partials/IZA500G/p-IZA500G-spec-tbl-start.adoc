@@ -21,12 +21,29 @@
 
 2+.^| Max Vehicle Speed
 
+ifndef::xref-type-DFC-CAMP[]
 .^| Up to 80 mph (129 km/h)
+endif::xref-type-DFC-CAMP[]
+
+ifdef::xref-type-DFC-CAMP[]
+.^| Up to 30 mph (48 km/h)
+endif::xref-type-DFC-CAMP[]
+
+
 
 2.1+.^| LPR Capture Distance+++*+++ +
 (for U.S.A. plates)
 
-.^a| * S - Short distance, 5-35 ft (2-11 m)
+.^a|
+ifndef::xref-type-DFC-CAMP[]
+* S - Short distance, 5-35 ft (2-11 m)
+endif::xref-type-DFC-CAMP[]
+
+ifdef::xref-type-DFC-CAMP[]
+* S - Short distance, 10-26 ft (3-8 m)
+endif::xref-type-DFC-CAMP[]
+
+
 ifndef::xref-type-DFC-CAMP[]
 * L - Long distance, 30-70 ft (9-21 m)
 endif::xref-type-DFC-CAMP[]
@@ -44,13 +61,20 @@ ifdef::xref-type-DFC-CAMP[]
 endif::xref-type-DFC-CAMP[]
 
 .1+.^| Wavelength
-.^a| * DR - Deep Red
+.^a|
+ifndef::xref-type-DFC-CAMP[]
+* DR - Deep Red
+endif::xref-type-DFC-CAMP[]
+
 * IR - Infrared
 
 
 .1+.^| Beam Angle
 .^a| * S - 40°x16°
+
+ifndef::xref-type-DFC-CAMP[]
 * L - 15°x15°
+endif::xref-type-DFC-CAMP[]
 
 .6+.^| LPR Camera
 .^| Shutter Type
@@ -67,8 +91,10 @@ endif::xref-type-DFC-CAMP[]
 
 .1+.^| Lens
 .^a| * S - 6-22 mm; Motorized Zoom and Auto-focus
-* L - 12-40 mm; Motorized Zoom and Auto-focus
 
+ifndef::xref-type-DFC-CAMP[]
+* L - 12-40 mm; Motorized Zoom and Auto-focus
+endif::xref-type-DFC-CAMP[]
 
 .^| Video Compression
 .^| MJPEG, H.264, H.265
@@ -79,18 +105,35 @@ endif::xref-type-DFC-CAMP[]
 
 .3+.^| OV Illumination
 .1+.^| Number of LEDs
-.^a| * DR, IR - No visible light LEDs
+.^a|
+ifndef::xref-type-DFC-CAMP[]
+* DR, IR - No visible light LEDs
 * DRW, IRW - 5 high power LEDs
+endif::xref-type-DFC-CAMP[]
+
+ifdef::xref-type-DFC-CAMP[]
+* IRW - 5 high power LEDs
+endif::xref-type-DFC-CAMP[]
 
 
 .1+.^| Wavelength
-.^a| * DR, IR - N/A
+.^a|
+ifndef::xref-type-DFC-CAMP[]
+* DR, IR - N/A
 * DRW, IRW - Visible, Warm White
+endif::xref-type-DFC-CAMP[]
+
+ifdef::xref-type-DFC-CAMP[]
+* IRW - Visible, Warm White
+endif::xref-type-DFC-CAMP[]
 
 
 .1+.^| Beam Angle
 .^a| * S - 40°x16°
+
+ifndef::xref-type-DFC-CAMP[]
 * L - 15°x15°
+endif::xref-type-DFC-CAMP[]
 
 .6+.^| OV Camera
 .^| Shutter Type
@@ -107,8 +150,10 @@ endif::xref-type-DFC-CAMP[]
 
 .1+.^| Lens
 .^a| * S - 5-50 mm; Motorized Zoom and Auto-focus
-* L - 5-50 mm; Motorized Zoom and Auto-focus
 
+ifndef::xref-type-DFC-CAMP[]
+* L - 5-50 mm; Motorized Zoom and Auto-focus
+endif::xref-type-DFC-CAMP[]
 
 .^| Video Compression
 .^| MJPEG, H.264, H.265
