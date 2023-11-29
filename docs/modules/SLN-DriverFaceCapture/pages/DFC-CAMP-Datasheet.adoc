@@ -173,9 +173,9 @@ strobe/trigger to trigger the illuminator; ask
 Pinchas if the new pinout is for all IZA500G/GR
 cameras? Note that this picture mentions the
 P48 models, but I took that out of the spec -
-asked Pinchas if P48 should be in the spec
-or will DFC users only be using power
-supply (not PoE)?}_*
+if pinout changes, spec table will change
+and may need separate picture that does
+not mention the P48 option}_*
 
 image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
