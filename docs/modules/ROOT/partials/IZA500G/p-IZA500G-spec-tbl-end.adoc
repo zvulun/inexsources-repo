@@ -1,3 +1,5 @@
+ifndef::xref-type-DFC-CAMP[]
+
 .2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
 .^| {compname-short} HTTP API
 .^| LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images.
@@ -48,6 +50,8 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| NDAA
 .^| NDAA Section 889 compliant
 
+endif::xref-type-DFC-CAMP[]
+
 .3+.^| Physical
 .^| Dimensions
 .^| (W x H x D) 6.7" x 4.7" x 17.7"+++<br>+++
@@ -88,18 +92,18 @@ can be extended with: 22 AWG, OD 3.0-7.3 mm
 .1+.^| Relay Output
 .^a| * Dry Contact Relay: Brown (NO), Orange +++(C)+++
 
+ifndef::xref-type-DFC-CAMP[]
+
 .2+.^| Power
 .^| Input Voltage Options
 .^a|
 * No model suffix: 24 VDC {plus}/- 10%, Class 2 Low-Voltage
 
-ifndef::xref-type-DFC-CAMP[]
 * With P48 model suffix: 48 VDC {plus}/- 10%, Class 2 Low-Voltage or PoE{plus}
-endif::xref-type-DFC-CAMP[]
-
 
 .^| Power Consumption
 .^| 25 W
+
 
 2+.^| Accessories Included
 
@@ -118,7 +122,13 @@ endif::xref-type-DFC-CAMP[]
 
 .^| External Illuminator (xref:IZL:DocList.adoc[{illum-non-strobe} Series])
 
+endif::xref-type-DFC-CAMP[]
+
 |===
+
+ifndef::xref-type-DFC-CAMP[]
 
 +++*+++ LPR Capture Distance is measured from camera to plate +++<br>+++
 +++**+++ The xref:IZ4POE:DocList.adoc[{hw-poeinjector}] is required for the PoE{plus} input power option
+
+endif::xref-type-DFC-CAMP[]
