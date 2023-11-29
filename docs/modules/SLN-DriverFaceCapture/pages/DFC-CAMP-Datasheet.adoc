@@ -1,5 +1,7 @@
 :docproductname: Driver Face Capture (DFC)
 :shortprodname: DFC
+:shortprodname2: IZA500G
+:shortprodname3: IZS2
 :generic-camera-name: ALPR Camera System
 
 // These attributes have been soft set
@@ -45,7 +47,7 @@
 //[discrete]
 //=== Datasheet
 
-image:ROOT:SLN-DriverFaceCapture/DFC-CAMP-Face-Woman-Front.png[Picture of Face in Front Windsh,400,align=left]
+image:ROOT:SLN-DriverFaceCapture/DFC-CAMP-Face-Man-Woman-Front.png[Picture of Face in Front Windsh,400,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -64,7 +66,10 @@ image:ROOT:SLN-DriverFaceCapture/DFC-CAMP-Face-Woman-Front.png[Picture of Face i
 
 [discrete]
 == Key Features and Benefits
+
 * [*] Designed for Campground Access Control and Security
+
+* [*] Installable at entry or exit lanes
 
 * [*] Integrates with existing LPR systems
 
@@ -96,7 +101,7 @@ image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
 
 
 [discrete]
-== Specifications
+== IZA500G Camera System Specifications
 
 include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specification Table Start]
 
