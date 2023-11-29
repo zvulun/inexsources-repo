@@ -1,0 +1,226 @@
+[table.withborders,options="header",cols="24,23,53"]
+//[options="header",cols="9,6,11,6,6,63"]
+|===
+2+.^| Item
+//{set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+//{set:cellbgcolor:#c0c0c0}
+
+
+.2+.^| LED Illumination
+//{set:cellbgcolor!}
+.^| LEDs: +
+Type/Wavelength/Number
+
+.^a| High Power LEDs: +
+- overall operation invoked by
+built-in photocell which
+senses the ambient light level
+(pre-configured as per customer needs) +
+- flash activated by trigger input
+(3.3 - 24 VDC, opto-isolated) +
+(See Beam Angle specification
+for model number format) +
+WVLN = Wavelength/Type
+
+* IR = Infrared
+
+* DR = Deep Red
+
+* CL = Cool White (4000K)
+
+* WL = Warm White (3000K)
+
+N = Number of LEDs:
+
+* 1: 30 LEDs
+
+* 2: 60 LEDs
+
+* 3: 90 LEDs
+
+.^| Beam Angle (HxV), +
+degrees
+
+.^a| * {illum-strobe}N-WVLN-10: H10xV10
+
+* {illum-strobe}N-WVLN-20: H20xV20
+
+* {illum-strobe}N-WVLN-30: H30xV30
+
+* {illum-strobe}N-WVLN-H40: H40xV15
+
+* {illum-strobe}N-WVLN-60: H60xV60
+
+* {illum-strobe}2-IR-H120: H120xV20
+
+.3+.^| Environmental
+
+.^| Ingress Protection
+
+.^| IP66
+
+.^| Operating Temperature
+
+.^| -13°F to 140°F (-25°C to 60°C)
+
+.^| Humidity
+
+.^| 0% to 90% RH
+
+.4+.^| Certifications
+
+.^| EMC
+
+.^| FCC Class B/CE
+
+.^| RoHS
+
+.^| RoHS
+
+.^| Eye Safety
+
+.^| IEC62471
+
+.^| NDAA
+
+.^| NDAA Section 889 compliant
+
+.4+.^| Physical
+
+.^| Dimensions (W x H x D) - including outer pan/tilt adjustment bracket
+
+.^a| * S1: 7.2 x 9.8 x 3.6 in (183 x 250 x 91 mm)
+
+* S2: 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
+
+* S3: 14.5 x 11.4 x 4.2 in (368 x 290 x 107 mm)
+
+.^| Unit Weight - including outer pan/tilt adjustment bracket
+
+.^a| * S1: 4.2 lbs (1.9 kg)
+
+* S2: 6.8 lbs (3.1 kg)
+
+* S3: 10.1 lbs (4.6 kg)
+
+.^| Material
+
+.^| Anodized Aluminum
+
+.^| Color
+
+.^| Silver
+
+.5+.^| Interface
+
+.^| Configuration Communication Protocol
+
+.^| RS485
+
+.2+.^| Cables
+
+.^| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
+
+
+.^a| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F:
+
+* Trigger (Strobe) Input - see next part of table
+
+* Strobe Output (for optional triggering of additional strobe illuminator)
+
+* RS485 connections for configuration communication
+
+.^| Digital Input (Trigger Input)
+
+.^| 3.3 - 24VDC, opto-isolated +
+Pulse Width 0.03 - 1.6 ms
+
+.^| Digital Output (Strobe Output)
+
+.^| 3.3 - 24VDC, opto-isolated +
+Pulse Width 0.03 - 1.6 ms
+
+.2+.^| Power
+
+.^| Input Voltage
+
+.^| 24 VDC+++*+++
+
+.^| Power Consumption (measured with 0.5 ms pulse width; 24 VDC input)
+
+.^a|
+[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
+!===
+!Model ^!Frequency +
+(Hz) !Power (Watts)
+!S1 !60 !25W
+!S1 !30 !13W
+!S2 !60 !50W
+!S2 !30 !25W
+!S3 !60 !72W
+!S3 !30 !36W
+!===
+
+3.3+.^| Accessories Included
+{set:cellbgcolor:#ffffff}
+
+
+3+.^| 2-axis outer pan/tilt adjustment bracket
+{set:cellbgcolor:#ffffff}
+
+
+
+
+
+
+3+.^| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
+{set:cellbgcolor:#ffffff}
+
+
+
+
+
+
+3+.^| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F
+{set:cellbgcolor:#ffffff}
+
+
+
+2.4+.^| Accessories Available (depending on site requirements)
+{set:cellbgcolor:#ffffff}
+
+.2+.^| Mounting hardware (in package)
+{set:cellbgcolor:#ffffff}
+3+.^| * Slotted steel bands with worm drive fasteners for 4” and 12” circular gantry mounting, 2 of each size
+{set:cellbgcolor:#ffffff}
+
+
+
+
+
+
+3+.^| * Gantry mounting bracket and screws
+{set:cellbgcolor:#ffffff}
+
+
+
+
+
+.^| Mounting hardware (packed separately)
+{set:cellbgcolor:#ffffff}
+3+.^| Wall/pole/gantry mounting options
+{set:cellbgcolor:#ffffff}
+
+
+
+
+
+.^| Power Supply
+{set:cellbgcolor!}
+3+.^| Power Supply 24 VDC*
+{set:cellbgcolor:#ffffff}
+
+
+|===
