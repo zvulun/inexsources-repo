@@ -128,9 +128,7 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 a|{empty} +
 {empty} +
 IZCLOUD-DFC-1S +
-{empty} +
 or +
-{empty} +
 IZCLOUD-DFC-1C
 a|IZCloud SaaS Subscription; select one of these options:
 
