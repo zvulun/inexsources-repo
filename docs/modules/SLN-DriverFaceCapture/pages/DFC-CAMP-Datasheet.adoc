@@ -168,6 +168,11 @@ image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 [discrete]
 == {shortprodname2} LAN and Power/Signals Cable Details
 
+*_\{There will be a new pinout with an external
+strobe/trigger to trigger the illuminator; ask
+Pinchas if the new pinout is for all IZA500G/GR
+cameras?}_*
+
 image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
