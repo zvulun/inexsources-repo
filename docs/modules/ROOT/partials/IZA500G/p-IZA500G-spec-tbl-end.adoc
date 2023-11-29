@@ -92,6 +92,17 @@ can be extended with: 22 AWG, OD 3.0-7.3 mm
 .1+.^| Relay Output
 .^a| * Dry Contact Relay: Brown (NO), Orange +++(C)+++
 
+ifdef::xref-type-DFC-CAMP[]
+.2+.^| Power
+.^| Input Voltage Options
+.^a|
+* 24 VDC {plus}/- 10%, Class 2 Low-Voltage
+
+.^| Power Consumption
+.^| 25 W
+
+endif::xref-type-DFC-CAMP[]
+
 ifndef::xref-type-DFC-CAMP[]
 
 .2+.^| Power
