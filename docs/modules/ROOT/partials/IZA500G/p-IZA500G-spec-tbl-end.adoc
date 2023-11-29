@@ -94,9 +94,9 @@ can be extended with: 22 AWG, OD 3.0-7.3 mm
 
 ifdef::xref-type-DFC-CAMP[]
 .2+.^| Power
-.^| Input Voltage Options
+.^| Input Voltage
 .^a|
-* 24 VDC {plus}/- 10%, Class 2 Low-Voltage
+24 VDC {plus}/- 10%, Class 2 Low-Voltage
 
 .^| Power Consumption
 .^| 25 W
