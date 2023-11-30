@@ -211,9 +211,9 @@ ifndef::xref-type-DFC-CAMP[]
 
 .^| 2-axis outer pan/tilt adjustment bracket
 
-.^| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
+.^| Power cable, 15 ft (4.6 m), {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
 
-.^| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F
+.^| Signals cable, 15 ft (4.6 m), {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
 
 .3+.^| Accessories Available (depending on site requirements)
 
