@@ -121,7 +121,7 @@ include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 [table.withborders,width="100%",cols="20%,80%",options="header",]
 |===
 |Part Number |Description
-|IZA500DFC-1L a|All-in-one AI Driver Face Capture (DFC) camera kit for single-lane use. Includes:
+.^|IZA500DFC-1L a|All-in-one AI Driver Face Capture (DFC) camera kit for single-lane use. Includes:
 
 * IZA500G Camera System: AI-enabled camera for precise driver face capture
 
