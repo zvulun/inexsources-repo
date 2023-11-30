@@ -99,6 +99,12 @@ image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
 +++<div class="pagebreak"> </div>+++
 --
 
+[discrete]
+== DFC Specifications
+
+
+
+
 
 [discrete]
 == {shortprodname2}-S-IRW Camera System Specifications
@@ -184,6 +190,18 @@ and may need separate picture that does
 not mention the P48 option}_*
 
 image::ROOT:IZA500G/image4.png[image,width=542,height=370]
+
+[discrete]
+== {shortprodname3}2 Dimensions (inches/cm)
+
+image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
+
+[discrete]
+== {shortprodname3}2 Connector Pinouts
+
+image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=800]
+
+
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
