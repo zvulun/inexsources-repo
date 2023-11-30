@@ -163,64 +163,32 @@ Pulse Width 0.03 - 1.6 ms
 !S3 !30 !36W
 !===
 
-3.3+.^| Accessories Included
-{set:cellbgcolor:#ffffff}
+2.3+.^| Accessories Included
 
+.^| 2-axis outer pan/tilt adjustment bracket
 
-3+.^| 2-axis outer pan/tilt adjustment bracket
-{set:cellbgcolor:#ffffff}
+.^| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
 
+.^| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F
 
+.3+.^| Accessories Available (depending on site requirements)
 
+.^| Mounting hardware (in package)
 
+.^a| * Slotted steel bands with worm drive fasteners for 4” and 12” circular gantry mounting, 2 of each size
 
-
-3+.^| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
-{set:cellbgcolor:#ffffff}
-
-
-
-
-
-
-3+.^| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F
-{set:cellbgcolor:#ffffff}
-
-
-
-2.4+.^| Accessories Available (depending on site requirements)
-{set:cellbgcolor:#ffffff}
-
-.2+.^| Mounting hardware (in package)
-{set:cellbgcolor:#ffffff}
-3+.^| * Slotted steel bands with worm drive fasteners for 4” and 12” circular gantry mounting, 2 of each size
-{set:cellbgcolor:#ffffff}
-
-
-
-
-
-
-3+.^| * Gantry mounting bracket and screws
-{set:cellbgcolor:#ffffff}
-
-
-
-
+* Gantry mounting bracket and screws
 
 .^| Mounting hardware (packed separately)
-{set:cellbgcolor:#ffffff}
-3+.^| Wall/pole/gantry mounting options
-{set:cellbgcolor:#ffffff}
 
-
-
-
+.^| Wall/pole/gantry mounting options
 
 .^| Power Supply
-{set:cellbgcolor!}
-3+.^| Power Supply 24 VDC*
-{set:cellbgcolor:#ffffff}
 
+.^| Power Supply 24 VDC+++*+++
 
 |===
+
++++*+++ It is recommended to use
+an illuminator power supply separate
+from the camera’s supply.
