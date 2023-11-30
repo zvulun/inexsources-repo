@@ -16,7 +16,7 @@
 // Remember to unset all non-relevant attributes
 
 
-//:xref-type-DFC-CAMP:
+:xref-type-DFC-CAMP:
 :layout-type-technote:
 
 //enable the TOC to be placed in a specific position
