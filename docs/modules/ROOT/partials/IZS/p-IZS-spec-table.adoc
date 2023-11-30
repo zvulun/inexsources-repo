@@ -7,6 +7,7 @@
 .^| Specification
 //{set:cellbgcolor:#c0c0c0}
 
+ifndef::xref-type-DFC-CAMP[]
 
 .2+.^| LED Illumination
 //{set:cellbgcolor!}
@@ -87,6 +88,8 @@ degrees
 
 .^| NDAA Section 889 compliant
 
+endif::xref-type-DFC-CAMP[]
+
 .4+.^| Physical
 
 .^| Dimensions (W x H x D) - including outer pan/tilt adjustment bracket
@@ -146,11 +149,15 @@ Pulse Width 0.03 - 1.6 ms
 
 .^| Input Voltage
 
-.^| 24 VDC+++*+++
+.^| 24 VDC
+ifndef::xref-type-DFC-CAMP[+++*+++]
 
 .^| Power Consumption (measured with 0.5 ms pulse width; 24 VDC input)
 
 .^a|
+
+ifndef::xref-type-DFC-CAMP[]
+
 [table.withborders,width="60%",cols="10%,55%,35%",options="header",]
 !===
 !Model ^!Frequency +
@@ -163,6 +170,18 @@ Pulse Width 0.03 - 1.6 ms
 ^.^!S3 ^.^!60 ^.^!72W
 ^.^!S3 ^.^!30 ^.^!36W
 !===
+
+endif::xref-type-DFC-CAMP[]
+
+ifdef::xref-type-DFC-CAMP[]
+
+* 50W at 60 Hz
+
+* 25W at 30 Hz
+
+endif::xref-type-DFC-CAMP[]
+
+ifndef::xref-type-DFC-CAMP[]
 
 2.3+.^| Accessories Included
 
@@ -187,6 +206,8 @@ Pulse Width 0.03 - 1.6 ms
 .^| Power Supply
 
 .^| Power Supply 24 VDC+++*+++
+
+endif::xref-type-DFC-CAMP[]
 
 |===
 
