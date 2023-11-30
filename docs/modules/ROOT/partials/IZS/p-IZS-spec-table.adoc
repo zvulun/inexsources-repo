@@ -94,19 +94,43 @@ endif::xref-type-DFC-CAMP[]
 
 .^| Dimensions (W x H x D) - including outer pan/tilt adjustment bracket
 
-.^a| * S1: 7.2 x 9.8 x 3.6 in (183 x 250 x 91 mm)
+.^a|
+
+ifndef::xref-type-DFC-CAMP[]
+
+* S1: 7.2 x 9.8 x 3.6 in (183 x 250 x 91 mm)
 
 * S2: 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
 
 * S3: 14.5 x 11.4 x 4.2 in (368 x 290 x 107 mm)
 
+endif::xref-type-DFC-CAMP[]
+
+ifdef::xref-type-DFC-CAMP[]
+
+11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
+
+endif::xref-type-DFC-CAMP[]
+
 .^| Unit Weight - including outer pan/tilt adjustment bracket
 
-.^a| * S1: 4.2 lbs (1.9 kg)
+.^a|
+
+ifndef::xref-type-DFC-CAMP[]
+
+* S1: 4.2 lbs (1.9 kg)
 
 * S2: 6.8 lbs (3.1 kg)
 
 * S3: 10.1 lbs (4.6 kg)
+
+endif::xref-type-DFC-CAMP[]
+
+ifdef::xref-type-DFC-CAMP[]
+
+6.8 lbs (3.1 kg)
+
+endif::xref-type-DFC-CAMP[]
 
 .^| Material
 
@@ -211,6 +235,10 @@ endif::xref-type-DFC-CAMP[]
 
 |===
 
+ifndef::xref-type-DFC-CAMP[]
+
 +++*+++ It is recommended to use
 an illuminator power supply separate
 from the camera’s supply.
+
+endif::xref-type-DFC-CAMP[]
