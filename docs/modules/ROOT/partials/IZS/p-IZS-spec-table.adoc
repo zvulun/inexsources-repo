@@ -151,7 +151,7 @@ Pulse Width 0.03 - 1.6 ms
 .^| Power Consumption (measured with 0.5 ms pulse width; 24 VDC input)
 
 .^a|
-[table.withborders,width="80%",cols="10%,55%,35%",options="header",]
+[table.withborders,width="60%",cols="10%,55%,35%",options="header",]
 !===
 !Model ^!Frequency +
 (Hz) !Power +
