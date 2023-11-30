@@ -192,14 +192,14 @@ not mention the P48 option}_*
 image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 
 [discrete]
-== {shortprodname3}2 Dimensions (inches/cm)
+== {shortprodname3}2 Dimensions (mm)
 
 image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
 
 [discrete]
 == {shortprodname3}2 Connector Pinouts
 
-image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=800]
+image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=700]
 
 
 
