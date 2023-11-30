@@ -1,7 +1,7 @@
 :docproductname: Driver Face Capture (DFC)
 :shortprodname: DFC
 :shortprodname2: IZA500G
-:shortprodname3: IZS2
+:shortprodname3: IZS
 :generic-camera-name: ALPR Camera System
 
 // These attributes have been soft set
