@@ -197,7 +197,7 @@ image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
 [discrete]
 == {shortprodname3}2 Connector Pinouts
 
-image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=700]
+image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
 
 
 
