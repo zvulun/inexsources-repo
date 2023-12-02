@@ -100,6 +100,12 @@ image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
 --
 
 [discrete]
+== Typical Lane Design
+
+image::ROOT:SLN-DriverFaceCapture/DFC-CAMP-Lane-Design.png[image,800]
+
+
+[discrete]
 == {shortprodname} System Specifications
 
 include::ROOT:partial$SLN-DriverFaceCapture/p-DFC-spec-table.adoc[DFC Specification Table]
