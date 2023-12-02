@@ -1,0 +1,23 @@
+[table.withborders,options="header",cols="24,23,53"]
+//[options="header",cols="9,6,11,6,6,63"]
+|===
+2+.^| Item
+//{set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+//{set:cellbgcolor:#c0c0c0}
+
+2+.^| Capture Distance .^|10-26 ft (3-8 m)
+
+2+.^| Face Camera *_\{Max.?}_* Height .^|5 ft (1.5 m)
+
+2+.^|Vehicle Speed .^|Up to 30 mph (48 km/h)
+
+2+.^|Video Output .^|ONVIF-recordable; recordable by any VMS
+
+2.2+.^|Integrations .^|Existing LPR systmes
+
+.^|IZCloud
+
+|===
+
