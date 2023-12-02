@@ -110,6 +110,8 @@ image::ROOT:SLN-DriverFaceCapture/DFC-CAMP-Lane-Design.png[image,800]
 
 include::ROOT:partial$SLN-DriverFaceCapture/p-DFC-spec-table.adoc[DFC Specification Table]
 
+<<<
+
 [discrete]
 == {shortprodname2}-S-IRW Camera System Specifications
 
@@ -117,13 +119,14 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specificatio
 
 include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
 
-+++<div class="pagebreak"> </div>+++
+<<<
 
 [discrete]
 == {shortprodname3}2-IR-H40 Illuminator Specifications
 
 include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 
+<<<
 
 [discrete]
 == Ordering Information
@@ -170,6 +173,8 @@ Pricing based on number of video channels
 
 image::ROOT:IZA500G/image9.png[image,width=273,height=209]
 
+<<<
+
 [discrete]
 == {shortprodname2} Dimensions (inches/cm)
 
@@ -194,6 +199,8 @@ and may need separate picture that does
 not mention the P48 option}_*
 
 image::ROOT:IZA500G/image4.png[image,width=542,height=370]
+
+<<<
 
 [discrete]
 == {shortprodname3}2 Dimensions (mm)
