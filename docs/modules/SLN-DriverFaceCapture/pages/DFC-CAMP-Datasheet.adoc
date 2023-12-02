@@ -173,12 +173,12 @@ Pricing based on number of video channels
 
 image::ROOT:IZA500G/image9.png[image,width=273,height=209]
 
-<<<
-
 [discrete]
 == {shortprodname2} Dimensions (inches/cm)
 
 image::ROOT:/IZA500G/image5.png[image,width=315,height=205]
+
+<<<
 
 image::ROOT:/IZA500G/image6.png[image,width=463,height=224]
 
