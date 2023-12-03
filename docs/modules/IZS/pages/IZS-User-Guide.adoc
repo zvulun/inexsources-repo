@@ -1,26 +1,29 @@
-:docproductname: IZS Illuminators
+:docproductname: IZS
 :shortprodname: IZS
 //We do not yet have verification of a specific eye safety stancard
 //:eyesafetystandard-1: IEC62471 Group 1
-= {docproductname}
+
+:layout-type-userguide:
+
 //enable the TOC to be placed in a specific position
 :toc: macro
+
+= {docproductname} User Guide
+
 //!sectnum momentarily stops section numbering
 :!sectnums:
 
 // This "invisible" text helps lunr search put this page
 // at the top of the results list when searching
 // for a specific product name
-[.white]#{shortprodname}#
+//[.white]#{shortprodname}#
 
 
 
 // discrete removes these headers from the TOC
 [discrete]
-== {shortprodname} Strobe Illuminator Series
+== Strobe Illuminator Series
 [discrete]
-=== User Guide
-Doc. No. IZS-S-MAN-002
 
 image::IZS-S-FIG-002c_NoLabels_All_WithS3_At_Angle.png[Picture of IZS Illuminators]
 
@@ -31,44 +34,41 @@ image::IZS-S-FIG-002c_NoLabels_All_WithS3_At_Angle.png[Picture of IZS Illuminato
 // of file
 toc::[]
 
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
 
-[#s_About-this-Document]
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
 
-== About this Document
+._Click to show the Table of Contents_
+[%collapsible]
+====
 
-[#s_Who-Should-Read-this-Document]
+toc::[]
 
-=== Who Should Read this Document
+====
 
-This document is for:
-
-* *Technical personnel* who need to install {compname-short} illuminators.
-
-[NOTE]
-
-========================================
-
-This document does not take the place of training by {compname-possess} certified specialists. Contact {compname-long} to schedule training.
-
-========================================
 
 [#s_Related-Documents]
 
-=== Recommended Reading/Related Documents
-
-Contact {compname-long} for document ordering information.
+== Recommended Reading/Related Documents
+._Click to show the Related Documents table_
+[%collapsible]
+====
 
 [#t_Related-Documents]
 
 .Related Documents
 
-[width="100%",cols="34%,66%",options="header",]
+[table.withborders,width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
-|{camera-8G}-G-MAN-002a |{camera-8G} User Guide
-|{camera-8G}-G-MAN-002b |{camera-8G} Installation Guide
-|{camera-8G}-G-xx-TDSHEET |{camera-8G} Technical Data Sheet
-|{camera-8G}-G-TECH-001 |{camera-8G} Quick Start
+|{camera-8G}-MAN-002a |{camera-8G} User Guide
+|{camera-8G}-MAN-002b |{camera-8G} Installation Guide
+|{camera-8G}-xx-TDSHEET |{camera-8G} Technical Data Sheet
+|{camera-8G}-TECH-001 |{camera-8G} Quick Start
 |MOUNT-MAP-PRSNT-011 |Product-to-Mount Mapping
 |MOUNT-IZSL-PRSNT-004 |Illuminator Mounting - U.S.A.
 |MOUNT-IZSL-PRSNT-005 |Illuminator Gantry Mounting - Using Packaged Hardware
@@ -77,12 +77,17 @@ Contact {compname-long} for document ordering information.
 |NDAA-NB-COC-001 |NDAA Section 889 Certification of Compliance
 |===
 
+====
+
+== Training and Support
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
 [#s_Support]
 
-=== Support
-
-If you have any questions, please contact our support team via our website: +
-http://
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
 [#s_Overview]
 
@@ -441,4 +446,4 @@ include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
 
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-Doc. No. {shortprodname}-S-MAN-002a
+Doc. No. {shortprodname}-MAN-002a
