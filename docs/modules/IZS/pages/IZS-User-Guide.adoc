@@ -239,10 +239,11 @@ See the appropriate Camera Installation and Configuration Guide(s) for an explan
 
 .Camera-to-Illuminator Typical Use Cases
 
-[width="100%",cols="30%,19%,19%,15%,17%",options="header",]
+[table.withborders,width="100%",cols="30%,19%,19%,15%,17%",options="header",]
 |===
 |Camera |Illuminator |Strobe Signal |Night Image |Installation
-|{camera-8G}-L/XL-xx |{shortprodname}2-WL-20 |OV Strobe |Color |Rear
+|{camera-8G}-L/XL-xx |{shortprodname}2-WL-20 .2+.^|OV Strobe
+.2+.^|Color .2+.^|Rear
 |{camera-8G}-S-xx |{shortprodname}1-WL-H40 +
 {shortprodname}1-WL-30 | | |
 |{camera-8G}-L/XL-xx |{shortprodname}2-IR-20 |OV Strobe |B/W |Front
