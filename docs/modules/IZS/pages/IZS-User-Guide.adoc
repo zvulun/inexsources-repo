@@ -18,21 +18,12 @@
 // for a specific product name
 //[.white]#{shortprodname}#
 
-
-
 // discrete removes these headers from the TOC
 [discrete]
 == Strobe Illuminator Series
 [discrete]
 
 image::IZS-S-FIG-002c_NoLabels_All_WithS3_At_Angle.png[Picture of IZS Illuminators]
-
-// restore section numbering from here on
-:sectnums: all
-
-// place the TOC in this specific position (capability enabled by :toc: macro at start
-// of file
-toc::[]
 
 // restore section numbering from here on
 :sectnums: all
@@ -54,6 +45,10 @@ toc::[]
 [#s_Related-Documents]
 
 == Recommended Reading/Related Documents
+
+*_\{add in reference to IZA500DFC data sheet? add
+diagram with IZA500G-DFC wired?}_*
+
 ._Click to show the Related Documents table_
 [%collapsible]
 ====
@@ -65,16 +60,15 @@ toc::[]
 [table.withborders,width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
-|{camera-8G}-MAN-002a |{camera-8G} User Guide
-|{camera-8G}-MAN-002b |{camera-8G} Installation Guide
-|{camera-8G}-xx-TDSHEET |{camera-8G} Technical Data Sheet
-|{camera-8G}-TECH-001 |{camera-8G} Quick Start
-|MOUNT-MAP-PRSNT-011 |Product-to-Mount Mapping
-|MOUNT-IZSL-PRSNT-004 |Illuminator Mounting - U.S.A.
-|MOUNT-IZSL-PRSNT-005 |Illuminator Gantry Mounting - Using Packaged Hardware
-|IZPWR-SRFC-MAN-001 |IZPWR Surface Mount Power Supplies User Guide
-|IZPWR-DIN-MAN-002 |IZPWR DIN Rail Mount Power Supplies User Guide
-|NDAA-NB-COC-001 |NDAA Section 889 Certification of Compliance
+.^|xref:IZA800G:DocList.adoc[{camera-8G}-MAN-002a] |{camera-8G} User Guide
+.^|xref:IZA800G:DocList.adoc[{camera-8G}-MAN-002b] |{camera-8G} Installation Guide
+.^|xref:IZA800G:DocList.adoc[{camera-8G}-TECH-001] |{camera-8G} Quick Start Guide
+.^|xref:IZA800G:DocList.adoc[{camera-8G}-REV-xx-TDSHEET] |{camera-8G} Technical Data Sheet
+.^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+.^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |Illuminator Mounting - U.S.A.
+.^|xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-005] |Illuminator Gantry Mounting - Using Packaged Hardware
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
 
 ====
@@ -446,4 +440,4 @@ include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
 
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-Doc. No. {shortprodname}-MAN-002a
+Doc. No. {shortprodname}-MAN-002
