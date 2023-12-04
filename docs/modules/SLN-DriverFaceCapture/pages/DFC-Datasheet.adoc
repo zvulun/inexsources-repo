@@ -111,7 +111,7 @@ image::ROOT:SLN-DriverFaceCapture/DFC-CAMP-Lane-Design.png[image,800]
 <<<
 
 [discrete]
-== {shortprodname2}-S-IRW Camera System Specifications
+== {camera-DFC} Camera System Specifications
 
 include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specification Table Start]
 
@@ -120,7 +120,7 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 <<<
 
 [discrete]
-== {shortprodname3}2-IR-H40 Illuminator Specifications
+== {illum-DFC} Illuminator Specifications
 
 include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 
@@ -167,7 +167,7 @@ Pricing based on number of video channels
 //* {shortprodname} ALPR All-in-one AI Camera System
 
 [discrete]
-== {shortprodname2} Dimensions (inches/cm)
+== {camera-DFC} Dimensions (inches/cm)
 
 image::ROOT:/IZA500G/image5.png[image,width=315,height=205]
 
@@ -178,7 +178,7 @@ image::ROOT:/IZA500G/image6.png[image,width=463,height=224]
 image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 
 [discrete]
-== {shortprodname2} LAN and Power/Signals Cable Details
+== {camera-DFC} LAN and Power/Signals Cable Details
 
 *_\{There will be a new pinout with an external
 strobe/trigger to trigger the illuminator; ask
@@ -194,12 +194,12 @@ image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 <<<
 
 [discrete]
-== {shortprodname3}2 Dimensions (mm)
+== {illum-DFC} Dimensions (mm)
 
 image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
 
 [discrete]
-== {shortprodname3}2 Connector Pinouts
+== {illum-DFC} Connector Pinouts
 
 image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
 
