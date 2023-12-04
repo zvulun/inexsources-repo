@@ -7,17 +7,18 @@
 .^| Specification
 //{set:cellbgcolor:#c0c0c0}
 
-2+.^| Capture Distance .^|10-26 ft (3-8 m)
+2+.^|Capture Distance .^|10-26 ft (3-8 m)
 
-2+.^| Face Camera *_\{Max.?}_* Height .^|5 ft (1.5 m)
+2+.^|Installation Height .^|5 ft (1.5 m)
 
 2+.^|Vehicle Speed .^|Up to 30 mph (48 km/h)
 
-2+.^|Video Output .^|ONVIF-recordable; recordable by any VMS
+2+.^|Video Output .^|ONVIF compatible
 
-2.2+.^|Integrations .^|Existing LPR systmes
-
-.^|IZCloud
+2+.^|Limitations .^|*_\{where to mention
+that "Dark coated glass
+decreases system
+performance"? }_*
 
 |===
 

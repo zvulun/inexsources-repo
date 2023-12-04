@@ -110,6 +110,8 @@ image::ROOT:SLN-DriverFaceCapture/DFC-CAMP-Lane-Design.png[image,800]
 
 <<<
 
+*_\{make pinout changes in spec table}_*
+
 [discrete]
 == {camera-DFC} Camera System Specifications
 
@@ -180,16 +182,7 @@ image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 [discrete]
 == {camera-DFC} LAN and Power/Signals Cable Details
 
-*_\{There will be a new pinout with an external
-strobe/trigger to trigger the illuminator; ask
-Pinchas if the new pinout is for all IZA500G/GR
-cameras? Note that this picture mentions the
-P48 models, but I took that out of the spec -
-if pinout changes, spec table will change
-and may need separate picture that does
-not mention the P48 option}_*
-
-image::ROOT:IZA500G/image4.png[image,width=542,height=370]
+image::ROOT:SLN-DriverFaceCapture/IZA500G-FIG-085g_ DFC_Signal_Wires.png[image,600]
 
 <<<
 
