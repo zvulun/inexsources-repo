@@ -46,8 +46,8 @@ toc::[]
 
 == Recommended Reading/Related Documents
 
-*_\{add in reference to IZA500DFC data sheet? add
-diagram with IZA500G-DFC wired?}_*
+//*_\{add in reference to IZA500DFC data sheet? add
+//diagram with IZA500G-DFC wired?}_*
 
 ._Click to show the Related Documents table_
 [%collapsible]
@@ -233,7 +233,11 @@ The number of illuminator LEDs and beam angle must match the distance rating of 
 
 * More LEDs and narrower beam angles are used for longer distances
 
-See the appropriate Camera Installation and Configuration Guide(s) for an explanation of the model number codes (effective distances, and wavelengths/number of LEDs). *_\{Add {camera-5G} or GR here – since new pinout should allow for a strobe trigger as in the Driver Face Capture solution – and fix in catalog as well\}_*
+See the appropriate Camera Installation and Configuration Guide(s) for an explanation of the model number codes (effective distances, and wavelengths/number of LEDs).
+//*_\{Add {camera-5G} or GR here –
+//since new pinout should allow for a
+//strobe trigger as in the Driver Face Capture solution –
+//and fix in catalog as well\}_*
 
 [#t_Camera-to-Illuminator-Typical-Use-Cases]
 
@@ -387,8 +391,6 @@ Here is a typical wiring diagram for capturing license plate images (the power s
 .Typical Camera with Illuminator Wiring Diagram
 
 image::./UserGuide/image11.png[image,width=507,height=316]
-
-*_\{Need to relink all P/Ns in this table to the proper AsciiDoc locations\}_*
 
 [table.withborders,width="100%",cols="12%,51%,37%",options="header",]
 |===
