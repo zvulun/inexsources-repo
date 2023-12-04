@@ -3,6 +3,7 @@
 //We do not yet have verification of a specific eye safety stancard
 //:eyesafetystandard-1: IEC62471 Group 1
 
+:xref-type-IZS:
 :layout-type-userguide:
 
 //enable the TOC to be placed in a specific position
