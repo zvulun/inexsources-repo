@@ -205,7 +205,7 @@ include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 
 .Required Accessories {compname-short} Can Supply
 
-[width="100%",cols="33%,67%",options="header",]
+[table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Item |Notes
 |24 VDC power supply (voltage-adjustable) |{compname-med} IZPWR 24 VDC power supply models. It is recommended to use an illuminator power supply separate from the Camera System's supply.
@@ -289,16 +289,15 @@ You can see active infrared-type LEDs with certain model smartphone cameras to s
 
 .Additional Installation Considerations
 
-[width="100%",cols="40%,60%",options="header",]
+[table.withborders,width="100%",cols="40%,60%",options="header",]
 |===
 |Item |Considerations
 |*Surge Protection* a|* On power, network and data cables
 a|
 *Cable Extensions*
 
-*+++<u>+++IMPORTANT+++</u>+++*
-
-*+++<u>+++All cable extensions and repeaters must be shielded.+++</u>+++*
+*IMPORTANT* +
++++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
 
 a|
 * Power - Use a cable gauge sufficient to deliver 24 VDC at the illuminator, depending on the power supply used
@@ -391,17 +390,24 @@ image::./UserGuide/image11.png[image,width=507,height=316]
 
 *_\{Need to relink all P/Ns in this table to the proper AsciiDoc locations\}_*
 
-[width="100%",cols="12%,51%,37%",options="header",]
+[table.withborders,width="100%",cols="12%,51%,37%",options="header",]
 |===
 |Item |Description |Ordering Information
-|A a|*LAN Cable for {camera-8G} System* |{compname-short} P/N: IZCAB-A800-LAN
-|B a|*Power/Signals Cable for {camera-8G} System* |{compname-short} P/N: IZCAB-A800-PAS
+|A a|*LAN Cable for {camera-8G} System* |{compname-short}
+P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]
+|B a|*Power/Signals Cable for {camera-8G} System* |{compname-short}
+P/N: xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
 |C a|*Power Supplies:* 24 VDC, 100/120W; DIN rail mount option +
-+
-Can power 2 cameras from a single power supply |{compname-short} P/N: IZPWR120-24-MWL-DIN
-|D a|*Illuminator Power Cable* |Included; {compname-short} P/N: IZCAB-SPWR-15F
-|E a|*Illuminator Signals Cable* |Included; {compname-short} P/N: IZCAB-SSIG-15F
-|F a|*{shortprodname} Strobe Illuminator* |{compname-short} P/N: (See <<t_Camera-to-Illuminator-Typical-Use-Cases>> for Camera-to-Illuminator Typical Use Cases)
+
+Can power 2 cameras from a single power supply
+|{compname-short} P/N:
+xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
+|D a|*Illuminator Power Cable* |Included; {compname-short}
+P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
+|E a|*Illuminator Signals Cable* |Included; {compname-short}
+P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
+|F a|*{shortprodname} Strobe Illuminator* |{compname-short}
+P/N: (See <<t_Camera-to-Illuminator-Typical-Use-Cases>> for Camera-to-Illuminator Typical Use Cases)
 |===
 
 [#s_Maintenance]
