@@ -252,7 +252,7 @@ See the appropriate Camera Installation and Configuration Guide(s) for an explan
 {shortprodname}1-IR-30
 .^|{camera-GRV} .^|{shortprodname}2-IR-H120 .^|RV Strobe .^|B/W .^|Side
 .^|{camera-DOT} .^|{shortprodname}2-IR-H120
-^|Near Lane (NL) Strobe and Far Lane (FL) Strobe .^|B/W .^|Side
+.^|Near Lane (NL) Strobe and Far Lane (FL) Strobe .^|B/W .^|Side
 .^|{camera-ORT}-L-xx .^|{shortprodname}2-WL-20 +
 {shortprodname}2-CL-20 .^|OV Strobe .^|Color .^|Rear
 .^|{camera-ORT}-L-xx .^|{shortprodname}2-DR-20 +
