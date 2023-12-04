@@ -7,7 +7,7 @@
 .^| Specification
 //{set:cellbgcolor:#c0c0c0}
 
-ifndef::xref-type-DFC-CAMP[]
+ifndef::xref-type-DFC[]
 
 .2+.^| LED Illumination
 //{set:cellbgcolor!}
@@ -88,7 +88,7 @@ degrees
 
 .^| NDAA Section 889 compliant
 
-endif::xref-type-DFC-CAMP[]
+endif::xref-type-DFC[]
 
 .4+.^| Physical
 
@@ -96,7 +96,7 @@ endif::xref-type-DFC-CAMP[]
 
 .^a|
 
-ifndef::xref-type-DFC-CAMP[]
+ifndef::xref-type-DFC[]
 
 * S1: 7.2 x 9.8 x 3.6 in (183 x 250 x 91 mm)
 
@@ -104,19 +104,19 @@ ifndef::xref-type-DFC-CAMP[]
 
 * S3: 14.5 x 11.4 x 4.2 in (368 x 290 x 107 mm)
 
-endif::xref-type-DFC-CAMP[]
+endif::xref-type-DFC[]
 
-ifdef::xref-type-DFC-CAMP[]
+ifdef::xref-type-DFC[]
 
 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
 
-endif::xref-type-DFC-CAMP[]
+endif::xref-type-DFC[]
 
 .^| Unit Weight - including outer pan/tilt adjustment bracket
 
 .^a|
 
-ifndef::xref-type-DFC-CAMP[]
+ifndef::xref-type-DFC[]
 
 * S1: 4.2 lbs (1.9 kg)
 
@@ -124,13 +124,13 @@ ifndef::xref-type-DFC-CAMP[]
 
 * S3: 10.1 lbs (4.6 kg)
 
-endif::xref-type-DFC-CAMP[]
+endif::xref-type-DFC[]
 
-ifdef::xref-type-DFC-CAMP[]
+ifdef::xref-type-DFC[]
 
 6.8 lbs (3.1 kg)
 
-endif::xref-type-DFC-CAMP[]
+endif::xref-type-DFC[]
 
 .^| Material
 
@@ -174,13 +174,13 @@ Pulse Width 0.03 - 1.6 ms
 .^| Input Voltage
 
 .^| 24 VDC
-ifndef::xref-type-DFC-CAMP[+++*+++]
+ifndef::xref-type-DFC[+++*+++]
 
 .^| Power Consumption (measured with 0.5 ms pulse width; 24 VDC input)
 
 .^a|
 
-ifndef::xref-type-DFC-CAMP[]
+ifndef::xref-type-DFC[]
 
 [table.withborders,width="60%",cols="10%,55%,35%",options="header",]
 !===
@@ -195,17 +195,17 @@ ifndef::xref-type-DFC-CAMP[]
 ^.^!S3 ^.^!30 ^.^!36W
 !===
 
-endif::xref-type-DFC-CAMP[]
+endif::xref-type-DFC[]
 
-ifdef::xref-type-DFC-CAMP[]
+ifdef::xref-type-DFC[]
 
 * 50W at 60 Hz
 
 * 25W at 30 Hz
 
-endif::xref-type-DFC-CAMP[]
+endif::xref-type-DFC[]
 
-ifndef::xref-type-DFC-CAMP[]
+ifndef::xref-type-DFC[]
 
 2.3+.^| Accessories Included
 
@@ -231,14 +231,14 @@ ifndef::xref-type-DFC-CAMP[]
 
 .^| Power Supply 24 VDC+++*+++
 
-endif::xref-type-DFC-CAMP[]
+endif::xref-type-DFC[]
 
 |===
 
-ifndef::xref-type-DFC-CAMP[]
+ifndef::xref-type-DFC[]
 
 +++*+++ It is recommended to use
 an illuminator power supply separate
 from the camera’s supply.
 
-endif::xref-type-DFC-CAMP[]
+endif::xref-type-DFC[]

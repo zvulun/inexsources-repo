@@ -6,7 +6,7 @@
 .^| Specification
 // {set:cellbgcolor:#c0c0c0}
 
-ifndef::xref-type-DFC-CAMP[]
+ifndef::xref-type-DFC[]
 
 .2+.^| Supported Analytics
 {set:cellbgcolor!}
@@ -124,4 +124,4 @@ ifndef::xref-type-DFC-CAMP[]
 .^| Video Streaming
 .^| RTSP Protocol
 
-endif::xref-type-DFC-CAMP[]
+endif::xref-type-DFC[]

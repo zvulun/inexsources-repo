@@ -1,8 +1,8 @@
 :docproductname: Driver Face Capture (DFC)
-:shortprodname: DFC
-:shortprodname2: IZA500G
-:shortprodname3: IZS
-:generic-camera-name: ALPR Camera System
+:shortprodname: IZA500DFC
+//:shortprodname2: IZA500G
+//:shortprodname3: IZS
+//:generic-camera-name: ALPR Camera System
 
 // These attributes have been soft set
 // In the playbooks, so they can be
@@ -16,13 +16,13 @@
 // Remember to unset all non-relevant attributes
 
 
-:xref-type-DFC-CAMP:
+:xref-type-DFC:
 :layout-type-technote:
 
 //enable the TOC to be placed in a specific position
 //:toc: macro
 
-= {docproductname} Datasheet
+= {shortprodname} Datasheet
 
 //xref:IZA500G:DocList.adoc[<- Back to {shortprodname} Documents]
 
@@ -39,13 +39,11 @@
 // [.white]#{shortprodname}#
 
 // discrete removes these headers from the TOC
-[discrete]
-== For Campgrounds
 
 //[discrete]
 //=== Rev. F3
-//[discrete]
-//=== Datasheet
+[discrete]
+== {docproductname} System
 
 image:ROOT:SLN-DriverFaceCapture/DFC-CAMP-Face-Man-Woman-Front.png[Picture of Face in Front Windsh,400,align=left]
 
@@ -67,7 +65,7 @@ image:ROOT:SLN-DriverFaceCapture/DFC-CAMP-Face-Man-Woman-Front.png[Picture of Fa
 [discrete]
 == Key Features and Benefits
 
-* [*] Designed for Campground Access Control and Security
+* [*] Designed for Access Control and Security
 
 * [*] Installable at entry or exit lanes
 
@@ -100,15 +98,15 @@ image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
 --
 
 [discrete]
+== {shortprodname} System Specifications
+
+include::ROOT:partial$SLN-DriverFaceCapture/p-DFC-spec-table.adoc[DFC Specification Table]
+
+[discrete]
 == Typical Lane Design
 
 image::ROOT:SLN-DriverFaceCapture/DFC-CAMP-Lane-Design.png[image,800]
 
-
-[discrete]
-== {shortprodname} System Specifications
-
-include::ROOT:partial$SLN-DriverFaceCapture/p-DFC-spec-table.adoc[DFC Specification Table]
 
 <<<
 
@@ -136,9 +134,9 @@ include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 |Part Number |Description
 .^|IZA500DFC-1L a|All-in-one AI Driver Face Capture (DFC) camera kit for single-lane use. Includes:
 
-* IZA500G Camera System: AI-enabled camera for precise driver face capture
+* {camera-DFC} Camera System: AI-enabled camera for precise driver face capture
 
-* IZS2 Strobe Illuminator: Windshield-penetrating illumination for vehicle interiors
+* {illum-DFC} Strobe Illuminator: Windshield-penetrating illumination for vehicle interiors
 
 * Mounting Hardware (x2): Dual sets for camera and illuminator installation
 
@@ -167,11 +165,6 @@ Pricing based on number of video channels
 //== Standard Package Contents
 
 //* {shortprodname} ALPR All-in-one AI Camera System
-
-[discrete]
-== {shortprodname2}-S-IRW LED Positions
-
-image::ROOT:IZA500G/image9.png[image,width=273,height=209]
 
 [discrete]
 == {shortprodname2} Dimensions (inches/cm)
