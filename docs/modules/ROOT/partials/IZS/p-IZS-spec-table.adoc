@@ -19,8 +19,6 @@ senses the ambient light level
 (pre-configured as per customer needs) +
 - flash activated by strobe input
 (3.3 - 24 VDC, opto-isolated) +
-(See Beam Angle specification
-for model number format) +
 
 ifndef::xref-type-DFC[]
 WVLN = Wavelength/Type
