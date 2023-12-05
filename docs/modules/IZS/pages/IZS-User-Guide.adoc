@@ -270,7 +270,7 @@ See the appropriate Camera Installation and Configuration Guide(s) for an explan
 
 [#s_Triggering-and-Pulse-Width]
 
-=== Triggering and Pulse Width
+=== Strobe Input and Pulse Width
 
 The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
 
@@ -307,7 +307,7 @@ a|
 a|
 * Power - Use a cable gauge sufficient to deliver 24 VDC at the illuminator, depending on the power supply used
 
-* Signals - Use a cable gauge sufficient to deliver the required trigger and RS485 signals at the illuminator.
+* Signals - Use a cable gauge sufficient to deliver the required strobe and RS485 signals at the illuminator.
 
 |Mounting a|
 * Typically on gantry
@@ -381,7 +381,14 @@ See the following Note:
 
 ========================================
 
-If you need to add length to the power or signals cables (see <<s_Additional-Installation-Considerations>>), be sure that: the supplied voltage (24 VDC) reaches the illuminator, the trigger signal levels you need reach the illuminator, and the RS485 signal levels reach the illuminator
+If you need to add length to the power or signals
+cables
+(see <<s_Additional-Installation-Considerations>>),
+be sure that: the supplied voltage (24 VDC)
+reaches the illuminator, the strobe signal
+levels you need reach the illuminator,
+and the RS485 signal levels reach the
+illuminator.
 
 ========================================
 

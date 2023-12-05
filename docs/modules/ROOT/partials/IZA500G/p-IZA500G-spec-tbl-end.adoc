@@ -8,6 +8,8 @@ ifndef::xref-type-DFC[]
 .^| {compname-short} Discovery
 .^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
 
+endif::xref-type-DFC[]
+
 include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .4+.^| Environmental
@@ -50,8 +52,6 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| NDAA
 .^| NDAA Section 889 compliant
 
-endif::xref-type-DFC[]
-
 .3+.^| Physical
 .^| Dimensions
 .^| (W x H x D) 6.7" x 4.7" x 17.7"+++<br>+++
@@ -81,7 +81,10 @@ max. length 328 ft (100 m), OD 5.5-7.9 mm,
 can be extended with: 22 AWG, OD 3.0-7.3 mm
 
 * 3-wire power cable, shielded with a polyethylene jacket; ends terminated with metal rings
-* Digital input (trigger) signal wires and relay output connections (see next items)
+* Digital input (trigger) signal wires and
+ifndef::xref-type-DFC[relay]
+ifdef::xref-type-DFC[strobe]
+output connections (see next items)
 
 
 .1+.^| Digital Inputs (Trigger)
@@ -89,8 +92,19 @@ can be extended with: 22 AWG, OD 3.0-7.3 mm
 * Trigger Wet: Green ({plus}5-12 V), Blue (GND)
 
 
-.1+.^| Relay Output
-.^a| * Dry Contact Relay: Brown (NO), Orange +++(C)+++
+.1+.^|
+ifndef::xref-type-DFC[Relay]
+ifdef::xref-type-DFC[Strobe]
+Output
+.^a|
+ifndef::xref-type-DFC[]
+* Dry Contact Relay: Brown (NO), Orange +++(C)+++
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+* Strobe Output: Orange ({plus}), Brown (-)
+endif::xref-type-DFC[]
+
 
 ifdef::xref-type-DFC[]
 .2+.^| Power
@@ -100,6 +114,10 @@ ifdef::xref-type-DFC[]
 
 .^| Power Consumption
 .^| 25 W
+
+2+.^| Accessories Included
+
+.^| Sunshade
 
 endif::xref-type-DFC[]
 
@@ -129,7 +147,6 @@ ifndef::xref-type-DFC[]
 .^| Digital I/O Controller (xref:IZIO:DocList.adoc[{hw-iocontroller}])
 
 .^| Different xref:MNT-ProdToMountMap:DocList.adoc[mount options] available
-
 
 .^| External Illuminator (xref:IZL:DocList.adoc[{illum-non-strobe} Series])
 

@@ -7,8 +7,6 @@
 .^| Specification
 //{set:cellbgcolor:#c0c0c0}
 
-ifndef::xref-type-DFC[]
-
 .2+.^| LED Illumination
 //{set:cellbgcolor!}
 .^| LEDs: +
@@ -19,7 +17,7 @@ Type/Wavelength/Number
 built-in photocell which
 senses the ambient light level
 (pre-configured as per customer needs) +
-- flash activated by trigger input
+- flash activated by strobe input
 (3.3 - 24 VDC, opto-isolated) +
 (See Beam Angle specification
 for model number format) +
@@ -87,8 +85,6 @@ degrees
 .^| NDAA
 
 .^| NDAA Section 889 compliant
-
-endif::xref-type-DFC[]
 
 .4+.^| Physical
 
@@ -159,7 +155,7 @@ endif::xref-type-DFC[]
 
 * RS485 connections for configuration communication
 
-.^| Digital Input (Trigger Input)
+.^| Strobe Input
 
 .^| 3.3 - 24VDC, opto-isolated +
 Pulse Width 0.03 - 1.6 ms

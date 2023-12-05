@@ -17,9 +17,13 @@ ifndef::xref-type-DFC[]
 .^| Vehicle Analytics
 .^| {vehicle-analytics}
 
+endif::xref-type-DFC[]
+
 2+.^| Field of View (FOV)
 
 .^| 12 ft (H) x 8 ft (V) (3.7 x 2.4 m)
+
+ifndef::xref-type-DFC[]
 
 2+.^| Max Vehicle Speed
 
@@ -33,27 +37,54 @@ ifndef::xref-type-DFC[]
 
 * L - Long distance, 30-70 ft (9-21 m)
 
+endif::xref-type-DFC[]
 
-.3+.^| LPR Illumination
+.3+.^|
+ifndef::xref-type-DFC[LPR Illumination]
+ifdef::xref-type-DFC[Built-in Illumination]
+
 .1+.^| Number of LEDs
 .^a|
-* DR, IR -15 high power LEDs
+
+ifndef::xref-type-DFC[]
+* DR, IR - 15 high power LEDs
 * DRW, IRW - 10 high power LEDs
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+15 high power LEDs
+endif::xref-type-DFC[]
+
 
 .1+.^| Wavelength
 .^a|
 
+ifndef::xref-type-DFC[]
 * DR - Deep Red
 
 * IR - Infrared
+endif::xref-type-DFC[]
 
+ifdef::xref-type-DFC[]
+Deep Red (DR)
+endif::xref-type-DFC[]
 
 .1+.^| Beam Angle
-.^a| * S - 40°x16°
+.^a|
+ifndef::xref-type-DFC[]
+* S - 40°x16°
 
 * L - 15°x15°
+endif::xref-type-DFC[]
 
-.6+.^| LPR Camera
+ifdef::xref-type-DFC[]
+40°x16°
+endif::xref-type-DFC[]
+
+.6+.^|
+ifndef::xref-type-DFC[LPR Camera]
+ifdef::xref-type-DFC[Camera]
+
 .^| Shutter Type
 .^| Global
 
@@ -67,9 +98,20 @@ ifndef::xref-type-DFC[]
 
 
 .1+.^| Lens
-.^a| * S - 6-22 mm; Motorized Zoom and Auto-focus
+.^a|
+ifndef::xref-type-DFC[]
+
+* S - 6-22 mm; Motorized Zoom and Auto-focus
 
 * L - 12-40 mm; Motorized Zoom and Auto-focus
+
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+
+6-22 mm; Motorized Zoom and Auto-focus
+
+endif::xref-type-DFC[]
 
 .^| Video Compression
 .^| MJPEG, H.264, H.265
@@ -77,6 +119,8 @@ ifndef::xref-type-DFC[]
 
 .^| Video Streaming
 .^| RTSP Protocol
+
+ifndef::xref-type-DFC[]
 
 .3+.^| OV Illumination
 .1+.^| Number of LEDs

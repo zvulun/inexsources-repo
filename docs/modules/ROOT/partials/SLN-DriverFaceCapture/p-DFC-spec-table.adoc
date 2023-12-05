@@ -4,7 +4,7 @@
 2+.^| Item
 //{set:cellbgcolor:#c0c0c0}
 
-.^| Specification
+.^| Specification+++*+++
 //{set:cellbgcolor:#c0c0c0}
 
 2+.^|Capture Distance .^|10-26 ft (3-8 m)
@@ -15,10 +15,7 @@
 
 2+.^|Video Output .^|ONVIF compatible
 
-2+.^|Limitations .^|*_\{where to mention
-that "Dark coated glass
-decreases system
-performance"? }_*
-
 |===
+
++++*+++ Dark coated glass decreases system performance
 
