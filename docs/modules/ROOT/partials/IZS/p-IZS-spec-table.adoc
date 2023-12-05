@@ -21,38 +21,49 @@ senses the ambient light level
 (3.3 - 24 VDC, opto-isolated) +
 (See Beam Angle specification
 for model number format) +
+
+ifndef::xref-type-DFC[]
 WVLN = Wavelength/Type
 
 * IR = Infrared
-
 * DR = Deep Red
-
 * CL = Cool White (4000K)
-
 * WL = Warm White (3000K)
+endif::xref-type-DFC[]
 
+ifdef::xref-type-DFC[]
+Wavelength: Deep Red (DR)
+endif::xref-type-DFC[]
+
+ifndef::xref-type-DFC[]
 N = Number of LEDs:
 
 * 1: 30 LEDs
-
 * 2: 60 LEDs
-
 * 3: 90 LEDs
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+Number of LEDs: 60
+endif::xref-type-DFC[]
 
 .^| Beam Angle (HxV), +
 degrees
 
-.^a| * {illum-strobe}N-WVLN-10: H10xV10
+.^a|
+ifndef::xref-type-DFC[]
 
+* {illum-strobe}N-WVLN-10: H10xV10
 * {illum-strobe}N-WVLN-20: H20xV20
-
 * {illum-strobe}N-WVLN-30: H30xV30
-
 * {illum-strobe}N-WVLN-H40: H40xV15
-
 * {illum-strobe}N-WVLN-60: H60xV60
-
 * {illum-strobe}2-IR-H120: H120xV20
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+H10xV10
+endif::xref-type-DFC[]
 
 .3+.^| Environmental
 
@@ -95,17 +106,12 @@ degrees
 ifndef::xref-type-DFC[]
 
 * S1: 7.2 x 9.8 x 3.6 in (183 x 250 x 91 mm)
-
 * S2: 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
-
 * S3: 14.5 x 11.4 x 4.2 in (368 x 290 x 107 mm)
-
 endif::xref-type-DFC[]
 
 ifdef::xref-type-DFC[]
-
 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
-
 endif::xref-type-DFC[]
 
 .^| Unit Weight - including outer pan/tilt adjustment bracket
@@ -115,17 +121,12 @@ endif::xref-type-DFC[]
 ifndef::xref-type-DFC[]
 
 * S1: 4.2 lbs (1.9 kg)
-
 * S2: 6.8 lbs (3.1 kg)
-
 * S3: 10.1 lbs (4.6 kg)
-
 endif::xref-type-DFC[]
 
 ifdef::xref-type-DFC[]
-
 6.8 lbs (3.1 kg)
-
 endif::xref-type-DFC[]
 
 .^| Material
@@ -136,7 +137,7 @@ endif::xref-type-DFC[]
 
 .^| Silver
 
-.5+.^| Interface
+.4+.^| Interface
 
 .^| Configuration Communication Protocol
 
@@ -149,9 +150,9 @@ endif::xref-type-DFC[]
 
 .^a| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F:
 
-* Trigger (Strobe) Input - see next part of table
+* Strobe Input - see next part of table
 
-* Strobe Output (for optional triggering of additional strobe illuminator)
+//* Strobe Output (for optional triggering of additional strobe illuminator)
 
 * RS485 connections for configuration communication
 
@@ -160,10 +161,10 @@ endif::xref-type-DFC[]
 .^| 3.3 - 24VDC, opto-isolated +
 Pulse Width 0.03 - 1.6 ms
 
-.^| Digital Output (Strobe Output)
+//.^| Digital Output (Strobe Output)
 
-.^| 3.3 - 24VDC, opto-isolated +
-Pulse Width 0.03 - 1.6 ms
+//.^| 3.3 - 24VDC, opto-isolated +
+//Pulse Width 0.03 - 1.6 ms
 
 .2+.^| Power
 
@@ -196,12 +197,8 @@ endif::xref-type-DFC[]
 ifdef::xref-type-DFC[]
 
 * 50W at 60 Hz
-
 * 25W at 30 Hz
-
 endif::xref-type-DFC[]
-
-ifndef::xref-type-DFC[]
 
 2.3+.^| Accessories Included
 
@@ -210,6 +207,8 @@ ifndef::xref-type-DFC[]
 .^| Power cable, 15 ft (4.6 m), {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
 
 .^| Signals cable, 15 ft (4.6 m), {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
+
+ifndef::xref-type-DFC[]
 
 .3+.^| Accessories Available (depending on site requirements)
 
