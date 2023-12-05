@@ -1,4 +1,4 @@
-//ifndef::xref-type-DFC[]
+ifndef::xref-type-DFC[]
 
 .2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
 .^| {compname-short} HTTP API
@@ -8,7 +8,7 @@
 .^| {compname-short} Discovery
 .^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
 
-//endif::xref-type-DFC[]
+endif::xref-type-DFC[]
 
 include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 

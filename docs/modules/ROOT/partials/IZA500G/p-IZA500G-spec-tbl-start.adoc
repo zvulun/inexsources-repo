@@ -6,7 +6,7 @@
 .^| Specification
 // {set:cellbgcolor:#c0c0c0}
 
-//ifndef::xref-type-DFC[]
+ifndef::xref-type-DFC[]
 
 .2+.^| Supported Analytics
 {set:cellbgcolor!}
@@ -17,7 +17,7 @@
 .^| Vehicle Analytics
 .^| {vehicle-analytics}
 
-//endif::xref-type-DFC[]
+endif::xref-type-DFC[]
 
 2+.^| Field of View (FOV)
 
