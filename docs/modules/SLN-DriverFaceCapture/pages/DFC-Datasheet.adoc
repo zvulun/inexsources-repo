@@ -74,7 +74,7 @@ and darkness at night
 
 * [*] ONVIF video recordable by any VMS
 
-* [*] Integrates with {compname-short} LPR systems
+* [*] Integrated with {compname-short} LPR systems
 
 * [*] Integrated with {software-cloud}
 
