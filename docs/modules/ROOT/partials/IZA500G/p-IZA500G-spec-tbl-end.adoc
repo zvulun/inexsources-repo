@@ -1,4 +1,4 @@
-ifndef::xref-type-DFC[]
+//ifndef::xref-type-DFC[]
 
 .2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
 .^| {compname-short} HTTP API
@@ -8,7 +8,7 @@ ifndef::xref-type-DFC[]
 .^| {compname-short} Discovery
 .^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
 
-endif::xref-type-DFC[]
+//endif::xref-type-DFC[]
 
 include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
@@ -74,7 +74,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^a| LAN - 6.6 (2 m) cable included with camera, terminated+++<br>+++
 with a male RJ-45 connector; can be extended with:+++<br>+++
 CAT 6, shielded Ethernet cable, 4 pairs, 22 AWG,+++<br>+++
-max. length 328 ft (100 m), OD 5.5-7.9 mm,
+max. length 328 ft (100 m), OD 5.5-7.9 mm
 
 
 .^a| Power/Signals (PAS) - 6.6 (2 m) cable included with camera;+++<br>+++

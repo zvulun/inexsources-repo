@@ -6,7 +6,7 @@
 .^| Specification
 // {set:cellbgcolor:#c0c0c0}
 
-ifndef::xref-type-DFC[]
+//ifndef::xref-type-DFC[]
 
 .2+.^| Supported Analytics
 {set:cellbgcolor!}
@@ -17,7 +17,7 @@ ifndef::xref-type-DFC[]
 .^| Vehicle Analytics
 .^| {vehicle-analytics}
 
-endif::xref-type-DFC[]
+//endif::xref-type-DFC[]
 
 2+.^| Field of View (FOV)
 
@@ -40,8 +40,8 @@ ifndef::xref-type-DFC[]
 endif::xref-type-DFC[]
 
 .3+.^|
-ifndef::xref-type-DFC[LPR Illumination]
-ifdef::xref-type-DFC[Built-in Illumination]
+LPR Illumination
+//ifdef::xref-type-DFC[Built-in Illumination]
 
 .1+.^| Number of LEDs
 .^a|
@@ -82,8 +82,8 @@ ifdef::xref-type-DFC[]
 endif::xref-type-DFC[]
 
 .6+.^|
-ifndef::xref-type-DFC[LPR Camera]
-ifdef::xref-type-DFC[Camera]
+LPR Camera
+//ifdef::xref-type-DFC[Camera]
 
 .^| Shutter Type
 .^| Global
@@ -116,30 +116,52 @@ endif::xref-type-DFC[]
 .^| Video Compression
 .^| MJPEG, H.264, H.265
 
-
 .^| Video Streaming
 .^| RTSP Protocol
 
-ifndef::xref-type-DFC[]
+//ifndef::xref-type-DFC[]
 
 .3+.^| OV Illumination
 .1+.^| Number of LEDs
 .^a|
 
+ifndef::xref-type-DFC[]
+
 * DR, IR - No visible light LEDs
 * DRW, IRW - 5 high power LEDs
+endif::xref-type-DFC[]
 
+ifdef::xref-type-DFC[]
+No visible light LEDs
+endif::xref-type-DFC[]
 
 .1+.^| Wavelength
 .^a|
 
+ifndef::xref-type-DFC[]
+
 * DR, IR - N/A
 * DRW, IRW - Visible, Warm White
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+N/A
+endif::xref-type-DFC[]
+
+
 
 .1+.^| Beam Angle
-.^a| * S - 40°x16°
+.^a|
 
+ifndef::xref-type-DFC[]
+
+* S - 40°x16°
 * L - 15°x15°
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+N/A
+endif::xref-type-DFC[]
 
 
 .6+.^| OV Camera
@@ -156,9 +178,17 @@ ifndef::xref-type-DFC[]
 
 
 .1+.^| Lens
-.^a| * S - 5-50 mm; Motorized Zoom and Auto-focus
+.^a|
 
+ifndef::xref-type-DFC[]
+
+* S - 5-50 mm; Motorized Zoom and Auto-focus
 * L - 5-50 mm; Motorized Zoom and Auto-focus
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+5-50 mm; Motorized Zoom and Auto-focus
+endif::xref-type-DFC[]
 
 
 .^| Video Compression
@@ -168,4 +198,4 @@ ifndef::xref-type-DFC[]
 .^| Video Streaming
 .^| RTSP Protocol
 
-endif::xref-type-DFC[]
+//endif::xref-type-DFC[]
