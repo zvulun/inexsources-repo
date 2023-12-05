@@ -171,9 +171,9 @@ Pricing based on number of video channels
 
 image::ROOT:/IZA500G/image5.png[image,width=315,height=205]
 
-<<<
-
 image::ROOT:/IZA500G/image6.png[image,width=463,height=224]
+
+<<<
 
 image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 
