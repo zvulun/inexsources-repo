@@ -67,17 +67,14 @@ image:ROOT:SLN-DriverFaceCapture/DFC-CAMP-Face-Man-Woman-Front.png[Picture of Fa
 
 * [*] Designed for Access Control and Security
 
-* [*] Installable at entry or exit lanes
+* [*] Takes images through vehicle windows
 
-* [*] Integrates with existing LPR systems
+* [*] Overcomes window reflective glare by day,
+and darkness at night
 
 * [*] ONVIF video recordable by any VMS
 
-* [*] Works day and night
-
-* [*] Overcomes daytime window reflective glare
-
-* [*] Penetrates windows for viewing interiors in darkness
+* [*] Integrates with {compname-short} LPR systems
 
 * [*] Integrated with {software-cloud}
 

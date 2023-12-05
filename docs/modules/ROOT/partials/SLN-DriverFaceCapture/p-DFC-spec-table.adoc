@@ -4,10 +4,10 @@
 2+.^| Item
 //{set:cellbgcolor:#c0c0c0}
 
-.^| Specification+++*+++
+.^| Specification
 //{set:cellbgcolor:#c0c0c0}
 
-2+.^|Capture Distance .^|10-26 ft (3-8 m)
+2+.^|Face Camera Capture Distance (F) .^|10-26 ft (3-8 m)
 
 2+.^|Installation Height .^|5 ft (1.5 m)
 
@@ -17,5 +17,5 @@
 
 |===
 
-+++*+++ Dark coated glass decreases system performance
+Note: Dark coated glass decreases system performance
 
