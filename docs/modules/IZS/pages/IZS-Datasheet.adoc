@@ -94,8 +94,6 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 
 include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 
-+++<div class="pagebreak"> </div>+++
-
 [discrete]
 == Ordering Information
 
@@ -154,6 +152,8 @@ requirements.
 == S1 Dimensions (mm)
 image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=800]
 
+<<<
+
 [discrete]
 == S2 Dimensions (mm)
 image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
@@ -165,6 +165,8 @@ image::ROOT:IZS/IZS-S-FIG-004b_NEW_S3_Dimensions.png[image,width=800]
 
 +++<div class="pagebreak"> </div>+++
 
+<<<
+
 [discrete]
 == Connector Locations
 image::ROOT:IZS/IZS-S-FIG-023_BackPanelNoPhotocellCallout.png[image,width=600]
@@ -173,6 +175,7 @@ image::ROOT:IZS/IZS-S-FIG-023_BackPanelNoPhotocellCallout.png[image,width=600]
 == Power/Signals Pinouts
 image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
 
+<<<
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
