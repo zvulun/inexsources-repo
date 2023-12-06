@@ -158,6 +158,9 @@ image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=800]
 == S2 Dimensions (mm)
 image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
 
+{empty} +
+{empty}
+
 [discrete]
 == S3 Dimensions (mm)
 
@@ -168,6 +171,9 @@ image::ROOT:IZS/IZS-S-FIG-004b_NEW_S3_Dimensions.png[image,width=800]
 [discrete]
 == Connector Locations
 image::ROOT:IZS/IZS-S-FIG-023_BackPanelNoPhotocellCallout.png[image,width=600]
+
+{empty} +
+{empty}
 
 [discrete]
 == Power/Signals Pinouts
