@@ -24,7 +24,7 @@
 == Strobe Illuminator Series
 [discrete]
 
-image::IZS-S-FIG-002c_NoLabels_All_WithS3_At_Angle.png[Picture of IZS Illuminators]
+image::ROOT:IZS/IZS-S-FIG-002c_NoLabels_All_WithS3_At_Angle.png[Picture of IZS Illuminators]
 
 // restore section numbering from here on
 :sectnums: all
