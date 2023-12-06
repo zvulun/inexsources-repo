@@ -360,6 +360,8 @@ See your camera's User Guide for details on how to adjust the position of the ca
 
 For instructions on how to adjust the pan and tilt, see the Mounting Hardware documentation (see <<s_Related-Documents>>).
 
+<<<
+
 [#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
 
 == Connecting the Camera System, Illuminator, Power Supply and Network
