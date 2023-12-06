@@ -163,6 +163,8 @@ Pricing based on number of video channels
 
 //* {shortprodname} ALPR All-in-one AI Camera System
 
+<<<
+
 [discrete]
 == {camera-DFC} Dimensions (inches/cm)
 
