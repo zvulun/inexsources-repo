@@ -435,6 +435,8 @@ P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
 P/N: (See <<t_Camera-to-Illuminator-Typical-Use-Cases>> for Camera-to-Illuminator Typical Use Cases)
 |===
 
+<<<
+
 [#s_Maintenance]
 
 == Maintenance
@@ -459,6 +461,7 @@ Always wipe the window +++<u>+++gently+++</u>+++.
 
 Do not use solvents or strong abrasive detergent when cleaning the illuminator. Use a soft dry cloth to clean the front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window gently.
 
+<<<
 
 == Notices, Safety Precautions and Certifications
 
