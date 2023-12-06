@@ -1,5 +1,7 @@
 = IZS Illuminator Series Documents List
 
+* xref:IZS:IZS-Datasheet.adoc[IZS Datasheet]
+
 * xref:IZS:IZS-User-Guide.adoc[IZS User Guide]
 
 More documents can be found at https://drive.google.com/drive/folders/1lhKcwzU9rAw7PgXnckeEjQkuGe59GXNx?usp=share_link[GDriveLink, window=_blank]
