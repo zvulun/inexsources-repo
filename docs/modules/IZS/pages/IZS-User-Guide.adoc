@@ -197,8 +197,6 @@ image::./UserGuide/image7.png[image,width=624,height=324]
 
 image::./UserGuide/image8.png[image,width=626,height=336]
 
-<<<
-
 [#t_Technical-Specifications-Rev-C]
 
 .Technical Specifications (Rev. C)
