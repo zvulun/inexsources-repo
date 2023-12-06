@@ -99,7 +99,8 @@ endif::xref-type-DFC[]
 
 .4+.^| Physical
 
-.^| Dimensions (W x H x D)+++**+++
+.^| Dimensions +
+(W x H x D)+++**+++
 
 .^a|
 
