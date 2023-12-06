@@ -185,14 +185,15 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 image::./UserGuide/image6.png[image,width=624,height=415]
 
+{empty} +
+{empty}
+
+
 [#f_S2-Illuminator-Dimensions-in-mm]
 
 .S2 Illuminator Dimensions (in mm)
 
 image::./UserGuide/image7.png[image,width=624,height=324]
-
-{empty} +
-{empty}
 
 [#f_S3-Illuminator-Dimensions-in-mm]
 
