@@ -191,6 +191,9 @@ image::./UserGuide/image6.png[image,width=624,height=415]
 
 image::./UserGuide/image7.png[image,width=624,height=324]
 
+{empty} +
+{empty}
+
 [#f_S3-Illuminator-Dimensions-in-mm]
 
 .S3 Illuminator Dimensions (in mm)
@@ -204,6 +207,8 @@ image::./UserGuide/image8.png[image,width=626,height=336]
 .Technical Specifications (Rev. C)
 
 include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
+
+<<<
 
 [#s_Required-Accessories-Not-Included]
 
