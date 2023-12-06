@@ -7,13 +7,13 @@
 .^| Specification
 //{set:cellbgcolor:#c0c0c0}
 
-.6+.^| LED Illumination
+.5+.^| LED Illumination
 //{set:cellbgcolor!}
 
 .^a|Type .^a|High power LEDs
-.^a|Overall Operation .^a| Invoked by built-in photocell which
-senses the ambient light level
-(pre-configured as per customer needs)
+//.^a|Overall Operation .^a| Invoked by built-in photocell which
+//senses the ambient light level
+//(pre-configured as per customer needs)
 
 .^a|Flash Activation .^a|Activated by
 strobe input (3.3 - 24 VDC, opto-isolated)
@@ -146,21 +146,19 @@ endif::xref-type-DFC[]
 
 .2+.^| Cables
 
-.^| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
+.^a| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
 
 
 .^a| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F:
 
-* Strobe Input - see next part of table
+//* Strobe Input - see next part of table
 
-//* Strobe Output (for optional triggering of additional strobe illuminator)
-
-* RS485 connections for configuration communication
+//* RS485 connections for configuration communication
 
 .^| Strobe Input
 
-.^| 3.3 - 24VDC, opto-isolated +
-Pulse Width 0.03 - 1.6 ms
+.^| 3.3 - 24VDC, opto-isolated
+//Pulse Width 0.03 - 1.6 ms
 
 //.^| Digital Output (Strobe Output)
 
