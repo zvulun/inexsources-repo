@@ -32,7 +32,7 @@ All network cable extensions and repeaters must be shielded.
 Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
 ===============================
 
-* Please read this guide carefully before installing the {generic-camera-name}.
+* Please read this guide carefully before installing the illuminator.
 * Keep this guide for future reference.
 * Do not disassemble the illuminator unit.
 Repair or replacement of parts for this

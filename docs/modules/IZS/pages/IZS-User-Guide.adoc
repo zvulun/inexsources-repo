@@ -220,7 +220,10 @@ include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Item |Notes
-|24 VDC power supply (voltage-adjustable) |{compname-med} IZPWR 24 VDC power supply models. It is recommended to use an illuminator power supply separate from the Camera System's supply.
+|24 VDC power supply (voltage-adjustable) |{compname-med} IZPWR 24 VDC power supply models.
+ifndef::xref-type-DFC[]
+It is recommended to use an illuminator power supply separate from the Camera System's supply.
+endif::xref-type-DFC[]
 |===
 
 <<<
@@ -350,7 +353,7 @@ image::./UserGuide/image9.png[image,width=407,height=215]
 
 * Mounting hardware may be included in your package, or packed separately, depending on your site's requirements. See the Mounting Hardware documentation (see <<s_Related-Documents>>).
 
-* Mount illuminators at an appropriate distance away from their associated camera(s), according to the objecti{system-type} of your project. Contact {compname-short} for guidance/training about this subject.
+* Mount illuminators at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
 
 [#s_Aiming-the-Illuminator]
 
@@ -390,7 +393,9 @@ All cable extensions and repeaters must be shielded.
 
 image::./UserGuide/image10.png[image,width=532,height=399]
 
-See the following Note:
+<<<
+
+Here is a typical wiring diagram for capturing license plate images (the power supply type/configuration may be different at your site).
 
 [IMPORTANT]
 
@@ -407,15 +412,11 @@ illuminator.
 
 ========================================
 
-<<<
-
-Here is a typical wiring diagram for capturing license plate images (the power supply type/configuration may be different at your site).
-
 [#f_Typical-Camera-with-Illuminator-Wiring-Diagram]
 
 .Typical Camera with Illuminator Wiring Diagram
 
-image::./UserGuide/image11.png[image,width=507,height=316]
+image::ROOT:IZS/IZS-S-FIG-013c_OV_Triggered_Wiring.png[image,width=500]
 
 [table.withborders,width="100%",cols="12%,51%,37%",options="header",]
 |===
