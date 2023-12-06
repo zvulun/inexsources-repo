@@ -34,6 +34,8 @@ image::IZS-S-FIG-002c_NoLabels_All_WithS3_At_Angle.png[Picture of IZS Illuminato
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
 
+<<<
+
 ._Click to show the Table of Contents_
 [%collapsible]
 ====
@@ -42,6 +44,7 @@ toc::[]
 
 ====
 
+<<<
 
 [#s_Related-Documents]
 
@@ -83,6 +86,8 @@ include::ROOT:partial$p-training.adoc[Training Section]
 [#s_Support]
 
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+<<<
 
 [#s_Overview]
 
@@ -133,6 +138,8 @@ image::./UserGuide/image3.png[image,width=457,height=226]
 .S3 Model - Rear View
 
 image::./UserGuide/image4.png[image,width=374,height=294]
+
+<<<
 
 [#s_Package-Contents]
 
@@ -188,6 +195,8 @@ image::./UserGuide/image7.png[image,width=624,height=324]
 
 image::./UserGuide/image8.png[image,width=626,height=336]
 
+<<<
+
 [#t_Technical-Specifications-Rev-C]
 
 .Technical Specifications (Rev. C)
@@ -211,6 +220,8 @@ include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 |Item |Notes
 |24 VDC power supply (voltage-adjustable) |{compname-med} IZPWR 24 VDC power supply models. It is recommended to use an illuminator power supply separate from the Camera System's supply.
 |===
+
+<<<
 
 [#s_Planning-Your-Installation]
 
