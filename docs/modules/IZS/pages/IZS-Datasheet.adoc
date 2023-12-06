@@ -163,8 +163,6 @@ image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
 
 image::ROOT:IZS/IZS-S-FIG-004b_NEW_S3_Dimensions.png[image,width=800]
 
-+++<div class="pagebreak"> </div>+++
-
 <<<
 
 [discrete]
