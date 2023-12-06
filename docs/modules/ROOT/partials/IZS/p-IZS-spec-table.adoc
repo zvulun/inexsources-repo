@@ -149,7 +149,7 @@ endif::xref-type-DFC[]
 .^a| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
 
 
-.^a| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F:
+.^a| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F
 
 //* Strobe Input - see next part of table
 
