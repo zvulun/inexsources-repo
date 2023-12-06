@@ -119,50 +119,28 @@ endif::xref-type-DFC[]
 .^| Video Streaming
 .^| RTSP Protocol
 
-//ifndef::xref-type-DFC[]
+ifndef::xref-type-DFC[]
 
 .3+.^| OV Illumination
 .1+.^| Number of LEDs
 .^a|
 
-ifndef::xref-type-DFC[]
-
 * DR, IR - No visible light LEDs
 * DRW, IRW - 5 high power LEDs
-endif::xref-type-DFC[]
-
-ifdef::xref-type-DFC[]
-No visible light LEDs
-endif::xref-type-DFC[]
 
 .1+.^| Wavelength
 .^a|
 
-ifndef::xref-type-DFC[]
-
 * DR, IR - N/A
 * DRW, IRW - Visible, Warm White
-endif::xref-type-DFC[]
-
-ifdef::xref-type-DFC[]
-N/A
-endif::xref-type-DFC[]
-
-
 
 .1+.^| Beam Angle
 .^a|
 
-ifndef::xref-type-DFC[]
-
 * S - 40°x16°
 * L - 15°x15°
-endif::xref-type-DFC[]
 
-ifdef::xref-type-DFC[]
-N/A
 endif::xref-type-DFC[]
-
 
 .6+.^| OV Camera
 .^| Shutter Type

@@ -7,21 +7,20 @@
 .^| Specification
 //{set:cellbgcolor:#c0c0c0}
 
-.2+.^| LED Illumination
+.6+.^| LED Illumination
 //{set:cellbgcolor!}
-.^| LEDs: +
-Type/Wavelength/Number
 
-.^a| High Power LEDs: +
-- overall operation invoked by
-built-in photocell which
+.^a|Type .^a|High power LEDs
+.^a|Overall Operation .^a| Invoked by built-in photocell which
 senses the ambient light level
-(pre-configured as per customer needs) +
-- flash activated by strobe input
-(3.3 - 24 VDC, opto-isolated) +
+(pre-configured as per customer needs)
+
+.^a|Flash Activation .^a|Activated by
+strobe input (3.3 - 24 VDC, opto-isolated)
 
 ifndef::xref-type-DFC[]
-WVLN = Wavelength/Type
+
+.^a|Wavelength (WVLN) .^a|
 
 * IR = Infrared
 * DR = Deep Red
@@ -30,11 +29,13 @@ WVLN = Wavelength/Type
 endif::xref-type-DFC[]
 
 ifdef::xref-type-DFC[]
-Wavelength: Deep Red (DR)
+.^a|Wavelength .^a|
+Deep Red (DR)
 endif::xref-type-DFC[]
 
 ifndef::xref-type-DFC[]
-N = Number of LEDs:
+
+.^a|Number of LEDs (N) .^a|
 
 * 1: 30 LEDs
 * 2: 60 LEDs
@@ -42,10 +43,11 @@ N = Number of LEDs:
 endif::xref-type-DFC[]
 
 ifdef::xref-type-DFC[]
-Number of LEDs: 60
+.^a|Number of LEDs .^a|
+60
 endif::xref-type-DFC[]
 
-.^| Beam Angle (HxV), +
+.^a| Beam Angle (HxV), +
 degrees
 
 .^a|
@@ -97,7 +99,7 @@ endif::xref-type-DFC[]
 
 .4+.^| Physical
 
-.^| Dimensions (W x H x D) - including outer pan/tilt adjustment bracket
+.^| Dimensions (W x H x D)+++**+++
 
 .^a|
 
@@ -112,7 +114,7 @@ ifdef::xref-type-DFC[]
 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
 endif::xref-type-DFC[]
 
-.^| Unit Weight - including outer pan/tilt adjustment bracket
+.^| Unit Weight+++**+++
 
 .^a|
 
@@ -235,3 +237,5 @@ an illuminator power supply separate
 from the camera’s supply.
 
 endif::xref-type-DFC[]
+
++++**+++  Including outer pan/tilt adjustment bracket

@@ -67,7 +67,7 @@ image:ROOT:SLN-DriverFaceCapture/DFC-CAMP-Face-Man-Woman-Front.png[Picture of Fa
 
 * [*] Designed for Access Control and Security
 
-* [*] Takes images through vehicle windows
+* [*] Captures detailed vehicle interior views
 
 * [*] Overcomes window reflective glare by day,
 and darkness at night
@@ -104,6 +104,8 @@ include::ROOT:partial$SLN-DriverFaceCapture/p-DFC-spec-table.adoc[DFC Specificat
 
 image::ROOT:SLN-DriverFaceCapture/DFC-CAMP-Lane-Design.png[image,800]
 
++++<font size="-1">+++D: LPR Capture Distance: 8 ft recommended +
+F: Face Capture Distance: 10-26 ft recommended+++</font>+++
 
 <<<
 
