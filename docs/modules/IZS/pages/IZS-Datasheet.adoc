@@ -1,0 +1,182 @@
+:docproductname: IZS
+:shortprodname: IZS
+//:generic-camera-name: ALPR Camera System
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+
+:xref-type-IZS:
+:layout-type-technote:
+
+//enable the TOC to be placed in a specific position
+//:toc: macro
+
+= {docproductname} Datasheet
+
+//xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
+
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== Strobe Illuminator Series
+
+[discrete]
+=== Rev. C
+//[discrete]
+//=== Datasheet
+
+image::ROOT:IZS/IZS-S-FIG-002c_NoLabels_All_WithS3_At_Angle.png[image,width=400,align=left]
+
+// no section numbers in datasheets
+//:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+// no TOC in datasheets ._Click to show the Table of Contents_
+// [%collapsible]
+// ====
+
+// toc::[]
+
+// ====
+
+[discrete]
+== Key Features and Benefits
+* [*] Designed for ITS and Tolling Applications
+
+* [*] Smart lighting technology - for optimum performance
+
+* [*] Wide temperature range - operating from -13°F to 140°F (-25°C to 60°C)
+
+* [*] IP66 ingress protection against extreme moisture
+
+* [*] NDAA Section 889 compliant for our national security
+
+//image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+//image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
+//image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
+//image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
+image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
+image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
+image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
+//image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
+//image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
+
+--
++++<div class="pagebreak"> </div>+++
+--
+
+
+[discrete]
+== Specifications
+
+include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Ordering Information
+
+[table.withborders,width="100%",cols="50,25%,25%",options="header",]
+|===
+a|Product a|Available Part Numbers+++***+++ a|Product Description
+.^a|{shortprodname}[1/2/3]-(IR/DR/CL/WL)-
+10/20/30/H40/60/H120+++***+++
+.^a|
+* {shortprodname}N-WVLN-10
+* {shortprodname}N-WVLN-20
+* {shortprodname}N-WVLN-30
+* {shortprodname}N-WVLN-H40
+* {shortprodname}N-WVLN-60
+* {shortprodname}2-IR-H120
+
+.^a|IZS Strobe Illuminator
+|===
+
++++***+++ {shortprodname}[1/2/3]-
+(IR/DR/CL/WL)-10/20/30/H40/60/H120, where:
+
+* N = 1/2/3 - number of LEDs: 1=30, 2=60, 3=90
+* WVLN = Wavelength/type of LEDs:
+** IR - Infrared
+** DR - Deep Red
+** CL - Cool White (4000K)
+** WL - Warm White (3000K)
+* 10/20/30/H40/60/H120 - LED beam angle, in degrees:
+** 10 = 10x10
+** 20 = 20x20
+** 30 = 30x30
+** H40 = H40xV15
+** 60 = 60x60
+** H120 = H120xV20 (available as IZS2-IR-H120)
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Standard Package Contents
+
+* {shortprodname} Strobe Illuminator with outer
+pan/tilt adjustment bracket
+
+* Power cable, 15 ft (4.6 m), {compname-short} P/N:
+xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
+
+* Signals cable, 15 ft (4.6 m), {compname-short} P/N:
+xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
+
+* Mounting hardware may be included in your package,
+or packed separately, depending on your site's
+requirements.
+
+[discrete]
+== S1 Dimensions (mm)
+image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=800]
+
+[discrete]
+== S2 Dimensions (mm)
+image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
+
+[discrete]
+== S3 Dimensions (mm)
+
+image::ROOT:IZS/IZS-S-FIG-004b_NEW_S3_Dimensions.png[image,width=800]
+
++++<div class="pagebreak"> </div>+++
+
+[discrete]
+== Connector Locations
+image::ROOT:IZS/IZS-S-FIG-023_BackPanelNoPhotocellCallout.png[image,width=600]
+
+[discrete]
+== Power/Signals Pinouts
+image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
+
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+Doc. No. {shortprodname}-REV-C-TDSHEET
+
