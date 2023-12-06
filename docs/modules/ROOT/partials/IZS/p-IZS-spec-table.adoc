@@ -100,7 +100,7 @@ endif::xref-type-DFC[]
 .4+.^| Physical
 
 .^| Dimensions +
-(W x H x D)+++**+++
+(W x H x D)+++*+++
 
 .^a|
 
@@ -115,7 +115,7 @@ ifdef::xref-type-DFC[]
 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
 endif::xref-type-DFC[]
 
-.^| Unit Weight+++**+++
+.^| Unit Weight+++*+++
 
 .^a|
 
@@ -172,7 +172,7 @@ Pulse Width 0.03 - 1.6 ms
 .^| Input Voltage
 
 .^|
-ifndef::xref-type-DFC[24 VDC+++*+++]
+ifndef::xref-type-DFC[24 VDC+++**+++]
 ifdef::xref-type-DFC[24 VDC]
 
 .^| Power Consumption (measured with 0.5 ms pulse width; 24 VDC input)
@@ -226,18 +226,16 @@ ifndef::xref-type-DFC[]
 
 .^| Power Supply
 
-.^| Power Supply 24 VDC+++*+++
+.^| Power Supply 24 VDC+++**+++
 
 endif::xref-type-DFC[]
 
 |===
 
-ifndef::xref-type-DFC[]
++++*+++ Including outer pan/tilt adjustment bracket
 
-+++*+++ It is recommended to use
+ifndef::xref-type-DFC[]
++++**+++ It is recommended to use
 an illuminator power supply separate
 from the camera’s supply.
-
 endif::xref-type-DFC[]
-
-+++**+++  Including outer pan/tilt adjustment bracket
