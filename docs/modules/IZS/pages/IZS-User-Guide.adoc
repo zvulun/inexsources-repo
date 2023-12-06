@@ -173,6 +173,8 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 ========================================
 
+<<<
+
 [#s_Dimensions-and-Specifications]
 
 === Dimensions and Specifications
@@ -402,6 +404,8 @@ and the RS485 signal levels reach the
 illuminator.
 
 ========================================
+
+<<<
 
 Here is a typical wiring diagram for capturing license plate images (the power supply type/configuration may be different at your site).
 
