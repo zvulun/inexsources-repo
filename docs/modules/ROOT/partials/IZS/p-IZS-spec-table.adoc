@@ -171,8 +171,9 @@ Pulse Width 0.03 - 1.6 ms
 
 .^| Input Voltage
 
-.^| 24 VDC
-ifndef::xref-type-DFC[+++*+++]
+.^|
+ifndef::xref-type-DFC[24 VDC+++*+++]
+ifdef::xref-type-DFC[24 VDC]
 
 .^| Power Consumption (measured with 0.5 ms pulse width; 24 VDC input)
 
