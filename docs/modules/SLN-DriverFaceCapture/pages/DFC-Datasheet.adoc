@@ -149,7 +149,7 @@ a|IZCloud SaaS Subscription; select one of these options:
 * IZCLOUD-DFC-1S: 1 year IZCloud Driver Face Capture
 (DFC) Video License, provided as SaaS;
 Free 14-day history in cloud storage;
-Pricing based on number of camping spots
+Pricing based on number of parking spaces
 
 
 * IZCLOUD-DFC-1C: 1 year IZCloud Driver Face Capture
