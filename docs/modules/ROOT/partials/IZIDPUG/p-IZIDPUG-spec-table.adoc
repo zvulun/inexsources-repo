@@ -96,12 +96,15 @@ according to IEC 61000-4-2, Level 3
 
 1.3+.^| Certifications
 2.1+.^| EMC
-3.1+.^| EN 55032:2015+A11:2020, EN 55035:2017{plus}A11:2020,
-EN IEC 61000-3-2:2019, EN 61000-3-3:2013+A1:2019
+3.1+.^| EN 55032:2015{plus}A11:2020,
+EN 55035:2017{plus}A11:2020,
+EN IEC 61000-3-2:2019,
+EN 61000-3-3:2013{plus}A1:2019
 
 2.1+.^| RoHS
 3.1+.^| EU RoHS Directive 2011/65/EU and its
 amendment directives 2015/863/EU (RoHS 2.0)
+
 
 2.1+.^| NDAA
 3.1+.^| NDAA Section 889 compliant
@@ -122,11 +125,7 @@ amendment directives 2015/863/EU (RoHS 2.0)
 3.1+.^| 12 VDC
 
 
-.^| Typical Power Consumption
-.^a|
+2.1+.^| Typical Power Consumption
+3.1+.^a|18 W
 
-2.2+.^| Accessories Available
-
-.^| Wall mount brackets
-.^| Pole mount bracket
 |===

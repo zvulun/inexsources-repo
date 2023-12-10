@@ -1,46 +1,48 @@
 //.8+.^| AI Processor
 ifndef::xref-type-IZIDPUG[.7+.^| AI Processor]
-ifdef::xref-type-IZIDPUG[.4+.^| AI Processor]
+ifdef::xref-type-IZIDPUG[1.4+.^| AI Processor]
 
-2.1+.^| GPU
-3.1+.^| NVIDIA Maxwell architecture with 128 CUDA® cores
+ifndef::xref-type-IZIDPUG[.^| GPU]
+ifdef::xref-type-IZIDPUG[2.1+.^| GPU]
 
+ifndef::xref-type-IZIDPUG[.^|NVIDIA Maxwell architecture with 128 CUDA® cores]
+ifdef::xref-type-IZIDPUG[3.1+.^|NVIDIA Maxwell architecture with 128 CUDA® cores]
 
-2.1+.^| CPU
-3.1+.^| Quad-core ARM Cortex-A57 MPCore processor
+ifndef::xref-type-IZIDPUG[.^| CPU]
+ifdef::xref-type-IZIDPUG[2.1+.^| CPU]
 
+ifndef::xref-type-IZIDPUG[.^|Quad-core ARM Cortex-A57 MPCore processor]
+ifdef::xref-type-IZIDPUG[3.1+.^|Quad-core ARM Cortex-A57 MPCore processor]
 
-2.1+.^| RAM
-3.1+.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
+ifndef::xref-type-IZIDPUG[.^| RAM]
+ifdef::xref-type-IZIDPUG[2.1+.^| RAM]
 
-//ifndef::xref-type-IZIDPUG[]
-//.^| System Storage
-//.^| MicroSD, 64 Gb
-//endif::xref-type-IZIDPUG[]
+ifndef::xref-type-IZIDPUG[.^|4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s]
+ifdef::xref-type-IZIDPUG[3.1+.^|4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s]
 
-ifdef::xref-type-IZIDPUG[]
-2.1+.^|System and Data Storage
+ifndef::xref-type-IZIDPUG[]
+.^| System Storage
+
+.^| MicroSD, 64 Gb
 endif::xref-type-IZIDPUG[]
 
-ifdef::xref-type-IZIDPUG[]
-3.1+.^|250 Gb
-endif::xref-type-IZIDPUG[]
 
-ifdef::xref-type-IZA800G,xref-type-IZA800GVES[]
-.^|SSD, 250 Gb
-endif::xref-type-IZA800G,xref-type-IZA800GVES[]
+.^|
+ifdef::xref-type-IZIDPUG[System and]
+Data Storage
 
-ifdef::xref-type-IZA500G[]
-.^|eMMC, 12 Gb
-endif::xref-type-IZA500G[]
-
-ifdef::xref-type-DFC[]
-.^|eMMC, 12 Gb
-endif::xref-type-DFC[]
+.^|
+ifdef::xref-type-IZA800G,xref-type-IZA800GVES[SSD, 250 Gb]
+ifdef::xref-type-IZA500G[eMMC, 12 Gb]
+ifdef::xref-type-DFC[eMMC, 12 Gb]
+ifdef::xref-type-IZIDPUG[250 Gb]
 
 ifndef::xref-type-IZIDPUG[]
 .2+.^| RTC Battery
 .^| Maintains real-time clock date and time for 4-6 hours
+
+
+
 .^| Rechargeable; Full charge-up time: 12 hours
 endif::xref-type-IZIDPUG[]
 
