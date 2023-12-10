@@ -105,7 +105,7 @@ include::ROOT:partial$IZIDPUG/p-IZIDPUG-spec-table.adoc[]
 [discrete]
 == Ordering Information
 
-[table.withborders,width="100%",cols="25%,75%",options="header",]
+[table.withborders,width="100%",cols="20%,80%",options="header",]
 |===
 |Part Number |Description
 .^|{shortprodname}-US .^|Indoor AI Data Processing Unit;
@@ -118,6 +118,10 @@ power supply input cable according to EU outlet standard
 == Standard Package Contents
 
 * {shortprodname}, Indoor AI Data Processing Unit
+
+* 12 VDC, 5A Power Supply with barrel connector;
+input cable according to US or EU outlet standard
+
 
 +++<div class="pagebreak"> </div>+++
 
