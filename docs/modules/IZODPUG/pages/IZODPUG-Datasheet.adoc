@@ -107,7 +107,7 @@ include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
-|Part Number+++*+++ |Description
+|Part Number |Description
 .^|{shortprodname}-DC-PG .^|Outdoor AI Data Processing Unit
 |===
 

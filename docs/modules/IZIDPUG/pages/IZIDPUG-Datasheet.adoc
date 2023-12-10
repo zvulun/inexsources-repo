@@ -107,14 +107,17 @@ include::ROOT:partial$IZIDPUG/p-IZIDPUG-spec-table.adoc[]
 
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
-|Part Number+++*+++ |Description
-.^|{shortprodname}-DC-PG .^|Outdoor AI Data Processing Unit
+|Part Number |Description
+.^|{shortprodname}-US .^|Indoor AI Data Processing Unit;
+power supply input cable according to US outlet standard
+.^|{shortprodname}-EU .^|Indoor AI Data Processing Unit;
+power supply input cable according to EU outlet standard
 |===
 
 [discrete]
 == Standard Package Contents
 
-* {shortprodname}, Outdoor AI Data Processing Unit
+* {shortprodname}, Indoor AI Data Processing Unit
 
 +++<div class="pagebreak"> </div>+++
 
@@ -122,9 +125,10 @@ include::ROOT:partial$IZIDPUG/p-IZIDPUG-spec-table.adoc[]
 == Dimensions (mm)
 
 image::ROOT:IZODPUG/IZODPUG-B1-FIG-045_Dimensions.png[image]
+
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-REV-B1-TDSHEET
+Doc. No. {shortprodname}-REV-B-TDSHEET
 
