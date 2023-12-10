@@ -71,7 +71,7 @@ AI Data Processing Unit
 2.1+.^|{compname-short} Discovery
 3.1+.^|The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
 
-include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
+//include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 1.6+.^| Environmental
 2.1+.^| Operating Temperature

@@ -1,24 +1,17 @@
 //.8+.^| AI Processor
 ifndef::xref-type-IZIDPUG[.7+.^| AI Processor]
-ifdef::xref-type-IZIDPUG[1.4+.^| AI Processor]
+ifdef::xref-type-IZIDPUG[.4+.^| AI Processor]
 
-ifndef::xref-type-IZIDPUG[.^| GPU]
-ifdef::xref-type-IZIDPUG[2.1+.^| GPU]
+.^| GPU
+.^| NVIDIA Maxwell architecture with 128 CUDA® cores
 
-ifndef::xref-type-IZIDPUG[.^|NVIDIA Maxwell architecture with 128 CUDA® cores]
-ifdef::xref-type-IZIDPUG[3.1+.^|NVIDIA Maxwell architecture with 128 CUDA® cores]
 
-ifndef::xref-type-IZIDPUG[.^| CPU]
-ifdef::xref-type-IZIDPUG[2.1+.^| CPU]
+.^| CPU
+.^| Quad-core ARM Cortex-A57 MPCore processor
 
-ifndef::xref-type-IZIDPUG[.^|Quad-core ARM Cortex-A57 MPCore processor]
-ifdef::xref-type-IZIDPUG[3.1+.^|Quad-core ARM Cortex-A57 MPCore processor]
 
-ifndef::xref-type-IZIDPUG[.^| RAM]
-ifdef::xref-type-IZIDPUG[2.1+.^| RAM]
-
-ifndef::xref-type-IZIDPUG[.^|4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s]
-ifdef::xref-type-IZIDPUG[3.1+.^|4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s]
+.^| RAM
+.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
 
 ifndef::xref-type-IZIDPUG[]
 .^| System Storage
