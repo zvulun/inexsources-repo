@@ -98,7 +98,7 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 [discrete]
 == Specifications
 
-include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
+include::ROOT:partial$IZIDPUG/p-IZIDPUG-spec-table.adoc[]
 
 //+++<div class="pagebreak"> </div>+++
 
