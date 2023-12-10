@@ -73,66 +73,60 @@ AI Data Processing Unit
 
 include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
-.3+.^| Environmental
-.^| Ingress Protection
-.^| IP67 (NEMA6P)
+1.6+.^| Environmental
+2.1+.^| Operating Temperature
+3.1+.^| 32°F to +113°F (0°C to +45°C); 0.2-0.3m/s air flow; according to GB/T 2423-2008
+
+2.1+.^| Storage Temperature
+3.1+.^| -13°F to + 176°F (-25°C to +80°C)
+
+2.1+.^| Humidity
+3.1+.^| 10% - 90% RH, non-condensing
+
+2.1+.^| Vibration
+3.1+.^a| 1 Grms,10Hz~150Hz, 3 Axis; +
+according to GB/T 2423.10-2008
+
+2.1+.^| ESD
+3.1+.^a| Touch 4KV, Air 8KV; +
+according to IEC 61000-4-2, Level 3
+
+2.1+.^| TVS
+3.1+.^| 1 KV
+
+1.3+.^| Certifications
+2.1+.^| EMC
+3.1+.^| EN 55032:2015+A11:2020, EN 55035:2017{plus}A11:2020,
+EN IEC 61000-3-2:2019, EN 61000-3-3:2013+A1:2019
+
+2.1+.^| RoHS
+3.1+.^| EU RoHS Directive 2011/65/EU and its
+amendment directives 2015/863/EU (RoHS 2.0)
+
+2.1+.^| NDAA
+3.1+.^| NDAA Section 889 compliant
+
+1.3+.^| Physical
+2.1+.^| Dimensions (W x H x D)
+3.1+.^|  4.33" x 2.52" x 2.52" +
+(110 x 64 x 64 mm)
+
+2.1+.^| Weight
+3.1+.^| 1.05 lbs (475 g)
+
+2.1+.^| Color
+3.1+.^| Black
+
+1.2+.^| Power
+2.1+.^| Input
+3.1+.^| 12 VDC
 
 
-.^| Operating Temperature
-.^| -4°F to 140°F (-20°C to 60°C)
-
-
-.^| Humidity
-.^| 0% - 90% RH, non-condensing
-
-.3+.^| Certifications
-.^| EMC
-.^| FCC Class, CE
-
-.^| RoHS
-.^| RoHS
-
-.^| NDAA
-.^| NDAA Section 889 compliant
-
-.4+.^| Physical
-.^| Dimensions
-.^| (W x H x D) 5.9" x 3.5" x 10.2" +
-(150 x 90 x 260 mm)
-
-
-.^| Weight
-.^| 5.3 lbs (2.4 kg)
-
-
-.^| Housing, Finish, Color
-.^| Die cast aluminum, powder coated, light gray
-
-.^| Torque
-.^| Recommended screw torque: 1.0N・m (10kgf・cm)
-
-
-.2+.^| Interface
-.^| Ethernet
-.^| LAN – PG13.5 Gland; GigE Ethernet (10/100/1000M)
-
-.^| Cameras
-.^| CAM1/CAM2 – PG13.5 Gland; PoE/PSE* 802.3af; +
-GigE Ethernet (10/100/1000M)
-
-.2+.^| Power
-.^| Input
-.^| 12-48 VDC
-
-
-.^| Maximum Power Consumption
-.^a| * 15 Watts without PSE
-* 45 Watts with PSE maximum power
+.^| Typical Power Consumption
+.^a|
 
 2.2+.^| Accessories Available
 
 .^| Wall mount brackets
 .^| Pole mount bracket
 |===
-
-+++*+++ PoE/PSE available for CAM1 and CAM 2 only if 48 VDC power input is applied.
