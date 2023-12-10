@@ -1,17 +1,17 @@
 //.8+.^| AI Processor
 ifndef::xref-type-IZIDPUG[.7+.^| AI Processor]
-ifdef::xref-type-IZIDPUG[.4+.^| AI Processor]
+ifdef::xref-type-IZIDPUG[1.4+.^| AI Processor]
 
-.^| GPU
-.^| NVIDIA Maxwell architecture with 128 CUDA® cores
-
-
-.^| CPU
-.^| Quad-core ARM Cortex-A57 MPCore processor
+2.1+.^| GPU
+3.1+.^| NVIDIA Maxwell architecture with 128 CUDA® cores
 
 
-.^| RAM
-.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
+2.1+.^| CPU
+3.1+.^| Quad-core ARM Cortex-A57 MPCore processor
+
+
+2.1+.^| RAM
+3.1+.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
 
 ifndef::xref-type-IZIDPUG[]
 .^| System Storage
@@ -19,22 +19,29 @@ ifndef::xref-type-IZIDPUG[]
 .^| MicroSD, 64 Gb
 endif::xref-type-IZIDPUG[]
 
+ifdef::xref-type-IZIDPUG[]
+2.1+.^|System and Data Storage
+endif::xref-type-IZIDPUG[]
 
-.^|
-ifdef::xref-type-IZIDPUG[System and]
-Data Storage
+ifdef::xref-type-IZA800G,xref-type-IZA800GVES[]
+.^|SSD, 250 Gb
+endif::xref-type-IZA800G,xref-type-IZA800GVES[]
 
-.^|
-ifdef::xref-type-IZA800G,xref-type-IZA800GVES[SSD, 250 Gb]
-ifdef::xref-type-IZA500G[eMMC, 12 Gb]
-ifdef::xref-type-DFC[eMMC, 12 Gb]
-ifdef::xref-type-IZIDPUG[250 Gb]
+ifdef::xref-type-IZA500G[]
+.^|eMMC, 12 Gb
+endif::xref-type-IZA500G[]
+
+ifdef::xref-type-DFC[]
+.^|eMMC, 12 Gb
+endif::xref-type-DFC[]
+
+ifdef::xref-type-IZIDPUG[]
+3.1+.^|250 Gb
+endif::xref-type-IZIDPUG[]
 
 ifndef::xref-type-IZIDPUG[]
 .2+.^| RTC Battery
 .^| Maintains real-time clock date and time for 4-6 hours
-
-
 
 .^| Rechargeable; Full charge-up time: 12 hours
 endif::xref-type-IZIDPUG[]

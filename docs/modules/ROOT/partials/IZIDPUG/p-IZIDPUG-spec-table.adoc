@@ -9,51 +9,67 @@
 1.2+.^|Supported Analytics
 
 2.1+.^|LPR Analytics
-
-3.1+.^| {lpr-analytics}
-
-
-2.1+.^| Vehicle Analytics
-3.1+.^| {vehicle-analytics}
-
-1.2+.^| Integrated Cameras
-2.1+.^| {compname-short} Cameras
-3.1+.^| IZ600F, IZB600F
+3.1+.^|{lpr-analytics}
 
 
-2.1+.^| 3rd Party Cameras
-3.1+.^| Any camera which supports the RTSP
+2.1+.^|Vehicle Analytics
+3.1+.^|{vehicle-analytics}
+
+1.2+.^|Integrated Cameras
+2.1+.^|{compname-short} Cameras
+3.1+.^|IZ600F, IZB600F
+
+
+2.1+.^|3rd Party Cameras
+3.1+.^|Any camera which supports the RTSP
 streaming protocol and H.264 encoding
 can be integrated with this
 AI Data Processing Unit
 
 1.1+.^|Processing Power
 2.1+.^|Processing Power (fps)
-3.1+.^| 40
+3.1+.^|40
 
-.4+.^| Number of Cameras Supported
-.^|Triggering Modes
-.^|Triggered
-.^|Non-Triggered
-.^|On-Demand
+1.4+.^|Number of Cameras Supported
+2.1+>|Triggering Modes:
+.^s|Triggered
+.^s|Non-Triggered
+.^s|On-Demand
 
-.3+.^| Video Input
-.1+.^| Streaming Protocol
-.^a| RTSP
+2.1+|< 20 mph (32 km/h)
+.^|8
+.^|4
+.^|4
 
-.1+.^| Video Compression
-.^a| H.624
+2.1+|20-40 mph (32-64 km/h)
+.^|8
+.^|2
+.^|2
 
-.1+.^| Video Resolution
-.^a| Up to 3 MP
-
-.2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
-.^| {compname-short} HTTP API
-.^| LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images.
+2.1+|40-80 mph (64-128 km/h)
+.^|8
+.^|1
+.^|1
 
 
-.^| {compname-short} Discovery
-.^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
+1.3+.^| Video Input
+
+2.1+.^|Streaming Protocol
+3.1+.^|RTSP
+
+2.1+.^|Video Compression
+3.1+.^|H.624
+
+2.1+.^|Video Resolution
+3.1+.^|Up to 3 MP
+
+1.2+.^|Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
+2.1+.^|{compname-short} HTTP API
+3.1+.^|LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images.
+
+
+2.1+.^|{compname-short} Discovery
+3.1+.^|The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
 
 include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
