@@ -1,4 +1,9 @@
 //.8+.^| AI Processor
+//It was too complicated to edit this partial to allow for the
+//6-column IZIDPUG table layout, so the AI Processor Specs
+//were "hard-coded" in the p-IZIDPUG-spec-table partial.
+//Any changes here should be reflected in that partial
+
 ifndef::xref-type-IZIDPUG[.7+.^| AI Processor]
 ifdef::xref-type-IZIDPUG[.4+.^| AI Processor]
 

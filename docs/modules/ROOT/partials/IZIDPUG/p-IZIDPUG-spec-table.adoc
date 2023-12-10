@@ -71,14 +71,35 @@ AI Data Processing Unit
 2.1+.^|{compname-short} Discovery
 3.1+.^|The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
 
+//It was too complicated to edit this partial to allow for the
+//6-column IZIDPUG table layout, so the AI Processor Specs
+//were "hard-coded" in this p-IZIDPUG-spec-table partial
 //include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
+
+1.4+.^| AI Processor
+
+2.1+.^| GPU
+3.1+.^| NVIDIA Maxwell architecture with 128 CUDA® cores
+
+
+2.1+.^| CPU
+3.1+.^| Quad-core ARM Cortex-A57 MPCore processor
+
+
+2.1+.^| RAM
+3.1+.^| 4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s
+
+
+2.1+.^| System and Data Storage
+3.1+.^| 250 Gb
+
 
 1.6+.^| Environmental
 2.1+.^| Operating Temperature
-3.1+.^| 32°F to +113°F (0°C to +45°C); 0.2-0.3m/s air flow; according to GB/T 2423-2008
+3.1+.^| 32°F to {plus}113°F (0°C to {plus}45°C); 0.2-0.3m/s air flow; according to GB/T 2423-2008
 
 2.1+.^| Storage Temperature
-3.1+.^| -13°F to + 176°F (-25°C to +80°C)
+3.1+.^| -13°F to {plus}176°F (-25°C to {plus}80°C)
 
 2.1+.^| Humidity
 3.1+.^| 10% - 90% RH, non-condensing
@@ -120,12 +141,68 @@ amendment directives 2015/863/EU (RoHS 2.0)
 2.1+.^| Color
 3.1+.^| Black
 
+1.12+.^|Intefaces
+1.7+.^|Front Panel
+
+.^|POWER
+3.1+.^|Press button once to turn power on; +
+hold to perform a hard reset (turns power off then on again)
+
+.^|RECOVERY
+3.1+.^|(Not for user)
+
+.^|RESET
+3.1+.^|Press button to reset the unit
+
+.^|HDMI
+3.1+.^|HDMI 2.0, Type A, 5V, 1A
+
+.^|USB 2.0
+3.1+.^|USB 2.0, Type A, 5V, 1A
+
+.^|USB 3.0
+3.1+.^|USB 3.0, Type A, 5V, 1A
+
+.^|Micro USB
+3.1+.^|Flashing port, 5V, 1A
+
+.2+.^|Left Panel
+.^|DC 12V
+3.1+.^|Power interface; male barrel socket, 12 VDC input
+
+.^|LAN
+3.1+.^|1 Gigabit Ethernet port
+
+.3+.^|Back Panel
+
+.^|Power LED
+3.1+.^a|Carrier board status indicator:
+
+* Yellow: Power on
+* White: System on
+* Red: System error
+
+
+.^|Status LEDs
+3.1+.^a|System status indicator:
+
+* Blue: System on
+* Red: System off
+
+
+.^|Micro SD slot
+3.1+.^|TF socket; for TF card 3.3 V, 1 A
+
 1.2+.^| Power
 2.1+.^| Input
 3.1+.^| 12 VDC
 
-
 2.1+.^| Typical Power Consumption
 3.1+.^a|18 W
+
+1.1+.^|Accessories
+2.1+.^|Accesories Included
+3.1+.^|12 VDC power adapter
+
 
 |===
