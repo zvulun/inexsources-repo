@@ -66,7 +66,7 @@ image:ROOT:IZODPUG/IZODPUG-B1-FIG-042_FrontPage.png[image,300]
 == Key Features and Benefits
 * [*] Designed for Parking, Car Wash, Access Control and Security
 
-* [*] Supports up to 2 cameras – camera agnostic for maximum flexibility
+* [*] Supports up to 8 cameras - camera agnostic for maximum flexibility
 
 * [*] NVIDIA® Artificial Intelligence (AI) GPU processor for lightning fast processing
 
@@ -74,11 +74,7 @@ image:ROOT:IZODPUG/IZODPUG-B1-FIG-042_FrontPage.png[image,300]
 
 * [*] Integrated with {software-cloud}
 
-* [*] PoE/PSE (Power Source Equipment) – provides power and Ethernet to cameras
-
-* [*] Wide temperature range – operating from -4°F to +140°F (-20°C to +60°C)
-
-* [*] IP67 (NEMA6P) ingress protection against extreme moisture
+* [*] Wide temperature range - operating from 32°F to 113°F (0°C to 45°C)
 
 * [*] NDAA Section 889 compliant for our national security
 

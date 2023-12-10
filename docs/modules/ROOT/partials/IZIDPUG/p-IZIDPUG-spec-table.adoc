@@ -96,7 +96,7 @@ AI Data Processing Unit
 
 1.6+.^| Environmental
 2.1+.^| Operating Temperature
-3.1+.^| 32°F to {plus}113°F (0°C to {plus}45°C); 0.2-0.3m/s air flow; according to GB/T 2423-2008
+3.1+.^| 32°F to 113°F (0°C to 45°C); 0.2-0.3m/s air flow; according to GB/T 2423-2008
 
 2.1+.^| Storage Temperature
 3.1+.^| -13°F to {plus}176°F (-25°C to {plus}80°C)
