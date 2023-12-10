@@ -1,0 +1,122 @@
+[table.withborders,options="header",cols="12,12,23,16,19,18"]
+|===
+3+.^|Item
+// {set:cellbgcolor:#c0c0c0}
+
+3+.^|Specification
+// {set:cellbgcolor:#c0c0c0}
+
+1.2+.^|Supported Analytics
+
+2.1+.^|LPR Analytics
+
+3.1+.^| {lpr-analytics}
+
+
+2.1+.^| Vehicle Analytics
+3.1+.^| {vehicle-analytics}
+
+1.2+.^| Integrated Cameras
+2.1+.^| {compname-short} Cameras
+3.1+.^| IZ600F, IZB600F
+
+
+2.1+.^| 3rd Party Cameras
+3.1+.^| Any camera which supports the RTSP
+streaming protocol and H.264 encoding
+can be integrated with this
+AI Data Processing Unit
+
+1.1+.^|Processing Power
+2.1+.^|Processing Power (fps)
+3.1+.^| 40
+
+.4+.^| Number of Cameras Supported
+.^|Triggering Modes
+.^|Triggered
+.^|Non-Triggered
+.^|On-Demand
+
+.3+.^| Video Input
+.1+.^| Streaming Protocol
+.^a| RTSP
+
+.1+.^| Video Compression
+.^a| H.624
+
+.1+.^| Video Resolution
+.^a| Up to 3 MP
+
+.2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
+.^| {compname-short} HTTP API
+.^| LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images.
+
+
+.^| {compname-short} Discovery
+.^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
+
+include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
+
+.3+.^| Environmental
+.^| Ingress Protection
+.^| IP67 (NEMA6P)
+
+
+.^| Operating Temperature
+.^| -4°F to 140°F (-20°C to 60°C)
+
+
+.^| Humidity
+.^| 0% - 90% RH, non-condensing
+
+.3+.^| Certifications
+.^| EMC
+.^| FCC Class, CE
+
+.^| RoHS
+.^| RoHS
+
+.^| NDAA
+.^| NDAA Section 889 compliant
+
+.4+.^| Physical
+.^| Dimensions
+.^| (W x H x D) 5.9" x 3.5" x 10.2" +
+(150 x 90 x 260 mm)
+
+
+.^| Weight
+.^| 5.3 lbs (2.4 kg)
+
+
+.^| Housing, Finish, Color
+.^| Die cast aluminum, powder coated, light gray
+
+.^| Torque
+.^| Recommended screw torque: 1.0N・m (10kgf・cm)
+
+
+.2+.^| Interface
+.^| Ethernet
+.^| LAN – PG13.5 Gland; GigE Ethernet (10/100/1000M)
+
+.^| Cameras
+.^| CAM1/CAM2 – PG13.5 Gland; PoE/PSE* 802.3af; +
+GigE Ethernet (10/100/1000M)
+
+.2+.^| Power
+.^| Input
+.^| 12-48 VDC
+
+
+.^| Maximum Power Consumption
+.^a| * 15 Watts without PSE
+* 45 Watts with PSE maximum power
+
+2.2+.^| Accessories Available
+
+.^| Wall mount brackets
+.^| Pole mount bracket
+|===
+
++++*+++ PoE/PSE available for CAM1 and CAM 2 only if 48 VDC power input is applied.
