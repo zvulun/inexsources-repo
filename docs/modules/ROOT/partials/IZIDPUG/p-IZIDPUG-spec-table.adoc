@@ -1,4 +1,4 @@
-[table.withborders,options="header",cols="12,12,23,16,19,18"]
+[table.withborders,options="header",cols="12,15,20,16,19,18"]
 |===
 3+.^|Item
 // {set:cellbgcolor:#c0c0c0}
