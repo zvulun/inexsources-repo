@@ -110,6 +110,8 @@ power supply input cable according to US outlet standard
 power supply input cable according to EU outlet standard
 |===
 
+<<<
+
 [discrete]
 == Standard Package Contents
 
@@ -119,12 +121,12 @@ power supply input cable according to EU outlet standard
 input cable according to US or EU outlet standard
 
 
-+++<div class="pagebreak"> </div>+++
+//+++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Dimensions (mm)
 
-image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,700]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,600]
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
