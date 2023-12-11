@@ -1,0 +1,14 @@
+* [*] Prepare components and tools
+
+* [*] Plan your site
+
+* [*] Prepare cables
+
+* [*] Install components
+
+* [*] Connect components (wiring)
+
+* [*] Power up and set up IP
+
+* [*] Verify system operation
+

@@ -103,9 +103,13 @@ include::ROOT:partial$p-training.adoc[Training Section]
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
 
-[#s_Overview]
+==  Checklist
 
-== Overview
+include::ROOT:partial$IZIDPUG/p-IZIDPUG-checklist.adoc[]
+
+[#s_Prepare-Components-and-Tools]
+
+== Prepare Components and Tools
 
 [#s_Package-Contents]
 
@@ -125,11 +129,36 @@ The package includes:
 
 * Power adapter
 
+[sidebar]
+If any parts are missing or damaged, please contact {compname-long}.
+
+[#s_Required-Accessories-Not-Included]
+
+=== Required Accessories/Tools (Not Included)
+
+* Network surge protector/arrestor on all network cables (see <<s_Installation-Considerations>>)
+
+* Network (LAN) cabling (typically CAT 5e/6 cable, with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters). **See <<**s_Constructing-the-LAN-Cable**>> for important LAN cable information.**
+
+* Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
+
 [NOTE]
 
 ========================================
-If any parts are missing or damaged, please contact {compname-long}.
+
+*All network cable extensions and repeaters must be shielded.*
+
+*Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.*
+
 ========================================
+
+=== Laptop Computer
+
+* You will need to provide a laptop computer to use for configuration. If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight. Required software:
+
+** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
+
+** Chrome or Microsoft Edge browser
 
 [#s_Dimensions-and-Mounting-Holes]
 
@@ -149,47 +178,7 @@ image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,width=538,heigh
 
 .{shortprodname} Technical Specifications (Rev. B)
 
-[width="100%",cols="20%,26%,16%,17%,21%",options="header",]
-|===
-|Item | |Specification | |
-|Supported Analytics |LPR Analytics |Plate Recognition, State of Issue, Type | |
-| |Vehicle Analytics |Vehicle Detection, Classification, Color, Make; +
-Vehicle Without Plate | |
-|Integrated Cameras |{compname-short} Cameras |{camera-6F}, IZB600F | |
-| |3rd party cameras |Any camera which supports the RTSP streaming protocol and H.264 encoding can be integrated with this AI Data Processing Unit | |
-|Processing Power |Processing Power (fps) |40 | |
-|Number of Cameras Supported |Triggering Modes: a|*Triggered* a|*Non-Triggered* a|*On Demand*
-| |< 20 mph (32 km/h) |8 |4 |4
-| |20-40 mph (32-64 km/h) |8 |2 |2
-| |40-80 mph (64-128 km/h) |8 |1 |1
-|Video Input |Streaming Protocol |RTSP | |
-| |Video Compression |H.264 | |
-| |Video Resolution |Up to 3 MP | |
-|Supported Protocols (for additional protocols, see the https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=share_link[{software-ALPR} documentation]) |{compname-short} HTTP API |LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images. | |
-| |{compname-short} Discovery |The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings. | |
-|AI Processor |GPU |NVIDIA^®^ Maxwell architecture with 128 CUDA® cores | |
-| |CPU |Quad-core ARM Cortex-A57 MPCore processor | |
-| |RAM |4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s | |
-| |System and Data Storage |250 Gb | |
-|Environmental |Operating Temperature |32°F to 113°F (0°C to 45°C); 0.2-0.3m/s air flow; according to GB/T 2423-2008 | |
-| |Storage Temperature |-13°F to {plus}176°F (-25°C to {plus}80°C) | |
-| |Humidity |10% - 90% RH, non-condensing | |
-| |Vibration |1 Grms,10Hz~150Hz, 3 Axis; +
-according to GB/T 2423.10-2008 | |
-| |ESD |Touch 4KV, Air 8KV; +
-according to IEC 61000-4-2, Level 3 | |
-| |TVS |1 KV | |
-|Certifications |EMC |EN 55032:2015{plus}A11:2020, EN 55035:2017{plus}A11:2020, EN IEC 61000-3-2:2019, EN 61000-3-3:2013{plus}A1:2019 | |
-| |RoHS |EU RoHS Directive 2011/65/EU and its amendment directi{system-type} 2015/863/EU (RoHS 2.0) | |
-| |NDAA |NDAA Section 889 compliant | |
-|Physical |Dimensions (W x H x D) |4.33" x 2.52" x 2.52" (110 x 64 x 64 mm) | |
-| |Weight |1.05 lbs (475 g) | |
-| |Color |Black | |
-|Interface |Various |See Interface section | |
-|Power |Input |12 VDC | |
-| |Typical Power Consumption |18 Watts | |
-|Accessories |Accessories Included |12 VDC power adapter | |
-|===
+include::ROOT:partial$IZIDPUG/p-IZIDPUG-spec-table.adoc[]
 
 [#s_Interfaces]
 
@@ -278,35 +267,9 @@ System status indicator:
 |Micro SD slot |TF socket; for TF card 3.3 V, 1 A
 |===
 
-[#s_Required-Accessories-Not-Included]
+[#s_Plan-Your-Site]
 
-== Required Accessories (Not Included)
-
-* Network surge protector/arrestor on all network cables (see <<s_Installation-Considerations>>)
-
-* Network (LAN) cabling (typically CAT 5e/6 cable, with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters). **See <<**s_Constructing-the-LAN-Cable**>> for important LAN cable information.**
-
-* Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
-
-[NOTE]
-
-========================================
-
-*All network cable extensions and repeaters must be shielded.*
-
-*Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.*
-
-========================================
-
-* You will need to provide a laptop computer to use for configuration. If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight. Required software:
-
-** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
-
-** Chrome or Edge browser version
-
-[#s_Installation-Considerations]
-
-== Installation Considerations
+== Plan Your Site
 
 [#t_Installation-Considerations]
 
@@ -332,13 +295,9 @@ a|
 |*Camera Configuration and Mounting* a|* Refer to the relevant installation and configuration documentation for your camera(s). The cameras should be configured, mounted and connected to the LAN before mounting and configuring the {shortprodname}.
 |===
 
-[#s_Hardware-Installation]
+[#s_Prepare-Cables]
 
-== Hardware Installation
-
-[#s_Constructing-the-LAN-Cable]
-
-=== Constructing the LAN Cable
+== Prepare Cables
 
 [IMPORTANT]
 
@@ -362,9 +321,9 @@ image::./UserGuide/image6.png[image,width=301,height=210]
 
 image::./UserGuide/image7.png[image,width=259,height=193]
 
-[#s_Connecting-the-IZIDPUG-Cameras-Network-Switch-External-System-and-Network]
+[#s_Connect-Components-Wiring]
 
-=== Connecting the {shortprodname}, Cameras, Network Switch, External System and Network
+== Connect Components (Wiring)
 
 [WARNING]
 
