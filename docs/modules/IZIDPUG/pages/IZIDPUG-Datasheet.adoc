@@ -126,7 +126,7 @@ input cable as per US or EU outlet standard
 [discrete]
 == Dimensions (mm)
 
-image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,width=580]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,width=600]
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
