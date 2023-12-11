@@ -45,7 +45,7 @@
 //[discrete]
 //=== Datasheet
 
-image::ROOT:IZIDPUG/IZIDPUG-FIG-006_RevB_Front.png[image,400,align=left]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-006_RevB_Front.png[image,width=350,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -105,9 +105,9 @@ include::ROOT:partial$IZIDPUG/p-IZIDPUG-spec-table.adoc[]
 |===
 |Part Number |Description
 .^|{shortprodname}-US .^|Indoor AI Data Processing Unit;
-power supply input cable according to US outlet standard
+power supply input cable as per US outlet standard
 .^|{shortprodname}-EU .^|Indoor AI Data Processing Unit;
-power supply input cable according to EU outlet standard
+power supply input cable as per EU outlet standard
 |===
 
 <<<
@@ -126,7 +126,7 @@ input cable as per US or EU outlet standard
 [discrete]
 == Dimensions (mm)
 
-image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,600]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,width=580]
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
