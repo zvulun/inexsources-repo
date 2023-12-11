@@ -118,7 +118,7 @@ power supply input cable according to EU outlet standard
 * {shortprodname}, Indoor AI Data Processing Unit
 
 * 12 VDC, 5A Power Supply with barrel connector;
-input cable according to US or EU outlet standard
+input cable as per US or EU outlet standard
 
 
 //+++<div class="pagebreak"> </div>+++
@@ -126,7 +126,7 @@ input cable according to US or EU outlet standard
 [discrete]
 == Dimensions (mm)
 
-image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,600]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,650]
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
