@@ -1,0 +1,596 @@
+:docproductname: IZIDPUG
+:shortprodname: IZIDPUG
+//:generic-camera-name: camera
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+:xref-type-IZIDPUG:
+:layout-type-userguide:
+
+//enable the TOC to be placed in a specific position
+:toc: macro
+
+
+= {docproductname} Installation Guide
+
+//xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
+
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== Indoor AI Data Processing Unit
+//[discrete]
+//=== Installation Guide
+
+image:ROOT:IZIDPUG/IZIDPUG-FIG-006_RevB_Front.png[[Picture of DPU,width=350,align=left]
+
+image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
+toc::[]
+
+====
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Related-Documents]
+
+== Recommended Reading/Related Documents
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[table.withborders,width="100%",cols="45%,55%",options="header",]
+|===
+|Doc. No. |Title
+.^|xref:IZIDPUG:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet (Rev. B)
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+.^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+====
+
++++<div class="pagebreak"> </div>+++
+
+
+== Training and Support
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+[#s_Support]
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+
+[#s_Overview]
+
+== Overview
+
+[#s_Package-Contents]
+
+=== Package Contents
+
+Carefully unpack the contents of the {shortprodname} package.
+
+[#f_Package-Contents]
+
+.Package Contents
+
+image::./UserGuide/image1.png[image,width=532,height=229]
+
+The package includes:
+
+* An {shortprodname}
+
+* Power adapter
+
+[NOTE]
+
+========================================
+
+If any parts are missing or damaged, please contact {compname-long}.
+
+========================================
+
+[#s_Dimensions-and-Mounting-Holes]
+
+=== Dimensions and Mounting Holes
+
+[#f_Dimensions-and-Mounting-Holes-mm]
+
+.Dimensions and Mounting Holes (mm)
+
+image::./UserGuide/image2.png[image,width=538,height=494]
+
+[#s_Specifications]
+
+=== Specifications
+
+[#t_IZIDPUG-Technical-Specifications-Rev-B]
+
+.{shortprodname} Technical Specifications (Rev. B)
+
+[width="100%",cols="20%,26%,16%,17%,21%",options="header",]
+|===
+|Item | |Specification | |
+|Supported Analytics |LPR Analytics |Plate Recognition, State of Issue, Type | |
+| |Vehicle Analytics |Vehicle Detection, Classification, Color, Make; +
+Vehicle Without Plate | |
+|Integrated Cameras |{compname-short} Cameras |{camera-6F}, IZB600F | |
+| |3rd party cameras |Any camera which supports the RTSP streaming protocol and H.264 encoding can be integrated with this AI Data Processing Unit | |
+|Processing Power |Processing Power (fps) |40 | |
+|Number of Cameras Supported |Triggering Modes: a|*Triggered* a|*Non-Triggered* a|*On Demand*
+| |< 20 mph (32 km/h) |8 |4 |4
+| |20-40 mph (32-64 km/h) |8 |2 |2
+| |40-80 mph (64-128 km/h) |8 |1 |1
+|Video Input |Streaming Protocol |RTSP | |
+| |Video Compression |H.264 | |
+| |Video Resolution |Up to 3 MP | |
+|Supported Protocols (for additional protocols, see the https://drive.google.com/drive/folders/1Hz1mXjDo4MDDwlEiBVigyxUnc1ZEsEX8?usp=share_link[{software-ALPR} documentation]) |{compname-short} HTTP API |LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images. | |
+| |{compname-short} Discovery |The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings. | |
+|AI Processor |GPU |NVIDIA^®^ Maxwell architecture with 128 CUDA® cores | |
+| |CPU |Quad-core ARM Cortex-A57 MPCore processor | |
+| |RAM |4 GB 64-bit LPDDR4, 1600MHz 25.6 GB/s | |
+| |System and Data Storage |250 Gb | |
+|Environmental |Operating Temperature |32°F to 113°F (0°C to 45°C); 0.2-0.3m/s air flow; according to GB/T 2423-2008 | |
+| |Storage Temperature |-13°F to {plus}176°F (-25°C to {plus}80°C) | |
+| |Humidity |10% - 90% RH, non-condensing | |
+| |Vibration |1 Grms,10Hz~150Hz, 3 Axis; +
+according to GB/T 2423.10-2008 | |
+| |ESD |Touch 4KV, Air 8KV; +
+according to IEC 61000-4-2, Level 3 | |
+| |TVS |1 KV | |
+|Certifications |EMC |EN 55032:2015{plus}A11:2020, EN 55035:2017{plus}A11:2020, EN IEC 61000-3-2:2019, EN 61000-3-3:2013{plus}A1:2019 | |
+| |RoHS |EU RoHS Directive 2011/65/EU and its amendment directi{system-type} 2015/863/EU (RoHS 2.0) | |
+| |NDAA |NDAA Section 889 compliant | |
+|Physical |Dimensions (W x H x D) |4.33" x 2.52" x 2.52" (110 x 64 x 64 mm) | |
+| |Weight |1.05 lbs (475 g) | |
+| |Color |Black | |
+|Interface |Various |See Interface section | |
+|Power |Input |12 VDC | |
+| |Typical Power Consumption |18 Watts | |
+|Accessories |Accessories Included |12 VDC power adapter | |
+|===
+
+[#s_Interfaces]
+
+=== Interfaces
+
+[#s_Front-Panel]
+
+==== Front Panel
+
+[#f_Front-Panel]
+
+.Front Panel
+
+image::./UserGuide/image3.png[image,width=482,height=159]
+
+[#t_Front-Panel-Interfaces]
+
+.Front Panel Interfaces
+
+[width="100%",cols="27%,73%",options="header",]
+|===
+|Item |Description
+|POWER |Press button once for power on; hold for hard reset (turns power off then on again)
+|RECOVERY |(Not for user)
+|RESET |Press button to reset the unit
+|HDMI |HDMI 2.0, Type A, 5V, 1A
+|USB 2.0 |USB 2.0, Type A, 5V, 1A
+|USB 3.0 |USB 3.0, Type A, 5V, 1A
+|Micro USB |Flashing port, 5V, 1A
+|===
+
+[#s_Left-Panel]
+
+==== Left Panel
+
+[#f_Left-Panel]
+
+.Left Panel
+
+image::./UserGuide/image4.png[image,width=197,height=197]
+
+[#t_Left-Panel-Interfaces]
+
+.Left Panel Interfaces
+
+[width="100%",cols="27%,73%",options="header",]
+|===
+|Item |Description
+|DC 12V |Power interface; male barrel socket, 12 VDC input
+|LAN |1 Gigabit Ethernet port
+|===
+
+[#s_Back-Panel]
+
+==== Back Panel
+
+[#f_Back-Panel]
+
+.Back Panel
+
+image::./UserGuide/image5.png[image,width=487,height=150]
+
+[#t_Back-Panel-Interfaces]
+
+.Back Panel Interfaces
+
+[width="100%",cols="27%,73%",options="header",]
+|===
+|Item |Description
+|Power LED a|
+Carrier board status indicator:
+
+* Yellow: Power on
+
+* White: System on
+
+* Red: System error
+
+|Status LED a|
+System status indicator:
+
+* Blue: System on
+
+* Red: System off
+
+|Micro SD slot |TF socket; for TF card 3.3 V, 1 A
+|===
+
+[#s_Required-Accessories-Not-Included]
+
+== Required Accessories (Not Included)
+
+* Network surge protector/arrestor on all network cables (see <<s_Installation-Considerations>>)
+
+* Network (LAN) cabling (typically CAT 5e/6 cable, with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters). **See <<**s_Constructing-the-LAN-Cable**>> for important LAN cable information.**
+
+* Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
+
+[NOTE]
+
+========================================
+
+*All network cable extensions and repeaters must be shielded.*
+
+*Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.*
+
+========================================
+
+* You will need to provide a laptop computer to use for configuration. If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight. Required software:
+
+** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
+
+** Chrome or Edge browser version
+
+[#s_Installation-Considerations]
+
+== Installation Considerations
+
+[#t_Installation-Considerations]
+
+.Installation Considerations
+
+[width="100%",cols="40%,60%",options="header",]
+|===
+|Item |Considerations
+|*Surge Protection* a|* You must use a network surge protector/arrestor on all power, network and data cables
+|*Correct, Stable and Sufficient Power* a|
+* Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+* Stable power at the correct level must be supplied to each camera and {shortprodname}, even when under a heavy processing load.
+
+a|
+*Cable Extensions*
+
+*+++<u>+++IMPORTANT+++</u>+++*
+
++++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
+
+|* LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable should not exceed 328 feet (100 meters).
+|*Camera Configuration and Mounting* a|* Refer to the relevant installation and configuration documentation for your camera(s). The cameras should be configured, mounted and connected to the LAN before mounting and configuring the {shortprodname}.
+|===
+
+[#s_Hardware-Installation]
+
+== Hardware Installation
+
+[#s_Constructing-the-LAN-Cable]
+
+=== Constructing the LAN Cable
+
+[IMPORTANT]
+
+========================================
+
+If you are building your own LAN cables, you must use RJ45 connectors with metal bodies. You must ensure that there is conductivity between the bodies of the connectors at each end of the cable. You can do this by extracting the cable's shield wire before attaching the connector to the cable, and then soldering the shield wire to the body of the connector (see the following Figures).
+
+If you are using prefabricated CAT 5e/6 cables with metal-body RJ45 connectors, the shield wires have typically already been connected to each connector body. However, you must still check that there is conductivity between the bodies of the connectors at each end of the cable.
+
+========================================
+
+[#f_LAN-Cable-Extracting-the-Shield-Wire]
+
+.LAN Cable: Extracting the Shield Wire
+
+image::./UserGuide/image6.png[image,width=301,height=210]
+
+[#f_LAN-Cable-Shield-Wire-Soldered-to-Connector-Body]
+
+.LAN Cable: Shield Wire Soldered to Connector Body
+
+image::./UserGuide/image7.png[image,width=259,height=193]
+
+[#s_Connecting-the-IZIDPUG-Cameras-Network-Switch-External-System-and-Network]
+
+=== Connecting the {shortprodname}, Cameras, Network Switch, External System and Network
+
+[WARNING]
+
+========================================
+
+Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+Turn off/disconnect the any external (AC) power supplies before connecting cables.
+
+========================================
+
+[IMPORTANT]
+
+========================================
+
+*All network cable extensions and repeaters must be shielded.*
+
+========================================
+
+[#f_Typical-Wiring-Diagram-for-Access-Control]
+
+.Typical Wiring Diagram for Access Control
+
+image::./UserGuide/image8.png[image,width=563,height=209]
+
+[NOTE]
+
+========================================
+
+Events can be sent to {software-server} using the {compname-short} HTTP API.
+
+Events can be sent to 3^rd^ party systems using the {compname-short} HTTP API and/or the {compname-short} ZAP Protocol (see the {software-ALPR-long} User Guide for configuration details). See <<s_Related-Documents>>.
+
+========================================
+
+[#s_Verifying-Initial-Operation]
+
+=== Verifying Initial Operation
+
+Connect the AC power to the {shortprodname} and press the POWER button on the front panel. You should see that:
+
+* The Power and Status LEDs on the back panel light up (see <<s_Back-Panel>>)
+
+* The LAN connector LEDs on the left panel light/flash to indicate network activity (see <<s_Left-Panel>>)
+
+If the LEDs do not light as expected check if:
+
+* The cable(s) are carrying power all the way to reach the unit.
+
+* The LAN cable is connected properly to the unit.
+
+[#s_Software-Preparation-for-Calibration]
+
+== Software Preparation for Calibration
+
+[#s_Connecting-a-Computer-Laptop-to-the-Network]
+
+=== Connecting a Computer/Laptop to the Network
+
+[#f_Conecting-a-Laptop]
+
+.Conecting a Laptop
+
+image::./UserGuide/image9.png[image,width=313,height=195]
+
+Connect your laptop to the same network switch the {shortprodname} is connected to.
+
+[#s_Reserving-IP-Addresses-in-your-Network]
+
+=== Reserving IP Addresses in your Network
+
+The {shortprodname} and cameras have been pre-configured with default IP addresses. You will probably need to change these addresses to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your ALPR system ({shortprodname} and cameras).
+
+[#s_Determining-the-IP-Addresses-of-the-Connected-Cameras]
+
+=== Determining the IP Addresses of the Connected Cameras
+
+See your camera's Installation Guide for an explanation of how to determine the initial IP addresses of cameras on your network (using {software-discovery} - see <<s_Recognizing-Devices-with-IZ-Discovery>>). You will need this information to log into the cameras, and to change the cameras' IP addresses.
+
+[#s_Changing-the-IP-Addresses-of-the-Cameras]
+
+=== Changing the IP Addresses of the Cameras
+
+See your camera's Installation Guide for an explanation of how to log in to a camera, and edit its IP address (fixed addresses are highly recommended). Record the new addresses, since you will need them to configure the {software-ALPR} software running in the {shortprodname}. See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+
+You can also change the addresses of devices using {software-discovery} (see <<s_Recognizing-Devices-with-IZ-Discovery>>).
+
+[#s_Recognizing-Devices-with-IZ-Discovery]
+
+== Recognizing Devices with {software-discovery}
+
+[#s_Installing-and-Using-IZ-Discovery]
+
+=== Installing and Using {software-discovery}
+
+The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
+
+[IMPORTANT]
+
+========================================
+
+If any device on your network is connected via wireless, {software-discovery} will not recognize the device. In addition, if the computer running {software-discovery} is connected via wireless, you will not see any devices displayed.
+
+========================================
+
+. Download the {software-discovery} software components (see <<s_Related-Documents>>).
+
+. Run {software-discovery}
+
+. When {software-discovery} first runs, you may see a Windows security warning. If so, click Run.
+
+. If you see a message related to the Windows firewall, click Allow.
+
+. {software-discovery} will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
+
+.. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>>).
+
+.. Click Clear List to refresh the discovery process.
+
+[#f_IZ-Discovery-Utility]
+
+.{software-discovery} Utility
+
+image::./UserGuide/image10.png[image,width=541,height=362]
+
+. If {software-discovery} does not recognize a device:
+
+** Press the device's reset button (if available)
+
+** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
+
+** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run {software-discovery} again.
+
+[#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
+
+=== Changing a Device's IP Address and Network Settings
+
+[#f_Changing-Device-s-Network-Settings]
+
+.Changing Device's Network Settings
+
+image::./UserGuide/image11.png[image,width=227,height=230]
+
+[NOTE]
+
+========================================
+
+The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
+
+*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access a device using the same URL every time, even after unexpected power outages.
+
+A dynamic IP address may change upon device reboot. Before opening the device's web interface, you will have to find the current IP address of the device using {software-discovery}.
+
+If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
+
+You can change the {software-ALPR} computer's IP address using the {software-ALPR} Settings tab. See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+
+========================================
+
+To change the device's mode (fixed or dynamic [DHCP]), or IP address:
+
+. Select the relevant line in the list of devices and double-click on it.
+
+. The Network Settings window appears
+
+. To change the mode:
+
+.. Check or uncheck the DHCP box
+
+.. Click Save
+
+. To change the IP address:
+
+.. Verify that the address is not used by any other device on the network
+
+.. Be sure to uncheck the DHCP box
+
+.. Enter the network address parameters
+
+.. Write down the new IP Address and click Save
+
+. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
+
+. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device and change the IP address. +
+ +
+You can change the {software-ALPR} computer's IP address using the {software-ALPR} Settings tab. See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+
+[#s_Calibrating-the-Camera]
+
+== Calibrating the Camera
+
+Move a vehicle next to, and at the middle of the camera's capture line. Ensure that the camera is aimed at the middle of the lane, and is at the required capture distance. See your camera's Installation and Calibration Guide for calibration instructions.
+
+[#s_Using-RoadView]
+
+== Using {software-ALPR}
+
+[#s_Logging-In]
+
+=== Logging In
+
+. Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {shortprodname}. For example: +
+http://192.115.120.76:80/[http://192.115.120.76]/
+
+. You will see the login screen. Enter the default username and password (root, root):
+
+[#f_Logging-In-to-RoadView-Running-on-the-IZIDPUG]
+
+.Logging In to {software-ALPR} Running on the {shortprodname}
+
+image::./UserGuide/image12.png[image,width=209,height=143]
+
+. You should see the {software-ALPR} Live (Journal) tab. See the {software-ALPR-long} User Guide for instructions for configuring and using {software-ALPR} (see <<s_Related-Documents>>).
+
+[#s_Verifying-the-Installation]
+
+=== Verifying the Installation
+
+* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
+
+* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+
+[#s_Logging-Out]
+
+=== Logging Out
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
