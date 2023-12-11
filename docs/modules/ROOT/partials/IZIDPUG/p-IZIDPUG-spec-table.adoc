@@ -146,7 +146,8 @@ amendment directives 2015/863/EU (RoHS 2.0)
 
 .^|POWER
 3.1+.^|Press button once to turn power on; +
-hold to perform a hard reset (turns power off then on again)
+hold to perform a hard reset (turns power off then
+//on again)
 
 .^|RECOVERY
 3.1+.^|(Not for user)
