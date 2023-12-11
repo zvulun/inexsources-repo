@@ -45,7 +45,7 @@
 //[discrete]
 //=== Datasheet
 
-image::ROOT:IZIDPUG/IZIDPUG-FIG-006_RevB_Front.png[image,300]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-006_RevB_Front.png[image,400,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -124,7 +124,7 @@ input cable according to US or EU outlet standard
 [discrete]
 == Dimensions (mm)
 
-image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,800]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,700]
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
