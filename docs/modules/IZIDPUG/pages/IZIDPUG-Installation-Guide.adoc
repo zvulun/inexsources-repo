@@ -117,7 +117,7 @@ Carefully unpack the contents of the {shortprodname} package.
 
 .Package Contents
 
-image::./UserGuide/image1.png[image,width=532,height=229]
+image::IZIDPUG:UserGuide/IZIDPUG-Package-Contents.png[image,width=532,height=229]
 
 The package includes:
 
@@ -128,9 +128,7 @@ The package includes:
 [NOTE]
 
 ========================================
-
 If any parts are missing or damaged, please contact {compname-long}.
-
 ========================================
 
 [#s_Dimensions-and-Mounting-Holes]
@@ -141,7 +139,7 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 .Dimensions and Mounting Holes (mm)
 
-image::./UserGuide/image2.png[image,width=538,height=494]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,width=538,height=494]
 
 [#s_Specifications]
 
