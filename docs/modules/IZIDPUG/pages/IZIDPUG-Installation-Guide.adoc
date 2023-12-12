@@ -136,9 +136,14 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 === Required Accessories/Tools (Not Included)
 
-* Network surge protector/arrestor on all network cables (see <<s_Installation-Considerations>>)
+* Network surge protector/arrestor on all network cables
+(see <<s_Plan-Your-Site>>)
 
-* Network (LAN) cabling (typically CAT 5e/6 cable, with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters). **See <<**s_Constructing-the-LAN-Cable**>> for important LAN cable information.**
+* Network (LAN) cabling (typically CAT 5e/6 cable,
+with metal-body RJ45 connectors.
+The total length of the cable should not
+exceed 328 feet (100 meters).
+**See <<s_Prepare-Cables>> for important LAN cable information.**
 
 * Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
 
@@ -192,7 +197,7 @@ include::ROOT:partial$IZIDPUG/p-IZIDPUG-spec-table.adoc[]
 
 .Front Panel
 
-image::./UserGuide/image3.png[image,width=482,height=159]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-007_RevB_PanelFront.png[image,width=482,height=159]
 
 [#t_Front-Panel-Interfaces]
 
@@ -218,7 +223,7 @@ image::./UserGuide/image3.png[image,width=482,height=159]
 
 .Left Panel
 
-image::./UserGuide/image4.png[image,width=197,height=197]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-013_RevB_PanelLeft.png[image,width=197,height=197]
 
 [#t_Left-Panel-Interfaces]
 
@@ -239,7 +244,7 @@ image::./UserGuide/image4.png[image,width=197,height=197]
 
 .Back Panel
 
-image::./UserGuide/image5.png[image,width=487,height=150]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-009_RevB_PanelRear.png[image,width=487,height=150]
 
 [#t_Back-Panel-Interfaces]
 
@@ -291,7 +296,7 @@ a|
 
 +++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
 
-|* LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable should not exceed 328 feet (100 meters).
+a|* LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable should not exceed 328 feet (100 meters).
 |*Camera Configuration and Mounting* a|* Refer to the relevant installation and configuration documentation for your camera(s). The cameras should be configured, mounted and connected to the LAN before mounting and configuring the {shortprodname}.
 |===
 
@@ -299,27 +304,31 @@ a|
 
 == Prepare Cables
 
+._Click to show Important notes for LAN cable construction_
+[%collapsible]
+====
+
 [IMPORTANT]
 
 ========================================
-
 If you are building your own LAN cables, you must use RJ45 connectors with metal bodies. You must ensure that there is conductivity between the bodies of the connectors at each end of the cable. You can do this by extracting the cable's shield wire before attaching the connector to the cable, and then soldering the shield wire to the body of the connector (see the following Figures).
 
 If you are using prefabricated CAT 5e/6 cables with metal-body RJ45 connectors, the shield wires have typically already been connected to each connector body. However, you must still check that there is conductivity between the bodies of the connectors at each end of the cable.
-
 ========================================
+
+====
 
 [#f_LAN-Cable-Extracting-the-Shield-Wire]
 
 .LAN Cable: Extracting the Shield Wire
 
-image::./UserGuide/image6.png[image,width=301,height=210]
+image::ROOT:/IZA800G/image32.png[image,width=302,height=211]
 
 [#f_LAN-Cable-Shield-Wire-Soldered-to-Connector-Body]
 
 .LAN Cable: Shield Wire Soldered to Connector Body
 
-image::./UserGuide/image7.png[image,width=259,height=193]
+image::ROOT:/IZA800G/image33.png[image,width=305,height=228]
 
 [#s_Connect-Components-Wiring]
 
@@ -347,7 +356,7 @@ Turn off/disconnect the any external (AC) power supplies before connecting cable
 
 .Typical Wiring Diagram for Access Control
 
-image::./UserGuide/image8.png[image,width=563,height=209]
+image::ROOT:IZIDPUG/IZIDPUG-FIG-016_TypicalSystemWiring.png[image,width=563,height=209]
 
 [NOTE]
 
@@ -358,6 +367,10 @@ Events can be sent to {software-server} using the {compname-short} HTTP API.
 Events can be sent to 3^rd^ party systems using the {compname-short} HTTP API and/or the {compname-short} ZAP Protocol (see the {software-ALPR-long} User Guide for configuration details). See <<s_Related-Documents>>.
 
 ========================================
+
+[#s_Power-Up-and-Set-Up-IP]
+
+== Power Up and Set Up IP
 
 [#s_Verifying-Initial-Operation]
 
@@ -378,18 +391,6 @@ If the LEDs do not light as expected check if:
 [#s_Software-Preparation-for-Calibration]
 
 == Software Preparation for Calibration
-
-[#s_Connecting-a-Computer-Laptop-to-the-Network]
-
-=== Connecting a Computer/Laptop to the Network
-
-[#f_Conecting-a-Laptop]
-
-.Conecting a Laptop
-
-image::./UserGuide/image9.png[image,width=313,height=195]
-
-Connect your laptop to the same network switch the {shortprodname} is connected to.
 
 [#s_Reserving-IP-Addresses-in-your-Network]
 
