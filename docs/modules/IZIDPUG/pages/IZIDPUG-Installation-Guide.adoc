@@ -199,22 +199,6 @@ include::ROOT:partial$IZIDPUG/p-IZIDPUG-spec-table.adoc[]
 
 image::ROOT:IZIDPUG/IZIDPUG-FIG-007_RevB_PanelFront.png[image,width=482,height=159]
 
-[#t_Front-Panel-Interfaces]
-
-.Front Panel Interfaces
-
-[width="100%",cols="27%,73%",options="header",]
-|===
-|Item |Description
-|POWER |Press button once for power on; hold for hard reset (turns power off then on again)
-|RECOVERY |(Not for user)
-|RESET |Press button to reset the unit
-|HDMI |HDMI 2.0, Type A, 5V, 1A
-|USB 2.0 |USB 2.0, Type A, 5V, 1A
-|USB 3.0 |USB 3.0, Type A, 5V, 1A
-|Micro USB |Flashing port, 5V, 1A
-|===
-
 [#s_Left-Panel]
 
 ==== Left Panel
@@ -225,17 +209,6 @@ image::ROOT:IZIDPUG/IZIDPUG-FIG-007_RevB_PanelFront.png[image,width=482,height=1
 
 image::ROOT:IZIDPUG/IZIDPUG-FIG-013_RevB_PanelLeft.png[image,width=197,height=197]
 
-[#t_Left-Panel-Interfaces]
-
-.Left Panel Interfaces
-
-[width="100%",cols="27%,73%",options="header",]
-|===
-|Item |Description
-|DC 12V |Power interface; male barrel socket, 12 VDC input
-|LAN |1 Gigabit Ethernet port
-|===
-
 [#s_Back-Panel]
 
 ==== Back Panel
@@ -245,32 +218,6 @@ image::ROOT:IZIDPUG/IZIDPUG-FIG-013_RevB_PanelLeft.png[image,width=197,height=19
 .Back Panel
 
 image::ROOT:IZIDPUG/IZIDPUG-FIG-009_RevB_PanelRear.png[image,width=487,height=150]
-
-[#t_Back-Panel-Interfaces]
-
-.Back Panel Interfaces
-
-[width="100%",cols="27%,73%",options="header",]
-|===
-|Item |Description
-|Power LED a|
-Carrier board status indicator:
-
-* Yellow: Power on
-
-* White: System on
-
-* Red: System error
-
-|Status LED a|
-System status indicator:
-
-* Blue: System on
-
-* Red: System off
-
-|Micro SD slot |TF socket; for TF card 3.3 V, 1 A
-|===
 
 [#s_Plan-Your-Site]
 
