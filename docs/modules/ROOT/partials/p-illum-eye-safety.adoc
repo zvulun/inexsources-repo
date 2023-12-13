@@ -7,6 +7,7 @@ precautions must be observed:*
 ifdef::xref-type-IZS[]
 
 ** {docproductname} - {eyesafetystandard-2}:
+
 image::ROOT:image$EYE_SAFETY_GRP_2.png[Eye Safety Group 2 Warning Label,width=250,align=center]
 
 endif::xref-type-IZS[]
