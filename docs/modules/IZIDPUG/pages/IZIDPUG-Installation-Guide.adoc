@@ -124,7 +124,7 @@ image::IZIDPUG:UserGuide/IZIDPUG-Package-Contents.png[image,width=532,height=229
 
 The package includes:
 
-* An {shortprodname}
+* An {shortprodname} Indoor AI Data Processing Unit
 
 * Power adapter
 
@@ -155,6 +155,8 @@ exceed 328 feet (100 meters).
 *Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.*
 
 ========================================
+
+<<<
 
 === Laptop Computer
 
@@ -220,6 +222,8 @@ image::ROOT:IZIDPUG/IZIDPUG-FIG-013_RevB_PanelLeft.png[image,width=197,height=19
 
 image::ROOT:IZIDPUG/IZIDPUG-FIG-009_RevB_PanelRear.png[image,width=487,height=150]
 
+<<<
+
 [#s_Plan-Your-Site]
 
 == Plan Your Site
@@ -247,6 +251,8 @@ a|
 a|* LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable should not exceed 328 feet (100 meters).
 |*Camera Configuration and Mounting* a|* Refer to the relevant installation and configuration documentation for your camera(s). The cameras should be configured, mounted and connected to the LAN before mounting and configuring the {shortprodname}.
 |===
+
+<<<
 
 [#s_Prepare-Cables]
 
@@ -277,6 +283,8 @@ image::ROOT:/IZA800G/image32.png[image,width=302,height=211]
 .LAN Cable: Shield Wire Soldered to Connector Body
 
 image::ROOT:/IZA800G/image33.png[image,width=305,height=228]
+
+<<<
 
 [#s_Connect-Components-Wiring]
 
@@ -315,6 +323,8 @@ Events can be sent to {software-server} using the {compname-short} HTTP API.
 Events can be sent to 3^rd^ party systems using the {compname-short} HTTP API and/or the {compname-short} ZAP Protocol (see the {software-ALPR-long} User Guide for configuration details). See <<s_Related-Documents>>.
 
 ========================================
+
+<<<
 
 [#s_Power-Up-and-Set-Up-IP]
 
@@ -385,6 +395,8 @@ See the {software-discovery} User Guide
 (see <<s_Related-Documents>>) for instructions
 on how to change the unit's IP address.
 
+<<<
+
 [#s_Using-RoadView]
 
 === Using {software-ALPR}
@@ -406,6 +418,8 @@ See <<s_Related-Documents>>.
 are being generated for each vehicle passing each
 camera, and that the recognition has sufficient
 accuracy and confidence.
+
+<<<
 
 == Notices, Safety Precautions and Certifications
 
