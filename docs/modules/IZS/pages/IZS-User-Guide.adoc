@@ -478,6 +478,8 @@ include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
 include::ROOT:partial$p-illuminator-safety-precautions.adoc[]
 
+<<<
+
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
 include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
