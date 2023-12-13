@@ -227,7 +227,7 @@ image::ROOT:IZIDPUG/IZIDPUG-FIG-009_RevB_PanelRear.png[image,width=487,height=15
 
 .Installation Considerations
 
-[width="100%",cols="40%,60%",options="header",]
+[table.withborders,width="100%",cols="40%,60%",options="header",]
 |===
 |Item |Considerations
 |*Surge Protection* a|* You must use a network surge protector/arrestor on all power, network and data cables
