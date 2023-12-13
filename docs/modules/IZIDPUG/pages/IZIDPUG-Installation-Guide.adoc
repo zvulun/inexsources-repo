@@ -62,8 +62,6 @@ toc::[]
 
 ====
 
-+++<div class="pagebreak"> </div>+++
-
 [#s_Related-Documents]
 
 == Recommended Reading/Related Documents
@@ -89,7 +87,7 @@ toc::[]
 
 ====
 
-+++<div class="pagebreak"> </div>+++
+<<<
 
 
 == Training and Support
@@ -102,10 +100,11 @@ include::ROOT:partial$p-training.adoc[Training Section]
 
 include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
 
-
 ==  Checklist
 
 include::ROOT:partial$IZIDPUG/p-IZIDPUG-checklist.adoc[]
+
+<<<
 
 [#s_Prepare-Components-and-Tools]
 
@@ -164,6 +163,8 @@ exceed 328 feet (100 meters).
 ** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 
 ** Chrome or Microsoft Edge browser
+
+<<<
 
 [#s_Dimensions-and-Mounting-Holes]
 
