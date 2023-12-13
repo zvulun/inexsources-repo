@@ -91,7 +91,7 @@ endif::xref-type-DFC[]
 
 .^| Eye Safety
 
-.^| IEC62471
+.^| IEC62471, Group 2
 
 .^| NDAA
 
