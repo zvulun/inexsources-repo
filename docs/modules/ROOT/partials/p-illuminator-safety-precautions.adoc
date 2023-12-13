@@ -39,7 +39,7 @@ Repair or replacement of parts for this
 unit should be supplied by {compname-long}, and installed by qualified service personnel.
 * Handle and store the illuminator
 with care.
-* Do not drop the unit or subject it to physical shock.]
+* Do not drop the unit or subject it to physical shock.
 * Do not allow water (e.g. rain) to enter the unit.
 * Do not handle the illuminator unless you have adequate electrostatic discharge (ESD) protection; otherwise, the warranty will be void.
 * You must request that your {compname-long}-certified service

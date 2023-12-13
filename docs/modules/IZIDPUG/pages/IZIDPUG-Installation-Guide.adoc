@@ -20,7 +20,7 @@
 :toc: macro
 
 
-= {docproductname} Installation Guide
+= {docproductname} Installation and User Guide
 
 //xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
 
@@ -185,9 +185,9 @@ image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,width=538,heigh
 
 include::ROOT:partial$IZIDPUG/p-IZIDPUG-spec-table.adoc[]
 
-[#s_Interfaces]
+[#s_Interfaces-and-Indicators]
 
-=== Interfaces
+=== Interfaces and Indicators
 
 [#s_Front-Panel]
 
@@ -372,11 +372,47 @@ Events can be sent to 3^rd^ party systems using the {compname-short} HTTP API an
 
 == Power Up and Set Up IP
 
+[#s_Reserving-IP-Addresses-in-your-Network]
+
+=== Reserving IP Addresses in your Network
+
+The {shortprodname} and cameras have been
+pre-configured with default IP addresses.
+You will probably need to change these addresses
+to conform to the requirements of your network.
+Be sure that you have IP addresses reserved for
+all components of your ALPR system ({shortprodname}
+and cameras).
+
+[#s_Connecting-the-AC-Electricity]
+
+=== Connecting the AC Electricity
+
+[WARNING]
+========================================
+If any power cables were lengthened, ensure that
+all components receive exactly their rated voltage.
+
+Power undervoltage, overvoltage and/or incorrect
+polarity will damage the unit and will void the
+warranty.
+
+Stable power at the correct level must be supplied
+to each component, even when under a heavy processing
+load.
+========================================
+
+. Connect the AC power to the {shortprodname}'s power supply
+. Plug the barrel connector into the {shortprodname}
+. Press the POWER button on the front panel
+. Verify that the {shortprodname} has started to
+operate properly (see <<s_Verifying-Initial-Operation>>)
+
 [#s_Verifying-Initial-Operation]
 
 === Verifying Initial Operation
 
-Connect the AC power to the {shortprodname} and press the POWER button on the front panel. You should see that:
+With power applied, you should see that:
 
 * The Power and Status LEDs on the back panel light up (see <<s_Back-Panel>>)
 
@@ -388,167 +424,56 @@ If the LEDs do not light as expected check if:
 
 * The LAN cable is connected properly to the unit.
 
-[#s_Software-Preparation-for-Calibration]
-
-== Software Preparation for Calibration
-
-[#s_Reserving-IP-Addresses-in-your-Network]
-
-=== Reserving IP Addresses in your Network
-
-The {shortprodname} and cameras have been pre-configured with default IP addresses. You will probably need to change these addresses to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your ALPR system ({shortprodname} and cameras).
-
-[#s_Determining-the-IP-Addresses-of-the-Connected-Cameras]
-
-=== Determining the IP Addresses of the Connected Cameras
-
-See your camera's Installation Guide for an explanation of how to determine the initial IP addresses of cameras on your network (using {software-discovery} - see <<s_Recognizing-Devices-with-IZ-Discovery>>). You will need this information to log into the cameras, and to change the cameras' IP addresses.
-
-[#s_Changing-the-IP-Addresses-of-the-Cameras]
-
-=== Changing the IP Addresses of the Cameras
-
-See your camera's Installation Guide for an explanation of how to log in to a camera, and edit its IP address (fixed addresses are highly recommended). Record the new addresses, since you will need them to configure the {software-ALPR} software running in the {shortprodname}. See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
-
-You can also change the addresses of devices using {software-discovery} (see <<s_Recognizing-Devices-with-IZ-Discovery>>).
-
 [#s_Recognizing-Devices-with-IZ-Discovery]
 
-== Recognizing Devices with {software-discovery}
+=== Set Up IP
 
-[#s_Installing-and-Using-IZ-Discovery]
+The {software-discovery} utility discovers all active
+devices connected to the network, and displays a
+list of their network parameters.
+These devices can include cameras and computers.
 
-=== Installing and Using {software-discovery}
-
-The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
-
-[IMPORTANT]
-
-========================================
-
-If any device on your network is connected via wireless, {software-discovery} will not recognize the device. In addition, if the computer running {software-discovery} is connected via wireless, you will not see any devices displayed.
-
-========================================
-
-. Download the {software-discovery} software components (see <<s_Related-Documents>>).
-
-. Run {software-discovery}
-
-. When {software-discovery} first runs, you may see a Windows security warning. If so, click Run.
-
-. If you see a message related to the Windows firewall, click Allow.
-
-. {software-discovery} will start and display a list of devices on the network, according to their serial numbers (see <<f_IZ-Discovery-Utility>>).
-
-.. Scroll down to find the device you are interested in. You can double-click to view/edit a specific device's IP address parameters (see <<s_Changing-a-Device-s-IP-Address-and-Network-Settings>>).
-
-.. Click Clear List to refresh the discovery process.
-
-[#f_IZ-Discovery-Utility]
-
-.{software-discovery} Utility
-
-image::./UserGuide/image10.png[image,width=541,height=362]
-
-. If {software-discovery} does not recognize a device:
-
-** Press the device's reset button (if available)
-
-** Reset the device by shutting off power/removing the LAN cable, waiting 5 seconds, and reapplying power
-
-** Check the LAN cable connected between your laptop and the network, and the LAN cable connected between the device and the LAN switch. Replace the cable(s) and try to run {software-discovery} again.
-
-[#s_Changing-a-Device-s-IP-Address-and-Network-Settings]
-
-=== Changing a Device's IP Address and Network Settings
-
-[#f_Changing-Device-s-Network-Settings]
-
-.Changing Device's Network Settings
-
-image::./UserGuide/image11.png[image,width=227,height=230]
-
-[NOTE]
-
-========================================
-
-The device's IP Address +++<u>+++cannot+++</u>+++ be set to 10.10.2.xx or 10.10.3.xx
-
-*+++<u>+++It is highly recommended to use a fixed IP address (not DHCP)+++</u>+++*. A fixed IP address enables you to access a device using the same URL every time, even after unexpected power outages.
-
-A dynamic IP address may change upon device reboot. Before opening the device's web interface, you will have to find the current IP address of the device using {software-discovery}.
-
-If you want to copy the IP address (for login to the device) you will need to uncheck the DHCP checkbox momentarily to make the address field accessible.
-
-You can change the {software-ALPR} computer's IP address using the {software-ALPR} Settings tab. See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
-
-========================================
-
-To change the device's mode (fixed or dynamic [DHCP]), or IP address:
-
-. Select the relevant line in the list of devices and double-click on it.
-
-. The Network Settings window appears
-
-. To change the mode:
-
-.. Check or uncheck the DHCP box
-
-.. Click Save
-
-. To change the IP address:
-
-.. Verify that the address is not used by any other device on the network
-
-.. Be sure to uncheck the DHCP box
-
-.. Enter the network address parameters
-
-.. Write down the new IP Address and click Save
-
-. The change should be reflected in the main dialog. This can take about a minute until the IP is obtained. If you do not see the change after this time, close {software-discovery}, and then reopen it.
-
-. Verify that the IP address parameters have been changed to the ones you wanted. If not, you will have to log into the device and change the IP address. +
- +
-You can change the {software-ALPR} computer's IP address using the {software-ALPR} Settings tab. See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
-
-[#s_Calibrating-the-Camera]
-
-== Calibrating the Camera
-
-Move a vehicle next to, and at the middle of the camera's capture line. Ensure that the camera is aimed at the middle of the lane, and is at the required capture distance. See your camera's Installation and Calibration Guide for calibration instructions.
+See the {software-discovery} User Guide
+(see <<s_Related-Documents>>) for instructions
+on how to change the unit's IP address.
 
 [#s_Using-RoadView]
 
-== Using {software-ALPR}
+=== Using {software-ALPR}
 
-[#s_Logging-In]
+include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
 
-=== Logging In
+[#s_Verify-System-Operation]
 
-. Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {shortprodname}. For example: +
-http://192.115.120.76:80/[http://192.115.120.76]/
+== Verify System Operation
 
-. You will see the login screen. Enter the default username and password (root, root):
+* Using a license plate mounted in a lab, or
+by driving a vehicle through the lane, verify that
+an Event is generated with the correct plate read
+(recorded in the {software-ALPR} Live (Journal)
+tab - see the {software-ALPR-long} User Guide).
+See <<s_Related-Documents>>.
 
-[#f_Logging-In-to-RoadView-Running-on-the-IZIDPUG]
+* Once the lane is active, verify that Events
+are being generated for each vehicle passing each
+camera, and that the recognition has sufficient
+accuracy and confidence.
 
-.Logging In to {software-ALPR} Running on the {shortprodname}
+== Notices, Safety Precautions and Certifications
 
-image::./UserGuide/image12.png[image,width=209,height=143]
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
-. You should see the {software-ALPR} Live (Journal) tab. See the {software-ALPR-long} User Guide for instructions for configuring and using {software-ALPR} (see <<s_Related-Documents>>).
+include::ROOT:partial$p-DPU-safety-precautions.adoc[]
 
-[#s_Verifying-the-Installation]
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
-=== Verifying the Installation
+include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
 
-* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
+include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
 
-* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
 
-[#s_Logging-Out]
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-=== Logging Out
+Doc. No. {shortprodname}-MAN-002
 
-See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for logout instructions, using the multi-line dropdown menu icon in the upper right corner of the screen.
