@@ -1,4 +1,12 @@
 = IZA800GORT Documents List
 
+* xref:IZA800GORT:IZA800GORT-Datasheet.adoc[IZA800GORT Datasheet]
+
+* xref:IZA800GORT:IZA800GORT-Quick-Start.adoc[IZA800GORT Quick Start Guide]
+
+* xref:IZA800GORT:IZA800GORT-User-Guide.adoc[IZA800GORT User Guide]
+
+* xref:IZA800GORT:IZA800GORT-Installation-Guide.adoc[IZA800GORT Installation Guide]
+
 More documents can be found at https://drive.google.com/drive/folders/1nCsvb4BXZx83Ax8Ht3rEqTL2XtjKLe6L?usp=share_link[GDriveLink, window=_blank]
 

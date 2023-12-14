@@ -1,0 +1,242 @@
+[table.withborders,options="header",cols="24,23,53"]
+|===
+2+.^| Item
+// {set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+// {set:cellbgcolor:#c0c0c0}
+
+.2+.^| Supported Analytics
+{set:cellbgcolor!}
+.^| LPR Analytics
+.^| {lpr-analytics}
+
+
+.^| Vehicle Analytics
+.^| {vehicle-analytics}
+
+2+.^| Field of View (FOV)
+
+.^| 14 ft (H) x 10 ft (V) (4.3 x 3.0 m)
+
+2+.^| Max Vehicle Speed
+
+.^| Up to 120 mph (193 km/h)
+
+2.1+.^| LPR Capture Distance* +
+(for U.S.A. plates)
+
+.^a| * S - Short distance, 5-35 ft (2-11 m)
+* L - Long distance, 30-70 ft (9-21 m)
+
+.3+.^| LPR Illumination
+.1+.^| Number of LEDs
+.^a| * DR, IR - 15 high power LEDs
+* DRW, IRW - 10 high power LEDs
+
+.1+.^| Wavelength
+.^a| * DR - Deep Red
+* IR - Infrared
+
+.1+.^| Beam Angle
+.^a| * S - 40°x16°
+* L - 15°x15°
+* XL - 15°x15°
+
+.6+.^| LPR Camera
+.^| Shutter Type
+.^| Global
+
+
+.^| Sensor
+.^| Sony IMX265
+
+
+.^| Resolution
+.^| 3.19 MP - 2048 (H) x 1536 (V)
+
+
+.1+.^| Lens
+.^a| * S - 6-22 mm; Motorized Zoom and Auto-focus
+* L - 12-40 mm; Motorized Zoom and Auto-focus
+* XL - 12-50 mm; Manual Zoom and Focus
+
+.^| Video Compression
+.^| MJPEG, H.264, H.265
+
+
+.^| Video Streaming
+.^| RTSP Protocol
+
+.3+.^| OV Illumination
+.1+.^| Number of LEDs
+.^a| * DR, IR - No visible light LEDs
+* DRW, IRW - 5 high power LEDs
+
+.1+.^| Wavelength
+.^a| * DR, IR, - N/A
+* DRW, IRW - Visible, Warm White
+
+
+.1+.^| Beam Angle
+.^a| * S - 40°x16°
+* L - 15°x15°
+* XL - 15°x15°
+
+.6+.^| OV Camera
+.^| Shutter Type
+.^| Global
+
+
+.^| Sensor
+.^| Sony IMX265
+
+
+.^| Resolution
+.^| 3.19 MP - 2048 (H) x 1536 (V)
+
+
+.1+.^| Lens
+.^a| * S - 6-22 mm; Motorized Zoom and Auto-focus
+* L - 12-40 mm; Motorized Zoom and Auto-focus
+* XL - 12-50 mm; Manual Zoom and Focus
+
+.^| Video Compression
+.^| MJPEG, H.264, H.265
+
+
+.^| Video Streaming
+.^| RTSP Protocol
+
+.2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
+.^| {compname-short} HTTP API
+.^| LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images.
+
+
+.^| {compname-short} Discovery
+.^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
+
+include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
+
+.4+.^| Environmental
+.^| Ingress Protection
+.^| IP67
+
+
+.^| Operating Temperature
+.^| -22°F to 140°F (-30°C to 60°C)
+
+
+.^| Storage Temperature
+.^| -22°F to 158°F (-30°C to 70°C)
+
+
+.^| Humidity
+.^| 0% - 90% RH, non-condensing
+
+.6+.^| Certifications
+.^| EMC
+.^| FCC Class B/CE
+
+
+.^| Interoperability
+.^| ONVIF compliant, Profile S
+
+
+.^| RoHS
+.^| RoHS
+
+
+.^| Impact Protection
+.^| IK10 (Vandal-proof)
+
+
+.^| Eye Safety
+.^| IEC62471 Group 1
+
+
+.^| NDAA
+.^| NDAA Section 889 compliant
+
+.3+.^| Physical
+.^| Dimensions
+.^| (W x H x D) 6.7" x 4.7" x 17.7" +
+(171 mm x 119 mm x 451 mm)
+
+
+.^| Weight
+.^| {iza-weight}
+
+
+.^| Color
+.^| White
+
+.5+.^| Interface
+.^| Ethernet
+.^| GigE Ethernet (10/100/1000M)
+
+
+.2+.^| Connectors
+.^| LAN - Waterproof outdoor RJ-45 connector
+
+
+
+.^| Power/Signals - Waterproof outdoor M12 connector
+
+
+.1+.^| Digital Inputs (Trigger)
+.^a| * Dry Trigger: 5V ({plus})
+* Wet Trigger GND
+* Dry/Wet Trig Input
+
+.1+.^| Digital Outputs
+.^a| * OV Strobe: 5 V isolated
+* RS485 (A/B)
+
+
+.2+.^| Power
+.^| Input Voltage
+.^| 24 VDC {plus}/- 10%, Class 2 Low-Voltage
+
+
+.^| Power Consumption
+.^| 25 W
+
+2.3+.^| Accessories Included
+
+.^| Sunshade
+
+
+
+.^| Waterproof outdoor RJ-45 cable connector
+
+
+
+.^| Waterproof outdoor M12 cable connector
+
+2.6+.^| Accessories Available
+
+.^| DIN Rail Mount Power Supplies (xref:IZPWR:DocList.adoc[IZPWR])
+
+.^| Digital I/O Controller (xref:IZIO:DocList.adoc[{hw-iocontroller}])
+
+
+
+.^| Power/Signals Cable for {shortprodname} System+++<br>+++
+(xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS])
+
+
+
+.^| LAN Cable for {shortprodname} System (xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN])
+
+
+
+.^| Different xref:MNT-ProdToMountMap:DocList.adoc[mount options] available
+
+
+
+.^| External Illuminator (xref:IZS:DocList.adoc[{illum-strobe} Series])
+
+|===
+
++++*+++ LPR Capture Distance is measured from camera to plate

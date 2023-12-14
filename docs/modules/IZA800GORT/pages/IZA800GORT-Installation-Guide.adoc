@@ -1,0 +1,612 @@
+:docproductname: IZA800GORT
+:shortprodname: IZA800GORT
+:generic-camera-name: ALPR Camera System
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// set attribute (by uncommenting the line)
+// used to determine which text/links to sections
+// outside partials - should be used in partials
+// see the playbook for full list
+
+:xref-type-IZA800G:
+:layout-type-userguide:
+
+//enable the TOC to be placed in a specific position
+:toc: macro
+
+
+= {docproductname} Installation Guide
+
+//xref:IZA800GORT:DocList.adoc[<- Back to {shortprodname} Documents]
+
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== ALPR All-in-one AI Camera System
+//[discrete]
+//=== Installation Guide
+
+image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
+
+image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
+toc::[]
+
+====
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Related-Documents]
+
+== Recommended Reading/Related Documents
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[table.withborders,width="100%",cols="45%,55%",options="header",]
+|===
+|Doc. No. |Title
+.^|xref:IZA800GORT:DocList.adoc[{shortprodname}-MAN-002a] |{shortprodname} User Guide
+.^|xref:IZA800GORT:DocList.adoc[{shortprodname}-TECH-001] |{shortprodname} Quick Start
+.^|xref:IZA800GORT:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
+.^|xref:IZCAB-A800-PAS:DocList.adoc[IZCABA800PAS-REV-x-TDSHEET] |Power/Signals Cable for {shortprodname} System Technical Data Sheet
+.^|xref:IZCAB-A800-LAN:DocList.adoc[IZCABA800LAN-REV-x-TDSHEET] |LAN Cable for {shortprodname} System Technical Data Sheet
+.^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+.^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+.^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+.^|xref:IZS:DocList.adoc[{illum-strobe}-MAN-002] |{illum-strobe} Strobe Illuminator Series User Guide
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+.^|xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+====
+
++++<div class="pagebreak"> </div>+++
+
+
+== Training and Support
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+[#s_Support]
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+==  Checklist
+
+include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Prepare-Components-and-Tools]
+
+== Prepare Components and Tools
+
+[#s_Package-Contents]
+
+=== Package Contents
+
+// Carefully unpack the contents of the {generic-camera-name} package.
+
+[#f_Package-Contents]
+
+.Package Contents
+
+image::ROOT:/IZA800G/image1.png[image,width=460,height=345]
+
+[#f_Mounting-Adapter-Plate]
+
+.Mounting Adapter Plate
+
+image::ROOT:/IZA800G/image2.png[image,width=349,height=199]
+
+* {shortprodname} ALPR All-in-one AI Camera System
+
+* LAN cable or field-mountable cable connector
+
+* Power/Signals cable or field-mountable cable connector
+
+* Mounting adapter plate with screws: 3 - 18-8 stainless steel thread-locking socket head screws, 1/4"-20 thread size, 5/8" long; Allen heads; used to attach the plate
+
+[sidebar]
+If any parts are missing or damaged, please contact {compname-long}.
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Required-Accessories]
+
+=== Required Accessories
+
+The following accessories can be supplied by {compname-med}.
+For documentation and part numbers, see <<s_Related-Documents>>.
+
+[#t_Required-Accessories]
+
+.Required Accessories
+
+[table.withborders,width="100%",cols="33%,67%",options="header",]
+|===
+|Item |Notes
+|24VDC power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
+|Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the Mounting Hardware documentation for details (see <<s_Related-Documents>>).
+|===
+
+[#s_Optional-Accessories]
+
+=== Optional Accessories
+
+For documentation and part numbers, see <<s_Related-Documents>>.
+
+* Prefabricated Power/Signals and LAN cables
+
+* {hw-iocontroller} Digital I/O Controller
+
+* External Illuminators
+
+=== Tools
+* An Allen wrench used to attach the mounting adapter plate to the housing (if applicable); size 3/16" (4.76 mm)
+
+* 8-wire cable for power/signals; recommended to use E119932-1/LL84201, 24 gauge (size of each wire); see <<s_Constructing-the-Power-Signals-Cable>>.
+
+* 2 mm flat screwdriver for tightening the screw terminals of the power/signals connector (see <<s_Constructing-the-Power-Signals-Cable>>).
+
+* 16 mm torque wrench for tightening the nuts of the power/signals connector, and for attaching the connector to the Camera System.
+
+* Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters). *See <<s_Constructing-the-LAN-Cable>> for important LAN cable information.*
+
+* Tools for building LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
++
+[IMPORTANT]
+
+========================================
+
+For installations that require network cabling: typically use CAT 5e/6 cable. The total length of the cable should not exceed 328 feet (100 meters).
+
+All network cable extensions and repeaters must be shielded.
+
+========================================
+
+=== Laptop Computer
+
+* You will need to provide a laptop computer to use for configuration. If you will be using the laptop outdoors, the screen must be able to be seen in strong sunlight. Required software:
+
+** Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
+
+** Chrome or Microsoft Edge browser
+
+//[#s_Planning-Your-Installation]
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Plan-Your-Site]
+
+== Plan Your Site
+
+include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections of Installation Planning]
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
+
+=== Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
+
+External illuminators can be used to enhance overview vehicle image quality, for front and/or rear capture. It is recommended to use an illuminator power supply separate from the Camera System's supply.
+
+include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
+
+[#s_Illuminator-Triggering-and-Pulse-Width]
+
+==== Illuminator Triggering and Pulse Width
+
+You can trigger an illuminator from the OV camera by using appropriate wiring (see <<s_Typical-Wiring-Diagrams>>). The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
+
+include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Additional-Installation-Considerations]
+
+=== Additional Installation Considerations
+
+[#t_Additional-Installation-Considerations]
+
+.Additional Installation Considerations
+
+[table.withborders,width="100%",cols="40%,60%",options="header",]
+|===
+|Item |Considerations
+|*Surge Protection* a|* *On power, network and data cables*
+|*Correct, Stable and Sufficient Power* a|
+* *Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.*
+
+* Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
+
+a|
+*Cable Extensions*
+
+*IMPORTANT* +
++++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
+
+a|
+* Power - Use a cable gauge sufficient to deliver 24 VDC at the Camera System
+
+* LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable should not exceed 328 feet (100 meters).
+
+* In order to use the connector included with the Camera System, the outer diameter of the LAN cable must be in the range of 0.20" to 0.25" (5.0 to 6.5 mm).
+
+|Front/Rear Capture - or Both a|
+* Country requirements
+
+* Vehicle types
+
+* Protruding parts that obscure plates (such as rear hooks)
+
+* Recessed plates
+
+|Objects with character-like appearances (interpreted as characters on a plate, resulting in false reads) a|
+Avoid having these items in the Field of View:
+
+* Fences with patterns
+
+* Barriers
+
+* Signs
+
+|Obstructions (blocking FOV) a|
+* Entry gates
+
+* Trees and bushes (even before fully grown)
+
+* Bright light (sun/artificial) shining directly into Camera System's front window
+
+* Weather - snow, heavy rain, dust storms
+
+* Dirt on front window (see <<s_Troubleshooting-and-Maintenance>>)
+
+|Mounting a|
+* Typically gantry (can also be on wall/pole)
+
+* Additional construction if needed
+
+|===
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Prepare-Cables]
+
+== Prepare Cables
+
+[#s_Constructing-the-Power-Signals-Cable]
+
+=== Constructing the Power/Signals Cable
+
+[NOTE]
+
+========================================
+
+Prefabricated cables can be ordered from {compname-short}. See <<s_Related-Documents>> and <<t_Wiring-Diagram-Legend-Bill-of-Materials>>.
+
+========================================
+
+
+include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals Cable]
+
++++<div class="pagebreak"> </div>+++
+
+[#t_Power-Signals-Cable-Power-Signals-Pinouts]
+
+.Power/Signals Cable Connector Pinout
+
+include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
+
+include::ROOT:partial$IZA800G/p-pwr-sig-cable-2.adoc[Second Part of Power Signals Cable]
+
+--
++++<div class="pagebreak"> </div>+++
+--
+
+[#s_Constructing-the-LAN-Cable]
+
+=== Constructing the LAN Cable
+
+[NOTE]
+
+========================================
+
+Prefabricated cables can be ordered from {compname-short}. See <<s_Related-Documents>> and <<t_Wiring-Diagram-Legend-Bill-of-Materials>>.
+
+========================================
+
+
+include::ROOT:partial$IZA800G/p-lan-cable-1.adoc[LAN Cable Construction Part 1]
+
+include::ROOT:partial$IZA800G/p-lan-cable-2.adoc[LAN Cable Construction Part 2]
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Mounting-the-Camera-System]
+
+ifndef::xref-type-IZ600F[]
+== Install Camera System(s) and Other Components
+endif::[]
+
+ifdef::xref-type-IZ600F[]
+== Install Camera(s) and Other Components
+endif::[]
+
+[IMPORTANT]
+
+========================================
+*Before mounting components, see <<s_Connect-Components-Wiring>> to ensure that your site plan accommodates how the components will be wired together.*
+
+ifndef::xref-type-IZ600F[]
+*After mounting, remove the protective film from the front window of the Camera System.*
+endif::[]
+
+========================================
+
+. Secure the
+ifndef::xref-type-IZ600F[Camera System(s)]
+ifdef::xref-type-IZ600F[camera(s)]
+and illuminator(s) to the appropriate
+mounting hardware
+(see the Mounting Hardware documentation - see <<s_Related-Documents>>).
+
+. Mount other components (such as junction boxes) in appropriate locations.
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Connect-Components-Wiring]
+
+== Connect Components (Wiring)
+
+[#s_Typical-Wiring-Diagrams]
+
+=== Typical Wiring Diagrams
+
+See <<t_Power-Signals-Cable-Power-Signals-Pinouts>> for the power/signals cable wire colors, and <<t_Wiring-Diagram-Legend-Bill-of-Materials>> for a legend/bill of materials.
+
+[WARNING]
+========================================
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
+
+========================================
+
+[NOTE]
+========================================
+The torques required to connect the cable connectors to the connectors on the Camera System are as follows: +
+Power/signals cable: 3-4 kgf.cm / 0.29-0.39 N.m. +
+LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
+========================================
+
+[#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
+
+.Typical Camera System with Illuminator Wiring Diagram
+
+image::ROOT:IZA800G/image17.png[image,width=530,height=324]
+
+[#f_Typical-Camera-System-Wiring-Diagram]
+
+.Typical Camera System Wiring Diagram
+
+image::ROOT:IZA800G/image18.png[image,width=424,height=356]
+
+[#t_Wiring-Diagram-Legend-Bill-of-Materials]
+
+.Wiring Diagram Legend/Bill of Materials
+
+include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Power-Up-and-Set-Up-IP]
+
+== Power Up and Set Up IP
+
+[#s_Connecting-the-AC-Electricity]
+
+=== Connecting the AC Electricity
+
+[WARNING]
+
+========================================
+
+If any power cables were lengthened, ensure that all components receive exactly their rated voltage.
+
+Power undervoltage, overvoltage and/or incorrect polarity will damage the unit and will void the warranty.
+
+Stable power at the correct level must be supplied to each Camera System, even when under a heavy processing load.
+
+========================================
+
+Connect a plug to the **+++<u>+++L+++</u>+++**ive ({plus}V), **+++<u>+++N+++</u>+++**eutral (-V) and Ground (Shield) terminals of the power supply (see <<s_Typical-Wiring-Diagrams>>).
+
+Plug the power supply into the AC electricity. If required, switch the power supply unit ON.
+
+
+[#s_Reserving-IP-Addresses-in-your-Network]
+
+=== Reserving IP Addresses in your Network
+
+The {compname-short} cameras have been pre-configured with default IP addresses. You will probably need to change these addresses to conform to the requirements of your network. Be sure that you have IP addresses reserved for all components of your ALPR system ({software-ALPR} computer and cameras).
+
+[#s_Recognizing-Devices-with-IZ-Discovery]
+
+=== Set Up IP
+
+The {software-discovery} utility discovers all active devices connected to the network, and displays a list of their network parameters. These devices can include cameras and computers.
+
+See the {software-discovery} User Guide (see <<s_Related-Documents>>)
+for instructions on how to change a
+ifndef::xref-type-IZ600F[Camera System's]
+ifdef::xref-type-IZ600F[camera's]
+IP address.
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Configuring-a-Camera]
+
+== Configure LPR/OV Camera Settings
+
+[#s_Logging-In-to-the-Camera]
+
+=== Logging In to the Camera
+
+include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
+
+[#s_Changing-a-Camera-s-IP-Address]
+
+=== Changing a Camera's IP Address
+
+include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
+
+=== Camera Settings
+
+Camera settings are typically set by {compname-short}.
+
+[#s_Logging-Out-of-the-Camera]
+
+=== Logging Out of the Camera
+
+Close all windows, and the browser window.
+
++++<div class="pagebreak"> </div>+++
+
+[#s_Calibrating-the-Cameras]
+
+[#s_Aim-and-Calibrate]
+
+== Aim and Calibrate
+
+There are two cameras in the Camera System. Both are calibrated in nearly the same way. The LPR camera is set to capture in black and white, and the Overview (OV) camera is set to capture in color.
+
+The OV camera can be used both to display an overview image, and to perform LPR recognition. You may even be able to improve read accuracy by changing the zoom to have one camera "see" closer than the other one.
+
+[#s_Preparing-a-Vehicle-License-Plate]
+
+=== Preparing a Vehicle/License Plate
+
+Move a vehicle next to, and at the middle of the capture line. (This is the position at which the vehicle sensor signals that the vehicle is present.) Ensure that the Camera System is aimed at the middle of the lane, and is at the required capture distance (see <<s_Plan-Your-Site>>
+and the {docproductname} User Guide - see <<s_Related-Documents>>).
+
+Alternatively, in a lab, position a license plate at the expected distance and height.
+
+[#s_Determining-the-IP-Address-of-the-RoadView-Computer-with-IZ-Discovery]
+
+=== Determining the IP Address of the {software-ALPR} Computer with {software-discovery}
+
+See the {software-discovery} User Guide (see <<s_Related-Documents>>).
+
+[#s_Using-RoadView]
+
+=== Using {software-ALPR}
+
+include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[leveloffset=+1]
+
+[#s_Calibrating-the-Cameras-Using-RoadView]
+
+=== Calibrating the Cameras Using {software-ALPR}
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for calibration instructions.
+
+[#s_Verify-System-Operation]
+
+== Verify System Operation
+
+* Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
+
+* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+
+
+[#s_Troubleshooting-and-Maintenance]
+
+== Troubleshooting and Maintenance
+
+[#s_Troubleshooting]
+
+=== Troubleshooting
+
+See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>).
+
+[#s_Checking-Mounting-Screws]
+
+=== Checking Mounting Screws
+
+It is recommended to check all mounting screws for proper tightness once every two years.
+
+[#s_Cleaning-the-ALPR-Camera-System]
+
+=== Cleaning the {generic-camera-name}
+
+Do not use solvents or strong abrasive detergent when cleaning the Camera System. Use a soft dry cloth to clean the {generic-camera-name}'s front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window +++<u>+++gently+++</u>+++.
+
++++<div class="pagebreak"> </div>+++
+
+== Notices, Safety Precautions and Certifications
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
+
+include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
+
++++<div class="pagebreak"> </div>+++
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
+
+include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IP67.adoc[IP67 Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-ONVIF.adoc[ONVIF Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
+
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
+
+Doc. No. {shortprodname}-MAN-002b
