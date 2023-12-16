@@ -29,10 +29,7 @@
 .^a| * S - Short distance, 5-35 ft (2-11 m)
 * L - Long distance, 30-70 ft (9-21 m)
 
-.3+.^| LPR Illumination
-.1+.^| Number of LEDs
-.^a| * DR, IR - 15 high power LEDs
-* DRW, IRW - 10 high power LEDs
+.2+.^| LED Illumination
 
 .1+.^| Wavelength
 .^a| * DR - Deep Red
@@ -41,9 +38,9 @@
 .1+.^| Beam Angle
 .^a| * S - 40°x16°
 * L - 15°x15°
-* XL - 15°x15°
 
-.6+.^| LPR Camera
+.6+.^| LPR Camera +
+OV Camera
 .^| Shutter Type
 .^| Global
 
@@ -57,9 +54,9 @@
 
 
 .1+.^| Lens
-.^a| * S - 6-22 mm; Motorized Zoom and Auto-focus
+.^a| * S - 12-40 mm; Motorized Zoom and Auto-focus
 * L - 12-40 mm; Motorized Zoom and Auto-focus
-* XL - 12-50 mm; Manual Zoom and Focus
+
 
 .^| Video Compression
 .^| MJPEG, H.264, H.265
@@ -68,49 +65,18 @@
 .^| Video Streaming
 .^| RTSP Protocol
 
-.3+.^| OV Illumination
-.1+.^| Number of LEDs
-.^a| * DR, IR - No visible light LEDs
-* DRW, IRW - 5 high power LEDs
+.3+.^| Supported Protocols (for additional protocols, see the
+xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
 
-.1+.^| Wavelength
-.^a| * DR, IR, - N/A
-* DRW, IRW - Visible, Warm White
-
-
-.1+.^| Beam Angle
-.^a| * S - 40°x16°
-* L - 15°x15°
-* XL - 15°x15°
-
-.6+.^| OV Camera
-.^| Shutter Type
-.^| Global
-
-
-.^| Sensor
-.^| Sony IMX265
-
-
-.^| Resolution
-.^| 3.19 MP - 2048 (H) x 1536 (V)
-
-
-.1+.^| Lens
-.^a| * S - 6-22 mm; Motorized Zoom and Auto-focus
-* L - 12-40 mm; Motorized Zoom and Auto-focus
-* XL - 12-50 mm; Manual Zoom and Focus
-
-.^| Video Compression
-.^| MJPEG, H.264, H.265
-
-
-.^| Video Streaming
-.^| RTSP Protocol
-
-.2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
 .^| {compname-short} HTTP API
 .^| LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images.
+
+.^| ISTHA ETC
+.^| This is a protocol for communication
+between the Camera System and an
+ISTHA ETC Lane Controller. See the
+xref:ISTHA:DocList.adoc[ ISTHA ETC interface documentation])
+
 
 
 .^| {compname-short} Discovery
@@ -171,7 +137,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| Color
 .^| White
 
-.5+.^| Interface
+.4+.^| Interface
 .^| Ethernet
 .^| GigE Ethernet (10/100/1000M)
 
@@ -184,13 +150,9 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| Power/Signals - Waterproof outdoor M12 connector
 
 
-.1+.^| Digital Inputs (Trigger)
-.^a| * Dry Trigger: 5V ({plus})
-* Wet Trigger GND
-* Dry/Wet Trig Input
-
 .1+.^| Digital Outputs
-.^a| * OV Strobe: 5 V isolated
+.^a| * LPR Strobe: 5 V isolated
+* OV Strobe: 5 V isolated
 * RS485 (A/B)
 
 
@@ -205,13 +167,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 2.3+.^| Accessories Included
 
 .^| Sunshade
-
-
-
 .^| Waterproof outdoor RJ-45 cable connector
-
-
-
 .^| Waterproof outdoor M12 cable connector
 
 2.6+.^| Accessories Available
@@ -220,20 +176,12 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .^| Digital I/O Controller (xref:IZIO:DocList.adoc[{hw-iocontroller}])
 
-
-
 .^| Power/Signals Cable for {camera-8G} System+++<br>+++
 (xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS])
 
-
-
 .^| LAN Cable for {camera-8G} System (xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN])
 
-
-
 .^| Different xref:MNT-ProdToMountMap:DocList.adoc[mount options] available
-
-
 
 .^| External Illuminator (xref:IZS:DocList.adoc[{illum-strobe} Series])
 
