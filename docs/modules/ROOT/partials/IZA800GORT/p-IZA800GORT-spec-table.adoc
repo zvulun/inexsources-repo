@@ -75,7 +75,7 @@ xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
 .^| This is a protocol for communication
 between the Camera System and an
 ISTHA ETC Lane Controller. See the
-xref:ISTHA:DocList.adoc[ ISTHA ETC interface documentation])
+//xref:[ ISTHA ETC interface documentation])
 
 
 
