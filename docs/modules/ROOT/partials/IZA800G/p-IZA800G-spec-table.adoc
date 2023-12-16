@@ -236,6 +236,6 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 |===
 
-+++*+++ LPR Capture Distance is measured from camera to plate
-+++**+++ For part numbers {shortprodname}-X-XX
-+++***+++ For part numbers {shortprodname}-X-XX-CAB15F
++++*+++ LPR Capture Distance is measured from camera to plate +
++++**+++ For part numbers {shortprodname}-XX-XX +
++++***+++ For part numbers {shortprodname}-XX-XX-CAB15F
