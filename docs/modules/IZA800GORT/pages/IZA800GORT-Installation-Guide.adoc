@@ -157,8 +157,10 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 === Required Accessories
 
-The following accessories can be supplied by {compname-med}.
-For documentation and part numbers, see <<s_Related-Documents>>.
+The following accessories can be
+supplied by {compname-med}.
+For documentation and part numbers,
+see <<s_Related-Documents>>.
 
 [#t_Required-Accessories]
 
@@ -238,7 +240,12 @@ include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV 
 
 ==== Illuminator Triggering and Pulse Width
 
-You can trigger an illuminator from the OV camera by using appropriate wiring (see <<s_Typical-Wiring-Diagrams>>). The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
+You can trigger an illuminator from
+the LPR or OV camera by using appropriate
+wiring (see <<s_Typical-Wiring-Diagrams>>).
+The pulse width and other parameters
+that affect illuminator operation
+are pre-configured according to your project's requirements.
 
 include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
 
