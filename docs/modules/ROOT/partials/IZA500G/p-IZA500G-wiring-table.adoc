@@ -15,9 +15,9 @@ OD 5.5-7.9 mm
 24 VDC for standard models/ +
 48 VDC for P48 models
 .^a|
-For 1 camera, use a 50/75 W supply (IZPWR50/75) +
-For 2 cameras, use a 100/120 W supply (IZPWR100/120) +
-For 4 cameras, use a 240 W supply (IZPWR240)
+For 1 camera, use a 50/75 W supply (xref:IZPWR:DocList.adoc[IZPWR75]) +
+For 2 cameras, use a 100/120 W supply (xref:IZPWR:DocList.adoc[IZPWR120]) +
+For 4 cameras, use a 240 W supply (xref:IZPWR:DocList.adoc[IZPWR240])
 .^|E .^a|*Gate* .^|Supplied by integrator
 .^|F .^a|*Inductive Loop* .^|Supplied by integrator
 .^|G .^a|*Loop Detector Wiring Harness* .^|Included with Loop Detector
@@ -25,9 +25,9 @@ For 4 cameras, use a 240 W supply (IZPWR240)
 PoE{plus} Injector* +
 Requires 48 VDC
 .^a|
-For 1 camera, use a 75 W supply (IZPWR75-48) +
-For 2 cameras, use a 120 W supply (IZPWR120-48) +
-For 4 cameras, use a 240 W supply (IZPWR240-48)
+For 1 camera, use a 75 W supply (xref:IZPWR:DocList.adoc[IZPWR75-48]) +
+For 2 cameras, use a 120 W supply (xref:IZPWR:DocList.adoc[IZPWR120-48]) +
+For 4 cameras, use a 240 W supply (xref:IZPWR:DocList.adoc[IZPWR240-48])
 |===
 
 // *Notes:*

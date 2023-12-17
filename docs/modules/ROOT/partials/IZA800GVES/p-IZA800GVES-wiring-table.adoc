@@ -13,11 +13,7 @@ or
 Binder P/N: https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07, window=_blank]
 
 |C a|*Power Supply:* 24 VDC, 240 W, DIN rail mount a|
-{compname-short} P/N:
-
-* xref:IZPWR:DocList.adoc[IZPWR240-24-TDK-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
+{compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
 
 |D a|*Illuminator Cable for {system-type} System* |{compname-short} P/N: xref:IZCAB-SVES:DocList.adoc[IZCAB-S{system-type}]
 |E a|*DIN Rail Mountable Connection Panel* |{compname-short} P/N: xref:IZPANEL:DocList.adoc[{hw-connection-panel}]
