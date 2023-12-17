@@ -39,6 +39,8 @@
 // discrete removes these headers from the TOC
 [discrete]
 == ALPR All-in-one AI Camera System
+[discrete]
+== (With IZA800ORT Pinout)
 
 [discrete]
 === Rev. F3
