@@ -136,11 +136,11 @@ include::ROOT:partial$/IZA800GORT/p-IZA800GORT-spec-table.adoc[IZA800GORT Spec t
 
 * {shortprodname} ALPR All-in-one AI Camera System
 
-* LAN cable connector (field-mountable)
+* LAN cable or field-mountable cable connector
 
-* Power/Signals cable connector (field-mountable)
+* Power/Signals cable or field-mountable cable connector
 
-* Mounting adapter plate with screws
+* Mounting adapter plate with screws to attach the plate
 
 +++<div class="pagebreak"> </div>+++
 
@@ -158,7 +158,7 @@ image::ROOT:IZA800G/image7.png[image,width=489,height=252]
 [discrete]
 == Power/Signals Cable Connector Pinout
 
-include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
+include::ROOT:partial$IZA800GORT/p-IZA800GORT-connector-pinouts.adoc[IZA800GORT Connector Pinouts]
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
