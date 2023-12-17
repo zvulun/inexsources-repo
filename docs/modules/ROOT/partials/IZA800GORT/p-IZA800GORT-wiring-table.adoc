@@ -6,13 +6,7 @@
 |C a|*Power Supply:* 24 VDC, 100/120W; DIN rail mount +
 
 Can power 2 cameras from a single power supply a|
-{compname-short} P/N:
-
-* xref:IZPWR:DocList.adoc[IZPWR100-24-TDK-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR120-24-TDK-DIN]
-
-* xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
+{compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
 
 |D a|*Illuminator Power Cable* |Included; {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
 |E a|*Illuminator Signals Cable* |Included; {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]

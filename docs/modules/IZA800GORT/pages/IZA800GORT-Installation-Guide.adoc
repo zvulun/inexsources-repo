@@ -432,19 +432,19 @@ LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
 
 .Typical Camera System with Illuminator Wiring Diagram
 
-image::ROOT:IZA800G/image17.png[image,width=530,height=324]
+image::ROOT:IZA800GORT/IZA800GORT-FIG-034f_USA_IllumLPRFront.png[image,width=530,height=324]
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 .Typical Camera System Wiring Diagram
 
-image::ROOT:IZA800G/image18.png[image,width=424,height=356]
+image::ROOT:IZA800GORT/IZA800GORT-FIG-034g_USA_CamOnlyWiring.png[image,width=424,height=356]
 
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
 .Wiring Diagram Legend/Bill of Materials
 
-include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
+include::ROOT:partial$IZA800GORT/p-IZA800GORT-wiring-table.adoc[IZA800GORT Wiring Table]
 
 +++<div class="pagebreak"> </div>+++
 
