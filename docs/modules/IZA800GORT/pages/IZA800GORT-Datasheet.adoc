@@ -131,8 +131,6 @@ include::ROOT:partial$/IZA800GORT/p-IZA800GORT-spec-table.adoc[IZA800GORT Spec t
 +++**+++ All models have motorized zoom and auto-focus +
 +++***+++ All models have 24 VDC input voltage
 
-+++<div class="pagebreak"> </div>+++
-
 [discrete]
 == Standard Package Contents
 
