@@ -187,7 +187,7 @@ image::ROOT:image$/IZA800G/image4.png[image,width=624,height=236]
 
 .Power/Signals Cable Connector Pinout
 
-include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
+include::ROOT:partial$IZA800GORT/p-IZA800GORT-connector-pinouts.adoc[IZA800GORT Connector Pinouts]
 
 +++<div class="pagebreak"> </div>+++
 
