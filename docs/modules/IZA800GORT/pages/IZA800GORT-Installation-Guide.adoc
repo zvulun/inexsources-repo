@@ -88,7 +88,7 @@ toc::[]
 .^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
 .^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
 .^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
-.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} Documentation] |{software-ALPR} Documentation
 .^|xref:ISTHA:DocList.adoc[ISTHA-INEX-ICD-001] |ISTHA ETC interface documentation
 .^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 .^|xref:IZS:DocList.adoc[{illum-strobe}-MAN-002] |{illum-strobe} Strobe Illuminator Series User Guide
@@ -344,7 +344,7 @@ include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals
 
 .Power/Signals Cable Connector Pinout
 
-include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
+include::ROOT:partial$IZA800GORT/p-IZA800GORT-connector-pinouts.adoc[IZA800GORT Connector Pinouts]
 
 include::ROOT:partial$IZA800G/p-pwr-sig-cable-2.adoc[Second Part of Power Signals Cable]
 

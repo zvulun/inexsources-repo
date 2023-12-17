@@ -87,7 +87,7 @@ toc::[]
 .^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |US Illuminator Mounting documentation
 .^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
 .^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
-.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} Documentation] |{software-ALPR} Documentation
 .^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 .^|xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
 .^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Supporting Documentation] |{hw-webrelay-quad} Quad-Relay Remote (WEB) Relay: Supporting Documentation

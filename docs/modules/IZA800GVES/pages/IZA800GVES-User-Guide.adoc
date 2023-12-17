@@ -92,7 +92,7 @@ toc::[]
 .^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
 .^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
 .^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
-.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} Documentation] |{software-ALPR} Documentation
 .^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 .^|xref:IZSVES:DocList.adoc[{illum-VES}-MAN-002] |{illum-VES} Strobe Illuminator Series User Guide
 .^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet

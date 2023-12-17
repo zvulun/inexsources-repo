@@ -80,7 +80,7 @@ toc::[]
 .^|xref:IZIDPUG:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet (Rev. B)
 .^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
 .^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
-.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} Documentation] |{software-ALPR} Documentation
 .^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 .^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===

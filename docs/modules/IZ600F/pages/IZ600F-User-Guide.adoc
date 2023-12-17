@@ -85,7 +85,7 @@ toc::[]
 .^|xref:MNT-IZ600F-PMAIZ600F:DocList.adoc[MOUNT-IZ600F-PRSNT-010] |{shortprodname} Camera Mount Installation documentation
 .^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
 .^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
-.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} Documentation] |{software-ALPR} Documentation
 .^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 .^|xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
 .^|xref:IZODPUG:DocList.adoc[{hw-outdoor-processor}-REV-x-TDSHEET] |{hw-outdoor-processor} AI Outdoor Data Processing Unit: Technical Data Sheet
