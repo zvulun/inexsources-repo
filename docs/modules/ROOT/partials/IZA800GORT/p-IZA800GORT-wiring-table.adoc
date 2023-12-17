@@ -10,5 +10,6 @@ Can power 2 cameras from a single power supply a|
 
 |D a|*Illuminator Power Cable* |Included; {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
 |E a|*Illuminator Signals Cable* |Included; {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
-|F a|*{illum-strobe} Strobe Illuminator* |{compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
+|F a|*{illum-strobe} Strobe Illuminator (Infrared Light)* |{compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
+|G a|*{illum-strobe} Strobe Illuminator (White Light)* |{compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
