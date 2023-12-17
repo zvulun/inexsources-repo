@@ -71,7 +71,8 @@ Chrome or Microsoft Edge browser.+++<br>+++
 After mounting, remove the protective film from the camera's front window.+++<br>+++
 You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
 to find the desired camera and change its network
-settings.
+settings
+
 [discrete]
 === Checklist
 

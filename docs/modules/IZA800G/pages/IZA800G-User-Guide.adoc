@@ -116,7 +116,8 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 === Overview
 
-The {shortprodname} ALPR All-in-one AI Camera System is suitable for tolling and ITS applications, with different models available for different distances and illumination requirements.
+The {shortprodname} ALPR All-in-one AI Camera System
+is designed for tolling, ITS and traffic enforcement applications, with different models available for different distances and illumination requirements.
 
 include::ROOT:partial$IZA800G/p-IZ-overview-internals.adoc[IZ Camera Internals Overview Paragraph]
 

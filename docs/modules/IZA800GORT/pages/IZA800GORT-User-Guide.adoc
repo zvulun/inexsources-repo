@@ -117,7 +117,7 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 === Overview
 
 The {shortprodname} ALPR All-in-one AI Camera System
-is suitable for Open Road Tolling (ORT) applications,
+is designed for tolling, ITS and traffic enforcement applications,
 with different models available for different distances
 and illumination requirements.
 
