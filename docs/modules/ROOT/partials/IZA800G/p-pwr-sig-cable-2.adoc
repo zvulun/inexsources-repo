@@ -67,4 +67,4 @@ image::ROOT:/IZA800G/image30.png[image,width=478,height=194]
 
 image::ROOT:/IZA800G/image31.png[image,width=350,height=196]
 
-. Connect the remaining signal wires (see <<s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network>>).
+. Connect the remaining signal wires (see <<s_Connect-Components-Wiring>>).

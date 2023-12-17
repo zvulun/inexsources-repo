@@ -129,7 +129,7 @@ image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 
 //.Legend
 
-include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
+include::ROOT:partial$IZA800GORT/p-IZA800GORT-wiring-table.adoc[IZA800GORT Wiring Table]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
