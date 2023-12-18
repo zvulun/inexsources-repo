@@ -108,14 +108,14 @@ LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
 [discrete]
 === Front Camera with Illuminator Wiring Diagram (Infrared Light)
 
-image::ROOT:IZA800GORT/IZA800GORT-FIG-034f_USA_IllumLPRFront.png[image,width=530,height=324]
+image::ROOT:IZA800GORT/IZA800GORT-FIG-034f_USA_IllumLPRFront.png[image,width=500]
 
 //.Typical Camera System with Illuminator Wiring Diagram
 
 [discrete]
 === Rear Camera with Illuminator Wiring Diagram (White Light)
 
-image::ROOT:IZA800GORT/IZA800GORT-FIG-034f2_USA_IllumOVRear.png[image,width=530,height=324]
+image::ROOT:IZA800GORT/IZA800GORT-FIG-034f2_USA_IllumOVRear.png[image,width=500]
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
@@ -124,7 +124,7 @@ image::ROOT:IZA800GORT/IZA800GORT-FIG-034f2_USA_IllumOVRear.png[image,width=530,
 
 //.Typical Camera System Wiring Diagram
 
-image::ROOT:IZA800GORT/IZA800GORT-FIG-034g_USA_CamOnlyWiring.png[image,width=424,height=356]
+image::ROOT:IZA800GORT/IZA800GORT-FIG-034g_USA_CamOnlyWiring.png[image,width=400]
 
 +++<div class="pagebreak"> </div>+++
 
