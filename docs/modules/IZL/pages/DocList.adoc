@@ -1,4 +1,6 @@
 = IZL Illuminator Series Documents List
 
+* xref:IZL:IZL-User-Guide.adoc[IZL User Guide]
+
 More documents can be found at https://drive.google.com/drive/folders/1214eXbG17P4qrGLDIgJqrAq11xd15htt?usp=share_link[GDriveLink, window=_blank]
 

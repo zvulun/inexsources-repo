@@ -1,0 +1,266 @@
+[table.withborders,options="header",cols="24,23,53"]
+//[options="header",cols="9,6,11,6,6,63"]
+|===
+2+.^| Item
+//{set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+//{set:cellbgcolor:#c0c0c0}
+
+.5+.^| LED Illumination
+//{set:cellbgcolor!}
+
+.^a|Type .^a|High power LEDs; ON/OFF (DC)
+//.^a|Overall Operation .^a| Invoked by built-in photocell which
+//senses the ambient light level
+//(pre-configured as per customer needs)
+
+.^a|Activation .^a|Activated by
+built-in photocell or trigger input
+
+ifndef::xref-type-DFC[]
+
+.^a|Wavelength (WVLN) .^a|
+
+* IR = Infrared
+* DR = Deep Red
+* CL = Cool White (4000K)
+* WL = Warm White (3000K)
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+.^a|Wavelength .^a|
+Deep Red (DR)
+endif::xref-type-DFC[]
+
+ifndef::xref-type-DFC[]
+
+.^a|Number of LEDs (N) .^a|
+
+* 1: 24 LEDs
+* 2: 48 LEDs
+
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+.^a|Number of LEDs .^a|
+60
+endif::xref-type-DFC[]
+
+.^a| Beam Angle (HxV), +
+degrees
+
+.^a|
+ifndef::xref-type-DFC[]
+
+* {illum-non-strobe}N-WVLN-10: H10xV10
+* {illum-non-strobe}N-WVLN-20: H20xV20
+* {illum-non-strobe}N-WVLN-30: H30xV30
+* {illum-non-strobe}N-WVLN-H40: H40xV15
+* {illum-non-strobe}N-WVLN-60: H60xV60
+
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+H10xV10
+endif::xref-type-DFC[]
+
+ifndef::xref-type-DFC[]
+.3+.^|LPR Imaging+++*+++
+
+.^a|Field of View
+
+.^a|12 ft (3.7 m)
+
+.^a|Distance
+
+.^a|
+* {illum-non-strobe}N-WVLN-10: 69-137 ft (21-42 m)
+* {illum-non-strobe}N-WVLN-20: 34-68 ft (10-21 m)
+* {illum-non-strobe}N-WVLN-30: 22-45 ft (7-14 m)
+* {illum-non-strobe}N-WVLN-40: 16-33 ft (5-10 m)
+* {illum-non-strobe}N-WVLN-60: 10-21 ft (3-6 m)
+
+.^a|Vehicle Speed
+
+.^a|Up to 60 mph (97 km/h)
+
+
+endif::xref-type-DFC[]
+
+.3+.^| Environmental
+
+.^| Ingress Protection
+
+.^| IP66
+
+.^| Operating Temperature
+
+.^| -13°F to 140°F (-25°C to 60°C)
+
+.^| Humidity
+
+.^| 0% to 90% RH
+
+.4+.^| Certifications
+
+.^| EMC
+
+.^| FCC Class B/CE
+
+.^| RoHS
+
+.^| RoHS
+
+.^| Eye Safety
+
+.^| IEC62471, Group 2/3
+
+.^| NDAA
+
+.^| NDAA Section 889 compliant
+
+.4+.^| Physical
+
+.^| Dimensions +
+(W x H x D)+++**+++
+
+.^a|
+
+ifndef::xref-type-DFC[]
+
+* L1: 7.2 x 8.1 x 3.6 in (183 x 206 x 91 mm)
+* L2: 10.5 x 10.5 x 3.6 in (266 x 267 x 92 mm)
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
+endif::xref-type-DFC[]
+
+.^| Unit Weight+++**+++
+
+.^a|
+
+ifndef::xref-type-DFC[]
+
+* L1: 4.2 lbs (1.9 kg)
+* L2: 8.2 lbs (3.7 kg)
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+6.8 lbs (3.1 kg)
+endif::xref-type-DFC[]
+
+.^| Material
+
+.^| Aluminum
+
+.^| Color
+
+.^| Black, Gray or White
+
+.4+.^| Interface
+
+.^| Configuration Communication Protocol
+
+.^| RS485
+
+.2+.^| Cables
+
+.^a| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
+
+
+.^a| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F
+
+//* Strobe Input - see next part of table
+
+//* RS485 connections for configuration communication
+
+.^| Strobe Input
+
+.^| 3.3 - 24VDC, opto-isolated
+//Pulse Width 0.03 - 1.6 ms
+
+//.^| Digital Output (Strobe Output)
+
+//.^| 3.3 - 24VDC, opto-isolated +
+//Pulse Width 0.03 - 1.6 ms
+
+.2+.^| Power
+
+.^| Input Voltage
+
+.^|
+ifndef::xref-type-DFC[24 VDC+++***+++]
+ifdef::xref-type-DFC[24 VDC]
+
+.^| Power Consumption (measured with 0.5 ms pulse width; 24 VDC input)
+
+.^a|
+
+ifndef::xref-type-DFC[]
+
+[table.withborders,width="60%",cols="10%,55%,35%",options="header",]
+!===
+!Model ^!Frequency +
+(Hz) !Power +
+(Watts)
+^.^!S1 ^.^!60 ^.^!25W
+^.^!S1 ^.^!30 ^.^!13W
+^.^!S2 ^.^!60 ^.^!50W
+^.^!S2 ^.^!30 ^.^!25W
+^.^!S3 ^.^!60 ^.^!72W
+^.^!S3 ^.^!30 ^.^!36W
+!===
+
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+
+* 50W at 60 Hz
+* 25W at 30 Hz
+endif::xref-type-DFC[]
+
+2.3+.^| Accessories Included
+
+.^| 2-axis outer pan/tilt adjustment bracket
+
+.^| Power cable, 15 ft (4.6 m), {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
+
+.^| Signals cable, 15 ft (4.6 m), {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
+
+ifndef::xref-type-DFC[]
+
+.3+.^| Accessories Available (depending on site requirements)
+
+.^| Mounting hardware (in package)
+
+.^a| * Slotted steel bands with worm drive fasteners for 4" and 12" circular gantry mounting, 2 of each size
+
+* Gantry mounting bracket and screws
+
+.^| Mounting hardware (packed separately)
+
+.^| Wall/pole/gantry mounting options
+
+.^| Power Supply
+
+.^| Power Supply 24 VDC+++**+++
+
+endif::xref-type-DFC[]
+
+|===
+
++++*+++ Field of view, distance and speed
+will vary depending on camera used; +
+these measurements were obtained using
+the {compname-short} {camera-6F} camera.
+
+ifndef::xref-type-DFC[]
++++**+++ Including outer pan/tilt adjustment bracket
+
++++***+++ It is recommended to use an illuminator power supply separate from the camera's supply.
+
+endif::xref-type-DFC[]
+
+

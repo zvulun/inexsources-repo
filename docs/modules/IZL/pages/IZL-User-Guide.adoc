@@ -1,0 +1,185 @@
+:docproductname: IZL
+:shortprodname: IZL
+//We do not yet have verification of a specific eye safety stancard
+//:eyesafetystandard-1: IEC62471 Group 1
+
+:xref-type-IZL:
+:layout-type-userguide:
+
+//enable the TOC to be placed in a specific position
+:toc: macro
+
+= {docproductname} User Guide
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+//[.white]#{shortprodname}#
+
+
+// discrete removes these headers from the TOC
+[discrete]
+== Illuminator Series
+
+image::ROOT:IZL/IZL-L-FIG-020b_All_Models_NoNames.png[image,width=500]
+
+// restore section numbering from here on
+:sectnums: all
+
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+<<<
+._Click to show the Table of Contents_
+[%collapsible]
+====
+toc::[]
+====
+<<<
+
+[#s_Related-Documents]
+
+== Recommended Reading/Related Documents
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[table.withborders,width="100%",cols="45%,55%",options="header",]
+|===
+|Doc. No. |Title
+.^|xref:IZ600F:DocList.adoc[{camera-6F}-MAN-002b] |{camera-6F} Installation Guide
+.^|xref:IZA500G:DocList.adoc[{camera-5G}-MAN-002b] |{camera-5G} Installation Guide
+.^|xref:IZA500GR:DocList.adoc[{camera-5GR}-MAN-002b] |{camera-5GR} Installation Guide
+.^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+.^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |Illuminator Mounting - U.S.A.
+.^|xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-005] |Illuminator Gantry Mounting - Using Packaged Hardware
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+====
+
+== Training and Support
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+[#s_Support]
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+<<<
+
+[#s_Overview]
+
+== Overview
+
+[#s_Illuminator-Models]
+
+=== Illuminator Models
+
+The illuminator model codes are *{shortprodname}[1/2]-(IR/DR/CL/WL)-10/20/30/H40/60*, where:
+
+* After {shortprodname}:
+
+* 1/2 - number of LEDs: 1=24, 2=48
+
+* WVLN = Wavelength/type of LEDs:
+
+** IR - Infrared
+
+** DR - Deep Red
+
+** CL - Cool White (4000K)
+
+** WL - Warm White (3000K)
+
+* 10/20/30/H40/60 - LED beam angle, in degrees
+(Note: H40 = H40xV15)
+
+[#f_L-Series-Models-Front-Views]
+
+.L Series Models - Front Views
+
+image::ROOT:IZL/IZL-L-FIG-020_All_Models.png[image,width=624]
+
+[#f_L-Series-Models-Rear-Views]
+
+.L Series Models - Rear Views
+
+image::ROOT:IZL/IZL-L-FIG-021_Rear_Views_All_Models.png[image,width=304]
+
+<<<
+
+[#s_Package-Contents]
+
+=== Package Contents
+
+Carefully unpack the contents of the package (your illuminator model may look different than the ones shown here).
+
+[#f_Package-Contents]
+
+.Package Contents
+
+image::ROOT:IZL/IZL-L-FIG-012a_Newer_New_Pkg_Contents.png[image,width=500]
+
+The package includes:
+
+* Illuminator with outer pan/tilt adjustment bracket
+
+* Power cable 15 ft (4.6 m)
+
+* QC sheet
+
+[NOTE]
+
+========================================
+
+Mounting hardware may be included in your package, or packed separately, depending on your site's requirements. See the Mounting Hardware documentation (see <<s_Related-Documents>>).
+
+If any parts are missing or damaged, please contact {compname-long}.
+
+========================================
+
+<<<
+
+[#s_Dimensions-and-Specifications]
+
+=== Dimensions and Specifications
+
+[#f_L1-Illuminator-Dimensions-in-mm]
+
+.L1 Illuminator Dimensions (in mm)
+
+image::ROOT:IZL/IZL-L-FIG-017b_DS_L1_New_Dimensions.png[image,width=624]
+
+{empty} +
+{empty}
+
+
+[#f_L2-Illuminator-Dimensions-in-mm]
+
+.L2 Illuminator Dimensions (in mm)
+
+image::ROOT:IZL/IZL-L-FIG-018b_DS_L2_New_Dimensions.png[image,width=624]
+
+<<<
+
+[#t_Technical-Specifications-Rev-A]
+
+.Technical Specifications (Rev. A)
+
+include::ROOT:partial$IZL/p-IZL-spec-table.adoc[IZL Specification Table]
+
+<<<
+

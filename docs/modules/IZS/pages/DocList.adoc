@@ -1,4 +1,4 @@
-= IZS Illuminator Series Documents List
+= IZS Strobe Illuminator Series Documents List
 
 * xref:IZS:IZS-Datasheet.adoc[IZS Datasheet]
 
