@@ -112,6 +112,9 @@ image::ROOT:IZA800GORT/IZA800GORT-FIG-034f_USA_IllumLPRFront.png[image,width=530
 
 //.Typical Camera System with Illuminator Wiring Diagram
 
+{empty} +
+{empty}
+
 [discrete]
 === Rear Camera with Illuminator Wiring Diagram (White Light)
 
