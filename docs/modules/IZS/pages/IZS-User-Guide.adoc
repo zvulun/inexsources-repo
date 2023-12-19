@@ -64,10 +64,8 @@ toc::[]
 [table.withborders,width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
-.^|xref:IZA800G:DocList.adoc[{camera-8G}-MAN-002a] |{camera-8G} User Guide
 .^|xref:IZA800G:DocList.adoc[{camera-8G}-MAN-002b] |{camera-8G} Installation Guide
-.^|xref:IZA800G:DocList.adoc[{camera-8G}-TECH-001] |{camera-8G} Quick Start Guide
-.^|xref:IZA800G:DocList.adoc[{camera-8G}-REV-xx-TDSHEET] |{camera-8G} Technical Data Sheet
+.^|xref:IZA800GORT:DocList.adoc[{camera-ORT}-MAN-002b] |{camera-ORT} Installation Guide
 .^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 .^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |Illuminator Mounting - U.S.A.
 .^|xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-005] |Illuminator Gantry Mounting - Using Packaged Hardware
