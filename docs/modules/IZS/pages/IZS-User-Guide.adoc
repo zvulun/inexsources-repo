@@ -329,6 +329,8 @@ a|
 
 image::./UserGuide/image9.png[image,width=407,height=215]
 
+<<<
+
 [#s_Mounting]
 
 == Mounting and Aiming
@@ -340,8 +342,6 @@ image::./UserGuide/image9.png[image,width=407,height=215]
 * Mounting hardware may be included in your package, or packed separately, depending on your site's requirements. See the Mounting Hardware documentation (see <<s_Related-Documents>>).
 
 * Mount illuminators at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
-
-<<<
 
 [#s_Aiming-the-Illuminator]
 
