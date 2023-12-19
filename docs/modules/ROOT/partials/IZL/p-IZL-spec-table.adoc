@@ -16,7 +16,7 @@
 //(pre-configured as per customer needs)
 
 .^a|Activation .^a|Activated by
-built-in photocell or trigger input
+built-in photocell (threshold 300 LUX) or trigger input
 
 ifndef::xref-type-DFC[]
 
@@ -96,7 +96,7 @@ endif::xref-type-DFC[]
 
 .^| Operating Temperature
 
-.^| -13°F to 140°F (-25°C to 60°C)
+.^| -22°F to 140°F (-30°C to 60°C)
 
 .^| Humidity
 
@@ -106,7 +106,7 @@ endif::xref-type-DFC[]
 
 .^| EMC
 
-.^| FCC Class B/CE
+.^| FCC/CE
 
 .^| RoHS
 
@@ -173,7 +173,7 @@ endif::xref-type-DFC[]
 
 .^a| Trigger Input
 
-.^a| Opto-isolated: High: 3.3 – 24 VDC; Low: 0 – 3.3 VDC
+.^a| Opto-isolated: High: 3.3-24 VDC; Low: 0-3.3 VDC
 
 .^a| Alarm Output (LED state)
 
