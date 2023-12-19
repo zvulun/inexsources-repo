@@ -183,3 +183,70 @@ include::ROOT:partial$IZL/p-IZL-spec-table.adoc[IZL Specification Table]
 
 <<<
 
+[#s_Required-Accessories-Not-Included]
+
+== Required Accessories (Not Included)
+
+* See the Mounting Hardware documentation for a list of required tools (see <<s_Related-Documents>>).
+
+* The following accessories can be supplied by {compname-med}:
+
+[#t_Required-Accessories-INEX-Can-Supply]
+
+.Required Accessories {compname-short} Can Supply
+
+[table.withborders,width="100%",cols="33%,67%",options="header",]
+|===
+|Item |Notes
+|12 VDC or 24 VDC power supply (voltage-adjustable) |{compname-med} IZPWR 12 or 24 VDC power supply models.
+ifndef::xref-type-DFC[]
+It is recommended to use an illuminator power supply separate from the Camera System's supply.
+endif::xref-type-DFC[]
+|===
+
+<<<
+
+[#s_Planning-Your-Installation]
+
+== Planning Your Installation
+
+[#s_Matching-an-Illuminator-to-Your-Camera-System]
+
+=== Matching an Illuminator to Your Camera System
+
+[NOTE]
+
+========================================
+
+The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the {compname-short} camera. See the appropriate Camera Installation and Configuration Guide(s).
+
+========================================
+
+The number of illuminator LEDs and beam angle must match the distance rating of the camera being used, as follows:
+
+* Fewer LEDs and wider beam angles are used for short distances
+
+* More LEDs and narrower beam angles are used for longer distances
+
+See the appropriate Camera Installation and Configuration Guide(s) for an explanation of the model number codes (effective distances, and wavelengths/number of LEDs).
+//*_\{Add {camera-5G} or GR here –
+//since new pinout should allow for a
+//strobe trigger as in the Driver Face Capture solution –
+//and fix in catalog as well\}_*
+
+[#t_Camera-to-Illuminator-Typical-Use-Cases]
+
+.Camera-to-Illuminator Typical Use Cases
+
+[table.withborders,width="100%",cols="30%,19%,19%,15%,17%",options="header",]
+|===
+|Camera |Illuminator |Strobe Signal |Night Image |Installation
+.^|{camera-6F}/{camera-B6F} |{shortprodname}1/2-IR-XXX .^|N/A
+.^|B/W .^|Front
+.^|{camera-6F}/{camera-B6F} |{shortprodname}1/2-WL-XX .^|N/A
+.^|Color .^|Rear
+.^|{camera-5G}/{camera-5GR} |{shortprodname}1/2-IR-XXX .^|N/A
+.^|B/W .^|Front
+.^|{camera-5G}/{camera-5GR} |{shortprodname}1/2-WL-XX .^|N/A
+.^|Color .^|Rear
+|===
