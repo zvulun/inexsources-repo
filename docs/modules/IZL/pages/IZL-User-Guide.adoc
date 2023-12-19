@@ -250,3 +250,133 @@ See the appropriate Camera Installation and Configuration Guide(s) for an explan
 .^|{camera-5G}/{camera-5GR} |{shortprodname}1/2-WL-XX .^|N/A
 .^|Color .^|Rear
 |===
+
+[#s_Additional-Installation-Considerations]
+
+=== Additional Installation Considerations
+
+[#t_Additional-Installation-Considerations]
+
+.Additional Installation Considerations
+
+[table.withborders,width="100%",cols="40%,60%",options="header",]
+|===
+|Item |Considerations
+|*Surge Protection* a|* On power, network and data cables
+a|
+*Cable Extensions*
+
+*IMPORTANT* +
++++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
+
+a|
+* Power/Signals - Use type: Map UL2517; suggested manufacturer: TA YU; specification 24AWG x 6C + 16AWG x 2C + Mylar
+
+* Be sure you can deliver 12 VDC or 24 VDC at the illuminator, even after all of the extensions have been added. It is recommended to use an illuminator power supply separate from the camera's supply.
+
+* If you are using the trigger function, be sure you can deliver the required trigger signal levels at the illuminator
+
+|Mounting a|
+* Typically on gantry
+
+* Additional construction may be needed
+
+|===
+
+* Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
+
+* Be sure the opening at the rear of the unit is exposed to the ambient light, so that the photocell can sense the ambient light level
+(see <<f_Photocell-Exposed-to-Ambient-Light-via-Rear-of-Unit>>) and <<s_Photocell-Trigger-and-Alarm-Behavior>>. +
+(In some applications, the photocell may be disabled, so this consideration will not be relevant.)
+
+[#f_Photocell-Exposed-to-Ambient-Light-via-Rear-of-Unit]
+
+.Photocell Exposed to Ambient Light via Rear of Unit
+
+image::ROOT:IZL/IZL-L-FIG-024_L1_Photocell_Location.png[image,width=407]
+
+[#s_Photocell-Trigger-and-Alarm-Behavior]
+
+== Photocell, Trigger and Alarm Behavior
+
+[#s_Photocell-Behavior]
+
+=== Photocell Behavior
+
+[NOTE]
+================================
+Depending on your project's requirements, the photocell may have been disabled.
+================================
+
+The illuminator's photocell (see <<f_Photocell-Exposed-to-Ambient-Light-via-Rear-of-Unit>>)
+samples the ambient light 10 times per second:
+
+* If all 10 readings are above or below the photocell's ambient light threshold (300 LUX), then the light turns ON or OFF accordingly.
+* If all readings are not above/below the threshold, then the sampling is performed again.
+
+
+=== Trigger Behavior (Input Signal)
+
+The levels for the trigger (photocoupler) input are High (3.3 VDC - 24 VDC) and Low (0 VDC - 3.2 VDC and below).
+
+* When the trigger input goes from Low to High:
+
+** The input must be held High for approximately 200-300 ms (milliseconds) for the illuminator to turn ON.
+
+** The photocell's effect on the illuminator will be disabled
+(see <<s_Photocell-Behavior>>).
+
+* When the trigger input goes from High to Low:
+
+** The input must be held Low for approximately 200-300 ms
+for the illuminator to turn OFF.
+
+** If the trigger stays Low, the photocell will resume
+sampling the ambient light, and take control of the
+illuminator to turn it ON or OFF
+accordingly (see <<s_Photocell-Behavior>>).
++
+[NOTE]
+===========================
+Since a Low trigger signal returns illuminator control to the photocell, the illuminator cannot be forced OFF.
+===========================
+
+=== Alarm Behavior (Output Signal)
+
+The levels for the alarm output are High (12 VDC) and Low (0 VDC).
+
+* When the illuminator turns ON, the alarm output will go High (12 VDC) after approximately 200-300 ms.
+
+* When the illuminator turns OFF, the alarm output will go Low (0 VDC) after approximately 200-300 ms.
+
+[#s_Mounting]
+
+== Mounting
+
+[#s_Overall-Mounting-Considerations]
+
+=== Overall Mounting Considerations
+
+* Mounting hardware may be included in your package, or packed separately, depending on your site's requirements. See the Mounting Hardware documentation (see <<s_Related-Documents>>).
+
+* Mount illuminators at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
+
+[#s_Aiming-the-Illuminator]
+
+=== Aiming the Illuminator
+
+See your camera's User Guide for details on how to adjust the position of the camera to optimize license plate recognition. As part of this process, you may need to adjust the tilt and/or pan of the illuminator.
+
+For instructions on how to adjust the pan and tilt, see the Mounting Hardware documentation (see <<s_Related-Documents>>).
+
+<<<
+
+
+
+
+[#s_Verifying-Infrared-type-Operation]
+
+=== Verifying Infrared-type Operation
+
+You can see active infrared-type LEDs with certain model smartphone cameras to see if the LEDs are working.
+
