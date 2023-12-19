@@ -159,59 +159,44 @@ endif::xref-type-DFC[]
 
 .^| Black, Gray or White
 
-.4+.^| Interface
+.3+.^| Interface
 
-.^| Configuration Communication Protocol
+.^| Cables
 
-.^| RS485
+.^a| Single outdoor cable - 16 ft (5 m) long:
 
-.2+.^| Cables
+* Power
 
-.^a| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
+* Trigger Input (to disable photocell and turn LEDs ON, or to turn LEDs OFF and re-enable photocell, opto-isolated)
 
+* Alarm Output (indicates if LEDs are ON)
 
-.^a| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F
+.^a| Trigger Input
 
-//* Strobe Input - see next part of table
+.^a| Opto-isolated: High: 3.3 – 24 VDC; Low: 0 – 3.3 VDC
 
-//* RS485 connections for configuration communication
+.^a| Alarm Output (LED state)
 
-.^| Strobe Input
+.^a| High (LEDs ON): 12 VDC; Low (LEDs OFF): 0 VDC
 
-.^| 3.3 - 24VDC, opto-isolated
-//Pulse Width 0.03 - 1.6 ms
-
-//.^| Digital Output (Strobe Output)
-
-//.^| 3.3 - 24VDC, opto-isolated +
-//Pulse Width 0.03 - 1.6 ms
 
 .2+.^| Power
 
 .^| Input Voltage
 
 .^|
-ifndef::xref-type-DFC[24 VDC+++***+++]
+ifndef::xref-type-DFC[12-24 VDC+++***+++]
 ifdef::xref-type-DFC[24 VDC]
 
-.^| Power Consumption (measured with 0.5 ms pulse width; 24 VDC input)
+.^| Power Consumption (with 24 VDC input)
 
 .^a|
 
 ifndef::xref-type-DFC[]
 
-[table.withborders,width="60%",cols="10%,55%,35%",options="header",]
-!===
-!Model ^!Frequency +
-(Hz) !Power +
-(Watts)
-^.^!S1 ^.^!60 ^.^!25W
-^.^!S1 ^.^!30 ^.^!13W
-^.^!S2 ^.^!60 ^.^!50W
-^.^!S2 ^.^!30 ^.^!25W
-^.^!S3 ^.^!60 ^.^!72W
-^.^!S3 ^.^!30 ^.^!36W
-!===
+* L1: 50 W
+
+* L2: 100 W
 
 endif::xref-type-DFC[]
 
@@ -221,13 +206,11 @@ ifdef::xref-type-DFC[]
 * 25W at 30 Hz
 endif::xref-type-DFC[]
 
-2.3+.^| Accessories Included
+2.2+.^| Accessories Included
 
 .^| 2-axis outer pan/tilt adjustment bracket
 
-.^| Power cable, 15 ft (4.6 m), {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
-
-.^| Signals cable, 15 ft (4.6 m), {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
+.^| Power/signals cable, 16 ft (5 m)
 
 ifndef::xref-type-DFC[]
 
@@ -245,7 +228,7 @@ ifndef::xref-type-DFC[]
 
 .^| Power Supply
 
-.^| Power Supply 24 VDC+++**+++
+.^| Power Supply 12 VDC or 24 VDC+++***+++
 
 endif::xref-type-DFC[]
 

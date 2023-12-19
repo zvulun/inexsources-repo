@@ -137,7 +137,7 @@ The package includes:
 
 * Illuminator with outer pan/tilt adjustment bracket
 
-* Power cable 15 ft (4.6 m)
+* Power/signals cable 16 ft (5 m)
 
 * QC sheet
 
