@@ -349,6 +349,34 @@ The levels for the alarm output are High (12 VDC) and Low (0 VDC).
 
 * When the illuminator turns OFF, the alarm output will go Low (0 VDC) after approximately 200-300 ms.
 
+*_\{you will need to use p-illum-eye-safety.adoc to
+put in the desired eye safety stickers for IZL illuminators -
+will need an ifdef/endif}_*
+
+[#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
+
+== Connecting the Camera System, Illuminator, Power Supply and Network
+
+[WARNING]
+
+========================================
+
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+If you are using an {compname-short} power supply, see its User Guide for important information.
+
+========================================
+
+[IMPORTANT]
+
+========================================
+
+All cable extensions and repeaters must be shielded.
+
+========================================
+
+
+
 [#s_Mounting]
 
 == Mounting and Aiming
