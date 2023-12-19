@@ -173,7 +173,7 @@ endif::xref-type-DFC[]
 
 .^a| Trigger Input
 
-.^a| Opto-isolated: High: 3.3-24 VDC; Low: 0-3.3 VDC
+.^a| Opto-isolated: High: 3.3 - 24 VDC; Low: 0 - 3.3 VDC
 
 .^a| Alarm Output (LED state)
 
@@ -185,7 +185,7 @@ endif::xref-type-DFC[]
 .^| Input Voltage
 
 .^|
-ifndef::xref-type-DFC[12-24 VDC+++***+++]
+ifndef::xref-type-DFC[12 - 24 VDC+++***+++]
 ifdef::xref-type-DFC[24 VDC]
 
 .^| Power Consumption (with 24 VDC input)
