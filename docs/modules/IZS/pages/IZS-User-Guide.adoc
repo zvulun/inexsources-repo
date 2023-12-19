@@ -290,24 +290,6 @@ See the appropriate Camera Installation and Configuration Guide(s) for an explan
 {shortprodname}1-IR-30 .^|LPR Strobe .^|B/W .^|Front
 |===
 
-[#s_Triggering-and-Pulse-Width]
-
-=== Strobe Input and Pulse Width
-
-The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
-
-[#s_Configuring-Management-Software-to-Use-with-an-Illuminator]
-
-=== Configuring Management Software to Use with an Illuminator
-
-Use the {compname-short} Camera System's management software to configure illuminator-related parameters, such as when the illuminator will operate (only at night or all the time). See the management software's User Guide for further details.
-
-[#s_Verifying-Infrared-type-Operation]
-
-=== Verifying Infrared-type Operation
-
-You can see active infrared-type LEDs with certain model smartphone cameras to see if the LEDs are working.
-
 [#s_Additional-Installation-Considerations]
 
 === Additional Installation Considerations
@@ -445,6 +427,27 @@ P/N: (See <<t_Camera-to-Illuminator-Typical-Use-Cases>> for Camera-to-Illuminato
 |===
 
 <<<
+
+== Configuration
+
+[#s_Triggering-and-Pulse-Width]
+
+=== Strobe Input and Pulse Width
+
+The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
+
+[#s_Configuring-Management-Software-to-Use-with-an-Illuminator]
+
+=== Configuring Management Software to Use with an Illuminator
+
+Use the {compname-short} Camera System's management software to configure illuminator-related parameters, such as when the illuminator will operate (only at night or all the time). See the management software's User Guide for further details.
+
+
+[#s_Verifying-Infrared-type-Operation]
+
+== Verifying Infrared-type Operation
+
+You can see active infrared-type LEDs with certain model smartphone cameras to see if the LEDs are working.
 
 [#s_Maintenance]
 
