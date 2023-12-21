@@ -1,6 +1,6 @@
-:docproductname: Door Access Control Solutions
+:docproductname: Door Access Control Solution
 :shortprodname: Door Access Control
-:shortprodname2: DOOR-AC
+:shortprodname2: SLN-DOOR-AC
 :generic-camera-name: camera
 :system-type: N/A
 
@@ -26,10 +26,6 @@
 
 = {shortprodname} Quick Start
 
-//xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
-
-//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
-
 //!sectnum momentarily stops section numbering
 :!sectnums:
 
@@ -40,113 +36,65 @@
 // APPEARS IN GRAY ON A PDF/PRINTOUT
 // [.white]#{shortprodname}#
 
-// discrete removes these headers from the TOC
-//[discrete]
-//== {docproductname} ALPR All-in-one AI Camera System
-
-//[discrete]
-//=== Rev. F3
-//[discrete]
-//=== Datasheet
-
-//image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
-
 // no section numbers in datasheets
 //:sectnums: all
 {empty}
 {empty}
 
-// place the TOC in this specific position (capability enabled by :toc: macro at start
-// of file
-// no TOC in datasheets ._Click to show the Table of Contents_
-// [%collapsible]
-// ====
+Click xref:IZACP-2D-4D:DocList.adoc[here] for full documentation and software.
 
-// toc::[]
+//[sidebar]
 
-// ====
+//[discrete]
+//=== Checklist
 
-Click xref:IZA800G:DocList.adoc[here] for full documentation and software.
+//include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
-[sidebar]
-You will need: Laptop with Windows 10 or above
-with Windows Feature NET 4.5 enabled.+++<br>+++
-Chrome or Microsoft Edge browser.+++<br>+++
-After mounting, remove the protective film from the camera's front window.+++<br>+++
-You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
-to find the desired camera and change its network
-settings.
-[discrete]
-=== Checklist
+//{empty} +
 
-include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
-
-{empty} +
-
-[IMPORTANT]
-
-========================================
-When opening or closing the housing's
-captive screws, turn the screws
-ALTERNATELY, a little at a time -
-DO NOT open/close one screw completely.
-This places an extreme angle between
-the captive screws, and may cause paint
-to crack around the screw holes,
-increasing the likelihood of corrosion.
-
-The torques required to connect the
-cable connectors to the connectors
-on the Camera System are as follows:
-Power/signals cable: 3-4 kgf.cm / 0.29-0.39 N.m.
-LAN cable: 5-8 kgf.cm / 0.49-0.78 N.m.
-
-========================================
-
-
-+++<div class="pagebreak"> </div>+++
-
-[#f_Typical-Camera-System-with-Illuminator-Wiring-Diagram]
+[#f_Panel-Wiring-Diagram]
 
 [discrete]
-=== Camera System with Illuminator Wiring Diagram
+=== Panel Wiring Diagram
 
-//.Typical Camera System with Illuminator Wiring Diagram
-
-image::ROOT:IZA800G/image17.png[image,width=530,height=324]
-
-[#f_Typical-Camera-System-Wiring-Diagram]
-
-[discrete]
-=== Camera System Wiring Diagram
-
-//.Typical Camera System Wiring Diagram
-
-image::ROOT:IZA800G/image18.png[image,width=424,height=356]
-
-+++<div class="pagebreak"> </div>+++
+image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-001_Panel_Wiring.png[image,width=800]
 
 [#t_Panel_Wiring-Diagram-Legend-Bill-of-Materials]
 
 [discrete]
 === Panel Wiring Legend
 
-//.Legend
-
 include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-panel-wiring-table.adoc[Panel Wiring Table]
+
+[#f_Striker-Lock-Wiring-Diagram]
+
+[discrete]
+=== Striker Lock Wiring Diagram
+
+image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-002_Striker_Lock_Wiring.png[image,width=530]
+
+[#f_Magnetic-Lock-Wiring-Diagram]
+
+[discrete]
+=== Magnetic Lock Wiring Diagram
+
+image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-003_Magnetic_Lock_Wiring.png[image,width=530]
+
+[#f_Exit-Device-Wiring-Diagram]
+
+[discrete]
+=== Exit Device Wiring Diagram
+
+image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-004_Bar_Exit_Lock_Wiring.png[image,width=530]
 
 [#t_Lock_Wiring-Diagram-Legend-Bill-of-Materials]
 
 [discrete]
 === Lock Wiring Legend
 
-//.Legend
-
 include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-lock-wiring-table.adoc[Lock Wiring Table]
-
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-TECH-001
-
+Doc. No. {shortprodname2}-TECH-001
 

@@ -6,7 +6,7 @@ xref:IZACR-QPR50:DocList.adoc[IZACR-QPR50]
 .^|B .^a|*4-conductor 26 AWG copper wires; Max. Length 230 ft (70 m)* .^|Supplied by integrator
 .^|C .^a|*Four-Door Access Control Panel* .^|{compname-short} P/N:
 xref:IZACP-2D-4D:DocList.adoc[IZACP-4D]
-.^|D .^a|*GigE Network Switch* .^|Supplied by integrator
+.^|D .^a|*Network Switch* .^|Supplied by integrator
 .^|E .^a|*Cat6 LAN Cable; Max. Length 300 ft (91 m)* .^|Supplied by integrator
 .^|F .^a|*Power Supply for Access Panel:* 12 VDC,
 75W; DIN rail .^|{compname-short} P/N:

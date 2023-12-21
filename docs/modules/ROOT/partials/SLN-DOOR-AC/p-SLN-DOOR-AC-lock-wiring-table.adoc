@@ -3,9 +3,9 @@
 |Item |Description |Ordering Information
 .^|G .^a|*Power Supply for Locks:* 24 VDC, 120W; DIN rail .^a|
 {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
-.^|H .^a|*Electronic Striker Lock* .^|Supplied by integrator
-.^|I .^a|*Electronic Striker Lock* .^|Supplied by integrator
-.^|J .^a|*Electronic Magnetic Lock *_\{has built-in sensor?}_** .^|Supplied by integrator
-.^|K .^a|*Electronic Bar Exit Lock* .^|Supplied by integrator
+.^|H .^a|*Rim Electric Striker Lock* .^|Supplied by integrator
+.^|I .^a|*Centerline Electric Striker Lock* .^|Supplied by integrator
+.^|J .^a|*Electromagnetic Lock* .^|Supplied by integrator
+.^|K .^a|*Exit Device Lock* .^|Supplied by integrator
 .^|L .^a|*Sensor (to determine if door is opened or closed)* .^|Supplied by integrator
 |===
