@@ -126,14 +126,24 @@ image::ROOT:IZA800G/image18.png[image,width=424,height=356]
 
 +++<div class="pagebreak"> </div>+++
 
-[#t_Wiring-Diagram-Legend-Bill-of-Materials]
+[#t_Panel_Wiring-Diagram-Legend-Bill-of-Materials]
 
 [discrete]
-=== Legend
+=== Panel Wiring Legend
 
 //.Legend
 
-include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
+include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-panel-wiring-table.adoc[Panel Wiring Table]
+
+[#t_Lock_Wiring-Diagram-Legend-Bill-of-Materials]
+
+[discrete]
+=== Lock Wiring Legend
+
+//.Legend
+
+include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-lock-wiring-table.adoc[Lock Wiring Table]
+
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 

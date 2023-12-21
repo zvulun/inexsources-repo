@@ -69,7 +69,8 @@
 ** xref:IZPANEL:DocList.adoc[IZPanel (Connection Panel)]
 ** xref:IZ4POE:DocList.adoc[IZ4POE (Gigabit 4-Port PoE{plus}{plus} Injector)]
 ** xref:IZACR-QPR50:DocList.adoc[IZACR-QPR50 (Access Control Reader)]
-** xref:IZACP-2D:DocList.adoc[IZACP-2D (Twp-Door Access Control Panel)]
+** xref:IZACP-2D-4D:DocList.adoc[IZACP-2D (Twp-Door Access Control Panel)]
+** xref:IZACP-2D-4D:DocList.adoc[IZACP-4D (Four-Door Access Control Panel)]
 ** xref:IZACA-MCPS:DocList.adoc[IZACA-MCPS (Metal Case with Power Supply for Access Control Panels)]
 * Cables
 ** xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE (VES Cable)]
