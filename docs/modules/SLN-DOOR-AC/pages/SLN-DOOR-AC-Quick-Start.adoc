@@ -87,7 +87,7 @@ image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-002_Striker_Lock_Wiring.png[image,width=
 [discrete]
 === Magnetic Lock Wiring Diagram
 
-image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-003_Magnetic_Lock_Wiring.png[image,width=774,align=left]
+image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-003_Magnetic_Lock_Wiring.png[image,width=800,align=left]
 
 <<<
 
