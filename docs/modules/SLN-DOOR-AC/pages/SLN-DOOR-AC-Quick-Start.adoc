@@ -59,6 +59,10 @@ Click xref:IZACP-2D-4D:DocList.adoc[here] for full documentation and software.
 
 image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-001_Panel_Wiring.png[image,width=800]
 
+{empty} +
+{empty}
+
+
 [#t_Panel_Wiring-Diagram-Legend-Bill-of-Materials]
 
 [discrete]
@@ -93,6 +97,9 @@ image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-003_Magnetic_Lock_Wiring.png[image,width
 === Exit Device Wiring Diagram
 
 image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-004_Bar_Exit_Lock_Wiring.png[image,width=530]
+
+{empty} +
+{empty}
 
 [#t_Lock_Wiring-Diagram-Legend-Bill-of-Materials]
 
