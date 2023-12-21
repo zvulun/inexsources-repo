@@ -96,7 +96,7 @@ image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-003_Magnetic_Lock_Wiring.png[image,width
 [discrete]
 === Exit Device Wiring Diagram
 
-image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-004_Bar_Exit_Lock_Wiring.png[image,width=530,align=left]
+image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-004_Bar_Exit_Lock_Wiring.png[image,width=560,align=left]
 
 {empty} +
 {empty}
