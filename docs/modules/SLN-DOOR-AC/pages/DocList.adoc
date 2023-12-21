@@ -2,4 +2,4 @@
 
 * xref:SLN-DOOR-AC:SLN-For-Door-AC.adoc[{compname-short} Solution for Door Access Control]
 
-* xref:SLN-DOOR-AC:SLN-Door-AC-Quick-Start.adoc[Door Access Control Quick Start]
+* xref:SLN-DOOR-AC:SLN-DOOR-AC-Quick-Start.adoc[Door Access Control Quick Start]
