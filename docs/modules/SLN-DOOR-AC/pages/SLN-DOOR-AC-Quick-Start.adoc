@@ -66,6 +66,8 @@ image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-001_Panel_Wiring.png[image,width=800]
 
 include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-panel-wiring-table.adoc[Panel Wiring Table]
 
+<<<
+
 [#f_Striker-Lock-Wiring-Diagram]
 
 [discrete]
@@ -73,12 +75,17 @@ include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-panel-wiring-table.adoc[Panel Wi
 
 image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-002_Striker_Lock_Wiring.png[image,width=530]
 
+{empty} +
+{empty}
+
 [#f_Magnetic-Lock-Wiring-Diagram]
 
 [discrete]
 === Magnetic Lock Wiring Diagram
 
 image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-003_Magnetic_Lock_Wiring.png[image,width=530]
+
+<<<
 
 [#f_Exit-Device-Wiring-Diagram]
 
