@@ -3,13 +3,19 @@
 |Item |Description |Ordering Information
 .^|A .^a|*Access Control Reader* .^|{compname-short} P/N:
 xref:IZACR-QPR50:DocList.adoc[IZACR-QPR50]
-.^|B .^a|*4-conductor 26 AWG copper wires; Max. Length 230 ft (70 m)* .^|Supplied by integrator
+.^|B .^a|*4-conductor 22 AWG copper wires; Max. Length 230 ft (70 m)* .^|Supplied by integrator
 .^|C .^a|*Four-Door Access Control Panel* .^|{compname-short} P/N:
 xref:IZACP-2D-4D:DocList.adoc[IZACP-4D]
 .^|D .^a|*Network Switch* .^|Supplied by integrator
-.^|E .^a|*Cat6 LAN Cable; Max. Length 300 ft (91 m)* .^|Supplied by integrator
+.^|E .^a|*Cat6 LAN Cable; Max. Length 330 ft (100 m)* .^|Supplied by integrator
 .^|F .^a|*Power Supply for Access Panel:* 12 VDC,
 75W; DIN rail .^|{compname-short} P/N:
 xref:IZPWR:DocList.adoc[IZPWR75-12-MWL-DIN]
+.^|G .^a|*Power Supply for Locks:* 12/24 VDC (depends on lock type), 120W; DIN rail .^a|
+* {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR120-12-MWL-DIN]
+* {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
+.^|H .^a|*Electric Lock* .^|Supplied by integrator
+.^|I .^a|*Sensor (to determine if door is opened or closed)* .^|Supplied by integrator
+.^|J .^a|*Exit Button* .^|Supplied by integrator
 //.^|G .^a|*Gates* .^| Supplied by integrator
 |===

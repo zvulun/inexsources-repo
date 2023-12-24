@@ -57,7 +57,7 @@ Click xref:SLN-DOOR-AC:DocList.adoc[here] for related documentation.
 [discrete]
 === Panel Wiring Diagram
 
-image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-001_Panel_Wiring.png[image,width=800]
+image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-002_Striker_Lock_Wiring.png[image,width=800]
 
 {empty} +
 {empty}
@@ -72,41 +72,22 @@ include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-panel-wiring-table.adoc[Panel Wi
 
 <<<
 
-[#f_Striker-Lock-Wiring-Diagram]
+[#f_Emergency-Open-Fire-Wiring-Wiring-Diagram]
 
 [discrete]
-=== Striker Lock Wiring Diagram
+=== Emergency Open/Fire Wiring Diagram
 
-image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-002_Striker_Lock_Wiring.png[image,width=600,align=left]
+image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-005_Fire_Wiring.png[image,width=800,align=left]
 
 {empty} +
 {empty}
 
-[#f_Magnetic-Lock-Wiring-Diagram]
+[#t_Fire_Wiring-Diagram-Legend-Bill-of-Materials]
 
 [discrete]
-=== Magnetic Lock Wiring Diagram
+=== Fire Wiring Legend
 
-image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-003_Magnetic_Lock_Wiring.png[image,width=800,align=left]
-
-<<<
-
-[#f_Exit-Device-Wiring-Diagram]
-
-[discrete]
-=== Exit Device Wiring Diagram
-
-image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-004_Bar_Exit_Lock_Wiring.png[image,width=617,align=left]
-
-{empty} +
-{empty}
-
-[#t_Lock_Wiring-Diagram-Legend-Bill-of-Materials]
-
-[discrete]
-=== Lock Wiring Legend
-
-include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-lock-wiring-table.adoc[Lock Wiring Table]
+include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-fire-wiring-table.adoc[Lock Wiring Table]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
