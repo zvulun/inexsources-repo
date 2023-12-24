@@ -64,8 +64,6 @@ image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-002_Striker_Lock_Wiring.png[image,width=
 
 include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-panel-wiring-table.adoc[Panel Wiring Table]
 
-<<<
-
 [#f_Emergency-Open-Fire-Wiring-Wiring-Diagram]
 
 [discrete]
