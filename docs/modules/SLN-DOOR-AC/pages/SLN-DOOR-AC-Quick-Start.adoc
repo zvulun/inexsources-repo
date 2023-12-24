@@ -38,8 +38,6 @@
 
 // no section numbers in datasheets
 //:sectnums: all
-{empty}
-{empty}
 
 Click xref:SLN-DOOR-AC:DocList.adoc[here] for related documentation.
 
@@ -57,11 +55,7 @@ Click xref:SLN-DOOR-AC:DocList.adoc[here] for related documentation.
 [discrete]
 === Panel Wiring Diagram
 
-image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-002_Striker_Lock_Wiring.png[image,width=800]
-
-{empty} +
-{empty}
-
+image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-002_Striker_Lock_Wiring.png[image,width=700]
 
 [#t_Panel_Wiring-Diagram-Legend-Bill-of-Materials]
 
