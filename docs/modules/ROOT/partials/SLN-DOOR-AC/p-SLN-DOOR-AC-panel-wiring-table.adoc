@@ -4,7 +4,8 @@
 .^|A .^a|*Access Control Reader* .^|{compname-short} P/N:
 xref:IZACR-QPR50:DocList.adoc[IZACR-QPR50]
 .^|B .^a|*Reader-to-Panel Wiring:* (see AWG tables below)
-//4-conductor 22 AWG copper wires; Max. Length 230 ft (70 m) .^|Supplied by integrator
+//4-conductor 22 AWG copper wires; Max. Length 230 ft (70 m)
+.^|Supplied by integrator
 .^|C .^a|*Four-Door Access Control Panel* .^|{compname-short} P/N:
 xref:IZACP-2D-4D:DocList.adoc[IZACP-4D]
 .^|D .^a|*Network Switch* .^|Supplied by integrator
