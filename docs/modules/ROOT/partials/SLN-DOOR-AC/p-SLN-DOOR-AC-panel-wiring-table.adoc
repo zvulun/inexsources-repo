@@ -1,9 +1,9 @@
-[table.withborders,width="100%",cols="7%,52%,41%",options="header",]
+[table.withborders,width="100%",cols="7%,55%,38%",options="header",]
 |===
 |Item |Description |Ordering Information
 .^|A .^a|*Access Control Reader* .^|{compname-short} P/N:
 xref:IZACR-QPR50:DocList.adoc[IZACR-QPR50]
-.^|B .^a|*Reader-to-Panel Wiring:* 4-conductor copper wires*; use
+.^|B .^a|*Reader-to-Panel Cable:* 4-conductor copper wires*; use
 22 AWG for up to 250 ft (76 m), or 18 AWG for 250-500 ft (152 m)
 .^|Supplied by integrator
 .^|C .^a|*Four-Door Access Control Panel* .^|{compname-short} P/N:
