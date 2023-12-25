@@ -92,9 +92,6 @@ are based on the 2008 National Electrical Code
 
 include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-12V-current-table.adoc[24V Wire Gauge Table]
 
-{empty} +
-{empty}
-
 [discrete]
 === AWG Wire Gauge Selections - Electric Strike Current at 24 VDC
 
