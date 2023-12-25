@@ -88,7 +88,8 @@ include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-fire-wiring-table.adoc[Lock Wiri
 [sidebar]
 The following recommended wire gauge selection tables
 are based on the 2008 National Electrical Code
-(2008 NEC).
+(2008 NEC). The maximum wire gauge that fits in
+the access control panel connectors is 12 AWG.
 
 <<<
 
