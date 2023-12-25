@@ -81,6 +81,10 @@ image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-005_Fire_Wiring.png[image,width=800,alig
 
 include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-fire-wiring-table.adoc[Lock Wiring Table]
 
+{empty} +
+{empty} +
+{empty}
+
 [sidebar]
 The following recommended wire gauge selection tables
 are based on the 2008 National Electrical Code
