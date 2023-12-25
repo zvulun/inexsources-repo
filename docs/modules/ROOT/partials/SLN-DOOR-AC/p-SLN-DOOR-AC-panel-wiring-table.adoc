@@ -7,7 +7,7 @@ xref:IZACR-QPR50:DocList.adoc[IZACR-QPR50]
 .^|C .^a|*Four-Door Access Control Panel* .^|{compname-short} P/N:
 xref:IZACP-2D-4D:DocList.adoc[IZACP-4D]
 .^|D .^a|*Network Switch* .^|Supplied by integrator
-.^|E .^a|*Cat6 LAN Cable;* Max. Length 330 ft (100 m)* .^|Supplied by integrator
+.^|E .^a|*Cat6 LAN Cable;* Max. Length 330 ft (100 m) .^|Supplied by integrator
 .^|F .^a|*Power Supply for Access Panel:* 12 VDC,
 75W; DIN rail .^|{compname-short} P/N:
 xref:IZPWR:DocList.adoc[IZPWR75-12-MWL-DIN]
