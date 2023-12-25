@@ -23,6 +23,5 @@ xref:IZPWR:DocList.adoc[IZPWR75-12-MWL-DIN]
 .^|J .^a|*Sensor* (to determine if door is opened or closed) .^|Supplied by integrator
 .^|K .^a|*Exit Button* .^|Supplied by integrator
 |===
-+++*+++ With Wi-Fi option, cable is not needed
-
++++*+++ With Wi-Fi option, cable is not needed +
 +++**+++ Shielded cable of excellent quality in a noise free environment

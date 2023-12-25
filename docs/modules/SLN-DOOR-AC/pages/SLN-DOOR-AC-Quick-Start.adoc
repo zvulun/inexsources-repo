@@ -64,9 +64,6 @@ image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-002_Striker_Lock_Wiring.png[image,width=
 
 include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-panel-wiring-table.adoc[Panel Wiring Table]
 
-{empty} +
-{empty}
-
 [#f_Emergency-Open-Fire-Wiring-Wiring-Diagram]
 
 [discrete]
@@ -85,7 +82,6 @@ include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-fire-wiring-table.adoc[Lock Wiri
 {empty} +
 {empty}
 
-[sidebar]
 The following recommended wire gauge selection tables
 for the panel-to-lock (or alarm) cables are based on the
 2008 National Electrical Code (2008 NEC).
