@@ -81,6 +81,11 @@ image::ROOT:SLN-DOOR-AC/SLN-DOOR-AC-FIG-005_Fire_Wiring.png[image,width=800,alig
 
 include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-fire-wiring-table.adoc[Lock Wiring Table]
 
+[discrete]
+=== Wire Gauge Selections - Electric Strike Current at 24 VDC
+
+include::ROOT:partial$SLN-DOOR-AC/p-SLN-DOOR-AC-24V-current-table.adoc[24V Wire Gauge Table]
+
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
 Doc. No. {shortprodname2}-TECH-001

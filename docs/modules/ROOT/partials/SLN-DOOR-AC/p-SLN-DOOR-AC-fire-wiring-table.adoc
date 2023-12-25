@@ -1,6 +1,6 @@
 [table.withborders,width="100%",cols="7%,52%,41%",options="header",]
 |===
 |Item |Description |Ordering Information
-.^|K .^a|*Emergency Open/Fire Button* .^|Supplied by integrator
+.^|K .^a|*Emergency Open/Fire Button* (opens all doors) .^|Supplied by integrator
 .^|L .^a|*Fire Alarm* .^|Supplied by integrator
 |===
