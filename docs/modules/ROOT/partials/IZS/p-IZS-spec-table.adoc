@@ -91,7 +91,11 @@ endif::xref-type-DFC[]
 
 .^| Eye Safety
 
-.^| IEC62471, Group 2
+.^a| IEC62471:
+
+* IR wavelength models: Group 2
+* DR wavelength models: Group 1
+* CL wavelength models: Group 1
 
 .^| NDAA
 
