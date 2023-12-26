@@ -338,7 +338,7 @@ All cable extensions and repeaters must be shielded.
 
 ========================================
 
-//include::ROOT:partial$IZL/
+include::ROOT:partial$IZL/p-IZL-connector-pinouts.adoc[IZL Connector Pinouts]
 
 [#s_Photocell-Trigger-and-Alarm-Behavior]
 
