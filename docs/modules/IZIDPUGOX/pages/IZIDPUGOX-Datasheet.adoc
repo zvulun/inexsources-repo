@@ -48,6 +48,8 @@
 //[discrete]
 //=== Datasheet
 
+*_\{need new picture here and in SalesForce}_*
+
 image:ROOT:IZIDPUGOX/IZIDPUGOX-Front-Page.png[Picture of DPU,400,align=left]
 
 // no section numbers in datasheets
@@ -125,6 +127,8 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 //+++<div class="pagebreak"> </div>+++
 
 <<<
+
+*_\{need new picture}_*
 
 [discrete]
 == Dimensions

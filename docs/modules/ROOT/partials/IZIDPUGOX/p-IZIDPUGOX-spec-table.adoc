@@ -88,8 +88,8 @@ architecture GPU with 32 Tensor Cores
 .^| NDAA Section 889 compliant
 
 .4+.^| Physical
-.^| Dimensions (W x H x D)
-.^| 4.5 x 1.5" x 3.4" (114 x 38 x 87 mm)
+.^| Dimensions (W x H x D)+++*+++
+.^| 4.5" x 2.8" x 3.5" (114 x 70 x 90 mm)
 
 .^| Case Material
 .^| Aluminum
@@ -100,19 +100,19 @@ architecture GPU with 32 Tensor Cores
 .^| Mounting Options
 .^| DIN Rail, Wall
 
-.4+.^| Interface
+.1+.^| Interface
 .^| Networking
 .^| 1* Gigabit Ethernet (10/100/1000M)
 
-.^| USB
-.^| 4* USB 3.2 Type-A (10 Gbps); +
-1* USB2.0 Type-C (Device Mode)
+//.^| USB
+//.^| 4* USB 3.2 Type-A (10 Gbps); +
+//1* USB2.0 Type-C (Device Mode)
 
-.^| Display
-.^| 1* HDMI 2.1
+//.^| Display
+//.^| 1* HDMI 2.1
 
-.^| RTC
-.^| CR1220
+//.^| RTC
+//.^| CR1220
 
 .2+.^| Power
 .^| Input Voltage
@@ -124,3 +124,7 @@ architecture GPU with 32 Tensor Cores
 .^| Power Supply; 12 VDC/5A +
 Barrel Jack 0.22/0.10 in (5.5/2.5 mm)
 |===
+
++++*+++ *_\{may need to re-measure without bracket?
+and what about dimensions with DIN rail adapter attached?}_*Height measurement includes wall mount
+bracket; width does not include bracket
