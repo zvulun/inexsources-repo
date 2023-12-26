@@ -78,7 +78,7 @@ ifndef::xref-type-DFC[]
 * {illum-non-strobe}N-WVLN-10: 69-137 ft (21-42 m)
 * {illum-non-strobe}N-WVLN-20: 34-68 ft (10-21 m)
 * {illum-non-strobe}N-WVLN-30: 22-45 ft (7-14 m)
-* {illum-non-strobe}N-WVLN-40: 16-33 ft (5-10 m)
+* {illum-non-strobe}N-WVLN-H40: 16-33 ft (5-10 m)
 * {illum-non-strobe}N-WVLN-60: 10-21 ft (3-6 m)
 
 .^a|Vehicle Speed
@@ -114,7 +114,11 @@ endif::xref-type-DFC[]
 
 .^| Eye Safety
 
-.^| IEC62471, Group 2/3
+.^a| IEC62471:
+
+* IR wavelength models: Group 1
+* DR wavelength models: Group 3
+
 
 .^| NDAA
 

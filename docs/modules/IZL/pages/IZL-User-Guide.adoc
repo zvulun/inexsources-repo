@@ -295,6 +295,49 @@ a|
 
 image::ROOT:IZL/IZL-L-FIG-024_L1_Photocell_Location.png[image,width=407]
 
+[#s_Mounting]
+
+== Mounting and Aiming
+
+[#s_Overall-Mounting-Considerations]
+
+=== Overall Mounting Considerations
+
+* Mounting hardware may be included in your package, or packed separately, depending on your site's requirements. See the Mounting Hardware documentation (see <<s_Related-Documents>>).
+
+* Mount illuminators at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
+
+[#s_Aiming-the-Illuminator]
+
+=== Aiming the Illuminator
+
+See your camera's User Guide for details on how to adjust the position of the camera to optimize license plate recognition. As part of this process, you may need to adjust the tilt and/or pan of the illuminator.
+
+For instructions on how to adjust the pan and tilt, see the Mounting Hardware documentation (see <<s_Related-Documents>>).
+
+
+[#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
+
+== Connecting the Camera System, Illuminator, Power Supply and Network
+
+[WARNING]
+
+========================================
+
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+If you are using an {compname-short} power supply, see its User Guide for important information.
+
+========================================
+
+[IMPORTANT]
+
+========================================
+
+All cable extensions and repeaters must be shielded.
+
+========================================
+
 [#s_Photocell-Trigger-and-Alarm-Behavior]
 
 == Photocell, Trigger and Alarm Behavior
@@ -349,54 +392,6 @@ The levels for the alarm output are High (12 VDC) and Low (0 VDC).
 
 * When the illuminator turns OFF, the alarm output will go Low (0 VDC) after approximately 200-300 ms.
 
-*_\{you will need to use p-illum-eye-safety.adoc to
-put in the desired eye safety stickers for IZL illuminators -
-will need an ifdef/endif}_*
-
-[#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
-
-== Connecting the Camera System, Illuminator, Power Supply and Network
-
-[WARNING]
-
-========================================
-
-Turn off/disconnect the external (AC) power supply before connecting cables.
-
-If you are using an {compname-short} power supply, see its User Guide for important information.
-
-========================================
-
-[IMPORTANT]
-
-========================================
-
-All cable extensions and repeaters must be shielded.
-
-========================================
-
-
-
-[#s_Mounting]
-
-== Mounting and Aiming
-
-[#s_Overall-Mounting-Considerations]
-
-=== Overall Mounting Considerations
-
-* Mounting hardware may be included in your package, or packed separately, depending on your site's requirements. See the Mounting Hardware documentation (see <<s_Related-Documents>>).
-
-* Mount illuminators at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
-
-[#s_Aiming-the-Illuminator]
-
-=== Aiming the Illuminator
-
-See your camera's User Guide for details on how to adjust the position of the camera to optimize license plate recognition. As part of this process, you may need to adjust the tilt and/or pan of the illuminator.
-
-For instructions on how to adjust the pan and tilt, see the Mounting Hardware documentation (see <<s_Related-Documents>>).
-
 <<<
 
 [#s_Configuring-Management-Software-to-Use-with-an-Illuminator]
@@ -437,6 +432,11 @@ Always wipe the window +++<u>+++gently+++</u>+++.
 Do not use solvents or strong abrasive detergent when cleaning the illuminator. Use a soft dry cloth to clean the front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window gently.
 
 <<<
+
+*_\{you will need to use p-illum-eye-safety.adoc to
+put in the desired eye safety stickers for IZL illuminators -
+will need an ifdef/endif}_*
+
 
 == Notices, Safety Precautions and Certifications
 

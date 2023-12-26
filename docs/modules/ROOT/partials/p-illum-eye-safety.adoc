@@ -4,9 +4,16 @@ precautions must be observed:*
 ** Do not stare directly into the front of the illuminator while it is operating.
 //** {docproductname} - {eyesafetystandard-short-1}:
 
+ifdef::xref-type-IZL[]
+
+image:ROOT:image$EYE_SAFETY_GRP_1.png[Eye Safety Group 1 Warning Label,width=250,align=center]
+image:ROOT:image$EYE_SAFETY_GRP_3.png[Eye Safety Group 3 Warning Label,width=250,align=center]
+
+endif::xref-type-IZL[]
+
 ifdef::xref-type-IZS[]
 
-** {docproductname} - {eyesafetystandard-2}:
+** {illum-strobe} - {eyesafetystandard-2}:
 
 image::ROOT:image$EYE_SAFETY_GRP_2.png[Eye Safety Group 2 Warning Label,width=250,align=center]
 
