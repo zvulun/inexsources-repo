@@ -338,7 +338,16 @@ All cable extensions and repeaters must be shielded.
 
 ========================================
 
+.Power/Signals Cable Connector Pinout
+
 include::ROOT:partial$IZL/p-IZL-connector-pinouts.adoc[IZL Connector Pinouts]
+
+image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700,align=left]
+
+.Wiring Diagram Legend/Bill of Materials
+
+include::ROOT:partial$IZ600F/p-IZ600F-wiring-table.adoc[IZ600F Wiring Table]
+
 
 [#s_Photocell-Trigger-and-Alarm-Behavior]
 
