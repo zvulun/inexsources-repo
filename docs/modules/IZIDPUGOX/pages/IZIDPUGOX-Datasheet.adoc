@@ -128,7 +128,7 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 
 <<<
 
-*_\{need new picture}_*
+*_\{need new pictures}_*
 
 [discrete]
 == Dimensions
