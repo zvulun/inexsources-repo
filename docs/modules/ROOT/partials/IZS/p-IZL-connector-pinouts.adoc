@@ -1,0 +1,17 @@
+
+[table.withborders,cols="1,3a",width="80%",frame=none,grid=none]
+|===
+| image:ROOT:image$/IZL/IZL-L-FIG-032b_Cable_Pinouts.png[image,width=181,height=352]
+|[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
+!===
+!Pin !Power/Signal !Wire Color
+!A !12-24 VDC ({plus}) input !Red
+!B !12-24 VDC (-) input !Black
+!2 !Alarm Output ({plus}) .^!Yellow
+!3 !Alarm Output (-)!Green
+!6 !RS485 (A) !Blue
+!7 !RS485 (B) !White
+!1,4,5,8 !Unused !N/A
+!---
+!===
+|===

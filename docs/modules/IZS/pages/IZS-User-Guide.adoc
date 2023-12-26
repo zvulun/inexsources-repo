@@ -413,7 +413,7 @@ image::ROOT:IZS/IZS-S-FIG-013c_OV_Triggered_Wiring.png[image,width=800]
 P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]
 |B a|*Power/Signals Cable for {camera-8G} System* |{compname-short}
 P/N: xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
-|C a|*Power Supplies:* 24 VDC, 100/120W; DIN rail mount option +
+|C a|*Power Supplies:* 24 VDC, 100/120W; DIN rail mount +
 
 Can power 2 cameras from a single power supply
 |{compname-short} P/N:

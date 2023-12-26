@@ -338,6 +338,8 @@ All cable extensions and repeaters must be shielded.
 
 ========================================
 
+//include::ROOT:partial$IZL/
+
 [#s_Photocell-Trigger-and-Alarm-Behavior]
 
 == Photocell, Trigger and Alarm Behavior
