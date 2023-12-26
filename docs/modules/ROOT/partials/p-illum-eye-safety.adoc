@@ -6,7 +6,10 @@ precautions must be observed:*
 
 ifdef::xref-type-IZL[]
 
+** {illum-non-strobe} IR models - {eyesafetystandard-1}:
 image:ROOT:image$EYE_SAFETY_GRP_1.png[Eye Safety Group 1 Warning Label,width=250,align=center]
+
+** {illum-non-strobe} DR models - {eyesafetystandard-3}:
 image:ROOT:image$EYE_SAFETY_GRP_3.png[Eye Safety Group 3 Warning Label,width=250,align=center]
 
 endif::xref-type-IZL[]
