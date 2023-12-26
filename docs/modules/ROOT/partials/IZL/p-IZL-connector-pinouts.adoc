@@ -1,5 +1,5 @@
 
-[table.withborders,cols="1,3a",width="80%",frame=none,grid=none]
+[table.withborders,cols="1,2a",width="80%",frame=none,grid=none]
 |===
 | image:ROOT:image$/IZL/IZL-L-FIG-032b_Cable_Pinouts.png[image,width=181,height=352]
 |[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
