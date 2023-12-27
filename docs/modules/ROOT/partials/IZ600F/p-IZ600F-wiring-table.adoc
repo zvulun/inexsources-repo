@@ -26,12 +26,13 @@ xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
 
 .^|F .^a|*Power/Signals Cable for Illuminator* .^|Included with illuminator
 
+.^|G .^a|*{illum-non-strobe} Illuminator* .^|{compname-short} P/N: See the xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
+
 ifdef::layout-type-technote[]
 
-.^|G .^a|*Gates* .^| Supplied by integrator
+.^|H .^a|*Gates* .^| Supplied by integrator
 
 endif::[]
 
-.^|H .^a|*{illum-non-strobe} Illuminator* .^|{compname-short} P/N: See the xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 
 |===
