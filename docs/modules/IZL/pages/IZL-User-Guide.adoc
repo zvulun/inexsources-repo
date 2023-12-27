@@ -355,14 +355,16 @@ If you need to add length to the power/signals cable, be sure that:
 * If used - the alarm signal levels you need can be sensed from the illuminator by your equipment
 =============================
 
-Here is a typical wiring diagram for capturing
+See <<f_Typical-Wiring-Diagram>> for a typical wiring diagram for capturing
 license plate images. Note that the type and
 configuration of the power supplies may be
 different than the ones you are using at your site.
 
+[#f_Typical-Wiring-Diagram]
+
 .Typical Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700]
 
 .Wiring Diagram Legend/Bill of Materials
 
