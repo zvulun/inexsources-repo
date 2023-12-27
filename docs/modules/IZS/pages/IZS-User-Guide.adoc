@@ -207,8 +207,6 @@ image::./UserGuide/image8.png[image,width=626,height=336]
 
 include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 
-<<<
-
 [#s_Required-Accessories-Not-Included]
 
 == Required Accessories (Not Included)
