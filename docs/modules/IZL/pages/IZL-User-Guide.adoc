@@ -34,7 +34,7 @@ image::ROOT:IZL/IZL-L-FIG-020b_All_Models_NoNames.png[image,width=500]
 
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
-<<<
+//<<<
 ._Click to show the Table of Contents_
 [%collapsible]
 ====
@@ -57,8 +57,7 @@ toc::[]
 |===
 |Doc. No. |Title
 .^|xref:IZ600F:DocList.adoc[{camera-6F}-MAN-002b] |{camera-6F} Installation Guide
-.^|xref:IZA500G:DocList.adoc[{camera-5G}-MAN-002b] |{camera-5G} Installation Guide
-.^|xref:IZA500GR:DocList.adoc[{camera-5GR}-MAN-002b] |{camera-5GR} Installation Guide
+.^|xref:IZA500G:DocList.adoc[{camera-5G}-GR-MAN-002b] |{camera-5G}/GR Installation Guide
 .^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 .^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |Illuminator Mounting - U.S.A.
 .^|xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-005] |Illuminator Gantry Mounting - Using Packaged Hardware
@@ -163,8 +162,8 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 image::ROOT:IZL/IZL-L-FIG-017b_DS_L1_New_Dimensions.png[image,width=624]
 
-{empty} +
-{empty}
+//{empty} +
+//{empty}
 
 
 [#f_L2-Illuminator-Dimensions-in-mm]
@@ -204,7 +203,7 @@ It is recommended to use an illuminator power supply separate from the Camera Sy
 endif::xref-type-DFC[]
 |===
 
-<<<
+//<<<
 
 [#s_Planning-Your-Installation]
 
@@ -341,6 +340,22 @@ All cable extensions and repeaters must be shielded.
 .Power/Signals Cable Connector Pinout
 
 include::ROOT:partial$IZL/p-IZL-connector-pinouts.adoc[IZL Connector Pinouts]
+
+[IMPORTANT]
+=============================
+If you need to add length to the power/signals cable, be sure that:
+
+* The desired voltage reaches the illuminator
+* If used - the trigger signal levels you need reach the illuminator
+* If used - the alarm signal levels you need can be sensed from the illuminator by your equipment
+=============================
+
+Here is a typical wiring diagram for capturing
+license plate images. Note that the type and
+configuration of the power supplies may be
+different than the ones you are using at your site.
+
+.Typical Wiring Diagram
 
 image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700,align=left]
 
