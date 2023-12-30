@@ -125,6 +125,6 @@ architecture GPU with 32 Tensor Cores
 Barrel Jack 0.22/0.10 in (5.5/2.5 mm)
 |===
 
-+++*+++ Height measurement includes wall mount flanges; +
++++*+++ Height measurement includes removable wall mount flanges; +
 add 0.41" (10.5 mm) to width on each side
 of enclosure for flanges

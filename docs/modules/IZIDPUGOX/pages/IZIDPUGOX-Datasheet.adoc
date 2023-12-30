@@ -129,18 +129,18 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 [discrete]
 == Dimensions
 
-image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-004_C2_Dimensions.png[image,500]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-004_C2_Dimensions.png[image,550]
 
 [discrete]
 == DIN Rail Mounting Options
 
 [discrete]
 === Rear
-image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-002_C2_DIN_Back.png[image,500]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-002_C2_DIN_Back.png[image,400]
 
 [discrete]
 === Bottom
-image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-003_C2_DIN_Bottom.png[image,500]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-003_C2_DIN_Bottom.png[image,400]
 
 [discrete]
 == Typical System Diagram
