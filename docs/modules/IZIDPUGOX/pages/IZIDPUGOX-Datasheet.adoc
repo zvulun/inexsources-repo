@@ -48,9 +48,7 @@
 //[discrete]
 //=== Datasheet
 
-*_\{need new picture here and in SalesForce}_*
-
-image:ROOT:IZIDPUGOX/IZIDPUGOX-Front-Page.png[Picture of DPU,400,align=left]
+image:ROOT:IZIDPUGOX/IZIDPUGOX-FIG-001_C2_Front_Page.png[Picture of DPU,400,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -109,10 +107,10 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-.^|IZIDPUGOX-128G .^|{generic-product-name} with 128 GB storage
-.^|IZIDPUGOX-256G .^|{generic-product-name} with 256 GB storage
-.^|IZIDPUGOX-512G .^|{generic-product-name} with 512 GB storage
-.^|IZIDPUGOX-1T .^|{generic-product-name} with 1 TB storage
+.^|{shortprodname}-128G .^|{generic-product-name} with 128 GB storage
+.^|{shortprodname}-256G .^|{generic-product-name} with 256 GB storage
+.^|{shortprodname}-512G .^|{generic-product-name} with 512 GB storage
+.^|{shortprodname}-1T .^|{generic-product-name} with 1 TB storage
 |===
 
 //+++<div class="pagebreak"> </div>+++
@@ -128,17 +126,26 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 
 <<<
 
-*_\{need new pictures}_*
-
 [discrete]
 == Dimensions
 
-image::ROOT:IZIDPUGOX/IZIDPUGOX-Dimensions2b.png[image,500]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-004_C2_Dimensions.png[image,500]
+
+[discrete]
+== DIN Rail Mounting Options
+
+[discrete]
+=== Rear
+image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-002_C2_DIN_Back.png[image,500]
+
+[discrete]
+=== Bottom
+image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-003_C2_DIN_Bottom.png[image,500]
 
 [discrete]
 == Typical System Diagram
 
-image::ROOT:IZIDPUGOX/IZIDPUGOX-System-Diagram2.png[image,width=800,align=left]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-005_C2_System_Diagram.png[image,width=800,align=left]
 
 {empty} +
 

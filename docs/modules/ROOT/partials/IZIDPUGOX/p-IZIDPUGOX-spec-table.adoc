@@ -125,6 +125,6 @@ architecture GPU with 32 Tensor Cores
 Barrel Jack 0.22/0.10 in (5.5/2.5 mm)
 |===
 
-+++*+++ *_\{may need to re-measure without bracket?
-and what about dimensions with DIN rail adapter attached?}_*Height measurement includes wall mount
-bracket; width does not include bracket
++++*+++ Height measurement includes wall mount flanges; +
+add 0.41" (10.5 mm) to width on each side
+of enclosure for flanges
