@@ -136,11 +136,11 @@ image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-004_C2_Dimensions.png[image,550]
 
 [discrete]
 === Rear
-image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-002_C2_DIN_Back.png[image,400]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-002_C2_DIN_Back.png[image,350]
 
 [discrete]
 === Bottom
-image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-003_C2_DIN_Bottom.png[image,400]
+image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-003_C2_DIN_Bottom.png[image,350]
 
 [discrete]
 == Typical System Diagram
