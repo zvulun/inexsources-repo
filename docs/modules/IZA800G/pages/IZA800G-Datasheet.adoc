@@ -140,8 +140,8 @@ include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
 
 +++****+++ S/L models have motorized zoom and auto-focus; XL models have manual zoom and focus +
 +++*****+++ All models have 24 VDC input voltage;
-different (xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS])
-and (xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]) cable lengths can be ordered
+different xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
+and xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN] cable lengths can be ordered
 
 +++<div class="pagebreak"> </div>+++
 
