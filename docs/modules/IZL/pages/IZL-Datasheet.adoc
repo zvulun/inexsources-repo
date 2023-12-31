@@ -92,6 +92,8 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 
 include::ROOT:partial$IZL/p-IZL-spec-table.adoc[IZL Specification Table]
 
+<<<
+
 [discrete]
 == Ordering Information
 
@@ -138,6 +140,8 @@ pan/tilt adjustment bracket
 * Mounting hardware may be included in your package,
 or packed separately, depending on your site's
 requirements.
+
+<<<
 
 [discrete]
 == L1 Dimensions (mm)
