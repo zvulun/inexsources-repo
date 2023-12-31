@@ -342,7 +342,7 @@ All cable extensions and repeaters must be shielded.
 
 ========================================
 
-.Power/Signals Cable Connector Pinout
+.Power/Signals Pinout
 
 include::ROOT:partial$IZL/p-IZL-connector-pinouts.adoc[IZL Connector Pinouts]
 
