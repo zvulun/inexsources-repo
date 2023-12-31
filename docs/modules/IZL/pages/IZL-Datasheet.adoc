@@ -139,20 +139,15 @@ pan/tilt adjustment bracket
 or packed separately, depending on your site's
 requirements.
 
-image::ROOT:IZL/IZL-L-FIG-012a_Newer_New_Pkg_Contents.png[image,width=500]
-
-<<<
-
 [discrete]
 == L1 Dimensions (mm)
 image::ROOT:IZL/IZL-L-FIG-017b_DS_L1_New_Dimensions.png[image,width=624]
 
+<<<
+
 [discrete]
 == L2 Dimensions (mm)
 image::ROOT:IZL/IZL-L-FIG-018b_DS_L2_New_Dimensions.png[image,width=624]
-
-
-<<<
 
 [discrete]
 == Photocell Location
