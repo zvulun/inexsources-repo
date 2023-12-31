@@ -206,9 +206,9 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 2.5+.^| Accessories Included
 
 .^| Sunshade
-.^| Waterproof outdoor RJ-45 cable connector
+.^| Waterproof outdoor RJ-45 cable connector+++**+++
 .^| 15 ft LAN Cable (xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN])+++***+++
-.^| Waterproof outdoor M12 cable connector
+.^| Waterproof outdoor M12 cable connector+++**+++
 .^| 15 ft Power/Signals Cable (xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS])+++***+++
 
 2.6+.^| Accessories Available
