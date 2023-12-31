@@ -136,8 +136,9 @@ pan/tilt adjustment bracket
 * Power/signals cable, 16 ft (5 m)
 
 * Mounting hardware may be included in your package,
-or packed separately, depending on your site's
-requirements.
+or packed separately.
+//, depending on your site's
+//requirements.
 
 [discrete]
 == L1 Dimensions (mm)
