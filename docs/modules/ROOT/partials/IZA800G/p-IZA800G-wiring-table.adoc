@@ -13,5 +13,5 @@ Can power 2 cameras from a single power supply a|
 |F a|*{illum-strobe} Strobe Illuminator* |{compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
 
-+++*+++ -15F camera system models include a 15 ft cable set; +
++++*+++ IZA800G-XX-XX-CAB15F models include a 15 ft cable set; +
 other lengths can be ordered
