@@ -127,8 +127,6 @@ a|Product a|Available Part Numbers+++****+++ a|Product Description
 ** H40 = H40xV15
 ** 60 = 60x60
 
-+++<div class="pagebreak"> </div>+++
-
 [discrete]
 == Standard Package Contents
 
@@ -144,8 +142,6 @@ requirements.
 [discrete]
 == L1 Dimensions (mm)
 image::ROOT:IZL/IZL-L-FIG-017b_DS_L1_New_Dimensions.png[image,width=624]
-
-<<<
 
 [discrete]
 == L2 Dimensions (mm)
