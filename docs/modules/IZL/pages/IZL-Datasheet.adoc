@@ -136,9 +136,10 @@ pan/tilt adjustment bracket
 * Power/signals cable, 16 ft (5 m)
 
 * Mounting hardware may be included in your package,
-or packed separately.
-//, depending on your site's
-//requirements.
+or packed separately, depending on your site's
+requirements.
+
+image::ROOT:IZL/IZL-L-FIG-012a_Newer_New_Pkg_Contents.png[image,width=500]
 
 <<<
 
