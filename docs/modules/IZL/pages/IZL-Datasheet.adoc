@@ -140,13 +140,15 @@ or packed separately.
 //, depending on your site's
 //requirements.
 
+<<<
+
 [discrete]
 == L1 Dimensions (mm)
-image::ROOT:IZL/IZL-L-FIG-017b_DS_L1_New_Dimensions.png[image,width=550]
+image::ROOT:IZL/IZL-L-FIG-017b_DS_L1_New_Dimensions.png[image,width=624]
 
 [discrete]
 == L2 Dimensions (mm)
-image::ROOT:IZL/IZL-L-FIG-018b_DS_L2_New_Dimensions.png[image,width=550]
+image::ROOT:IZL/IZL-L-FIG-018b_DS_L2_New_Dimensions.png[image,width=624]
 
 
 <<<
