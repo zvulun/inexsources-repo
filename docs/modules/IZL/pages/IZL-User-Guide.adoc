@@ -375,9 +375,9 @@ include::ROOT:partial$IZ600F/p-IZ600F-wiring-table.adoc[IZ600F Wiring Table]
 
 [#s_Photocell-Trigger-and-Alarm-Behavior]
 
-== Photocell
+== Photocell and Alarm Behavior
 //, Trigger
-and Alarm Behavior
+
 
 [#s_Photocell-Behavior]
 
