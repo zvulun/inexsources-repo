@@ -120,7 +120,7 @@ a|Product a|Available Part Numbers+++****+++ a|Product Description
 ** DR - Deep Red
 ** CL - Cool White (4000K)
 ** WL - Warm White (3000K)
-* 10/20/30/H40/60/H120 - LED beam angle, in degrees:
+* 10/20/30/H40/60 - LED beam angle, in degrees:
 ** 10 = 10x10
 ** 20 = 20x20
 ** 30 = 30x30
@@ -142,11 +142,11 @@ or packed separately.
 
 [discrete]
 == L1 Dimensions (mm)
-image::ROOT:IZL/IZL-L-FIG-017b_DS_L1_New_Dimensions.png[image,width=600]
+image::ROOT:IZL/IZL-L-FIG-017b_DS_L1_New_Dimensions.png[image,width=550]
 
 [discrete]
 == L2 Dimensions (mm)
-image::ROOT:IZL/IZL-L-FIG-018b_DS_L2_New_Dimensions.png[image,width=600]
+image::ROOT:IZL/IZL-L-FIG-018b_DS_L2_New_Dimensions.png[image,width=550]
 
 
 <<<
