@@ -97,7 +97,7 @@ include::ROOT:partial$IZL/p-IZL-spec-table.adoc[IZL Specification Table]
 
 [table.withborders,width="100%",cols="50,25%,25%",options="header",]
 |===
-a|Product a|Available Part Numbers+++***+++ a|Product Description
+a|Product a|Available Part Numbers+++****+++ a|Product Description
 .^a|{shortprodname}[1/2]-(IR/DR/CL/WL)-
 10/20/30/H40/60+++****+++
 .^a|
@@ -108,7 +108,7 @@ a|Product a|Available Part Numbers+++***+++ a|Product Description
 * {shortprodname}N-WVLN-60
 
 
-.^a|{shortprodname} Strobe Illuminator
+.^a|{shortprodname} Illuminator
 |===
 
 +++****+++ {shortprodname}[1/2]-
