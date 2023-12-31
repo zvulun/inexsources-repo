@@ -404,7 +404,7 @@ samples the ambient light 10 times per second:
 //** The input must be held High for approximately 200-300 ms (milliseconds) for the illuminator to turn ON.
 
 //** The photocell's effect on the illuminator will be disabled
-(see <<s_Photocell-Behavior>>).
+//(see <<s_Photocell-Behavior>>).
 
 //* When the trigger input goes from High to Low:
 
