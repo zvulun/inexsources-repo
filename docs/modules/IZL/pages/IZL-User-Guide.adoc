@@ -275,7 +275,7 @@ a|
 
 * Be sure you can deliver 12 VDC or 24 VDC at the illuminator, even after all of the extensions have been added. It is recommended to use an illuminator power supply separate from the camera's supply.
 
-* If you are using the trigger function, be sure you can deliver the required trigger signal levels at the illuminator
+//* If you are using the trigger function, be sure you can deliver the required trigger signal levels at the illuminator
 
 |Mounting a|
 * Typically on gantry
@@ -351,7 +351,7 @@ include::ROOT:partial$IZL/p-IZL-connector-pinouts.adoc[IZL Connector Pinouts]
 If you need to add length to the power/signals cable, be sure that:
 
 * The desired voltage reaches the illuminator
-* If used - the trigger signal levels you need reach the illuminator
+//* If used - the trigger signal levels you need reach the illuminator
 * If used - the alarm signal levels you need can be sensed from the illuminator by your equipment
 =============================
 
@@ -375,7 +375,9 @@ include::ROOT:partial$IZ600F/p-IZ600F-wiring-table.adoc[IZ600F Wiring Table]
 
 [#s_Photocell-Trigger-and-Alarm-Behavior]
 
-== Photocell, Trigger and Alarm Behavior
+== Photocell
+//, Trigger
+and Alarm Behavior
 
 [#s_Photocell-Behavior]
 
@@ -393,31 +395,31 @@ samples the ambient light 10 times per second:
 * If all readings are not above/below the threshold, then the sampling is performed again.
 
 
-=== Trigger Behavior (Input Signal)
+//=== Trigger Behavior (Input Signal)
 
-The levels for the trigger (photocoupler) input are High (3.3 VDC - 24 VDC) and Low (0 VDC - 3.2 VDC and below).
+//The levels for the trigger (photocoupler) input are High (3.3 VDC - 24 VDC) and Low (0 VDC - 3.2 VDC and below).
 
-* When the trigger input goes from Low to High:
+//* When the trigger input goes from Low to High:
 
-** The input must be held High for approximately 200-300 ms (milliseconds) for the illuminator to turn ON.
+//** The input must be held High for approximately 200-300 ms (milliseconds) for the illuminator to turn ON.
 
-** The photocell's effect on the illuminator will be disabled
+//** The photocell's effect on the illuminator will be disabled
 (see <<s_Photocell-Behavior>>).
 
-* When the trigger input goes from High to Low:
+//* When the trigger input goes from High to Low:
 
-** The input must be held Low for approximately 200-300 ms
-for the illuminator to turn OFF.
+//** The input must be held Low for approximately 200-300 ms
+//for the illuminator to turn OFF.
 
-** If the trigger stays Low, the photocell will resume
-sampling the ambient light, and take control of the
-illuminator to turn it ON or OFF
-accordingly (see <<s_Photocell-Behavior>>).
-+
-[NOTE]
-===========================
-Since a Low trigger signal returns illuminator control to the photocell, the illuminator cannot be forced OFF.
-===========================
+//** If the trigger stays Low, the photocell will resume
+//sampling the ambient light, and take control of the
+//illuminator to turn it ON or OFF
+//accordingly (see <<s_Photocell-Behavior>>).
+//+
+//[NOTE]
+//===========================
+//Since a Low trigger signal returns illuminator control to the photocell, the illuminator cannot be forced OFF.
+//===========================
 
 === Alarm Behavior (Output Signal)
 
