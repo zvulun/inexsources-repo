@@ -8,7 +8,10 @@
 Can power 2 cameras from a single power supply a|
 {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
 
-|D a|*Illuminator Power Cable* |Included; {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
-|E a|*Illuminator Signals Cable* |Included; {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
+|D a|*Illuminator Power Cable* |Included with some models+++*+++; {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR]
+|E a|*Illuminator Signals Cable* |Included with some models+++*+++; {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]
 |F a|*{illum-strobe} Strobe Illuminator* |{compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
+
++++*+++ -15F camera system models include a 15 ft cable set; +
+other lengths can be ordered
