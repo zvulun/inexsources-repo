@@ -2,7 +2,7 @@
 |===
 |Item |Description |Ordering Information
 |A a|*LAN Cable* |Supplied by integrator
-|B a|*Power/LAN Cable for {system-type} System* +
+|B a|*Power/LAN Cable for {system-type} System+++*+++* +
 
 or build yourself with IZ_COMPOSITE_CABLE and the Power/LAN Cable Connector included with the Camera System
 
@@ -15,7 +15,10 @@ Binder P/N: https://www.binder-usa.com/us-en/products/power-connectors/rd24-powe
 |C a|*Power Supply:* 24 VDC, 240 W, DIN rail mount a|
 {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
 
-|D a|*Illuminator Cable for {system-type} System* |{compname-short} P/N: xref:IZCAB-SVES:DocList.adoc[IZCAB-S{system-type}]
+|D a|*Illuminator Cable for {system-type} System+++*+++* |{compname-short} P/N: xref:IZCAB-SVES:DocList.adoc[IZCAB-S{system-type}]
 |E a|*DIN Rail Mountable Connection Panel* |{compname-short} P/N: xref:IZPANEL:DocList.adoc[{hw-connection-panel}]
 |F a|*{illum-VES} Strobe Illuminator* |{compname-short} P/N: See the xref:IZSVES:DocList.adoc[{illum-VES} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
+
++++*+++ {camera-VES}-X-XX-CAB15F models include a 15 ft cable set;
+different lengths can be ordered
