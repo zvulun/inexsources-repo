@@ -224,8 +224,9 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 
 
-.^| LAN Cable for {shortprodname} System (xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]) - +
-different lengths
+.^| LAN Cable for {shortprodname} System
+(xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]) +
+- different lengths
 
 
 
