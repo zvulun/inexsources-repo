@@ -240,7 +240,7 @@ You can trigger an illuminator from
 the OV camera by using appropriate
 cabling -
 see <<s_Typical-Wiring-Diagrams>> and
-the {illum-VES} Strobe Illuminator Series User Guide (see <<s_Related-Documents). The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
+the {illum-VES} Strobe Illuminator Series User Guide (see <<s_Related-Documents>>). The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
 
 include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
 
