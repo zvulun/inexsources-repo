@@ -202,13 +202,13 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .^| Sunshade
 
-.^| Power/LAN Cable Connector: Waterproof outdoor Binder RD24, part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07, window=_blank]
+.^| Power/LAN Cable Connector**: Waterproof outdoor Binder RD24, part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07, window=_blank]
 
 .^| 15 ft Power/LAN Cable for {system-type} System
-(xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES])**
+(xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES])***
 
 .^| 15 ft Illuminator Cable for {system-type} System
-(xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES])**
+(xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES])***
 
 2.7+.^| Accessories Available
 
@@ -234,4 +234,6 @@ different lengths
 
 |===
 
-+++*+++ LPR Capture Distance is measured from camera to plate
++++*+++ LPR Capture Distance is measured from camera to plate +
++++**+++ For part numbers {shortprodname}-X-XX +
++++***+++ For part numbers {shortprodname}-X-XX-CAB15F
