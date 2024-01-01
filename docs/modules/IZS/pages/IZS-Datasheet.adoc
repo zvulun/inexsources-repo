@@ -97,11 +97,13 @@ include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 [discrete]
 == Ordering Information
 
-[table.withborders,width="100%",cols="50,25%,25%",options="header",]
+[table.withborders,width="100%",cols="20,30%,50%",options="header",]
 |===
 a|Product a|Available Part Numbers+++***+++ a|Product Description
-.^a|{shortprodname}[1/2/3]-(IR/DR/CL/WL)-
-10/20/30/H40/60/H120+++***+++
+.^a|
+* IZS1
+* IZS2
+* IZS3
 .^a|
 * {shortprodname}N-WVLN-10
 * {shortprodname}N-WVLN-20
