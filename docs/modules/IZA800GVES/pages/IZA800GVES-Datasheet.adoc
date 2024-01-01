@@ -158,7 +158,7 @@ and xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES] cable lengths can be ordered
 * {shortprodname} {system-type} All-in-one AI Camera System
 
 * Power/LAN cable (with some models), or field-mountable connector
-to be used with xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE]
+to be used with xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE] (ordered separately)
 
 * Illuminator cable (with some models), or ordered separately
 
