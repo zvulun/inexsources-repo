@@ -214,7 +214,17 @@ endif::xref-type-DFC[]
 
 ifndef::xref-type-DFC[]
 
-.3+.^| Accessories Available (depending on site requirements)
+.5+.^| Accessories Available (depending on site requirements)
+
+.^| Power Cable
+
+.^a| Power Cable for {illum-strobe} Illuminator (xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR]) - different lengths
+
+.^| Signals Cable
+
+.^a| Signals Cable for {illum-strobe} Illuminator (xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]) - different lengths
+
+
 
 .^| Mounting hardware (in package)
 
