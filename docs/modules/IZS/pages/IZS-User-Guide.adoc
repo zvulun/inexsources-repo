@@ -155,9 +155,13 @@ The package includes:
 
 * Illuminator with outer pan/tilt adjustment bracket
 
-* Power cable 15 ft (4.6 m)
+* Power cable, 15 ft (4.6 m), {compname-short}; different
+xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR] cable lengths
+can be ordered
 
-* Signals cable 15 ft (4.6 m)
+* Signals cable, 15 ft (4.6 m), {compname-short}; different
+xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG] cable lengths
+can be ordered
 
 * QC sheet
 
@@ -377,7 +381,7 @@ All cable extensions and repeaters must be shielded.
 
 .Power and Signals Cables: Wire Colors and Pinouts
 
-image::./UserGuide/image10.png[image,width=532,height=399]
+image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
 
 <<<
 
