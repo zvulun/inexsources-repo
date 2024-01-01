@@ -94,6 +94,8 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 
 include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 
+<<<
+
 [discrete]
 == Ordering Information
 
