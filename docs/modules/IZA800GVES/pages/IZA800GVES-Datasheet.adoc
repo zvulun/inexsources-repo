@@ -126,7 +126,7 @@ include::ROOT:partial$/IZA800GVES/p-IZA800GVES-spec-table.adoc[IZA800G Spec tabl
 
 [table.withborders,width="100%",cols="28%,72%",options="header",]
 |===
-|Part Number+++**+++ |Description+++***+++
+|Part Number+++****+++ |Description+++*****+++
 |{shortprodname}-S-DR |5-35 ft (2-11 m) range, Deep Red illumination
 |{shortprodname}-S-DR-CAB15F |5-35 ft (2-11 m) range, Deep Red illumination, 15 ft cable set
 |{shortprodname}-S-DRW |5-35 ft (2-11 m) range, Deep Red &amp; Visible Light illumination
@@ -145,8 +145,10 @@ include::ROOT:partial$/IZA800GVES/p-IZA800GVES-spec-table.adoc[IZA800G Spec tabl
 |{shortprodname}-L-IRW-CAB15F |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, 15 ft cable set
 |===
 
-+++**+++ All models have motorized zoom and auto-focus +
-+++***+++ All models have 24 VDC input voltage
++++****+++ All models have motorized zoom and auto-focus +
++++*****+++ All models have 24 VDC input voltage;
+different xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES]
+and xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES] cable lengths can be ordered
 
 +++<div class="pagebreak"> </div>+++
 
