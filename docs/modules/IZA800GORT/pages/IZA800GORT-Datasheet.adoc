@@ -117,7 +117,7 @@ include::ROOT:partial$/IZA800GORT/p-IZA800GORT-spec-table.adoc[IZA800GORT Spec t
 
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
-|Part Number+++**+++ |Description+++***+++
+|Part Number+++****+++ |Description+++*****+++
 |{shortprodname}-S-DR |5-35 ft (2-11 m) range, Deep Red illumination
 |{shortprodname}-S-DR-CAB15F |5-35 ft (2-11 m) range, Deep Red illumination, 15 ft cable set
 |{shortprodname}-S-IR |5-35 ft (2-11 m) range, Infrared illumination
@@ -128,8 +128,10 @@ include::ROOT:partial$/IZA800GORT/p-IZA800GORT-spec-table.adoc[IZA800GORT Spec t
 |{shortprodname}-L-IR-CAB15F |30-70 ft (9-21 m) range, Infrared illumination, 15 ft cable set
 |===
 
-+++**+++ All models have motorized zoom and auto-focus +
-+++***+++ All models have 24 VDC input voltage
++++****+++ All models have motorized zoom and auto-focus +
++++*****+++ All models have 24 VDC input voltage;
+different xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
+and xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN] cable lengths can be ordered
 
 [discrete]
 == Standard Package Contents

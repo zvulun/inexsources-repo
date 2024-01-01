@@ -150,11 +150,11 @@ and xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN] cable lengths can be ordere
 
 * {shortprodname} ALPR All-in-one AI Camera System
 
-* LAN cable connector (field-mountable)
+* LAN cable or field-mountable cable connector
 
-* Power/Signals cable connector (field-mountable)
+* Power/Signals cable or field-mountable cable connector
 
-* Mounting adapter plate with screws
+* Mounting adapter plate with screws to attach the plate
 
 [discrete]
 
