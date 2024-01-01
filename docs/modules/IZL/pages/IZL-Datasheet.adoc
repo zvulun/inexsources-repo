@@ -97,7 +97,7 @@ include::ROOT:partial$IZL/p-IZL-spec-table.adoc[IZL Specification Table]
 [discrete]
 == Ordering Information
 
-[table.withborders,width="100%",cols="25,25%,50%",options="header",]
+[table.withborders,width="100%",cols="20,30%,50%",options="header",]
 |===
 a|Product+++****+++ a|Available Part Numbers+++****+++ a|Product Description
 .^a|
