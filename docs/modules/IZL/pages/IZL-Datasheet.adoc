@@ -99,7 +99,7 @@ include::ROOT:partial$IZL/p-IZL-spec-table.adoc[IZL Specification Table]
 
 [table.withborders,width="100%",cols="20,30%,50%",options="header",]
 |===
-a|Product+++****+++ a|Available Part Numbers+++****+++ a|Product Description
+a|Product a|Available Part Numbers+++****+++ a|Product Description
 .^a|
 * IZL1
 * IZL2
