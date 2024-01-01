@@ -198,14 +198,17 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| Power Consumption
 .^| 25 W
 
-2.2+.^| Accessories Included
+2.4+.^| Accessories Included
 
 .^| Sunshade
 
-
-
 .^| Power/LAN Cable Connector: Waterproof outdoor Binder RD24, part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07, window=_blank]
 
+.^| 15 ft Power/LAN Cable for {system-type} System
+(xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES])**
+
+.^| 15 ft Illuminator Cable for {system-type} System
+(xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES])**
 
 2.7+.^| Accessories Available
 
@@ -213,12 +216,14 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .^| DIN Rail Mount Connection Panel (xref:IZPANEL:DocList.adoc[{hw-connection-panel}])
 
-.^| Composite Cable for {system-type} (xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE])
+.^| Composite Cable for {system-type} (xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE]) -
+different lengths
 
 .^| Power/LAN Cable for {system-type} System+++<br>+++
-(xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES])
+(xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES]) - different lengths
 
-.^| Illuminator Cable for {system-type} System (xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES])
+.^| Illuminator Cable for {system-type} System
+(xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES]) - different lengths
 
 
 .^| Different xref:MNT-ProdToMountMap:DocList.adoc[mount options] available
