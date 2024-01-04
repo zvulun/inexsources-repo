@@ -385,7 +385,7 @@ image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
 
 <<<
 
-Here is a typical wiring diagram for capturing license plate images (the power supply type/configuration may be different at your site).
+//Here is a typical wiring diagram for capturing license plate images (the power supply type/configuration may be different at your site).
 
 [IMPORTANT]
 
