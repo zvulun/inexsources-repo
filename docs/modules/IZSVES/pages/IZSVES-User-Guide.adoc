@@ -1,0 +1,502 @@
+:docproductname: IZSVES
+:shortprodname: IZSVES
+//We do not yet have verification of a specific eye safety stancard
+//:eyesafetystandard-1: IEC62471 Group 1
+
+:system-type: VES
+:xref-type-IZSVES:
+:layout-type-userguide:
+
+//enable the TOC to be placed in a specific position
+:toc: macro
+
+= {docproductname} User Guide
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+//[.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== Strobe Illuminator Series
+[discrete]
+
+*_\{need new image}_*
+//image::ROOT:IZS/IZS-S-FIG-002c_NoLabels_All_WithS3_At_Angle.png[Picture of IZS Illuminators]
+
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+
+<<<
+
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
+toc::[]
+
+====
+
+<<<
+
+[#s_Related-Documents]
+
+== Recommended Reading/Related Documents
+
+//*_\{add in reference to IZA500DFC data sheet? add
+//diagram with IZA500G-DFC wired?}_*
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[table.withborders,width="100%",cols="45%,55%",options="header",]
+|===
+|Doc. No. |Title
+.^|xref:IZA800GVES:DocList.adoc[{camera-VES}-MAN-002b] |{camera-VES} Installation Guide
+.^|xref:IZCAB-SVES:DocList.adoc[IZCABSVES-REV-x-TDSHEET] |Illuminator Cable for {system-type} (IZCAB-SVES) Technical Data Sheet
+.^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+.^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |Illuminator Mounting - U.S.A.
+.^|xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-005] |Illuminator Gantry Mounting - Using Packaged Hardware
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+====
+
+== Training and Support
+
+[#s_Training]
+
+include::ROOT:partial$p-training.adoc[Training Section]
+
+[#s_Support]
+
+include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website]
+
+<<<
+
+[#s_Overview]
+
+== Overview
+
+[#s_Illuminator-Models]
+
+=== Illuminator Models
+
+The illuminator model codes are *{shortprodname}[1/2/3]-(IR/DR/CL/WL)-10/20/30/H40/60/H120*, where:
+
+* After {shortprodname}:
+
+* 1/2/3 - number of LEDs: 1=30, 2=60, 3=90
+
+* WVLN = Wavelength/type of LEDs:
+
+** IR - Infrared
+
+** DR - Deep Red
+
+** CL - Cool White (4000K)
+
+** WL - Warm White (3000K)
+
+* 10/20/30/H40/60/H120 - LED beam angle, in degrees (Notes: H40 = H40xV15; H120xV20-degree model available as {shortprodname}2-IR-H120)
+
+[#f_S1-S2-Series-Models-Front-Views]
+
+.S1/S2 Series Models - Front Views
+
+image::./UserGuide/image1.png[image,width=624,height=226]
+
+[#f_S1-S2-Series-Models-Rear-Views]
+
+.S1/S2 Series Models - Rear Views
+
+image::./UserGuide/image2.png[image,width=304,height=162]
+
+[#f_S3-Model-Front-Views]
+
+.S3 Model - Front Views
+
+image::./UserGuide/image3.png[image,width=457,height=226]
+
+[#f_S3-Model-Rear-View]
+
+.S3 Model - Rear View
+
+image::./UserGuide/image4.png[image,width=374,height=294]
+
+<<<
+
+[#s_Package-Contents]
+
+=== Package Contents
+
+Carefully unpack the contents of the package (your illuminator model may look different than the ones shown here).
+
+[#f_Package-Contents]
+
+.Package Contents
+
+image::./UserGuide/image5.png[image,width=531,height=196]
+
+The package includes:
+
+* Illuminator with outer pan/tilt adjustment bracket
+
+* Power cable, 15 ft (4.6 m), {compname-short}; different
+xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR] cable lengths
+can be ordered
+
+* Signals cable, 15 ft (4.6 m), {compname-short}; different
+xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG] cable lengths
+can be ordered
+
+* QC sheet
+
+[NOTE]
+
+========================================
+
+Mounting hardware may be included in your package, or packed separately, depending on your site's requirements. See the Mounting Hardware documentation (see <<s_Related-Documents>>).
+
+If any parts are missing or damaged, please contact {compname-long}.
+
+========================================
+
+<<<
+
+[#s_Dimensions-and-Specifications]
+
+=== Dimensions and Specifications
+
+[#f_S1-Illuminator-Dimensions-in-mm]
+
+.S1 Illuminator Dimensions (in mm)
+
+image::./UserGuide/image6.png[image,width=624,height=415]
+
+{empty} +
+{empty}
+
+
+[#f_S2-Illuminator-Dimensions-in-mm]
+
+.S2 Illuminator Dimensions (in mm)
+
+image::./UserGuide/image7.png[image,width=624,height=324]
+
+[#f_S3-Illuminator-Dimensions-in-mm]
+
+.S3 Illuminator Dimensions (in mm)
+
+image::./UserGuide/image8.png[image,width=626,height=336]
+
+<<<
+
+[#t_Technical-Specifications-Rev-C]
+
+.Technical Specifications (Rev. C)
+
+include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
+
+[#s_Required-Accessories-Not-Included]
+
+== Required Accessories (Not Included)
+
+* See the Mounting Hardware documentation for a list of required tools (see <<s_Related-Documents>>).
+
+* The following accessories can be supplied by {compname-med}:
+
+[#t_Required-Accessories-INEX-Can-Supply]
+
+.Required Accessories {compname-short} Can Supply
+
+[table.withborders,width="100%",cols="33%,67%",options="header",]
+|===
+|Item |Notes
+|24 VDC power supply (voltage-adjustable) |{compname-med} IZPWR 24 VDC power supply models.
+ifndef::xref-type-DFC[]
+It is recommended to use an illuminator power supply separate from the Camera System's supply.
+endif::xref-type-DFC[]
+|===
+
+<<<
+
+[#s_Planning-Your-Installation]
+
+== Planning Your Installation
+
+[#s_Matching-an-Illuminator-to-Your-Camera-System]
+
+=== Matching an Illuminator to Your Camera System
+
+[NOTE]
+
+========================================
+
+The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the {compname-short} camera. See the appropriate Camera Installation and Configuration Guide(s).
+
+========================================
+
+The number of illuminator LEDs and beam angle must match the distance rating of the camera being used, as follows:
+
+* Fewer LEDs and wider beam angles are used for short distances
+
+* More LEDs and narrower beam angles are used for longer distances
+
+See the appropriate Camera Installation and Configuration Guide(s) for an explanation of the model number codes (effective distances, and wavelengths/number of LEDs).
+//*_\{Add {camera-5G} or GR here –
+//since new pinout should allow for a
+//strobe trigger as in the Driver Face Capture solution –
+//and fix in catalog as well\}_*
+
+[#t_Camera-to-Illuminator-Typical-Use-Cases]
+
+.Camera-to-Illuminator Typical Use Cases
+
+[table.withborders,width="100%",cols="30%,19%,19%,15%,17%",options="header",]
+|===
+|Camera |Illuminator |Strobe Signal |Night Image |Installation
+.^|{camera-8G}-L/XL-xx |{shortprodname}2-WL-20 .2+.^|OV Strobe
+.2+.^|Color .2+.^|Rear
+.^|{camera-8G}-S-xx |{shortprodname}1-WL-H40 +
+{shortprodname}1-WL-30
+.^|{camera-8G}-L/XL-xx |{shortprodname}2-IR-20 .2+.^|OV Strobe
+.2+.^|B/W .2+.^|Front
+.^|{camera-8G}-S-xx |{shortprodname}1-IR-H40 +
+{shortprodname}1-IR-30
+.^|{camera-GRV} .^|{shortprodname}2-IR-H120 .^|RV Strobe .^|B/W .^|Side
+.^|{camera-DOT} .^|{shortprodname}2-IR-H120
+.^|Near Lane (NL) Strobe and Far Lane (FL) Strobe .^|B/W .^|Side
+.^|{camera-ORT}-L-xx .^|{shortprodname}2-WL-20 +
+{shortprodname}2-CL-20 .^|OV Strobe .^|Color .^|Rear
+.^|{camera-ORT}-L-xx .^|{shortprodname}2-DR-20 +
+{shortprodname}2-IR-20 .^|LPR Strobe .^|B/W .^|Front
+.^|{camera-ORT}-S-xx .^|{shortprodname}1-WL-30 +
+{shortprodname}1-CL-30 .^|OV Strobe .^|Color .^|Rear
+.^|{camera-ORT}-S-xx .^|{shortprodname}1-DR-30 +
+{shortprodname}1-IR-30 .^|LPR Strobe .^|B/W .^|Front
+|===
+
+[#s_Additional-Installation-Considerations]
+
+=== Additional Installation Considerations
+
+[#t_Additional-Installation-Considerations]
+
+.Additional Installation Considerations
+
+[table.withborders,width="100%",cols="40%,60%",options="header",]
+|===
+|Item |Considerations
+|*Surge Protection* a|* On power, network and data cables
+a|
+*Cable Extensions*
+
+*IMPORTANT* +
++++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
+
+a|
+* Power - Use a cable gauge sufficient to deliver 24 VDC at the illuminator, depending on the power supply used
+
+* Signals - Use a cable gauge sufficient to deliver the required strobe and RS485 signals at the illuminator.
+
+|Mounting a|
+* Typically on gantry
+
+* Additional construction may be needed
+
+|===
+
+* Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
+
+* Be sure the opening at the rear of the unit is exposed to the ambient light, so that the photocell can sense the ambient light level (see <<f_Photocell-Exposed-to-Ambient-Light-via-Rear-of-Unit>>). +
+(In some applications, the photocell may be disabled, so this consideration will not be relevant.)
+
+[#f_Photocell-Exposed-to-Ambient-Light-via-Rear-of-Unit]
+
+.Photocell Exposed to Ambient Light via Rear of Unit
+
+image::./UserGuide/image9.png[image,width=407,height=215]
+
+<<<
+
+[#s_Mounting]
+
+== Mounting and Aiming
+
+[#s_Overall-Mounting-Considerations]
+
+=== Overall Mounting Considerations
+
+* Mounting hardware may be included in your package, or packed separately, depending on your site's requirements. See the Mounting Hardware documentation (see <<s_Related-Documents>>).
+
+* Mount illuminators at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
+
+[#s_Aiming-the-Illuminator]
+
+=== Aiming the Illuminator
+
+See your camera's User Guide for details on how to adjust the position of the camera to optimize license plate recognition. As part of this process, you may need to adjust the tilt and/or pan of the illuminator.
+
+For instructions on how to adjust the pan and tilt, see the Mounting Hardware documentation (see <<s_Related-Documents>>).
+
+<<<
+
+[#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
+
+== Connecting the Camera System, Illuminator, Power Supply and Network
+
+[WARNING]
+
+========================================
+
+Turn off/disconnect the external (AC) power supply before connecting cables.
+
+If you are using an {compname-short} power supply, see its User Guide for important information.
+
+========================================
+
+[IMPORTANT]
+
+========================================
+
+All cable extensions and repeaters must be shielded.
+
+========================================
+
+[#f_Power-and-Signals-Cables-Wire-Colors-and-Pinouts]
+
+.Power and Signals Cables: Wire Colors and Pinouts
+
+image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
+
+<<<
+
+//Here is a typical wiring diagram for capturing license plate images (the power supply type/configuration may be different at your site).
+
+[IMPORTANT]
+
+========================================
+
+If you need to add length to the power or signals
+cables
+(see <<s_Additional-Installation-Considerations>>),
+be sure that: the supplied voltage (24 VDC)
+reaches the illuminator, the strobe signal
+levels you need reach the illuminator,
+and the RS485 signal levels reach the
+illuminator.
+
+========================================
+
+[#f_Typical-Camera-with-Illuminator-Wiring-Diagram]
+
+.Typical Camera with Illuminator Wiring Diagram
+
+image::ROOT:IZS/IZS-S-FIG-013c_OV_Triggered_Wiring.png[image,width=800]
+
+include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
+
+//[table.withborders,width="100%",cols="10%,49%,41%",options="header",]
+//|===
+//|Item |Description |Ordering Information
+//|A a|*LAN Cable for {camera-8G} System* |{compname-short}
+//P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]
+//|B a|*Power/Signals Cable for {camera-8G} System* |{compname-short}
+//P/N: xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
+//|C a|*Power Supplies:* 24 VDC, 100/120W; DIN rail mount +
+//
+//Can power 2 cameras from a single power supply
+//|{compname-short} P/N:
+//xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
+//|D a|*Illuminator Power Cable* |Included; {compname-short}
+//P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
+//|E a|*Illuminator Signals Cable* |Included; {compname-short}
+//P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
+//|F a|*{shortprodname} Strobe Illuminator* |{compname-short}
+//P/N: (See <<t_Camera-to-Illuminator-Typical-Use-Cases>> for Camera-to-Illuminator Typical Use Cases)
+//|===
+
+<<<
+
+== Configuration
+
+[#s_Triggering-and-Pulse-Width]
+
+=== Strobe Input and Pulse Width
+
+The pulse width and other parameters that affect illuminator operation are pre-configured according to your project's requirements.
+
+[#s_Configuring-Management-Software-to-Use-with-an-Illuminator]
+
+=== Configuring Management Software to Use with an Illuminator
+
+Use the {compname-short} Camera System's management software to configure illuminator-related parameters, such as when the illuminator will operate (only at night or all the time). See the management software's User Guide for further details.
+
+
+[#s_Verifying-Infrared-type-Operation]
+
+== Verifying Infrared-type Operation
+
+You can see active infrared-type LEDs with certain model smartphone cameras to see if the LEDs are working.
+
+[#s_Maintenance]
+
+== Maintenance
+
+[#s_Checking-Mounting-Screws]
+
+=== Checking Mounting Screws
+
+It is recommended to check all mounting screws for proper tightness once every two years.
+
+[#s_Cleaning-the-Illuminator]
+
+=== Cleaning the Illuminator
+
+[NOTE]
+
+========================================
+
+Always wipe the window +++<u>+++gently+++</u>+++.
+
+========================================
+
+Do not use solvents or strong abrasive detergent when cleaning the illuminator. Use a soft dry cloth to clean the front glass when it is dirty. If the dirt has hardened, remove it using mild soap and water, and then wipe the front window gently.
+
+<<<
+
+== Notices, Safety Precautions and Certifications
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+include::ROOT:partial$p-illuminator-safety-precautions.adoc[]
+
+<<<
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
+
+include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
+
+include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
+
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
+
+Doc. No. {shortprodname}-MAN-002
