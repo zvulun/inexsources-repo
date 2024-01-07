@@ -86,8 +86,8 @@ toc::[]
 .^|xref:IZA800GVES:DocList.adoc[{shortprodname}-TECH-001] |{shortprodname} Quick Start Guide
 .^|xref:IZA800GVES:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
 .^|xref:IZ_COMPOSITE_CABLE:DocList.adoc[COMPCABLE-REV-x-TDSHEET] |Composite Cable for {system-type} (IZ_COMPOSITE_CABLE) Technical Data Sheet
-.^|xref:IZCAB-SVES:DocList.adoc[IZCABSVES-REV-x-TDSHEET] |Illuminator Cable for {system-type} (IZCAB-SVES) Technical Data Sheet
-.^|xref:IZCAB-AVES:DocList.adoc[IZCABAVES-REV-x-TDSHEET] |Power/LAN Cable for {system-type} (IZCAB-AVES) Technical Data Sheet
+.^|xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES-REV-x-TDSHEET] |Illuminator Cable for {system-type} System Technical Data Sheet
+.^|xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES-REV-x-TDSHEET] |Power/LAN Cable for {system-type} System Technical Data Sheet
 .^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 .^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
 .^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components

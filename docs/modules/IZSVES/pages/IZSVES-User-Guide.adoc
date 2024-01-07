@@ -67,7 +67,7 @@ toc::[]
 |===
 |Doc. No. |Title
 .^|xref:IZA800GVES:DocList.adoc[{camera-VES}-MAN-002b] |{camera-VES} Installation Guide
-.^|xref:IZCAB-SVES:DocList.adoc[IZCABSVES-REV-x-TDSHEET] |Illuminator Cable for {system-type} (IZCAB-SVES) Technical Data Sheet
+.^|xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES-REV-x-TDSHEET] |Illuminator Cable for {system-type} System Technical Data Sheet
 .^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 .^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |Illuminator Mounting - U.S.A.
 .^|xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-005] |Illuminator Gantry Mounting - Using Packaged Hardware
