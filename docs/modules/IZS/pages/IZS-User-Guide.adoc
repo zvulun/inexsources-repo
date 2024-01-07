@@ -187,7 +187,7 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 .S1 Illuminator Dimensions (in mm)
 
-image::./UserGuide/image6.png[image,width=624,height=415]
+image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=624,height=415]
 
 {empty} +
 {empty}
@@ -197,13 +197,13 @@ image::./UserGuide/image6.png[image,width=624,height=415]
 
 .S2 Illuminator Dimensions (in mm)
 
-image::./UserGuide/image7.png[image,width=624,height=324]
+image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=624,height=324]
 
 [#f_S3-Illuminator-Dimensions-in-mm]
 
 .S3 Illuminator Dimensions (in mm)
 
-image::./UserGuide/image8.png[image,width=626,height=336]
+image::ROOT:IZS/IZS-S-FIG-004b_NEW_S3_Dimensions.png[image,width=626,height=336]
 
 <<<
 

@@ -25,8 +25,7 @@
 == Strobe Illuminator Series
 [discrete]
 
-*_\{need new image}_*
-//image::ROOT:IZS/IZS-S-FIG-002c_NoLabels_All_WithS3_At_Angle.png[Picture of IZS Illuminators]
+image::ROOT:IZSVES/IZSVES-VES-FIG-002a_NoLabels_All_Models_At_Angle.png[Picture of IZSVES Illuminators]
 
 // restore section numbering from here on
 :sectnums: all
@@ -119,17 +118,15 @@ The illuminator model codes are *{shortprodname}[1/2]-(IR/DR/CL/WL)-10/20/30/H40
 
 [#f_S1-S2-Series-Models-Front-Views]
 
-.S1/S2 Series Models - Front Views
+.SVES1/SVES2 Series Models - Front Views
 
-*_\{new picture needed}_*
-//image::./UserGuide/image1.png[image,width=624,height=226]
+image::ROOT:IZSVES/IZSVES-VES-FIG-002b_All_Models_With_Labels.png[image,width=624,height=226]
 
 [#f_S1-S2-Series-Models-Rear-Views]
 
-.S1/S2 Series Models - Rear Views
+.SVES1/SVES2 Series Models - Rear Views
 
-*_\{new picture needed}_*
-//image::./UserGuide/image2.png[image,width=304,height=162]
+image::ROOT:IZSVES/IZSVES-VES-FIG-005_Rear_View.png[image,width=304,height=162]
 
 <<<
 
@@ -144,18 +141,14 @@ may look different than the ones shown here).
 
 .Package Contents
 
-image::./UserGuide/image5.png[image,width=531,height=196]
+image::ROOT:IZSVES/IZSVES-VES-FIG-010a_Newer_Package_Contents.png[image,width=531,height=196]
 
 The package includes:
 
 * Illuminator with outer pan/tilt adjustment bracket
 
-* Power cable, 15 ft (4.6 m), {compname-short}; different
-xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR] cable lengths
-can be ordered
-
-* Signals cable, 15 ft (4.6 m), {compname-short}; different
-xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG] cable lengths
+* Illuminator cable, 15 ft (4.6 m); different
+xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES] cable lengths
 can be ordered
 
 * QC sheet
@@ -178,9 +171,9 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 [#f_S1-Illuminator-Dimensions-in-mm]
 
-.S1 Illuminator Dimensions (in mm)
+.SVES1 Illuminator Dimensions (in mm)
 
-image::./UserGuide/image6.png[image,width=624,height=415]
+image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=624,height=415]
 
 {empty} +
 {empty}
@@ -188,21 +181,16 @@ image::./UserGuide/image6.png[image,width=624,height=415]
 
 [#f_S2-Illuminator-Dimensions-in-mm]
 
-.S2 Illuminator Dimensions (in mm)
+.SVES2 Illuminator Dimensions (in mm)
 
-image::./UserGuide/image7.png[image,width=624,height=324]
+image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=624,height=324]
 
-[#f_S3-Illuminator-Dimensions-in-mm]
-
-.S3 Illuminator Dimensions (in mm)
-
-image::./UserGuide/image8.png[image,width=626,height=336]
 
 <<<
 
-[#t_Technical-Specifications-Rev-C]
+[#t_Technical-Specifications-Rev-F]
 
-.Technical Specifications (Rev. C)
+.Technical Specifications (Rev. F)
 
 include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 
