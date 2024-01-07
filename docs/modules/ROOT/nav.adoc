@@ -73,13 +73,16 @@
 ** xref:IZACP-2D-4D:DocList.adoc[IZACP-4D (Four-Door Access Control Panel)]
 ** xref:IZACA-MCPS:DocList.adoc[IZACA-MCPS (Metal Case with Power Supply for Access Control Panels)]
 * Cables
-** xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE (VES Cable)]
-** xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES (VES Illuminator)]
-** xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES (VES Power/LAN)]
 ** xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS (IZA800G Power/Signals)]
 ** xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN (IZA800G LAN)]
-** xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG (IZS Illuminator Signals)]
 ** xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR (IZS Illuminator Power)]
+** xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG (IZS Illuminator Signals)]
+** xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE (VES Cable)]
+** xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES (VES Power/LAN)]
+** xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES (VES Illuminator)]
+
+
+
 * Software
 ** xref:RoadViewALPR:DocList.adoc[RoadView ALPR]
 ** xref:IZDiscovery:DocList.adoc[IZ Discovery]
