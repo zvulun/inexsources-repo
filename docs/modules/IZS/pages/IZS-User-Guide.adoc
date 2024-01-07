@@ -157,11 +157,11 @@ The package includes:
 
 * Illuminator with outer pan/tilt adjustment bracket
 
-* Power cable, 15 ft (4.6 m), {compname-short}; different
+* Power cable, 15 ft (4.6 m); different
 xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR] cable lengths
 can be ordered
 
-* Signals cable, 15 ft (4.6 m), {compname-short}; different
+* Signals cable, 15 ft (4.6 m); different
 xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG] cable lengths
 can be ordered
 

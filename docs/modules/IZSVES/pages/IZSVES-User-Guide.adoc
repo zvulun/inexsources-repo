@@ -97,11 +97,11 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 === Illuminator Models
 
-The illuminator model codes are *{shortprodname}[1/2/3]-(IR/DR/CL/WL)-10/20/30/H40/60/H120*, where:
+The illuminator model codes are *{shortprodname}[1/2]-(IR/DR/CL/WL)-10/20/30/H40/60/H120*, where:
 
 * After {shortprodname}:
 
-* 1/2/3 - number of LEDs: 1=30, 2=60, 3=90
+* 1/2 - number of LEDs: 1=30, 2=60
 
 * WVLN = Wavelength/type of LEDs:
 
@@ -113,31 +113,23 @@ The illuminator model codes are *{shortprodname}[1/2/3]-(IR/DR/CL/WL)-10/20/30/H
 
 ** WL - Warm White (3000K)
 
-* 10/20/30/H40/60/H120 - LED beam angle, in degrees (Notes: H40 = H40xV15; H120xV20-degree model available as {shortprodname}2-IR-H120)
+* 10/20/30/H40/60/H120 - LED beam angle, in degrees
+(Notes: H40 = H40xV15; H120xV20-degree model available as
+{shortprodname}2-IR-H120)
 
 [#f_S1-S2-Series-Models-Front-Views]
 
 .S1/S2 Series Models - Front Views
 
-image::./UserGuide/image1.png[image,width=624,height=226]
+*_\{new picture needed}_*
+//image::./UserGuide/image1.png[image,width=624,height=226]
 
 [#f_S1-S2-Series-Models-Rear-Views]
 
 .S1/S2 Series Models - Rear Views
 
-image::./UserGuide/image2.png[image,width=304,height=162]
-
-[#f_S3-Model-Front-Views]
-
-.S3 Model - Front Views
-
-image::./UserGuide/image3.png[image,width=457,height=226]
-
-[#f_S3-Model-Rear-View]
-
-.S3 Model - Rear View
-
-image::./UserGuide/image4.png[image,width=374,height=294]
+*_\{new picture needed}_*
+//image::./UserGuide/image2.png[image,width=304,height=162]
 
 <<<
 
@@ -145,7 +137,8 @@ image::./UserGuide/image4.png[image,width=374,height=294]
 
 === Package Contents
 
-Carefully unpack the contents of the package (your illuminator model may look different than the ones shown here).
+Carefully unpack the contents of the package (your illuminator model
+may look different than the ones shown here).
 
 [#f_Package-Contents]
 
