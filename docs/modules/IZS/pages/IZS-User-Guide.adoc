@@ -66,8 +66,8 @@ toc::[]
 |Doc. No. |Title
 .^|xref:IZA800G:DocList.adoc[{camera-8G}-MAN-002b] |{camera-8G} Installation Guide
 .^|xref:IZA800GORT:DocList.adoc[{camera-ORT}-MAN-002b] |{camera-ORT} Installation Guide
-.^|xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-REV-A-TDSHEET] |Power Cable for IZS Illuminators Technical Data Sheet
-.^|xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-REV-A-TDSHEET] |Signals Cable for IZS Illuminators Technical Data Sheet
+.^|xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-REV-A-TDSHEET] |Power Cable for {illum-strobe} Illuminators Technical Data Sheet
+.^|xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-REV-A-TDSHEET] |Signals Cable for {illum-strobe} Illuminators Technical Data Sheet
 .^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 .^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |Illuminator Mounting - U.S.A.
 .^|xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-005] |Illuminator Gantry Mounting - Using Packaged Hardware

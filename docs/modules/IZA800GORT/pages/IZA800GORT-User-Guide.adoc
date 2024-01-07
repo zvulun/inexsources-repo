@@ -83,8 +83,8 @@ toc::[]
 .^|xref:IZA800GORT:DocList.adoc[{shortprodname}-MAN-002b] |{shortprodname} Installation Guide
 .^|xref:IZA800GORT:DocList.adoc[{shortprodname}-TECH-001] |{shortprodname} Quick Start Guide
 .^|xref:IZA800GORT:DocList.adoc[{shortprodname}-REV-xx-TDSHEET] |{shortprodname} Technical Data Sheet
-.^|xref:IZCAB-A800-PAS:DocList.adoc[IZCABA800PAS-REV-x-TDSHEET] |Power/Signals Cable for {camera-8G} System Technical Data Sheet
-.^|xref:IZCAB-A800-LAN:DocList.adoc[IZCABA800LAN-REV-x-TDSHEET] |LAN Cable for {camera-8G} System Technical Data Sheet
+.^|xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS-REV-x-TDSHEET] |Power/Signals Cable for {camera-8G} System Technical Data Sheet
+.^|xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN-REV-x-TDSHEET] |LAN Cable for {camera-8G} System Technical Data Sheet
 .^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 .^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
 .^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
