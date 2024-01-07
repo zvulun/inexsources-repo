@@ -39,7 +39,7 @@ ifndef::xref-type-DFC[]
 
 * 1: 30 LEDs
 * 2: 60 LEDs
-* 3: 90 LEDs
+
 endif::xref-type-DFC[]
 
 ifdef::xref-type-DFC[]
@@ -112,7 +112,7 @@ ifndef::xref-type-DFC[]
 
 * S1: 7.2 x 9.8 x 3.6 in (183 x 250 x 91 mm)
 * S2: 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
-* S3: 14.5 x 11.4 x 4.2 in (368 x 290 x 107 mm)
+
 endif::xref-type-DFC[]
 
 ifdef::xref-type-DFC[]
@@ -127,7 +127,7 @@ ifndef::xref-type-DFC[]
 
 * S1: 4.2 lbs (1.9 kg)
 * S2: 6.8 lbs (3.1 kg)
-* S3: 10.1 lbs (4.6 kg)
+
 endif::xref-type-DFC[]
 
 ifdef::xref-type-DFC[]
