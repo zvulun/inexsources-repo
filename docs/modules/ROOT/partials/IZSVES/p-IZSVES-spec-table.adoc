@@ -148,12 +148,12 @@ endif::xref-type-DFC[]
 
 .^| RS485
 
-.2+.^| Cables
+.2+.^| Connectors
 
-.^a| Power cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SPWR-15F
+.^a| Power - 2-pin male connector
 
 
-.^a| Signals cable, 15 ft (4.6 m), {compname-short} P/N: IZCAB-SSIG-15F
+.^a| Signals - 6-pin male connector
 
 //* Strobe Input - see next part of table
 
@@ -208,9 +208,9 @@ endif::xref-type-DFC[]
 
 .^| 2-axis outer pan/tilt adjustment bracket
 
-.^| Power cable, 15 ft (4.6 m), {compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
+.^| Power cable, 15 ft (4.6 m)
 
-.^| Signals cable, 15 ft (4.6 m), {compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
+.^| Signals cable, 15 ft (4.6 m)
 
 ifndef::xref-type-DFC[]
 
@@ -244,8 +244,7 @@ endif::xref-type-DFC[]
 
 |===
 
-+++*+++ Including outer pan/tilt adjustment bracket
-
++++*+++ Including outer pan/tilt adjustment bracket +
 ifndef::xref-type-DFC[]
 +++**+++ It is recommended to use
 an illuminator power supply separate

@@ -393,7 +393,8 @@ image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
 
 ========================================
 *Different Camera Systems require different
-wiring for front/rear capture - see the following Figures!*
+wiring for illuminators - see your
+Camera System's documentation*
 
 If you need to add length to the power or signals
 cables
@@ -405,26 +406,26 @@ and the RS485 signal levels reach the
 illuminator.
 ========================================
 
-[#f_Typical-Camera-with-Illuminator-Wiring-Diagram]
+//[#f_Typical-Camera-with-Illuminator-Wiring-Diagram]
 
-.Front {camera-ORT} with Illuminator Wiring Diagram (Infrared Light)
+//.Front {camera-ORT} with Illuminator Wiring Diagram (Infrared Light)
 
-image::ROOT:IZA800GORT/IZA800GORT-FIG-034f_USA_IllumLPRFront.png[image,width=580]
+//image::ROOT:IZA800GORT/IZA800GORT-FIG-034f_USA_IllumLPRFront.png[image,width=580]
 
-{empty} +
-{empty}
+//{empty} +
+//{empty}
 
-.Rear {camera-ORT} with Illuminator Wiring Diagram (White Light)
+//.Rear {camera-ORT} with Illuminator Wiring Diagram (White Light)
 
-image::ROOT:IZA800GORT/IZA800GORT-FIG-034f2_USA_IllumOVRear.png[image,width=580]
+//image::ROOT:IZA800GORT/IZA800GORT-FIG-034f2_USA_IllumOVRear.png[image,width=580]
 
-<<<
+//<<<
 
-.Front or Rear {camera-8G} with Illuminator Wiring Diagram
+//.Front or Rear {camera-8G} with Illuminator Wiring Diagram
 
-image::ROOT:IZS/IZS-S-FIG-013c_OV_Triggered_Wiring.png[image,width=580]
+//image::ROOT:IZS/IZS-S-FIG-013c_OV_Triggered_Wiring.png[image,width=580]
 
-include::ROOT:partial$IZA800GORT/p-IZA800GORT-wiring-table.adoc[IZA800GORT Wiring Table]
+//include::ROOT:partial$IZA800GORT/p-IZA800GORT-wiring-table.adoc[IZA800GORT Wiring Table]
 
 //[table.withborders,width="100%",cols="10%,49%,41%",options="header",]
 //|===
@@ -446,7 +447,7 @@ include::ROOT:partial$IZA800GORT/p-IZA800GORT-wiring-table.adoc[IZA800GORT Wirin
 //P/N: (See <<t_Camera-to-Illuminator-Typical-Use-Cases>> for Camera-to-Illuminator Typical Use Cases)
 //|===
 
-<<<
+//<<<
 
 == Configuration
 
