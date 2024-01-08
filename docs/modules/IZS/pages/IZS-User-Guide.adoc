@@ -374,6 +374,18 @@ If you are using an {compname-short} power supply, see its User Guide for import
 [IMPORTANT]
 
 ========================================
+*Different Camera Systems require different
+wiring for illuminators - see your
+Camera System's documentation*
+
+If you need to add length to the power or signals
+cables
+(see <<s_Additional-Installation-Considerations>>),
+be sure that: the supplied voltage (24 VDC)
+reaches the illuminator, the strobe signal
+levels you need reach the illuminator,
+and the RS485 signal levels reach the
+illuminator.
 
 All cable extensions and repeaters must be shielded.
 
@@ -389,22 +401,6 @@ image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
 
 //Here is a typical wiring diagram for capturing license plate images (the power supply type/configuration may be different at your site).
 
-[IMPORTANT]
-
-========================================
-*Different Camera Systems require different
-wiring for illuminators - see your
-Camera System's documentation*
-
-If you need to add length to the power or signals
-cables
-(see <<s_Additional-Installation-Considerations>>),
-be sure that: the supplied voltage (24 VDC)
-reaches the illuminator, the strobe signal
-levels you need reach the illuminator,
-and the RS485 signal levels reach the
-illuminator.
-========================================
 
 //[#f_Typical-Camera-with-Illuminator-Wiring-Diagram]
 
