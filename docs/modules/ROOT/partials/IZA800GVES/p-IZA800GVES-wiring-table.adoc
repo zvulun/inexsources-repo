@@ -17,7 +17,22 @@ Binder P/N: https://www.binder-usa.com/us-en/products/power-connectors/rd24-powe
 
 |D a|*Illuminator Cable for {system-type} System+++*+++* |{compname-short} P/N: xref:IZCAB-SVES:DocList.adoc[IZCAB-S{system-type}]
 |E a|*DIN Rail Mountable Connection Panel* |{compname-short} P/N: xref:IZPANEL:DocList.adoc[{hw-connection-panel}]
-|F a|*{illum-VES} Strobe Illuminator* |{compname-short} P/N: See the xref:IZSVES:DocList.adoc[{illum-VES} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
+|F a|*{illum-VES} Strobe Illuminator* |
+
+ifndef::xref-type-IZS,xref-type-IZSVES[]
+{compname-short} P/N: See the xref:IZSVES:DocList.adoc[{illum-VES} Strobe Illuminator User Guide]
+for a table of Camera-to-Illuminator Typical Use Cases
+endif::[]
+
+ifdef::xref-type-IZS,xref-type-IZSVES[]
+{compname-short}
+P/N: See <<t_Camera-to-Illuminator-Typical-Use-Cases>>
+for Camera-to-Illuminator Typical Use Cases
+endif::[]
+
+
+
+{compname-short} P/N: See the xref:IZSVES:DocList.adoc[{illum-VES} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
 
 +++*+++ {camera-VES}-X-XX-CAB15F models include a 15 ft cable set;
