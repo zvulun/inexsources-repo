@@ -393,6 +393,9 @@ image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
 
 ========================================
 
+*Different Camera Systems require different
+wiring for front/rear capture - see the following Figures!*
+
 If you need to add length to the power or signals
 cables
 (see <<s_Additional-Installation-Considerations>>),
@@ -401,9 +404,6 @@ reaches the illuminator, the strobe signal
 levels you need reach the illuminator,
 and the RS485 signal levels reach the
 illuminator.
-
-*Different Camera Systems require different
-wiring for front/rear capture - see the following figures!*
 
 ========================================
 
