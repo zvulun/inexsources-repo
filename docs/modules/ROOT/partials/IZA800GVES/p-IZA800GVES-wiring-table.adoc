@@ -32,5 +32,7 @@ endif::[]
 
 |===
 
-+++*+++ {camera-VES}-X-XX-CAB15F models include a 15 ft cable set;
-different lengths can be ordered
++++*+++ Different lengths can be ordered
+
+//+++*+++ {camera-VES}-X-XX-CAB15F models include a 15 ft cable set;
+//different lengths can be ordered

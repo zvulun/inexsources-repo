@@ -8,8 +8,8 @@
 Can power 2 cameras from a single power supply a|
 {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
 
-|D a|*Illuminator Power Cable*** |{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR]
-|E a|*Illuminator Signals Cable*** |{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]
+|D a|*Illuminator Power Cable** |{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR]
+|E a|*Illuminator Signals Cable** |{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]
 |F a|*{illum-strobe} Strobe Illuminator* |
 
 ifndef::xref-type-IZS,xref-type-IZSVES[]
@@ -27,7 +27,9 @@ endif::[]
 
 |===
 
-+++*+++ {camera-8G}-XX-XX-CAB15F models include a 15 ft cable set;
-different lengths can be ordered +
-+++**+++ {illum-strobe} models include a 15 ft cable set;
-different lengths can be ordered
++++*+++ Different lengths can be ordered
+
+//+++*+++ {camera-8G}-XX-XX-CAB15F models include a 15 ft cable set;
+//different lengths can be ordered +
+//+++**+++ {illum-strobe} models include a 15 ft cable set;
+//different lengths can be ordered

@@ -8,8 +8,8 @@
 Can power 2 cameras from a single power supply a|
 {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
 
-|D a|*Illuminator Power Cable*** |{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
-|E a|*Illuminator Signals Cable*** |{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
+|D a|*Illuminator Power Cable** |{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
+|E a|*Illuminator Signals Cable** |{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
 |F a|*{illum-strobe} Strobe Illuminator (Infrared Light-Front Capture)* |
 
 ifndef::xref-type-IZS,xref-type-IZSVES[]
@@ -39,17 +39,19 @@ endif::[]
 
 |===
 
-ifndef::xref-type-IZS,xref-type-IZSVES[]
-+++*+++ {camera-ORT}-XX-XX-CAB15F models include a 15 ft cable set;
-different lengths can be ordered +
-+++**+++ {illum-strobe} models include a 15 ft cable set;
-different lengths can be ordered
-endif::[]
++++*+++ Different lengths can be ordered
 
-ifdef::xref-type-IZS,xref-type-IZSVES[]
-+++*+++ {camera-8G}/ORT-XX-XX-CAB15F models include a 15 ft cable set;
-different lengths can be ordered +
-+++**+++ {illum-strobe} models include a 15 ft cable set;
-different lengths can be ordered
+//ifndef::xref-type-IZS,xref-type-IZSVES[]
+//+++*+++ {camera-ORT}-XX-XX-CAB15F models include a 15 ft cable set;
+//different lengths can be ordered +
+//+++**+++ {illum-strobe} models include a 15 ft cable set;
+//different lengths can be ordered
+//endif::[]
 
-endif::[]
+//ifdef::xref-type-IZS,xref-type-IZSVES[]
+//+++*+++ {camera-8G}/ORT-XX-XX-CAB15F models include a 15 ft cable set;
+//different lengths can be ordered +
+//+++**+++ {illum-strobe} models include a 15 ft cable set;
+//different lengths can be ordered
+
+//endif::[]
