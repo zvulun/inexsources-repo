@@ -30,9 +30,6 @@ P/N: See <<t_Camera-to-Illuminator-Typical-Use-Cases>>
 for Camera-to-Illuminator Typical Use Cases
 endif::[]
 
-
-
-{compname-short} P/N: See the xref:IZSVES:DocList.adoc[{illum-VES} Strobe Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
 |===
 
 +++*+++ {camera-VES}-X-XX-CAB15F models include a 15 ft cable set;
