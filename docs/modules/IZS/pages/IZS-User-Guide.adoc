@@ -406,11 +406,19 @@ illuminator.
 
 [#f_Typical-Camera-with-Illuminator-Wiring-Diagram]
 
-.Typical Camera with Illuminator Wiring Diagram
+.Typical {camera-8G} with Illuminator Wiring Diagram
 
-image::ROOT:IZS/IZS-S-FIG-013c_OV_Triggered_Wiring.png[image,width=800]
+image::ROOT:IZS/IZS-S-FIG-013c_OV_Triggered_Wiring.png[image,width=500]
 
-include::ROOT:partial$IZA800G/p-IZA800G-wiring-table.adoc[IZA800G Wiring Table]
+.Front {camera-ORT} with Illuminator Wiring Diagram (Infrared Light)
+
+image::ROOT:IZA800GORT/IZA800GORT-FIG-034f_USA_IllumLPRFront.png[image,width=500]
+
+.Rear {camera-ORT} with Illuminator Wiring Diagram (White Light)
+
+image::ROOT:IZA800GORT/IZA800GORT-FIG-034f2_USA_IllumOVRear.png[image,width=500]
+
+include::ROOT:partial$IZA800GORT/p-IZA800GORT-wiring-table.adoc[IZA800GORT Wiring Table]
 
 //[table.withborders,width="100%",cols="10%,49%,41%",options="header",]
 //|===

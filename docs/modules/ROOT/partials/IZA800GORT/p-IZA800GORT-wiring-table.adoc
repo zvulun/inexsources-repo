@@ -10,7 +10,7 @@ Can power 2 cameras from a single power supply a|
 
 |D a|*Illuminator Power Cable*** |{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
 |E a|*Illuminator Signals Cable*** |{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
-|F a|*{illum-strobe} Strobe Illuminator (Infrared Light)* |
+|F a|*{illum-strobe} Strobe Illuminator (Infrared Light-Front Capture)* |
 
 ifndef::xref-type-IZS,xref-type-IZSVES[]
 {compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator User Guide]
@@ -24,7 +24,7 @@ for Camera-to-Illuminator Typical Use Cases
 endif::[]
 
 
-|G a|*{illum-strobe} Strobe Illuminator (White Light)* |
+|G a|*{illum-strobe} Strobe Illuminator (White Light-Rear Capture)* |
 
 ifndef::xref-type-IZS,xref-type-IZSVES[]
 {compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator User Guide]
@@ -39,7 +39,17 @@ endif::[]
 
 |===
 
+ifndef::xref-type-IZS,xref-type-IZSVES[]
 +++*+++ {camera-ORT}-XX-XX-CAB15F models include a 15 ft cable set;
 different lengths can be ordered +
 +++**+++ {illum-strobe} models include a 15 ft cable set;
 different lengths can be ordered
+endif::[]
+
+ifdef::xref-type-IZS,xref-type-IZSVES[]
++++*+++ {camera-8G}/ORT-XX-XX-CAB15F models include a 15 ft cable set;
+different lengths can be ordered +
++++**+++ {illum-strobe} models include a 15 ft cable set;
+different lengths can be ordered
+
+endif::[]
