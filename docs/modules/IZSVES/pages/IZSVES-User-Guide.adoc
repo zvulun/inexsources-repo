@@ -312,7 +312,9 @@ a|
 
 .Photocell Exposed to Ambient Light via Rear of Unit
 
-image::./UserGuide/image9.png[image,width=407,height=215]
+*_\{need new picture}_*
+
+//image::./UserGuide/image9.png[image,width=407,height=215]
 
 <<<
 
