@@ -230,8 +230,6 @@ See the appropriate Camera Installation and Configuration Guide(s) for an explan
 //strobe trigger as in the Driver Face Capture solution –
 //and fix in catalog as well\}_*
 
-*_\{redo table for VES illuminator mapping}_*
-
 [#t_Camera-to-Illuminator-Typical-Use-Cases]
 
 .Camera-to-Illuminator Typical Use Cases
