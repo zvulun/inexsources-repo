@@ -94,8 +94,7 @@ endif::xref-type-DFC[]
 .^a| IEC62471:
 
 * IR wavelength models: Group 2
-* DR wavelength models: Group 1
-* CL wavelength models: Group 1
+* DR/CL wavelength models: Group 1
 
 .^| NDAA
 
@@ -146,18 +145,18 @@ endif::xref-type-DFC[]
 
 .3+.^| Interface
 
-.^| Configuration Communication Protocol
-
-.^| RS485
-
 .1+.^| Connector
 
-.^a| Power/Strobe: +
+.^a| Power/Strobe/Configuration: +
 Waterproof outdoor 6{plus}PE-pin male connector
 
 //* Strobe Input - see next part of table
 
 //* RS485 connections for configuration communication
+
+.^| Configuration Communication Protocol
+
+.^| RS485
 
 .^| Strobe Input
 

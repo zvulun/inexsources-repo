@@ -200,8 +200,6 @@ include::ROOT:partial$IZSVES/p-IZSVES-spec-table.adoc[IZS Specification Table]
 
 * See the Mounting Hardware documentation for a list of required tools (see <<s_Related-Documents>>).
 
-<<<
-
 [#s_Planning-Your-Installation]
 
 == Planning Your Installation
@@ -244,6 +242,8 @@ See the appropriate Camera Installation and Configuration Guide(s) for an explan
 .2+.^|B/W .2+.^|Front
 .^|{camera-VES}-S-xx |{shortprodname}1-IR-H40
 |===
+
+<<<
 
 [#s_Additional-Installation-Considerations]
 
