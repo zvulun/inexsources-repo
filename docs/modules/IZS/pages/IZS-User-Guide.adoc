@@ -258,7 +258,7 @@ The number of illuminator LEDs and beam angle must match the distance rating of 
 
 * More LEDs and narrower beam angles are used for longer distances
 
-See the appropriate Camera Installation and Configuration Guide(s) for an explanation of the model number codes (effective distances, and wavelengths/number of LEDs).
+See the appropriate Camera Installation and Configuration Guide(s) for an explanation of the model number codes (effective distances, and wavelengths/beam angles).
 //*_\{Add {camera-5G} or GR here –
 //since new pinout should allow for a
 //strobe trigger as in the Driver Face Capture solution –
