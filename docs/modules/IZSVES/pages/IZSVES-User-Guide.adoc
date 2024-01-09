@@ -194,6 +194,8 @@ image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=624,height=324]
 
 include::ROOT:partial$IZSVES/p-IZSVES-spec-table.adoc[IZS Specification Table]
 
+<<<
+
 [#s_Required-Accessories-Not-Included]
 
 == Required Accessories (Not Included)
