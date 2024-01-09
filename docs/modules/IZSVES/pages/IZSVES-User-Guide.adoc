@@ -236,7 +236,7 @@ See the appropriate Camera Installation and Configuration Guide(s) for an explan
 
 .Camera-to-Illuminator Typical Use Cases
 
-[table.withborders,width="100%",cols="30%,19%,19%,15%,17%",options="header",]
+[table.withborders,width="100%",cols="25%,24%,19%,15%,17%",options="header",]
 |===
 |Camera |Illuminator |Strobe Signal |Night Image |Installation
 .^|{camera-VES}-L-xx |{shortprodname}2-WL-20 .2+.^|OV Strobe
