@@ -1,7 +1,7 @@
 
-[table.withborders,cols="1,2a",width="70%",frame=none,grid=none]
+[table.withborders,cols="2,1a",width="80%",frame=none,grid=none]
 |===
-| image:ROOT:image$/IZSVES/IZSVES-VES-FIG-003a_Illuminator_Cable_Pinouts.png[image,width=181,height=352]
+| image:ROOT:image$/IZSVES/IZSVES-VES-FIG-003a_Illuminator_Cable_Pinouts.png[image,width=360]
 |[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
 !===
 !Pin !Power/Signal !Wire Color
