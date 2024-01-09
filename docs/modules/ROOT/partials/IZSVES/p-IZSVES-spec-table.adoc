@@ -109,9 +109,9 @@ endif::xref-type-DFC[]
 
 ifndef::xref-type-DFC[]
 
-* {illum-VES}1: 7.2 x 9.8 x 3.6 in +
+* {illum-VES}1: 7.2 x 9.8 x 3.6 in
 (183 x 250 x 91 mm)
-* {illum-VES}2: 11.7 x 10.7 x 3.6 in +
+* {illum-VES}2: 11.7 x 10.7 x 3.6 in
 (296 x 271 x 91 mm)
 
 endif::xref-type-DFC[]
