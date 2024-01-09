@@ -331,7 +331,7 @@ For instructions on how to adjust the pan and tilt, see the Mounting Hardware do
 
 [#s_Connecting-the-Camera-System-Illuminator-Power-Supply-and-Network]
 
-== Connecting the Camera System, Illuminator, Power Supply and Network
+== Connecting the Illuminator to the Camera System
 
 [WARNING]
 
@@ -365,10 +365,9 @@ All cable extensions and repeaters must be shielded.
 
 [#f_Power-and-Signals-Cables-Wire-Colors-and-Pinouts]
 
-.Illuminator Cable: Connections
+.Illuminator-to-Camera Cable Connections
 
-*_\{need new picture}_*
-image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
+image::ROOT:IZSVES/IZSVES-VES-FIG-007_Cable_to_Conector.png[image,width=600]
 
 //<<<
 
