@@ -1,6 +1,6 @@
 = IZA800G Documents List
 
-* xref:IZA800G:IZA800G-Datasheet.adoc[IZA800G Datasheet]
+* xref:IZA800G:IZA800G-Datasheet.adoc[IZA800G Datasheet, window=_self]
 
 * xref:IZA800G:IZA800G-Quick-Start.adoc[IZA800G Quick Start Guide]
 
