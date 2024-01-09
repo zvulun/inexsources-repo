@@ -285,8 +285,6 @@ into drivers' eyes. In most cases, however,
 white illuminators are mounted to be aimed at
 the rear of vehicles. Illuminator aiming is most effective at night.
 
-<<<
-
 [#s_Mounting]
 
 == Mounting and Aiming
