@@ -350,8 +350,8 @@ If you are using an {compname-short} power supply, see its User Guide for import
 wiring for illuminators - see your
 Camera System's documentation*
 
-If you need to add length to the power or signals
-cables
+If you need to add length to the illuminator
+cable
 (see <<s_Additional-Installation-Considerations>>),
 be sure that: the supplied voltage (24 VDC)
 reaches the illuminator, the strobe signal
@@ -365,8 +365,9 @@ All cable extensions and repeaters must be shielded.
 
 [#f_Power-and-Signals-Cables-Wire-Colors-and-Pinouts]
 
-.Power and Signals Cables: Wire Colors and Pinouts
+.Illuminator Cable: Connections
 
+*_\{need new picture}_*
 image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
 
 //<<<
