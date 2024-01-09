@@ -70,7 +70,7 @@ toc::[]
 .^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 .^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |Illuminator Mounting - U.S.A.
 .^|xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-005] |Illuminator Gantry Mounting - Using Packaged Hardware
-.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+//.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
 .^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
 |===
 
@@ -118,13 +118,13 @@ The illuminator model codes are *{shortprodname}[1/2]-(IR/DR/CL/WL)-10/20/30/H40
 
 [#f_S1-S2-Series-Models-Front-Views]
 
-.SVES1/SVES2 Series Models - Front Views
+.{shortprodname}1/{shortprodname}2 Series Models - Front Views
 
 image::ROOT:IZSVES/IZSVES-VES-FIG-002b_All_Models_With_Labels.png[image,width=624,height=226]
 
 [#f_S1-S2-Series-Models-Rear-Views]
 
-.SVES1/SVES2 Series Models - Rear Views
+.{shortprodname}1/{shortprodname}2 Series Models - Rear Views
 
 image::ROOT:IZSVES/IZSVES-VES-FIG-005_Rear_View.png[image,width=304,height=162]
 
@@ -171,7 +171,7 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 [#f_S1-Illuminator-Dimensions-in-mm]
 
-.SVES1 Illuminator Dimensions (in mm)
+.{shortprodname}1 Illuminator Dimensions (in mm)
 
 image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=624,height=415]
 
@@ -181,7 +181,7 @@ image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=624,height=415]
 
 [#f_S2-Illuminator-Dimensions-in-mm]
 
-.SVES2 Illuminator Dimensions (in mm)
+.{shortprodname}2 Illuminator Dimensions (in mm)
 
 image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=624,height=324]
 
@@ -239,7 +239,7 @@ The number of illuminator LEDs and beam angle must match the distance rating of 
 
 * More LEDs and narrower beam angles are used for longer distances
 
-See the appropriate Camera Installation and Configuration Guide(s) for an explanation of the model number codes (effective distances, and wavelengths/number of LEDs).
+See the appropriate Camera Installation and Configuration Guide(s) for an explanation of the model number codes (effective distances, and wavelengths/beam angles).
 //*_\{Add {camera-5G} or GR here –
 //since new pinout should allow for a
 //strobe trigger as in the Driver Face Capture solution –
@@ -286,15 +286,15 @@ See the appropriate Camera Installation and Configuration Guide(s) for an explan
 |Item |Considerations
 |*Surge Protection* a|* On power, network and data cables
 a|
-*Cable Extensions*
+*Cable Lengths*
 
 *IMPORTANT* +
 +++<u>+++All network cable extensions and repeaters must be shielded.+++</u>+++
 
 a|
-* Power - Use a cable gauge sufficient to deliver 24 VDC at the illuminator, depending on the power supply used
+* Power - Use a cable length sufficient to deliver 24 VDC at the illuminator, depending on the power supply used
 
-* Signals - Use a cable gauge sufficient to deliver the required strobe and RS485 signals at the illuminator.
+* Signals - Use a cable length sufficient to deliver the required strobe and RS485 signals at the illuminator.
 
 |Mounting a|
 * Typically on gantry
@@ -346,11 +346,7 @@ If you are using an {compname-short} power supply, see its User Guide for import
 [IMPORTANT]
 
 ========================================
-*Different Camera Systems require different
-wiring for illuminators - see your
-Camera System's documentation*
-
-If you need to add length to the illuminator
+If you need to add length to use a longer illuminator
 cable
 (see <<s_Additional-Installation-Considerations>>),
 be sure that: the supplied voltage (24 VDC)

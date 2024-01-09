@@ -110,8 +110,10 @@ endif::xref-type-DFC[]
 
 ifndef::xref-type-DFC[]
 
-* SVES1: 7.2 x 9.8 x 3.6 in (183 x 250 x 91 mm)
-* SVES2: 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
+* {illum-VES}1: 7.2 x 9.8 x 3.6 in +
+(183 x 250 x 91 mm)
+* {illum-VES}2: 11.7 x 10.7 x 3.6 in +
+(296 x 271 x 91 mm)
 
 endif::xref-type-DFC[]
 
@@ -125,8 +127,8 @@ endif::xref-type-DFC[]
 
 ifndef::xref-type-DFC[]
 
-* SVES1: 4.2 lbs (1.9 kg)
-* SVES2: 6.8 lbs (3.1 kg)
+* {illum-VES}1: 4.2 lbs (1.9 kg)
+* {illum-VES}2: 6.8 lbs (3.1 kg)
 
 endif::xref-type-DFC[]
 
@@ -142,18 +144,16 @@ endif::xref-type-DFC[]
 
 .^| Silver
 
-.4+.^| Interface
+.3+.^| Interface
 
 .^| Configuration Communication Protocol
 
 .^| RS485
 
-.2+.^| Connectors
+.1+.^| Connector
 
-.^a| Power - 2-pin male connector
-
-
-.^a| Signals - 6-pin male connector
+.^a| Power/Strobe: +
+Waterproof outdoor 6{plus}PE-pin male connector
 
 //* Strobe Input - see next part of table
 
@@ -234,9 +234,9 @@ endif::xref-type-DFC[]
 
 |===
 
-+++*+++ Including outer pan/tilt adjustment bracket +
-ifndef::xref-type-DFC[]
-+++**+++ It is recommended to use
-an illuminator power supply separate
-from the camera’s supply.
-endif::xref-type-DFC[]
++++*+++ Including outer pan/tilt adjustment bracket
+//ifndef::xref-type-DFC[]
+//+++**+++ It is recommended to use
+//an illuminator power supply separate
+//from the camera’s supply.
+//endif::xref-type-DFC[]
