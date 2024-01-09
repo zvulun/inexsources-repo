@@ -16,13 +16,13 @@ endif::xref-type-IZL[]
 
 ifdef::xref-type-IZS,xref-type-IZSVES[]
 
-** {illum-strobe} IR models - {eyesafetystandard-2}:
+** {shortprodname} IR models - {eyesafetystandard-2}:
 image:ROOT:image$EYE_SAFETY_GRP_2.png[Eye Safety Group 2 Warning Label,width=250,align=center]
 
-** {illum-strobe} DR models - {eyesafetystandard-1}:
+** {shortprodname} DR models - {eyesafetystandard-1}:
 image:ROOT:image$EYE_SAFETY_GRP_1.png[Eye Safety Group 1 Warning Label,width=250,align=center]
 
-** {illum-strobe} CL models - {eyesafetystandard-1}:
+** {shortprodname} CL models - {eyesafetystandard-1}:
 image:ROOT:image$EYE_SAFETY_GRP_1.png[Eye Safety Group 1 Warning Label,width=250,align=center]
 
 endif::xref-type-IZS,xref-type-IZSVES[]
