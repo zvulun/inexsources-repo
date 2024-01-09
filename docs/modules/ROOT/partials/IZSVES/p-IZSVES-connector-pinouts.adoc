@@ -1,12 +1,12 @@
 
-[table.withborders,cols="2,1a",width="80%",frame=none,grid=none]
+[table.withborders,cols="2,1a",width="100%",frame=none,grid=none]
 |===
-| image:ROOT:image$/IZSVES/IZSVES-VES-FIG-003a_Illuminator_Cable_Pinouts.png[image,width=360]
+| image:ROOT:image$/IZSVES/IZSVES-VES-FIG-003a_Illuminator_Cable_Pinouts.png[image,width=400]
 |[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
 !===
 !Pin !Power/Signal !Wire Color
 !1 !GND !Black
-!2 !{plus}V 24 VDC !Red
+!2 !{plus}V (24 VDC) !Red
 !3 !RS485 (B-) .^!White/Orange
 !4 !RS485 (A{plus}) !Orange
 !5 !Strobe (-) !White/Green
