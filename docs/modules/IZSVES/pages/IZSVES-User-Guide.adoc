@@ -364,6 +364,8 @@ All wire colors are those used in the IZCAB-SVES cable.
 
 image::ROOT:IZSVES/IZSVES-VES-FIG-007_Cable_to_Conector.png[image,width=600]
 
+.Illuminator Cable Connector Pinouts
+
 include::ROOT:partial$IZSVES/p-IZSVES-connector-pinouts.adoc[[IZSVES Connector Pinouts]]
 
 //<<<
