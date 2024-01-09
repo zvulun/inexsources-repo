@@ -53,12 +53,12 @@ degrees
 .^a|
 ifndef::xref-type-DFC[]
 
-* {illum-strobe}N-WVLN-10: H10xV10
-* {illum-strobe}N-WVLN-20: H20xV20
-* {illum-strobe}N-WVLN-30: H30xV30
-* {illum-strobe}N-WVLN-H40: H40xV15
-* {illum-strobe}N-WVLN-60: H60xV60
-* {illum-strobe}2-IR-H120: H120xV20
+* {illum-VES}N-WVLN-10: H10xV10
+* {illum-VES}N-WVLN-20: H20xV20
+* {illum-VES}N-WVLN-30: H30xV30
+* {illum-VES}N-WVLN-H40: H40xV15
+* {illum-VES}N-WVLN-60: H60xV60
+* {illum-VES}2-IR-H120: H120xV20
 endif::xref-type-DFC[]
 
 ifdef::xref-type-DFC[]
@@ -110,8 +110,8 @@ endif::xref-type-DFC[]
 
 ifndef::xref-type-DFC[]
 
-* S1: 7.2 x 9.8 x 3.6 in (183 x 250 x 91 mm)
-* S2: 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
+* SVES1: 7.2 x 9.8 x 3.6 in (183 x 250 x 91 mm)
+* SVES2: 11.7 x 10.7 x 3.6 in (296 x 271 x 91 mm)
 
 endif::xref-type-DFC[]
 
@@ -125,8 +125,8 @@ endif::xref-type-DFC[]
 
 ifndef::xref-type-DFC[]
 
-* S1: 4.2 lbs (1.9 kg)
-* S2: 6.8 lbs (3.1 kg)
+* SVES1: 4.2 lbs (1.9 kg)
+* SVES2: 6.8 lbs (3.1 kg)
 
 endif::xref-type-DFC[]
 
@@ -188,10 +188,10 @@ ifndef::xref-type-DFC[]
 !Model ^!Frequency +
 (Hz) !Power +
 (Watts)
-^.^!VES1 ^.^!60 ^.^!25W
-^.^!VES1 ^.^!30 ^.^!13W
-^.^!VES2 ^.^!60 ^.^!50W
-^.^!VES2 ^.^!30 ^.^!25W
+^.^!SVES1 ^.^!60 ^.^!25W
+^.^!SVES1 ^.^!30 ^.^!13W
+^.^!SVES2 ^.^!60 ^.^!50W
+^.^!SVES2 ^.^!30 ^.^!25W
 !===
 
 endif::xref-type-DFC[]
