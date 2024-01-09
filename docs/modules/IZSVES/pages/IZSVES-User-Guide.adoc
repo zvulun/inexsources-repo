@@ -192,7 +192,7 @@ image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=624,height=324]
 
 .Technical Specifications (Rev. F)
 
-include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
+include::ROOT:partial$IZSVES/p-IZSVES-spec-table.adoc[IZS Specification Table]
 
 [#s_Required-Accessories-Not-Included]
 
@@ -304,17 +304,6 @@ a|
 |===
 
 * Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
-
-* Be sure the opening at the rear of the unit is exposed to the ambient light, so that the photocell can sense the ambient light level (see <<f_Photocell-Exposed-to-Ambient-Light-via-Rear-of-Unit>>). +
-(In some applications, the photocell may be disabled, so this consideration will not be relevant.)
-
-[#f_Photocell-Exposed-to-Ambient-Light-via-Rear-of-Unit]
-
-.Photocell Exposed to Ambient Light via Rear of Unit
-
-*_\{need new picture}_*
-
-//image::./UserGuide/image9.png[image,width=407,height=215]
 
 <<<
 

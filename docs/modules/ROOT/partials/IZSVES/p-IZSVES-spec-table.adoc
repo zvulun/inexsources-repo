@@ -188,12 +188,10 @@ ifndef::xref-type-DFC[]
 !Model ^!Frequency +
 (Hz) !Power +
 (Watts)
-^.^!S1 ^.^!60 ^.^!25W
-^.^!S1 ^.^!30 ^.^!13W
-^.^!S2 ^.^!60 ^.^!50W
-^.^!S2 ^.^!30 ^.^!25W
-^.^!S3 ^.^!60 ^.^!72W
-^.^!S3 ^.^!30 ^.^!36W
+^.^!VES1 ^.^!60 ^.^!25W
+^.^!VES1 ^.^!30 ^.^!13W
+^.^!VES2 ^.^!60 ^.^!50W
+^.^!VES2 ^.^!30 ^.^!25W
 !===
 
 endif::xref-type-DFC[]
@@ -204,27 +202,19 @@ ifdef::xref-type-DFC[]
 * 25W at 30 Hz
 endif::xref-type-DFC[]
 
-2.3+.^| Accessories Included
+2.2+.^| Accessories Included
 
 .^| 2-axis outer pan/tilt adjustment bracket
 
-.^| Power cable, 15 ft (4.6 m)
-
-.^| Signals cable, 15 ft (4.6 m)
+.^| Illuminator cable, 15 ft (4.6 m)
 
 ifndef::xref-type-DFC[]
 
-.5+.^| Accessories Available (depending on site requirements)
+.4+.^| Accessories Available (depending on site requirements)
 
-.^| Power Cable
+.^| Illuminator Cable
 
-.^a| Power Cable for {illum-strobe} Illuminator (xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR]) - different lengths
-
-.^| Signals Cable
-
-.^a| Signals Cable for {illum-strobe} Illuminator (xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]) - different lengths
-
-
+.^a| Illuminator Cable for {illum-VES} Illuminator (xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES]) - different lengths
 
 .^| Mounting hardware (in package)
 
