@@ -103,9 +103,9 @@ include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 |===
 a|Product+++***+++ a|Available Part Numbers+++****+++ a|Product Description
 .^a|
-* IZS1
-* IZS2
-* IZS3
+* {shortprodname}1
+* {shortprodname}2
+* {shortprodname}3
 .^a|
 * {shortprodname}N-WVLN-10
 * {shortprodname}N-WVLN-20
@@ -114,7 +114,7 @@ a|Product+++***+++ a|Available Part Numbers+++****+++ a|Product Description
 * {shortprodname}N-WVLN-60
 * {shortprodname}2-IR-H120
 
-.^a|IZS Strobe Illuminator
+.^a|{shortprodname} Strobe Illuminator
 |===
 
 +++***+++ All models come with a 15 ft cable set;
@@ -160,20 +160,20 @@ or packed separately, depending on your site's
 requirements.
 
 [discrete]
-== S1 Dimensions (mm)
+== {shortprodname}1 Dimensions (mm)
 image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=800]
 
 <<<
 
 [discrete]
-== S2 Dimensions (mm)
+== {shortprodname}2 Dimensions (mm)
 image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
 
 {empty} +
 {empty}
 
 [discrete]
-== S3 Dimensions (mm)
+== {shortprodname}3 Dimensions (mm)
 
 image::ROOT:IZS/IZS-S-FIG-004b_NEW_S3_Dimensions.png[image,width=800]
 
