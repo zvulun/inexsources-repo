@@ -92,7 +92,7 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 [discrete]
 == Specifications
 
-include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
+include::ROOT:partial$IZSVES/p-IZSVES-spec-table.adoc[IZSVES Specification Table]
 
 <<<
 
