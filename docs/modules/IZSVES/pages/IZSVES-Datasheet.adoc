@@ -142,8 +142,6 @@ cable lengths can be ordered
 ** 60 = 60x60
 ** H120 = H120xV20 (available as IZS2-IR-H120)
 
-+++<div class="pagebreak"> </div>+++
-
 [discrete]
 == Standard Package Contents
 
