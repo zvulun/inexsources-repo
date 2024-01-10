@@ -32,6 +32,7 @@
 ** xref:IZA800GVES:DocList.adoc[IZA800GVES]
 ** xref:IZA800GRV:DocList.adoc[IZA800GRV]
 ** xref:IZA800GDOT:DocList.adoc[IZA800GDOT]
+** xref:IZLVC2MP:DocList.adoc[IZLVC2MP (LaneView 2 MP)]
 ** xref:IZM600F:DocList.adoc[IZM600F (Mobile)]
 ** xref:IZR600M:DocList.adoc[IZR600M (Radar)]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1610965203&single=true[Camera Comparisons, window=_blank]
