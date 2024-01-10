@@ -68,6 +68,10 @@ image::ROOT:IZSVES/IZSVES-VES-FIG-002a_NoLabels_All_Models_At_Angle.png[Picture 
 
 * [*] Smart lighting technology - for optimum performance
 
+* [*] Works with VES All-in-one AI Camera Systems
+
+* [*] Single-cable and one power supply for easy installation and minimum infrastructure
+
 * [*] Wide temperature range - operating from -13°F to 140°F (-25°C to 60°C)
 
 * [*] IP66 ingress protection against extreme moisture
@@ -156,21 +160,18 @@ requirements.
 
 [discrete]
 == {shortprodname}1 Dimensions (mm)
-image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=800]
+image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=700]
 
 <<<
 
 [discrete]
 == {shortprodname}2 Dimensions (mm)
-image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
+image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=700]
 
 [discrete]
 == Cable Connections and Pinouts
 
 image::ROOT:IZSVES/IZSVES-VES-FIG-007_Cable_to_Conector.png[image,width=600]
-
-{empty} +
-{empty}
 
 include::ROOT:partial$IZSVES/p-IZSVES-connector-pinouts.adoc[[IZSVES Connector Pinouts]]
 
