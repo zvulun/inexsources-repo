@@ -117,25 +117,25 @@ The illuminator model codes are *{shortprodname}[1/2/3]-(IR/DR/CL/WL)-10/20/30/H
 
 [#f_S1-S2-Series-Models-Front-Views]
 
-.S1/S2 Series Models - Front Views
+.{shortprodname}1/{shortprodname}2 Series Models - Front Views
 
 image::./UserGuide/image1.png[image,width=624,height=226]
 
 [#f_S1-S2-Series-Models-Rear-Views]
 
-.S1/S2 Series Models - Rear Views
+.{shortprodname}1/{shortprodname}2 Series Models - Rear Views
 
 image::./UserGuide/image2.png[image,width=304,height=162]
 
 [#f_S3-Model-Front-Views]
 
-.S3 Model - Front Views
+.{shortprodname}3 Model - Front Views
 
 image::./UserGuide/image3.png[image,width=457,height=226]
 
 [#f_S3-Model-Rear-View]
 
-.S3 Model - Rear View
+.{shortprodname}3 Model - Rear View
 
 image::./UserGuide/image4.png[image,width=374,height=294]
 
@@ -185,7 +185,7 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 [#f_S1-Illuminator-Dimensions-in-mm]
 
-.S1 Illuminator Dimensions (in mm)
+.{shortprodname}1 Illuminator Dimensions (in mm)
 
 image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=624,height=415]
 
@@ -195,13 +195,13 @@ image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=624,height=415]
 
 [#f_S2-Illuminator-Dimensions-in-mm]
 
-.S2 Illuminator Dimensions (in mm)
+.{shortprodname}2 Illuminator Dimensions (in mm)
 
 image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=624,height=324]
 
 [#f_S3-Illuminator-Dimensions-in-mm]
 
-.S3 Illuminator Dimensions (in mm)
+.{shortprodname}3 Illuminator Dimensions (in mm)
 
 image::ROOT:IZS/IZS-S-FIG-004b_NEW_S3_Dimensions.png[image,width=626,height=336]
 
