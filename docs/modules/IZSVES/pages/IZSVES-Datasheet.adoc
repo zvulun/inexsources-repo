@@ -117,12 +117,11 @@ a|Product+++***+++ a|Available Part Numbers+++****+++ a|Product Description
 .^a|{shortprodname} Strobe Illuminator
 |===
 
-+++***+++ All models come with a 15 ft cable set;
-different xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR] and
-xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]
++++***+++ All models come with a 15 ft cable;
+different xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES]
 cable lengths can be ordered
 
-+++****+++ {shortprodname}[1/2/3]-
++++****+++ {shortprodname}[1/2]-
 (IR/DR/CL/WL)-10/20/30/H40/60/H120, where:
 
 * N = 1/2 - number of LEDs: 1=30, 2=60
@@ -168,15 +167,14 @@ image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
 <<<
 
 [discrete]
-== Connector Locations
-image::ROOT:IZS/IZS-S-FIG-023_BackPanelNoPhotocellCallout.png[image,width=600]
+== Cable Connections and Pinouts
+
+image::ROOT:IZSVES/IZSVES-VES-FIG-007_Cable_to_Conector.png[image,width=600]
 
 {empty} +
 {empty}
 
-[discrete]
-== Power/Signals Pinouts
-image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
+include::ROOT:partial$IZSVES/p-IZSVES-connector-pinouts.adoc[[IZSVES Connector Pinouts]]
 
 <<<
 
