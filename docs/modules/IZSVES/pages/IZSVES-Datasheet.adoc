@@ -164,8 +164,6 @@ image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=800]
 == {shortprodname}2 Dimensions (mm)
 image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
 
-<<<
-
 [discrete]
 == Cable Connections and Pinouts
 
