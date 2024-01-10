@@ -88,11 +88,6 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 //image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
 //image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
 
---
-+++<div class="pagebreak"> </div>+++
---
-
-
 [discrete]
 == Specifications
 
@@ -156,15 +151,20 @@ pan/tilt adjustment bracket
 or packed separately, depending on your site's
 requirements.
 
+<<<
+
 [discrete]
 == {shortprodname}1 Dimensions (mm)
 image::ROOT:IZS/IZS-S-FIG-005_S1_SW1_Dimensions.png[image,width=800]
 
-<<<
+{empty} +
+{empty}
 
 [discrete]
 == {shortprodname}2 Dimensions (mm)
 image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
+
+<<<
 
 [discrete]
 == Cable Connections and Pinouts
