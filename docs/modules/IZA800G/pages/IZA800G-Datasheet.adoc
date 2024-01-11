@@ -184,6 +184,4 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-REV-F3-TDSHEET
-
-{docdatetime}
+Doc. No. {shortprodname}-REV-F3-TDSHEET {docdatetime}
