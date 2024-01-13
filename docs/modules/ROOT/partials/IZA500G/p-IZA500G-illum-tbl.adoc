@@ -5,8 +5,8 @@
 [table.withborders,width="100%",cols="30%,19%,19%,15%,17%",options="header",]
 |===
 |Camera |Illuminator |Strobe Signal |Night Image |Installation
-.^|{camera-5G}/{camera-5GR} |{shortprodname}1/2-IR-XXX .^|N/A
+.^|{camera-5G}/{camera-5GR} |{illum-non-strobe}1/2-IR-XXX .^|N/A
 .^|B/W .^|Front
-.^|{camera-5G}/{camera-5GR} |{shortprodname}1/2-WL-XX .^|N/A
+.^|{camera-5G}/{camera-5GR} |{illum-non-strobe}1/2-WL-XX .^|N/A
 .^|Color .^|Rear
 |===
