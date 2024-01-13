@@ -17,7 +17,7 @@ ifdef::xref-type-IZ600F[==== Matching Your Camera to an INEX Illuminator]
 The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the
 ifndef::xref-type-IZ600F[{compname-short} Camera System.]
 ifdef::xref-type-IZ600F[{compname-short} camera.]
-See the appropriate Illuminator Series User Guide(s) for compatibility information (see <<s_Related-Documents>>).
+//See the appropriate Illuminator Series User Guide(s) for compatibility information (see <<s_Related-Documents>>).
 
 ========================================
 
@@ -47,5 +47,7 @@ being used, as follows:
 
 ** More LEDs and narrower beam angles are used for longer distances
 
-The results of applying these guidelines can be found in the appropriate Illuminator Series User Guide(s).
+The results of applying these guidelines can be found in the
+//appropriate Illuminator Series User Guide(s).
+following table:
 

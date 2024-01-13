@@ -222,6 +222,8 @@ External illuminators can be used to enhance overview vehicle image quality, for
 
 include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
 
+include::ROOT:partial$IZA500G/p-IZA500G-illum-tbl.adoc[IZA500G/GR Illuminator Recommended Setup]
+
 include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
 
 +++<div class="pagebreak"> </div>+++
