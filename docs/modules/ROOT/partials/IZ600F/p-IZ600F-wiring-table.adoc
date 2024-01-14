@@ -26,7 +26,22 @@ xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
 
 .^|F .^a|*Power/Signals Cable for Illuminator* .^|Included with illuminator
 
-.^|G .^a|*{illum-non-strobe} Illuminator* .^|{compname-short} P/N: See the xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator User Guide] for a table of Camera-to-Illuminator Typical Use Cases
+.^|G .^a|*xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator]*
+.^|{compname-short} P/N:
+
+ifdef::layout-type-technote[]
+See the
+xref:IZ600F:DocList.adoc[{docproductname}
+Installation Guide] for a table of
+Camera-to-Illuminator Recommended Setups
+endif::[]
+
+ifdef::layout-user-guide[]
+See
+<<t_Camera-to-Illuminator-Recommended-Setups>> for
+a table of Camera-to-Illuminator Recommended
+Setups.
+endif::[]
 
 ifdef::layout-type-technote[]
 
@@ -34,5 +49,9 @@ ifdef::layout-type-technote[]
 
 endif::[]
 
-
 |===
+
+ifdef::layout-type-technote[]
+* For device configuration instructions, see the
+xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad}] documentation.
+endif::[]
