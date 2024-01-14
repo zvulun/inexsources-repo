@@ -1,4 +1,4 @@
-[#t_Camera-to-Illuminator-Recommended-Setup]
+[#t_Camera-to-Illuminator-Recommended-Setups]
 
 .Camera-to-Illuminator Recommended Setups
 

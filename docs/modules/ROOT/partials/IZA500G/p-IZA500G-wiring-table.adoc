@@ -38,7 +38,16 @@ and
 xref:IZIO:DocList.adoc[{hw-iocontroller}]
 guides.
 
+ifdef::layout-type-technote[]
 * If you need to use an external illuminator, see the xref:IZA500G:DocList.adoc[{docproductname} Installation Guide] for a table of Camera-to-Illuminator Recommended Setups.
+endif::[]
+
+ifdef::layout-type-userguide[]
+* If you need to use an external illuminator, see
+<<t_Camera-to-Illuminator-Recommended-Setups>> for a table of Camera-to-Illuminator Recommended Setups.
+endif::[]
+
+
 
 * The xref:IZ4POE:DocList.adoc[{hw-poeinjector}] is required for the PoE{plus} input power option.
 
