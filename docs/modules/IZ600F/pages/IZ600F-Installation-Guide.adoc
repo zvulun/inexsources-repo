@@ -232,6 +232,8 @@ All network cable extensions and repeaters must be shielded.
 
 ========================================
 
+<<<
+
 [#s_Planning-Your-Installation]
 
 [#s_Plan-Your-Site]
