@@ -24,7 +24,7 @@ ifdef::xref-type-IZA800G[]
 *xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator]*
 endif::[]
 
-ifdef::xref-type-IZA800G[]
+ifdef::xref-type-IZA800GVES[]
 *xref:IZSVES:DocList.adoc[{illum-VES} Strobe Illuminator]*
 endif::[]
 
