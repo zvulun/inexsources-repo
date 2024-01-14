@@ -123,6 +123,8 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
+<<<
+
 [#s_Prepare-Components-and-Tools]
 
 == Prepare Components and Tools
