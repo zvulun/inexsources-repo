@@ -241,6 +241,8 @@ You can trigger an illuminator from the OV camera by using appropriate wiring (s
 
 include::ROOT:partial$IZA800G/p-optimizing-night-2.adoc[Optimizing Nighttime OV Images - 2]
 
+include::ROOT:partial$IZA800G/p-IZA800G-illum-tbl.adoc[IZA800G-to-Illuminator Recommended Setups]
+
 +++<div class="pagebreak"> </div>+++
 
 [#s_Additional-Installation-Considerations]
