@@ -1,15 +1,15 @@
 [table.withborders,width="100%",cols="7%,52%,41%",options="header",]
 |===
 |Item |Description |Ordering Information
-|A .^a|*LAN Cable for {camera-8G} System** |{compname-short} P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]
-|B .^a|*Power/Signals Cable for {camera-8G} System** |{compname-short} P/N: xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
+|A .^a|*LAN Cable for {camera-8G} System** .^a|{compname-short} P/N: xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]
+|B .^a|*Power/Signals Cable for {camera-8G} System** .^a|{compname-short} P/N: xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]
 |C .^a|*Power Supply:* 24 VDC, 100/120W; DIN rail mount +
 
-Can power 2 cameras from a single power supply a|
+Can power 2 cameras from a single power supply .^a|
 {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN]
 
-|D .^a|*Illuminator Power Cable** |{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR]
-|E .^a|*Illuminator Signals Cable** |{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]
+|D .^a|*Illuminator Power Cable** .^a|{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR]
+|E .^a|*Illuminator Signals Cable** .^a|{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]
 |F .^a|
 
 ifdef::layout-type-userguide+xref-type-IZS[]
