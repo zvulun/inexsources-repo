@@ -232,8 +232,6 @@ All network cable extensions and repeaters must be shielded.
 
 ========================================
 
-<<<
-
 [#s_Planning-Your-Installation]
 
 [#s_Plan-Your-Site]
@@ -812,8 +810,6 @@ image::ROOT:IZ600F/IZ600F-RTP-RTSP.png[image,width=800]
 === Changing the Camera's IP Address (Network > IP Address)
 
 include::ROOT:partial$IZA800G/p-camera-changing-IP.adoc[Changing a Camera IP Address ]
-
-<<<
 
 [#s_Date-Time]
 
