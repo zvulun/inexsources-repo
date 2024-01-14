@@ -12,85 +12,24 @@ Can power 2 cameras from a single power supply .^a|
 |E .^a|*Illuminator Signals Cable** .^a|{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]
 |F .^a|
 
-ifdef::layout-type-userguide+xref-type-IZS[]
-*{illum-strobe} Strobe Illuminator*
-endif::[]
-
-ifdef::layout-type-userguide+xref-type-IZSVES[]
-*{illum-VES} Strobe Illuminator*
-endif::[]
-
-ifdef::xref-type-IZA800G[]
 *xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator]*
-endif::[]
-
-ifdef::xref-type-IZA800GVES[]
-*xref:IZSVES:DocList.adoc[{illum-VES} Strobe Illuminator]*
-endif::[]
-
-
-//ifndef::xref-type-IZS,xref-type-IZSVES[]
-//*xref:IZS:DocList.adoc[{illum-strobe} Illuminator]*
-//endif::[]
 
 .^a|
 
-ifdef::layout-type-technote+xref-type-IZA800G[]
+ifdef::layout-type-technote[]
 {compname-short} P/N: See the
 xref:IZA800G:DocList.adoc[{docproductname}
 Installation Guide] for a table of
 Camera-to-Illuminator Recommended Setups
 endif::[]
 
-ifdef::layout-type-userguide+xref-type-IZA800G[]
+ifdef::layout-type-userguide[]
 {compname-short} P/N: See
 <<t_Camera-to-Illuminator-Recommended-Setups>> for
 a table of Camera-to-Illuminator Recommended
 Setups.
 endif::[]
-
-ifdef::layout-type-technote+xref-type-IZA800GVES[]
-{compname-short} P/N: See the
-xref:IZA800GVES:DocList.adoc[{docproductname}
-Installation Guide] for a table of
-Camera-to-Illuminator Recommended Setups
-endif::[]
-
-ifdef::layout-type-userguide+xref-type-IZA800GVES[]
-{compname-short} P/N: See
-<<t_Camera-to-Illuminator-Recommended-Setups>> for
-a table of Camera-to-Illuminator Recommended
-Setups.
-endif::[]
-
-
-ifdef::layout-type-userguide+xref-type-IZS[]
-{compname-short} P/N: See your camera's Installation
-Guide for a table of Camera-to-Illuminator
-Recommended Setups.
-endif::[]
-
-ifdef::layout-type-userguide+xref-type-IZSVES[]
-{compname-short} P/N: See your camera's Installation
-Guide for a table of Camera-to-Illuminator
-Recommended Setups.
-endif::[]
-
-//ifndef::xref-type-IZS,xref-type-IZSVES[]
-//{compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator User Guide]
-//for a table of Camera-to-Illuminator Typical Use Cases
-//endif::[]
-
-//ifdef::xref-type-IZS,xref-type-IZSVES[]
-//{compname-short}
-//P/N: See <<t_Camera-to-Illuminator-Typical-Use-Cases>>
-//for Camera-to-Illuminator Typical Use Cases
-//endif::[]
-
-
-
 |===
-
 +++*+++ Different lengths can be ordered
 
 //+++*+++ {camera-8G}-XX-XX-CAB15F models include a 15 ft cable set;
