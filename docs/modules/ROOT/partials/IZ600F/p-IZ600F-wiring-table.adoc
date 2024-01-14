@@ -36,7 +36,7 @@ Installation Guide] for a table of
 Camera-to-Illuminator Recommended Setups
 endif::[]
 
-ifdef::layout-user-guide[]
+ifdef::layout-type-userguide[]
 {compname-short} P/N: See
 <<t_Camera-to-Illuminator-Recommended-Setups>> for
 a table of Camera-to-Illuminator Recommended

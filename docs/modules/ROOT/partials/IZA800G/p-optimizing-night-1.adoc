@@ -33,10 +33,10 @@ series
 ifdef::xref-type-IZA800G,xref-type-IZA800GVES[strobe]
 illuminators.*
 
-By using the following guidelines, you can match the illuminator you need to the {compname-short}
-ifndef::xref-type-IZ600F[Camera System]
-ifdef::xref-type-IZ600F[camera]
-being used.
+By using the following guidelines, you can match the illuminator to your {compname-short}
+ifndef::xref-type-IZ600F[Camera System.]
+ifdef::xref-type-IZ600F[camera.]
+
 
 * The number of illuminator LEDs and beam angle must match the distance type (long or short) of the
 ifndef::xref-type-IZ600F[Camera System]
