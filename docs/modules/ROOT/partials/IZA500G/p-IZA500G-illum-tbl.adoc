@@ -1,6 +1,6 @@
 [#t_Camera-to-Illuminator-Recommended-Setup]
 
-.Camera-to-Illuminator Recommended Setup
+.Camera-to-Illuminator Recommended Setups
 
 [table.withborders,width="100%",cols="30%,19%,19%,15%,17%",options="header",]
 |===
