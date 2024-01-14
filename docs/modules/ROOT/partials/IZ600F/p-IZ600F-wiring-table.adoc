@@ -27,19 +27,26 @@ For {illum-non-strobe}2, {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR240-
 .^|G .^a|*xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator]*
 .^|
 
-ifdef::layout-type-technote[]
+ifdef::layout-type-technote+xref-type-IZ600F[]
 {compname-short} P/N: See the
 xref:IZ600F:DocList.adoc[{docproductname}
 Installation Guide] for a table of
 Camera-to-Illuminator Recommended Setups
 endif::[]
 
-ifdef::layout-type-userguide[]
+ifdef::layout-type-userguide+xref-type-IZ600F[]
 {compname-short} P/N: See
 <<t_Camera-to-Illuminator-Recommended-Setups>> for
 a table of Camera-to-Illuminator Recommended
 Setups.
 endif::[]
+
+ifdef::layout-type-userguide+xref-type-IZL[]
+{compname-short} P/N: See your camera's Installation
+Guide for a table of Camera-to-Illuminator
+Recommended Setups.
+endif::[]
+
 
 ifdef::layout-type-technote[]
 
