@@ -24,7 +24,17 @@ For {illum-non-strobe}2, {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR240-
 
 .^|F .^a|*Power/Signals Cable for Illuminator* .^|Included with illuminator
 
-.^|G .^a|*xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator]*
+.^|G
+.^a|
+
+ifdef::layout-type-userguide+xref-type-IZL[]
+{illum-non-strobe} Illuminator
+endif::[]
+
+ifdef::xref-type-IZ600F[]
+*xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator]*
+endif::[]
+
 .^|
 
 ifdef::layout-type-technote+xref-type-IZ600F[]
