@@ -384,6 +384,8 @@ avoid having these items in the Field of View a|
 |Bottom opening (screw cover) accessible a|* To be able to perform a hardware (factory default) reset if needed (see <<s_Hardware-Reset-Resets-Parameters-and-Administrator-Password>>)
 |===
 
+<<<
+
 [#s_Prepare-Cables]
 
 == Prepare Cables
