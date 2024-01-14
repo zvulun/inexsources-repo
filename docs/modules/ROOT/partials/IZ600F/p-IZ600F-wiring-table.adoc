@@ -28,7 +28,7 @@ For {illum-non-strobe}2, {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR240-
 .^a|
 
 ifdef::layout-type-userguide+xref-type-IZL[]
-{illum-non-strobe} Illuminator
+*{illum-non-strobe} Illuminator*
 endif::[]
 
 ifdef::xref-type-IZ600F[]
