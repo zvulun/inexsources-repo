@@ -397,6 +397,10 @@ avoid having these items in the Field of View a|
 [IMPORTANT]
 =========================
 *All network cable extensions and repeaters must be shielded.*
+
+If you add extensions to cables,
+be sure that there are stable/correct signal
+and power levels delivered to all components.
 =========================
 
 [#s_Typical-Wiring-Diagram]
@@ -408,11 +412,6 @@ for capturing license plate images.
 Note that the type and configuration
 of the power supply may be different than
 the one you are using at your site.
-
-[IMPORTANT]
-========================================
-All network cable extensions and repeaters must be shielded.
-========================================
 
 [#f_Typical-Wiring-Diagram]
 
