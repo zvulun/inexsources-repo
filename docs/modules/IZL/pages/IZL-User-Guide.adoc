@@ -339,35 +339,32 @@ If you are using an {compname-short} power supply, see its User Guide for import
 
 All cable extensions and repeaters must be shielded.
 
+If you need to add length to the power/signals cable, be sure that:
+
+* The desired voltage reaches the illuminator
+//* If used - the trigger signal levels you need reach the illuminator
+* If used - the alarm signal levels you need can be sensed from the illuminator by your equipment
+
 ========================================
 
 .Power/Signals Pinout
 
 include::ROOT:partial$IZL/p-IZL-connector-pinouts.adoc[IZL Connector Pinouts]
 
-[IMPORTANT]
-=============================
-If you need to add length to the power/signals cable, be sure that:
+//See <<f_Typical-Wiring-Diagram>> for a typical wiring diagram for capturing
+//license plate images. Note that the type and
+//configuration of the power supplies may be
+//different than the ones you are using at your site.
 
-* The desired voltage reaches the illuminator
-//* If used - the trigger signal levels you need reach the illuminator
-* If used - the alarm signal levels you need can be sensed from the illuminator by your equipment
-=============================
+//[#f_Typical-Wiring-Diagram]
 
-See <<f_Typical-Wiring-Diagram>> for a typical wiring diagram for capturing
-license plate images. Note that the type and
-configuration of the power supplies may be
-different than the ones you are using at your site.
+//.Typical Wiring Diagram
 
-[#f_Typical-Wiring-Diagram]
+//image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700]
 
-.Typical Wiring Diagram
+//.Wiring Diagram Legend/Bill of Materials
 
-image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700]
-
-.Wiring Diagram Legend/Bill of Materials
-
-include::ROOT:partial$IZ600F/p-IZ600F-wiring-table.adoc[IZ600F Wiring Table]
+//include::ROOT:partial$IZ600F/p-IZ600F-wiring-table.adoc[IZ600F Wiring Table]
 
 
 <<<
