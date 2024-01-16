@@ -1,4 +1,4 @@
-ifndef::xref-type-IZ600F[]
+ifndef::xref-type-IZ600F,xref-type-IZA800G[]
 +++<div class="pagebreak"> </div>+++
 endif::[]
 
