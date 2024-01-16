@@ -244,53 +244,51 @@ endif::xref-type-DFC[]
 
 === Matching an Illuminator to Your Camera System
 
-[NOTE]
+* The wavelength of an external illuminator
+must be compatible with the wavelength of the
+internal illuminators of the {compname-short} Camera System.
 
-========================================
+* The number of illuminator LEDs and beam angle must match the distance rating of the camera being used, as follows:
 
-The wavelength of an external illuminator must be compatible with the wavelength of the internal illuminators of the {compname-short} camera. See the appropriate Camera Installation and Configuration Guide(s).
+** Fewer LEDs and wider beam angles are used for short distances
 
-========================================
+** More LEDs and narrower beam angles are used for longer distances
 
-The number of illuminator LEDs and beam angle must match the distance rating of the camera being used, as follows:
+See your Camera System's Installation Guide for
+a table of Camera-to-Illuminator Recommended Setups.
 
-* Fewer LEDs and wider beam angles are used for short distances
-
-* More LEDs and narrower beam angles are used for longer distances
-
-See the appropriate Camera Installation and Configuration Guide(s) for an explanation of the model number codes (effective distances, and wavelengths/beam angles).
 //*_\{Add {camera-5G} or GR here –
 //since new pinout should allow for a
 //strobe trigger as in the Driver Face Capture solution –
 //and fix in catalog as well\}_*
 
-[#t_Camera-to-Illuminator-Typical-Use-Cases]
+//[#t_Camera-to-Illuminator-Typical-Use-Cases]
 
-.Camera-to-Illuminator Typical Use Cases
+//.Camera-to-Illuminator Typical Use Cases
 
-[table.withborders,width="100%",cols="30%,19%,19%,15%,17%",options="header",]
-|===
-|Camera |Illuminator |Strobe Signal |Night Image |Installation
-.^|{camera-8G}-L/XL-xx |{shortprodname}2-WL-20 .2+.^|OV Strobe
-.2+.^|Color .2+.^|Rear
-.^|{camera-8G}-S-xx |{shortprodname}1-WL-H40 +
-{shortprodname}1-WL-30
-.^|{camera-8G}-L/XL-xx |{shortprodname}2-IR-20 .2+.^|OV Strobe
-.2+.^|B/W .2+.^|Front
-.^|{camera-8G}-S-xx |{shortprodname}1-IR-H40 +
-{shortprodname}1-IR-30
-.^|{camera-GRV} .^|{shortprodname}2-IR-H120 .^|RV Strobe .^|B/W .^|Side
-.^|{camera-DOT} .^|{shortprodname}2-IR-H120
-.^|Near Lane (NL) Strobe and Far Lane (FL) Strobe .^|B/W .^|Side
-.^|{camera-ORT}-L-xx .^|{shortprodname}2-WL-20 +
-{shortprodname}2-CL-20 .^|OV Strobe .^|Color .^|Rear
-.^|{camera-ORT}-L-xx .^|{shortprodname}2-DR-20 +
-{shortprodname}2-IR-20 .^|LPR Strobe .^|B/W .^|Front
-.^|{camera-ORT}-S-xx .^|{shortprodname}1-WL-30 +
-{shortprodname}1-CL-30 .^|OV Strobe .^|Color .^|Rear
-.^|{camera-ORT}-S-xx .^|{shortprodname}1-DR-30 +
-{shortprodname}1-IR-30 .^|LPR Strobe .^|B/W .^|Front
-|===
+//[table.withborders,width="100%",cols="30%,19%,19%,15%,17%",options="header",]
+//|===
+//|Camera |Illuminator |Strobe Signal |Night Image |Installation
+//.^|{camera-8G}-L/XL-xx |{shortprodname}2-WL-20 .2+.^|OV Strobe
+//.2+.^|Color .2+.^|Rear
+//.^|{camera-8G}-S-xx |{shortprodname}1-WL-H40 +
+//{shortprodname}1-WL-30
+//.^|{camera-8G}-L/XL-xx |{shortprodname}2-IR-20 .2+.^|OV Strobe
+//.2+.^|B/W .2+.^|Front
+//.^|{camera-8G}-S-xx |{shortprodname}1-IR-H40 +
+//{shortprodname}1-IR-30
+//.^|{camera-GRV} .^|{shortprodname}2-IR-H120 .^|RV Strobe .^|B/W .^|Side
+//.^|{camera-DOT} .^|{shortprodname}2-IR-H120
+//.^|Near Lane (NL) Strobe and Far Lane (FL) Strobe .^|B/W .^|Side
+//.^|{camera-ORT}-L-xx .^|{shortprodname}2-WL-20 +
+///{shortprodname}2-CL-20 .^|OV Strobe .^|Color .^|Rear
+//.^|{camera-ORT}-L-xx .^|{shortprodname}2-DR-20 +
+//{shortprodname}2-IR-20 .^|LPR Strobe .^|B/W .^|Front
+//.^|{camera-ORT}-S-xx .^|{shortprodname}1-WL-30 +
+//{shortprodname}1-CL-30 .^|OV Strobe .^|Color .^|Rear
+//.^|{camera-ORT}-S-xx .^|{shortprodname}1-DR-30 +
+//{shortprodname}1-IR-30 .^|LPR Strobe .^|B/W .^|Front
+//|===
 
 [#s_Additional-Installation-Considerations]
 
