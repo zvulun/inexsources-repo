@@ -238,6 +238,8 @@ include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV 
 
 include::ROOT:partial$IZA800GORT/p-IZA800GORT-illum-tbl.adoc[IZA800GORT-to-Illuminator Recommended Setups]
 
+<<<
+
 [#s_Illuminator-Triggering-and-Pulse-Width]
 
 ==== Illuminator Triggering and Pulse Width
