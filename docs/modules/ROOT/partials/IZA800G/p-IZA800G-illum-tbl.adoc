@@ -8,9 +8,9 @@
 .^|{camera-8G}-L/XL-xx |{illum-strobe}2-WL-20 .2+.^|OV Strobe
 .2+.^|Color .2+.^|Rear
 .^|{camera-8G}-S-xx |{illum-strobe}1-WL-H40 +
-{shortprodname}1-WL-30
+{illum-strobe}1-WL-30
 .^|{camera-8G}-L/XL-xx |{illum-strobe}2-IR-20 .2+.^|OV Strobe
 .2+.^|B/W .2+.^|Front
 .^|{camera-8G}-S-xx |{illum-strobe}1-IR-H40 +
-{shortprodname}1-IR-30
+{illum-strobe}1-IR-30
 |===
