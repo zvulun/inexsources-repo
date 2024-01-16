@@ -281,7 +281,7 @@ a table of Camera-to-Illuminator Recommended Setups.
 //.^|{camera-DOT} .^|{shortprodname}2-IR-H120
 //.^|Near Lane (NL) Strobe and Far Lane (FL) Strobe .^|B/W .^|Side
 //.^|{camera-ORT}-L-xx .^|{shortprodname}2-WL-20 +
-///{shortprodname}2-CL-20 .^|OV Strobe .^|Color .^|Rear
+//{shortprodname}2-CL-20 .^|OV Strobe .^|Color .^|Rear
 //.^|{camera-ORT}-L-xx .^|{shortprodname}2-DR-20 +
 //{shortprodname}2-IR-20 .^|LPR Strobe .^|B/W .^|Front
 //.^|{camera-ORT}-S-xx .^|{shortprodname}1-WL-30 +
