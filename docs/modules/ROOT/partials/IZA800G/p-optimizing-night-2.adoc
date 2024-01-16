@@ -1,7 +1,3 @@
-ifndef::xref-type-IZ600F,xref-type-IZA800G[]
-+++<div class="pagebreak"> </div>+++
-endif::[]
-
 [#s_Illuminator-Mounting-and-Aiming]
 
 ==== Illuminator Mounting and Aiming
