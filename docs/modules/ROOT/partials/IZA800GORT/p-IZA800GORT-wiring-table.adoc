@@ -10,31 +10,44 @@ Can power 2 cameras from a single power supply a|
 
 .^|D .^a|*Illuminator Power Cable** .^a|{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR-15F]
 .^|E .^a|*Illuminator Signals Cable** .^a|{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG-15F]
-.^|F .^a|*{illum-strobe} Strobe Illuminator (Infrared Light-Front Capture)* .^a|
+.^|F .^a|
 
-ifndef::xref-type-IZS,xref-type-IZSVES[]
-{compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator User Guide]
-for a table of Camera-to-Illuminator Typical Use Cases
+*xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator] (Infrared Light-Front Capture)*
+
+.^a|
+
+ifdef::layout-type-technote[]
+{compname-short} P/N: See the
+xref:IZA800GORT:DocList.adoc[{docproductname}
+Installation Guide] for a table of
+Camera-to-Illuminator Recommended Setups
 endif::[]
 
-ifdef::xref-type-IZS,xref-type-IZSVES[]
-{compname-short}
-P/N: See <<t_Camera-to-Illuminator-Typical-Use-Cases>>
-for Camera-to-Illuminator Typical Use Cases
+ifdef::layout-type-userguide[]
+{compname-short} P/N: See
+<<t_Camera-to-Illuminator-Recommended-Setups>> for
+a table of Camera-to-Illuminator Recommended
+Setups.
 endif::[]
 
+.^|G .^a|
 
-.^|G .^a|*{illum-strobe} Strobe Illuminator (White Light-Rear Capture)* .^a|
+*xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator] (White Light-Rear Capture)*
 
-ifndef::xref-type-IZS,xref-type-IZSVES[]
-{compname-short} P/N: See the xref:IZS:DocList.adoc[{illum-strobe} Strobe Illuminator User Guide]
-for a table of Camera-to-Illuminator Typical Use Cases
+.^a|
+
+ifdef::layout-type-technote[]
+{compname-short} P/N: See the
+xref:IZA800GORT:DocList.adoc[{docproductname}
+Installation Guide] for a table of
+Camera-to-Illuminator Recommended Setups
 endif::[]
 
-ifdef::xref-type-IZS,xref-type-IZSVES[]
-{compname-short}
-P/N: See <<t_Camera-to-Illuminator-Typical-Use-Cases>>
-for Camera-to-Illuminator Typical Use Cases
+ifdef::layout-type-userguide[]
+{compname-short} P/N: See
+<<t_Camera-to-Illuminator-Recommended-Setups>> for
+a table of Camera-to-Illuminator Recommended
+Setups.
 endif::[]
 
 |===

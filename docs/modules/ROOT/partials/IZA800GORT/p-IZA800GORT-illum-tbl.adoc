@@ -5,12 +5,12 @@
 [table.withborders,width="100%",cols="30%,19%,19%,15%,17%",options="header",]
 |===
 |Camera |Illuminator |Strobe Signal |Night Image |Installation
-.^|{camera-ORT}-L-xx .^|{illum-strobe}2-WL-20 +
+.^|{camera-ORT}-L-xx .^a|{illum-strobe}2-WL-20 +
 {shortprodname}2-CL-20 .^|OV Strobe .^|Color .^|Rear
-.^|{camera-ORT}-L-xx .^|{illum-strobe}2-DR-20 +
-{illum-strobe}2-IR-20 .^|LPR Strobe .^|B/W .^|Front
-.^|{camera-ORT}-S-xx .^|{illum-strobe}1-WL-30 +
-{illum-strobe}1-CL-30 .^|OV Strobe .^|Color .^|Rear
-.^|{camera-ORT}-S-xx .^|{illum-strobe}1-DR-30 +
-{illum-strobe}1-IR-30 .^|LPR Strobe .^|B/W .^|Front
+.^|{camera-ORT}-L-xx .^a|{illum-strobe}2-DR-20 +
+{illum-strobe}2-IR-20 .^a|LPR Strobe .^|B/W .^|Front
+.^|{camera-ORT}-S-xx .^a|{illum-strobe}1-WL-30 +
+{illum-strobe}1-CL-30 .^a|OV Strobe .^|Color .^|Rear
+.^|{camera-ORT}-S-xx .^a|{illum-strobe}1-DR-30 +
+{illum-strobe}1-IR-30 .^a|LPR Strobe .^|B/W .^|Front
 |===
