@@ -236,6 +236,8 @@ External illuminators can be used to enhance overview vehicle image quality, for
 
 include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
 
+include::ROOT:partial$IZA800GORT/p-IZA800GORT-illum-tbl.adoc[IZA800GORT-to-Illuminator Recommended Setups]
+
 [#s_Illuminator-Triggering-and-Pulse-Width]
 
 ==== Illuminator Triggering and Pulse Width
@@ -337,8 +339,6 @@ Prefabricated cables can be ordered from {compname-short}. See <<s_Related-Docum
 
 
 include::ROOT:partial$IZA800G/p-pwr-sig-cable-1.adoc[First Part of Power/Signals Cable]
-
-include::ROOT:partial$IZA800GORT/p-IZA800GORT-illum-tbl.adoc[IZA800GORT-to-Illuminator Recommended Setups]
 
 +++<div class="pagebreak"> </div>+++
 
