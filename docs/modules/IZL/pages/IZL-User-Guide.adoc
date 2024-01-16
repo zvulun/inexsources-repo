@@ -56,8 +56,8 @@ toc::[]
 [table.withborders,width="100%",cols="45%,55%",options="header",]
 |===
 |Doc. No. |Title
-.^|xref:IZ600F:DocList.adoc[{camera-6F}-MAN-002b] |{camera-6F} Installation Guide
-.^|xref:IZA500G:DocList.adoc[{camera-5G}-GR-MAN-002b] |{camera-5G}/GR Installation Guide
+//.^|xref:IZ600F:DocList.adoc[{camera-6F}-MAN-002b] |{camera-6F} Installation Guide
+//.^|xref:IZA500G:DocList.adoc[{camera-5G}-GR-MAN-002b] |{camera-5G}/GR Installation Guide
 .^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
 .^|xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-004] |Illuminator Mounting - U.S.A.
 .^|xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[MOUNT-IZSL-PRSNT-005] |Illuminator Gantry Mounting - Using Packaged Hardware
