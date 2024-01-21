@@ -149,10 +149,13 @@ If any parts are missing or damaged, please contact {compname-long}.
 
 [#s_Required-Accessories]
 
-=== Required Accessories
+=== Required Accessories (Not Included)
 
-The following accessories can be supplied by {compname-med}.
-For documentation and part numbers, see <<s_Related-Documents>>.
+* Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters).
+
+The following accessories can be supplied by
+{compname-med}. For documentation and part numbers,
+see <<s_Related-Documents>>.
 
 [#t_Required-Accessories]
 

@@ -139,7 +139,7 @@ image::ROOT:/IZA800GVES/image1.png[image,width=444,height=346]
 
 * {shortprodname} {system-type} All-in-one AI Camera System
 
-* Power/LAN cable (for part numbers {shortprodname}-X-XX-CAB15F);
+* Power/LAN cable (for part numbers {shortprodname}-X-XX-CABxxF);
 different xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES] cable lengths can be ordered;
 can also be constructed using a length of
 xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE] and the
@@ -204,7 +204,9 @@ include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Con
 
 * Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters).
 
-* The following accessories can be supplied by {compname-med}. For documentation and part numbers, see <<s_Related-Documents>> and <<s_Specifications>>.
+* The following accessories can be supplied by
+{compname-med}. For documentation and part numbers,
+see <<s_Related-Documents>> and <<s_Specifications>>.
 
 [#t_Required-Accessories]
 
@@ -218,6 +220,15 @@ include::ROOT:partial$IZA800GVES/p-IZA800GVES-connector-pinouts.adoc[IZA800G Con
 |Power/LAN  cable |Connects the Camera System to power and LAN; IZ Composite Cable or Power/LAN Cable for {system-type} System
 |DIN Rail Mount Connection Panel |Used to connect the Camera System to the LAN and power supply
 |===
+
+[IMPORTANT]
+
+========================================
+
+When using {compname-short} cables (such as the IZ Composite Cable or the prefabricated Power/LAN Cable), for proper LAN connectivity from the camera via the {hw-connection-panel}, the maximum cable length is 200 feet.
+
+========================================
+
 
 [#s_Optional-Accessories]
 
