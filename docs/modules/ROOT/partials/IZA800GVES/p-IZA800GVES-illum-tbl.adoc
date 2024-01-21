@@ -1,0 +1,14 @@
+[#t_Camera-to-Illuminator-Recommended-Setups]
+
+.Camera-to-Illuminator Recommended Setups
+
+[table.withborders,width="100%",cols="30%,19%,19%,15%,17%",options="header",]
+|===
+|Camera |Illuminator |Strobe Signal |Night Image |Installation
+.^|{camera-VES}-L-xx |{illum-VES}2-WL-20 .2+.^|OV Strobe
+.2+.^|Color .2+.^|Rear
+.^|{camera-VES}-S-xx |{illum-VES}1-WL-H40
+.^|{camera-VES}-L-xx |{illum-VES}2-IR-20 .2+.^|OV Strobe
+.2+.^|B/W .2+.^|Front
+.^|{camera-VES}-S-xx |{illum-VES}1-IR-H40
+|===

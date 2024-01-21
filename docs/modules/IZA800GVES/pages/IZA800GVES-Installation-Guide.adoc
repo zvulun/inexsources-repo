@@ -133,13 +133,13 @@ image::ROOT:/IZA800GVES/image1.png[image,width=444,height=346]
 
 * {shortprodname} {system-type} All-in-one AI Camera System
 
-* Power/LAN cable (for part numbers {shortprodname}-X-XX-CAB15F);
+* Power/LAN cable (for part numbers {shortprodname}-X-XX-CABxxF);
 different xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES] cable lengths can be ordered;
 can also be constructed using a length of
 xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE] and the
 field-mountable connector included: Waterproof outdoor Binder RD24, part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07, window=_blank]
 
-* Illuminator cable (for part numbers {shortprodname}-X-XX-CAB15F); +
+* Illuminator cable (for part numbers {shortprodname}-X-XX-CABxxF); +
 different xref:IZCAB-SVES:DocList.adoc[IZCAB-SVES] cable lengths can be ordered
 
 [sidebar]
@@ -194,7 +194,7 @@ For documentation and part numbers, see <<s_Related-Documents>>.
 
 * Network (LAN) cabling (typically CAT 5e/6 cable) with metal-body RJ45 connectors. The total length of the cable should not exceed 328 feet (100 meters).
 
-* Tools for building camera and LAN cables (wire stripper, crimp tool, etc.) and RJ45 connectors with metal bodies.
+* Tools for building cables (wire stripper, crimp tool, etc.)
 +
 [IMPORTANT]
 
@@ -231,6 +231,8 @@ include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections 
 === Optimizing Nighttime Vehicle Overview Images (using External Illuminators)
 
 include::ROOT:partial$IZA800G/p-optimizing-night-1.adoc[Optimizing Nighttime OV Images - 1]
+
+include::ROOT:partial$IZA800GVES/p-IZA800GVES-illum-tbl.adoc[IZA800GVES-to-Illuminator Recommended Setups]
 
 [#s_Illuminator-Triggering-and-Pulse-Width]
 
@@ -675,7 +677,7 @@ The screw terminal blocks of the {hw-connection-panel} are plugs. They can be re
 
 ** Connect the power supply's (V{plus}), GND and drain terminals to the appropriate connections on the {hw-connection-panel}'s smaller terminal block.
 
-** Connect the camera Power/LAN cable's flying leads (wires) red ({plus}), black (-) and drain flying leads (wires) to the {hw-connection-panel}'s larger terminal block.
+** Connect the camera Power/LAN cable's flying leads (wires) of red ({plus}), black (-) and drain to the {hw-connection-panel}'s larger terminal block.
 
 * LAN
 

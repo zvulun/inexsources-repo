@@ -1,33 +1,40 @@
 [table.withborders,width="100%",cols="7%,52%,41%",options="header",]
 |===
 |Item |Description |Ordering Information
-|A a|*LAN Cable* |Supplied by integrator
-|B a|*Power/LAN Cable for {system-type} System+++*+++* +
+.^a|A .^a|*LAN Cable* .^a|Supplied by integrator
+a|B a|*Power/LAN Cable for {system-type} System+++*+++* +
 
 or build yourself with IZ_COMPOSITE_CABLE and the Power/LAN Cable Connector included with the Camera System
 
-*IZ_COMPOSITE_CABLE maximum allowable length is 200 ft (61 m)* |{compname-short} P/N: xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES] +++<br>+++
+*IZ_COMPOSITE_CABLE maximum allowable length is 200 ft (61 m)* a|{compname-short} P/N: xref:IZCAB-AVES:DocList.adoc[IZCAB-AVES] +++<br>+++
 or
 +++<br>+++
 {compname-short} P/N: xref:IZ_COMPOSITE_CABLE:DocList.adoc[IZ_COMPOSITE_CABLE] +
 Binder P/N: https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07, window=_blank]
 
-|C a|*Power Supply:* 24 VDC, 240 W, DIN rail mount a|
+.^a|C .^a|*Power Supply:* 24 VDC, 240 W, DIN rail mount .^a|
 {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
 
-|D a|*Illuminator Cable for {system-type} System+++*+++* |{compname-short} P/N: xref:IZCAB-SVES:DocList.adoc[IZCAB-S{system-type}]
-|E a|*DIN Rail Mountable Connection Panel* |{compname-short} P/N: xref:IZPANEL:DocList.adoc[{hw-connection-panel}]
-|F a|*{illum-VES} Strobe Illuminator* |
+.^a|D .^a|*Illuminator Cable for {system-type} System+++*+++* .^a|{compname-short} P/N: xref:IZCAB-SVES:DocList.adoc[IZCAB-S{system-type}]
+.^a|E .^a|*DIN Rail Mountable Connection Panel* .^a|{compname-short} P/N: xref:IZPANEL:DocList.adoc[{hw-connection-panel}]
+.^a|F .^a|
 
-ifndef::xref-type-IZS,xref-type-IZSVES[]
-{compname-short} P/N: See the xref:IZSVES:DocList.adoc[{illum-VES} Strobe Illuminator User Guide]
-for a table of Camera-to-Illuminator Typical Use Cases
+*xref:IZSVES:DocList.adoc[{illum-VES} Strobe Illuminator]*
+
+.^a|
+
+ifdef::layout-type-technote[]
+{compname-short} P/N: See the
+xref:IZA800GVES:DocList.adoc[{camera-VES}
+Installation Guide] for a table of
+Camera-to-Illuminator Recommended Setups
 endif::[]
 
-ifdef::xref-type-IZS,xref-type-IZSVES[]
-{compname-short}
-P/N: See <<t_Camera-to-Illuminator-Typical-Use-Cases>>
-for Camera-to-Illuminator Typical Use Cases
+ifdef::layout-type-userguide[]
+{compname-short} P/N: See
+<<t_Camera-to-Illuminator-Recommended-Setups>> for
+a table of Camera-to-Illuminator Recommended
+Setups.
 endif::[]
 
 |===
