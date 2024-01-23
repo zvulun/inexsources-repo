@@ -49,25 +49,18 @@ image:IZPANEL:IZPANEL3-FIG-001b_FrontView.png[Picture of IZPanel,width=300,align
 
 // no section numbers in datasheets
 //:sectnums: all
+
+{empty} +
 {empty}
-{empty}
-
-// place the TOC in this specific position (capability enabled by :toc: macro at start
-// of file
-// no TOC in datasheets ._Click to show the Table of Contents_
-// [%collapsible]
-// ====
-
-// toc::[]
-
-// ====
-
 The {shortprodname} is used in connection
 cabinets. It provides a convenient way to
 connect the IZ Composite Cable or the
 prefabricated VES Power/LAN Cable
 from the {camera-VES} camera to the
 LAN and power supply.
+
+{empty} +
+{empty}
 
 [discrete]
 == Ordering Information
