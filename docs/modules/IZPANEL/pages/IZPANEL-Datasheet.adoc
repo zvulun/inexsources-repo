@@ -93,7 +93,7 @@ a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=400]
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
 .^a|image:IZPANEL:IZPANEL3-FIG-004_FrontWithSticker.png[image,width=400]
-|[table.withborders,width="100%",cols="60%,40%",options="header",]
+|[table.withborders,width="100%",cols="58%,42%",options="header",]
 !===
 2+^!Power Input Wires
 a!*Label* a!*Typical Wire Color*
@@ -103,7 +103,7 @@ a!*Label* a!*Typical Wire Color*
 !===
 
 
-[table.withborders,width="100%",cols="60%,40%",options="header",]
+[table.withborders,width="100%",cols="58%,42%",options="header",]
 !===
 2+^!Camera Cable Wires
 a!*Signal* a!*Wire Color*
@@ -112,7 +112,7 @@ a!*Signal* a!*Wire Color*
 !(LAN) RX ({plus})  !White/Green
 !(LAN) TX (-) !Orange
 !(LAN) TX ({plus})  !White/Orange
-!24 VDC ({plus}V) Output !Red
+!24 VDC ({plus}) Output !Red
 !24 VDC (-)/GND !Black
 !===
 
