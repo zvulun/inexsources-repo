@@ -1,6 +1,6 @@
 = IZPWR Documents List
 
-* xref:IZPWR:IZPWR-Datasheet.adoc[IZPWR DIN Datasheet]
+* xref:IZPWR:IZPWR-Datasheet.adoc[IZPWR Datasheet]
 
 Supporting documentation (specifications and user guides) can be found at https://drive.google.com/drive/folders/1NEqPbvTz7GX3Go00Wmp6BmPu7HuGndnz?usp=drive_link[GDriveLink, window=_blank]
 
