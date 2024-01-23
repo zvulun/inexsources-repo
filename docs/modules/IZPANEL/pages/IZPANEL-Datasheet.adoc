@@ -102,6 +102,8 @@ a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=400]
 !24 VDC ({plus}) Input !Red
 !===
 
+
+[table.withborders,width="100%",cols="60%,40%",options="header",]
 !===
 2+^!Camera Cable Wires
 !Label !Typical Wire Color
