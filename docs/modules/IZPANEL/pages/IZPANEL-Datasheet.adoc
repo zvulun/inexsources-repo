@@ -1,4 +1,4 @@
-:docproductname: IZPanel
+:docproductname: IZPANEL
 :shortprodname: IZPanel
 :generic-camera-name:
 
@@ -17,14 +17,7 @@
 :xref-type-IZPWR:
 :layout-type-technote:
 
-//enable the TOC to be placed in a specific position
-//:toc: macro
-
-= {docproductname} Datasheet
-
-//xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
-
-//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+= {shortprodname} Datasheet
 
 //!sectnum momentarily stops section numbering
 :!sectnums:
@@ -42,8 +35,6 @@
 
 [discrete]
 === Rev. 3.0
-//[discrete]
-//=== Datasheet
 
 image:IZPANEL:IZPANEL3-FIG-001b_FrontView.png[Picture of IZPanel,width=300,align=left]
 
@@ -121,5 +112,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
 
-Doc. No. {shortprodname}-REV-3_0-TDSHEET
+Doc. No. {docproductname}-REV-3_0-TDSHEET
 
