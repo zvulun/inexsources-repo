@@ -73,6 +73,14 @@ The IZPanel is used in connection cabinets. It provides a convenient way to conn
 |{shortprodname} |DIN Rail Mountable Connection Panel
 |===
 
+[discrete]
+== Dimensions (mm)
+
+[table.noborders,width="100%",cols="50%,50%"]
+|===
+a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=400]
+a|image:IZPANEL:IZPANEL3-FIG-003b_DimHeight.png[image,width=400]
+|===
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
