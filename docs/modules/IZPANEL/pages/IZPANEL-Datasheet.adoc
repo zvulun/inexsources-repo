@@ -62,7 +62,12 @@ image:IZPANEL:IZPANEL3-FIG-001b_FrontView.png[Picture of Power Supplies,width=40
 
 // ====
 
-The IZPanel is used in connection cabinets. It provides a convenient way to connect the IZ Composite Cable or the prefabricated VES Power/LAN Cable from the IZA800GVES camera to the LAN and power supply.
+The {shortprodname} is used in connection
+cabinets. It provides a convenient way to
+connect the IZ Composite Cable or the
+prefabricated VES Power/LAN Cable
+from the {camera-VES} camera to the
+LAN and power supply.
 
 [discrete]
 == Ordering Information
@@ -81,6 +86,36 @@ The IZPanel is used in connection cabinets. It provides a convenient way to conn
 a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=400]
 .^a|image:IZPANEL:IZPANEL3-FIG-003b_DimHeight.png[image,width=400]
 |===
+
+[discrete]
+== IZPanel Pinouts
+
+[table.noborders,cols="1,2a",width="100%",frame=none,grid=none]
+|===
+| image:IZPANEL:IZPANEL3-FIG-004_FrontWithSticker.png[image,width=400]
+|[table.withborders,width="100%",cols="60%,40%",options="header",]
+!===
+2+^!Power Input Wires
+!Label !Typical Wire Color
+!image:ROOT:GroundSymbol.png[image,width=20,height=26] (Shield) !Yellow
+!24 VDC (-)/GND !Black
+!24 VDC ({plus}) Input !Red
+!===
+
+!===
+2+^!Camera Cable Wires
+!Label !Typical Wire Color
+!image:ROOT:GroundSymbol.png[image,width=20,height=26] (Shield) !Yellow
+!24 VDC (-)/GND !Black
+!24 VDC ({plus}) Input !Red
+!===
+
+
+|===
+
+
+
+
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
