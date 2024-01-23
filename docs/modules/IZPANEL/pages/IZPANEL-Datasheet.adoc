@@ -76,7 +76,7 @@ The IZPanel is used in connection cabinets. It provides a convenient way to conn
 [discrete]
 == Dimensions (mm)
 
-[table.noborders,width="100%",cols="50%,50%"]
+[table.noborders,width="100%",cols="50%,50%",border="none"]
 |===
 a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=400]
 a|image:IZPANEL:IZPANEL3-FIG-003b_DimHeight.png[image,width=400]
