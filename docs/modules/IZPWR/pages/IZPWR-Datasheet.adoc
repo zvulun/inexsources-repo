@@ -70,18 +70,18 @@ image:IZPWR:IZPWR-DIN-FIG-001a_Front_Page.png[Picture of Power Supplies,width=40
 
 * [*] DIN rail mounting for convenient, space-saving installation
 
-[discrete]
-== Specifications and User Instructions
-
-Click this https://drive.google.com/drive/folders/1NEqPbvTz7GX3Go00Wmp6BmPu7HuGndnz?usp=drive_link[GDrive link, window=_blank] for documentation
-
 image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
 image:ROOT:image$UL_LOGO.png[UL Logo,50,align=right]
 
---
-+++<div class="pagebreak"> </div>+++
---
+//[discrete]
+//== Specifications and User Instructions
+
+Click this xref:IZPWR:DocList.adoc[link, window=_blank] for documentation
+
+//--
+//+++<div class="pagebreak"> </div>+++
+//--
 
 
 [discrete]
