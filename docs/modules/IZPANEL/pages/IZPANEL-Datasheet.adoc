@@ -92,7 +92,7 @@ a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=400]
 
 [table.noborders,cols="2,1a",width="100%",frame=none,grid=none]
 |===
-| image:IZPANEL:IZPANEL3-FIG-004_FrontWithSticker.png[image,width=400]
+^.a|image:IZPANEL:IZPANEL3-FIG-004_FrontWithSticker.png[image,width=400]
 |[table.withborders,width="100%",cols="60%,40%",options="header",]
 !===
 2+^!Power Input Wires
