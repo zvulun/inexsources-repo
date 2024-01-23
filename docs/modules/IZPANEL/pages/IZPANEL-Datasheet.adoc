@@ -94,10 +94,10 @@ a!*Label* a!*Typical Wire Color*
 2+^!Camera Cable Wires
 a!*Signal* a!*Wire Color*
 !image:ROOT:GroundSymbol.png[image,width=20,height=26] (Shield) !Silver
-!(LAN) RX (-) !Green
-!(LAN) RX ({plus})  !White/Green
-!(LAN) TX (-) !Orange
-!(LAN) TX ({plus})  !White/Orange
+!(LAN) RX &#8212; !Green
+!(LAN) RX {plus}  !White/Green
+!(LAN) TX &#8212; !Orange
+!(LAN) TX {plus}  !White/Orange
 !24 VDC ({plus}) Output !Red
 !24 VDC (-)/GND !Black
 !===
