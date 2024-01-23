@@ -90,7 +90,7 @@ a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=400]
 [discrete]
 == IZPanel Pinouts
 
-[table.noborders,cols="2,1a",width="100%",frame=none,grid=none]
+[table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
 .^a|image:IZPANEL:IZPANEL3-FIG-004_FrontWithSticker.png[image,width=400]
 |[table.withborders,width="100%",cols="62%,38%",options="header",]
