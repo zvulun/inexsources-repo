@@ -78,13 +78,15 @@ LAN and power supply.
 |{shortprodname} |DIN Rail Mountable Connection Panel
 |===
 
+<<<
+
 [discrete]
 == Dimensions (mm)
 
-[table.noborders,width="100%",cols="50%,50%",frame=none,grid=none]
+[table.noborders,width="80%",cols="50%,50%",frame=none,grid=none]
 |===
-a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=400]
-.^a|image:IZPANEL:IZPANEL3-FIG-003b_DimHeight.png[image,width=400]
+a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=350]
+.^a|image:IZPANEL:IZPANEL3-FIG-003b_DimHeight.png[image,width=350]
 |===
 
 [discrete]
