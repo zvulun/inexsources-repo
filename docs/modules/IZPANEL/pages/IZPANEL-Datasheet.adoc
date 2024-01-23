@@ -45,7 +45,7 @@
 //[discrete]
 //=== Datasheet
 
-image:IZPANEL:IZPANEL3-FIG-001b_FrontView.png[Picture of Power Supplies,width=400,align=left]
+image:IZPANEL:IZPANEL3-FIG-001b_FrontView.png[Picture of IZPanel,width=300,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -120,7 +120,7 @@ a!*Signal* a!*Wire Color*
 
 |===
 
-
+<<<
 
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
