@@ -1,0 +1,104 @@
+[table.withborders,options="header",cols="15,18,33,34"]
+|===
+2+.^| Item
+// {set:cellbgcolor:#c0c0c0}
+
+^.^| Signals
+// {set:cellbgcolor:#c0c0c0}
+
+^.^| Power
+
+
+2+.^| Specification
+//{set:cellbgcolor!}
+2+^.^|([26AWGx6C A+E]+22AWGx2C)+A+E+B
+
+.4+.^| Conductors
+.^| Material
+2+^.^| Tinned Copper
+.^| Diameter
+^.^| 26 AWG
+^.^| 22 AWG
+.^| Structure
+^.^a|0.16 mm / 7 ({plus}/- 0.008 mm)
+^.^a|0.16 mm / 17 ({plus}/- 0.008 mm)
+.^| Number of Cores
+^.^|6C
+^.^|2C
+
+.4+.^| Conductor Insulation
+.^| Material
+//{set:cellbgcolor!}
+2+^.^|PVC
+.^| Diameter
+^.^| 1.0 mm
+^.^| 1.3 mm
+.^a| Color
+.^a| * Orange
+* White
+* Brown
+* Green
+* Yellow
+* Blue
+.^a|
+* Red
+* Black
+.^| Temperature
+//{set:cellbgcolor!}
+2+^.^|-40°F to 221°F (-40°C to 105°C)
+
+.^|Individual Shielding
+.^|Material
+2+^.^a|Inner aluminum foil isolation {plus} ground wire #24
+
+.2+.^| Overall Shielding
+.^|Material
+2+^.^a|Aluminum foil {plus} ground wire #24 {plus} tinned copper mesh braid
+.^|Coverage
+2+^.^a|Braided Shielding 80%
+
+.4+.^| Outer Jacket
+.^| Material
+2+^.^a|UV Resistant {plus} Cold Resistant PVC
+.^| Temperature
+2+^.^a|40°F to 221°F (-40°C to 105°C)
+.^| Diameter
+2+^.^a|7.2 mm ({plus}/- 0.3 mm)
+.^| Color
+2+^.^a|Black
+
+.4+.^| Cable Electrical Characteristics
+.^| Rated Voltage
+2+^.^a|300 V/AC
+.^| Insulation Resistance
+2+^.^a|Minimum value: +
+20 MΩ /Km ↑ (20°C)
+.^| Conductor Resistance
+^.^a|Maximum value: +
+62.5 Ω /Km ↓ (20°C)
+^.^a|Maximum value: +
+88.6 Ω /Km ↓ (20°C)
+.^a|Voltage Spark
+2+^.^a|1.5 kV/sec
+
+
+.2+.^| Connectors
+.^| Camera Side
+2+^.^a|Female, straight, 8-pin connector, shielded assembly +
+Amphenol part no. https://www.amphenolltw.com/product-info/M-Series/M-Series.M12%28A%29/M12A-08BFFB-SL7001.html[M12A-08BFFB-SL7001, window=_blank]
+.^| Junction Box
+2+^.^a|Flying leads; see pinout diagram and table
+
+.5+.^| Certifications
+.^| RoHS
+2+.^a|* Cable: RoHS; Connector: RoHS 3
+.^| IEC
+2+.^a|* Cable: Fire retardancy IEC 60332-1
+.^| UL
+2+.^a|* Connector: UL1977, UL2238, UL1863
+.^| IP67
+2+.^a|* Connector: IP67
+.^| REACH
+2+.^a|* Connector: Certified for regulation (EC) No 2020/01/16
+|===
+
