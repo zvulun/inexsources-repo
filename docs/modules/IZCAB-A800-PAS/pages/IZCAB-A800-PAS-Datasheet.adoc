@@ -14,7 +14,7 @@
 // Remember to unset all non-relevant attributes
 
 
-:xref-type-IZPWR:
+:xref-type-IZCAB-A800-PAS:
 :layout-type-technote:
 
 = {shortprodname} Datasheet
@@ -31,18 +31,25 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Power/Signals Cable for IZA800G System
+== Power/Signals Cable for {camera-8G} System
 
 [discrete]
 === Rev. A
 
-image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-001_Front_Page.png[Picture of Cable,width=300,align=left]
+image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-001_Front_Page.png[Picture of Cable,width=800,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
 
 {empty} +
 {empty}
+
+[discrete]
+== Key Features and Benefits
+
+* [*] Designed for an {compname-short} {camera-8G} System
+
+* [*] Power and signals in a single composite cable
 
 [discrete]
 == Ordering Information
@@ -55,15 +62,6 @@ image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-001_Front_Page.png[Picture of Cable,widt
 |===
 
 <<<
-
-[discrete]
-== Dimensions (mm)
-
-[table.noborders,width="80%",cols="50%,50%",frame=none,grid=none]
-|===
-a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=350]
-.^a|image:IZPANEL:IZPANEL3-FIG-003b_DimHeight.png[image,width=350]
-|===
 
 [discrete]
 == Power/Signals Connector Pinouts
@@ -104,5 +102,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
 
-Doc. No. {docproductname}-REV-3_0-TDSHEET
+Doc. No. {docproductname}-REV-A-TDSHEET
 
