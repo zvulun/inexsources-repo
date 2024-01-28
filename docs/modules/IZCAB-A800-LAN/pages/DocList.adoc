@@ -1,4 +1,3 @@
 = IZCAB-A800-LAN Documents List
 
-More documents can be found at https://drive.google.com/drive/folders/1xAAdS8RsHyHu5mjOLGBaf3cmk1jXLl8W?usp=share_link[GDriveLink, window=_blank]
-
+* xref:IZCAB-A800-LAN:IZCAB-A800-LAN-Datasheet.adoc[IZCAB-A800-LAN Datasheet]

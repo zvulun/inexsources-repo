@@ -1,5 +1,5 @@
-:docproductname: IZCAB-A800-PAS
-:shortprodname: IZCAB-A800-PAS
+:docproductname: IZCAB-A800-LAN
+:shortprodname: IZCAB-A800-LAN
 :generic-camera-name:
 
 // These attributes have been soft set
@@ -14,7 +14,7 @@
 // Remember to unset all non-relevant attributes
 
 
-:xref-type-IZCAB-A800-PAS:
+:xref-type-IZCAB-A800-LAN:
 :layout-type-technote:
 
 = {shortprodname} Datasheet
@@ -31,7 +31,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Power/Signals Cable for {camera-8G} System
+== LAN Cable for {camera-8G} System
 
 [discrete]
 === Rev. A
@@ -49,13 +49,9 @@ image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-001_Front_Page.png[Picture of Cable,widt
 
 * [*] Designed for an {compname-short} {camera-8G} System
 
-* [*] Power and signals in a single composite cable
-
 * [*] Anti-UV
 
 * [*] Cold resistant
-
-* [*] Fire retardant according to IEC standards
 
 * [*] Excellent performance and flexibility for long term durability
 
