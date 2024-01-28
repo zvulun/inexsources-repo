@@ -68,8 +68,10 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,80,align=right]
 
 include::IZCAB-A800-LAN:IZCAB-A800-LAN-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 
-{empty} +
-{empty}
+//{empty} +
+//{empty}
+
+<<<
 
 [discrete]
 == Ordering Information
