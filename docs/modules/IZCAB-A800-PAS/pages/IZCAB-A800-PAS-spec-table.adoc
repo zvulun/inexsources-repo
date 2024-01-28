@@ -11,7 +11,7 @@
 
 2+.^| Specification
 //{set:cellbgcolor!}
-2+^.^|([26AWGx6C A+E]+22AWGx2C)+A+E+B
+2+^.^|([26AWGx6C A{plus}E]{plus}22AWGx2C){plus}A{plus}E{plus}B
 
 .4+.^| Conductors
 .^| Material
