@@ -57,7 +57,7 @@ image:IZCAB-A800-LAN:IZA800LANCABLE-FIG-001_Front_Page.png[Picture of Cable,widt
 
 * [*] Wide temperature range - operating from -40°F to 221°F (-40°C to 105°C)
 
-* [*] Cable connector with IP67 ingress protection against extreme moisture
+* [*] IP67 waterproof protection
 
 image:ROOT:image$ROHS_LOGO.png[RoHS Logo,80,align=right]
 

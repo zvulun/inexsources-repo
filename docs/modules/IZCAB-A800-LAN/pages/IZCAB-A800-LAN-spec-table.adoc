@@ -23,7 +23,7 @@
 //{set:cellbgcolor!}
 ^.^|PVC
 .^| Diameter
-^.^| 1.0 mm
+^.^| 1.05 mm
 .^| Temperature
 //{set:cellbgcolor!}
 ^.^|-40°F to 221°F (-40°C to 105°C)
@@ -77,7 +77,7 @@ Characteristics (for 100 m)
 .^| Camera Side
 ^.^a|Outdoor RJ45 feed-through connector, plastic; +
 Amphenol part no. https://www.amphenolltw.com/product-info/RJ/RJ.MiddleSize/RCP-00BMMS-SLM7001.html[RCP-00BMMS-SLM7001, window=_blank] +
-+
+{empty} +
 plus RJ45 plug
 .^| Junction Box
 ^.^a|RJ45 plug
