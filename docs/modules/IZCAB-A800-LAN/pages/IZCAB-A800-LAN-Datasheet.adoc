@@ -61,7 +61,7 @@ image:IZCAB-A800-LAN:IZA800LANCABLE-FIG-001_Front_Page.png[Picture of Cable,widt
 
 image:ROOT:image$ROHS_LOGO.png[RoHS Logo,80,align=right]
 
-<<<
+//<<<
 
 [discrete]
 == Specifications
