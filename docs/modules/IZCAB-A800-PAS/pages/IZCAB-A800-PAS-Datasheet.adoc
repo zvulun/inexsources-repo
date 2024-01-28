@@ -51,6 +51,28 @@ image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-001_Front_Page.png[Picture of Cable,widt
 
 * [*] Power and signals in a single composite cable
 
+* [*] Anti-UV
+
+* [*] Cold resistant
+
+* [*] Fire retardant according to IEC standards
+
+* [*] Excellent performance and flexibility for long term durability
+
+* [*] Wide temperature range – operating from -40°F to 221°F (-40°C to 105°C)
+
+* [*] Cable connector with IP67 ingress protection against extreme moisture
+
+image:ROOT:image$IEC_LOGO.png[IEC Logo,50,align=right]
+image:ROOT:image$UL_LOGO.png[UL Logo,50,align=right]
+image:ROOT:image$ROHS_LOGO.png[RoHS Logo,80,align=right]
+image:ROOT:image$REACH_LOGO.png[REACH Logo,40,align=right]
+
+[discrete]
+== Specifications
+
+include::IZCAB-A800-PAS:IZCAB-A800-PAS-spec-table.adoc[IZCAB-A800-PAS Spec Table]
+
 [discrete]
 == Ordering Information
 
@@ -68,30 +90,22 @@ image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-001_Front_Page.png[Picture of Cable,widt
 
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
-.^a|image:IZPANEL:IZPANEL3-FIG-004_FrontWithSticker.png[image,width=400]
-|[table.withborders,width="100%",cols="55%,45%",options="header",]
+.^a|image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-002_Pinouts.png[image,width=400]
+|[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
 !===
-2+^!Power Input Wires
-a!*Label* a!*Typical Wire Color*
-!image:ROOT:GroundSymbol.png[image,width=20,height=26] (Shield) !Yellow
-!24 VDC (&#8212;)/GND !Black
-!24 VDC ({plus}) Input !Red
+!Pin !Power/Signal !Wire Color
+!1 !GND !Black
+!2 !Dry Trigger 5V({plus}) !Brown
+!3 !Wet Trigger GND/ +
+OV Strobe (-) .^!White
+!4 !Dry/Wet Trig Input !Blue
+!5 !24 VDC ({plus}) !Red
+!6 !RS485 (A) ({plus}) !Orange
+!7 !RS485 (B) (-) !Yellow
+!8 !OV Strobe ({plus}) !Green
+!image:ROOT:GroundSymbol.png[image,width=20,height=26]  !FE
+!Drain
 !===
-
-
-[table.withborders,width="100%",cols="55%,45%",options="header",]
-!===
-2+^!Camera Cable Wires
-a!*Signal* a!*Wire Color*
-!image:ROOT:GroundSymbol.png[image,width=20,height=26] (Shield) !Silver
-!(LAN) RX &#8212; !Green
-!(LAN) RX {plus}  !White/Green
-!(LAN) TX &#8212; !Orange
-!(LAN) TX {plus}  !White/Orange
-!24 VDC ({plus}) Output !Red
-!24 VDC (&#8212;)/GND !Black
-!===
-
 |===
 
 <<<
