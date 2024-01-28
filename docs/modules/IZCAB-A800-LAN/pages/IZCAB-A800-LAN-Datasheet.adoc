@@ -36,7 +36,7 @@
 [discrete]
 === Rev. A
 
-image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-001_Front_Page.png[Picture of Cable,width=800,align=left]
+image:IZCAB-A800-LAN:IZA800LANCABLE-FIG-001_Front_Page.png[Picture of Cable,width=800,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -59,17 +59,14 @@ image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-001_Front_Page.png[Picture of Cable,widt
 
 * [*] Cable connector with IP67 ingress protection against extreme moisture
 
-image:ROOT:image$IEC_LOGO.png[IEC Logo,50,align=right]
-image:ROOT:image$UL_LOGO.png[UL Logo,50,align=right]
 image:ROOT:image$ROHS_LOGO.png[RoHS Logo,80,align=right]
-image:ROOT:image$REACH_LOGO.png[REACH Logo,40,align=right]
 
 <<<
 
 [discrete]
 == Specifications
 
-include::IZCAB-A800-PAS:IZCAB-A800-PAS-spec-table.adoc[IZCAB-A800-PAS Spec Table]
+include::IZCAB-A800-LAN:IZCAB-A800-LAN-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 
 {empty} +
 {empty}
@@ -80,38 +77,9 @@ include::IZCAB-A800-PAS:IZCAB-A800-PAS-spec-table.adoc[IZCAB-A800-PAS Spec Table
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-|{shortprodname}-15F |Power/Signals Cable for IZA800G System, 15 ft
-|{shortprodname}-30F |Power/Signals Cable for IZA800G System, 30 ft
+|{shortprodname}-15F |LAN Cable for IZA800G System, 15 ft
+|{shortprodname}-30F |LAN Cable for IZA800G System, 30 ft
 |===
-
-{empty} +
-{empty}
-
-
-[discrete]
-== Power/Signals Connector Pinouts
-
-[table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
-|===
-.^a|image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-002_Pinouts.png[image,width=400]
-|[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
-!===
-!Pin !Power/Signal !Wire Color
-!1 !GND !Black
-!2 !Dry Trigger 5V({plus}) !Brown
-!3 !Wet Trigger GND/ +
-OV Strobe (-) .^!White
-!4 !Dry/Wet Trig Input !Blue
-!5 !24 VDC ({plus}) !Red
-!6 !RS485 (A) ({plus}) !Orange
-!7 !RS485 (B) (-) !Yellow
-!8 !OV Strobe ({plus}) !Green
-!image:ROOT:GroundSymbol.png[image,width=20,height=26]  !FE
-!Drain
-!===
-|===
-
-<<<
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 

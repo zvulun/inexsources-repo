@@ -1,85 +1,72 @@
-[table.withborders,options="header",cols="15,18,33,34"]
+[table.withborders,options="header",cols="15,18,67"]
 |===
 2+.^| Item
 // {set:cellbgcolor:#c0c0c0}
 
-^.^| Signals
+^.^| Specifications
 // {set:cellbgcolor:#c0c0c0}
-
-^.^| Power
-
 
 2+.^| Specification
 //{set:cellbgcolor!}
-2+^.^|([26AWGx6C A{plus}E]{plus}22AWGx2C){plus}A{plus}E{plus}B
+^.^|Cat6 SFTP (S/FTP) 26AWG MultiCore
 
-.4+.^| Conductors
+.3+.^| Conductors
 .^| Material
-2+^.^| Tinned Copper
+^.^| Tinned Copper
 .^| Diameter
 ^.^| 26 AWG
-^.^| 22 AWG
 .^| Structure
-^.^a|0.16 mm / 7 ({plus}/- 0.008 mm)
-^.^a|0.16 mm / 17 ({plus}/- 0.008 mm)
-.^| Number of Cores
-^.^|6C
-^.^|2C
+^.^a|34 AWG / 7
 
-.4+.^| Conductor Insulation
+.3+.^| Insulation Layer Structure
 .^| Material
 //{set:cellbgcolor!}
-2+^.^|PVC
+^.^|PVC
 .^| Diameter
 ^.^| 1.0 mm
-^.^| 1.3 mm
-.^a| Color
-.^a| * Orange
-* White
-* Brown
-* Green
-* Yellow
-* Blue
-.^a|
-* Red
-* Black
 .^| Temperature
 //{set:cellbgcolor!}
-2+^.^|-40°F to 221°F (-40°C to 105°C)
+^.^|-40°F to 221°F (-40°C to 105°C)
 
-.^|Individual Shielding
-.^|Material
-2+^.^a|Inner aluminum foil isolation {plus} ground wire #24
+.3+.^|Isolation Layer Structure
+.^|First Material
+^.^a|4P individual isolation: Aluminum Mylar (face out)
+.^|Drain Wire
+^.^a|Tinned Copper AWG #24
+.^|Second Material
+^.^a|Total Weave: Tinned Copper 16 / 4 / 0.12mm
 
-.2+.^| Overall Shielding
-.^|Material
-2+^.^a|Aluminum foil {plus} ground wire #24 {plus} tinned copper mesh braid
-.^|Coverage
-2+^.^a|Braided Shielding 80%
-
-.4+.^| Outer Jacket
+.5+.^| Outer Jacket
 .^| Material
-2+^.^a|UV Resistant {plus} Cold Resistant PVC
+^.^a|UV Resistant {plus} Cold Resistant PVC
 .^| Temperature
-2+^.^a|40°F to 221°F (-40°C to 105°C)
-.^| Diameter
-2+^.^a|7.2 mm ({plus}/- 0.3 mm)
+^.^a|40°F to 221°F (-40°C to 105°C)
+.^| Thickness
+^.^a|0.585 mm
+.^| Total Outer Diameter
+^.^a|6.0 mm {plus}/- 0.25 mm
 .^| Color
-2+^.^a|Black
+^.^a|Black
 
-.4+.^| Cable Electrical Characteristics
-.^| Rated Voltage
-2+^.^a|300 V/AC
-.^| Insulation Resistance
-2+^.^a|Minimum value: +
-20 MΩ /Km ↑ (20°C)
+.4+.^| Color Coding
+.^a| 1^st^ Pair
+^.^a|Blue and Blue/White
+.^a| 2^nd^ Pair
+^.^a|Orange and Orange/White
+.^a| 3^rd^ Pair
+^.^a|Green and Green/White
+.^a| 4^th^ Pair
+^.^a|Brown and Brown/White
+
+.6+.^| Cable Electrical
+Characteristics (for 100 m)
 .^| Conductor Resistance
-^.^a|Maximum value: +
-62.5 Ω /Km ↓ (20°C)
-^.^a|Maximum value: +
-88.6 Ω /Km ↓ (20°C)
-.^a|Voltage Spark
-2+^.^a|1.5 kV/sec
+^.^a|Maximum Value: 9.38Ω/ 100m (20 °C)
+.^a|Resistance Unbalance
+^.^a|5%
+
+
+
 
 
 .2+.^| Connectors
@@ -92,13 +79,7 @@ Amphenol part no. https://www.amphenolltw.com/product-info/M-Series/M-Series.M12
 .5+.^| Certifications
 .^| RoHS
 2+.^a|* Cable: RoHS; Connector: RoHS 3
-.^| IEC
-2+.^a|* Cable: Fire retardancy IEC 60332-1
-.^| UL
-2+.^a|* Connector: UL1977, UL2238, UL1863
 .^| IP67
 2+.^a|* Connector: IP67
-.^| REACH
-2+.^a|* Connector: Certified for regulation (EC) No 2020/01/16
 |===
 
