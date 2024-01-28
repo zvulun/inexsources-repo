@@ -64,22 +64,29 @@ Characteristics (for 100 m)
 ^.^a|Maximum Value: 9.38Ω/ 100m (20 °C)
 .^a|Resistance Unbalance
 ^.^a|5%
-
-
-
-
+.^a|Capacitance Unbalance
+^.^a|Maximum Value: 330 pF/100m
+.^a|Mutual Capacitance
+^.^a|Maximum Value: 5600 pF/100m
+.^a|Withstand Voltage
+^.^a|2.5 kV
+.^a|NVP
+^.^a|76%
 
 .2+.^| Connectors
 .^| Camera Side
-2+^.^a|Female, straight, 8-pin connector, shielded assembly +
-Amphenol part no. https://www.amphenolltw.com/product-info/M-Series/M-Series.M12%28A%29/M12A-08BFFB-SL7001.html[M12A-08BFFB-SL7001, window=_blank]
+^.^a|Outdoor RJ45 feed-through connector, plastic; +
+Amphenol part no. https://www.amphenolltw.com/product-info/RJ/RJ.MiddleSize/RCP-00BMMS-SLM7001.html[RCP-00BMMS-SLM7001, window=_blank] +
++
+plus RJ45 plug
 .^| Junction Box
-2+^.^a|Flying leads; see pinout diagram and table
+^.^a|RJ45 plug
 
-.5+.^| Certifications
+
+.2+.^| Certifications
 .^| RoHS
-2+.^a|* Cable: RoHS; Connector: RoHS 3
+^.^a|Cable: RoHS; Connector: RoHS 3
 .^| IP67
-2+.^a|* Connector: IP67
+^.^a| Connector: IP67
 |===
 
