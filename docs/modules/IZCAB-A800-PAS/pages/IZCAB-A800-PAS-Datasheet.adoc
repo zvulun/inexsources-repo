@@ -68,10 +68,15 @@ image:ROOT:image$UL_LOGO.png[UL Logo,50,align=right]
 image:ROOT:image$ROHS_LOGO.png[RoHS Logo,80,align=right]
 image:ROOT:image$REACH_LOGO.png[REACH Logo,40,align=right]
 
+<<<
+
 [discrete]
 == Specifications
 
 include::IZCAB-A800-PAS:IZCAB-A800-PAS-spec-table.adoc[IZCAB-A800-PAS Spec Table]
+
+{empty} +
+{empty}
 
 [discrete]
 == Ordering Information
@@ -107,9 +112,6 @@ OV Strobe (-) .^!White
 !Drain
 !===
 |===
-
-<<<
-
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
