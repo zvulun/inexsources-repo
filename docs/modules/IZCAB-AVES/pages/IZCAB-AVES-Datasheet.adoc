@@ -79,8 +79,7 @@ image:ROOT:image$REACH_LOGO.png[REACH Logo,40,align=right]
 
 include::IZCAB-AVES:IZCAB-AVES-spec-table.adoc[IZCAB-A800-PAS Spec Table]
 
-{empty} +
-{empty}
+<<<
 
 [discrete]
 == Ordering Information
@@ -115,8 +114,6 @@ include::IZCAB-AVES:IZCAB-AVES-spec-table.adoc[IZCAB-A800-PAS Spec Table]
 !Silver
 !===
 |===
-
-<<<
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
