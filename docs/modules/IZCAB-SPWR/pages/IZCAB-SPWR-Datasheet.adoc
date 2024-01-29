@@ -54,7 +54,7 @@ image:ROOT:image$UL_LOGO.png[UL Logo,40,align=right]
 
 include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 
-{empty} +
+//{empty} +
 
 [discrete]
 == Ordering Information
