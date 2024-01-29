@@ -11,7 +11,7 @@
 
 2+.^| Specification
 //{set:cellbgcolor!}
-1+^.^|(22AWGx1P {plua}A)x2C
+1+^.^|(22AWGx1P {plus}A)x2C
 1+^.^|16AWGx2C
 
 .4+.^| Conductors
@@ -22,7 +22,7 @@
 ^.^| 22 AWG
 ^.^| 16 AWG
 .^| Structure
-^.^a|0.12 mm / 30 ({plua}/- 0.008 mm)
+^.^a|0.12 mm / 30 ({plus}/- 0.008 mm)
 ^.^a|0.16 mm / 65 ({plus}/- 0.008 mm)
 .^| Number of Cores
 ^.^|2P
