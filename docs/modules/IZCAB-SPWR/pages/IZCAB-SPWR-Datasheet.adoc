@@ -55,7 +55,6 @@ image:ROOT:image$UL_LOGO.png[UL Logo,40,align=right]
 include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 
 {empty} +
-{empty}
 
 [discrete]
 == Ordering Information
@@ -75,7 +74,7 @@ include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 .^a|image:IZCAB-SPWR:IZCABSPWR-FIG-002_Pinouts.png[image,width=400]
 |[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
 !===
-!Pin !Power/Signal !Wire Color
+!Pin !Signal !Wire Color
 !1 !DC12-24V input !Red
 !2 !Power GND !Black
 !image:ROOT:GroundSymbol.png[image,width=20,height=26]  !FE
