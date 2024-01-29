@@ -81,8 +81,8 @@ include::IZCAB-SSIG:IZCAB-SSIG-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 |[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
 !===
 !Pin !Signal !Wire Color
-!1 !RS485({plus}) Input !Yellow
-!2 !RS485(-) Input !Black
+!1 !RS485 ({plus}) Input !Yellow
+!2 !RS485 (-) Input !Black
 !3 !Strobe Input GND .^!Blue
 !4 !Unused !Pink
 !5 !Unused !Green

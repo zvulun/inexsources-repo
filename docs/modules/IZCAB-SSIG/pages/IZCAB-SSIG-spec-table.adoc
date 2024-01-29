@@ -27,12 +27,12 @@
 .^| Diameter
 ^.^a| 1.0 mm ({plus}/- 5%)
 .^| Color
-.^a| * Black
-* Pink
-* White
-* Green
-* Yellow
-* Blue
+^.^a| Black +
+Pink +
+White +
+Green +
+Yellow +
+Blue
 .^| Temperature
 //{set:cellbgcolor!}
 ^.^|-40°F to 221°F (-40°C to 105°C)
