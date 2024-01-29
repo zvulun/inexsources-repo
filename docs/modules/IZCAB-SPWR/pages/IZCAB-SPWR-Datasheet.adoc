@@ -46,8 +46,8 @@ image:ROOT:image$UL_LOGO.png[UL Logo,40,align=right]
 
 //<<<
 
-{empty} +
-{empty}
+//{empty} +
+//{empty}
 
 [discrete]
 == Specifications
