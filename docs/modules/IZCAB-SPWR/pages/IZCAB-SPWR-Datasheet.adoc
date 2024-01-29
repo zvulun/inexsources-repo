@@ -67,6 +67,25 @@ include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 |{shortprodname}-30F |Power Cable for {illum-strobe} Illuminator, 30 ft
 |===
 
+[discrete]
+== Power Connector Pinout
+
+[table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
+|===
+.^a|image:IZCAB-SPWR:IZCABSPWR-FIG-002_Pinouts.png[image,width=400]
+|[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
+!===
+!Pin !Power/Signal !Wire Color
+!1 !DC12-24V input !Red
+!2 !Power GND !Black
+!image:ROOT:GroundSymbol.png[image,width=20,height=26]  !FE
+!Drain
+!===
+|===
+
+
+<<<
+
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
