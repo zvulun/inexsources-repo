@@ -67,8 +67,8 @@ include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 |{shortprodname}-30F |Power Cable for {illum-strobe} Illuminator, 30 ft
 |===
 
-{empty} +
-{empty}
+//{empty} +
+//{empty}
 
 
 [discrete]
@@ -90,10 +90,9 @@ include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
-<<<
-
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
+<<<
 
 Doc. No. {docproductname}-REV-A-TDSHEET
 
