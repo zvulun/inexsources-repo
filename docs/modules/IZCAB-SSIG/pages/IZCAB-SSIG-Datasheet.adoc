@@ -70,6 +70,7 @@ include::IZCAB-SSIG:IZCAB-SSIG-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 //{empty} +
 //{empty}
 
+<<<
 
 [discrete]
 == Signals Connector Pinout
