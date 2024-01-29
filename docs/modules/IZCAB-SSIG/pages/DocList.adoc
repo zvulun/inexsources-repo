@@ -1,4 +1,4 @@
 = IZCAB-SSIG Documents List
 
-More documents can be found at https://drive.google.com/drive/folders/1N4KjBnXerftmwEIfQZPCXN6H1idmiJWN?usp=share_link[GDriveLink, window=_blank]
+* xref:IZCAB-SSIG:IZCAB-SSIG-Datasheet.adoc[IZCAB-SSIG Datasheet]
 

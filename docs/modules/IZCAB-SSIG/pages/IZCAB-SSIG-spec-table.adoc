@@ -1,0 +1,78 @@
+[table.withborders,options="header",cols="17,23,60"]
+|===
+2+.^| Item
+// {set:cellbgcolor:#c0c0c0}
+
+^.^| Specifications
+// {set:cellbgcolor:#c0c0c0}
+
+2+.^| Specification
+//{set:cellbgcolor!}
+^.^a|AWM 2517 18AWGx2C (A{plus}E)
+
+.4+.^| Conductor Structure
+.^| Material
+^.^| Tinned Copper
+.^| Diameter
+^.^| 18 AWG
+.^| Structure
+^.^a|0.18 mm / 34 ({plus}/- 0.008 mm)
+.^| Number of Cores
+^.^a|2C
+
+.4+.^| Insulation Layer Structure
+.^| Material
+//{set:cellbgcolor!}
+^.^|Cold Resistant PVC
+.^| Diameter
+^.^a| 1.80 mm ({plus}/- 0.15 mm)
+.^| Color
+^.^a| +++-+++ Black +
++++-+++ Red
+.^| Temperature
+//{set:cellbgcolor!}
+^.^|-40°F to 221°F (-40°C to 105°C)
+
+
+.2+.^|Overall Shielding
+.^|Material 1
+^.^a|Aluminum Foil Wrapping 25% Overlap
+.^|Drain Wire
+^.^a|24 AWG
+
+.5+.^| Outer Jacket
+.^| Material
+^.^a|UV Resistant {plus} Cold Resistant PVC
+.^| Hardness
+^.^a| Shore A 80 (80P)
+.^| Temperature
+^.^a|40°F to 221°F (-40°C to 105°C)
+.^| Diameter
+^.^a|6.0 mm ({plus}/- 0.30 mm)
+.^| Color
+^.^a|Black Matte
+
+.4+.^| Cable Electrical Characteristics
+.^| Rated Voltage
+^.^a|300 V
+.^| Insulation Resistance
+^.^a|Minimum value: 15 MΩ /Km ↑ (20°C)
+.^| Conductor Resistance
+^.^a|Maximum value: 62.5 Ω /Km ↓ (20°C)
+.^a|Spark Test Voltage
+^.^a|1500 V/min
+
+.2+.^| Connectors
+.^| Illuminator Side
+^.^a|Female, straight, 2-pin connector, shielded
+.^| Junction Box
+^.^a|Flying leads; see pinout diagram and table
+
+
+.2+.^| Certifications
+.^| RoHS
+^.^a|RoHS
+.^| UL
+^.^a| UL AWM 2517
+|===
+
