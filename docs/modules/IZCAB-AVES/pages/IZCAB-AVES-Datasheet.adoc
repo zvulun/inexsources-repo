@@ -62,15 +62,15 @@ image:IZCAB-AVES:PWLNCABLE-FIG-001_Front_Page.png[Picture of Cable,width=500,ali
 
 * [*] Wide temperature range - operating from -40°F to 257°F (-40°C to 125°C)
 
-image:ROOT:image$EXXON_LOGO.png[EXXON Logo,80,align=right]
-image:ROOT:image$DUPONT_LOGO.png[DUPONT Logo,60,align=right]
-image:ROOT:image$BINDER_LOGO.png[BINDER Logo,60,align=right]
-image:ROOT:image$ROHS_LOGO.png[RoHS Logo,60,align=right]
-image:ROOT:image$IEC_LOGO.png[IEC Logo,40,align=right]
-image:ROOT:image$RU_LOGO.png[RU Logo,50,align=right]
-image:ROOT:image$DVE_LOGO.png[DVE Logo,30,align=right]
-image:ROOT:image$SPLUS_LOGO.png[SPLUS Logo,30,align=right]
-image:ROOT:image$REACH_LOGO.png[REACH Logo,30,align=right]
+image:ROOT:image$EXXON_LOGO.png[EXXON Logo,100,align=right]
+image:ROOT:image$DUPONT_LOGO.png[DUPONT Logo,70,align=right]
+image:ROOT:image$BINDER_LOGO.png[BINDER Logo,70,align=right]
+image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
+image:ROOT:image$IEC_LOGO.png[IEC Logo,50,align=right]
+image:ROOT:image$RU_LOGO.png[RU Logo,60,align=right]
+image:ROOT:image$DVE_LOGO.png[DVE Logo,40,align=right]
+image:ROOT:image$SPLUS_LOGO.png[SPLUS Logo,40,align=right]
+image:ROOT:image$REACH_LOGO.png[REACH Logo,40,align=right]
 
 <<<
 
