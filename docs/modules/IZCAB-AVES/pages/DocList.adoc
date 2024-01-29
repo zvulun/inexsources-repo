@@ -1,4 +1,6 @@
 = IZCAB-AVES Documents List
 
+* xref:IZCAB-AVES:IZCAB-AVES-Datasheet.adoc[IZCAB-AVES Datasheet]
+
 More documents can be found at https://drive.google.com/drive/folders/17KJlkWX6jeHKhoxzIQzhlSbgjlOwtg9N?usp=share_link[GDriveLink, window=_blank]
 
