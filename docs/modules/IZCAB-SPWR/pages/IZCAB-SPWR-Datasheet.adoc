@@ -84,7 +84,7 @@ include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 |===
 
 
-<<<
+//<<<
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
