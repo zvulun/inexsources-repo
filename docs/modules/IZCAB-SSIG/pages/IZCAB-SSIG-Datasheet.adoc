@@ -52,7 +52,7 @@ image:ROOT:image$UL_LOGO.png[UL Logo,40,align=right]
 [discrete]
 == Specifications
 
-include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
+include::IZCAB-SSIG:IZCAB-SSIG-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 
 {empty} +
 {empty}
@@ -76,7 +76,7 @@ include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
-.^a|image:IZCAB-SPWR:IZCABSPWR-FIG-002_Pinouts.png[image,width=400]
+.^a|image:IZCAB-SSIG:IZCABSSIG-FIG-002_Pinouts.png[image,width=400]
 |[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
 !===
 !Pin !Signal !Wire Color
