@@ -84,8 +84,8 @@ include::IZCAB-A800-PAS:IZCAB-A800-PAS-spec-table.adoc[IZCAB-A800-PAS Spec Table
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-|{shortprodname}-15F |Power/Signals Cable for IZA800G System, 15 ft
-|{shortprodname}-30F |Power/Signals Cable for IZA800G System, 30 ft
+|{shortprodname}-15F |Power/Signals Cable for {camera-8G} System, 15 ft
+|{shortprodname}-30F |Power/Signals Cable for {camera-8G} System, 30 ft
 |===
 
 {empty} +

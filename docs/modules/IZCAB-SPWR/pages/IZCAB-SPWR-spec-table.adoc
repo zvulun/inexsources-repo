@@ -1,0 +1,92 @@
+[table.withborders,options="header",cols="15,18,67"]
+|===
+2+.^| Item
+// {set:cellbgcolor:#c0c0c0}
+
+^.^| Specifications
+// {set:cellbgcolor:#c0c0c0}
+
+2+.^| Specification
+//{set:cellbgcolor!}
+^.^|Cat6 SFTP (S/FTP) 26AWG MultiCore
+
+.3+.^| Conductors
+.^| Material
+^.^| Tinned Copper
+.^| Diameter
+^.^| 26 AWG
+.^| Structure
+^.^a|34 AWG / 7
+
+.3+.^| Insulation Layer Structure
+.^| Material
+//{set:cellbgcolor!}
+^.^|PVC
+.^| Diameter
+^.^| 1.05 mm
+.^| Temperature
+//{set:cellbgcolor!}
+^.^|-40°F to 221°F (-40°C to 105°C)
+
+.3+.^|Isolation Layer Structure
+.^|First Material
+^.^a|4P individual isolation: Aluminum Mylar (face out)
+.^|Drain Wire
+^.^a|Tinned Copper AWG #24
+.^|Second Material
+^.^a|Total Weave: Tinned Copper 16 / 4 / 0.12mm
+
+.5+.^| Outer Jacket
+.^| Material
+^.^a|UV Resistant {plus} Cold Resistant PVC
+.^| Temperature
+^.^a|40°F to 221°F (-40°C to 105°C)
+.^| Thickness
+^.^a|0.585 mm
+.^| Total Outer Diameter
+^.^a|6.0 mm {plus}/- 0.25 mm
+.^| Color
+^.^a|Black
+
+.4+.^| Color Coding
+.^a| 1^st^ Pair
+^.^a|Blue and Blue/White
+.^a| 2^nd^ Pair
+^.^a|Orange and Orange/White
+.^a| 3^rd^ Pair
+^.^a|Green and Green/White
+.^a| 4^th^ Pair
+^.^a|Brown and Brown/White
+
+.6+.^| Cable Electrical
+Characteristics (for 100 m)
+.^| Conductor Resistance
+^.^a|Maximum Value: 9.38Ω/ 100m (20 °C)
+.^a|Resistance Unbalance
+^.^a|5%
+.^a|Capacitance Unbalance
+^.^a|Maximum Value: 330 pF/100m
+.^a|Mutual Capacitance
+^.^a|Maximum Value: 5600 pF/100m
+.^a|Withstand Voltage
+^.^a|2.5 kV
+.^a|NVP
+^.^a|76%
+
+.2+.^| Connectors
+.^| Camera Side
+^.^a|Outdoor RJ45 feed-through connector, plastic; +
+Amphenol part no. https://www.amphenolltw.com/product-info/RJ/RJ.MiddleSize/RCP-00BMMS-SLM7001.html[RCP-00BMMS-SLM7001, window=_blank] +
+{empty} +
+plus RJ45 plug
+.^| Junction Box
+^.^a|RJ45 plug
+
+
+.2+.^| Certifications
+.^| RoHS
+^.^a|Cable: RoHS; Connector: RoHS 3
+.^| IP67
+^.^a| Connector: IP67
+|===
+

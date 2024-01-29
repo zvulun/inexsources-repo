@@ -1,5 +1,5 @@
-:docproductname: IZCAB-A800-LAN
-:shortprodname: IZCAB-A800-LAN
+:docproductname: IZCAB-SPWR
+:shortprodname: IZCAB-SPWR
 :generic-camera-name:
 
 // These attributes have been soft set
@@ -14,7 +14,7 @@
 // Remember to unset all non-relevant attributes
 
 
-:xref-type-IZCAB-A800-LAN:
+:xref-type-IZCAB-SPWR:
 :layout-type-technote:
 
 = {shortprodname} Datasheet
@@ -31,7 +31,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== LAN Cable for {camera-8G} System
+== Power Cable for {illum-strobe} Illuminator
 
 [discrete]
 === Rev. A
@@ -44,29 +44,16 @@ image:IZCAB-A800-LAN:IZA800LANCABLE-FIG-001_Front_Page.png[Picture of Cable,widt
 {empty} +
 {empty}
 
-[discrete]
-== Key Features and Benefits
-
-* [*] Designed for an {compname-short} {camera-8G} System
-
-* [*] Anti-UV
-
-* [*] Cold resistant
-
-* [*] Excellent performance and flexibility for long term durability
-
-* [*] Wide temperature range - operating from -40°F to 221°F (-40°C to 105°C)
-
-* [*] IP67 waterproof protection
 
 image:ROOT:image$ROHS_LOGO.png[RoHS Logo,80,align=right]
+image:ROOT:image$UL_LOGO.png[UL Logo,40,align=right]
 
 //<<<
 
 [discrete]
 == Specifications
 
-include::IZCAB-A800-LAN:IZCAB-A800-LAN-spec-table.adoc[IZCAB-A800-LAN Spec Table]
+include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 
 //{empty} +
 //{empty}
@@ -79,8 +66,8 @@ include::IZCAB-A800-LAN:IZCAB-A800-LAN-spec-table.adoc[IZCAB-A800-LAN Spec Table
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-|{shortprodname}-15F |LAN Cable for {camera-8G} System, 15 ft
-|{shortprodname}-30F |LAN Cable for {camera-8G} System, 30 ft
+|{shortprodname}-15F |Power Cable for {illum-strobe} Illuminator, 15 ft
+|{shortprodname}-30F |Power Cable for {illum-strobe} Illuminator, 30 ft
 |===
 
 include::ROOT:partial$p-addresses.adoc[Addresses]

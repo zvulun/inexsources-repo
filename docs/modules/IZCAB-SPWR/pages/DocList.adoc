@@ -1,4 +1,5 @@
 = IZCAB-SPWR Documents List
 
-More documents can be found at https://drive.google.com/drive/folders/1aZn0K0AVOoWuxJCo6ZOlq7rRP2IqByEA?usp=share_link[GDriveLink, window=_blank]
+* xref:IZCAB-SPWR:IZCAB-SPWR-Datasheet.adoc[IZCAB-SPWR Datasheet]
+
 
