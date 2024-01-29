@@ -56,11 +56,9 @@
 .^| Rated Voltage
 ^.^a|300 V
 .^| Insulation Resistance
-^.^a|Minimum value: +
-15 MΩ /Km ↑ (20°C)
+^.^a|Minimum value: 15 MΩ /Km ↑ (20°C)
 .^| Conductor Resistance
-^.^a|Maximum value: +
-62.5 Ω /Km ↓ (20°C)
+^.^a|Maximum value: 62.5 Ω /Km ↓ (20°C)
 .^a|Spark Test Voltage
 ^.^a|1500 V/min
 
