@@ -27,8 +27,8 @@
 .^| Diameter
 ^.^a| 1.80 mm ({plus}/- 0.15 mm)
 .^| Color
-^.^a| +++-+++ Black +
-+++-+++ Red
+^.^a| Black +
+Red
 .^| Temperature
 //{set:cellbgcolor!}
 ^.^|-40°F to 221°F (-40°C to 105°C)
