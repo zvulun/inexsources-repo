@@ -1,5 +1,5 @@
-:docproductname: IZCAB-SPWR
-:shortprodname: IZCAB-SPWR
+:docproductname: IZCAB-SSIG
+:shortprodname: IZCAB-SSIG
 :generic-camera-name:
 
 // These attributes have been soft set
@@ -14,7 +14,7 @@
 // Remember to unset all non-relevant attributes
 
 
-:xref-type-IZCAB-SPWR:
+:xref-type-IZCAB-SSIG:
 :layout-type-technote:
 
 = {shortprodname} Datasheet
@@ -31,12 +31,12 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Power Cable for {illum-strobe} Illuminator
+== Signals Cable for {illum-strobe} Illuminator
 
 [discrete]
 === Rev. A
 
-image:IZCAB-SPWR:IZCABSPWR-FIG-001_Front_Page.png[Picture of Cable,width=800,align=left]
+image:IZCAB-SSIG:IZCABSSIG-FIG-001_Front_Page.png[Picture of Cable,width=800,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -63,8 +63,8 @@ include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-|{shortprodname}-15F |Power Cable for {illum-strobe} Illuminator, 15 ft
-|{shortprodname}-30F |Power Cable for {illum-strobe} Illuminator, 30 ft
+|{shortprodname}-15F |Signals Cable for {illum-strobe} Illuminator, 15 ft
+|{shortprodname}-30F |Signals Cable for {illum-strobe} Illuminator, 30 ft
 |===
 
 //{empty} +
@@ -72,14 +72,13 @@ include::IZCAB-SPWR:IZCAB-SPWR-spec-table.adoc[IZCAB-A800-LAN Spec Table]
 
 
 [discrete]
-== Power Connector Pinout
+== Signals Connector Pinout
 
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
 .^a|image:IZCAB-SPWR:IZCABSPWR-FIG-002_Pinouts.png[image,width=400]
 |[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
 !===
-!Pin !Signal !Wire Color
 !Pin !Signal !Wire Color
 !1 !RS485({plus}) Input !Yellow
 !2 !RS485(-) Input !Black

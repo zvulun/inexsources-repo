@@ -8,49 +8,55 @@
 
 2+.^| Specification
 //{set:cellbgcolor!}
-^.^a|AWM 2517 18AWGx2C (A{plus}E)
+^.^a|26AWGx6C
 
 .4+.^| Conductor Structure
 .^| Material
 ^.^| Tinned Copper
 .^| Diameter
-^.^| 18 AWG
+^.^| 26 AWG
 .^| Structure
-^.^a|0.18 mm / 34 ({plus}/- 0.008 mm)
+^.^a|0.16 mm / 7
 .^| Number of Cores
-^.^a|2C
+^.^a|6C
 
 .4+.^| Insulation Layer Structure
 .^| Material
 //{set:cellbgcolor!}
 ^.^|Cold Resistant PVC
 .^| Diameter
-^.^a| 1.80 mm ({plus}/- 0.15 mm)
+^.^a| 1.0 mm ({plus}/- 5%)
 .^| Color
-^.^a| +++-+++ Black +
-+++-+++ Red
+.^a| * Black
+* Pink
+* White
+* Green
+* Yellow
+* Blue
 .^| Temperature
 //{set:cellbgcolor!}
 ^.^|-40°F to 221°F (-40°C to 105°C)
 
 
-.2+.^|Overall Shielding
+.4+.^|Overall Shielding
 .^|Material 1
-^.^a|Aluminum Foil Wrapping 25% Overlap
+^.^a|Aluminum Foil 100%
+.^|Material 2
+^.^a|Tinned Copper Braided
+.^|Coverage
+^.^a|85%
 .^|Drain Wire
-^.^a|24 AWG
+^.^a|24 AWG Tinned Copper
 
-.5+.^| Outer Jacket
+.4+.^| Outer Jacket
 .^| Material
 ^.^a|UV Resistant {plus} Cold Resistant PVC
-.^| Hardness
-^.^a| Shore A 80 (80P)
 .^| Temperature
 ^.^a|40°F to 221°F (-40°C to 105°C)
 .^| Diameter
-^.^a|6.0 mm ({plus}/- 0.30 mm)
+^.^a|6.0 mm ({plus}/- 5%)
 .^| Color
-^.^a|Black Matte
+^.^a|Black
 
 .4+.^| Cable Electrical Characteristics
 .^| Rated Voltage
@@ -58,13 +64,13 @@
 .^| Insulation Resistance
 ^.^a|Minimum value: 15 MΩ /Km ↑ (20°C)
 .^| Conductor Resistance
-^.^a|Maximum value: 62.5 Ω /Km ↓ (20°C)
-.^a|Spark Test Voltage
-^.^a|1500 V/min
+^.^a|Maximum value: 152 Ω /Km ↓ (20°C)
+.^a|Voltage Withstand (Pressure)
+^.^a|2000 V/min
 
 .2+.^| Connectors
 .^| Illuminator Side
-^.^a|Female, straight, 2-pin connector, shielded
+^.^a|Female, straight, 6-pin connector, shielded
 .^| Junction Box
 ^.^a|Flying leads; see pinout diagram and table
 
@@ -73,6 +79,5 @@
 .^| RoHS
 ^.^a|RoHS
 .^| UL
-^.^a| UL AWM 2517
+^.^a| UL AWM 2517, VW-1 (flame retardance)
 |===
-
