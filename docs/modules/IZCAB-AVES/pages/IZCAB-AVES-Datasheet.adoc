@@ -107,9 +107,9 @@ include::IZCAB-AVES:IZCAB-AVES-spec-table.adoc[IZCAB-A800-PAS Spec Table]
 !1 !GND !Black
 !2 !{plus}V (24 VDC) !Red
 !3 !LAN TX ({plus}) .^!White/Orange
-!4 !LAN TX (-) !Orange
+!4 !LAN TX (&#8212;) !Orange
 !5 !LAN RX ({plus}) !White/Green
-!6 !LAN RX (-) !Green
+!6 !LAN RX (&#8212;) !Green
 !image:ROOT:GroundSymbol.png[image,width=20,height=26]  !Drain
 !Silver
 !===
