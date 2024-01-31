@@ -123,6 +123,7 @@ endif::[]
 
 .^| IEC
 2+.^a|Outer Jacket Insulation:
+
 * Flame Retardancy: Compliant with IEC 60332-1
 
 ifdef::xref-type-IZCAB-AVES[]
@@ -139,6 +140,7 @@ ifdef::xref-type-IZCAB-AVES[]
 2+.^a|Cable Connector:
 
 * Certificate number 16.0782
+
 .^| REACH
 2+.^a|* Cable Connector:
 
