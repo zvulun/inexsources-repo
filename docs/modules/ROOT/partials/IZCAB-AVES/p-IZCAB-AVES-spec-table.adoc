@@ -3,7 +3,15 @@
 2+.^| Item
 // {set:cellbgcolor:#c0c0c0}
 
+ifdef::xref-type-IZCAB-AVES[]
 ^.^| LAN
+endif::[]
+
+ifdef::xref-type-IZCAB-SVES[]
+^.^| RS485 and Strobe
+endif::[]
+
+
 // {set:cellbgcolor:#c0c0c0}
 
 ^.^| Power
