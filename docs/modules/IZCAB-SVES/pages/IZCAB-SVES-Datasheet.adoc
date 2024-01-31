@@ -103,7 +103,7 @@ include::ROOT:partial$IZCAB-AVES/p-IZCAB-AVES-spec-table.adoc[IZCAB-AVES Spec Ta
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
 .^a|image:IZCAB-SVES:ILLUMCABLE-FIG-002_Pinouts.png[image,width=400] +
-image:IZCAB-SVES:ILLUMCABLE-FIG-002a_Pinouts.png[image,width=200]
+image:IZCAB-SVES:ILLUMCABLE-FIG-002a_Pinouts.png[image,width=350]
 |[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
 !===
 !Pin !Power/Signal !Wire Color
