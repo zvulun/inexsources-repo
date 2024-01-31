@@ -121,10 +121,22 @@ ifdef::xref-type-IZCAB-AVES[]
 
 endif::[]
 
+ifdef::xref-type-IZCAB-AVES[]
+
 .^| IEC
 2+.^a|Outer Jacket Insulation:
 
 * Flame Retardancy: Compliant with IEC 60332-1
+
+endif::[]
+
+ifdef::xref-type-IZ_COMPOSITE_CABLE[]
+
+.^| IEC
+2+.^a|* Outer Jacket Insulation: Flame Retardancy: Compliant with IEC 60332-1
+
+endif::[]
+
 
 ifdef::xref-type-IZCAB-AVES[]
 .^| UL Component
