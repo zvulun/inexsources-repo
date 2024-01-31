@@ -108,10 +108,10 @@ include::ROOT:partial$IZCAB-AVES/p-IZCAB-AVES-spec-table.adoc[IZCAB-AVES Spec Ta
 !Pin !Power/Signal !Wire Color
 !1 !GND !Black
 !2 !{plus}V (24 VDC) !Red
-!3 !LAN TX ({plus}) .^!White/Orange
-!4 !LAN TX (&#8212;) !Orange
-!5 !LAN RX ({plus}) !White/Green
-!6 !LAN RX (&#8212;) !Green
+!3 !RS485 (B&#8212;) .^!White/Orange
+!4 !RS485 (A{plus}) !Orange
+!5 !Strobe (&#8212;) .^!White/Green
+!6 !Strobe ({plus}) !Green
 !image:ROOT:GroundSymbol.png[image,width=20,height=26]  !Drain
 !Silver
 !===
