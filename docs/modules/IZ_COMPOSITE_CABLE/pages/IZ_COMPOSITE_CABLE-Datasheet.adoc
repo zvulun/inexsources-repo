@@ -74,8 +74,6 @@ image:ROOT:image$DUPONT_LOGO.png[DUPONT Logo,70,align=right]
 
 include::ROOT:partial$IZCAB-AVES/p-IZCAB-AVES-spec-table.adoc[IZCAB-AVES Spec Table]
 
-<<<
-
 [discrete]
 == Ordering Information
 
@@ -85,9 +83,6 @@ include::ROOT:partial$IZCAB-AVES/p-IZCAB-AVES-spec-table.adoc[IZCAB-AVES Spec Ta
 |{shortprodname} |Composite Cable for {system-type} System
 |===
 +++*+++ Specify length when ordering
-
-{empty} +
-{empty}
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
