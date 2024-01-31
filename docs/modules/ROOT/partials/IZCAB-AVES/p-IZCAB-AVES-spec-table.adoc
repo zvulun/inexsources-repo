@@ -103,7 +103,7 @@ part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/9
 endif::[]
 
 ifdef::xref-type-IZCAB-AVES[]
-.5+.^| Certifications
+.6+.^| Certifications
 endif::[]
 
 ifdef::xref-type-IZ_COMPOSITE_CABLE[]
@@ -147,4 +147,5 @@ ifdef::xref-type-IZCAB-AVES[]
 * Certified for regulation (EC) No 1907/2006
 
 endif::[]
+
 |===
