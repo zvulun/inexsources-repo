@@ -144,11 +144,19 @@ endif::[]
 
 * Outer Jacket Insulation: RoHS 2
 
-ifdef::xref-type-IZCAB-AVES,xref-type-IZCAB-SVES[]
+ifdef::xref-type-IZCAB-AVES[]
 
 * Cable Connector: RoHS 3
 
 endif::[]
+
+ifdef::xref-type-IZCAB-SVES[]
+
+* Cable Connectors: RoHS 3
+
+endif::[]
+
+
 
 ifdef::xref-type-IZCAB-AVES,xref-type-IZCAB-SVES[]
 
@@ -167,7 +175,7 @@ ifdef::xref-type-IZ_COMPOSITE_CABLE[]
 endif::[]
 
 
-ifdef::xref-type-IZCAB-AVES,xref-type-IZCAB-SVES[]
+ifdef::xref-type-IZCAB-AVES[]
 .^| UL Component
 2+.^a|Cable Connector:
 
@@ -188,5 +196,28 @@ ifdef::xref-type-IZCAB-AVES,xref-type-IZCAB-SVES[]
 * Certified for regulation (EC) No 1907/2006
 
 endif::[]
+
+ifdef::xref-type-IZCAB-SVES[]
+.^| UL Component
+2+.^a|Cable Connectors:
+
+* UL 1977, Component Connectors for Use in Data, Signal, Control and Power Applications; Certificate Number 20160930-E93427
+.^| VDE
+2+.^a|Cable Connectors:
+
+* DIN EN 61984 (VDE 0627): 2009-11; EN 61984:2009
+* Certificate 40009764
+.^|SPlus (ESTI)
+2+.^a|Cable Connectors:
+
+* Certificate number 16.0782
+
+.^| REACH
+2+.^a|Cable Connectors:
+
+* Certified for regulation (EC) No 1907/2006
+
+endif::[]
+
 
 |===
