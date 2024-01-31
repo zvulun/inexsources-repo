@@ -98,7 +98,7 @@ include::ROOT:partial$IZCAB-AVES/p-IZCAB-AVES-spec-table.adoc[IZCAB-AVES Spec Ta
 
 
 [discrete]
-== Power/LAN Connector Pinout
+== Cable Pinouts
 
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
