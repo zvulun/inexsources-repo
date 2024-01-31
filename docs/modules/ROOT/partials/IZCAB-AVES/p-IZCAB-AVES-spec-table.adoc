@@ -92,6 +92,7 @@ TPV 121-62M100 (Anti-UV)
 ^.^a|Maximum value: +
 15.6 Ω /Km ↓ (20°C)
 
+ifdef::xref-type-IZCAB-AVES[]
 .2+.^| Cable Connector/ +
 Flying Leads
 .^| Camera Side
@@ -99,16 +100,32 @@ Flying Leads
 part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-70-07-rd24-female-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 70 07, window=_blank]
 .^| Power/LAN Side
 2+^.^a|Flying leads; see pinout diagram and table
+endif::[]
 
+ifdef::xref-type-IZCAB-AVES[]
 .5+.^| Certifications
+endif::[]
+
+ifdef::xref-type-IZ_COMPOSITE_CABLE[]
+.2+.^| Certifications
+endif::[]
+
 .^| RoHS
 2+.^a|* Inner Conductor Insulation: RoHS 3
+
 * Outer Jacket Insulation: RoHS 2
+
+ifdef::xref-type-IZCAB-AVES[]
+
 * Cable Connector: RoHS 3
+
+endif::[]
+
 .^| IEC
 2+.^a|Outer Jacket Insulation:
-
 * Flame Retardancy: Compliant with IEC 60332-1
+
+ifdef::xref-type-IZCAB-AVES[]
 .^| UL Component
 2+.^a|Cable Connector:
 
@@ -126,4 +143,6 @@ part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/9
 2+.^a|* Cable Connector:
 
 * Certified for regulation (EC) No 1907/2006
+
+endif::[]
 |===
