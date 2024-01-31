@@ -37,7 +37,7 @@
 [discrete]
 === Rev. A
 
-image:IZCAB-SVES:ILLUMCABLE-FIG-001_Front_Page.png[Picture of Cable,width=500,align=left]
+image:IZCAB-SVES:ILLUMCABLE-FIG-001_Front_Page.png[Picture of Cable,width=400,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
