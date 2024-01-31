@@ -142,7 +142,7 @@ ifdef::xref-type-IZCAB-AVES[]
 * Certificate number 16.0782
 
 .^| REACH
-2+.^a|* Cable Connector:
+2+.^a|Cable Connector:
 
 * Certified for regulation (EC) No 1907/2006
 
