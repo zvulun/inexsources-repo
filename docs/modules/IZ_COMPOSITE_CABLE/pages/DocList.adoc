@@ -1,4 +1,6 @@
 = IZ_COMPOSITE_CABLE Documents List
 
+* xref:IZ_COMPOSITE_CABLE:IZ_COMPOSITE_CABLE-Datasheet.adoc[IZCAB-AVES Datasheet]
+
 More documents can be found at https://drive.google.com/drive/folders/1RnLHJhFwo4Tu_yfUJ1rFoUcnxJxzd-5k?usp=share_link[GDriveLink, window=_blank]
 
