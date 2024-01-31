@@ -144,13 +144,13 @@ endif::[]
 
 * Outer Jacket Insulation: RoHS 2
 
-ifdef::xref-type-IZCAB-AVES[]
+ifdef::xref-type-IZCAB-AVES,xref-type-IZCAB-SVES[]
 
 * Cable Connector: RoHS 3
 
 endif::[]
 
-ifdef::xref-type-IZCAB-AVES[]
+ifdef::xref-type-IZCAB-AVES,xref-type-IZCAB-SVES[]
 
 .^| IEC
 2+.^a|Outer Jacket Insulation:
@@ -167,7 +167,7 @@ ifdef::xref-type-IZ_COMPOSITE_CABLE[]
 endif::[]
 
 
-ifdef::xref-type-IZCAB-AVES[]
+ifdef::xref-type-IZCAB-AVES,xref-type-IZCAB-SVES[]
 .^| UL Component
 2+.^a|Cable Connector:
 
