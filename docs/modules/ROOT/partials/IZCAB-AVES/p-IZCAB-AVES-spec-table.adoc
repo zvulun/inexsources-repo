@@ -120,7 +120,18 @@ part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/9
 2+^.^a|Flying leads; see pinout diagram and table
 endif::[]
 
-ifdef::xref-type-IZCAB-AVES[]
+ifdef::xref-type-IZCAB-SVES[]
+.2+.^| Cable Connectors
+.^| Camera Side
+2+^.^a|Male Angled Cable Connector: Waterproof outdoor Binder RD24, +
+part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4217-70-07-rd24-male-angled-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4217 70 07, window=_blank]
+.^| Illuminator Side
+2+^.^a|Female Straight Cable Connector: Waterproof outdoor Binder RD24, +
+part no. https://www.binder-usa.com/us-en/products/power-connectors/rd24-power/99-4218-00-07-rd24-female-cable-connector-contacts-6-pe-60-80-mm-unshielded-screw-clamp-ip67-ul-esti-vde-pg-9[99 4218 00 07, window=_blank]
+endif::[]
+
+
+ifdef::xref-type-IZCAB-AVES,xref-type-IZCAB-SVES[]
 .6+.^| Certifications
 endif::[]
 
