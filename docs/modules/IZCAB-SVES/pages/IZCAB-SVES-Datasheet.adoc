@@ -87,8 +87,10 @@ include::ROOT:partial$IZCAB-AVES/p-IZCAB-AVES-spec-table.adoc[IZCAB-AVES Spec Ta
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-|{shortprodname}-15F |Power/LAN Cable for {system-type} System, 15 ft
-|{shortprodname}-30F |Power/LAN Cable for {system-type} System, 30 ft
+|{shortprodname}-10F |Illuminator Cable for {system-type} System, 10 ft
+|{shortprodname}-15F |Illuminator Cable for {system-type} System, 15 ft
+|{shortprodname}-20F |Illuminator Cable for {system-type} System, 20 ft
+|{shortprodname}-30F |Illuminator Cable for {system-type} System, 30 ft
 |===
 
 {empty} +
@@ -100,7 +102,8 @@ include::ROOT:partial$IZCAB-AVES/p-IZCAB-AVES-spec-table.adoc[IZCAB-AVES Spec Ta
 
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
-.^a|image:IZCAB-AVES:PWLNCABLE-FIG-002_Pinouts.png[image,width=400]
+.^a|image:IZCAB-SVES:ILLUMCABLE-FIG-002_Pinouts.png[image,width=400] +
+image:IZCAB-SVES:ILLUMCABLE-FIG-002a_Pinouts.png[image,width=400]
 |[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
 !===
 !Pin !Power/Signal !Wire Color
