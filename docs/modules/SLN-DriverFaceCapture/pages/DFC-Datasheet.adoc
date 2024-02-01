@@ -179,7 +179,7 @@ image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 [discrete]
 == {camera-DFC} LAN and Power/Signals Cable Details
 
-image::ROOT:SLN-DriverFaceCapture/IZA500G-FIG-085g_ DFC_Signal_Wires.png[image,500]
+image::ROOT:SLN-DriverFaceCapture/IZA500G-FIG-085g_DFC_Signal_Wires.png[image,500]
 
 <<<
 

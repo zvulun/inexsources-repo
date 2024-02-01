@@ -1,6 +1,6 @@
 :docproductname: Driver Face Capture (DFC)
 :shortprodname: IZA500DFC
-//:shortprodname2: IZA500G
+//:shortprodname2: IZS2DFC
 //:shortprodname3: IZS
 //:generic-camera-name: ALPR Camera System
 
@@ -60,7 +60,7 @@
 
 // ====
 
-Click these links for xref:IZA500G:DocList.adoc[IZA500G] and xref:IZA500GR:DocList.adoc[IZA500GR] full documentation and software.
+Click this link xref:SLN-DriverFaceCapture:DocList.adoc[Driver Face Capture] for additional documentation.
 
 [sidebar]
 You will need: Laptop with Windows 10 or above
@@ -148,20 +148,9 @@ Pricing based on number of video channels
 <<<
 
 [discrete]
-== {camera-DFC} Dimensions (inches/cm)
-
-image::ROOT:/IZA500G/image5.png[image,width=315,height=205]
-
-image::ROOT:/IZA500G/image6.png[image,width=463,height=224]
-
-image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
-
-<<<
-
-[discrete]
 == {camera-DFC} LAN and Power/Signals Cable Details
 
-image::ROOT:SLN-DriverFaceCapture/IZA500G-FIG-085g_ DFC_Signal_Wires.png[image,500]
+image::ROOT:SLN-DriverFaceCapture/IZA500G-FIG-085g_DFC_Signal_Wires.png[image,500]
 
 <<<
 
