@@ -1,0 +1,185 @@
+:docproductname: Driver Face Capture (DFC)
+:shortprodname: IZA500DFC
+//:shortprodname2: IZA500G
+//:shortprodname3: IZS
+//:generic-camera-name: ALPR Camera System
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+
+:xref-type-DFC:
+:layout-type-technote:
+
+//enable the TOC to be placed in a specific position
+//:toc: macro
+
+= {docproductname} Quick Start Guide
+
+//xref:IZA500G:DocList.adoc[<- Back to {shortprodname} Documents]
+
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+
+//[discrete]
+//=== Rev. F3
+
+//image:ROOT:SLN-DriverFaceCapture/DFC-CAMP-Face-Man-Woman-Front.png[Picture of Face in Front Windsh,400,align=left]
+
+// no section numbers in datasheets
+//:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+// no TOC in datasheets ._Click to show the Table of Contents_
+// [%collapsible]
+// ====
+
+// toc::[]
+
+// ====
+
+Click these links for xref:IZA500G:DocList.adoc[IZA500G] and xref:IZA500GR:DocList.adoc[IZA500GR] full documentation and software.
+
+[sidebar]
+You will need: Laptop with Windows 10 or above
+with Windows Feature NET 4.5 enabled.+++<br>+++
+Chrome or Microsoft Edge browser.+++<br>+++
+After mounting, remove the protective film from the camera's front window.+++<br>+++
+You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
+to find the desired camera and change its network
+settings.
+
+[discrete]
+=== Checklist
+
+include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
+
+{empty}
+
++++<div class="pagebreak"> </div>+++
+
+[sidebar]
+If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the Camera System's power connections, and attach pins in their place.
+
+[#f_Typical-Camera-System-Wiring-Diagram]
+
+[discrete]
+=== Camera System Wiring Diagram
+
+// .Typical Camera System Wiring Diagram
+
+image::ROOT:IZA500G/image17.png[image,width=624,height=203]
+
+[#f_Camera-System-Wiring-Diagram-with-PoE-Plus-P48-Models]
+
+[discrete]
+== Typical Lane Design
+
+image::ROOT:SLN-DriverFaceCapture/DFC-CAMP-Lane-Design.png[image,800]
+
++++<font size="-1">+++D: LPR Capture Distance: 8-24 ft +
+F: Face Capture Distance: 10-26 ft+++</font>+++
+
+<<<
+
+
+[discrete]
+== Ordering Information
+
+[table.withborders,width="100%",cols="20%,80%",options="header",]
+|===
+|Part Number |Description
+.^|IZA500DFC-1L a|All-in-one AI Driver Face Capture (DFC) camera kit for single-lane use. Includes:
+
+* {camera-DFC} Camera System: AI-enabled camera for precise driver face capture
+
+* {illum-DFC} Strobe Illuminator: Windshield-penetrating illumination for vehicle interiors
+
+* Mounting Hardware (x2): Dual sets for camera and illuminator installation
+
+* Power Supply: A power source for the camera and illuminator
+
+a|{empty} +
+{empty} +
+IZCLOUD-DFC-1S +
+or +
+IZCLOUD-DFC-1C
+a|IZCloud SaaS Subscription; select one of these options:
+
+* IZCLOUD-DFC-1S: 1 year IZCloud Driver Face Capture
+(DFC) Video License, provided as SaaS;
+Free 14-day history in cloud storage;
+Pricing based on number of parking spaces
+
+
+* IZCLOUD-DFC-1C: 1 year IZCloud Driver Face Capture
+(DFC) Video License, provided as SaaS;
+Free 7-day history in cloud storage;
+Pricing based on number of video channels
+|===
+
+//[discrete]
+//== Standard Package Contents
+
+//* {shortprodname} ALPR All-in-one AI Camera System
+
+<<<
+
+[discrete]
+== {camera-DFC} Dimensions (inches/cm)
+
+image::ROOT:/IZA500G/image5.png[image,width=315,height=205]
+
+image::ROOT:/IZA500G/image6.png[image,width=463,height=224]
+
+image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
+
+<<<
+
+[discrete]
+== {camera-DFC} LAN and Power/Signals Cable Details
+
+image::ROOT:SLN-DriverFaceCapture/IZA500G-FIG-085g_ DFC_Signal_Wires.png[image,500]
+
+<<<
+
+[discrete]
+== {illum-DFC} Dimensions (mm)
+
+image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
+
+[discrete]
+== {illum-DFC} Connector Pinouts
+
+image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
+
+
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+Doc. No. {shortprodname}-TDSHEET
+

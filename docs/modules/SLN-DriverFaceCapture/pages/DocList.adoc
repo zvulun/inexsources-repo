@@ -2,4 +2,6 @@
 
 * xref:SLN-DriverFaceCapture:DFC-Datasheet.adoc[DFC Data Sheet]
 
+* xref:SLN-DriverFaceCapture:DFC-Quick-Start.adoc[DFC Quick Start Guide]
+
 More documents can be found at https://drive.google.com/drive/folders/1b0BYWxIRlofrn7aXFI-h4lQXBWYyqmiL?usp=drive_link[GDriveLink, window=_blank]
