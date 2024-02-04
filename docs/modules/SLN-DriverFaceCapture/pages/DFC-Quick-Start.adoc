@@ -1,6 +1,6 @@
 :docproductname: Driver Face Capture (DFC)
 :shortprodname: IZA500DFC
-//:shortprodname2: IZS2DFC
+:shortprodname2: DFC
 //:shortprodname3: IZS
 //:generic-camera-name: ALPR Camera System
 
@@ -170,5 +170,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-TDSHEET
+Doc. No. {shortprodname2}-TECH-001
 

@@ -37,7 +37,7 @@
 ** xref:IZR600M:DocList.adoc[IZR600M (Radar)]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1610965203&single=true[Camera Comparisons, window=_blank]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1562091760&single=true[Supported Analytics, window=_blank]
-** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera/Illuminator Use Cases, window=_blank]
+** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera-to-Illuminator Recommended Setups, window=_blank]
 * Camera Mounts
 ** xref:MNT-ProdToMountMap:DocList.adoc[Product-to-Mount Summary/Mapping]
 ** xref:MNT-IZMNTA-UC:DocList.adoc[IZMNTA-UC (Under-Ceiling for Parking)]
@@ -59,7 +59,7 @@
 ** xref:IZSVES:DocList.adoc[IZSVES Series]
 ** xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[U.S. Illuminator Mounts]
 ** xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[EU Illuminator Mounts]
-** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera/Illuminator Use Cases, window=_blank]
+** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera-to-Illuminator Recommended Setups, window=_blank]
 * Power Supplies
 ** xref:IZPWR:DocList.adoc[IZPWR (DIN Rail Mount)]
 * Loop Detectors
