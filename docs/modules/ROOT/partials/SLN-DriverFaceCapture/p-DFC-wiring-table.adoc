@@ -1,0 +1,37 @@
+[table.withborders,width="100%",cols="7%,35%,58%",options="header",]
+|===
+|Item |Description* |Ordering Information
+.^|A .^a|*Camera System*
+.^a|{compname-short} P/N: xref:SLN-DriverFaceCapture:DocList.adoc[{camera-DFC}]
+.^|B .^a|*LAN Cable* - CAT6, shielded, 4 pairs, 22 AWG, max.
+length 328 ft (100 m), +
+OD 5.5-7.9 mm
+.^|Supplied by integrator; 6.6 ft (2 m) included with camera
+.^|C .^a|*PAS (Power and Signals) Cable* - +
+22 AWG, OD 3.0-7.3 mm
+.^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
+.^|D .^a|*Power Supply for Camera and Illuminator(s)* +
+24 VDC
+.^a|
+For 1 illuminator, use a 120 W supply (xref:IZPWR:DocList.adoc[IZPWR120]) +
+For 2 illuminators, use a 240 W supply (xref:IZPWR:DocList.adoc[IZPWR240])
+
+.^|E .^a|*Illuminator Power Cable*** .^a|{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR]
+.^|F .^a|*Illuminator Signals Cable*** .^a|{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]
+
+.^|G .^a|*Strobe Illuminator*
+.^a|{compname-short} P/N: xref:SLN-DriverFaceCapture:DocList.adoc[{illum-DFC}]
+
+.^|-- .^a|*Mounting Hardware (for Camera System and Illuminator)*
+.^a|{compname-short} P/N: xref:MNT-W3X-W3XA-PMA:DocList.adoc[{mount-black-arm}]
+
+
+.^|-- .^a|*{software-cloud} SaaS Subscription*
+.^a|{compname-short} P/N: xref:SLN-DriverFaceCapture:DocList.adoc[{software-DFC-1S}] or +
+xref:SLN-DriverFaceCapture:DocList.adoc[{software-DFC-1C}]
+|===
+
++++*+++All components can be ordered as part of a kit (xref:SLN-DriverFaceCapture:DocList.adoc[{kit-DFC-1L}])
+
++++**+++ Different illuminator cable lengths can be ordered
+

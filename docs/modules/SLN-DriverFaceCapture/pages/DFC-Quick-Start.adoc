@@ -1,6 +1,7 @@
 :docproductname: Driver Face Capture (DFC)
 :shortprodname: IZA500DFC
-:shortprodname2: DFC
+:system-type: DFC
+
 //:shortprodname3: IZS
 //:generic-camera-name: ALPR Camera System
 
@@ -60,7 +61,7 @@
 
 // ====
 
-Click this link xref:SLN-DriverFaceCapture:DocList.adoc[Driver Face Capture] for additional documentation.
+Click this xref:SLN-DriverFaceCapture:DocList.adoc[Driver Face Capture Solution] link for additional documentation.
 
 [sidebar]
 You will need: Laptop with Windows 10 or above
@@ -86,13 +87,16 @@ If you are using a DIN rail-mount power supply, you will need to cut off the rin
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 [discrete]
-=== Camera System Wiring Diagram
+=== Typical Wiring Diagram
 
 // .Typical Camera System Wiring Diagram
 
-image::ROOT:IZA500G/image17.png[image,width=624,height=203]
+image::ROOT:SLN-DriverFaceCapture/DFC-FIG-001_Wiring.png[image,width=624]
 
-[#f_Camera-System-Wiring-Diagram-with-PoE-Plus-P48-Models]
+[discrete]
+=== Legend
+
+include::ROOT:partial$SLN-DriverFaceCapture/p-DFC-wiring-table.adoc[DFC Wiring Table]
 
 [discrete]
 == Typical Lane Design
@@ -170,5 +174,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname2}-TECH-001
+Doc. No. {system-type}-TECH-001
 
