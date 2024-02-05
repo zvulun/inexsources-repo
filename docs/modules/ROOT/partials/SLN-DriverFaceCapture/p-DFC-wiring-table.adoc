@@ -21,12 +21,12 @@ For 2 illuminators, use a 240 W supply (xref:IZPWR:DocList.adoc[IZPWR240])
 .^|G .^a|*Strobe Illuminator*
 .^a|{compname-short} P/N: xref:SLN-DriverFaceCapture:DocList.adoc[{illum-DFC}]
 
-.^|-- .^a|*Mounting Hardware (for Camera System and Illuminator)*
+.^|-- .^a|*Mounting Hardware (used for Camera Systems and Illuminator)*
 .^a|{compname-short} P/N: xref:MNT-W3X-W3XA-PMA:DocList.adoc[{mount-black-arm}]
 
 
 .^|-- .^a|*{software-cloud} SaaS Subscription*
-.^a|{compname-short} P/N: xref:SLN-DriverFaceCapture:DocList.adoc[{software-DFC-1S}] or +
+.^a|{compname-short} P/N: xref:SLN-DriverFaceCapture:DocList.adoc[{software-DFC-1S}] or
 xref:SLN-DriverFaceCapture:DocList.adoc[{software-DFC-1C}]
 |===
 
