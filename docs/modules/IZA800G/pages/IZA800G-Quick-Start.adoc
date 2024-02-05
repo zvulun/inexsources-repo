@@ -82,14 +82,6 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 [IMPORTANT]
 
 ========================================
-When opening or closing the housing's
-captive screws, turn the screws
-ALTERNATELY, a little at a time -
-DO NOT open/close one screw completely.
-This places an extreme angle between
-the captive screws, and may cause paint
-to crack around the screw holes,
-increasing the likelihood of corrosion.
 
 The torques required to connect the
 cable connectors to the connectors
