@@ -134,11 +134,15 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 //+++<div class="pagebreak"> </div>+++
 
 [discrete]
-== Dimensions and Mounting
+== Dimensions
 
 image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-004_C2_Dimensions.png[image,550]
 
 <<<
+
+[discrete]
+== Mounting
+
 
 [discrete]
 === DIN Rail Mounting - Rear
