@@ -1,7 +1,7 @@
 // Navigation bulleted list goes in here
 // Note how module name must be specified
 // at start of xref, then put in the
-// doc name
+// doc name.
 * Solutions/Integrations
 ** xref:SLN-AC:DocList.adoc[Access Control]
 ** xref:SLN-Airports:DocList.adoc[Airport Security]
