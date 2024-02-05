@@ -77,10 +77,6 @@ settings.
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
-{empty}
-
-+++<div class="pagebreak"> </div>+++
-
 [discrete]
 == Typical Lane Design
 
