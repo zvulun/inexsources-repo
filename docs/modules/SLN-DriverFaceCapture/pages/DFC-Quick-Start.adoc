@@ -80,10 +80,12 @@ settings.
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
-<<<
 [sidebar]
 If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the Camera System's power connections, and attach pins in their place. +++<br>+++
-After mounting, remove the protective film from the camera's front window.
+After mounting, remove the protective film from the Camera System's front window.
+
+
+<<<
 
 [discrete]
 == Typical Lane Design
