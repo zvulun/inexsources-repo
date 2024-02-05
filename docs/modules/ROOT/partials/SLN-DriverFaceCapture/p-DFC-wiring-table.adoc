@@ -10,8 +10,7 @@ OD 5.5-7.9 mm
 .^|C .^a|*PAS (Power and Signals) Cable* - +
 22 AWG, OD 3.0-7.3 mm
 .^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
-.^|D .^a|*Power Supply for Camera and Illuminator(s)* +
-24 VDC
+.^|D .^a|*Power Supply for Camera and Illuminator(s)*: 24 VDC
 .^a|
 For 1 illuminator, use a 120 W supply (xref:IZPWR:DocList.adoc[IZPWR120]) +
 For 2 illuminators, use a 240 W supply (xref:IZPWR:DocList.adoc[IZPWR240])
@@ -31,7 +30,6 @@ For 2 illuminators, use a 240 W supply (xref:IZPWR:DocList.adoc[IZPWR240])
 xref:SLN-DriverFaceCapture:DocList.adoc[{software-DFC-1C}]
 |===
 
-+++*+++All components can be ordered as part of a kit (xref:SLN-DriverFaceCapture:DocList.adoc[{kit-DFC-1L}])
-
++++*+++All components can be ordered as part of a kit (xref:SLN-DriverFaceCapture:DocList.adoc[{kit-DFC-1L}]) +
 +++**+++ Different illuminator cable lengths can be ordered
 

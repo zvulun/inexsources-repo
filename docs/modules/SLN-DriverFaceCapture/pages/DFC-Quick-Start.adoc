@@ -77,6 +77,8 @@ settings.
 
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
+<<<
+
 [discrete]
 == Typical Lane Design
 
@@ -90,7 +92,7 @@ image::ROOT:SLN-DriverFaceCapture/DFC-CAMP-Lane-Design.png[image,800]
 
 include::ROOT:partial$SLN-DriverFaceCapture/p-DFC-spec-table.adoc[DFC Specification Table]
 
-
+<<<
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
@@ -114,14 +116,10 @@ include::ROOT:partial$SLN-DriverFaceCapture/p-DFC-wiring-table.adoc[DFC Wiring T
 
 image::ROOT:SLN-DriverFaceCapture/IZA500G-FIG-085g_DFC_Signal_Wires.png[image,500]
 
-<<<
-
 [discrete]
 == {illum-DFC} Connector Pinouts
 
 image::ROOT:IZS/IZS-S-FIG-011c_Illuminator_Signals_Pinouts.png[image,width=600]
-
-
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
