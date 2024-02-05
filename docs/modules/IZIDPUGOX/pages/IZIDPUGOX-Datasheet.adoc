@@ -133,9 +133,6 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 
 //+++<div class="pagebreak"> </div>+++
 
-{empty} +
-{empty}
-
 [discrete]
 == Dimensions
 
