@@ -9,6 +9,8 @@
 
 2+.^|Face Camera Capture Distance (F) .^|10-26 ft (3-8 m)
 
+2+.^|LPR Camera Capture Distance (F) .^|8-24 ft (2-7 m)
+
 2+.^|Installation Height .^|5 ft (1.5 m)
 
 2+.^|Vehicle Speed .^|Up to 30 mph (48 km/h)
