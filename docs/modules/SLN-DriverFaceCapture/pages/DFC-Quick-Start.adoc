@@ -84,7 +84,7 @@ in their place. +++<br>+++
 -- After mounting, remove the protective film from the Camera System's front window.+++<br>+++
 //+++<br>+++
 -- You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
-to find the desired camera and change its network
+to find the desired Camera System and change its network
 settings.
 
 
