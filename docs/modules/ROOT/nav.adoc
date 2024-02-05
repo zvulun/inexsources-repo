@@ -24,6 +24,7 @@
 * Cameras
 ** xref:IZA500G:DocList.adoc[IZA500G]
 ** xref:IZA500GR:DocList.adoc[IZA500GR]
+** xref:SLN-DriverFaceCapture:DocList.adoc[IZA500GDFC]
 ** xref:IZ600F:DocList.adoc[IZ600F]
 ** xref:IZA800G:DocList.adoc[IZA800G]
 //*** xref:IZA800G:IZA800G-Datasheet.adoc[Datasheet]
