@@ -63,16 +63,15 @@
 
 Click this xref:SLN-DriverFaceCapture:DocList.adoc[Driver Face Capture Solution] link for additional documentation.
 
-[sidebar]
-You will need: Laptop with Windows 10 or above
-with Windows Feature NET 4.5 enabled.+++<br>+++
-+++<br>+++
-Chrome or Microsoft Edge browser.+++<br>+++
-+++<br>+++
-If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the Camera System's power connections, and attach pins in their place.+++<br>+++
-After mounting, remove the protective film from the camera's front window.+++<br>+++
-+++<br>+++
-You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
+//[sidebar]
+You will need:
+
+* Laptop with Windows 10 or above
+with Windows Feature NET 4.5 enabled.
+
+* Chrome or Microsoft Edge browser.
+
+* You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
 to find the desired camera and change its network
 settings.
 
@@ -82,6 +81,9 @@ settings.
 include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Checklist]
 
 <<<
+[sidebar]
+If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the Camera System's power connections, and attach pins in their place. +++<br>+++
+After mounting, remove the protective film from the camera's front window.
 
 [discrete]
 == Typical Lane Design
