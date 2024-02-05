@@ -101,6 +101,8 @@ image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 
 include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Table]
 
+<<<
+
 [discrete]
 == Ordering Information
 
@@ -121,8 +123,6 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 .^|{shortprodname}-1T-EU .^|{generic-product-name} with 1 TB storage; +
 12 VDC power supply with European-compatible plug
 |===
-
-<<<
 
 [discrete]
 == Standard Package Contents
