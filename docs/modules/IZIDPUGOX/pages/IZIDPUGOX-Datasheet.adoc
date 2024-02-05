@@ -110,7 +110,10 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 .^|{shortprodname}-128G .^|{generic-product-name} with 128 GB storage
 .^|{shortprodname}-256G .^|{generic-product-name} with 256 GB storage
 .^|{shortprodname}-512G .^|{generic-product-name} with 512 GB storage
-.^|{shortprodname}-1T .^|{generic-product-name} with 1 TB storage
+.^|{shortprodname}-1T .^|{generic-product-name} with 1 TB storage; DC cable only
+.^|{shortprodname}-1T-US .^|{generic-product-name} with 1 TB storage; 12 VDC power supply with US-compatible plug
+.^|{shortprodname}-1T-IL .^|{generic-product-name} with 1 TB storage; 12 VDC power supply with Israel-compatible plug
+.^|{shortprodname}-1T-EU .^|{generic-product-name} with 1 TB storage; 12 VDC power supply with European-compatible plug
 |===
 
 //+++<div class="pagebreak"> </div>+++
@@ -120,7 +123,7 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 
 * {shortprodname} {generic-product-name}
 
-* 12 VDC Power Supply
+* 12 VDC Power Supply (except as noted in Ordering Information)
 
 //+++<div class="pagebreak"> </div>+++
 
