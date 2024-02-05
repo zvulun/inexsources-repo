@@ -81,15 +81,28 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 
 +++<div class="pagebreak"> </div>+++
 
-[sidebar]
-If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the Camera System's power connections, and attach pins in their place.
+[discrete]
+== Typical Lane Design
+
+image::ROOT:SLN-DriverFaceCapture/DFC-CAMP-Lane-Design.png[image,800]
+
+//+++<font size="-1">+++D: LPR Capture Distance: 8-24 ft +
+//F: Face Capture Distance: 10-26 ft+++</font>+++
+
+[discrete]
+== {shortprodname} System Specifications
+
+include::ROOT:partial$SLN-DriverFaceCapture/p-DFC-spec-table.adoc[DFC Specification Table]
+
+
 
 [#f_Typical-Camera-System-Wiring-Diagram]
 
 [discrete]
 === Typical Wiring Diagram
 
-// .Typical Camera System Wiring Diagram
+[sidebar]
+If you are using a DIN rail-mount power supply, you will need to cut off the rings at the ends of the Camera System's power connections, and attach pins in their place.
 
 image::ROOT:SLN-DriverFaceCapture/DFC-FIG-001_Wiring.png[image,width=624]
 
@@ -97,57 +110,6 @@ image::ROOT:SLN-DriverFaceCapture/DFC-FIG-001_Wiring.png[image,width=624]
 === Legend
 
 include::ROOT:partial$SLN-DriverFaceCapture/p-DFC-wiring-table.adoc[DFC Wiring Table]
-
-[discrete]
-== Typical Lane Design
-
-image::ROOT:SLN-DriverFaceCapture/DFC-CAMP-Lane-Design.png[image,800]
-
-+++<font size="-1">+++D: LPR Capture Distance: 8-24 ft +
-F: Face Capture Distance: 10-26 ft+++</font>+++
-
-<<<
-
-
-[discrete]
-== Ordering Information
-
-[table.withborders,width="100%",cols="20%,80%",options="header",]
-|===
-|Part Number |Description
-.^|IZA500DFC-1L a|All-in-one AI Driver Face Capture (DFC) camera kit for single-lane use. Includes:
-
-* {camera-DFC} Camera System: AI-enabled camera for precise driver face capture
-
-* {illum-DFC} Strobe Illuminator: Windshield-penetrating illumination for vehicle interiors
-
-* Mounting Hardware (x2): Dual sets for camera and illuminator installation
-
-* Power Supply: A power source for the camera and illuminator
-
-a|{empty} +
-{empty} +
-IZCLOUD-DFC-1S +
-or +
-IZCLOUD-DFC-1C
-a|IZCloud SaaS Subscription; select one of these options:
-
-* IZCLOUD-DFC-1S: 1 year IZCloud Driver Face Capture
-(DFC) Video License, provided as SaaS;
-Free 14-day history in cloud storage;
-Pricing based on number of parking spaces
-
-
-* IZCLOUD-DFC-1C: 1 year IZCloud Driver Face Capture
-(DFC) Video License, provided as SaaS;
-Free 7-day history in cloud storage;
-Pricing based on number of video channels
-|===
-
-//[discrete]
-//== Standard Package Contents
-
-//* {shortprodname} ALPR All-in-one AI Camera System
 
 <<<
 
@@ -157,11 +119,6 @@ Pricing based on number of video channels
 image::ROOT:SLN-DriverFaceCapture/IZA500G-FIG-085g_DFC_Signal_Wires.png[image,500]
 
 <<<
-
-[discrete]
-== {illum-DFC} Dimensions (mm)
-
-image::ROOT:IZS/IZS-S-FIG-004_S2_SW2_Dimensions.png[image,width=800]
 
 [discrete]
 == {illum-DFC} Connector Pinouts
