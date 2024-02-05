@@ -58,6 +58,7 @@
 ** xref:IZL:DocList.adoc[IZL Series]
 ** xref:IZS:DocList.adoc[IZS Series]
 ** xref:IZSVES:DocList.adoc[IZSVES Series]
+** xref:SLN-DriverFaceCapture:DocList.adoc[IZS2DFC]
 ** xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[U.S. Illuminator Mounts]
 ** xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[EU Illuminator Mounts]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera-to-Illuminator Recommended Setups, window=_blank]
