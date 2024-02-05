@@ -109,11 +109,11 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-.^|{shortprodname}-128G .^|{generic-product-name} with 128 GB storage +
+.^|{shortprodname}-128G .^|{generic-product-name} with 128 GB storage; +
 12 VDC power supply with US-compatible plug
-.^|{shortprodname}-256G .^|{generic-product-name} with 256 GB storage +
+.^|{shortprodname}-256G .^|{generic-product-name} with 256 GB storage; +
 12 VDC power supply with US-compatible plug
-.^|{shortprodname}-512G .^|{generic-product-name} with 512 GB storage +
+.^|{shortprodname}-512G .^|{generic-product-name} with 512 GB storage; +
 12 VDC power supply with US-compatible plug
 .^|{shortprodname}-1T .^|{generic-product-name} with 1 TB storage; DC cable only
 .^|{shortprodname}-1T-US .^|{generic-product-name} with 1 TB storage; +
