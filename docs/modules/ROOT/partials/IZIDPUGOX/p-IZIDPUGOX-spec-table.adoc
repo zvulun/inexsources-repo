@@ -16,7 +16,7 @@
 .^| {vehicle-analytics}
 
 2+.^| Max Vehicle Detection Speed
-.^| 93 mph (150 km/h)
+.^| Up to 120 mph (193 km/h)
 
 2+.^| Processing Power
 .^| 240 fps@1080p; 60 fps@8MP
