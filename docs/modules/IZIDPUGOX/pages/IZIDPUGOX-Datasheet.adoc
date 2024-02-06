@@ -132,7 +132,7 @@ DC cable only
 
 * {shortprodname} {generic-product-name}
 
-* 12 VDC Power Supply (except as noted in Ordering Information)
+* DC Cable or 12 VDC Power Supply (see Ordering Information)
 
 //+++<div class="pagebreak"> </div>+++
 
