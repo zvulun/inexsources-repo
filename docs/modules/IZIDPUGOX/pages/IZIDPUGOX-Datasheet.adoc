@@ -109,14 +109,10 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-.^|{shortprodname}-128G-DC .^|{generic-product-name} with 128 GB storage; +
-DC cable only
-.^|{shortprodname}-256G-DC .^|{generic-product-name} with 256 GB storage; +
-DC cable only
-.^|{shortprodname}-512G-DC .^|{generic-product-name} with 512 GB storage; +
-DC cable only
-.^|{shortprodname}-1T-DC .^|{generic-product-name} with 1 TB storage; +
-DC cable only
+.^|{shortprodname}-128G-DC .^|{generic-product-name} with 128 GB storage; DC cable only
+.^|{shortprodname}-256G-DC .^|{generic-product-name} with 256 GB storage; DC cable only
+.^|{shortprodname}-512G-DC .^|{generic-product-name} with 512 GB storage; DC cable only
+.^|{shortprodname}-1T-DC .^|{generic-product-name} with 1 TB storage; DC cable only
 .^|{shortprodname}-1T-EU .^|{generic-product-name} with 1 TB storage; +
 12 VDC power supply with Hybrid CEE 7/7 (IEC TR60083 Type F) plug
 .^|{shortprodname}-1T-IL .^|{generic-product-name} with 1 TB storage; +
