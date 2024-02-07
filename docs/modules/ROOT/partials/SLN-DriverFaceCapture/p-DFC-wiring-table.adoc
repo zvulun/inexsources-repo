@@ -1,6 +1,6 @@
 [table.withborders,width="100%",cols="7%,35%,58%",options="header",]
 |===
-|Item |Description* |Ordering Information
+|Item |Description |Ordering Information
 .^|A .^a|*Camera System*
 .^a|{compname-short} P/N: xref:SLN-DriverFaceCapture:DocList.adoc[{camera-DFC}]
 .^|B .^a|*LAN Cable* - CAT6, shielded, 4 pairs, 22 AWG, max.
@@ -15,8 +15,8 @@ OD 5.5-7.9 mm
 For 1 illuminator, use a 120 W supply (xref:IZPWR:DocList.adoc[IZPWR120]) +
 For 2 illuminators, use a 240 W supply (xref:IZPWR:DocList.adoc[IZPWR240])
 
-.^|E .^a|*Illuminator Power Cable*** .^a|{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR]
-.^|F .^a|*Illuminator Signals Cable*** .^a|{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]
+.^|E .^a|*Illuminator Power Cable* .^a|{compname-short} P/N: xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR]
+.^|F .^a|*Illuminator Signals Cable* .^a|{compname-short} P/N: xref:IZCAB-SSIG:DocList.adoc[IZCAB-SSIG]
 
 .^|G .^a|*Strobe Illuminator*
 .^a|{compname-short} P/N: xref:SLN-DriverFaceCapture:DocList.adoc[{illum-DFC}]
