@@ -24,7 +24,7 @@
 //enable the TOC to be placed in a specific position
 //:toc: macro
 
-= {shortprodname} Quick Start
+= {shortprodname} Quick Start Guide
 
 //!sectnum momentarily stops section numbering
 :!sectnums:
