@@ -109,18 +109,22 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-.^|{shortprodname}-128G-DC .^|{generic-product-name} with 128 GB storage; DC cable only
-.^|{shortprodname}-256G-DC .^|{generic-product-name} with 256 GB storage; DC cable only
-.^|{shortprodname}-512G-DC .^|{generic-product-name} with 512 GB storage; DC cable only
-.^|{shortprodname}-1T-DC .^|{generic-product-name} with 1 TB storage; DC cable only
-.^|{shortprodname}-1T-EU .^|{generic-product-name} with 1 TB storage; +
-12 VDC power supply with Hybrid CEE 7/7 (IEC TR60083 Type F) plug
-.^|{shortprodname}-1T-IL .^|{generic-product-name} with 1 TB storage; +
-12 VDC power supply with SI 32 (IEC TR60083 Type H) plug
-.^|{shortprodname}-1T-UK .^|{generic-product-name} with 1 TB storage; +
-12 VDC power supply with BS 546 (IEC TR60083 Type D) plug
-.^|{shortprodname}-1T-US .^|{generic-product-name} with 1 TB storage; +
-12 VDC power supply with NEMA 5-15 (IEC TR60083 Type B) plug
+.^a|{shortprodname}-xxxx-yy .^a|{generic-product-name}, with +
+{empty} +
+xxxx - storage options: +
+
+* 128G - 128 GB
+* 256G - 256 GB
+* 512G - 512 GB
+* 1 T - 1 TB +
+
+yy - power input options:
+
+* DC - DC cable only
+* EU - 12 VDC power supply with Hybrid CEE 7/7 (IEC TR60083 Type F) plug
+* IL - 12 VDC power supply with SI 32 (IEC TR60083 Type H) plug
+* UK - 12 VDC power supply with BS 546 (IEC TR60083 Type D) plug
+* US - 12 VDC power supply with NEMA 5-15 (IEC TR60083 Type B) plug
 |===
 
 [discrete]

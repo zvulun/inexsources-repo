@@ -54,17 +54,10 @@ architecture GPU with 32 Tensor Cores
 2+.^| Vision Accelerator
 .^| 1x PVA v2
 
-.4+.^| Storage
-.^| IZIDPUGOX-128G
+2.4+.^| Storage Options
 .^| 128 GB NVMe SSD
-
-.^| IZIDPUGOX-256G
 .^| 256 GB NVMe SSD
-
-.^| IZIDPUGOX-512G
 .^| 512 GB NVMe SSD
-
-.^| IZIDPUGOX-1T
 .^| 1 TB NVMe SSD
 
 
@@ -124,8 +117,8 @@ architecture GPU with 32 Tensor Cores
 .^| 35 W
 
 2+.^| Accessories Included
-.^| Power Supply; 12 VDC/5A +
-Barrel Jack 0.22/0.10 in (5.5/2.5 mm)
+.^| DC Cable or 12 VDC/5A Power Supply (depends on part number);  +
+Cable terminated with barrel jack 0.22/0.10 in (5.5/2.5 mm)
 |===
 
 +++*+++ Height measurement includes removable wall mount flanges; +
