@@ -23,7 +23,7 @@ For 2 illuminators, use a 240 W supply (xref:IZPWR:DocList.adoc[IZPWR240])
 
 .^|-- .^a|*Mounting Hardware*
 .^a|{compname-short} P/N: xref:MNT-W3X-W3XA-PMA:DocList.adoc[{mount-black-arm} for Camera Systems] +
-For Illuminator: {compname-short} P/N: xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[{mount-black-arm} for Illuminators (U.S.)]
+{compname-short} P/N: xref:MNT-US-ILLUM-MOUNTS:DocList.adoc[{mount-black-arm} for Illuminators (U.S.)]
 
 |===
 
