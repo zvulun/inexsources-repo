@@ -15,6 +15,7 @@
 ** xref:SLN-IZCloudIntegration:DocList.adoc[IZCloud Integration]
 ** xref:SLN-JLT:DocList.adoc[Jerusalem Light Train]
 ** xref:SLN-LenelS2:DocList.adoc[LenelS2 Integration]
+** xref:SLN-Mobile-LPI:DocList.adoc[Mobile Parking Enforcement (LPI Inventory)]
 ** xref:SLN-Parking:DocList.adoc[Parking]
 ** xref:SLN-SecuritySystems:DocList.adoc[Security Systems]
 ** xref:SLN-SKIDATA:DocList.adoc[SKIDATA Integration]
