@@ -19,7 +19,8 @@
 .^| Up to 120 mph (193 km/h)
 
 2+.^| Processing Power
-.^| 240 fps@1080p; 60 fps@8MP
+.^| For 1 camera: 240 fps@1080p; 60 fps@8MP +
+For 2 cameras: 30 fps@8MP
 
 2+.^| Module
 .^| Jetson Orin(TM) NX 16 GB

@@ -106,26 +106,33 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 [discrete]
 == Ordering Information
 
-[table.withborders,width="100%",cols="25%,75%",options="header",]
+[table.withborders,width="100%",cols="20,30%,50%",options="header",]
 |===
-|Part Number |Description
-.^a|{shortprodname}-xxxx-yy .^a|{generic-product-name}, with +
-{empty} +
-xxxx - storage options: +
+a|Product a|Available Part Numbers+++**+++ a|Product Description
+.^a|
+{shortprodname}
+.^a|
+{shortprodname}-ssss-pp
 
-* 128G - 128 GB
-* 256G - 256 GB
-* 512G - 512 GB
-* 1 T - 1 TB +
-
-yy - power input options:
-
-* DC - DC cable only
-* EU - 12 VDC power supply with Hybrid CEE 7/7 (IEC TR60083 Type F) plug
-* IL - 12 VDC power supply with SI 32 (IEC TR60083 Type H) plug
-* UK - 12 VDC power supply with BS 546 (IEC TR60083 Type D) plug
-* US - 12 VDC power supply with NEMA 5-15 (IEC TR60083 Type B) plug
+.^a|Industrial AI Data Processing Unit with Orin(TM) NX
 |===
++++**+++ {shortprodname}-SSSS-PP, where:
+
+* SSSS - Storage options: +
+
+** 128G - 128 GB
+** 256G - 256 GB
+** 512G - 512 GB
+** 1 T - 1 TB +
+
+* PP - Power input options:
+
+** DC - DC cable only
+** EU - 12 VDC power supply with Hybrid CEE 7/7 (IEC TR60083 Type F) plug
+** IL - 12 VDC power supply with SI 32 (IEC TR60083 Type H) plug
+** UK - 12 VDC power supply with BS 546 (IEC TR60083 Type D) plug
+** US - 12 VDC power supply with NEMA 5-15 (IEC TR60083 Type B) plug
+
 
 [discrete]
 == Standard Package Contents
