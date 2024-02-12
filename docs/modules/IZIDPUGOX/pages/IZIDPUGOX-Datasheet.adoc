@@ -112,7 +112,7 @@ a|Product a|Available Part Numbers+++**+++ a|Product Description
 .^a|
 {shortprodname}
 .^a|
-{shortprodname}-ssss-pp
+{shortprodname}-SSSS-PP
 
 .^a|Industrial AI Data Processing Unit with Orin(TM) NX
 |===
@@ -142,6 +142,8 @@ a|Product a|Available Part Numbers+++**+++ a|Product Description
 * DC Cable or 12 VDC Power Supply (see Ordering Information)
 
 //+++<div class="pagebreak"> </div>+++
+
+<<<
 
 [discrete]
 == Dimensions
