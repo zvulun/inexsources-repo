@@ -150,8 +150,6 @@ a|Product a|Available Part Numbers+++**+++ a|Product Description
 
 image::ROOT:IZIDPUGOX/IZIDPUGOX-FIG-004_C2_Dimensions.png[image,550]
 
-<<<
-
 [discrete]
 == Mounting Options
 
