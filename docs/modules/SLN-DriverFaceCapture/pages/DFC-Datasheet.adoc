@@ -145,7 +145,6 @@ a|Product a|Available Part Numbers a|Product Description
 * Power Supply: A power source for the camera and illuminator
 
 .^a|
-{empty} +
 {software-DFC-1S} +
 {empty} +
 {empty} +
@@ -155,7 +154,6 @@ or +
 
 .^a|
 {software-DFC-1S} +
-{empty} +
 {empty} +
 {empty} +
 or +
