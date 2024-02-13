@@ -126,6 +126,47 @@ include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 [discrete]
 == Ordering Information
 
+[table.withborders,width="100%",cols="20,30%,50%",options="header",]
+|===
+a|Product a|Available Part Numbers a|Product Description
+.^a|
+{shortprodname}
+.^a|
+{shortprodname}-1L
+
+.^a|All-in-one AI {docproductname} camera kit for single-lane use. Includes:
+
+* {camera-DFC} Camera System: AI-enabled camera for precise driver face capture
+
+* {illum-DFC} Strobe Illuminator: Windshield-penetrating illumination for vehicle interiors
+
+* Mounting Hardware (x2): Dual sets for camera and illuminator installation
+
+* Power Supply: A power source for the camera and illuminator
+
+.^a|
+{software-cloud}
+.^a|
+{empty} +
+{empty} +
+{software-DFC-1S} +
+or +
+{software-DFC-1C}
+
+.^a|IZCloud SaaS Subscription; select one of these options:
+
+* {software-DFC-1S}: 1 year IZCloud {docproductname} Video License, provided as SaaS;
+Free 14-day history in cloud storage;
+Pricing based on number of parking spaces
+
+
+* {software-DFC-1C}: 1 year IZCloud {docproductname} Video License, provided as SaaS;
+Free 7-day history in cloud storage;
+Pricing based on number of video channels
+|===
+
+
+
 [table.withborders,width="100%",cols="20%,80%",options="header",]
 |===
 |Part Number |Description
@@ -199,5 +240,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-TDSHEET
+Doc. No. {shortprodname}-TDSHEET Ver. {docdate}
 
