@@ -147,15 +147,15 @@ a|Product a|Available Part Numbers a|Product Description
 .^a|
 {software-DFC-1S} +
 {empty} +
-{empty} +
 or +
+{empty} +
 {software-DFC-1C}
 
 .^a|
 {software-DFC-1S} +
 {empty} +
-{empty} +
 or +
+{empty} +
 {software-DFC-1C}
 
 .^a|IZCloud SaaS Subscription; select one of these options:
