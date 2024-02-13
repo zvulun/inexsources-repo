@@ -2,11 +2,12 @@
 
 * xref:IZPWR:IZPWR-Datasheet.adoc[IZPWR Datasheet]
 
-Supporting documentation (specifications and user guides) can be found at https://drive.google.com/drive/folders/1NEqPbvTz7GX3Go00Wmp6BmPu7HuGndnz?usp=drive_link[GDriveLink, window=_blank]
+Supporting documentation downloads (specifications and user guides):
 
-See also:
-xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-Installation-Manual.pdf[Meanwell NDR Series Installation Manual]]
+* xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-75-Watts-Data-Sheet.pdf.pdf[Meanwell NDR Series 75 Watts Datasheet]
 
+* xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-120-Watts-Data-Sheet.pdf.pdf[Meanwell NDR Series 120 Watts Datasheet]
 
+* xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-240-Watts-Data-Sheet.pdf.pdf[Meanwell NDR Series 240 Watts Datasheet]
 
-
+* xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-Installation-Manual.pdf[Meanwell NDR Series Installation Manual]
