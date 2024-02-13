@@ -85,8 +85,8 @@ in their place. +++<br>+++
 //+++<br>+++
 -- You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
 to find the desired Camera System and change its network
-settings. +
-Defaults are {ip-default-IZA-DPU} (onboard DPU processor),
+settings. Defaults are
+{ip-default-IZA-DPU} (onboard DPU processor),
 {ip-default-IZA-LPR} (LPR camera) and
 {ip-default-IZA-OV} (OV camera).
 
