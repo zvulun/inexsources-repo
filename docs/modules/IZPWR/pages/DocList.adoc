@@ -4,10 +4,10 @@
 
 Supporting documentation downloads (specifications and user guides):
 
-* xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-75-Watts-Data-Sheet.pdf.pdf[Meanwell NDR Series 75 Watts Datasheet]
+* xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-75-Watts-Data-Sheet.pdf[Meanwell NDR Series 75 Watts Datasheet]
 
-* xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-120-Watts-Data-Sheet.pdf.pdf[Meanwell NDR Series 120 Watts Datasheet]
+* xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-120-Watts-Data-Sheet.pdf[Meanwell NDR Series 120 Watts Datasheet]
 
-* xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-240-Watts-Data-Sheet.pdf.pdf[Meanwell NDR Series 240 Watts Datasheet]
+* xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-240-Watts-Data-Sheet.pdf[Meanwell NDR Series 240 Watts Datasheet]
 
 * xref:ROOT:attachment$/IZPWR/MWL-NDR-Series-Installation-Manual.pdf[Meanwell NDR Series Installation Manual]
