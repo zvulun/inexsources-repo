@@ -116,8 +116,6 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specificatio
 
 include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
 
-<<<
-
 [discrete]
 == {illum-DFC} Illuminator Specifications
 
