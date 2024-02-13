@@ -20,7 +20,7 @@
 
 2+.^| Processing Power
 //.^| For 1 camera: 240 fps@1080p; 60 fps@8MP +
-.^| 2 cameras, 30 fps@8MP
+.^| 2 cameras x 30 fps@8MP
 
 2+.^| Module
 .^| Jetson Orin(TM) NX 16 GB
