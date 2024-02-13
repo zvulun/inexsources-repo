@@ -130,7 +130,7 @@ include::ROOT:partial$IZS/p-IZS-spec-table.adoc[IZS Specification Table]
 |===
 a|Product a|Available Part Numbers a|Product Description
 .^a|
-{shortprodname}
+{shortprodname}-1L
 .^a|
 {shortprodname}-1L
 
@@ -145,11 +145,21 @@ a|Product a|Available Part Numbers a|Product Description
 * Power Supply: A power source for the camera and illuminator
 
 .^a|
-{software-cloud}
-.^a|
-//{empty} +
+{empty} +
 {software-DFC-1S} +
+{empty} +
+{empty} +
 or +
+{empty} +
+{software-DFC-1C}
+
+.^a|
+{software-DFC-1S} +
+{empty} +
+{empty} +
+{empty} +
+or +
+{empty} +
 {software-DFC-1C}
 
 .^a|IZCloud SaaS Subscription; select one of these options:
