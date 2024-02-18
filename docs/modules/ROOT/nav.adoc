@@ -96,6 +96,7 @@
 ** xref:IZCloudHttpAPI:DocList.adoc[IZCloud HTTP API]
 ** xref:IZCloudAgent:DocList.adoc[IZCloud Agent]
 ** xref:IZCentral:DocList.adoc[IZCentral]
+** xref:MobileLPI:DocList.adoc[Mobile License Plate Inventory (LPI)]
 ** xref:IZMONSERVER:DocList.adoc[IZMonitoring Server]
 ** xref:ISTHA:DocList.adoc[ISTHA (ISHTA) ETC Interface]
 ** xref:ZAP-4-5:DocList.adoc[ZAP 4.5]
