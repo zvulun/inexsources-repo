@@ -24,7 +24,7 @@
 // enable the TOC to be placed in a specific position
 // :toc: macro
 
-[discrete]
+
 = {compname-short} {shortprodname} Solution
 
 *_\{picture goes here}_*
@@ -214,6 +214,7 @@ no more than 400W of power.
 All communication between the cameras and servers
 is Ethernet-based.
 
+[discrete]
 == Typical Installation Diagram
 
 *_\{picture goes here}_*
