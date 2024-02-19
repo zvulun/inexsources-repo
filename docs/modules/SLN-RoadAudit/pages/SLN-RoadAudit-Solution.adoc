@@ -170,7 +170,7 @@ process much more accurate and objective.
 
 *The {shortprodname} roadside equipment includes:*
 
-[table.withborders,width="100%",cols="40%,60%",options="header",]
+[table.withborders,width="100%",cols="50%,50%",options="header",]
 |===
 |Item |Illustration
 .^a|{software-ALPR} Video Camera for vehicle detection,
