@@ -1,0 +1,368 @@
+:docproductname: RoadAudit Solution
+:shortprodname: RoadAudit
+:shortprodname2: ROADAUDIT
+:generic-camera-name: camera
+:system-type: N/A
+
+// change name of file
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+
+//:xref-type-IZA800GVES:
+:layout-type-technote:
+
+//enable the TOC to be placed in a specific position
+//:toc: macro
+
+= {compname-short} {shortprodname} Solution
+
+*_\{picture goes here}_*
+
+// xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
+
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+//[discrete]
+//== *{docproductname}*
+
+//[discrete]
+//=== Rev. F3
+//[discrete]
+//=== Datasheet
+
+// image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,300,align=left]
+
+// no section numbers in datasheets
+//:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+// no TOC in datasheets ._Click to show the Table of Contents_
+// [%collapsible]
+// ====
+
+// toc::[]
+
+// ====
+// generalize for all airports
+[discrete]
+== Executive Summary
+
+{shortprodname} uses the same technology
+as {compname-short} {software-ALPR} software
+to provide a portable, versatile audit
+tool for end-users and consultants.
+Hardware (separate from the production
+system) is installed at target locations,
+and vehicle metrics of each transaction
+are logged. *_\{seems the opposite - should be the
+transaction data w/out the word production; also this
+data referred to here are the metrics; only the LPR
+is part of the production data}_*
+Production transaction data
+(axle count, AVC class, LPR) is matched
+with {shortprodname} transaction data, this can be
+done in real-time or during post-process.
+
+{shortprodname} tools rapidly display mismatched
+*_\{what excatly is a mismatched transaction?}_*
+transactions *_\{who is doing manual reviews?}_*
+which are manually reviewed and *_\{what is disposition
+recording?}_* disposition recorded.
+Basic reports can be output in CSV format, and
+further analyzed by the client. {shortprodname}
+can be moved from lane to lane or plaza to plaza,
+depending on *_\{call it monitoring needs?}_* testing
+needs.
+
+[discrete]
+== Key Features and Benefits
+* [*] Since {shortprodname} is an independent lane
+system, it quickly identifies mismatches in the *_\{when does
+the audit period occur?}_* audit period,
+providing ~30x reduction in time required *_\{time
+required for what?}_* !
+
+* [*] {shortprodname} is not *_\{connected with}_*
+tethered to existing production sensors,
+providing true independent results.
+
+* [*] *_\{clarify}_* Eliminates contamination of data when
+other data logger audit tools are utilized
+using production sensors.
+
+* [*] Portability - Enables more transactions and
+locations to be analyzed per audit period.
+
+* [*] Video evidence of all toll metrics; for example,
+example exiting vehicle edge trigger, image of axle count
+*_\{why final?}_* final answer, etc.
+
+*_\{How to integrate the following list with the
+list above?}_*
+
+*{shortprodname} provides:*
+
+* [*] Real-time continuous video
+recording of lane activity 24/7
+
+* [*] Remote real-time video playback for one or
+more tolling lanes' activities
+
+* [*] Real-time correlation of the in-lane
+transactions from {software-ALPR} cameras with
+the *_\{correct acronym? means what?}_* DVAS video
+stream
+
+* [*] Multiple role-based authorization access
+for real-time video play or archived recordings.
+The role-based access can be configured per time,
+lane ID or *_\{what is a plaza location level?}_*
+plaza location levels
+
+* [*] Full reports of past transactions and
+associated video clips
+
+* [*] Intuitive interface to query
+the system based on Lane transaction ID,
+specific time and time range, lane or toll zone,
+vehicle license plate (full or partial) and
+*_\{what are classification results - vehicle type?}_*
+classification results
+
+[discrete]
+== {shortprodname} Equipment and Installation
+
+The {shortprodname} solution comes with independent, portable
+roadside equipment for recording and processing vehicle data.
+The system operates in a fully "touchless" way -
+no need for "digging or cutting" the road or building a
+new gantry infrastructure.
+
+The {shortprodname} solution
+doesn't require any integration with the production
+VES equipment. It works in parallel and independently
+from the production system, making the entire auditing
+process much more accurate and objective.
+
+*The {shortprodname} roadside equipment includes:*
+
+[table.withborders,width="100%",cols="40%,60%",options="header",]
+|===
+|Item |Illustration
+.^a|{software-ALPR} Video Camera for vehicle detection,
+axle counting and vehicle classification,
+and DVAS video streams
+.^a|*_\{picture goes here}_*
+
+.^a| {software-ALPR} ALPR All-in-one AI Camera System
+for license plate recognition (optional)
+.^a|*_\{picture goes here}_*
+
+.^a| {software-ALPR} *_\{can we call this a DPU?}_*
+data processing server
+.^a|*_\{picture goes here}_*
+
+.^a| DVAS processing server
+.^a|*_\{picture goes here}_*
+
+.^a| *_\{confusing terms}_* {software-ALPR} and ALPR camera illuminators
+.^a|*_\{picture goes here}_*
+
+.^a| Equipment mounting Hardware
+.^a|*_\{picture goes here}_*
+
+|===
+
+== {shortprodname} Equipment Typical Installation
+
+{shortprodname} is designed to be easily
+installable and portable, and easy to operate.
+
+In most cases, the system can use existing
+production infrastructure such as road gantries,
+side poles or cantilevers.
+
+The equipment uses 24 VDC, and requires
+no more than 400W of power.
+
+All communication between the cameras and servers
+is Ethernet-based.
+
+== Typical Installation Diagram
+
+*_\{picture goes here}_*
+
+
+
+[discrete]
+== Vehicle Security
+
+image:VehicleAlertEmail.png[image,width=300] {empty} image:BlackList.png[image,width=360]
+
+{compname-short} AI license plate recognition quickly
+and accurately identifies blacklisted vehicles,
+ensuring immediate action at roads or checkpoints.
+This capability provides increased perimeter and
+parking lot security, prevention of unauthorized
+vehicles from accessing sensitive areas,
+and timely responses to potential threats.
+
+
+[discrete]
+== Unattended Baggage
+
+//pictures of baggage and thermal cameras
+image::UnattendedBag.jpg[image,width=300,align=left]
+
+Unattended baggage is a security threat often overlooked.
+Cameras identify baggage left unattended for prolonged periods,
+alerting security teams instantly. The system can associate each
+piece of baggage with its original owner, reducing false alerts caused
+by other people in the vicinity of the abandoned bag.
+
+
+[discrete]
+== Suspicious Behavior
+
+image::RunningBusinessmen.jpg[image,width=300,align=left]
+
+--
++++<div class="pagebreak"> </div>+++
+--
+
+
+People tracking systems can alert security personnel
+to suspicious behaviors.
+These include people running, walking in the opposite direction,
+stopping, or not carrying baggage.
+Such alerts can provide early warning of
+potential security threats.
+
+[discrete]
+== Terminal Population Count and Crowding Detection
+
+//pictures same size
+
+image:AirportPopulationCount.png[image,width=300,align=left] {empty}
+image:Crowding.jpg[image,width=280,align=left]
+
+Real-time people counting systems can determine the number
+of individuals in the terminal at any given moment.
+This enables efficient terminal management, better
+resource allocation during peak times,
+and swift emergency evacuation when needed.
+
+Areas that often experience crowding can be monitored,
+such as security checks, check-ins, and baggage claim zones.
+You can enhance your passenger experience by preventing
+prolonged waiting times, and ensuring optimal staff
+allocation during rush hours.
+
+//--
+//+++<div class="pagebreak"> </div>+++
+//--
+
+[discrete]
+== Intelligent AI Video Analytics
+
+image::CarTypeIdentified.jpg[image,width=300,align=left]
+
+Integrated with AI-driven video analytics, our system
+pairs seamlessly with your existing CCTV infrastructure,
+and maximizes accuracy while reducing false positives. +++<br>+++
+For example, our ALPR analytics can determine
+the classification, color and make of a vehicle.
+
+--
++++<div class="pagebreak"> </div>+++
+--
+
+[discrete]
+== Virtual Patrols
+
+image::VirtualPatrolOperator.jpg[image,width=300,align=left]
+
+Virtual patrol is a concept that includes several
+of the video-based airport security system
+features mentioned here.
+You can use technology to simulate
+or enhance traditional physical patrolling
+conducted by security personnel, especially in areas
+off-limits to normal people traffic.
+A site can be monitored remotely without the
+need for on-site guards.
+
+
+[discrete]
+== {compname-short} Projects
+Here is a partial list of major {compname-short} projects for airports and security clients.
+
+[width="100%",cols="50%,50%",frame="none",grid="none"]
+|===
+<.<a|* +++<font size="+1">+++Ben Gurion Airport, Israel +++</font>+++ {empty} image:Airport-Ben-Gurion.png[image,width=100,align=left]
+<.<a|* +++<font size="+1">+++Ho Chi Minh City, Vietnam +++</font>+++ {empty} image:Airport-Vietnam.png[image,width=100,align=left]
+<.^a|* +++<font size="+1">+++Austin-Bergstrom, TX +++</font>+++ {empty} image:Airport-Austin-Bergstrom.png[image,width=100,align=left]
+<.^a|* +++<font size="+1">+++Omaha, NB +++</font>+++ {empty} image:Airport-Omaha.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++Orlando, FL +++</font>+++ {empty} image:Airport-Orlando.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Raleigh-Durham, NC+++</font>+++ {empty} image:Airport-Raleigh-Durham.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++San Bernardino, CA +++</font>+++ {empty} image:Airport-SanBernardino.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Bellingham Intl Airport, WA +++</font>+++ {empty} image:Airport-Bellingham.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++San Jose, CA +++</font>+++ {empty} image:Airport-SanJose.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++San Diego, CA +++</font>+++ {empty} image:Airport-SanDiego.png[image,width=70,align=left]
+<.<a|* +++<font size="+1">+++MGM Grand +++</font>+++ {empty} image:Parking-MGM-Grand.png[image,width=50,align=left]
+<.<a|* +++<font size="+1">+++The Mirage +++</font>+++ {empty} image:Parking-Mirage.png[image,width=100,align=left]
+<.^a|* +++<font size="+1">+++Barclays Center, NY +++</font>+++ {empty} image:Parking-Barclays.png[image,width=50,align=left]
+<.^a|* +++<font size="+1">+++MET Square, MD +++</font>+++ {empty} image:Parking-MET-Square.png[image,width=40,align=left]
+<.^a|* +++<font size="+1">+++UBS Arena, NY +++</font>+++ {empty} image:Parking-UBS-Arena.png[image,width=75,align=left]
+<.^a|* +++<font size="+1">+++Marriott HQ, MD+++</font>+++ {empty} image:Parking-Marriott-HQ.png[image,width=50,align=left]
+//<.^a|* +++<font size="+1">+++San Bernardino, CA +++</font>+++ {empty} image:Airport-SanBernardino.png[image,width=75,align=left]
+//<.^a|* +++<font size="+1">+++Bellingham Intl Airport, WA +++</font>+++ {empty} image:Airport-Bellingham.png[image,width=50,align=left]
+|===
+
+
+--
++++<div class="pagebreak"> </div>+++
+--
+
+
+
+[discrete]
+== Contact Us
+As the landscape of threats evolves, the tools we use to
+counter them must stay a step ahead. We invite
+forward-thinking airport security teams to
+journey with us in setting new safety standards.
+
+Call us for a trial - we can use your existing cameras and other equipment,
+and evaluate how we can integrate with your systems.
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+Doc. No. SLN-{shortprodname2}-ALL-WP
+
