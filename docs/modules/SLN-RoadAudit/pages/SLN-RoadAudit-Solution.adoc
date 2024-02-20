@@ -153,7 +153,8 @@ process much more accurate and objective.
 |Item |Illustration
 .^a|{software-ALPR} Video Camera for vehicle detection,
 axle counting and vehicle classification,
-and DVAS video streams
+and DVAS video streams *_\{want real GRV one camera
+picture?}_*
 ^.^a|image:ROOT:SLN-RoadAudit/RoadAudit-FIG-003_WP_RV_Vid_Camera.png[image,width=50]
 
 .^a| {software-ALPR} ALPR All-in-one AI Camera System
@@ -191,12 +192,11 @@ no more than 400W of power.
 All communication between the cameras and servers
 is Ethernet-based.
 
-[discrete]
-== Typical Installation Diagram
-
 image:ROOT:SLN-RoadAudit/RoadAudit-FIG-009_WP_Typical_Install.png[image,width=800]
 
+<<<
 
+==
 
 [discrete]
 == Contact Us
