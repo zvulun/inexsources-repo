@@ -198,6 +198,7 @@ image:ROOT:SLN-RoadAudit/RoadAudit-FIG-009_WP_Typical_Install.png[image,width=80
 
 <<<
 
+[discrete]
 == {software-ALPR} Video and ALPR Camera Specifications
 
 include::ROOT:partial$/SLN-RoadAudit/p-RoadAudit-spec-table.adoc[RoadAudit Spec table]
