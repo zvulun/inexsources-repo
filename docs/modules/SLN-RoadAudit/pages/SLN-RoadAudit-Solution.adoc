@@ -132,7 +132,7 @@ can be configured per time, lane ID or plaza
 <<<
 
 [discrete]
-== {shortprodname} Equipment and Installation
+== {shortprodname} Equipment
 
 The {shortprodname} solution comes with independent, portable
 roadside equipment for recording and processing vehicle data.
@@ -176,8 +176,10 @@ data processing server
 
 |===
 
+<<<
+
 [discrete]
-== {shortprodname} Equipment Typical Installation
+== {shortprodname} Typical Installation
 
 {shortprodname} is designed to be easily
 installable and portable, and easy to operate.
