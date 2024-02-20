@@ -29,8 +29,6 @@
 
 image:ROOT:SLN-RoadAudit/RoadAudit-FIG-001_WP_FrontCover.png[image,width=600]
 
-image:ROOT:SLN-RoadAudit/RoadAudit-FIG-002_WP_SysBlockDiagram.png[image,width=600]
-
 // xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
 
 //image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
@@ -100,6 +98,11 @@ further analyzed by the client. {shortprodname}
 can be moved from lane to lane or plaza to plaza,
 depending on *_\{call it monitoring needs?}_* testing
 needs.
+
+<<<
+
+image:ROOT:SLN-RoadAudit/RoadAudit-FIG-002_WP_SysBlockDiagram.png[image,width=600]
+
 
 [discrete]
 == Key Features and Benefits
