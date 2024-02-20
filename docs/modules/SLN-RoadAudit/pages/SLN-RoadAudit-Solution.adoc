@@ -75,29 +75,21 @@ image:ROOT:SLN-RoadAudit/RoadAudit-FIG-001_WP_FrontCover.png[image,width=800]
 {shortprodname} uses the same technology
 as {compname-short} {software-ALPR} software
 to provide a portable, versatile audit
-tool for end-users and consultants.
+tool for end users and consultants.
 Hardware (separate from the production
 system) is installed at target locations,
 and vehicle metrics of each transaction
-are logged. *_\{seems the opposite - should be the
-transaction data w/out the word production; also this
-data referred to here are the metrics; only the LPR
-is part of the production data}_*
-Production transaction data
-(axle count, AVC class, LPR) is matched
-with {shortprodname} transaction data, this can be
-done in real-time or during post-process.
+are logged. Production transaction data metrics
+such as axle count, automatic vehicle classification (AVC) class, and LPR
+are matched with {shortprodname} transaction data. This can be
+done in real time, or during post-process.
 
 {shortprodname} tools rapidly display mismatched
-*_\{what excatly is a mismatched transaction?}_*
-transactions *_\{who is doing manual reviews?}_*
-which are manually reviewed and *_\{what is disposition
-recording?}_* disposition recorded.
+transactions which are manually reviewed for disposition recording.
 Basic reports can be output in CSV format, and
 further analyzed by the client. {shortprodname}
 can be moved from lane to lane or plaza to plaza,
-depending on *_\{call it monitoring needs?}_* testing
-needs.
+depending on audit needs.
 
 <<<
 
@@ -106,58 +98,36 @@ image:ROOT:SLN-RoadAudit/RoadAudit-FIG-002_WP_SysBlockDiagram.png[image,width=80
 
 [discrete]
 == Key Features and Benefits
-* [*] Since {shortprodname} is an independent lane
-system, it quickly identifies mismatches in the *_\{when does
-the audit period occur?}_* audit period,
-providing ~30x reduction in time required *_\{time
-required for what?}_* !
+* [*] Higher quality reviews with significantly less human labor
 
-* [*] {shortprodname} is not *_\{connected with}_*
-tethered to existing production sensors,
-providing true independent results.
+* [*] Not connected with existing production sensors,
+providing true independent results
 
-* [*] *_\{clarify}_* Eliminates contamination of data when
-other data logger audit tools are utilized
-using production sensors.
+* [*] Eliminates contamination of data caused by other data logger
+audit tools that use production sensors
 
-* [*] Portability - Enables more transactions and
+* [*] Portability - enables more transactions and
 locations to be analyzed per audit period.
 
-* [*] Video evidence of all toll metrics; for example,
-example exiting vehicle edge trigger, image of axle count
-*_\{why final?}_* final answer, etc.
+* [*] Real-time continuous video evidence of all
+lane activity and toll metrics, with remote video playback
 
-*_\{How to integrate the following list with the
-list above?}_*
+* [*] *_\{not clear what data is on the DVAS server?}_* Real-time
+correlation of the in-lane production transactions from
+*_\{don't you mean from client cameras?}_* {software-ALPR}
+cameras with the Digital Video Audit System (DVAS) video stream
 
-*{shortprodname} provides:*
-
-* [*] Real-time continuous video
-recording of lane activity 24/7
-
-* [*] Remote real-time video playback for one or
-more tolling lanes' activities
-
-* [*] Real-time correlation of the in-lane
-transactions from {software-ALPR} cameras with
-the *_\{correct acronym? means what?}_* DVAS video
-stream
-
-* [*] Multiple role-based authorization access
-for real-time video play or archived recordings.
-The role-based access can be configured per time,
-lane ID or *_\{what is a plaza location level?}_*
-plaza location levels
+* [*] Intuitive interface to query
+the system based on lane transaction ID,
+specific time and time range, lane or toll zone,
+vehicle license plate (full or partial) and vehicle classification
 
 * [*] Full reports of past transactions and
 associated video clips
 
-* [*] Intuitive interface to query
-the system based on Lane transaction ID,
-specific time and time range, lane or toll zone,
-vehicle license plate (full or partial) and
-*_\{what are classification results - vehicle type?}_*
-classification results
+* [*] Multiple role-based authorization access
+for real-time video play or archived recordings -
+can be configured per time, lane ID or plaza
 
 [discrete]
 == {shortprodname} Equipment and Installation
