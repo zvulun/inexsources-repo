@@ -27,7 +27,7 @@
 
 = {compname-short} {shortprodname} Solution
 
-*_\{picture goes here}_*
+image:ROOT:SLN-RoadAudit/RoadAudit-FIG-001_WP_FrontCover.png[image,width=800]
 
 // xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
 
