@@ -205,6 +205,29 @@ include::ROOT:partial$/SLN-RoadAudit/p-RoadAudit-spec-table.adoc[RoadAudit Spec 
 
 <<<
 
+
+
+<<<
+
+[discrete]
+== Dimensions (inches/cm)
+
+image::ROOT:IZA800G/image5.png[image,width=315,height=205]
+
+image::ROOT:IZA800G/image6.png[image,width=463,height=224]
+
+image::ROOT:IZA800G/image7.png[image,width=489,height=252]
+
+<<<
+
+[discrete]
+== Power/Signals Cable Connector Pinout
+
+include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
+
+
+<<<
+
 [discrete]
 == Contact Us
 Call us for a trial - we can use your existing cameras and other equipment,
