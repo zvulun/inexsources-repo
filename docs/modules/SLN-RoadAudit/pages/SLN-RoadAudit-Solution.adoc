@@ -198,6 +198,12 @@ image:ROOT:SLN-RoadAudit/RoadAudit-FIG-009_WP_Typical_Install.png[image,width=80
 
 <<<
 
+== {software-ALPR} Video and ALPR Camera Specifications
+
+include::ROOT:partial$/SLN-RoadAudit/p-RoadAudit-spec-table.adoc[RoadAudit Spec table]
+
+<<<
+
 [discrete]
 == Contact Us
 Call us for a trial - we can use your existing cameras and other equipment,
