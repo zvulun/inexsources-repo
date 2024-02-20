@@ -235,7 +235,7 @@ include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector
 
 [discrete]
 == Contact Us
-Call us for a trial - we can use your existing cameras and other equipment,
+Call us for a trial - we can use your existing equipment,
 and evaluate how we can integrate with your systems.
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
