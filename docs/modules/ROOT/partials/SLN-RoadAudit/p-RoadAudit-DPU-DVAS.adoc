@@ -1,0 +1,39 @@
+[table.withborders,width="85%",cols="30%,70%",options="header",]
+|===
+|Item |Specification
+.^a|Processing Module
+.^a|Jetson Orin NX 16GB
+
+.^a| GPU
+.^a|1024-core NVIDIA Ampere
+architecture GPU with 32 Tensor
+Cores
+
+.^a| CPU
+.^a| 8-core Arm® Cortex®-A78AE v8.2
+64-bit CPU 2MB L2 {plus} 4MB L3
+
+.^a| Memory
+.^a| 16GB 128-bit LPDDR5 102.4GB/s
+
+.^a| Storage
+.^a| SSD 1TB
+
+.^a| Networking
+.^a| 1* Gigabit Ethernet (10/100/1000M)
+
+.^a| Power Supply
+.^a| *_\{but didn't we say up above
+that all equipment runs on 24 VDC?}_*
+DC 12V/5A (Barrel Jack 5.5/2.5mm)
+
+.^a| Temperature
+.^a| *_\{this could be different for DPU}_*
+14°F to 140°F (-10°C to 60°C)
+
+.^a| Dimensions
+.^a| *_\{this could be different for DPU}_* +
+5.1" x 4.7" x 2.3"
+(130 mm x 120 mm x 58.5 mm)
+
+|===

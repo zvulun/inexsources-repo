@@ -205,7 +205,12 @@ include::ROOT:partial$/SLN-RoadAudit/p-RoadAudit-spec-table.adoc[RoadAudit Spec 
 
 <<<
 
+[discrete]
+== {software-ALPR} *_\{DPU?}_* and DVAS Server Specifications
 
+*_\{These are specs for the DVAS - but a DPU has different specs}_*
+
+include::ROOT:partial$/SLN-RoadAudit/p-RoadAudit-DPU-DVAS.adoc[RoadAudit DPU/DVAS Spec table]
 
 <<<
 
@@ -224,9 +229,6 @@ image::ROOT:IZA800G/image7.png[image,width=489,height=252]
 == Power/Signals Cable Connector Pinout
 
 include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
-
-
-<<<
 
 [discrete]
 == Contact Us
