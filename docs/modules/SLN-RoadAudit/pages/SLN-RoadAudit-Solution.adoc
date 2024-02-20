@@ -198,8 +198,6 @@ image:ROOT:SLN-RoadAudit/RoadAudit-FIG-009_WP_Typical_Install.png[image,width=80
 
 <<<
 
-==
-
 [discrete]
 == Contact Us
 Call us for a trial - we can use your existing cameras and other equipment,
