@@ -165,13 +165,13 @@ data processing server
 ^.^a| image:ROOT:SLN-RoadAudit/RoadAudit-FIG-005_WP_RV_DPU.png[image,width=50]
 
 .^a| DVAS processing server
-^.^a| image:ROOT:SLN-RoadAudit/RoadAudit-FIG-006_WP_DVAS_Server.png[image,width=60]
+^.^a| image:ROOT:SLN-RoadAudit/RoadAudit-FIG-006_WP_DVAS_Server.png[image,width=55]
 
 .^a| {software-ALPR} Video Camera and {software-ALPR} ALPR camera illuminators
-.^a| image:ROOT:SLN-RoadAudit/RoadAudit-FIG-007_WP_RV_ALPR_Illuminators.png[image,width=70]
+^.^a| image:ROOT:SLN-RoadAudit/RoadAudit-FIG-007_WP_RV_ALPR_Illuminators.png[image,width=80]
 
 .^a| Equipment mounting Hardware
-.^a| image:ROOT:SLN-RoadAudit/RoadAudit-FIG-008_WP_Mounts.png[image,width=50]
+^.^a| image:ROOT:SLN-RoadAudit/RoadAudit-FIG-008_WP_Mounts.png[image,width=50]
 
 |===
 
