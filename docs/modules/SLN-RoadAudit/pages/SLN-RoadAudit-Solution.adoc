@@ -27,7 +27,9 @@
 
 = {compname-short} {shortprodname} Solution
 
-image:ROOT:SLN-RoadAudit/RoadAudit-FIG-001_WP_FrontCover.png[image,width=800]
+image:ROOT:SLN-RoadAudit/RoadAudit-FIG-001_WP_FrontCover.png[image,width=600]
+
+image:ROOT:SLN-RoadAudit/RoadAudit-FIG-002_WP_SysBlockDiagram.png[image,width=600]
 
 // xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
 
