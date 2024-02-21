@@ -8,16 +8,15 @@
 
 .2+.^| Supported Analytics
 {set:cellbgcolor!}
-.^| LPR Analytics *_\{/Vehicle?}_*
+.^| LPR/Vehicle Analytics
 .^| Plate Recognition, State of Issue, Type, Make/Model, Color
 
 
 .^| Toll Zone Analytics
 .^| Vehicle Detection (front/rear triggering),
-*_\{what is this?}_* Shape-based classification,
+Shape-based vehicle type classification,
 Axle counts (including raised axle flagging),
-License plate *_\{recognition?}_* Reading
-system image capture quality,
+License plate camera image capture quality,
 LPR engine performance
 
 2+.^| Supported Lane Types
@@ -33,7 +32,7 @@ LPR engine performance
 * Date
 * Time
 * Plaza location
-* RFID tag number (*_\{not clear}_* if applicable, transponder)
+* RFID tag number from transponder (if available)
 * License plate number
 * Class type (from RFID)
 * Class type (from AVC)
@@ -55,7 +54,7 @@ LPR engine performance
 
 .^| Up to 120 mph (193 km/h)
 
-2.1+.^| {software-ALPR} *_\{Video Camera?}_* Capture Distance
+2.1+.^| {software-ALPR} Video Camera Capture Distance
 
 .^a| Optimal distance for Detection, Axle Count and Classification -
 50 ft (15 m)
@@ -136,8 +135,6 @@ LPR engine performance
 
 .^| Resolution
 .^| 3.19 MP - 2048 (H) x 1536 (V)
-*_\{Note the GRV resolution is 2 MP - 1920 (H) × 1080 (V)}_*
-
 
 //.1+.^| Lens
 //.^a| * S - 6-22 mm; Motorized Zoom and Auto-focus
@@ -248,10 +245,10 @@ LPR engine performance
 2.5+.^| Accessories Included
 
 .^| Sunshade
-.^| Waterproof outdoor RJ-45 cable connector+++**+++
-.^| 15 ft LAN Cable (xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN])+++***+++
-.^| Waterproof outdoor M12 cable connector+++**+++
-.^| 15 ft Power/Signals Cable (xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS])+++***+++
+.^| Waterproof outdoor RJ-45 cable connector
+.^| 15 ft LAN Cable (xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN])
+.^| Waterproof outdoor M12 cable connector
+.^| 15 ft Power/Signals Cable (xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS])
 
 2.6+.^| Accessories Available
 

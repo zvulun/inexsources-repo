@@ -23,17 +23,12 @@ Cores
 .^a| 1* Gigabit Ethernet (10/100/1000M)
 
 .^a| Power Supply
-.^a| *_\{but didn't we say up above
-that all equipment runs on 24 VDC?}_*
-DC 12V/5A (Barrel Jack 5.5/2.5mm)
+.^a| DC 12V/5A (Barrel Jack 5.5/2.5mm)
 
 .^a| Temperature
-.^a| *_\{this could be different for DPU}_*
-14°F to 140°F (-10°C to 60°C)
+.^a| 14°F to 140°F (-10°C to 60°C)
 
 .^a| Dimensions
-.^a| *_\{this could be different for DPU}_* +
-5.1" x 4.7" x 2.3"
-(130 mm x 120 mm x 58.5 mm)
+.^a| 5.1" x 4.7" x 2.3" (130 mm x 120 mm x 58.5 mm)
 
 |===
