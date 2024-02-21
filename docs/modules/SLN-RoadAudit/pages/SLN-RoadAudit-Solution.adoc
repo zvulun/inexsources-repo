@@ -237,5 +237,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. SLN-{shortprodname2}-ALL-WP
+Doc. No. SLN-{shortprodname2}-ALL-WP Ver. {docdate}
 
