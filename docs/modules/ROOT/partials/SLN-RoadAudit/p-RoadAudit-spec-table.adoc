@@ -242,36 +242,27 @@ LPR engine performance
 .^| Power Consumption
 .^| 25 W
 
-2.5+.^| Accessories Included
+2.3+.^| Accessories Included
 
 .^| Sunshade
-.^| Waterproof outdoor RJ-45 cable connector
-.^| 15 ft LAN Cable (IZCAB-A800-LAN)
-.^| Waterproof outdoor M12 cable connector
-.^| 15 ft Power/Signals Cable (IZCAB-A800-PAS)
+.^a| Waterproof outdoor RJ-45 cable connector or +
+15 ft LAN Cable (IZCAB-A800-LAN)
+.^a| Waterproof outdoor M12 cable connector or +
+15 ft Power/Signals Cable (IZCAB-A800-PAS)
 
 2.6+.^| Accessories Available
 
 .^| DIN Rail Mount Power Supplies (IZPWR)
 
-.^| Digital I/O Controller (hw-iocontroller})
+.^| Digital I/O Controller ({hw-iocontroller})
 
-
-
-.^| Power/Signals Cable for {shortprodname} System+++<br>+++
+.^| Power/Signals Cable for {software-ALPR} System+++<br>+++
 (IZCAB-A800-PAS - different lengths)
 
-
-
-.^| LAN Cable for {shortprodname} System+++<br>+++
+.^| LAN Cable for {software-ALPR} System+++<br>+++
 (IZCAB-A800-LAN - different lengths)
 
-
-
-
 .^| Different mount options available
-
-
 
 .^| External Illuminator ({illum-strobe} Series)
 
