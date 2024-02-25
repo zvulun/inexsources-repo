@@ -411,6 +411,8 @@ image::./UserGuide/image10.png[image,width=416,height=180]
 
 * If needed, set the {shortprodname} computer's IP address parameters.
 
+* The IP Address and Default Gateway must be on the same network.
+
 * Remember to click the Save button in this section; the change will be applied immediately.
 
 [IMPORTANT]
@@ -1325,10 +1327,19 @@ image::./UserGuide/image36.png[image,width=317,height=308]
 //latest version when the software is released
 //to production
 
+image::./UserGuide/RV-1_15-FIG-205_SystemStatus.png[image,width=400]
 
-image::./UserGuide/RV-1_15-FIG-205_SystemStatus.png[image,width=624,height=313]
+This tab displays statuses of different {shortprodname}
+components.
 
-*_\{add text to explain}_*
+[NOTE]
+
+============================
+
+In order to see the illuminator status information,
+you must enable its display on the System Info tab (see <<s_System-Info-Tab>>).
+
+============================
 
 [#s_Calibration-Tab]
 
