@@ -397,7 +397,7 @@ The box at the upper right of the Settings screen shows:
 
 .Software Version and Camera Information Section
 
-image::./UserGuide/image9.png[image,width=356,height=130]
+image::./UserGuide/RV-1_15-FIG-100b_SettingsVersionSection.png[image,width=356,height=130]
 
 [#s_Network-Settings]
 
@@ -1315,6 +1315,21 @@ image::./UserGuide/image36.png[image,width=317,height=308]
 
 +++<div class="pagebreak"> </div>+++
 
+[#s_System-Status-Tab]
+
+== System Status Tab
+
+[#f_System-Status-Tab]
+
+//remember to update this image file with the
+//latest version when the software is released
+//to production
+
+
+image::./UserGuide/RV-1_15-FIG-205_SystemStatus.png[image,width=624,height=313]
+
+*_\{add text to explain}_*
+
 [#s_Calibration-Tab]
 
 == Calibration Tab
@@ -1400,7 +1415,11 @@ You can set the "Ignore Opposite Direction" parameter in the Lanes section to ig
 
 .System Info Tab
 
-image::./UserGuide/image40.png[image,width=316,height=308]
+//remember to update this image file with the
+//latest version when the software is released
+//to production
+
+image::./UserGuide/RV-1_15-FIG-034d_SystemInfo.png[image,width=316,height=308]
 
 [NOTE]
 
@@ -1427,6 +1446,13 @@ This section provides the same information as in the upper right corner of the s
 ** Choose File - click this button to browse for the firmware file
 
 ** Update Firmware - click this button to update the firmware using the file you chose
+
+[#s_System-Info-Tab-Illuminator-Status-Section]
+
+=== System Info Tab: Illuminator Status Section
+
+When enabled, illuminator status items are displayed
+on the System Status tab (see <<s_System-Status-Tab>>).
 
 [#s_System-Info-Tab-Night-Mode-Section-for-Specific-Camera-Models-Only]
 
