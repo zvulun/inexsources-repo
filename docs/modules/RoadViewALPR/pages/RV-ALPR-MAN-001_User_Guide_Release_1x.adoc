@@ -397,6 +397,10 @@ The box at the upper right of the Settings screen shows:
 
 .Software Version and Camera Information Section
 
+//remember to update this image file with the
+//latest version when the software is released
+//to production
+
 image::./UserGuide/RV-1_15-FIG-100b_SettingsVersionSection.png[image,width=356,height=130]
 
 [#s_Network-Settings]
@@ -524,7 +528,7 @@ If you are using an IZMobileLPI system, contact {compname-short} for details on 
 
 .Adding an HTTP Integration
 
-image::./UserGuide/image15.png[image,width=264,height=384]
+image::./UserGuide/RV-1_15-FIG-020b_Edit_HTTP_Integration.png[image,width=300]
 
 * *HTTP URL* - URL for an external system to listen on, in order to receive Events from {shortprodname} via the {compname-short} HTTP protocol (see the appropriate {compname-short} HTTP API Protocol document - see <<s_Related-Documents>>).
 +
@@ -1430,7 +1434,7 @@ You can set the "Ignore Opposite Direction" parameter in the Lanes section to ig
 //latest version when the software is released
 //to production
 
-image::./UserGuide/RV-1_15-FIG-034d_SystemInfo.png[image,width=316,height=308]
+image::./UserGuide/RV-1_15-FIG-034d_SystemInfo.png[image,width=400]
 
 [NOTE]
 
