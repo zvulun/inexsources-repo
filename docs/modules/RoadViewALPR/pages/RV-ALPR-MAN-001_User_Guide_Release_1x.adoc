@@ -160,7 +160,7 @@ You will need to provide a laptop computer to use for configuration. +++<u>+++If
 
 * Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
 
-* Internet Explorer browser version 11 or higher, or the latest version of Chrome
+* Chrome or Edge browser
 
 // [NOTE]
 
@@ -575,9 +575,25 @@ See the HTTP API 1.5 document.
 
 * *Send Triggers* (only enabled for HTTP API versions 1.3 to 1.6, as chosen from the Protocol Version dropdown) - If checked, then {shortprodname} will send Trigger Received messages to the server. The meaning of this command is: The camera has received a trigger to create an Event. The Event is being processed, and will be available soon.
 
+* *Send NT Triggers* - *_\{Max: please explain; and
+does this parameter only appear for certain
+protocol versions?}_*
+
 * *Keep Alive Interval* (ms) - How often a status message is sent from {shortprodname} to the server
 
 * *Event/Images Timeout* (ms) - If an Event or image message cannot be sent for this timeout period, then the event/image is put in the offline queue
+
+* *Trigger Enabled* - *_\{Max?: I wrote this
+explanation from our last mtg, but it is not
+clear what DTS is: Trigger Enabled check box:
+DTS Changes - send trigger with recognition to
+another RV; the second RV will create a new event
+with the received recognition.}_*
+
+* *Trigger Lane ID* - *_\{Max: what is this?}_*
+
+* *Status Enabled* - When checked, *_\{Max: please
+explain}_*
 
 * *Status Timeout* (ms) - If a status message cannot be sent to the server for this amount of time, {shortprodname} stops sending the message, and sends it again at the next Keep Alive Interval
 
