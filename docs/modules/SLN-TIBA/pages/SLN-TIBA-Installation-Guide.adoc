@@ -1,5 +1,6 @@
 :docproductname: TIBA
 :docproductname2: IZA500G/GR
+:docproductname3: SmartPark
 :fileproductname: IZA500G-GR
 :shortprodname: IZA500GR
 :generic-camera-name: ALPR Camera
@@ -116,6 +117,20 @@ for a single lane, to work with the {docproductname} Parking System.
 == Computer and Software Requirements
 * Computer running with Windows 10 or later
 * Chrome or Microsoft Edge browser
+
+[IMPORTANT]
+
+======================
+
+The minimum {docproductname} {docproductname3} version
+required is 9.3.3
+
+*_\{Pinchas: What did customer mean by:
+The token (GUID) I previously sent is only
+supported starting with this version,
+which is a crucial detail to highlight.}_*
+
+======================
 
 == Solution BOM
 * Camera System:
@@ -759,6 +774,16 @@ occurs.
 
 === {docproductname} Integration
 
+[IMPORTANT]
+
+======================
+
+The minimum {docproductname} {docproductname3} version
+required is 9.3.3
+
+======================
+
+
 Enable {docproductname} Integration and
 set the parameters as follows. *Remember to click the Save button at the end of the
 Detector Configuration section after making changes.*
@@ -768,30 +793,79 @@ Detector Configuration section after making changes.*
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,550]
 
-* *TIBA URL* - the URL of the {docproductname} server
-* *User Name* - username to access the {docproductname} server
-* *Password* - password to access the {docproductname} server
-* *Camera Port* - the HTTPS port on which RoadView
+* *{docproductname} URL* +
+
+[NOTE]
+
+=============================
+
+The required {docproductname} API token is hardcoded;
+it is not required to define it here.
+
+=============================
+
+
+
+** For {docproductname} Cloud, the URL of the
+{docproductname} server. For example: +
+https://yoursite.sp.tibaparking.net/ +
++
+[IMPORTANT]
+
+==========================
+
+DO NOT enter the addition for the full path (/LprData/LPR/LPRevent)
+
+==========================
+
+** For On Prem, the IP address of the
+{docproductname3} server and Services Hosting port
+as defined in the TIBA LPR settings. For example: +
+https://31.154.177.6:29811/ +
++
+[IMPORTANT]
+
+==========================
+
+DO NOT enter any addition for a full path.
+
+==========================
+
+
+* *User Name* - BasicAuth username to access the {docproductname} server
+* *Password* - BasicAuth password to access the {docproductname} server
+* *Camera Port* - Not required, leave at default, for future
+expansion -
+the HTTPS port on which RoadView
 listens for capture and “open gate” commands
-* *Auth Key* - the key that should be in one of the
+
+* *Auth Key* - Not required, for future expansion - the key that should be in one of the
 headers sent by the {docproductname} server, in the
 HTTP requests for capture and “open gate” commands
-* *Auth Value* - the value for the header with the key
+
+* *Auth Value* - Not required, for future expansion - the value for the header with the key
 defined by Auth Key, that should match the value sent
 by the {docproductname} server, in the HTTP requests
 for capture and “open gate” commands
+
 * *Send Plate Image* - when enabled, if the Plate image
 is found and there was recognition, the Plate
 image is sent as part of the Event; if there
 was no recognition, the OV image is sent
+
 * *Send OV Image* - when enabled, the OV image
 is always sent as part of the Event
 //* *Lanes:*
-* *Lane ID* - this table is automatically populated
+
+// Lane ID is not used in TIBA configuration
+// because capture and opengate are not used
+//
+
+* *Lane ID* - Not used, for future expansion - this table is automatically populated
 with the number of lanes defined in the Lanes section
 at the bottom of the Settings tab
 
-* *GPIO* - set to 0
+* *GPIO* - Not used, leave at default (0)
 
 <<<
 
@@ -813,6 +887,10 @@ open a gate via a relay.
 ////
 
 === Direct Trigger
+
+// add in option for non-trigger
+// but in detector configuration
+// what parameters will be different
 
 Set the Direct Trigger as follows:
 
