@@ -996,7 +996,7 @@ Explanations of frequently used parameters:
 
 ** +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
 
-** +++<u>+++Non-triggered+++</u>+++ - Events are created and reported by LPR video analytics
+** +++<u>+++NonTriggered+++</u>+++ - Events are created and reported by LPR video analytics
 
 * *Region* - Region for which characters on the plate will be recognized. Select from the following options:
 
