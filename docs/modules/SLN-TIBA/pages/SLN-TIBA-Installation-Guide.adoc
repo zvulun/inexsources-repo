@@ -15,8 +15,9 @@
 
 //related doc links are temporarily pointed
 //to GDrive; when the site is live
-//change this to :link-type-site:
-:link-type-gdrive:
+//change this to :link-type-site not needed
+//when save as PDF is done from internet site
+//:link-type-gdrive:
 
 //enable the TOC to be placed in a specific position
 :toc: macro
@@ -124,11 +125,6 @@ for a single lane, to work with the {docproductname} Parking System.
 
 The minimum {docproductname} {docproductname3} version
 required is 9.3.3
-
-*_\{Pinchas: What did customer mean by:
-The token (GUID) I previously sent is only
-supported starting with this version,
-which is a crucial detail to highlight.}_*
 
 ======================
 
@@ -793,8 +789,6 @@ Detector Configuration section after making changes.*
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,550]
 
-* *{docproductname} URL* +
-
 [NOTE]
 
 =============================
@@ -804,6 +798,8 @@ it is not required to define it here.
 
 =============================
 
+
+* *{docproductname} URL*
 
 
 ** For {docproductname} Cloud, the URL of the
@@ -859,7 +855,7 @@ is always sent as part of the Event
 
 // Lane ID is not used in TIBA configuration
 // because capture and opengate are not used
-//
+
 
 * *Lane ID* - Not used, for future expansion - this table is automatically populated
 with the number of lanes defined in the Lanes section
@@ -888,11 +884,13 @@ open a gate via a relay.
 
 === Direct Trigger
 
+==== Triggered Mode
+
 // add in option for non-trigger
 // but in detector configuration
 // what parameters will be different
 
-Set the Direct Trigger as follows:
+Set the Direct Trigger Mode as follows:
 
 * For Front Capture - OnRise
 
@@ -908,9 +906,18 @@ Detector Configuration section after making changes.
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
 
+==== Non-triggered Mode
+
+* Set the Direct Trigger Mode to Disabled
+
+* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
+
 [#s_Trigger-Offset]
 
 === Trigger Offset
+
+==== Triggered Mode
 
 You can capture a vehicle
 (and create an Event) at a different
@@ -941,6 +948,13 @@ Detector Configuration section after making changes.
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
 
+==== Non-triggered Mode
+
+Disable (uncheck) the "Enabled" checkbox.
+
+* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
+
 <<<
 
 [#s_Detector-Configuration]
@@ -964,6 +978,8 @@ Explanations of frequently used parameters:
 * *Mode* - Note that parameters may appear or be hidden, depending on the chosen Mode.
 
 ** +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
+
+** +++<u>+++Non-triggered+++</u>+++ - Events are created and reported by LPR video analytics
 
 * *Region* - Region for which characters on the plate will be recognized. Select from the following options:
 
