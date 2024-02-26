@@ -930,9 +930,18 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
 
+<<<
+
 [#s_Trigger-Offset]
 
 === Trigger Offset
+
+[#f_Trigger-Offset-Section]
+
+.Trigger Offset Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
+
 
 ==== Triggered Mode
 
@@ -958,12 +967,6 @@ set the parameter (in milliseconds)
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
 
-
-[#f_Trigger-Offset-Section]
-
-.Trigger Offset Section
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
 
 ==== Non-triggered Mode
 
