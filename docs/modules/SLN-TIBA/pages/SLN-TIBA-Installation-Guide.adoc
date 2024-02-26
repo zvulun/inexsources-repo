@@ -292,6 +292,14 @@ Change the parameters to match the following screen captures:
 
 === LPR Camera - Video &amp; Device &gt; Video Streams
 
+[NOTE]
+=========================
+
+For Non-triggered mode, set the primary stream frame rate
+to 10 fps.
+
+=========================
+
 .LPR Camera - Video &amp; Device &gt; Video Streams
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
@@ -354,6 +362,15 @@ Change the parameters to match the following screen captures:
 ////
 
 === OV Camera - Video &amp; Device &gt; Video Streams
+
+[NOTE]
+=========================
+
+For Non-triggered mode, set the primary stream frame rate
+to 10 fps.
+
+=========================
+
 
 .OV Camera - Video &amp; Device &gt; Video Streams
 
@@ -1545,4 +1562,4 @@ include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-Doc. No. {docproductname}-MAN-002b
+Doc. No. {docproductname}-MAN-002b Ver. {docdate}
