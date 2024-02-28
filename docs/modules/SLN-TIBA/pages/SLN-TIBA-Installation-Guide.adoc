@@ -456,7 +456,7 @@ and password (root, root):
 
 .Logging In to {software-ALPR}
 
-image::ROOT:RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,height=143]
 
 . You should see the {software-ALPR} Live (Journal) tab
 (see <<s_Verify-System-Operation>>).
