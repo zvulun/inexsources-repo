@@ -8,6 +8,11 @@ To save a document as PDF:
 
 * Expand any "Click to..." (collapsed) items, such as the Table of Contents, Related Documents and Notes
 
+* To ensure that all graphics will appear completely
+in the PDF, scroll down slowly from the top of
+the online file and wait until each graphic loads
+completely.
+
 * Use your browser's Print command (CTRL-p)
 
 * (Chrome) Select Save as PDF as the destination
