@@ -833,7 +833,7 @@ DO NOT enter the addition for the full path (/LprData/LPR/LPRevent)
 
 ** For On Prem, the IP address of the
 {docproductname3} server and Services Hosting port
-as defined in the {docproductname} LPR settings. For example: +
+as defined in the {docproductname} LPR settings. For example (see <<f_TIBA_LPR_Settings>>): +
 https://31.154.177.6:29811/ +
 +
 [IMPORTANT]
@@ -843,6 +843,8 @@ https://31.154.177.6:29811/ +
 DO NOT enter any addition for a full path.
 
 ==========================
+
+[#f_TIBA_LPR_Settings]
 
 .{docproductname} LPR Settings
 
