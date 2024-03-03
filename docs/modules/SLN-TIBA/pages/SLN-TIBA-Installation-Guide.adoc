@@ -833,7 +833,7 @@ DO NOT enter the addition for the full path (/LprData/LPR/LPRevent)
 
 ** For On Prem, the IP address of the
 {docproductname3} server and Services Hosting port
-as defined in the TIBA LPR settings. For example: +
+as defined in the {docproductname} LPR settings. For example: +
 https://31.154.177.6:29811/ +
 +
 [IMPORTANT]
@@ -843,6 +843,10 @@ https://31.154.177.6:29811/ +
 DO NOT enter any addition for a full path.
 
 ==========================
+
+.{docproductname} LPR Settings
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-013_SmartPark_LPR_Settings.png[image,300,align=middle]
 
 
 * *User Name* - BasicAuth username to access the {docproductname} server
