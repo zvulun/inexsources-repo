@@ -292,6 +292,14 @@ Change the parameters to match the following screen captures:
 
 === LPR Camera - Video &amp; Device &gt; Video Streams
 
+==== Triggered Mode
+
+.LPR Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
+
+==== Non-triggered Mode
+
 [NOTE]
 =========================
 
@@ -300,11 +308,9 @@ to 10 fps.
 
 =========================
 
-.LPR Camera - Video &amp; Device &gt; Video Streams
+.LPR Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
-
-{empty} +
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,400]
 
 <<<
 
@@ -363,6 +369,14 @@ Change the parameters to match the following screen captures:
 
 === OV Camera - Video &amp; Device &gt; Video Streams
 
+==== Triggered Mode
+
+.OV Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
+
+==== Non-triggered Mode
+
 [NOTE]
 =========================
 
@@ -371,14 +385,9 @@ to 10 fps.
 
 =========================
 
+.OV Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
 
-.OV Camera - Video &amp; Device &gt; Video Streams
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
-
-{empty} +
-
-<<<
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,400]
 
 === OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
