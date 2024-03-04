@@ -300,17 +300,12 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
 
 ==== Non-triggered Mode
 
-[NOTE]
-=========================
-
 For Non-triggered mode, set the primary stream frame rate
 to 10 fps.
 
-=========================
-
 .LPR Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,400]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
 
 <<<
 
@@ -377,17 +372,12 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
 
 ==== Non-triggered Mode
 
-[NOTE]
-=========================
-
 For Non-triggered mode, set the primary stream frame rate
 to 10 fps.
 
-=========================
-
 .OV Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,400]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
 
 === OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
