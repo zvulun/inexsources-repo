@@ -1,9 +1,9 @@
-:docproductname: TIBA
-:docproductname2: IZA500G/GR
-:docproductname3: SmartPark
-:fileproductname: IZA500G-GR
-:shortprodname: IZA500GR
-:generic-camera-name: ALPR Camera
+:docproductname: PTL
+:docproductname2: Pelco
+:docproductname3: Motorola
+//:fileproductname: IZA500G-GR
+:shortprodname: IZIDPUGOX
+:generic-camera-name: Camera
 
 // set attribute (by uncommenting the line)
 // used to determine which text/links to sections
@@ -22,11 +22,11 @@
 //enable the TOC to be placed in a specific position
 :toc: macro
 
-= {compname-short} ALPR for the {docproductname} Parking System
+= {compname-short} Solution for the {docproductname3} {docproductname} System
 
 +++<font size="+3">+++ *Installation and Calibration Guide*+++</font>+++
 
-image::ROOT:SLN-TIBA/TIBA_LOGO.png[image,150,align=left]
+image::ROOT:SLN-PTL/MOTOROLA_LOGO.png[image,150,align=left]
 
 // restore section numbering from here on
 :sectnums: all
@@ -111,121 +111,26 @@ toc::[]
 ////
 
 == Background
-This document describes how to install,
-configure and calibrate an {compname-short} {generic-camera-name}
-for a single lane, to work with the {docproductname} Parking System.
+This document describes how to
+configure the {compname-short} {docproductname3} {docproductname} system.
+
 
 == Computer and Software Requirements
 * Computer running with Windows 10 or later
 * Chrome or Microsoft Edge browser
 
-[IMPORTANT]
-
-======================
-
-The minimum {docproductname} {docproductname3} version
-required is 9.3.3
-
-======================
-
-== Solution BOM
-* Camera System:
-** IZA500GR-DRW-P48 - for USA, Mexico, Canada
-** IZA500GR-IRW-P48 - for Israel, EU, Taiwan, Australia, Vietnam, GCC, India, Singapore
-** {software-ALPR} Advanced ALPR Software, version 1.15.64.97
-* Power Supply for P48 models
-** IZPWR75{plus}{hw-poeinjector} - for a single camera
-** IZPWR120{plus}{hw-poeinjector} - for two cameras
-** IZPWR240{plus}{hw-poeinjector} - for four cameras
-* Camera Mounting hardware
-** IZMNTA-WE - wall mount
-** IZMNTA-WE{plus}MNT-PMA -  pole mount
-** IZMNTA-UC - under-ceiling
-* IZCLOUD-APM - IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
-
-<<<
-
-== Lane Design
-
-[table.withborders,options="header",cols="24,23,53"]
-|===
-2+.^| Item
-// {set:cellbgcolor:#c0c0c0}
-
-.^| Specification
-// {set:cellbgcolor:#c0c0c0}
-2+.^| Field of View (FOV)
-
-.^| 12 ft (H) x 8 ft (V) (3.7 x 2.4 m)
-
-2+.^| Max Vehicle Speed
-
-.^| Up to 80 mph (129 km/h)
-
-2+.^| LPR Capture Distance (D) +
-(for U.S.A. plates; +
-measured from camera to plate)
-
-.^| 5-70 ft (1.5-21 m); 8 ft (2.4 m) recommended
-
-|===
-
-[#f_Rear-Capture]
-
-.Typical Rear-Capture Design
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-097_AmanoLaneDesign.png[image,800,align=center]
-{empty} +
-
-.Typical Front-Capture Design
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=center]
-
-{empty} +
-
-== Camera Wiring
-
-.Camera Wiring
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=center]
-
-{empty} +
-
-.Wiring Table
-[table.withborders,width="100%",cols="7%,35%,58%",options="header",]
-|===
-|Item |Description |Ordering Information
-.^|A .^a|*LAN Patch Cable* - CAT6, max. length 3.3 ft (1 m) .^|Supplied by integrator
-.^|B .^a|*LAN Cable* - CAT6, shielded, 4 pairs, 22 AWG, max.
-length 328 ft (100 m), OD 5.5-7.9 mm
-.^|Supplied by integrator; 6.6 ft (2 m) included with camera
-.^|C .^a|*PAS (Power and Signals) Cable* - 22 AWG, OD 3.0-7.3 mm
-.^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
-.^|D .^a|*Power Supply* - 48 VDC
-.^a|
-For 1 camera, use a 75 W supply (IZPWR75-48) +
-For 2 cameras, use a 120 W supply (IZPWR120-48) +
-For 4 cameras, use a 240 W supply (IZPWR240-48)
-.^|E .^a|*Gate* .^|Supplied by integrator
-.^|F .^a|*Inductive Loop* .^|Supplied by integrator
-.^|G .^a|*Loop Detector* .^|Supplied by integrator
-|===
-
-<<<
-
 == Use {software-discovery} and Allocate IP Addresses
 
-. Allocate 3 consecutive IP addresses for
-the onboard processor and the
-LPR and OV cameras (sensors).
+. Allocate an IP address for
+the {shortprodname} Data Processing Unit (DPU).
 For example: +
 * Processor - http://192.168.5.100/ +
-* LPR Camera - http://192.168.5.101/ +
-* OV Camera - http://192.168.5.102/ +
+//* LPR Camera - http://192.168.5.101/ +
+//* OV Camera - http://192.168.5.102/ +
 
 . Use {software-discovery} to find the
-onboard processor and LPR/OV cameras, and to
-change their IP addresses to the ones
+processor, and to
+change its IP address to the one
 you allocated.
 
 <<<
@@ -247,190 +152,12 @@ include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configu
 
 <<<
 
-[#s_Logging-In-to-the-Camera]
-
-== Log In to a Camera
-
-include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
-
-=== Live View (link at upper right)
-* The focus will be set automatically;
-can be fine-adjusted manually with buttons
-* Use the buttons to Zoom in/out
-
-=== Admin (link at upper right)
-
-* Enter username and password (root/IZpass12)
-* Use the menu at the left to select the parameter
-category/sub-category/group.
-+
-[IMPORTANT]
-==================
-*After changing settings, remember to
-click the Apply button at the bottom of
-each parameter section.*
-==================
-
-<<<
-
-== LPR Camera (Sensor) Configuration
-
-The camera(s) are pre-configured;
-this section displays typical settings
-for reference.
-
-////
-[IMPORTANT]
-==================
-*After changing settings, remember to
-click the Apply button at the bottom of
-each parameter section.*
-==================
-
-Change the parameters to match the following screen captures:
-////
-
-=== LPR Camera - Video &amp; Device &gt; Video Streams
-
-==== Triggered Mode
-
-.LPR Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
-
-==== Non-triggered Mode
-
-For Non-triggered mode, set the primary stream frame rate
-to 10 fps.
-
-.LPR Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
-
-<<<
-
-=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
-
-////
-[NOTE]
-=====================
-Before changing the Camera Settings parameters, be sure to click
-the Default(Day) link at the top of
-the Camera Settings table.
-=====================
-////
-
-.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,400]
-
-{empty} +
-
-<<<
-
-=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
-.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
-
-{empty} +
-
-=== LPR Camera - System &gt; Access Level
-
-.LPR Camera - System &gt; Access Level
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
-
-<<<
-
-== OV Camera (Sensor) Configuration
-
-The camera(s) are pre-configured;
-this section displays typical settings
-for reference.
-
-
-////
-[IMPORTANT]
-==================
-*After changing settings, remember to
-click the Apply button at the bottom of
-each parameter section.*
-==================
-
-Change the parameters to match the following screen captures:
-////
-
-=== OV Camera - Video &amp; Device &gt; Video Streams
-
-==== Triggered Mode
-
-.OV Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
-
-==== Non-triggered Mode
-
-For Non-triggered mode, set the primary stream frame rate
-to 10 fps.
-
-.OV Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
-
-=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
-
-////
-[NOTE]
-=====================
-Before changing the Camera Settings parameters, be sure to click
-the Default(Day) link at the top of
-the Camera Settings table.
-=====================
-////
-
-.OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-113_TIBAOVCameraSettings.png[image,400]
-
-{empty} +
-
-<<<
-
-=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
-.OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-115_TIBAOVPrimaryStream.png[image,600]
-
-{empty} +
-
-=== OV Camera - System &gt; Access Level
-
-.OV Camera - System &gt; Access Level
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-117_TIBAOVAccessLevel.png[image,600]
-
-<<<
-
 == Prepare to Aim and Calibrate
-
-There are two cameras (sensors) in the Camera System.
-Both are calibrated in nearly the same way.
-The LPR camera is set to capture in black and white,
-and the Overview (OV) camera is set to capture in color.
-
-The OV camera can be used both to display an overview image,
-and to perform LPR recognition.
-You may even be able to improve read accuracy by
-changing the zoom to have one camera "see" closer
-than the other one.
 
 Move a vehicle next to, and at the middle of
 the capture line. (This is the position at
 which the vehicle detector signals that the
-vehicle is present.) Ensure that the Camera System
+vehicle is present.) Ensure that the camera
 is aimed at the middle of the lane, and is at the
 required capture distance.
 
@@ -444,7 +171,7 @@ at the expected distance and height.
 === Logging In
 . Open a browser.
 
-. Type in the IP address of the {software-ALPR} computer.
+. Type in the IP address of the {software-ALPR} computer - the {shortprodname}.
 For example: +
 http://192.168.5.100/[http://192.168.5.100/]
 
@@ -479,9 +206,9 @@ image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
 == Configure {software-ALPR} - Settings Tab
 
 Use the Settings tab after the first installation or
-re-installation of the ALPR system, or when some
+re-installation of the PTL system, or when some
 fundamental parameters need updating.
-For example, if the Camera System was moved
+For example, if the {shortprodname} was moved
 to a different location (time zone).
 
 [NOTE]
@@ -511,9 +238,9 @@ The box at the upper right of the Settings screen shows:
 
 [#f_Software-Version-and-Camera-Information-Section]
 
-.Software Version and Camera Information Section
+.Software Version and DPU Information Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,400]
+image::ROOT:SLN-PTL/RV-PTL-FIG-001_VersionAndCameraInfo.png[image,400]
 
 <<<
 
@@ -525,9 +252,9 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,400]
 
 .Network Settings Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-001b_Network.png[image,600]
+image::ROOT:SLN-PTL/RV-PTL-FIG-002_Network.png[image,600]
 
-* If needed, set the {software-ALPR} computer's IP address parameters.
+* If needed, set the {shortprodname} IP address parameters.
 
 * Remember to click the Save button in this section;
 the change will be applied immediately.
@@ -537,13 +264,13 @@ the change will be applied immediately.
 ========================================
 
 The Network Settings refer to the
-+++<u>+++{software-ALPR} computer+++</u>+++
-(+++<u>+++Camera System)+++</u>+++ - NOT the
++++<u>+++{shortprodname} computer+++</u>+++
+ - NOT the
 computer on which the browser displaying the GUI is running.
 
 *+++<u>+++It is highly recommended to use a fixed IP
 address (not DHCP)+++</u>+++*. A fixed IP address enables
-you to access the computer using the same URL every time,
+you to access the DPU using the same URL every time,
 even after unexpected power outages.
 
 ========================================
@@ -559,8 +286,8 @@ even after unexpected power outages.
 ========================================
 
 The Date and Time Settings refer to the location of the
-+++<u>+++{software-ALPR} computer+++</u>+++
-(+++<u>+++Camera System)+++</u>+++ - NOT the
++++<u>+++{shortprodname} computer+++</u>+++
+- NOT the
 computer on which the browser displaying the GUI is running.
 
 The Time Zone selections are organized by continent.
@@ -573,7 +300,7 @@ and countries in North America (U.S. and Canada) and South America.
 
 .Date and Time Settings Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-001d_Date_Time.png[image,600]
+image::ROOT:SLN-PTL/RV-PTL-FIG-003_Date_Time.png[image,600]
 
 // * Set Time (Automatically/Manually)
 
@@ -644,9 +371,9 @@ The images from all cameras capturing the same physical lane
 will be combined into a single Event.
 
 Each "Lane" is actually a virtual Lane. For example,
-if you have two Camera Systems capturing the same physical lane,
+if you have two cameras capturing the same physical lane,
 you will need to create two different "Lanes",
-and associate each Camera System's cameras with a different "Lane".
+and associate each camera with a different "Lane".
 
 ========================================
 +
