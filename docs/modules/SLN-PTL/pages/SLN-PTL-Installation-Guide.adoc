@@ -509,26 +509,15 @@ occurs.
 
 <<<
 
-[#s_TIBA-Integration]
+[#s_Motorola-Integration]
 
-=== {docproductname} Integration
+=== {docproductname3} Integration
 
-[IMPORTANT]
-
-======================
-
-The minimum {docproductname} {docproductname3} version
-required is 9.3.3
-
-======================
-
-
-Enable {docproductname} Integration and
+Enable {docproductname3} Integration and
 set the parameters as follows. *Remember to click the Save button at the end of the
 Detector Configuration section after making changes.*
 
-
-.{docproductname} Integration
+.{docproductname3} Integration
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,550]
 
