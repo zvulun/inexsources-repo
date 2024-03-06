@@ -659,9 +659,55 @@ See the {software-cloud} document (see <<s_Related-Documents>>).
 
 .{illum-3rd-party} LED Illuminators
 
+image::./UserGuide/RV-1_15-FIG-207_Raytec_LEDs.png[image,800]
 
+[NOTE]
+========================
+If {illum-3rd-party} LED Illuminators are enabled, their
+statuses will appear on the System Status tab (see <<s_System-Status-Tab>>).
+========================
+* *URL* - Illuminator's URL
 
-//Image goes here
+* *Username, Password* - Illuminator's username and
+password; *_\{Max: OK to say this - or just ask administrator?}_*
+see the manufacturer's documentation
+or ask your system administrator for these
+credentials.
+
+* *Level* - The percentage of LED power to
+be used; acceptable range is 20-100
+
+* *Delay On/Off* (ms) - The amount of time for
+{shortprodname} to wait after receiving a
+signal from a *_\{Max: where is this
+controller - in the camera? IZIO? and
+does the INEX I/O Controller parameters need
+to be configured also?}_*
+controller *_\{Max: input?}_* before turning the illuminator
+ON or OFF. (Controller *_\{Max: input?}_* signal high *_\{Mex:
+but see Signal paremater - can this be changed?}_*  = turn ON,
+controller signal low = turn OFF.)
+
+* *IP* - IP address of the controller
+
+* *Input* - The number of the controller *_\{Max: input?
+output?}_* {shortprodname} is polling.
+
+* *Signal* - *_\{Max: signal level of controller defined
+to turn the illuminato ON?}_*
+
+** +++<u>+++Disabled+++</u>+++ - *_\{Max?}_*
+
+** +++<u>+++High+++</u>+++ - *_\{Max?}_*
+
+** +++<u>+++Low+++</u>+++ - *_\{Max?}_*
+
+* Click the Add button to add the illuminator to the list
+
+* Click the Delete button to remove the illuminator from the list
+
+* *_\{Max: is this correct?}_* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
 
 [#s_AMANO-Integration]
 
@@ -1044,15 +1090,31 @@ The Journal data is stored at: /mnt/data/journal
 
 image::./UserGuide/image22.png[image,width=480,height=160]
 
-* *Skip Empty Events* - When an Event does not include a plate recognition, it is ignored.
+* *Skip Empty Events* - When an Event does not include a plate recognition,
+it is ignored.
 
-* *Combining Enabled* - used for combining Events with the same or similar recognition
+* *Combine Enabled* - used for combining Events with the same or similar recognition
 
-** *Send Timeout* - if another Event is received with the same or similar recognition results within this timeout, the two Events are merged into one Event
+** *Combine Send Timeout* - if another Event is received with the same or similar recognition results within this timeout, the two Events are merged into one Event
 
-** *Lev Distance* - the maximum Levenshtein distance between the two plate reads for which the Events will be combined (see <<s_Detector-Configuration>> for a more detailed explanation of Levenshtein distance).
+** *Combine Lev Distance* - the maximum Levenshtein distance between
+the two plate reads for which the Events will be combined
+(see <<s_Detector-Configuration>> for a more detailed explanation
+of Levenshtein distance).
 
-** *Align to Height* - when the LPR and OV images from the Events are merged, {shortprodname} selects the images in which the plate patch is closest to this percentage of the total height of the LPR/OV image. For example, if the images are 1000 pixels high, and this parameter is set to 75%, then {shortprodname} selects images in which the plate patch is closest (either above or below) a virtual line 750 pixels from the top of the image.
+** *Align to Height* - when the LPR and OV images from the Events are
+merged, {shortprodname} selects the images in which the plate patch
+is closest to this percentage of the total height of the LPR/OV
+image. For example, if the images are 1000 pixels high, and this
+parameter is set to 75%, then {shortprodname} selects images in
+which the plate patch is closest (either above or below) a
+virtual line 750 pixels from the top of the image.
+
+* *Skip By Distance Enabled* -
+
+** *Hold Timeout* -
+
+** *Skip Lev Distance* -
 
 +++<div class="pagebreak"> </div>+++
 
@@ -1240,6 +1302,8 @@ Each "Lane" is actually a virtual Lane. For example, if you have two Camera Syst
 
 image::./UserGuide/image29.png[image,width=265,height=151]
 
+*_\{Zvulun: need new screen shot - Now has Passageway: Unknown, Entry Exit}_*
+
 * *ID* (required) - The identification number of the lane to be captured by the cameras. This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
 
 * *Name* (required) - The name of the Lane as it will appear in the GUI. This name will also be sent in HTTP and {software-protocol} messages.
@@ -1248,7 +1312,9 @@ image::./UserGuide/image29.png[image,width=265,height=151]
 
 ========================================
 
-If you have upgraded from a previous {shortprodname} version in which only Lane IDs were specified, Lane names will be automatically assigned the word "Lane" plus the Lane ID.
+If you have upgraded from a previous {shortprodname} version
+in which only Lane IDs were specified, Lane names will
+be automatically assigned the word "Lane" plus the Lane ID.
 
 ========================================
 
@@ -1258,11 +1324,21 @@ If you have upgraded from a previous {shortprodname} version in which only Lane 
 
 * *Location (for ALPR cameras only)* - Select one of the following options:
 
-** *Unknown* -The camera's position relative to vehicles is unknown.
+** +++<u>+++Unknown+++</u>+++ - The camera's position relative to vehicles is unknown.
 
-** *Front* -the camera in this Lane is capturing images from the front of vehicles
+** +++<u>+++Front+++</u>+++ - The camera in this Lane is capturing images from the front of vehicles
 
-** *Rear* - the camera in this Lane is capturing images from the rear of vehicles
+** +++<u>+++Rear+++</u>+++ - The camera in this Lane is capturing images from the rear of vehicles
+
+* *Passageway (for specific sites)* - Select one of the following options
+(see <<s_Passageway-Combination>>): *_\{Max: what are these?}_*
+
+** +++<u>+++Unknown+++</u>+++ - *_\{Max?}_*
+
+** +++<u>+++Entry+++</u>+++ - *_\{Max?}_*
+
+** +++<u>+++Exit+++</u>+++ - *_\{Max?}_*
+
 
 * *Ignore Opposite Direction* - if enabled, then all Events for vehicles moving in the direction opposite to the direction arrow in the Calibration tab will be ignored (see <<s_Calibration-Tab>>). Note that you can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>).
 
