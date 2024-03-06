@@ -638,6 +638,8 @@ into one Event. Used for specific sites.
 
 image::./UserGuide/RV-1_15-FIG-204_Passageway_Combination.png[image,width=300]
 
+* *_\{Max: is this correct?}_* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
 
 [#s_Plate-Recognizer-Not-Used]
 
@@ -1084,14 +1086,19 @@ The Journal data is stored at: /mnt/data/journal
 
 === Events Post Processing
 
-[#f_Events-Post-Processing-Section]
+[#s_Events-Post-Processing-Section-Combine-Enabled]
 
-.Events Post-Processing Section
+==== Combine Enabled
 
-image::./UserGuide/image22.png[image,width=480,height=160]
+[#f_Events-Post-Processing-Section-Combine-Enabled]
+
+.Events Post-Processing Section - Combine Enabled
+
+image::./UserGuide/RV-1_15-FIG-208_Events_Post_Combine.png[image,width=480,height=160]
 
 * *Skip Empty Events* - When an Event does not include a plate recognition,
-it is ignored.
+it is ignored. *_\{Max: I have a note that "Skip Event" was added - did you mean
+this Skip Empty Events parameter?}_*
 
 * *Combine Enabled* - used for combining Events with the same or similar recognition
 
@@ -1110,11 +1117,27 @@ parameter is set to 75%, then {shortprodname} selects images in
 which the plate patch is closest (either above or below) a
 virtual line 750 pixels from the top of the image.
 
-* *Skip By Distance Enabled* -
 
-** *Hold Timeout* -
+[#s_Events-Post-Processing-Section-SkipByDistance-Enabled]
 
-** *Skip Lev Distance* -
+==== Skip By Distance Enabled
+
+[#f_Events-Post-Processing-Section-SkipByDistance-Enabled]
+
+.Events Post-Processing Section - Skip By Distance Enabled
+
+image::./UserGuide/RV-1_15-FIG-209_Events_Post_Skip.png[image,width=480,height=160]
+
+* *Skip By Distance Enabled* - used for skipping Events
+
+** *Hold Timeout* - How much time between two Events for the skip
+to occur *_\{Max: is this continuous? sliding expiration? what does that mean?}_*
+
+** *Skip Lev Distance* - If the Levenshtein difference between *_\{Max - why are there
+more than one LPR read - from the same lane? different lanes?}_* the LPR reads
+is less than or equal to the Skip Lev Distance,
+then the Event will be skipped. (See <<s_Detector-Configuration>> for a more detailed explanation
+of Levenshtein distance.)
 
 +++<div class="pagebreak"> </div>+++
 
@@ -1139,6 +1162,9 @@ The trigger command may arrive at a different time than actual trigger's (physic
 [#s_Detector-Configuration]
 
 === Detector Configuration
+
+*_\{Max/Zvulun: has new parameters and labels; check
+each box and see what additional parameters show up}_*
 
 [#f_Detector-Configuration-Section]
 
@@ -1339,7 +1365,6 @@ be automatically assigned the word "Lane" plus the Lane ID.
 
 ** +++<u>+++Exit+++</u>+++ - *_\{Max?}_*
 
-
 * *Ignore Opposite Direction* - if enabled, then all Events for vehicles moving in the direction opposite to the direction arrow in the Calibration tab will be ignored (see <<s_Calibration-Tab>>). Note that you can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>).
 
 +++<div class="pagebreak"> </div>+++
@@ -1416,7 +1441,12 @@ rtsp://<camera IP address>/cam0_0
 *** HTTP URL example: +
 http:// <camera IP address>
 
-** *Type* - Type of camera (LPR or View); used for integration with {software-server}
+** *Type* - Type of camera (LPR, View or DriverFace);
+*_\{Max: is this still true?}_* used for integration with {software-server}
+*_\{Max: Do I  need to ask Artiom or Alex Bulychev or Nikolay for further
+details?}_*
+*_\{Zvulun: where to mention that pre- and post- frames of the driver face
+camera images are also saved with the Event}_*
 
 ** *Trigger Pre* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++<u>+++before+++</u>+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>).
 
@@ -1432,7 +1462,7 @@ http:// <camera IP address>
 
 .Live (Journal) Tab with Row Selected
 
-image::./UserGuide/image32.png[image,width=554,height=243]
+image::./UserGuide/RV-1_15-FIG-210_NewLiveTab.png[image,width=554,height=243]
 
 The Live tab displays Events and other data about each Event.
 
@@ -1532,7 +1562,7 @@ If you are using a camera with one sensor (such as the IZ600F), you will see 2 t
 
 .Search Tab
 
-image::./UserGuide/image34.png[image,width=645,height=307]
+image::./UserGuide/RV-1_15-FIG-211_NewSearchTab.png[image,width=645,height=307]
 
 The Search tab enables you to search for Event records stored in the {shortprodname} database.
 
