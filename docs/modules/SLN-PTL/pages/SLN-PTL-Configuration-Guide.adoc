@@ -493,13 +493,15 @@ Detector Configuration section after making changes.*
 
 .{docproductname3} Integration
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,550]
+image::ROOT:SLN-PTL/RV-PTL-FIG-007_Motorola_Integration.png[image,550]
 
 * *{docproductname3} URL* - *_\{Max - any tips for entering like
 DO NOT enter the addition for the full path?}_*
 
 * *{docproductname3} User Name* - username to access the {docproductname3} server
+
 * *{docproductname3} Password* - BasicAuth password to access the {docproductname3} server
+
 * *Camera Port* - Not required, leave at default, for future
 expansion - *_\{Max - correct?}_*
 the HTTPS port on which {software-ALPR}
