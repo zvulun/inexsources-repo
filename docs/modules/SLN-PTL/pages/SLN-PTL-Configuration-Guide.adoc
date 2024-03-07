@@ -161,8 +161,6 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,heigh
 . You should see the {software-ALPR} Live (Journal) tab
 (see <<s_Verify-System-Operation>>).
 
-<<<
-
 === Logging Out (Multi-line Menu Icon)
 
 * Click on the multi-line menu icon at the upper right of the {software-ALPR} screen
