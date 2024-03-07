@@ -97,11 +97,10 @@ configure the {compname-short} {docproductname3} {docproductname} system.
 
 == Use {software-discovery}
 
-. The factory default IP address of the {hw-advanced-processor}
-Data Processing Unit (DPU) can be found on the sticker on the device;
-typically {ip-default-IZA-DPU}.
-
-. If you need to change the factory default address,
+The factory default IP address of the {hw-advanced-processor}
+Data Processing Unit (DPU) is on the sticker on the device;
+typically {ip-default-IZA-DPU}. +
+If you need to change the factory default address,
 use {software-discovery} to change its IP address. Be sure that
 you have allocated this address in your network.
 
