@@ -426,7 +426,7 @@ last Transaction ID. +
 
 .Add/Edit Camera Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-006a_EditCameraDialog.png[image,300]
+image::ROOT:SLN-PTL/RV-PTL-FIG-006_EditCameraDialog.png[image,300]
 
 ** *Lane ID* - The identification number of the
 lane being captured by the camera(s).
@@ -462,17 +462,17 @@ in the overall ALPR system
 //*** RTSP stream URL example: +
 //rtsp:// <camera IP address>/cam0_0
 
-** *URL* - HTTP URL:
-
-*** HTTP URL example: +
-http:// <camera IP address>
+** *URL* - HTTP RTSP URL
 
 ** *Type* - Type of camera (LPR or View)
 
-** *Trigger Pre* -
+** *Video Recording Enabled* - Check the box to
+enable video recording
+
+** *Video Pre Time* - *_\{Max what is this}_*
 Set as shown
 
-** *Trigger Post* -
+** *Video Post Time* - *_\{Max what is this}_*
 Set as shown
 
 ////
@@ -495,182 +495,35 @@ Detector Configuration section after making changes.*
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,550]
 
-[NOTE]
+* *{docproductname3} URL* - *_\{Max - any tips for entering like
+DO NOT enter the addition for the full path?}_*
 
-=============================
-
-The required {docproductname} API token is hardcoded;
-it is not required to define it here.
-
-=============================
-
-
-* *{docproductname} URL*
-
-
-** For {docproductname} Cloud, the URL of the
-{docproductname} server. For example: +
-https://yoursite.sp.tibaparking.net/ +
-+
-[IMPORTANT]
-
-==========================
-
-DO NOT enter the addition for the full path (/LprData/LPR/LPRevent)
-
-==========================
-
-** For On Prem, the IP address of the
-{docproductname3} server and Services Hosting port
-as defined in the {docproductname} LPR settings. For example (see <<f_TIBA_LPR_Settings>>): +
-https://31.154.177.6:29811/ +
-+
-[IMPORTANT]
-
-==========================
-
-DO NOT enter any addition for a full path.
-
-==========================
-
-[#f_TIBA_LPR_Settings]
-
-.{docproductname} LPR Settings
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-013_SmartPark_LPR_Settings.png[image,300,align=middle]
-
-
-* *User Name* - BasicAuth username to access the {docproductname} server
-* *Password* - BasicAuth password to access the {docproductname} server
+* *{docproductname3} User Name* - username to access the {docproductname3} server
+* *{docproductname3} Password* - BasicAuth password to access the {docproductname3} server
 * *Camera Port* - Not required, leave at default, for future
-expansion -
-the HTTPS port on which RoadView
+expansion - *_\{Max - correct?}_*
+the HTTPS port on which {software-ALPR}
 listens for capture and “open gate” commands
 
-* *Auth Key* - Not required, for future expansion - the key that should be in one of the
-headers sent by the {docproductname} server, in the
-HTTP requests for capture and “open gate” commands
+* *Log Store Days* - *_\{Max?}_*
 
-* *Auth Value* - Not required, for future expansion - the value for the header with the key
-defined by Auth Key, that should match the value sent
-by the {docproductname} server, in the HTTP requests
-for capture and “open gate” commands
+* *Keep Alive Interval* - *_\{Max?}_*
 
-* *Send Plate Image* - when enabled, if the Plate image
-is found and there was recognition, the Plate
-image is sent as part of the Event; if there
-was no recognition, the OV image is sent
-
-* *Send OV Image* - when enabled, the OV image
-is always sent as part of the Event
-//* *Lanes:*
-
-// Lane ID is not used in TIBA configuration
-// because capture and opengate are not used
-
-
-* *Lane ID* - Not used, for future expansion - this table is automatically populated
-with the number of lanes defined in the Lanes section
-at the bottom of the Settings tab
-
-* *GPIO* - Not used, leave at default (0)
+* *Offline Enabled* - *_\{Max?}_*
 
 <<<
 
-////
-GPIO - the nn number that identifies the GPIOnn
-pin on the NVIDIA Jetson processor's I/O module.
-A signal is sent to this pin when an “open gate”
-command is received from the TIBA server.
-See the NVIDIA Jetson documentation for further
-information. (See next Note)
+[#s_Offline-Queue]
 
-+
-[NOTE]
-========================
-In addition to the GPIO signal, a signal is also
-sent to the camera; this signal can be used to
-open a gate via a relay.
-========================
-////
+=== Offline Queue
 
-=== Direct Trigger
+*_\{Max/Pinchas - do we have to tell them to set this?}_*
 
-==== Triggered Mode
+[#s_Journal]
 
-// add in option for non-trigger
-// but in detector configuration
-// what parameters will be different
+=== Journal
 
-Set the Direct Trigger Mode as follows:
-
-* For Front Capture - OnRise
-
-* For Rear Capture - OnFall
-
-* Remember to click the Save button at the end of the
-Detector Configuration section after making changes.
-
-
-[#f_Direct-Trigger-Section]
-
-.Direct Trigger Section
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
-
-==== Non-triggered Mode
-
-* Set the Direct Trigger Mode to Disabled
-
-* Remember to click the Save button at the end of the
-Detector Configuration section after making changes.
-
-<<<
-
-[#s_Trigger-Offset]
-
-=== Trigger Offset
-
-[#f_Trigger-Offset-Section]
-
-.Trigger Offset Section
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
-
-
-==== Triggered Mode
-
-You can capture a vehicle
-(and create an Event) at a different
-position than the location of the in-ground loop.
-Use this Trigger Offset parameter to capture
-the vehicle before or after the loop.
-
-For example, in this illustration, the loop is directly
-under the barrier bar. Setting the Trigger Offset
-to -200 will move the capture point up
-the lane, and capture the plate before
-it is obstructed from view by the bar.
-
-.Trigger Offset Illustration
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003c_TriggerOffsetIllustrated.png[image,400]
-
-* Enable Trigger Offset and
-set the parameter (in milliseconds)
-
-* Remember to click the Save button at the end of the
-Detector Configuration section after making changes.
-
-
-==== Non-triggered Mode
-
-Disable (uncheck) the "Enabled" checkbox.
-
-* Remember to click the Save button at the end of the
-Detector Configuration section after making changes.
-
-<<<
+*_\{Zvulun tell users to enable journal; Max: use defaults?}_*
 
 [#s_Detector-Configuration]
 
