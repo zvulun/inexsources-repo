@@ -544,7 +544,7 @@ changing these parameters.
 
 .Detector Configuration Section
 
-image::ROOT:SLN-PTL/RV-PTL-FIG-010_Detector_Configuration.png[image,450]
+image::ROOT:SLN-PTL/RV-PTL-FIG-010_Detector_Configuration.png[image,400]
 
 Explanations of frequently used parameters:
 
@@ -563,6 +563,8 @@ Explanations of frequently used parameters:
 * The software version and DPU information appear as shown here
 
 image::ROOT:SLN-PTL/RV-PTL-FIG-011_SystemInfo.png[image,800]
+
+<<<
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
 
