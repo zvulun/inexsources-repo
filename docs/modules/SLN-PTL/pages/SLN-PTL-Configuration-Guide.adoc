@@ -323,7 +323,7 @@ Use this section to add and configure Lanes.
 
 .Lanes Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-004b_Lanes.png[image,800]
+image::ROOT:SLN-PTL/RV-PTL-FIG-004_Lanes.png[image,800]
 
 * Actions:
 
@@ -355,7 +355,7 @@ and associate each camera with a different "Lane".
 
 .Add/Edit Lane Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,240]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,350]
 
 * *ID* (required) - The identification number of
 the lane to be captured by the cameras.
@@ -389,7 +389,7 @@ from the rear of vehicles
 
 .Cameras Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-004c_Cameras.png[image,800]
+image::ROOT:SLN-PTL/RV-PTL-FIG-005_Cameras.png[image,800]
 
 * Actions:
 
