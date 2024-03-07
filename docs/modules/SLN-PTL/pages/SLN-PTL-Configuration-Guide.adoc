@@ -356,7 +356,7 @@ and associate each camera with a different "Lane".
 
 .Add/Edit Lane Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,150]
+image::ROOT:SLN-PTL/RV-PTL-FIG-004a_EditLaneDialog.png[image,150]
 
 * *ID* (required) - The identification number of
 the lane to be captured by the cameras.
@@ -443,12 +443,15 @@ lane will be combined into a single Event.
 
 Using the same Lane ID for different cameras
 will combine the reads into one Event (see <<s_Lanes>>).
+////
 You may even be able to improve read accuracy by changing
 the *_\{Max/Pinchas: but if zoom doesn't work, how can user do this?
-can he do it manually? or maybe he can't?}_* zoom to have one camera "see" closer than the other one.
+can he do it manually? or maybe he can't?}_* zoom to have one camera
+"see" closer than the other one.
+////
 
-You could also position cameras to be in different positions
-(front/rear).
+You can position multiple cameras to be in different positions
+for the same lane (front/rear).
 
 ========================================
 
