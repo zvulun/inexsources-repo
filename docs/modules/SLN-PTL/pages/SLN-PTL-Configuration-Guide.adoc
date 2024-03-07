@@ -464,7 +464,7 @@ in the overall ALPR system
 
 ** *URL* - HTTP RTSP URL
 
-** *Type* - Type of camera (LPR or View)
+** *Type* - Type of camera *_\{Max: Always View?}_* (LPR or View)
 
 ** *Video Recording Enabled* - Check the box to
 enable video recording
