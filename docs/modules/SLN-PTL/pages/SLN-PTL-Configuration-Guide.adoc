@@ -759,6 +759,8 @@ has sufficient accuracy and confidence.
 * You can use the Search tab to find Event records stored in the
 {software-ALPR} database.
 
+* *_\{Zvulun mention system status tab and make screen shot}_*
+
 <<<
 
 [#s_Troubleshooting]
