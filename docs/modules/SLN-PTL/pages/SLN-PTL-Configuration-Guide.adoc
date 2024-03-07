@@ -173,6 +173,8 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,heigh
 
 image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
 
+<<<
+
 [#s_Configure-RoadView-Settings-Tab]
 
 == Configure {software-ALPR} - Settings Tab
