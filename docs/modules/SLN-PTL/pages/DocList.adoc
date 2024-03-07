@@ -1,6 +1,6 @@
 = Solution for PTL (Motorola): Documents List
 
-* xref:SLN-PTL:SLN-PTL-Installation-Guide.adoc[PTL Installation and Calibration Guide]
+* xref:SLN-PTL:SLN-PTL-Configuration-Guide.adoc[PTL Installation and Calibration Guide]
 
 More documents can be found at https://drive.google.com/drive/folders/14qAJoQnsdTpJdU3N04P2HFNXUfRDmg__?usp=drive_link[GDriveLink, window=_blank]
 
