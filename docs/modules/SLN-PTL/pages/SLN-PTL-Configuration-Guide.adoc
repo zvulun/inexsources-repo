@@ -200,17 +200,17 @@ parameters may change, depending on the
 Detector Configuration "Mode" selected.
 ========================================
 
-[#s_Software-Version-and-Camera-Information]
+[#s_Software-Version-and-DPU-Information]
 
-=== Software Version and Camera Information
+=== Software Version and DPU Information
 
 The box at the upper right of the Settings screen shows:
 
 * The {software-ALPR} software version (verify that the version is correct)
 
-* The model, part number and serial number of the camera(s) {software-ALPR} is communicating with:
+* The model, part number and serial number of the DPU that {software-ALPR} is communicating with:
 
-[#f_Software-Version-and-Camera-Information-Section]
+[#f_Software-Version-and-DPU-Information-Section]
 
 .Software Version and DPU Information Section
 
@@ -461,18 +461,18 @@ in the overall ALPR system
 //*** RTSP stream URL example: +
 //rtsp:// <camera IP address>/cam0_0
 
-** *URL* - HTTP RTSP URL
+** *URL* - RTSP URL
 
-** *Type* - Type of camera *_\{Max: Always View?}_* (LPR or View)
+** *Type* - Type of camera (View)
 
 ** *Video Recording Enabled* - Check the box to
 enable video recording
 
-** *Video Pre Time* - *_\{Max what is this}_*
-Set as shown
+** *Video Pre Time* - How much time before the Event
+to record video; set as shown
 
-** *Video Post Time* - *_\{Max what is this}_*
-Set as shown
+** *Video Post Time* - How much time after the Event
+to record video; set as shown
 
 ////
 Number of frames to be included in the set of frames used
@@ -496,49 +496,41 @@ Detector Configuration section after making changes.*
 
 image::ROOT:SLN-PTL/RV-PTL-FIG-007_Motorola_Integration.png[image,550]
 
-* *{docproductname3} URL* - *_\{Max - any tips for entering like
-DO NOT enter the addition for the full path?}_*
+* *{docproductname3} URL* - URL of the {docproductname3} server
 
 * *{docproductname3} User Name* - username to access the {docproductname3} server
 
-* *{docproductname3} Password* - BasicAuth password to access the {docproductname3} server
+* *{docproductname3} Password* - password to access the {docproductname3} server
 
-* *Camera Port* - Not required, leave at default, for future
-expansion - *_\{Max - correct?}_*
-the HTTPS port on which {software-ALPR}
-listens for capture and “open gate” commands
+* *Camera Port* - the HTTP port on which {software-ALPR}
+listens for commands from the {docproductname3} server
 
-* *Log Store Days* - *_\{Max?}_*
+* *Log Store Days* - how long logs are stored for
 
-* *Keep Alive Interval* - *_\{Max?}_*
+* *Keep Alive Interval* - how often {software-ALPR} sends
+a Keep Alive message to the {docproductname3} server
 
-* *Offline Enabled* - *_\{Max?}_*
+* *Offline Enabled* - enables the Offline Queue for
+Events sent to the {docproductname3} server
 
 <<<
-
-[#s_Offline-Queue]
-
-=== Offline Queue
-
-*_\{Max/Pinchas - do we have to tell them to set this?}_*
-
-[#f_Offline-Queue-Section]
-
-.Offline Queue Section
-
-image::ROOT:SLN-PTL/RV-PTL-FIG-008_Offline_Queue.png[image,500]
 
 [#s_Journal]
 
 === Journal
 
-*_\{Zvulun tell users to enable journal; Max: use defaults?}_*
+*_\{Zvulun tell users to enable journal and use defaults}_*
 
 [#f_Journal-Settings]
 
 .Journal Settings Section
 
 image::ROOT:SLN-PTL/RV-PTL-FIG-009_Journal_Settings.png[image,500]
+
+* Check the Enabled checkbox
+
+* *Remember to click the Save button at the end of the
+Detector Configuration section after making changes.*
 
 [#s_Detector-Configuration]
 
@@ -568,53 +560,11 @@ Explanations of frequently used parameters:
 
 <<<
 
-== Configure {software-ALPR} - System Info Tab
+== {software-ALPR} - System Info Tab
 
-* Set the parameters as shown here
+* The software version and DPU information appear as shown here
 
-* Remember to click the Save button
-at the end of this section after
-changing these parameters.
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,500]
-
-Explanations of frequently used parameters:
-
-* Night Mode
-
-** +++<u>+++Disable+++</u>+++ - White LEDs are OFF
-
-** +++<u>+++Enable+++</u>+++ - White LEDs are ON
-
-*** *OV LED Intensity* - Relative intensity of the built-in white LEDs, expressed as a percentage of the maximum possible intensity
-
-*** *Illuminator Intensity* - Unused
-
-** +++<u>+++Auto+++</u>+++ - White LEDs are ON at night, OFF during the day,
-according to the camera's location (defined
-by the Latitude and Longitude parameters). Additional parameters are:
-+
-{empty} +
-+
-[NOTE]
-
-========================================
-
-Latitude and Longitude are user-entered coordinates; determine
-them using Google maps, by clicking on the location where the
-DPU will be installed (remember to put in a minus sign as needed)
-
-========================================
-
-*** *Latitude* - latitude coordinate of camera's location
-
-*** *Longitude* - longitude coordinate of camera's location
-
-*** *Post-Sunrise Offset* - time after actual sunrise to be considered as the start of the day
-
-*** *Pre-Sunset Offset* -time before actual sunset to be considered the end of the day
-
-<<<
+image::ROOT:SLN-PTL/RV-PTL-FIG-011_SystemInfo.png[image,800]
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
 
@@ -624,7 +574,7 @@ DPU will be installed (remember to put in a minus sign as needed)
 
 .Calibration Tab
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-011a_CalibrationTab.png[image,800]
+image::ROOT:SLN-PTL/RV-PTL-FIG-012_CalibrationTab.png[image,800]
 
 . When you see a vehicle at a typical
 capture position on the video, click on the video to pause it.
@@ -635,7 +585,7 @@ You select this view by clicking on the right-most button
 at the upper left of the
 screen: image:RoadViewALPR:UserGuide/image38.png[image,30]
 
-. Select a camera from the dropdown list *_\{Max: always View?}_* (LPR or OV).
+. Select a camera from the dropdown list
 
 . The Frame Width (horizontal) and Frame Height (vertical)
 are displayed at the lower left, and are set automatically.
@@ -751,6 +701,8 @@ tab.
 .Live (Journal) Tab
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-009a_LiveTab.png[image,800]
+
+*_\{Zvulun: mention video link but not metadata link}_*
 
 * Once the lane is active, verify that Events are being generated
 for each vehicle passing each camera, and that the recognition
