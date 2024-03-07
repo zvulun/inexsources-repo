@@ -322,14 +322,12 @@ Use this section to add and configure Lanes.
 
 image::ROOT:SLN-PTL/RV-PTL-FIG-004_Lanes.png[image,800]
 
-* Actions:
+* +++<u>+++Edit+++</u>+++ - edit the Lane's parameters
 
-** +++<u>+++Edit+++</u>+++ - edit the Lane's parameters
-
-** +++<u>+++Delete+++</u>+++ - delete the Lane
+* +++<u>+++Delete+++</u>+++ - delete the Lane
 (a warning will be displayed)
 
-** +++<u>+++Trigger+++</u>+++ - send a software trigger
+* +++<u>+++Trigger+++</u>+++ - send a software trigger
 immediately to {software-ALPR}
 +
 [NOTE]
@@ -388,12 +386,10 @@ from the rear of vehicles
 
 image::ROOT:SLN-PTL/RV-PTL-FIG-005_Cameras.png[image,800]
 
-* Actions:
-
-** +++<u>+++Edit+++</u>+++ - edit the camera's parameters
+* +++<u>+++Edit+++</u>+++ - edit the camera's parameters
 (see <<f_Add-Edit-Camera-Dialog>>)
 
-** +++<u>+++Delete+++</u>+++ - delete the camera
+* +++<u>+++Delete+++</u>+++ - delete the camera
 (a warning will be displayed)
 
 * *Camera table headers:* Camera ID, Lane ID, Name, URL,
@@ -412,8 +408,8 @@ The reappearance of the image indicates that the
 core software has restarted, and Events will resume
 being captured and displayed in the Live tab, with the
 following changes: +
-- The Transaction ID will continue to increase from the
-last Transaction ID. +
+- The Event ID will continue to increase from the
+last Event ID. +
 - The history of previous Events for that camera will be cleared
 ========================================
 
