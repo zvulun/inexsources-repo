@@ -107,8 +107,6 @@ processor, and to
 change its IP address to the one
 you allocated.
 
-<<<
-
 include::ROOT:partial$IZDiscovery/p-IZDISCOVERY-To-Include.adoc[leveloffset=+1]
 
 ////
