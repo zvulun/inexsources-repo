@@ -638,7 +638,7 @@ separately. For example, you may want a Region of Interest
 that is different for each camera.
 
 ========================================
-
++
 ////
 . Use the zoom and focus buttons to adjust
 the view of the video until the width of the plate
