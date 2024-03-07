@@ -100,10 +100,8 @@ configure the {compname-short} {docproductname3} {docproductname} system.
 The factory default IP address of the {hw-advanced-processor}
 Data Processing Unit (DPU) is on the sticker on the device;
 typically {ip-default-IZA-DPU}. +
-If you need to change the factory default address,
-use {software-discovery} to change its IP address. Be sure that
+If needed, use {software-discovery} to change its IP address. Be sure that
 you have allocated this address in your network.
-
 
 //+
 //* LPR Camera - http://192.168.5.101/ +
