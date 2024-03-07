@@ -491,7 +491,9 @@ Enable {docproductname3} Integration and
 set the parameters as follows. *Remember to click the Save button at the end of the
 Detector Configuration section after making changes.*
 
-.{docproductname3} Integration
+[#f_Motorola-Integration-Section]
+
+.{docproductname3} Integration Section
 
 image::ROOT:SLN-PTL/RV-PTL-FIG-007_Motorola_Integration.png[image,550]
 
@@ -520,6 +522,12 @@ listens for capture and “open gate” commands
 === Offline Queue
 
 *_\{Max/Pinchas - do we have to tell them to set this?}_*
+
+[#f_Offline-Queue-Section]
+
+.Offline Queue Section
+
+image::ROOT:SLN-PTL/RV-PTL-FIG-008_Offline_Queue.png[image,500]
 
 [#s_Journal]
 
