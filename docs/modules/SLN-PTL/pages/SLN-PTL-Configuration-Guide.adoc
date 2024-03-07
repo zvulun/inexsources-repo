@@ -355,7 +355,7 @@ and associate each camera with a different "Lane".
 
 .Add/Edit Lane Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,350]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,150]
 
 * *ID* (required) - The identification number of
 the lane to be captured by the cameras.
@@ -544,7 +544,7 @@ changing these parameters.
 
 .Detector Configuration Section
 
-image::ROOT:SLN-PTL/RV-PTL-FIG-010_Detector_Configuration.png[image,500]
+image::ROOT:SLN-PTL/RV-PTL-FIG-010_Detector_Configuration.png[image,450]
 
 Explanations of frequently used parameters:
 
