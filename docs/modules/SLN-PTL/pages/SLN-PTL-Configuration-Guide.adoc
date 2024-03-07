@@ -519,8 +519,6 @@ Events sent to the {docproductname3} server
 
 === Journal
 
-*_\{Zvulun tell users to enable journal and use defaults}_*
-
 [#f_Journal-Settings]
 
 .Journal Settings Section
@@ -568,7 +566,7 @@ image::ROOT:SLN-PTL/RV-PTL-FIG-011_SystemInfo.png[image,800]
 
 [#s_Calibrating-the-Cameras-Using-RoadView]
 
-== Calibrating the Cameras Using {software-ALPR}
+== Calibrating a Camera Using {software-ALPR}
 
 [#f_Calibration-Tab]
 
