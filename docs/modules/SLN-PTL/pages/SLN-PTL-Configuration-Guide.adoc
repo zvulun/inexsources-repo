@@ -698,9 +698,7 @@ tab.
 
 .Live (Journal) Tab
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-009a_LiveTab.png[image,800]
-
-*_\{Zvulun: mention video link but not metadata link}_*
+image::ROOT:SLN-PTL/RV-PTL-FIG-013_LiveTab.png[image,800]
 
 * Once the lane is active, verify that Events are being generated
 for each vehicle passing each camera, and that the recognition
@@ -709,7 +707,26 @@ has sufficient accuracy and confidence.
 * You can use the Search tab to find Event records stored in the
 {software-ALPR} database.
 
-* *_\{Zvulun mention system status tab and make screen shot}_*
+.Search Tab
+
+image::ROOT:SLN-PTL/RV-PTL-FIG-014_SearchTab.png[image,800]
+
+* Click on each thumbnail under the large Event image pane
+to see overview and plate images
+
+* To see the video clip used to create the Event, click on the
+Video link under the thumbnails
+
+// {Metadata link not mentioned since it has not
+//yet been implemented; it should download a text file
+//with the event metadata that can be opened with notepad}
+
+* You can use the System Status tab to check the statuses
+of different system components
+
+.System Status Tab
+
+image::ROOT:SLN-PTL/RV-PTL-FIG-015_SystemStatusTab.png[image,400]
 
 <<<
 
