@@ -350,7 +350,7 @@ and associate each camera with a different "Lane".
 
 .Add/Edit Lane Dialog
 
-image::ROOT:SLN-PTL/RV-PTL-FIG-004a_EditLaneDialog.png[image,150]
+image::ROOT:SLN-PTL/RV-PTL-FIG-004a_EditLaneDialog.png[image,300]
 
 * *ID* (required) - The identification number of
 the lane to be captured by the cameras.
@@ -420,6 +420,8 @@ last Event ID. +
 .Add/Edit Camera Dialog
 
 image::ROOT:SLN-PTL/RV-PTL-FIG-006_EditCameraDialog.png[image,300]
+
+<<<
 
 ** *Lane ID* - The identification number of the
 lane being captured by the camera(s).
@@ -686,6 +688,8 @@ is running again with the updated parameters.
 tightening of the mounting hardware.
 
 . Repeat these steps for other cameras.
+
+<<<
 
 [#s_Verify-System-Operation]
 
