@@ -686,7 +686,7 @@ is running again with the updated parameters.
 . When the correct position is achieved, make a final
 tightening of the mounting hardware.
 
-. Repeat these steps for the other camera.
+. Repeat these steps for other cameras.
 
 [#s_Verify-System-Operation]
 
