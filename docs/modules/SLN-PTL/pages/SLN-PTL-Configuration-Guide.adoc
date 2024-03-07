@@ -726,6 +726,8 @@ Video link under the thumbnails
 //yet been implemented; it should download a text file
 //with the event metadata that can be opened with notepad}
 
+<<<
+
 * You can use the System Status tab to check the statuses
 of different system components
 
