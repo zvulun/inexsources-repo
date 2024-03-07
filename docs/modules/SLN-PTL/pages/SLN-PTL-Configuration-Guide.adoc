@@ -93,6 +93,8 @@ configure the {compname-short} {docproductname3} {docproductname} system.
 * Computer running with Windows 10 or later
 * Chrome or Microsoft Edge browser
 
+<<<
+
 == Use {software-discovery} and Allocate IP Addresses
 
 . Allocate an IP address for
