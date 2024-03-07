@@ -26,7 +26,7 @@
 
 +++<font size="+3">+++ *Installation and Calibration Guide*+++</font>+++
 
-image::ROOT:SLN-PTL/MOTOROLA_LOGO.png[image,150,align=left]
+image::ROOT:SLN-PTL/MOTOROLA_LOGO.png[image,300,align=left]
 
 // restore section numbering from here on
 :sectnums: all
