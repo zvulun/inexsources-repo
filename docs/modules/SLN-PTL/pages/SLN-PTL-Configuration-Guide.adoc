@@ -10,7 +10,7 @@
 // outside partials - should be used in partials
 // see the playbook for full list
 
-:xref-type-IZA500G:
+:xref-type-PTL:
 :layout-type-userguide:
 
 //related doc links are temporarily pointed
@@ -95,19 +95,20 @@ configure the {compname-short} {docproductname3} {docproductname} system.
 
 <<<
 
-== Use {software-discovery} and Allocate IP Addresses
+== Use {software-discovery}
 
-. Allocate an IP address for
-the {hw-advanced-processor} Data Processing Unit (DPU).
-For example: +
-* Processor - http://192.168.5.100/ +
+. The factory default IP address of the {hw-advanced-processor}
+Data Processing Unit (DPU) can be found on the sticker on the device;
+typically {ip-default-IZA-DPU}.
+
+. If you need to change the factory default address,
+use {software-discovery} to change its IP address. Be sure that
+you have allocated this address in your network.
+
+
+//+
 //* LPR Camera - http://192.168.5.101/ +
 //* OV Camera - http://192.168.5.102/ +
-
-. Use {software-discovery} to find the
-processor, and to
-change its IP address to the one
-you allocated.
 
 include::ROOT:partial$IZDiscovery/p-IZDISCOVERY-To-Include.adoc[leveloffset=+1]
 
@@ -147,7 +148,7 @@ at the expected distance and height.
 
 . Type in the IP address of the {software-ALPR} computer - the {hw-advanced-processor}.
 For example: +
-http://192.168.5.100/[http://192.168.5.100/]
+{ip-default-IZA-DPU}
 
 . You will see the login screen. Enter the default username
 and password (root, root):
@@ -443,7 +444,8 @@ lane will be combined into a single Event.
 Using the same Lane ID for different cameras
 will combine the reads into one Event (see <<s_Lanes>>).
 You may even be able to improve read accuracy by changing
-the zoom to have one camera "see" closer than the other one.
+the *_\{Max/Pinchas: but if zoom doesn't work, how can user do this?
+can he do it manually? or maybe he can't?}_* zoom to have one camera "see" closer than the other one.
 
 You could also position cameras to be in different positions
 (front/rear).
@@ -502,7 +504,7 @@ image::ROOT:SLN-PTL/RV-PTL-FIG-007_Motorola_Integration.png[image,550]
 
 * *{docproductname3} Password* - password to access the {docproductname3} server
 
-* *Camera Port* - the HTTP port on which {software-ALPR}
+* *Camera Port* - the HTTPS port on which {software-ALPR}
 listens for commands from the {docproductname3} server
 
 * *Log Store Days* - how long logs are stored for
@@ -566,7 +568,7 @@ image::ROOT:SLN-PTL/RV-PTL-FIG-011_SystemInfo.png[image,800]
 
 <<<
 
-[#s_Calibrating-the-Cameras-Using-RoadView]
+[#s_Calibrating-a-Camera-Using-RoadView]
 
 == Calibrating a Camera Using {software-ALPR}
 
@@ -634,9 +636,10 @@ that is different for each camera.
 
 ========================================
 
+////
 . Use the zoom and focus buttons to adjust
 the view of the video until the width of the plate
-is withing the extent of the vertices, and
+is within the extent of the vertices, and
 its plate image is clear and sharp.
 (The surrounding items, such as the vehicle body,
 do not need to be as sharp as the plate.)
@@ -654,6 +657,7 @@ As you adjust the zoom and focus,
 you may need to reposition the camera in order to
 get the image of the plate back to the desired position.
 ========================================
+////
 
 . Define the *Plate Width Min*: Events will only be created
 for plate reads whose width is greater than or equal
@@ -762,7 +766,7 @@ Examine the video from the Camera on the Calibration tab:
 
 * If the images are spotted, remove dirt and dust from the front window of the camera with a soft cloth and mild soap
 
-* If the images are not sharp, adjust the zoom and focus of each camera.
+//* If the images are not sharp, adjust the zoom and focus of each camera.
 
 |===
 
