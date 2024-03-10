@@ -415,13 +415,12 @@ Each type of Trigger Operational Mode has its own advantages:
 
 == Settings Tab
 
-*_\{Zvulun/Max: if time, take an updated
-(after restored to previous camera) screen shot
-or use paste from other screen shots - and
-be sure to make the time zone as follows:
-America/New_York (GMT-05:00), and set the
-IP addresses as shown in the sections in
-this document}_*
+//*_\{Zvulun: if time, take an updated
+//(after restored to previous camera) screen shot
+//- and be sure to make the time zone as follows:
+//America/New_York (GMT-05:00), and set the
+//IP addresses as shown in the sections in
+//this document}_*
 
 Use the Settings tab after the first installation or reinstallation of the IZ ALPR system, or when some fundamental parameters need updating. For example, if the Camera System or DPU was moved to a different location (time zone).
 
@@ -429,7 +428,7 @@ Use the Settings tab after the first installation or reinstallation of the IZ AL
 
 .Settings Tab
 
-image::./UserGuide/image8.png[image,width=265,height=504]
+image::./UserGuide/RV-1_15-FIG-003f_SettingsTab.png[image,width=265,height=504]
 
 [NOTE]
 
