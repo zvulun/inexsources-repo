@@ -254,7 +254,7 @@ See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 === Logging In
 
 . Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {shortprodname} computer. For example: +
-http://192.115.120.76/
+{ip-default-IZA-DPU}
 +
 [IMPORTANT]
 
@@ -281,6 +281,9 @@ image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 * Click on the multi-line menu icon at the upper right of the {shortprodname} screen
 
 * Select "Logout"
+
+*_\{Zvulun - substitute the new picture with the
+Change Password item in the 3-line menu}_*
 
 [#f_Logout-Multi-line-Menu]
 
@@ -1166,6 +1169,8 @@ The trigger command may arrive at a different time than actual trigger's (physic
 *_\{Max/Zvulun: has new parameters and labels; check
 each box and see what additional parameters show up}_*
 
+*_\{zvulun: put in new screen shot}_*
+
 [#f_Detector-Configuration-Section]
 
 .Detector Configuration Section
@@ -1234,11 +1239,17 @@ image::./UserGuide/image26.png[image,width=507,height=97]
 
 * *Max Levenshtein distance* - Different reads of the same plate may not be identical due to shadows, sunlight, blurred images, etc. However, we want to minimize these effects by treating slightly different reads as the same result. We allow a maximum "distance" (number of changes required to match two strings) between plate reads in an Event. If the distance is less than or equal to this parameter, then the comparison is considered to be a valid match for the Event.
 
-* *JPEG frame quality, 0-100 (0=no frame sent)* - The Overview image JPEG frame quality used to send images to {software-server} or a 3rd party system**_._**
+*_\{Max: please recheck these - the names have changed}_*
 
-* *JPEG plate quality, 0-100 (0=no frame sent)* - The LPR image JPEG frame quality used to send images to {software-server} or a 3rd party system**_._**
+* *LPR JPEG quality, 0-100 (0=no frame sent)* - The LPR image JPEG frame quality used to send images to {software-server} or a 3rd party system**_._**
+
+* *OV JPEG quality, 0-100 (0=no frame sent)* - The Overview image JPEG frame quality used to send images to {software-server} or a 3rd party system**_._**
+
+* *Plate JPEG quality, 0-100 (0=no frame sent)* - The plate patch image JPEG frame quality used to send images to {software-server} or a 3rd party system**_._**
 
 * *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
+
+* *Include all LPR results* - *_\{Max: what is this?}_*
 
 * *Image Resize* - when enabled, and the Event confidence is equal or higher than the Resize Confidence parameter, then each LPR and OV image is resized according to the Image Width (and the height is resized proportionally).
 
@@ -1272,7 +1283,7 @@ image::./UserGuide/image26.png[image,width=507,height=97]
 
 ** *LPR Stub* - for example, "NOREAD"
 
-** LPR Stub Confidence - for example, 0
+** *LPR Stub Confidence* - for example, 0
 
 * *Hybrid Pre Time (for Hybrid mode only)* - Time in milliseconds before the trigger to search for the closest Event to the trigger (see <<f_Illustration-of-Hybrid-Pre-Post-Time>>)
 
