@@ -247,11 +247,11 @@ See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 [#s_Logging-In-and-Logging-Out]
 
-== Logging In and Logging Out
+== Logging In, Changing/Resetting Password and Logging Out
 
-[#s_Logging-In]
+[#s_First-Time-Login]
 
-=== Logging In
+=== First-Time Login
 
 . Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {shortprodname} computer. For example: +
 {ip-default-IZA-DPU}
@@ -266,13 +266,63 @@ The {shortprodname} GUI can now be accessed using https at the start of the URL.
 
 . In the login screen, enter the default username and password: (root, root):
 +
-[#f_Logging-In-to-the-Computer]
+[#f_Logging-In-to-RoadView]
 
-.Logging In to the Computer
+.Logging In to {shortprodname}
 
 image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 . You should see the {shortprodname} Live (Journal) tab (see <<s_Live-Journal-Tab>>). To configure {shortprodname}, switch to the Settings tab (see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>).
+
+[#s_Changing-the-Password]
+
+=== Changing the Password (Multi-line Menu Icon)
+
+* Click on the multi-line menu icon at the upper right of the {shortprodname} screen
+
+* Select "Change Password"
+
+[#f_Change-Password-Multi-line-Menu]
+
+.Change Password (Multi-line Menu)
+
+image::./UserGuide/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=136,height=113]
+
+* Enter the new password and re-type it
+
+[#f_Change-Password-Dialog]
+
+.Change Password Dialog
+
+image::./UserGuide/RV-1_15-FIG-021c_ChangePW_Popup.png[image,width=300]
+
+=== Resetting the Password
+
+If you forgot your password, you can reset it as follows:
+
+. Open a browser (latest version of Chrome or IE 11 or higher). Type in the IP address of the {shortprodname} computer. For example: +
+{ip-default-IZA-DPU}
+
+. In the login screen, click on the Reset Password link
+(see <<#f_Logging-In-to-RoadView>>).
+
+. Using the dialog that appears, prepare an
+email with the *Request* code, and click Cancel.
++
+[#f_Password-Reset-Dialog]
+
+image::./UserGuide/RV-1_15-FIG-021d_RequestPWReset_Popup.png[image,width=300]
+
+. When you get a *Reset* code back from {compname-short},
+repeat the previous steps to open the dialog again,
+enter the Reset Code in the text box, and click Next.
+
+. You will the dialog used for changing
+a password (see <<f_Change-Password-Dialog>>)
+
+. Enter the new password and re-type it
+
+. Use the new password to log in to {shortprodname} again
 
 [#s_Logging-Out-Multi-line-Menu-Icon]
 
@@ -282,14 +332,11 @@ image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 * Select "Logout"
 
-*_\{Zvulun - substitute the new picture with the
-Change Password item in the 3-line menu}_*
-
 [#f_Logout-Multi-line-Menu]
 
 .Logout (Multi-line Menu)
 
-image::./UserGuide/image5.png[image,width=136,height=113]
+image::./UserGuide/RV-1_15-FIG-020a_Logging_Out.png[image,width=136,height=113]
 
 +++<div class="pagebreak"> </div>+++
 
@@ -368,6 +415,14 @@ Each type of Trigger Operational Mode has its own advantages:
 
 == Settings Tab
 
+*_\{Zvulun/Max: if time, take an updated
+(after restored to previous camera) screen shot
+or use paste from other screen shots - and
+be sure to make the time zone as follows:
+America/New_York (GMT-05:00), and set the
+IP addresses as shown in the sections in
+this document}_*
+
 Use the Settings tab after the first installation or reinstallation of the IZ ALPR system, or when some fundamental parameters need updating. For example, if the Camera System or DPU was moved to a different location (time zone).
 
 [#f_Settings-Tab]
@@ -414,7 +469,7 @@ image::./UserGuide/RV-1_15-FIG-100b_SettingsVersionSection.png[image,width=356,h
 
 .Network Settings Section
 
-image::./UserGuide/image10.png[image,width=416,height=180]
+image::./UserGuide/RV-1_15-FIG-213_NewNetworkSettings.png[image,width=416,height=180]
 
 * If needed, set the {shortprodname} computer's IP address parameters.
 
@@ -1089,6 +1144,14 @@ The Journal data is stored at: /mnt/data/journal
 
 === Events Post Processing
 
+[#s_Events-Post-Processing-Section-Skip-Empty-Events]
+
+==== Skip Empty Events
+
+* *Skip Empty Events* - (see <<f_Events-Post-Processing-Section-Combine-Enabled>>) When an Event does not include a plate recognition,
+it is ignored. *_\{Max: I have a note that "Skip Event" was added - did you mean
+this Skip Empty Events parameter?}_*
+
 [#s_Events-Post-Processing-Section-Combine-Enabled]
 
 ==== Combine Enabled
@@ -1098,10 +1161,6 @@ The Journal data is stored at: /mnt/data/journal
 .Events Post-Processing Section - Combine Enabled
 
 image::./UserGuide/RV-1_15-FIG-208_Events_Post_Combine.png[image,width=480,height=160]
-
-* *Skip Empty Events* - When an Event does not include a plate recognition,
-it is ignored. *_\{Max: I have a note that "Skip Event" was added - did you mean
-this Skip Empty Events parameter?}_*
 
 * *Combine Enabled* - used for combining Events with the same or similar recognition
 
@@ -1166,16 +1225,11 @@ The trigger command may arrive at a different time than actual trigger's (physic
 
 === Detector Configuration
 
-*_\{Max/Zvulun: has new parameters and labels; check
-each box and see what additional parameters show up}_*
-
-*_\{zvulun: put in new screen shot}_*
-
 [#f_Detector-Configuration-Section]
 
 .Detector Configuration Section
 
-image::./UserGuide/image24.png[image,width=433,height=472]
+image::./UserGuide/RV-1_15-FIG-212_NewDetectorConfig.png[image,width=433,height=472]
 
 Plate recognition is done in 3 stages:
 
@@ -1450,7 +1504,7 @@ You could also position cameras to be in different positions (front/rear as in a
 rtsp://<camera IP address>/cam0_0
 
 *** HTTP URL example: +
-http:// <camera IP address>
+http://<camera IP address>
 
 ** *Type* - Type of camera (LPR, View or DriverFace);
 *_\{Max: is this still true?}_* used for integration with {software-server}
@@ -1513,7 +1567,7 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
 .Configure Journal (Multi-line Menu)
 
-image::./UserGuide/image33.png[image,width=136,height=113]
+image::./UserGuide/RV-1_15-FIG-021a_ConfigureJournal.png[image,width=136,height=113]
 
 *** Select the additional columns to display, such as: +++<u>+++State+++</u>+++ (state displayed on plate), +++<u>+++State Confidence+++</u>+++ (confidence that the state has been recognized accurately), +++<u>+++Class+++</u>+++ (vehicle class, such as car or truck), +++<u>+++Class Confidence+++</u>+++ (confidence that the class has been recognized accurately) and +++<u>+++Direction+++</u>+++ (direction vehicle was traveling - forward or backward - according to the direction arrow configured in the Calibration tab - see <<s_Calibration-Tab>>). (These additional columns will also appear on the Search tab - see <<s_Search-Tab>>.)
 
@@ -1729,7 +1783,13 @@ As you adjust the zoom and focus, you may need to reposition the camera in order
 
 ========================================
 
-. *Direction (red arrow on video):* drag the head of the arrow around to point to the angle at which you expect vehicles to be moving**.** (The vehicle's direction is also sent to the {software-cloud} as part of an Event.) You can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>). +
+. *Direction (red arrow on video):* *_\{Max:
+I have a note for future use that says as follows;
+has this been implemented yet?:
+TEXT FOR FUTURE: This Direction is used in
+NonTriggered mode to provide more accurate
+video-based triggering.}_* drag the head of the arrow around to point to the angle at which you expect vehicles to be moving**.**
+(The vehicle's direction is also sent to the {software-cloud} as part of an Event.) You can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>). +
 You can set the "Ignore Opposite Direction" parameter in the Lanes section to ignore all Events for vehicles moving in the direction opposite to the direction arrow in the Calibration tab (see <<s_Lanes>>).
 
 . When you have finished, click the *Save* button. Wait several seconds for the display to refresh automatically, which indicates that the {shortprodname} recognition software is running again with the updated parameters.
