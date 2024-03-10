@@ -60,9 +60,10 @@ If you want to copy the IP address (for login to the device) you will need to un
 
 For devices using {software-ALPR} software, you can change the IP address using the {software-ALPR} Settings tab.
 
+ifndef::xref-type-PELCO[]
 If your device is an {compname-short} Camera System, be sure to define IP addresses for each camera (LPR and Overview), using each camera's configuration application.
 It is recommended to use sequential IP addresses for the Camera System and its cameras; for example: {ip-default-IZA-DPU}, {ip-default-IZA-LPR}, {ip-default-IZA-OV}
-
+endif::[]
 ========================================
 
 To change the device's mode (fixed or dynamic [DHCP]), or IP address:

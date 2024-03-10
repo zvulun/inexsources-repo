@@ -3,14 +3,14 @@
 :docproductname3: Motorola
 //:fileproductname: IZA500G-GR
 //:shortprodname: IZIDPUGOX
-:generic-camera-name: Camera
+:generic-camera-name: camera
 
 // set attribute (by uncommenting the line)
 // used to determine which text/links to sections
 // outside partials - should be used in partials
 // see the playbook for full list
 
-:xref-type-PTL:
+:xref-type-PELCO:
 :layout-type-userguide:
 
 //related doc links are temporarily pointed

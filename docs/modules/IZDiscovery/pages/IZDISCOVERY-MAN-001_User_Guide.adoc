@@ -159,7 +159,7 @@ be sure to define IP addresses for each camera
 application.
 It is recommended to use sequential IP addresses
 for the Camera System and its cameras;
-for example: 192.168.5.100, 101, 102
+for example: {ip-default-IZA-DPU}, {ip-default-IZA-LPR}, {ip-default-IZA-OV}
 
 ========================================
 
