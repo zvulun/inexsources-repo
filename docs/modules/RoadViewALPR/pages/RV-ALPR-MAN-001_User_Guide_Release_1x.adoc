@@ -1605,17 +1605,36 @@ large image pane to indicate the mode.
 
 +++<div class="pagebreak"> </div>+++
 
-* The thumbnail images below the larger image pane display the overview and plate patch images from each camera. Click on one of the thumbnail images to display it in the larger image pane.
+* The thumbnail images below the
+larger image pane display the overview, LPR
+and plate patch images from each camera.
+*_\{Max: which plate image is from which camera?}_*
 +
 [NOTE]
 
 ========================================
 
-If both cameras in a Camera System were set to view the same lane, but one of the cameras (usually the color Overview camera) failed to capture the license plate properly, you will only see 3 thumbnails instead of 4.
+If both cameras in a Camera System were set
+to view the same lane, but one of the
+cameras (usually the color Overview camera)
+failed to capture the license plate properly,
+you will see 3 thumbnails instead of 4.
+*_\{Max: or should we say only the LPR
+thumbnails - and only the LPR's plate image?}_*
 
 If you are using a camera with one sensor (such as the IZ600F), you will see 2 thumbnails - one for the LPR/OV image, and one for the plate patch.
 
 ========================================
+
+** (For triggered modes) Images with a blue
+border are pre-trigger frames
+** (For triggered modes) Images with an orange
+border are post-trigger frames
+** Hover over a thumbnail to display date/time
+information for each camera or confidence
+for the plate patch images.
+** Click on a thumbnail to display
+it in the larger image pane.
 
 * Zoom in on an area of interest in the large image (requires a mouse with a wheel):
 
