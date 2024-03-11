@@ -1575,7 +1575,7 @@ image::./UserGuide/RV-1_15-FIG-021a_ConfigureJournal.png[image,width=136,height=
 ** Pause the grid display by clicking on a row,
 or by using the pause button in the middle of
 the controls under the large image
-( image:./UserGuide/RV-Pause-Button.png[image,width=10)]).
+(image:./UserGuide/RV-Pause-Button.png[image,width=10)]).
 You can also click on the large image to toggle between Pause and Run mode. This is useful if you want to examine a specific Event.
 
 ** You can also use these controls to move
