@@ -1584,7 +1584,7 @@ start/end of Events).
 
 ** Start the display running in real-time again
 using the Run button
-( image:./UserGuide/RV-Run-Button.png[image,width=20])
+(image:./UserGuide/RV-Run-Button.png[image,width=20])
 or by clicking on the large image. This will refresh the display, and resume displaying Events, starting from the 20 most recent Events.
 +
 [NOTE]
