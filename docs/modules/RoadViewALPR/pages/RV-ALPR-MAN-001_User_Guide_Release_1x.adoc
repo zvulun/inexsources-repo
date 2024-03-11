@@ -916,6 +916,11 @@ only send one of them *_\{Max: images?}_* to {software-protocol}.
  +
 If you want {shortprodname} to work with {software-server}, {shortprodname} can only be working as a {software-protocol} Client. In this mode, the {shortprodname} {software-protocol} Client port must match the {software-server} {software-protocol} port (see the {software-server} documentation - see <<s_Related-Documents>>)
 
+*_\{Max: other than the IP, can we simply use
+most of the same field explanations as
+as in the ZAP Server - but some are different
+for the client?}_*
+
 ** *IP* - The IP address of the {software-protocol} Server (to which {shortprodname} acting as a client should connect)
 
 ** *Port* - The port number of the {software-protocol} Server
@@ -940,7 +945,8 @@ If you want {shortprodname} to work with {software-server}, {shortprodname} can 
 
 When an Event is generated in
 triggered or non-triggered mWodes, the system
-sends a set of images for that Event. The images sent
+sends a set of images for that Event. *_\{Max:
+how is this done per protocol - is this correct?}_* The images sent
 can be configured per protocol (such as ZAP and/or HTTP).
 
 The system can generate two types of Events:
@@ -1410,8 +1416,6 @@ Each "Lane" is actually a virtual Lane. For example, if you have two Camera Syst
 
 image::./UserGuide/image29.png[image,width=265,height=151]
 
-*_\{Zvulun: need new screen shot - Now has Passageway: Unknown, Entry Exit}_*
-
 * *ID* (required) - The identification number of the lane to be captured by the cameras. This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
 
 * *Name* (required) - The name of the Lane as it will appear in the GUI. This name will also be sent in HTTP and {software-protocol} messages.
@@ -1521,7 +1525,7 @@ You could also position cameras to be in different positions (front/rear as in a
 rtsp://<camera IP address>/cam0_0
 
 *** HTTP URL example: +
-http://<camera IP address>
+\http://<camera IP address>
 
 ** *Type* - Type of camera (LPR, View or DriverFace);
 *_\{Max: is this still true?}_* used for integration with {software-server}
@@ -1570,7 +1574,7 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
 ** +++<u>+++Date and time+++</u>+++ when the Event was recorded
 
-** License Plate number (LPR)
+** +++<u>+++License Plate number (LPR)+++</u>+++
 
 ** +++<u>+++Recognition confidence+++</u>+++, expressed as a percentage
 
