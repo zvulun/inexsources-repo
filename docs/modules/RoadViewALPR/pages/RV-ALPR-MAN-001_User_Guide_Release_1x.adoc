@@ -428,7 +428,7 @@ Use the Settings tab after the first installation or reinstallation of the IZ AL
 
 .Settings Tab
 
-image::./UserGuide/RV-1_15-FIG-003f_SettingsTab.png[image,width=265,height=504]
+image::./UserGuide/RV-1_15-FIG-003g_SettingsTab.png[image,width=265,height=504]
 
 [NOTE]
 
