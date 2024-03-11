@@ -468,7 +468,7 @@ image::./UserGuide/RV-1_15-FIG-100b_SettingsVersionSection.png[image,width=356,h
 
 .Network Settings Section
 
-image::./UserGuide/RV-1_15-FIG-213_NewNetworkSettings.png[image,width=416,height=180]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-213_NewNetworkSettings.png[image,width=416,height=180]
 
 * If needed, set the {shortprodname} computer's IP address parameters.
 
@@ -1139,6 +1139,24 @@ The Journal data is stored at: /mnt/data/journal
 
 * *Max Count on Disk* - Maximum number of Events that can be stored on the {shortprodname} computer's disk; this parameter should be left at its default
 
+[NOTE]
+
+====================
+*_\{Max: Please explain again:}_*
+Journal setting can support up to 100k events -
+default is 10,000.
+
+*_\{Max - please explain - why is the number
+of events per page the symptom?}_* If there is not enough free disk space to acccomodate
+the amount events requested, the system will
+delete old events and store new ones only.
+Symptom is the max event shown on upper right
+of search page in controls setting how many
+events per page to show. (see <<s_Search-Tab-Page-Controls>>)
+
+
+====================
+
 [#s_Events-Post-Processing]
 
 === Events Post Processing
@@ -1627,9 +1645,9 @@ If you are using a camera with one sensor (such as the IZ600F), you will see 2 t
 ========================================
 
 ** (For triggered modes) Images with a blue
-border are pre-trigger frames
+border are pre-trigger frames (see <<f_Add-Edit-Camera-Dialog>>)
 ** (For triggered modes) Images with an orange
-border are post-trigger frames
+border are post-trigger frames (see <<f_Add-Edit-Camera-Dialog>>)
 ** Hover over a thumbnail to display date/time
 information for each camera or confidence
 for the plate patch images.
@@ -1674,7 +1692,8 @@ The same columns that were added to the Live display (using the multi-line menu 
 
 === Search Tab: Page Controls
 
-Page controls are located at the upper right of the records grid:
+Page controls are located at the upper right
+of the records grid:
 
 [#f_Search-Tab-Page-Controls]
 
