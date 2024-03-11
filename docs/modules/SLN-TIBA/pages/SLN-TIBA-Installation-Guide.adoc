@@ -219,9 +219,9 @@ For 4 cameras, use a 240 W supply (IZPWR240-48)
 the onboard processor and the
 LPR and OV cameras (sensors).
 For example: +
-* Processor - http://192.168.5.100/ +
-* LPR Camera - http://192.168.5.101/ +
-* OV Camera - http://192.168.5.102/ +
+* Processor - {ip-default-IZA-DPU} +
+* LPR Camera - {ip-default-IZA-LPR} +
+* OV Camera -  {ip-default-IZA-OV} +
 
 . Use {software-discovery} to find the
 onboard processor and LPR/OV cameras, and to
