@@ -1572,11 +1572,20 @@ image::./UserGuide/RV-1_15-FIG-021a_ConfigureJournal.png[image,width=136,height=
 
 * Pause/Run mode:
 
-** Pause the grid display by clicking on a row, or by using the pause button in the middle of the controls under the large image (). You can also click on the large image to toggle between Pause and Run mode. This is useful if you want to examine a specific Event.
+** Pause the grid display by clicking on a row,
+or by using the pause button in the middle of
+the controls under the large image
+( image:./UserGuide/RV-Pause-Button.png[image,width=10)]).
+You can also click on the large image to toggle between Pause and Run mode. This is useful if you want to examine a specific Event.
 
-** You can also use these controls to move through the grid (next/previous Event, or start/end of Events).
+** You can also use these controls to move
+through the grid (next/previous Event, or
+start/end of Events).
 
-** Start the display running in real-time again using the Run button () or by clicking on the large image. This will refresh the display, and resume displaying Events, starting from the 20 most recent Events.
+** Start the display running in real-time again
+using the Run button
+( image:./UserGuide/RV-Run-Button.png[image,width=20])
+or by clicking on the large image. This will refresh the display, and resume displaying Events, starting from the 20 most recent Events.
 +
 [NOTE]
 
@@ -1584,7 +1593,11 @@ image::./UserGuide/RV-1_15-FIG-021a_ConfigureJournal.png[image,width=136,height=
 
 {shortprodname} is continually recording and saving (Journal) Events. The Events are added to the Live display (Running mode operation) until the display is paused. Even when you pause the Live display, {shortprodname} continues to record Events - and can display up to a maximum of 20 recent Events.
 
-As you Pause/Run the Live grid, you may see momentary icons ( or ) appearing in the middle of the large image pane to indicate the mode.
+As you Pause/Run the Live grid,
+you may see momentary icons
+( image:./UserGuide/RV-Pause-Button.png[image,width=10)]
+image:./UserGuide/RV-Run-Button.png[image,width=20]) appearing in the middle of the
+large image pane to indicate the mode.
 
 ========================================
 
