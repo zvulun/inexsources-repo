@@ -868,10 +868,11 @@ can be received from ZAP if it is offline as shown
 in the RV system status page?}_*
 
 *** +++<u>+++Enable Auto Self-Triggering+++</u>+++ -
-(Requires *_\{Max: is this offline in the ZAP section, or
-the offline queue settings section?}_* Offline to be enabled) +
-If enabled, {shortprodname} will switch to Non-triggered mode if
-communication with {software-protocol} is lost.
+(Requires Offline to be Enabled in the ZAP section)
++
+If enabled, {shortprodname} will switch to
+Non-triggered mode if a GetStatus message not received
+from the {software-protocol} client or server.
 This enables some record/images of the Event to be saved
 even though triggers can't be sent.
 After {shortprodname} re-connects to {software-protocol},
@@ -879,11 +880,13 @@ After {shortprodname} re-connects to {software-protocol},
 created offline back to {software-protocol}.
 
 *** +++<u>+++Auto Self-Triggering Timeout+++</u>+++ -
-How long (in ms) to wait (after the connection was lost
-with {software-protocol}) before switching to
+How long (in ms) to wait (after the GetStatus message was
+not received from the {software-protocol} client or server before switching to
 Self-Triggering mode
 
-** *{software-protocol} Version* - {software-protocol} communication protocol version. It is recommended to use version 4.4. The connected clients must use the same version.
+** *{software-protocol} Version* - {software-protocol}
+communication protocol version. It is recommended to use
+the latest version. The connected clients must use the same version.
 
 ** *Confidence Filter* - the confidence level below which Events are not sent
 
@@ -1494,6 +1497,8 @@ If you add a camera, or edit a camera's parameters and click the Save button in 
 ========================================
 
 * *Add Camera* (button at end of Cameras section):
+*_\{Zvulun need to change URL in screen shot to new
+standard for LPR camera}_*
 +
 [#f_Add-Edit-Camera-Dialog]
 

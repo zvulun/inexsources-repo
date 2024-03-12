@@ -504,13 +504,16 @@ image::ROOT:SLN-PTL/RV-PTL-FIG-007_Motorola_Integration.png[image,550]
 * *Camera Port* - the HTTPS port on which {software-ALPR}
 listens for commands from the {docproductname3} server
 
-* *Log Store Days* - how long logs are stored for
+* *Log Store Days* - how long {docproductname3} logs are stored
+in the {software-ALPR} database; also defines how long
+Events are stored in the offline queue
 
 * *Keep Alive Interval* - how often {software-ALPR} sends
 a Keep Alive message to the {docproductname3} server
 
 * *Offline Enabled* - enables the Offline Queue for
-Events sent to the {docproductname3} server
+Events sent to the {docproductname3} server; +++<u>+++should
+always be enabled+++</u>+++
 
 <<<
 
