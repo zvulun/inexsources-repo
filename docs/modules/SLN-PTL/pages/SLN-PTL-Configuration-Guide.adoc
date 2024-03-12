@@ -380,6 +380,9 @@ from the rear of vehicles
 
 === Cameras
 
+*_\{Zvulun: change RTSP P/W and URL in cameras
+screen shot and in Add/Edit Camera screen shot}_*
+
 [#f_Cameras-Section]
 
 .Cameras Section
