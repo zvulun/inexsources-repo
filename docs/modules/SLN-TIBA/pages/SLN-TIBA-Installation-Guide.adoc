@@ -216,12 +216,10 @@ For 4 cameras, use a 240 W supply (IZPWR240-48)
 == Use {software-discovery}
 
 The factory default IP addresses of the onboard
-processor and the LPR and OV cameras
-are on the sticker on the Camera System, typically as
-follows: Processor ({ip-default-IZA-DPU}), LPR Camera ({ip-default-IZA-LPR})
-OV Camera ({ip-default-IZA-OV}). If needed, use {software-discovery} to change the IP addresses
-to others you have allocated in your network. The
-addresses should be consecutive.
+processor, LPR and OV cameras
+are on the unit's sticker typically: Processor ({ip-default-IZA-DPU}), LPR Camera ({ip-default-IZA-LPR})
+OV Camera ({ip-default-IZA-OV}). If needed, use {software-discovery} to change to other
++++<u>+++consecutive+++</u>+++ addresses allocated in your network.
 
 include::ROOT:partial$IZDiscovery/p-IZDISCOVERY-To-Include.adoc[leveloffset=+1]
 
