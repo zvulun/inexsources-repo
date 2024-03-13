@@ -1289,7 +1289,7 @@ Columns/Filters:
 * *TimeStamp*
 ** Click in the text box to display a calendar
 popup (see <<f_IZCLoud-Calendar-Popup>>).
-** Click once to select a start date
+** Click once to select a start date (see <<f_IZCLoud-Selecting-a-Date-Range>>)
 ** Click again to select an end date
 (even if the same date)
 ** After selecting a range, the filter's checkbox
@@ -1301,6 +1301,8 @@ clear the checkbox. +
 .{software-cloud}: Calendar Popup
 
 image::ROOT:SLN-TIBA/IZCloud-BorderCalendar-Popup.png[image,400]
+
+[#f_IZCLoud-Selecting-a-Date-Range]
 
 .{software-cloud}: Selecting a Data Range
 
