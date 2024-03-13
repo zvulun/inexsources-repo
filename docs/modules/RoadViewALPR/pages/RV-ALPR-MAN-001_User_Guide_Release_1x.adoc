@@ -651,18 +651,14 @@ the client.
 
 * *Event/Images Timeout* (ms) - If an Event or image message cannot be sent for this timeout period, then the event/image is put in the offline queue
 
-* *Trigger Enabled* - *_\{Max? is this correct?}_*
-When an Event is received, send a trigger with
-recognition data and images to another
+* *Trigger Enabled* - When an Event is received,
+send a trigger with recognition data to another
 {shortprodname}; the second {shortprodname}
-will create a new Event with the received data
-and images.
+will create a new Event with the received recognition data.
 
-* *Trigger Lane ID* - *_\{Max: what is this? The
-Lane from which Events will be used to send data
-and images to a second {software-protocol} ?
-And how is this different from Lane ID at the end
-of this parameter group section?}_*
+* *Trigger Lane ID* - The
+Lane ID to which triggers will be sent when the
+Trigger Enabled parameter is enabled.
 
 * *Status Enabled* - When checked, {shortprodname}
 will send HTTP API status messages to the client.
@@ -673,7 +669,7 @@ of time, {shortprodname} stops sending
 the message, and sends it again at the next
 Keep Alive Interval.
 
-* *Lane ID -* the Lane for which Events and statuses will be sent ("All" or a specific Lane)
+* *Lane ID* - the Lane from which Events and statuses will be sent ("All" or a specific Lane)
 
 * After clicking the Save button, adding/editing an integration can take several seconds
 
@@ -688,14 +684,15 @@ Keep Alive Interval.
 
 === Passageway Combination
 
-Helps to *_\{Max: or should we say
+Helps to *_\{Andrey: has do to with IZCloude;
+should we say
 "combines", not just helps?}_*
 entry and exit of the same vehicle
 into one Event. Used for specific sites.
 
 image::./UserGuide/RV-1_15-FIG-204_Passageway_Combination.png[image,width=300]
 
-* *_\{Max: is this correct?}_* Remember to click the Save button at the end of the
+* Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
 
 [#s_Plate-Recognizer-Not-Used]
@@ -728,8 +725,7 @@ statuses will appear on the System Status tab (see <<s_System-Status-Tab>>).
 * *URL* - Illuminator's URL
 
 * *Username, Password* - Illuminator's username and
-password; *_\{Max: OK to say this - or just ask administrator?}_*
-see the manufacturer's documentation
+password; see the manufacturer's documentation
 or ask your system administrator for these
 credentials.
 
@@ -738,34 +734,34 @@ be used; acceptable range is 20-100
 
 * *Delay On/Off* (ms) - The amount of time for
 {shortprodname} to wait after receiving a
-signal from a *_\{Max: where is this
-controller - in the camera? IZIO? and
-does the INEX I/O Controller parameters need
-to be configured also?}_*
-controller *_\{Max: input?}_* before turning the illuminator
-ON or OFF. (Controller *_\{Max: input?}_* signal high *_\{Mex:
-but see Signal paremater - can this be changed?}_*  = turn ON,
-controller signal low = turn OFF.)
+signal from an {compnameshort} I/O Controller ({hw-iocontroller})
+before turning the illuminator
+ON or OFF (see <<s_INEX-I-O-Controller>>).
+Controller signal output can be configured
+to turn the illuminator ON or OFF, according to
+the signal received from the controller; see the
+Signal parameter in this section.
 
 * *IP* - IP address of the controller
 
-* *Input* - The number of the controller *_\{Max: input?
-output?}_* {shortprodname} is polling.
+* *Input* - The number of the controller output that {shortprodname}
+is polling.
 
-* *Signal* - *_\{Max: signal level of controller defined
-to turn the illuminato ON?}_*
+* *Signal* - The output signal level of the controller
+defined to turn the illuminator ON.
 
-** +++<u>+++Disabled+++</u>+++ - *_\{Max?}_*
+** +++<u>+++Disabled+++</u>+++ - {shortprodname} does not use the signal to affect
+the illuminator
 
-** +++<u>+++High+++</u>+++ - *_\{Max?}_*
+** +++<u>+++High+++</u>+++ - A high output turns the illuminator ON
 
-** +++<u>+++Low+++</u>+++ - *_\{Max?}_*
+** +++<u>+++Low+++</u>+++ - A low output turns the illuminator ON
 
 * Click the Add button to add the illuminator to the list
 
 * Click the Delete button to remove the illuminator from the list
 
-* *_\{Max: is this correct?}_* Remember to click the Save button at the end of the
+* Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
 
 [#s_AMANO-Integration]
@@ -857,15 +853,15 @@ image::./UserGuide/RV-1_15-FIG-206_ZAP_Integration.png[image,width=393]
 ** *Ports* - Each Lane configured in {shortprodname}
 will automatically have its own row in the table.
 
-*** +++<u>+++Port+++</u>+++ - *_\{Max: should user
-edit this - how is this field populated?}_*
-Each Lane should have a different port number.
+*** +++<u>+++Port+++</u>+++ - Each Lane should have
+a different port number. This field is automatically
+populated when a new Lane is added *_\{zvulun: xref to
+Lanes}_*, but can be edited.
 
 *** +++<u>+++Report As+++</u>+++ - How a {software-protocol}
-disconnection is reported *_\{Max: From ZAP? to ZAP?}_* in the {software-protocol}
-status message *_\{Max: how can a status message
-can be received from ZAP if it is offline as shown
-in the RV system status page?}_*
+disconnection is reported (via the {software-protocol}
+protocol) in the {software-protocol}
+status message (Information, Warning or Critical)
 
 *** +++<u>+++Enable Auto Self-Triggering+++</u>+++ -
 (Requires Offline to be Enabled in the ZAP section)
@@ -892,10 +888,8 @@ the latest version. The connected clients must use the same version.
 
 ** *Keep Time (seconds)* - how long a Capture message is to be left in memory before it will be deleted (if a Keep message is not received)
 
-** *Send One LP* - *_\{Max: please recheck this}_* if both the OV and LPR cameras are set
-up to do LPR recognition, {shortprodname} will have
-two license plate recognitions. Check this box to
-only send one of them *_\{Max: images?}_* to {software-protocol}.
+** *Send One LP* - if LPR results are found from multiple images
+of the same Event, {shortprodname} will only send one of them via the {software-protocol} protocol.
 
 ** *Images Selection* - see <<s_ZAP-Images-Selection>>
 
@@ -919,10 +913,10 @@ only send one of them *_\{Max: images?}_* to {software-protocol}.
  +
 If you want {shortprodname} to work with {software-server}, {shortprodname} can only be working as a {software-protocol} Client. In this mode, the {shortprodname} {software-protocol} Client port must match the {software-server} {software-protocol} port (see the {software-server} documentation - see <<s_Related-Documents>>)
 
-*_\{Max: other than the IP, can we simply use
+*_\{ZVulun: other than the IP, can we simply use
 most of the same field explanations as
 as in the ZAP Server - but some are different
-for the client?}_*
+for the client? YES}_*
 
 ** *IP* - The IP address of the {software-protocol} Server (to which {shortprodname} acting as a client should connect)
 
@@ -946,11 +940,11 @@ for the client?}_*
 
 === {software-protocol} Integration - Images Selection
 
+*_\{Max: we need to go over this section again.}_*
+
 When an Event is generated in
-triggered or non-triggered mWodes, the system
-sends a set of images for that Event. *_\{Max:
-how is this done per protocol - is this correct?}_* The images sent
-can be configured per protocol (such as ZAP and/or HTTP).
+triggered or non-triggered modes, the system
+sends a set of images for that Event.
 
 The system can generate two types of Events:
 
@@ -979,30 +973,34 @@ of the license plate
 
 * LPR Only - Full LPR image where plate is visible, with
 the highest confidence level among all LPR images taken;
-coordinates are *_\{Max: what does this at the bottom mean}_* at the bottom. +
+the license plate coordinates are placed in the image at
+near the bottom of the frame. +
 {empty} +
 If there is no LPR image with a visible license plate,
 but there is an OV image with a license plate,
-send one OV image according to the *_\{Max: which
-"same rules"? as for LPR Only?}_* same rules as for LPR
+send one OV image with the license plate coordinates
+placed in the image near the bottom of the frame
 
 * 1 LPR and 1 LPR ROI - Same as "LPR Only", plus
-a license plate ROI with the highest confidence level. +
+a license plate ROI from the LPR image with the
+highest confidence level. +
 {empty} +
 If there is no LPR image with a visible license plate,
 but there is an OV image with a license plate,
-send one OV image and an OV ROI according to the *_\{Max: which
-"same rules"? as for LPR Only?}_* same rules as for LPR
+send one OV image and an OV ROI from the OV image according
+to the same rules as for "LPR Only".
 
-* OV Only - Full OV image where plate is visible,
-with the highest confidence level among all OV images
-taken; coordinates are *_\{Max: what does this at the
-bottom mean}_* at the bottom. +
+* OV Only - Full OV image where plate is visible, with
+the highest confidence level among all OV images taken;
+the license plate coordinates are placed in the image at
+near the bottom of the frame. +
 {empty} +
 If there is no OV image with a visible license plate,
 but there is an LPR image with a license plate,
-send one LPR image according to the *_\{Max: which
-"same rules"? as for OV Only?}_* same rules as for OV
+send one LPR image with the license plate coordinates
+placed in the image near the bottom of the frame
+
+
 
 * 1 OV and 1 OV ROI - Same as "OV Only", plus
 a license plate ROI with the highest confidence level. +
