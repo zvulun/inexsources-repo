@@ -1288,7 +1288,7 @@ Columns/Filters:
 
 * *TimeStamp*
 ** Click in the text box to display a calendar
-popup.
+popup (see <<f_IZCLoud-Calendar-Popup>>).
 ** Click once to select a start date
 ** Click again to select an end date
 (even if the same date)
@@ -1296,6 +1296,8 @@ popup.
 will be selected. To clear the filter,
 clear the checkbox. +
 +
+[#f_IZCLoud-Calendar-Popup]
+
 .{software-cloud}: Calendar Popup
 
 image::ROOT:SLN-TIBA/IZCloud-BorderCalendar-Popup.png[image,400]
