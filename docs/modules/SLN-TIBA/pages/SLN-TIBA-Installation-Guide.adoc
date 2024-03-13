@@ -215,20 +215,17 @@ For 4 cameras, use a 240 W supply (IZPWR240-48)
 
 == Use {software-discovery} and Allocate IP Addresses
 
-. Allocate 3 consecutive IP addresses for
-the onboard processor and the
-LPR and OV cameras (sensors).
-For example: +
+The factory default IP addresses of the onboard
+processor and the LPR and OV cameras
+are on the sticker on the Camera System, typically as
+follows: +
 * Processor - {ip-default-IZA-DPU} +
 * LPR Camera - {ip-default-IZA-LPR} +
 * OV Camera -  {ip-default-IZA-OV} +
 
-. Use {software-discovery} to find the
-onboard processor and LPR/OV cameras, and to
-change their IP addresses to the ones
-you allocated.
-
-<<<
+If needed, use {software-discovery} to change the IP addresses
+to others you have allocated in your network. The
+addresses should be consecutive.
 
 include::ROOT:partial$IZDiscovery/p-IZDISCOVERY-To-Include.adoc[leveloffset=+1]
 
