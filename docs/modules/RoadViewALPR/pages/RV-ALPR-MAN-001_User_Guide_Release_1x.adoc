@@ -684,13 +684,26 @@ Keep Alive Interval.
 
 === Passageway Combination
 
-Helps to *_\{Andrey: has do to with IZCloude;
-should we say
-"combines", not just helps?}_*
-entry and exit of the same vehicle
-into one Event. Used for specific sites.
-
 image::./UserGuide/RV-1_15-FIG-204_Passageway_Combination.png[image,width=300]
+
+This feature is typically used when entry and exit cameras have
+a direct integration with a 3rd party system.
+
+[IMPORTANT]
+==============================
+This feature can only be enabled on the
++++<u>+++exit+++</u>+++ camera.
+==============================
+
+The LPR entry read is sent to a server connected
+via our standard HTTP API (usually a 3rd party server).
+
+Upon exit, the LPR exit read is compared with all
+reads stored in the server that have
+not yet exited. If the match is close enough, then the camera
+reports the LPR +++<u>+++entry+++</u>+++ read via HTTP API to
+the 3rd party's integration system. This enables the 3rd party
+system to create more accurate entry/exit transactions.
 
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
@@ -704,6 +717,10 @@ Not used; do not enable
 [#s_IZCloud-Integration]
 
 === {software-cloud} Integration
+
+*_\{Max: FYI, the name of the device is a Wiegand Converter,
+not Controller as is shown in the GUI; I got answers from
+Andrey on how to fix the IZCloud integration document}_*
 
 See the {software-cloud} document (see <<s_Related-Documents>>).
 
