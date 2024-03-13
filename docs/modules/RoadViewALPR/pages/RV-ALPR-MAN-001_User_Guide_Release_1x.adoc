@@ -734,7 +734,7 @@ be used; acceptable range is 20-100
 
 * *Delay On/Off* (ms) - The amount of time for
 {shortprodname} to wait after receiving a
-signal from an {compnameshort} I/O Controller ({hw-iocontroller})
+signal from an {compname-short} I/O Controller ({hw-iocontroller})
 before turning the illuminator
 ON or OFF (see <<s_INEX-I-O-Controller>>).
 Controller signal output can be configured
