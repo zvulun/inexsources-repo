@@ -446,7 +446,7 @@ at the expected distance and height.
 
 . Type in the IP address of the {software-ALPR} computer.
 For example: +
-http://192.168.5.100/[http://192.168.5.100/]
+{ip-default-IZA-DPU}
 
 . You will see the login screen. Enter the default username
 and password (root, root):
@@ -764,7 +764,7 @@ in the overall ALPR system
 ** *URL* - HTTP URL:
 
 *** HTTP URL example: +
-http:// <camera IP address>
+\http://<camera IP address>
 
 ** *Type* - Type of camera (LPR or View)
 
@@ -820,7 +820,7 @@ it is not required to define it here.
 
 ** For {docproductname} Cloud, the URL of the
 {docproductname} server. For example: +
-https://yoursite.sp.tibaparking.net/ +
+\https://yoursite.sp.tibaparking.net/ +
 +
 [IMPORTANT]
 
@@ -833,7 +833,7 @@ DO NOT enter the addition for the full path (/LprData/LPR/LPRevent)
 ** For On Prem, the IP address of the
 {docproductname3} server and Services Hosting port
 as defined in the {docproductname} LPR settings. For example (see <<f_TIBA_LPR_Settings>>): +
-https://31.154.177.6:29811/ +
+\https://31.154.177.6:29811/ +
 +
 [IMPORTANT]
 
