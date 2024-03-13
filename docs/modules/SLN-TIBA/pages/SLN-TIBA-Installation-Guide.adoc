@@ -219,9 +219,7 @@ The factory default IP addresses of the onboard
 processor and the LPR and OV cameras
 are on the sticker on the Camera System, typically as
 follows: Processor ({ip-default-IZA-DPU}), LPR Camera ({ip-default-IZA-LPR})
-OV Camera ({ip-default-IZA-OV}).
-
-If needed, use {software-discovery} to change the IP addresses
+OV Camera ({ip-default-IZA-OV}). If needed, use {software-discovery} to change the IP addresses
 to others you have allocated in your network. The
 addresses should be consecutive.
 
