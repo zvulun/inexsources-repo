@@ -1246,8 +1246,6 @@ similar LPR reads from the same lane is less than or equal to the Skip Lev Dista
 then the new Event will be skipped. (See <<s_Detector-Configuration>> for a more detailed explanation
 of Levenshtein distance.)
 
-+++<div class="pagebreak"> </div>+++
-
 [#s_Trigger-Offset]
 
 === Trigger Offset
@@ -1265,6 +1263,8 @@ When Trigger Offset is enabled, the following parameter(s) appear:
 * *Offset* (in milliseconds) - See <<s_Trigger-Sources-and-Trigger-Modes-Overview>>
 
 The trigger command may arrive at a different time than actual trigger's (physical) arrival time (see <<f_Trigger-Sources-and-Sequence>>). For example, there is often a delay between the time a vehicle passes over an inductive loop, and the time the loop controller generates a pulse. This latency can be compensated for by an "offset".
+
+<<<
 
 [#s_Detector-Configuration]
 
