@@ -413,6 +413,8 @@ Each type of Trigger Operational Mode has its own advantages:
 
 * *NonTriggered types* do not require any external triggering hardware (such as inductive loops). However, they are less accurate.
 
+<<<
+
 [#s_Settings-Tab]
 
 == Settings Tab
