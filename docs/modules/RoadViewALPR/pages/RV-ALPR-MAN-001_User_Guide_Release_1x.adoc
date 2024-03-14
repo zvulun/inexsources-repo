@@ -286,7 +286,7 @@ image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 .Change Password (Multi-line Menu)
 
-image::./UserGuide/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=100]
+image::./UserGuide/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=80]
 
 * Enter the new password and re-type it
 
@@ -336,7 +336,7 @@ a password (see <<f_Change-Password-Dialog>>)
 
 .Logout (Multi-line Menu)
 
-image::./UserGuide/RV-1_15-FIG-020a_Logging_Out.png[image,width=100]
+image::./UserGuide/RV-1_15-FIG-020a_Logging_Out.png[image,width=80]
 
 +++<div class="pagebreak"> </div>+++
 
@@ -1627,7 +1627,7 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
 .Configure Journal (Multi-line Menu)
 
-image::./UserGuide/RV-1_15-FIG-021a_ConfigureJournal.png[image,width=100]
+image::./UserGuide/RV-1_15-FIG-021a_ConfigureJournal.png[image,width=80]
 
 *** Select the additional columns to display, such as: +++<u>+++State+++</u>+++ (state displayed on plate), +++<u>+++State Confidence+++</u>+++ (confidence that the state has been recognized accurately), +++<u>+++Class+++</u>+++ (vehicle class, such as car or truck), +++<u>+++Class Confidence+++</u>+++ (confidence that the class has been recognized accurately) and +++<u>+++Direction+++</u>+++ (direction vehicle was traveling - forward or backward - according to the direction arrow configured in the Calibration tab - see <<s_Calibration-Tab>>). (These additional columns will also appear on the Search tab - see <<s_Search-Tab>>.)
 
