@@ -845,6 +845,11 @@ When Monitoring Integration ({software-monitoring} Integration) is enabled, the 
 
 === {software-protocol} Integration
 
+*_\{Zvulun: check capitalization of start of all bullets - cap or no cap}_*
+
+*_\{Zvulun: change the first two numbers of the IP addresses
+in the ZAP Server and ZAP client to NOT match the INEX ones}_*
+
 [#f_ZAP-Integration-Section]
 
 .{software-protocol} Integration Section
@@ -859,6 +864,8 @@ image::./UserGuide/RV-1_15-FIG-206_ZAP_Integration.png[image,width=393]
 
 {shortprodname} can send Events via HTTP, and act as both a {software-protocol} Server and {software-protocol} Client - all simultaneously.
 
+Remember to click the Save button under the Detection Configuration section after changing these parameters.
+
 ========================================
 
 * *{software-protocol} Server* - Check the box to have {shortprodname} act as a {software-protocol} Server, to which {software-protocol} Clients can connect (see the {software-protocol} Protocol document for details):
@@ -868,8 +875,9 @@ will automatically have its own row in the table.
 
 *** +++<u>+++Port+++</u>+++ - Each Lane should have
 a different port number. This field is automatically
-populated when a new Lane is added *_\{zvulun: xref to
-Lanes}_*, but can be edited.
+populated when a new Lane is added (see <<s_Lanes>>), but can be edited.
+These are the TCP ports that {shortprodname} is listening
+on for connection from a 3rd party application.
 
 *** +++<u>+++Report As+++</u>+++ - How a {software-protocol}
 disconnection is reported (via the {software-protocol}
@@ -926,26 +934,23 @@ of the same Event, {shortprodname} will only send one of them via the {software-
  +
 If you want {shortprodname} to work with {software-server}, {shortprodname} can only be working as a {software-protocol} Client. In this mode, the {shortprodname} {software-protocol} Client port must match the {software-server} {software-protocol} port (see the {software-server} documentation - see <<s_Related-Documents>>)
 
-*_\{ZVulun: other than the IP, can we simply use
-most of the same field explanations as
-as in the ZAP Server - but some are different
-for the client? YES}_*
-
 ** *IP* - The IP address of the {software-protocol} Server (to which {shortprodname} acting as a client should connect)
 
-** *Port* - The port number of the {software-protocol} Server
+** *Port* - The TCP port number of the 3rd party application to which
+{shortprodname} will connect.
 
-** *{software-protocol} Version* - {software-protocol} communication protocol version. It is recommended to use version 4.4. The server being connected to must use the same version.
+** *{software-protocol} Version* - {software-protocol} communication protocol
+version. It is recommended to use the latest version. The 3rd party
+application being connected to must use the same version.
 
-** *Confidence Filter* - the confidence level below which Events are not sent
+** *Confidence Filter* - the confidence level below which Events are not
+sent
 
 ** *Keep Time (seconds)* - how long a Capture message is to be left in memory before it will be deleted (if a Keep message is not received)
 
 ** *Offline Enabled* - check this box to enable the {software-protocol} offline queue
 
-** *FTP Enabled (for {software-protocol} Client) -* when {shortprodname} is connected to a {software-protocol} server, images can be sent to the server via FTP if this checkbox is checked. (See the FTP Server items for the definition of the additional FTP parameters.)
-
-* *Remember to click the Save button under the Detection Configuration section after changing these parameters.*
+** *FTP Enabled (for {software-protocol} Client)* - when {shortprodname} is connected to a {software-protocol} server, images can be sent to the server via FTP if this checkbox is checked. (See the FTP Server items for the definition of the additional FTP parameters.)
 
 +++<div class="pagebreak"> </div>+++
 
@@ -1347,7 +1352,8 @@ to send and store plate patch images after recognition is performed
 
 * *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
 
-* *Include all LPR results* - *_\{Max: what is this?}_*
+* *Include all LPR results* - include all plate reads in the Event (not
+just the ones with the best confidence)
 
 * *Image Resize* - when enabled, and the Event confidence is equal or higher than the Resize Confidence parameter, then each LPR and OV image is resized according to the Image Width (and the height is resized proportionally).
 
@@ -1464,15 +1470,22 @@ be automatically assigned the word "Lane" plus the Lane ID.
 ** +++<u>+++Rear+++</u>+++ - The camera in this Lane is capturing images from the rear of vehicles
 
 * *Passageway (for specific sites)* - Select one of the following options
-(see <<s_Passageway-Combination>>): *_\{Max: what are these?}_*
+(see <<s_Passageway-Combination>>):
 
-** +++<u>+++Unknown+++</u>+++ - *_\{Max?}_*
+** +++<u>+++Unknown+++</u>+++ - It is unknown if the camera in this Lane
+is capturing entering or exiting vehicles
 
-** +++<u>+++Entry+++</u>+++ - *_\{Max?}_*
+** +++<u>+++Entry+++</u>+++ - The camera in this Lane is capturing images from
+vehicles entering
 
-** +++<u>+++Exit+++</u>+++ - *_\{Max?}_*
+** +++<u>+++Exit+++</u>+++ - The camera in this Lane is capturing images from
+vehicles exiting
 
-* *Ignore Opposite Direction* - if enabled, then all Events for vehicles moving in the direction opposite to the direction arrow in the Calibration tab will be ignored (see <<s_Calibration-Tab>>). Note that you can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>).
+* *Ignore Opposite Direction* - if enabled, then all Events for vehicles
+moving in the direction opposite to the direction arrow in the Calibration
+tab will be ignored (see <<s_Calibration-Tab>>). Note that you can add
+a Direction column to the Live and Search tabs using the multi-line menu at the upper
+right of the screen (see <<s_Live-Journal-Tab>>).
 
 +++<div class="pagebreak"> </div>+++
 
@@ -1550,16 +1563,25 @@ rtsp://<camera IP address>/cam0_0
 *** HTTP URL example: +
 \http://<camera IP address>
 
-** *Type* - Type of camera (LPR, View or DriverFace);
-*_\{Max: is this still true?}_* used for integration with {software-server}
-*_\{Max: Do I  need to ask Artiom or Alex Bulychev or Nikolay for further
-details?}_*
-*_\{Zvulun: where to mention that pre- and post- frames of the driver face
-camera images are also saved with the Event}_*
+** *Type* - Type of camera (LPR, View or DriverFace) +
++
+[IMPORTANT]
+============================
 
-** *Trigger Pre* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++<u>+++before+++</u>+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>).
+The Trigger Pre and Trigger Post parameters cannot both be zero.
 
-** *Trigger Post* (used in Triggered mode types only) - Number of frames to be included in the set of frames used to build an Event - +++<u>+++after+++</u>+++ the trigger occurs (see <<f_Trigger-Sources-and-Sequence>>)
+============================
+
+
+** *Trigger Pre* (used in Triggered mode types only) - Number of frames
+to be included in the set of frames used to build an Event -
++++<u>+++before+++</u>+++ the trigger occurs
+(see <<f_Trigger-Sources-and-Sequence>>).
+
+** *Trigger Post* (used in Triggered mode types only) -
+Number of frames to be included in the set of frames used to build an
+Event - +++<u>+++after+++</u>+++ the trigger occurs
+(see <<f_Trigger-Sources-and-Sequence>>)
 
 +++<div class="pagebreak"> </div>+++
 
@@ -1651,25 +1673,8 @@ large image pane to indicate the mode.
 +++<div class="pagebreak"> </div>+++
 
 * The thumbnail images below the
-larger image pane display the overview, LPR
-and plate patch images from each camera.
-*_\{Max: which plate image is from which camera?}_*
-+
-[NOTE]
-
-========================================
-
-If both cameras in a Camera System were set
-to view the same lane, but one of the
-cameras (usually the color Overview camera)
-failed to capture the license plate properly,
-you will see 3 thumbnails instead of 4.
-*_\{Max: or should we say only the LPR
-thumbnails - and only the LPR's plate image?}_*
-
-If you are using a camera with one sensor (such as the IZ600F), you will see 2 thumbnails - one for the LPR/OV image, and one for the plate patch.
-
-========================================
+larger image pane display the overview (first row), LPR (second row)
+and plate patch (third row) images from each camera.
 
 ** (For triggered modes) Images with a blue
 border are pre-trigger frames (see <<f_Add-Edit-Camera-Dialog>>)
@@ -1860,14 +1865,20 @@ As you adjust the zoom and focus, you may need to reposition the camera in order
 
 ========================================
 
-. *Direction (red arrow on video):* *_\{Max:
-I have a note for future use that says as follows;
-has this been implemented yet?:
-TEXT FOR FUTURE: This Direction is used in
-NonTriggered mode to provide more accurate
-video-based triggering.}_* drag the head of the arrow around to point to the angle at which you expect vehicles to be moving**.**
-(The vehicle's direction is also sent to the {software-cloud} as part of an Event.) You can add a Direction column to the Live tab using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>). +
-You can set the "Ignore Opposite Direction" parameter in the Lanes section to ignore all Events for vehicles moving in the direction opposite to the direction arrow in the Calibration tab (see <<s_Lanes>>).
+. *Direction (red arrow on video):*
+//I have a note for future use that says as follows;
+//has this been implemented yet?:
+//TEXT FOR FUTURE: This Direction is used in
+//NonTriggered mode to provide more accurate
+//video-based triggering.}
+Drag the head of the arrow around to point
+to the angle at which you expect vehicles to be moving**.**
+(The vehicle's direction is also sent to the {software-cloud} as part
+of an Event.) You can add a Direction column to the Live and Search tabs
+using the multi-line menu at the upper right of the screen (see <<s_Live-Journal-Tab>>). +
+You can set the "Ignore Opposite Direction" parameter in the Lanes section
+to ignore all Events for vehicles moving in the direction opposite to the
+direction arrow (see <<s_Lanes>>).
 
 . When you have finished, click the *Save* button. Wait several seconds for the display to refresh automatically, which indicates that the {shortprodname} recognition software is running again with the updated parameters.
 
@@ -1922,7 +1933,8 @@ This section provides the same information as in the upper right corner of the s
 === System Info Tab: Illuminator Status Section
 
 When enabled, illuminator status items are displayed
-on the System Status tab (see <<s_System-Status-Tab>>).
+on the System Status tab (see <<s_System-Status-Tab>>), and these status
+items are sent via *_\{zvulun: put in attribute for ZAP}_* .
 
 [#s_System-Info-Tab-Night-Mode-Section-for-Specific-Camera-Models-Only]
 
