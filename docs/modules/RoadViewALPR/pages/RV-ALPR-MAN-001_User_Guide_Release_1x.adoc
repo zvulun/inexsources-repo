@@ -1524,9 +1524,7 @@ If you add a camera, or edit a camera's parameters and click the Save button in 
 
 ========================================
 
-<<<
-
-* *Add Camera* (button at end of Cameras section):
+*Add Camera* (button at end of Cameras section):
 +
 [#f_Add-Edit-Camera-Dialog]
 
@@ -1534,7 +1532,9 @@ If you add a camera, or edit a camera's parameters and click the Save button in 
 
 image::./UserGuide/RV-1_15-FIG-216_EditCamera.png[image,width=230,height=272]
 
-** *Lane ID* - The identification number of the lane being captured by the camera(s). Select a Lane number you defined (see <<s_Lanes>>). This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
+<<<
+
+* *Lane ID* - The identification number of the lane being captured by the camera(s). Select a Lane number you defined (see <<s_Lanes>>). This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
 +
 [NOTE]
 
@@ -1548,19 +1548,19 @@ You could also position cameras to be in different positions (front/rear as in a
 
 ========================================
 
-** *Camera ID* - For internal use; should be unique in the overall IZ ALPR system
+* *Camera ID* - For internal use; should be unique in the overall IZ ALPR system
 
-** *Name* - Camera name for internal use; should be unique in the overall IZ ALPR system
+* *Name* - Camera name for internal use; should be unique in the overall IZ ALPR system
 
-** *URL* - RTSP or HTTP URL:
+* *URL* - RTSP or HTTP URL:
 
-*** RTSP stream URL example: +
+** RTSP stream URL example: +
 rtsp://<camera IP address>/cam0_0
 
-*** HTTP URL example: +
+** HTTP URL example: +
 \http://<camera IP address>
 
-** *Type* - Type of camera (LPR, View or DriverFace) +
+* *Type* - Type of camera (LPR, View or DriverFace) +
 +
 [IMPORTANT]
 ============================
@@ -1570,12 +1570,12 @@ The Trigger Pre and Trigger Post parameters cannot both be zero.
 ============================
 
 
-** *Trigger Pre* (used in Triggered mode types only) - Number of frames
+* *Trigger Pre* (used in Triggered mode types only) - Number of frames
 to be included in the set of frames used to build an Event -
 +++<u>+++before+++</u>+++ the trigger occurs
 (see <<f_Trigger-Sources-and-Sequence>>).
 
-** *Trigger Post* (used in Triggered mode types only) -
+* *Trigger Post* (used in Triggered mode types only) -
 Number of frames to be included in the set of frames used to build an
 Event - +++<u>+++after+++</u>+++ the trigger occurs
 (see <<f_Trigger-Sources-and-Sequence>>)
