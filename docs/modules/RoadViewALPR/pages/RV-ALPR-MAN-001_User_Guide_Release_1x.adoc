@@ -1515,7 +1515,7 @@ If you add a camera, or edit a camera's parameters and click the Save button in 
 ========================================
 
 * *Add Camera* (button at end of Cameras section):
-*_\{Zvulun need to change URL in screen shot to new
+*_\{Zvulun need to change URL in screen shot here and in cameras section to new
 standard for LPR camera}_*
 +
 [#f_Add-Edit-Camera-Dialog]
