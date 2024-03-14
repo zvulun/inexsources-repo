@@ -676,9 +676,6 @@ Keep Alive Interval.
 
 * If you delete an entry, you will be asked to verify the deletion.
 
-+++<div class="pagebreak"> </div>+++
-
-
 [#s_Passageway-Combination]
 
 === Passageway Combination
@@ -707,6 +704,8 @@ system to create more accurate entry/exit transactions.
 
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
+
+<<<
 
 [#s_Plate-Recognizer-Not-Used]
 
