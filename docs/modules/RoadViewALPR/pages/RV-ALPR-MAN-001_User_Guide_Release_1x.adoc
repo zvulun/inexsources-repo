@@ -719,8 +719,6 @@ Not used; do not enable
 
 See the {software-cloud} document (see <<s_Related-Documents>>).
 
-<<<
-
 [#s_Raytec-LED-Illuminators]
 
 === {illum-3rd-party} LED Illuminators
@@ -778,6 +776,8 @@ the illuminator
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
 
+<<<
+
 [#s_AMANO-Integration]
 
 === AMANO Integration
@@ -795,8 +795,6 @@ See the TIBA document (see <<s_Related-Documents>>).
 === Designa Integration
 
 See separate document.
-
-<<<
 
 [#s_Offline-Queue]
 
