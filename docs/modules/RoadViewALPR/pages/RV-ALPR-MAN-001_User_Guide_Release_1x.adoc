@@ -1525,7 +1525,7 @@ If you add a camera, or edit a camera's parameters and click the Save button in 
 ========================================
 
 *Add Camera* (button at end of Cameras section):
-+
+
 [#f_Add-Edit-Camera-Dialog]
 
 .Add/Edit Camera Dialog
@@ -1667,8 +1667,6 @@ large image pane to indicate the mode.
 
 * The text below the Pause/Run controls displays a summary of the Event's information.
 
-+++<div class="pagebreak"> </div>+++
-
 * The thumbnail images below the
 larger image pane display the overview (first row), LPR (second row)
 and plate patch (third row) images from each camera.
@@ -1682,6 +1680,8 @@ information for each camera or confidence
 for the plate patch images.
 ** Click on a thumbnail to display
 it in the larger image pane.
+
+<<<
 
 * Zoom in on an area of interest in the large image (requires a mouse with a wheel):
 
