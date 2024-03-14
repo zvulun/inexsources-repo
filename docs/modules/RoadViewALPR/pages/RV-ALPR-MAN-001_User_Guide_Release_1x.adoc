@@ -1796,6 +1796,8 @@ you must enable its display on the System Info tab (see <<s_System-Info-Tab>>).
 
 ============================
 
+<<<
+
 [#s_Calibration-Tab]
 
 == Calibration Tab
