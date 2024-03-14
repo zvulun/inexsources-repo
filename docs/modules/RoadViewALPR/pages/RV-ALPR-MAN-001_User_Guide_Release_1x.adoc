@@ -718,10 +718,6 @@ Not used; do not enable
 
 === {software-cloud} Integration
 
-*_\{Max: FYI, the name of the device is a Wiegand Converter,
-not Controller as is shown in the GUI; I got answers from
-Andrey on how to fix the IZCloud integration document}_*
-
 See the {software-cloud} document (see <<s_Related-Documents>>).
 
 [#s_Raytec-LED-Illuminators]
@@ -957,8 +953,6 @@ for the client? YES}_*
 
 === {software-protocol} Integration - Images Selection
 
-*_\{Max: we need to go over this section again.}_*
-
 When an Event is generated in
 triggered or non-triggered modes, the system
 sends a set of images for that Event.
@@ -988,82 +982,98 @@ of the license plate
 
 ==== License Plate Found
 
-* LPR Only - Full LPR image where plate is visible, with
-the highest confidence level among all LPR images taken;
-the license plate coordinates are placed in the image at
-near the bottom of the frame. +
+* LPR Only - (Case 1) A full LPR image where plate is visible, selected
+from a range of the highest recognition confidence levels, in which
+the license plate coordinates are closest to the bottom of the frame.
++
+{empty} +
+(Case 2) If there is no LPR image with a visible license plate,
+but there is an OV image with a license plate,
+send one OV image using the same rules as for the LPR image in
+case 1 for this mode.
+
+* 1 LPR and 1 LPR ROI - A full LPR image where plate is visible,
+selected from a range of the highest recognition confidence levels,
+in which the license plate coordinates are closest to the bottom of
+the frame - plus a license plate patch image from an LPR frame with
+the highest confidence level. +
 {empty} +
 If there is no LPR image with a visible license plate,
-but there is an OV image with a license plate,
-send one OV image with the license plate coordinates
-placed in the image near the bottom of the frame
+but there is an OV image with a license plate, send
+a full OV image where the plate is visible,
+selected from a range of the highest recognition confidence levels,
+in which the license plate coordinates are closest to the bottom of
+the frame - plus a license plate patch image from an OV frame with
+the highest confidence level.
 
-* 1 LPR and 1 LPR ROI - Same as "LPR Only", plus
-a license plate ROI from the LPR image with the
-highest confidence level. +
+* OV Only - (Case 1) A full OV image where plate is visible, selected
+from a range of the highest recognition confidence levels, in which
+the license plate coordinates are closest to the bottom of the frame. +
 {empty} +
-If there is no LPR image with a visible license plate,
-but there is an OV image with a license plate,
-send one OV image and an OV ROI from the OV image according
-to the same rules as for "LPR Only".
+(Case 2) If there is no OV image with a visible license plate,
+but there is an LPR image with a license plate,
+send one LPR image using the same rules as for the OV image in case
+1 for this mode.
 
-* OV Only - Full OV image where plate is visible, with
-the highest confidence level among all OV images taken;
-the license plate coordinates are placed in the image at
-near the bottom of the frame. +
+* 1 OV and 1 OV ROI - A full OV image where plate is visible,
+selected from a range of the highest recognition confidence levels,
+in which the license plate coordinates are closest to the bottom of
+the frame - plus a license plate patch image from an OV frame with
+the highest confidence level. +
 {empty} +
 If there is no OV image with a visible license plate,
-but there is an LPR image with a license plate,
-send one LPR image with the license plate coordinates
-placed in the image near the bottom of the frame
+but there is an LPR image with a license plate, send
+a full LPR image where the plate is visible,
+selected from a range of the highest recognition confidence levels,
+in which the license plate coordinates are closest to the bottom of
+the frame - plus a license plate patch image from an LPR frame with
+the highest confidence level.
 
-
-
-* 1 OV and 1 OV ROI - Same as "OV Only", plus
-a license plate ROI with the highest confidence level. +
+* 1 Cropped OV and 1 OV ROI - Same as both cases "1 OV and 1 OV ROI", but
+the overall image will be cropped according to the Crop Width and Crop
+height parameters which appear. The license plate will appear in
+the center of the cropped image.+
 {empty} +
-If there is no OV image with a visible license plate,
-but there is an LPR image with a license plate,
-send one LPR image and an LPR ROI according to the *_\{Max: which
-"same rules"? as for LPR Only?}_* same rules as for OV
-
-* 1 Cropped OV and 1 OV ROI - Cropped (*_\{Max: where
-configured? and why would you want this?}_* configurable)
-OV image in which the license plate is visible,
-with the highest confidence level among all OV images
-taken; plus a license plate ROI with the highest
-confidence level. +
+If the Crop Height is zero, then the width of cropped image will be
+fixed, and the height of the cropped image will be the
+same as the proportion of the Crop Width to the original frame. +
+For example, if the original frame's size is 1600 x 900 pixels,
+and the Crop Height is 0 and the Crop Width is 800 (half of the original),
+then the height of the cropped images will be 450 (half of the original) +
 {empty} +
-If there is no OV image with a visible license plate,
-but there is an LPR image with a license plate,
-send one Cropped LPR image and an LPR ROI according to the *_\{Max: which
-"same rules"? as for LPR Only?}_* same rules as for OV
+If the Crop Width is zero, then the height of cropped image will be
+fixed, and the width of the cropped image will be the
+same as the proportion of the Crop Height to the original frame.
 
 * 1 OV, 1 OV ROI, 1 LPR, 1 LPR ROI - Same as
-"1 OV and 1 OV ROI", together with "1 LPR and 1 LPR ROI" +
+case 1 of "1 OV and 1 OV ROI", together with case 1 of "1 LPR and 1 LPR ROI" +
 {empty} +
-If there is no image with a visible license plate
-in LPR or OV, don't send images for OV or LPR sets.
+If there is no LPR image with a visible license plate,
+LPR images are not sent. +
+{empty} +
+If there is no OV image with a visible license plate,
+OV images are not sent.
 
 * All OV, all OV ROI, all LPR, all LPR ROI -
-Send all LPR and OV images and corresponding ROIs
+Send all LPR and OV images, even if there was no plate recognition
 
 ==== License Plate Not Found
 
 * LPR Only - Send one LPR image with a
 timestamp closest to the trigger timestamp
 
+* 1 LPR and 1 LPR ROI - Send one LPR image with a
+timestamp closest to the trigger timestamp
+
 * OV Only - Send one OV image with a
 timestamp closest to the trigger timestamp
 
-* 1 OV, 1 OV ROI, 1 LPR, 1 LPR ROI -
-Send one OV and one LPR image with a timestamp
-closest to the trigger timestamp
+* 1 OV and 1 OV ROI - Send one OV image with a
+timestamp closest to the trigger timestamp
 
-* All OV, all OV ROI, all LPR, all LPR ROI -
-*_\{Max: need to send with a timestamp closest to
-the trigger timestamp?}_* Send all LPR and OV images
+* 1 OV, 1 OV ROI, 1 LPR, 1 LPR ROI - Images are not sent
 
+* All OV, all OV ROI, all LPR, all LPR ROI - Send all LPR and all OV images
 
 [#s_Direct-Trigger]
 
@@ -1161,23 +1171,17 @@ The Journal data is stored at: /mnt/data/journal
 
 * *Cleanup Interval* - interval in milliseconds at which old Events are deleted in order to be within Max Count on Disk
 
-* *Max Count on Disk* - Maximum number of Events that can be stored on the {shortprodname} computer's disk; this parameter should be left at its default
+* *Max Count on Disk* - Maximum number of Events that can be stored
+on the {shortprodname} computer's disk; this parameter should be left at its default
 
 [NOTE]
 
 ====================
-*_\{Max: Please explain again:}_*
-Journal setting can support up to 100k events -
-default is 10,000.
+If needed, the Max Count on Disk can currently support up to 100,000 events
 
-*_\{Max - please explain - why is the number
-of events per page the symptom?}_* If there is not enough free disk space to acccomodate
-the amount events requested, the system will
-delete old events and store new ones only.
-Symptom is the max event shown on upper right
-of search page in controls setting how many
-events per page to show. (see <<s_Search-Tab-Page-Controls>>)
-
+If there is not enough free disk space to accommodate the
+Max Count on Disk number of Events, the system will delete
+old Events and store new Events only.
 
 ====================
 
@@ -1190,8 +1194,7 @@ events per page to show. (see <<s_Search-Tab-Page-Controls>>)
 ==== Skip Empty Events
 
 * *Skip Empty Events* - (see <<f_Events-Post-Processing-Section-Combine-Enabled>>) When an Event does not include a plate recognition,
-it is ignored. *_\{Max: I have a note that "Skip Event" was added - did you mean
-this Skip Empty Events parameter?}_*
+it is ignored.
 
 [#s_Events-Post-Processing-Section-Combine-Enabled]
 
@@ -1233,13 +1236,12 @@ image::./UserGuide/RV-1_15-FIG-209_Events_Post_Skip.png[image,width=480,height=1
 
 * *Skip By Distance Enabled* - used for skipping Events
 
-** *Hold Timeout* - How much time between two Events for the skip
-to occur *_\{Max: is this continuous? sliding expiration? what does that mean?}_*
+** *Hold Timeout* - How much time between two Events with similar plate reads
+for the skip to occur. This timeout is renewed after the skip.
 
-** *Skip Lev Distance* - If the Levenshtein difference between *_\{Max - why are there
-more than one LPR read - from the same lane? different lanes?}_* the LPR reads
-is less than or equal to the Skip Lev Distance,
-then the Event will be skipped. (See <<s_Detector-Configuration>> for a more detailed explanation
+** *Skip Lev Distance* - If the Levenshtein difference between
+similar LPR reads from the same lane is less than or equal to the Skip Lev Distance,
+then the new Event will be skipped. (See <<s_Detector-Configuration>> for a more detailed explanation
 of Levenshtein distance.)
 
 +++<div class="pagebreak"> </div>+++
@@ -1334,13 +1336,14 @@ image::./UserGuide/image26.png[image,width=507,height=97]
 
 * *Max Levenshtein distance* - Different reads of the same plate may not be identical due to shadows, sunlight, blurred images, etc. However, we want to minimize these effects by treating slightly different reads as the same result. We allow a maximum "distance" (number of changes required to match two strings) between plate reads in an Event. If the distance is less than or equal to this parameter, then the comparison is considered to be a valid match for the Event.
 
-*_\{Max: please recheck these - the names have changed}_*
+* *LPR JPEG quality, 0-100 (0=no frame sent)* - The quality level used
+to send and store LPR images after recognition is performed
 
-* *LPR JPEG quality, 0-100 (0=no frame sent)* - The LPR image JPEG frame quality used to send images to {software-server} or a 3rd party system**_._**
+* *OV JPEG quality, 0-100 (0=no frame sent)* - The quality level used
+to send and store OV images after recognition is performed
 
-* *OV JPEG quality, 0-100 (0=no frame sent)* - The Overview image JPEG frame quality used to send images to {software-server} or a 3rd party system**_._**
-
-* *Plate JPEG quality, 0-100 (0=no frame sent)* - The plate patch image JPEG frame quality used to send images to {software-server} or a 3rd party system**_._**
+* *Plate JPEG quality, 0-100 (0=no frame sent)* - The quality level used
+to send and store plate patch images after recognition is performed
 
 * *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
 
