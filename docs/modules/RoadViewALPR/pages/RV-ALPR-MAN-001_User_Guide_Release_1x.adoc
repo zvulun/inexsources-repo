@@ -415,13 +415,6 @@ Each type of Trigger Operational Mode has its own advantages:
 
 == Settings Tab
 
-//*_\{Zvulun: if time, take an updated
-//(after restored to previous camera) screen shot
-//- and be sure to make the time zone as follows:
-//America/New_York (GMT-05:00), and set the
-//IP addresses as shown in the sections in
-//this document}_*
-
 Use the Settings tab after the first installation or reinstallation of the IZ ALPR system, or when some fundamental parameters need updating. For example, if the Camera System or DPU was moved to a different location (time zone).
 
 [#f_Settings-Tab]
@@ -846,9 +839,6 @@ When Monitoring Integration ({software-monitoring} Integration) is enabled, the 
 === {software-protocol} Integration
 
 *_\{Zvulun: check capitalization of start of all bullets - cap or no cap}_*
-
-*_\{Zvulun: change the first two numbers of the IP addresses
-in the ZAP Server and ZAP client to NOT match the INEX ones}_*
 
 [#f_ZAP-Integration-Section]
 
@@ -1497,7 +1487,7 @@ right of the screen (see <<s_Live-Journal-Tab>>).
 
 .Cameras Section
 
-image::./UserGuide/image30.png[image,width=695,height=112]
+image::./UserGuide/RV-1_15-FIG-215_Cameras.png[image,width=695,height=112]
 
 [NOTE]
 
@@ -1528,14 +1518,12 @@ If you add a camera, or edit a camera's parameters and click the Save button in 
 ========================================
 
 * *Add Camera* (button at end of Cameras section):
-*_\{Zvulun need to change URL in screen shot here and in cameras section to new
-standard for LPR camera}_*
 +
 [#f_Add-Edit-Camera-Dialog]
 
 .Add/Edit Camera Dialog
 
-image::./UserGuide/image31.png[image,width=230,height=272]
+image::./UserGuide/RV-1_15-FIG-216_EditCamera.png[image,width=230,height=272]
 
 ** *Lane ID* - The identification number of the lane being captured by the camera(s). Select a Lane number you defined (see <<s_Lanes>>). This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
 +
@@ -1934,7 +1922,7 @@ This section provides the same information as in the upper right corner of the s
 
 When enabled, illuminator status items are displayed
 on the System Status tab (see <<s_System-Status-Tab>>), and these status
-items are sent via *_\{zvulun: put in attribute for ZAP}_* .
+items are sent via {software-protocol}.
 
 [#s_System-Info-Tab-Night-Mode-Section-for-Specific-Camera-Models-Only]
 
