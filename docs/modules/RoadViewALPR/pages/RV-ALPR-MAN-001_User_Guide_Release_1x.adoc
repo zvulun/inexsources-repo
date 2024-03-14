@@ -286,7 +286,7 @@ image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 .Change Password (Multi-line Menu)
 
-image::./UserGuide/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=136,height=113]
+image::./UserGuide/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=100]
 
 * Enter the new password and re-type it
 
@@ -336,7 +336,7 @@ a password (see <<f_Change-Password-Dialog>>)
 
 .Logout (Multi-line Menu)
 
-image::./UserGuide/RV-1_15-FIG-020a_Logging_Out.png[image,width=136,height=113]
+image::./UserGuide/RV-1_15-FIG-020a_Logging_Out.png[image,width=100]
 
 +++<div class="pagebreak"> </div>+++
 
@@ -404,6 +404,8 @@ See <<s_Trigger-Sources-and-Trigger-Modes-Overview>> and <<s_Cameras>>.
 ========================================
 
 * +++<u>+++NonTriggered With Trigger+++</u>+++ - NonTriggered Events are continually created and reported by LPR video analytics. In addition, Triggered Events are created and reported when a trigger is received.
+
+<<<
 
 Each type of Trigger Operational Mode has its own advantages:
 
@@ -580,6 +582,8 @@ If you are using an IZMobileLPI system, contact {compname-short} for details on 
 
 image::./UserGuide/RV-1_15-FIG-020b_Edit_HTTP_Integration.png[image,width=300]
 
+<<<
+
 * *HTTP URL* - URL for an external system to listen on, in order to receive Events from {shortprodname} via the {compname-short} HTTP protocol (see the appropriate {compname-short} HTTP API Protocol document - see <<s_Related-Documents>>).
 +
 [NOTE]
@@ -714,6 +718,8 @@ Not used; do not enable
 
 See the {software-cloud} document (see <<s_Related-Documents>>).
 
+<<<
+
 [#s_Raytec-LED-Illuminators]
 
 === {illum-3rd-party} LED Illuminators
@@ -788,6 +794,8 @@ See the TIBA document (see <<s_Related-Documents>>).
 === Designa Integration
 
 See separate document.
+
+<<<
 
 [#s_Offline-Queue]
 
@@ -1619,7 +1627,7 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
 .Configure Journal (Multi-line Menu)
 
-image::./UserGuide/RV-1_15-FIG-021a_ConfigureJournal.png[image,width=136,height=113]
+image::./UserGuide/RV-1_15-FIG-021a_ConfigureJournal.png[image,width=100]
 
 *** Select the additional columns to display, such as: +++<u>+++State+++</u>+++ (state displayed on plate), +++<u>+++State Confidence+++</u>+++ (confidence that the state has been recognized accurately), +++<u>+++Class+++</u>+++ (vehicle class, such as car or truck), +++<u>+++Class Confidence+++</u>+++ (confidence that the class has been recognized accurately) and +++<u>+++Direction+++</u>+++ (direction vehicle was traveling - forward or backward - according to the direction arrow configured in the Calibration tab - see <<s_Calibration-Tab>>). (These additional columns will also appear on the Search tab - see <<s_Search-Tab>>.)
 
