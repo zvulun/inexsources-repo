@@ -403,9 +403,9 @@ See <<s_Trigger-Sources-and-Trigger-Modes-Overview>> and <<s_Cameras>>.
 
 ========================================
 
-* +++<u>+++NonTriggered With Trigger+++</u>+++ - NonTriggered Events are continually created and reported by LPR video analytics. In addition, Triggered Events are created and reported when a trigger is received.
-
 <<<
+
+* +++<u>+++NonTriggered With Trigger+++</u>+++ - NonTriggered Events are continually created and reported by LPR video analytics. In addition, Triggered Events are created and reported when a trigger is received.
 
 Each type of Trigger Operational Mode has its own advantages:
 
