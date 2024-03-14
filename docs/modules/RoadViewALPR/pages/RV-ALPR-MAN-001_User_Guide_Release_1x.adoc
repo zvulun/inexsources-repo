@@ -1863,6 +1863,8 @@ There is a delay between a click of a zoom/focus button and when you see the eff
 As you adjust the zoom and focus, you may need to reposition the camera in order to get the image of the plate back to the desired position.
 
 ========================================
++
+<<<
 
 . *Direction (red arrow on video):*
 //I have a note for future use that says as follows;
@@ -1927,6 +1929,8 @@ This section provides the same information as in the upper right corner of the s
 
 ** Update Firmware - click this button to update the firmware using the file you chose
 
+<<<
+
 [#s_System-Info-Tab-Illuminator-Status-Section]
 
 === System Info Tab: Illuminator Status Section
@@ -1971,6 +1975,8 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 
 * *Remember to click the Save button at the end of this section after making changes.*
 
+<<<
+
 [#s_System-Info-Tab-LPR-LED]
 
 === System Info Tab: LPR LED
@@ -1987,7 +1993,7 @@ These parameters enable you to control the camera's built-in IR LEDs.
 
 * *Intensity* - light intensity in percent, where 0 is no light, and 100 is maximum light
 
-+++<div class="pagebreak"> </div>+++
+<<<
 
 [#s_Troubleshooting]
 
