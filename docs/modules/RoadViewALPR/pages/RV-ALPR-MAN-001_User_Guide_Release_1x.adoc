@@ -950,8 +950,6 @@ sent
 
 ** *FTP Enabled (for {software-protocol} Client)* - When {shortprodname} is connected to a {software-protocol} server, images can be sent to the server via FTP if this checkbox is checked. (See the FTP Server items for the definition of the additional FTP parameters.)
 
-+++<div class="pagebreak"> </div>+++
-
 [#s_ZAP-Images-Selection]
 
 === {software-protocol} Integration - Images Selection
@@ -1075,6 +1073,8 @@ timestamp closest to the trigger timestamp
 
 * *All OV, all OV ROI, all LPR, all LPR ROI* - Send all LPR and all OV images
 
+<<<
+
 [#s_Direct-Trigger]
 
 === Direct Trigger
@@ -1100,6 +1100,8 @@ The "trigger time" used can be influenced by using the rising edge or falling ed
 * +++<u>+++OnFall+++</u>+++ - A trigger is generated when the voltage level sensed on the trigger wires moves from high to low
 
 * Remember to click the Save button under the Detection Configuration section after changing these parameters.
+
+<<<
 
 [#s_INEX-I-O-Controller]
 
