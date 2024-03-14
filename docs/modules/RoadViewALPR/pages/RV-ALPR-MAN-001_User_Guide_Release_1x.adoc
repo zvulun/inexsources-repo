@@ -1524,6 +1524,8 @@ If you add a camera, or edit a camera's parameters and click the Save button in 
 
 ========================================
 
+<<<
+
 * *Add Camera* (button at end of Cameras section):
 +
 [#f_Add-Edit-Camera-Dialog]
@@ -1531,8 +1533,6 @@ If you add a camera, or edit a camera's parameters and click the Save button in 
 .Add/Edit Camera Dialog
 
 image::./UserGuide/RV-1_15-FIG-216_EditCamera.png[image,width=230,height=272]
-
-<<<
 
 ** *Lane ID* - The identification number of the lane being captured by the camera(s). Select a Lane number you defined (see <<s_Lanes>>). This number will appear associated with Events in the Live tab (see <<s_Live-Journal-Tab>>).
 +
