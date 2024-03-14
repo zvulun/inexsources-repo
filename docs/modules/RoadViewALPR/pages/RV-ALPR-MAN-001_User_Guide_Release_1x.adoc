@@ -294,7 +294,7 @@ image::./UserGuide/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=80]
 
 .Change Password Dialog
 
-image::./UserGuide/RV-1_15-FIG-021c_ChangePW_Popup.png[image,width=300]
+image::./UserGuide/RV-1_15-FIG-021c_ChangePW_Popup.png[image,width=230]
 
 === Resetting the Password
 
