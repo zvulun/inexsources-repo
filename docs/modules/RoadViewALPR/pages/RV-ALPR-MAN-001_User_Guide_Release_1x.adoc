@@ -570,7 +570,8 @@ image::./UserGuide/image14.png[image,width=698,height=49]
 
 {shortprodname} can send Events to {software-server} or 3^rd^ party systems using the {compname-short} HTTP Protocol, {compname-short} {software-protocol} Protocol or other protocols. For details about the {compname-short} HTTP protocol, see the appropriate {compname-short} HTTP API Protocol document - see <<s_Related-Documents>>.
 
-{shortprodname} can send Events via HTTP, and act as both a {software-protocol} Server and {software-protocol} Client - all simultaneously.
+{shortprodname} can send Events via HTTP, and act as
+both a {software-protocol} Server and {software-protocol} Client - all simultaneously.
 
 If you are using an IZMobileLPI system, contact {compname-short} for details on how to set the HTTP URL parameter.
 
@@ -612,16 +613,6 @@ For secure communication, https can be used in the URL. In such a case, use the 
 ========================================
 
 * *Protocol Version* - The appropriate HTTP API version to use for your application.
-+
-[NOTE]
-
-========================================
-
-In {compname-short} HTTP API version 1.5, the following items have not been implemented in {shortprodname}: +
-camera_id and camera_name in the Upload Event command (images and lpr_results blocks) +
-See the HTTP API 1.5 document.
-
-========================================
 
 * *Separated Images* - If checked, then images are sent in separate messages after the Event message; if unchecked, images and the Event are sent together in the Event message.
 
@@ -1053,7 +1044,9 @@ LPR images are not sent.
 OV images are not sent.
 
 * *All OV, all OV ROI, all LPR, all LPR ROI* -
-Send all LPR and OV images, even if there was no plate recognition
+Send all LPR and OV images, even if there was no plate
+recognition - plus all LPR and OV ROIs, if there was
+plate recognition
 
 ==== License Plate Not Found
 
@@ -1071,7 +1064,8 @@ timestamp closest to the trigger timestamp
 
 * *1 OV, 1 OV ROI, 1 LPR, 1 LPR ROI* - Images are not sent
 
-* *All OV, all OV ROI, all LPR, all LPR ROI* - Send all LPR and all OV images
+* *All OV, all OV ROI, all LPR, all LPR ROI* - Send all LPR
+and all OV images
 
 <<<
 
@@ -1087,9 +1081,15 @@ image::./UserGuide/image19.png[image,width=287,height=43]
 
 The Direct Trigger settings are used in these operational modes: Triggered, Hybrid or NonTriggered With Trigger (see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>).
 
-This parameter is used for Camera System models with external trigger input wires, such as the IZA500G. See your Camera System's Installation Guide for details.
+This parameter is used for Camera System models
+with external trigger input wires, such as the {camera-5G}.
+See your Camera System's Installation Guide for details.
 
-A loop controller can provide trigger information to {shortprodname}. You can connect dry or wet contacts to the Camera System's trigger inputs. The rise and fall of the voltage levels at these inputs sends a trigger to {shortprodname} (see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>).
+A loop controller can provide trigger information to {shortprodname}.
+You can connect dry or wet contacts to the Camera System's
+trigger inputs. The rise and fall of the voltage levels
+at these inputs sends a trigger to {shortprodname}
+(see <<s_Trigger-Sources-and-Trigger-Modes-Overview>>).
 
 The "trigger time" used can be influenced by using the rising edge or falling edge of the pulse at the inputs to the Camera System. The Direct trigger mode options are (see <<f_Trigger-Sources-and-Sequence>>):
 
@@ -1167,9 +1167,21 @@ In Server mode, advanced P2P mode support was added (available via the {hw-iocon
 
 image::./UserGuide/image21.png[image,width=458,height=129]
 
-The Journal (Local Storage) parameters determine if and how Events are stored on the local {shortprodname} computer disk (the parameters only appear if the disk is in use).
+The Journal (Local Storage) parameters determine if and how
+Events are stored on the local {shortprodname} computer disk
+(the parameters only appear if the disk is in use).
 
 The Journal data is stored at: /mnt/data/journal
+
+[NOTE]
+
+============================
+
+If the local {shortprodname} computer disk is not accessible,
+then the Journal will be stored at: +
+/home/izuser/jsoft/data/journal
+
+============================
 
 * *Cleanup Interval* - Interval in milliseconds at which old Events are deleted in order to be within Max Count on Disk
 
@@ -1518,9 +1530,13 @@ If you are using an IZMobileLPI system, contact {compname-short} for details on 
 
 ========================================
 
-If you add a camera, or edit a camera's parameters and click the Save button in this dialog (even if you did not change the URL), you may see a warning icon in the Image column. The reappearance of the image indicates that the core software has restarted, and Events will resume being captured and displayed in the Live tab, with the following changes: +
-- The Transaction ID will restart at 1 for that camera. +
-- The history of previous Events for that camera will be cleared
+If you add a camera, or edit a camera's parameters and
+click the Save button in the Camera Add/Edit dialog
+(even if you did not change the URL),
+you may see a warning icon in the Image column.
+The reappearance of the image indicates that the core software
+has restarted, and Events will resume being captured and
+displayed in the Live tab.
 
 ========================================
 
@@ -1602,7 +1618,8 @@ The Events displayed in the Live tab are being simultaneously sent via the proto
 
 You should see that Events are being generated for each vehicle passing each camera, with sufficient recognition accuracy and confidence. If not, see <<s_Troubleshooting>> for troubleshooting tips.
 
-If you return to the Live tab from another tab, the large picture returns to the LPR (black and white) camera image.
+If you return to the Live tab from another tab, the large
+picture returns to the OV (color) camera image.
 
 DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
@@ -1610,7 +1627,9 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
 * Each row includes (additional items can be added from the multi-line menu icon > Configure Journal selection - see <<s_Live-Journal-Tab>>):
 
-** +++<u>+++Transaction (Event) ID+++</u>+++. Note that each camera has its own Transaction ID sequence, so the same IDs may be used for different cameras.
+** +++<u>+++Transaction (Event) ID+++</u>+++. Note that
+each Event has a unique ID, regardless of which camera
+it came from.
 
 ** +++<u>+++Lane Name+++</u>+++ - Lane name as configured for the camera(s) viewing this lane in the Settings tab - see <<s_Lanes>>
 
