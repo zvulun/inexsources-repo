@@ -311,13 +311,15 @@ email with the *Request* code, and click Cancel.
 +
 [#f_Password-Reset-Dialog]
 
+.Request Password Reset Dialog
+
 image::./UserGuide/RV-1_15-FIG-021d_RequestPWReset_Popup.png[image,width=300]
 
 . When you get a *Reset* code back from {compname-short},
 repeat the previous steps to open the dialog again,
 enter the Reset Code in the text box, and click Next.
 
-. You will the dialog used for changing
+. You will see the dialog used for changing
 a password (see <<f_Change-Password-Dialog>>)
 
 . Enter the new password and re-type it
@@ -1805,6 +1807,8 @@ image::./UserGuide/image36.png[image,width=317,height=308]
 //remember to update this image file with the
 //latest version when the software is released
 //to production
+
+.System Status Tab
 
 image::./UserGuide/RV-1_15-FIG-205_SystemStatus.png[image,width=400]
 
