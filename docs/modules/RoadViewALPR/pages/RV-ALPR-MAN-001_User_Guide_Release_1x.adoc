@@ -1210,6 +1210,8 @@ old Events and store new Events only.
 * *Skip Empty Events* - (see <<f_Events-Post-Processing-Section-Combine-Enabled>>) When an Event does not include a plate recognition,
 it is ignored.
 
+<<<
+
 [#s_Events-Post-Processing-Section-Combine-Enabled]
 
 ==== Combine Enabled
@@ -1257,6 +1259,8 @@ for the skip to occur. This timeout is renewed after the skip.
 similar LPR reads from the same lane is less than or equal to the Skip Lev Distance,
 then the new Event will be skipped. (See <<s_Detector-Configuration>> for a more detailed explanation
 of Levenshtein distance.)
+
+<<<
 
 [#s_Trigger-Offset]
 
@@ -1625,7 +1629,10 @@ DOT (USDOT number image capture) cameras generate Events, but without LPR reads.
 
 ========================================
 
-* Each row includes (additional items can be added from the multi-line menu icon > Configure Journal selection - see <<s_Live-Journal-Tab>>):
+* Each row includes (additional items
+can be added from the multi-line menu icon
+> Configure Journal selection -
+see <<s_Live-Journal-Tab>>):
 
 ** +++<u>+++Transaction (Event) ID+++</u>+++. Note that
 each Event has a unique ID, regardless of which camera
@@ -1643,7 +1650,7 @@ it came from.
 
 *** Click on the multi-line menu icon at the upper right of the {shortprodname} screen
 
-*** Select "Configure Journal"
+*** Select "Configure Journal" (see <<f_Configure-Journal-Multi-line-Menu>>)
 +
 [#f_Configure-Journal-Multi-line-Menu]
 
