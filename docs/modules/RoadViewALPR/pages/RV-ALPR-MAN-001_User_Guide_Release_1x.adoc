@@ -1258,7 +1258,7 @@ similar LPR reads from the same lane is less than or equal to the Skip Lev Dista
 then the new Event will be skipped. (See <<s_Detector-Configuration>> for a more detailed explanation
 of Levenshtein distance.)
 
-//<<<
+<<<
 
 [#s_Trigger-Offset]
 
