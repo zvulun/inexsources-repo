@@ -1,4 +1,4 @@
-r:docproductname: IZA800GRV
+:docproductname: IZA800GRV
 :shortprodname: IZA800GRV
 :generic-camera-name: ALPR Camera System
 
