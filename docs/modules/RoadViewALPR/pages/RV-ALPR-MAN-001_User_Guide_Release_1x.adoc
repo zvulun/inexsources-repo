@@ -1210,8 +1210,6 @@ old Events and store new Events only.
 * *Skip Empty Events* - (see <<f_Events-Post-Processing-Section-Combine-Enabled>>) When an Event does not include a plate recognition,
 it is ignored.
 
-<<<
-
 [#s_Events-Post-Processing-Section-Combine-Enabled]
 
 ==== Combine Enabled
