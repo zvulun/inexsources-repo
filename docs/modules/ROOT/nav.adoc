@@ -31,7 +31,7 @@
 ** xref:SLN-DriverFaceCapture:DocList.adoc[IZA500GDFC]
 ** xref:IZ600F:DocList.adoc[IZ600F]
 ** xref:IZA800G:DocList.adoc[IZA800G]
-//*** xref:IZA800G:IZA800G-Datasheet.adoc[Datasheet]
+//*** xref:IZA800G:IZA800GRV-Datasheet.adoc[Datasheet]
 //*** xref:IZA800G:IZA800G-Quick-Start.adoc[Quick Start Guide]
 ** xref:IZA800GORT:DocList.adoc[IZA800GORT]
 ** xref:IZA800GVES:DocList.adoc[IZA800GVES]

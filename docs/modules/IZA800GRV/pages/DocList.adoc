@@ -1,4 +1,6 @@
 = IZA800GRV Documents List
 
+* xref:IZA800GRV:IZA800GRV-Datasheet.adoc[IZA800GRV Datasheet]
+
 More documents can be found at https://drive.google.com/drive/folders/1zgesaOAYT8OhdzOWyLA-efZZnc7KR53d?usp=share_link[GDriveLink, window=_blank]
 
