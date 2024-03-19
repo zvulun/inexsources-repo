@@ -30,7 +30,8 @@ ifdef::xref-type-IZIDPUG[System and]
 Data Storage
 
 .^|
-ifdef::xref-type-IZA800G,xref-type-IZA800GVES[SSD, 250 Gb]
+ifdef::xref-type-IZA800G,xref-type-IZA800GVES,xref-type-IZA800GRV[SSD, 250 Gb]
+ifdef::xref-type-IZA500G[eMMC, 12 Gb][SSD, 250 Gb]
 ifdef::xref-type-IZA500G[eMMC, 12 Gb]
 ifdef::xref-type-DFC[eMMC, 12 Gb]
 ifdef::xref-type-IZIDPUG[250 Gb]

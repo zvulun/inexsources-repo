@@ -100,7 +100,7 @@ image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
 [discrete]
 == Specifications
 
-include::ROOT:partial$/IZA800G/p-IZA800G-spec-table.adoc[IZA800G Spec table]
+include::ROOT:partial$/IZA800GRV/p-IZA800GRV-spec-table.adoc[IZA800GRV Spec table]
 
 +++<div class="pagebreak"> </div>+++
 
