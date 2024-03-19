@@ -24,7 +24,7 @@
 2.1+.^| LPR Capture Distance* +
 (for U.S.A. plates)
 
-.^a| * 13-26 ft (4-8 m)
+.^a| 13-26 ft (4-8 m)
 
 .6+.^| LPR Illumination
 .1+.^| Shutter Type
@@ -135,8 +135,8 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 2.3+.^| Accessories Included
 
 .^| Sunshade
-.^| Waterproof outdoor RJ-45 cable connector+++**+++
-.^| Waterproof outdoor M12 cable connector+++**+++
+.^| Waterproof outdoor RJ-45 cable connector
+.^| Waterproof outdoor M12 cable connector
 
 2.5+.^| Accessories Available
 
