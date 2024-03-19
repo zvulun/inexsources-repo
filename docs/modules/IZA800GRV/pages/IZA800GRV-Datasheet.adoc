@@ -38,14 +38,14 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== ALPR All-in-one AI Camera System
+== {software-ALPR} All-in-one AI Camera System
 
 [discrete]
 === Rev. F3
 //[discrete]
 //=== Datasheet
 
-image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,400,align=left]
+image:ROOT:IZA800GRV/IZA800GRV-FIG-001_FrontPage.png[Picture of Camera,400,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
@@ -72,13 +72,7 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 * [*] Integrated with {software-cloud}
 
-* [*] Dual sensor provides multiple paths to perfect ALPR reads
-
-* [*] Multi-flash technology for greater read accuracy and capture under all conditions
-
 * [*] Motorized zoom and auto-focus - the key to optimized remote tuning
-
-* [*] Anti-glare technology for all lighting environments
 
 * [*] Wide temperature range - operating from -22°F to 140°F (-30°C to 60°C)
 
@@ -184,4 +178,4 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-REV-F3-TDSHEET
+Doc. No. {shortprodname}-REV-F3-TDSHEET Ver. {docdate}
