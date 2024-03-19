@@ -102,8 +102,6 @@ image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
 
 include::ROOT:partial$/IZA800GRV/p-IZA800GRV-spec-table.adoc[IZA800GRV Spec table]
 
-+++<div class="pagebreak"> </div>+++
-
 [discrete]
 == Ordering Information
 
@@ -112,8 +110,6 @@ include::ROOT:partial$/IZA800GRV/p-IZA800GRV-spec-table.adoc[IZA800GRV Spec tabl
 |Part Number |Description
 |{shortprodname} |{software-ALPR} All-in-one AI Camera System
 |===
-
-+++<div class="pagebreak"> </div>+++
 
 [discrete]
 == Standard Package Contents
