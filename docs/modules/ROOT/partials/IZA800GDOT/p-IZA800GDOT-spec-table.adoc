@@ -1,0 +1,170 @@
+image::ROOT:IZA800GDOT/IZA800GDOT-FIG-005_CamHtDistPlusLaneCvrge.png[width=800]
+
+[table.withborders,options="header",cols="24,23,53"]
+|===
+2+.^| Item
+// {set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+// {set:cellbgcolor:#c0c0c0}
+
+.1+.^| Supported Analytics
+{set:cellbgcolor!}
+.^| USDOT Analytics
+.^| USDOT Number Recognition
+
+2+.^| Lanes Covered
+.^| Two
+
+2+.^| Max Vehicle Speed
+.^| Up to 80 mph (129 km/h)
+
+1.2+.^| Capture Distance*
+.^a| Near Lane (NL)
+.^a| 15-30 ft (4.6-9.1 m)
+.^a| Far Lane (NL)
+.^a| 25-45 ft (7.6-13.7 m)
+
+1.2+.^| Field of View (FoV) +
+NL and FL
+.^a| Horizontal (HFoV)
+.^a| 20 ft (6.1 m)
+.^a| Vertical (VFoV)
+.^a| 10 ft (3.0 m)
+
+2+.^| Recommended Camera Height
+.^| 6-10 ft (1.8-3.0 m)
+
+
+.6+.^| Near Lane (NL)/ +
+Far Lane (FL) +
+Sensors
+.1+.^| Shutter Type
+.^a| Global
+
+.1+.^| Sensor
+.^a| Sony IMX265
+
+.1+.^| Resolution
+.^a| 2 MP - 1920 (H) x 1080 (V)
+
+.1+.^| Lens
+.^a| * Near Lane (NL) Sensor - 3-11 mm; +
+Motorized Zoom and Auto-focus
+* Far Lane (FL) Sensor - 6-22 mm; +
+Motorized Zoom and Auto-focus
+
+.1+.^| Video Compression
+.^a| MJPEG, H.264, H.265
+
+.1+.^| Video Streaming
+.^a| RTSP Protocol
+
+.2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
+.^| {compname-short} HTTP API
+.^| USDOT Events are reported via the INEX HTTP API protocol. Each Event includes metadata and associated images.
+
+.^| {compname-short} Discovery
+.^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
+
+include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
+
+.4+.^| Environmental
+.^| Ingress Protection
+.^| IP67
+
+
+.^| Operating Temperature
+.^| -22°F to 140°F (-30°C to 60°C)
+
+
+.^| Storage Temperature
+.^| -22°F to 158°F (-30°C to 70°C)
+
+
+.^| Humidity
+.^| 0% - 90% RH, non-condensing
+
+.6+.^| Certifications
+.^| EMC
+.^| FCC Class B/CE
+
+
+.^| Interoperability
+.^| ONVIF compliant, Profile S
+
+
+.^| RoHS
+.^| RoHS
+
+
+.^| Impact Protection
+.^| IK10 (Vandal-proof)
+
+
+.^| Eye Safety
+.^| IEC62471 Group 1
+
+
+.^| NDAA
+.^| NDAA Section 889 compliant
+
+.3+.^| Physical
+.^| Dimensions
+.^| (W x H x D) 6.7" x 4.7" x 17.7" +
+(171 mm x 119 mm x 451 mm)
+
+
+.^| Weight
+.^| {iza-weight}}
+
+
+.^| Color
+.^| White
+
+.5+.^| Interface
+.^| Ethernet
+.^| GigE Ethernet (10/100/1000M)
+
+
+.2+.^| Connectors
+.^| LAN - Waterproof outdoor RJ-45 connector
+.^| Power/Signals - Waterproof outdoor M12 connector
+
+
+.2+.^| Digital Outputs
+.^a| Near Lane (NL) Sensor Strobe ({plus}/-): 5 V isolated
+.^a| Far Lane (NL) Sensor Strobe ({plus}/-): 5 V isolated
+
+.2+.^| Power
+.^| Input Voltage
+.^| 24 VDC {plus}/- 10%, Class 2 Low-Voltage
+
+
+.^| Power Consumption
+.^| 25 W
+
+2.3+.^| Accessories Included
+
+.^| Sunshade
+.^| Waterproof outdoor RJ-45 cable connector
+.^| Waterproof outdoor M12 cable connector
+
+2.5+.^| Accessories Available
+
+.^| DIN Rail Mount Power Supplies (xref:IZPWR:DocList.adoc[IZPWR])
+
+.^| Power/Signals Cable for {camera-8G} System+++<br>+++
+(xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]) - different lengths
+
+.^| LAN Cable for {camera-8G} System
+(xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]) +
+- different lengths
+
+.^| Different xref:MNT-ProdToMountMap:DocList.adoc[mount options] available
+
+.^| External Illuminator (xref:IZS:DocList.adoc[{illum-strobe} Series])
+
+|===
+
++++*+++ Capture Distance is measured from the camera to the edge of the lane where traffic travels +
