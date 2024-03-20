@@ -48,7 +48,7 @@ Sensors
 .^a| Sony IMX265
 
 .1+.^| Resolution
-.^a| 2 MP - 1920 (H) x 1080 (V)
+.^a| 3.19 MP - 2048 (H) x 1536 (V)
 
 .1+.^| Lens
 .^a| * Near Lane (NL) Sensor - 3-11 mm; +

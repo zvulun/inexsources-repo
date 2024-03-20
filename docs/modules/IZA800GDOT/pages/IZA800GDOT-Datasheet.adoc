@@ -102,8 +102,6 @@ image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
 
 include::ROOT:partial$/IZA800GDOT/p-IZA800GDOT-spec-table.adoc[IZA800GDOT Spec table]
 
-{empty} +
-
 [discrete]
 == Ordering Information
 
@@ -141,8 +139,6 @@ image::ROOT:IZA800G/image7.png[image,width=489,height=252]
 == Power/Signals Cable Connector Pinout
 
 include::ROOT:partial$IZA800GDOT/p-IZA800GDOT-connector-pinouts.adoc[IZA800GDOT Connector Pinouts]
-
-{empty} +
 
 [discrete]
 == Camera-to-Illuminator Recommended Setups
