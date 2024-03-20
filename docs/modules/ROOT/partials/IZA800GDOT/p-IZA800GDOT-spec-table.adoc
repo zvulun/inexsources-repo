@@ -1,5 +1,7 @@
 image:ROOT:IZA800GDOT/IZA800GDOT-FIG-005_CamHtDistPlusLaneCvrge.png[width=800] +
 
+{empty} +
+
 [table.withborders,options="header",cols="24,23,53"]
 |===
 2+.^| Item

@@ -102,6 +102,8 @@ image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
 
 include::ROOT:partial$/IZA800GDOT/p-IZA800GDOT-spec-table.adoc[IZA800GDOT Spec table]
 
+{empty} +
+
 [discrete]
 == Ordering Information
 
