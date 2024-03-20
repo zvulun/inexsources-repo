@@ -138,9 +138,7 @@ image::ROOT:IZA800G/image7.png[image,width=489,height=252]
 [discrete]
 == Power/Signals Cable Connector Pinout
 
-*_\{Zvulun - make new one for IZA800GRV}_*
-
-include::ROOT:partial$IZA800G/p-IZA800G-connector-pinouts.adoc[IZA800G Connector Pinouts]
+include::ROOT:partial$IZA800GRV/p-IZA800GRV-connector-pinouts.adoc[IZA800G Connector Pinouts]
 
 [discrete]
 == Camera-to-Illuminator Recommended Setups
