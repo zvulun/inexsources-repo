@@ -68,7 +68,7 @@ image:ROOT:IZA800GRV/IZA800GRV-FIG-001_FrontPage.png[Picture of Camera,400,align
 
 * [*] NVIDIA® Artificial Intelligence (AI) GPU processor for lightning fast processing at the edge
 
-* [*] RoadView video analytics on edge for in-depth vehicle analysis
+* [*] {software-ALPR} video analytics on edge for in-depth vehicle analysis
 
 * [*] Integrated with {software-cloud}
 
