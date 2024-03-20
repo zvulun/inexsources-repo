@@ -1,0 +1,20 @@
+
+[table.withborders,cols="1,2a",width="70%",frame=none,grid=none]
+|===
+| image:ROOT:image$/IZA800G/image24.png[image,width=181,height=352]
+|[table.withborders,width="100%",cols="10%,55%,35%",options="header",]
+!===
+!Pin !Power/Signal !Wire Color
+!1 !24 VDC (-) / GND !Black
+!2 !Near Lane (NL) Strobe ({plus}) !Brown
+!3 !Far Lane (FL) Strobe (-) .^!White
+!4 !Near Lane (NL) Strobe (-) !Blue
+!5 !24 VDC ({plus}) !Red
+//!6 !RS485 (A) !Orange
+//!7 !RS485 (B) !Yellow
+!8 !Far Lane (FL) Strobe ({plus}) !Green
+!6,7 !Unused   !---
+!image:ROOT:GroundSymbol.png[image,width=20,height=26]  !Shield +
+(Connector Body) !---
+!===
+|===
