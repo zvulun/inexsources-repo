@@ -70,7 +70,7 @@ image:ROOT:IZA800GRV/IZA800GRV-FIG-001_FrontPage.png[Picture of Camera,400,align
 
 * [*] {software-ALPR} video analytics on edge for in-depth vehicle analysis
 
-* [*] Integrated with {software-cloud}
+* [*] Dual sensor provides multiple lane coverage for USDOT number reads
 
 * [*] Motorized zoom and auto-focus - the key to optimized remote tuning
 
@@ -82,7 +82,7 @@ image:ROOT:IZA800GRV/IZA800GRV-FIG-001_FrontPage.png[Picture of Camera,400,align
 
 * [*] NDAA Section 889 compliant for our national security
 
-image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+//image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
 image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
 image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]

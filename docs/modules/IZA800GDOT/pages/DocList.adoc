@@ -1,4 +1,6 @@
 = IZA800GDOT Documents List
 
+* xref:IZA800GDOT:IZA800GDOT-Datasheet.adoc[IZA800GDOT Datasheet]
+
 More documents can be found at https://drive.google.com/drive/folders/1E31KirZPQOOnu3YvAEHjIQOh9C7Bh-w-?usp=share_link[GDriveLink, window=_blank]
 
