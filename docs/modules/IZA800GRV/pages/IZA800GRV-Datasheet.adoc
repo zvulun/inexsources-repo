@@ -140,6 +140,8 @@ image::ROOT:IZA800G/image7.png[image,width=489,height=252]
 
 include::ROOT:partial$IZA800GRV/p-IZA800GRV-connector-pinouts.adoc[IZA800G Connector Pinouts]
 
+{empty} +
+
 [discrete]
 == Camera-to-Illuminator Recommended Setups
 
