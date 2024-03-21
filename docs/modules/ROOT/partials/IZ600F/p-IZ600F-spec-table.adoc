@@ -19,7 +19,7 @@
 .^|1.6-4.9 ft (0.5-1.5 m) - (typical recommended height)
 
 .^|Camera-to-Plate Distance along the road
-.^|8.2-82 ft (2.5-25 m) +
+.^|5-70 ft (1.5-21 m) +
 (When installed at the recommended height
 and Camera to Road Edge distance)
 
