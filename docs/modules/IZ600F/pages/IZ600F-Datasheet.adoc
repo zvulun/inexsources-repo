@@ -110,8 +110,8 @@ include::ROOT:partial$IZ600F/p-IZ600F-spec-table.adoc[]
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number+++*+++ |Description
-|{shortprodname}-IR |8.2-82 ft (2.5-25 m) range, Infrared illumination
-|{shortprodname}-DR |8.2-82 ft (2.5-25 m) range, Deep Red illumination
+|{shortprodname}-IR |5-70 ft (1.5-21 m) range, Infrared illumination
+|{shortprodname}-DR |5-70 ft (1.5-21 m) range, Deep Red illumination
 |===
 
 +++*+++ All models have motorized zoom and auto-focus
