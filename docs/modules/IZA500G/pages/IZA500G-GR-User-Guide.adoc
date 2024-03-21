@@ -301,4 +301,4 @@ include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
 
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-Doc. No. {fileproductname}-MAN-002a
+Doc. No. {fileproductname}-MAN-002a Ver. {docdate}
