@@ -1,5 +1,5 @@
 {empty}
 
-(C) INEX Technologies - All rights reserved.
+(C) {compname-long} - All rights reserved.
 
 {empty}
