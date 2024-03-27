@@ -876,7 +876,7 @@ protocol) in the {software-protocol}
 status message (Information, Warning or Critical)
 
 *** +++<u>+++Enable Auto Self-Triggering+++</u>+++ -
-(Requires Offline to be Enabled in the ZAP section)
+(Requires Offline to be Enabled in the {software-protocol} section)
 +
 If enabled, {shortprodname} will switch to
 Non-triggered mode if a GetStatus message not received
