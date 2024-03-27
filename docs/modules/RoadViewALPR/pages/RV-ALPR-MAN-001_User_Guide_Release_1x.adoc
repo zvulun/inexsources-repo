@@ -847,6 +847,9 @@ When Monitoring Integration ({software-monitoring} Integration) is enabled, the 
 
 image::./UserGuide/RV-1_15-FIG-206_ZAP_Integration.png[image,width=393]
 
+//*_\{Max says: This is the picture for 1.15.100 with the HTTP Paths parameter}_*
+//image::./UserGuide/RV-1_15-FIG-206a_ZAP_Integration.png[image,width=393]
+
 [NOTE]
 
 ========================================
@@ -921,6 +924,11 @@ of the same Event, {shortprodname} will only send one of them via the {software-
 
 *** +++<u>+++FTP Keep Alive Rate (seconds)+++</u>+++ - The time (in seconds) between attempts to check that the connection with the FTP server is still alive
 
+//** *HTTP Paths* - *_\{Max says: This is for 1.15.100:
+//If enabled, {software-ALPR} sends an HTTP URL of each image,
+//instead of the path on the FTP server or the path
+//on the local drive.}_*
+
 * *{software-protocol} Client* - Check the box to have {shortprodname} act as a {software-protocol} Client, which will connect to a {software-protocol} Server (see the {software-protocol} Protocol document for details). +
  +
 If you want {shortprodname} to work with {software-server}, {shortprodname} can only be working as a {software-protocol} Client. In this mode, the {shortprodname} {software-protocol} Client port must match the {software-server} {software-protocol} port (see the {software-server} documentation - see <<s_Related-Documents>>)
@@ -941,7 +949,17 @@ sent
 
 ** *Offline Enabled* - Check this box to enable the {software-protocol} offline queue
 
-** *FTP Enabled (for {software-protocol} Client)* - When {shortprodname} is connected to a {software-protocol} server, images can be sent to the server via FTP if this checkbox is checked. (See the FTP Server items for the definition of the additional FTP parameters.)
+** *FTP Enabled (for {software-protocol} Client)* - When
+{shortprodname} is connected to a {software-protocol} server,
+images can be sent to the server via FTP if this checkbox is checked.
+(See the FTP Server items for the definition of the additional FTP
+parameters.)
+
+//** *HTTP Paths* - *_\{Max says: This is for 1.15.100:
+//If enabled, {software-ALPR} sends an HTTP URL of each image,
+//instead of the path on the FTP server or the path
+//on the local drive.}_*
+
 
 [#s_ZAP-Images-Selection]
 
