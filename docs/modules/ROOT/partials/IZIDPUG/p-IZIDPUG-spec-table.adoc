@@ -91,7 +91,7 @@ AI Data Processing Unit
 
 
 2.1+.^| System and Data Storage
-3.1+.^| 250 Gb
+3.1+.^| 250 GB
 
 
 1.6+.^| Environmental
@@ -141,7 +141,7 @@ amendment directives 2015/863/EU (RoHS 2.0)
 2.1+.^| Color
 3.1+.^| Black
 
-1.12+.^|Intefaces
+1.12+.^|Interfaces
 1.7+.^|Front Panel
 
 .^|POWER
