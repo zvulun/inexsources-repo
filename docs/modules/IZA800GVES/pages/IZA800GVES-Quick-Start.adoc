@@ -89,6 +89,16 @@ include::ROOT:partial$/IZA800G/p-IZA800G-checklist.adoc[IZA800G Installation Che
 [discrete]
 === Camera System with Illuminator Wiring Diagram
 
+[IMPORTANT]
+
+======================
+
+If you attach an illuminator cable, secure or remove
+the connector's protective cap to prevent it from falling (safety hazard).
+
+======================
+
+
 //.Typical Camera System with Illuminator Wiring Diagram
 
 image::ROOT:IZA800GVES/IZA800GVES-FIG-012c2-NewQuickStartWiring.png[image,width=604,height=429]
