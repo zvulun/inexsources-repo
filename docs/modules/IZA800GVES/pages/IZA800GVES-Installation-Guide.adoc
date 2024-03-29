@@ -439,8 +439,8 @@ image::image20.png[image,width=334,height=202]
 
 ======================
 
-If you are using an illuminator cable, secure or remove
-the Camera System's connector protective cap to prevent it from falling (safety hazard).
+If you attach an illuminator cable, secure or remove
+the connector's protective cap to prevent it from falling (safety hazard).
 
 ======================
 +
@@ -642,12 +642,12 @@ for important information.*
 
 When using {compname-short} cables (such as the IZ Composite Cable) for LAN connectivity from the Camera System via the {hw-connection-panel}, the maximum cable length is 200 ft (61 m).
 
-If you are using an illuminator cable, secure or remove
-the Camera System's connector protective cap to prevent it from falling (safety hazard).
+If you attach an illuminator cable, secure or remove
+the connector's protective cap to prevent it from falling (safety hazard).
 
-To attach the cables to the Camera System, tighten the outer insert ring onto the corresponding panel connector (see <<f_Female-Connector-Plug-Assembly>>).
+To attach the cables, tighten the outer insert ring onto the corresponding panel connector (see <<f_Female-Connector-Plug-Assembly>>).
 
-After connecting the cables to the Camera System, you can still rotate them slightly to achieve the desired angle (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>). If you need a bigger rotation, see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>.
+After connecting the cables, you can still rotate them slightly to achieve the desired angle (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>). If you need a bigger rotation, see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>.
 
 ========================================
 
