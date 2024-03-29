@@ -452,7 +452,10 @@ image::image21.png[image,width=401,height=356]
 
 . Strip off the outer rubber insulation of the cable, leaving the individual insulated wires at a length of 0.8-1.0 in (20-25 mm). There should be enough length in the wires to enable turning the hood to a different position (see <<f_Pin-Numbers-Near-Screw-Terminals>>). *Be careful not to cut into the shield mesh surrounding the inside of the cable, the drain wire strands, and the plastic jackets (casings) surrounding the individual insulated wires.*
 
-. Pull the shield mesh and plastic jacket back along the cable to expose the drain wire. The drain wire is the same color as the shield mesh, and is composed of several strands wound together (see <<f_Locating-the-Drain-Wire>>).
+. Pull the shield mesh and plastic jacket
+back along the cable to expose the drain wire.
+The drain wire is the same color as the shield mesh,
+and is composed of several strands wound together.
 +
 [#f_Locating-the-Drain-Wire]
 
