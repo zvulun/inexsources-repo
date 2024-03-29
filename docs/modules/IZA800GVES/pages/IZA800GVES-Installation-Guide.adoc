@@ -458,7 +458,7 @@ image::image21.png[image,width=401,height=356]
 
 .Locating the Drain Wire
 
-image::image22.png[image,width=407,height=218]
+image::image22.png[image,width=385]
 
 . Carefully cut away a small amount of the jackets enclosing pairs of the individual insulated wires. Separate the wires.
 
