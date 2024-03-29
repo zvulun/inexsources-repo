@@ -174,7 +174,7 @@ see <<s_Related-Documents>>.
 
 ========================================
 
-When using {compname-short} cables (such as the IZ Composite Cable or the prefabricated Power/LAN Cable), for proper LAN connectivity from the camera via the {hw-connection-panel} (see <<s_Connecting-the-IZ-Panel>>), the maximum cable length is 200 feet.
+When using {compname-short} cables (such as the IZ Composite Cable or the prefabricated Power/LAN Cable), for proper LAN connectivity from the Camera System via the {hw-connection-panel} (see <<s_Connecting-the-IZ-Panel>>), the maximum cable length is 200 feet.
 
 ========================================
 
@@ -280,7 +280,7 @@ a|
 a|
 * Power - Use a cable gauge sufficient to deliver 24 VDC at the Camera System
 
-* LAN - When using {compname-short} cables (such as the IZ Composite Cable or the prefabricated Power/LAN Cable) for LAN connectivity from the camera via the {hw-connection-panel}, the maximum cable length is 200 feet.
+* LAN - When using {compname-short} cables (such as the IZ Composite Cable or the prefabricated Power/LAN Cable) for LAN connectivity from the Camera System via the {hw-connection-panel}, the maximum cable length is 200 feet.
 
 * In order to use the connector included with the Camera System, you must use the IZ Composite Cable to ensure the outer diameter of the cable will fit in the connector.
 
@@ -332,7 +332,7 @@ Avoid having these items in the Field of View:
 
 The IZ Composite or prefabricated Power/LAN cables are custom-made for {system-type} camera applications.
 
-* If you have an IZ Composite Cable, you will need to connect one end to the connector plug supplied with the {shortprodname} camera (see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>).
+* If you have an IZ Composite Cable, you will need to connect one end to the connector plug supplied with the {shortprodname} Camera System (see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>).
 
 * If you have a prefabricated Power/LAN cable, the connector plug is already attached to one end.
 
@@ -348,7 +348,7 @@ Refer to <<f_Female-Connector-Plug-Assembly>> when following the instructions in
 
 ========================================
 
-Since you will need access to the power/LAN panel connector on the camera to perform this procedure, you should follow these instructions before mounting the camera.
+Since you will need access to the Power/LAN panel connector on the Camera System to perform this procedure, you should follow these instructions before mounting the camera.
 
 ========================================
 
@@ -435,6 +435,15 @@ image::image20.png[image,width=334,height=202]
 
 . If needed, turn the inner part of the insert to the desired position. This is typically done with the notch towards the "bottom" (in the same direction as the bottom of the hood). This typical position will enable the cables to leave the connector plug directly towards the back of the Camera System.
 +
+[IMPORTANT]
+
+======================
+
+If you are using an illuminator cable, secure or remove
+the Camera System's connector protective cap to prevent it from falling (safety hazard).
+
+======================
++
 [#f_Connector-Plugs-with-Cables-Attached-to-Camera]
 
 .Connector Plugs with Cables Attached to Camera
@@ -507,7 +516,7 @@ image::image25.png[image,width=401,height=158]
 
 ========================================
 
-Be sure to tighten the sleeve just enough to feel a little resistance. This will enable the connector plug to be rotated more once it is connected to the camera (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>).
+Be sure to tighten the sleeve just enough to feel a little resistance. This will enable the connector plug to be rotated more once it is connected to the Camera System (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>).
 
 ========================================
 --
@@ -524,7 +533,7 @@ Be sure to tighten the sleeve just enough to feel a little resistance. This will
 
 .. Make another small turn
 
-. Once you have finished tightening the sleeve, turn the hood to the desired angle which for which you want the cable to leave the camera (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>).
+. Once you have finished tightening the sleeve, turn the hood to the desired angle which for which you want the cable to leave the Camera System (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>).
 
 . Slide the hood along the cable towards the terminal connections by pulling the cable out the bottom of the hood. Leave a small amount space between the hood and the sleeve - this will enable you to loosen/adjust the sleeve in the future (by moving the hood away to make partial turns).
 
@@ -627,13 +636,14 @@ for important information.*
 
 ========================================
 
-When using {compname-short} cables (such as the IZ Composite Cable) for LAN connectivity from the camera via the {hw-connection-panel}, the maximum cable length is 200 ft (61 m).
+When using {compname-short} cables (such as the IZ Composite Cable) for LAN connectivity from the Camera System via the {hw-connection-panel}, the maximum cable length is 200 ft (61 m).
 
-If you are using an illuminator cable, secure or remove the Camera System connector's protective cap to prevent it from falling (safety hazard).
+If you are using an illuminator cable, secure or remove
+the Camera System's connector protective cap to prevent it from falling (safety hazard).
 
-To attach the cables to the camera, tighten the outer insert ring onto the corresponding panel connector (see <<f_Female-Connector-Plug-Assembly>>).
+To attach the cables to the Camera System, tighten the outer insert ring onto the corresponding panel connector (see <<f_Female-Connector-Plug-Assembly>>).
 
-After connecting the cables to the camera, you can still rotate them slightly to achieve the desired angle (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>). If you need a bigger rotation, see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>.
+After connecting the cables to the Camera System, you can still rotate them slightly to achieve the desired angle (see <<f_Connector-Plugs-with-Cables-Attached-to-Camera>>). If you need a bigger rotation, see <<s_Connecting-the-IZ-Composite-Cable-to-the-Power-LAN-Connector-Plug>>.
 
 ========================================
 
@@ -662,7 +672,9 @@ include::ROOT:partial$IZA800GVES/p-IZA800GVES-wiring-table.adoc[IZA800GVES Wirin
 
 === Connecting System Components to the IZ Panel
 
-The {hw-connection-panel} is used in connection cabinets. It provides a convenient way to connect the Power/LAN cable from the {shortprodname} camera to the LAN and power supply (see the {hw-connection-panel} documentation referred to in <<s_Related-Documents>>).
+The {hw-connection-panel} is used in connection cabinets.
+It provides a convenient way to connect the Power/LAN
+cable from the {shortprodname} Camera System to the LAN and power supply (see the {hw-connection-panel} documentation referred to in <<s_Related-Documents>>).
 
 See <<s_Typical-Wiring-Diagrams>> for typical wiring diagrams.
 
@@ -811,7 +823,9 @@ See the {software-ALPR-long} User Guide (see <<s_Related-Documents>>) for calibr
 
 * Using a license plate mounted in a lab, or by driving a vehicle through the lane, verify that an Event is generated with the correct plate read (recorded in the {software-ALPR} Live (Journal) tab - see the {software-ALPR-long} User Guide). See <<s_Related-Documents>>.
 
-* Once the lane is active, verify that Events are being generated for each vehicle passing each camera, and that the recognition has sufficient accuracy and confidence.
+* Once the lane is active, verify that Events are being
+generated for each vehicle passing each Camera System, and
+that the recognition has sufficient accuracy and confidence.
 
 [#s_Troubleshooting-and-Maintenance]
 
