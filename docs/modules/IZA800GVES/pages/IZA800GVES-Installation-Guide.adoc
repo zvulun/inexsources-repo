@@ -615,9 +615,11 @@ mounting hardware
 [WARNING]
 ========================================
 
-Turn off/disconnect the external (AC) power supply before connecting cables.
-
-*If you are using an {compname-short} power supply, see its User Guide (see <<s_Related-Documents>>) for important information.*
+Turn off/disconnect the external (AC) power supply
+before connecting cables. *If you are using an
+{compname-short} power supply,
+see its User Guide (see <<s_Related-Documents>>)
+for important information.*
 
 ========================================
 
@@ -626,6 +628,8 @@ Turn off/disconnect the external (AC) power supply before connecting cables.
 ========================================
 
 When using {compname-short} cables (such as the IZ Composite Cable) for LAN connectivity from the camera via the {hw-connection-panel}, the maximum cable length is 200 ft (61 m).
+
+If you are using an illuminator cable, secure or remove the Camera System connector's protective cap to prevent it from falling (safety hazard).
 
 To attach the cables to the camera, tighten the outer insert ring onto the corresponding panel connector (see <<f_Female-Connector-Plug-Assembly>>).
 
