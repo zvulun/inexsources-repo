@@ -182,6 +182,16 @@ include::ROOT:partial$IZA800GVES/p-IZA800GVES-spec-table.adoc[IZA800GVES Specifi
 
 === Connectors on Camera System Housing
 
+[IMPORTANT]
+
+======================
+
+If you attach an illuminator cable, secure or remove
+the connector's protective cap to prevent it from falling (safety hazard).
+
+======================
+
+
 [#f_Underside-of-the-ALPR-Camera-System]
 
 .Underside of the {generic-camera-name}
