@@ -31,8 +31,8 @@ Data Storage
 
 .^|
 ifdef::xref-type-IZA800G,xref-type-IZA800GVES,xref-type-IZA800GRV,xref-type-IZA800GDOT[SSD, 250 GB]
-ifdef::xref-type-IZA500G[eMMC, 12 GB][SSD, 250 GB]
 ifdef::xref-type-IZA500G[eMMC, 12 GB]
+ifdef::xref-type-IZA500GR[eMMC, 12 GB]
 ifdef::xref-type-DFC[eMMC, 12 GB]
 ifdef::xref-type-IZIDPUG[250 GB]
 
