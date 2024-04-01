@@ -26,7 +26,7 @@
 2.1+.^| LPR Capture Distance* +
 (for U.S.A. plates)
 
-.^a| * S - Short distance, 5-35 ft (2-11 m)
+.^a| * S - Short distance, 5-35 ft (1.5-11 m)
 * L - Long distance, 30-70 ft (9-21 m)
 
 .3+.^| LPR Illumination
