@@ -38,6 +38,7 @@
 ** xref:IZA800GVES:DocList.adoc[IZA800GVES]
 //** xref:IZA800GRV:DocList.adoc[IZA800GRV]
 ** xref:IZA800GDOT:DocList.adoc[IZA800GDOT]
+** xref:IZB600F:DocList.adoc[IZB600F (Bollard)]
 ** xref:IZLVC2MP:DocList.adoc[IZLVC2MP (LaneView 2 MP)]
 ** xref:IZM600F:DocList.adoc[IZM600F (Mobile)]
 ** xref:IZM800F:DocList.adoc[IZM800F (Mobile)]
