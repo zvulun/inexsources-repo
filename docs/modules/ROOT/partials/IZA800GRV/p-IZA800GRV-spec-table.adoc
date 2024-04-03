@@ -26,7 +26,7 @@
 
 .^a| 13-26 ft (4-8 m)
 
-.6+.^| LPR Camera
+.6+.^| Sensor
 .1+.^| Shutter Type
 .^a| Global
 

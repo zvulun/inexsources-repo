@@ -118,10 +118,10 @@ include::ROOT:partial$/IZA800GORT/p-IZA800GORT-spec-table.adoc[IZA800GORT Spec t
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number+++****+++ |Description+++*****+++
-|{shortprodname}-S-DR |5-35 ft (2-11 m) range, Deep Red illumination
-|{shortprodname}-S-DR-CAB15F |5-35 ft (2-11 m) range, Deep Red illumination, 15 ft cable set
-|{shortprodname}-S-IR |5-35 ft (2-11 m) range, Infrared illumination
-|{shortprodname}-S-IR-CAB15F |5-35 ft (2-11 m) range, Infrared illumination, 15 ft cable set
+|{shortprodname}-S-DR |5-35 ft (1.5-11 m) range, Deep Red illumination
+|{shortprodname}-S-DR-CAB15F |5-35 ft (1.5-11 m) range, Deep Red illumination, 15 ft cable set
+|{shortprodname}-S-IR |5-35 ft (1.5-11 m) range, Infrared illumination
+|{shortprodname}-S-IR-CAB15F |5-35 ft (1.5-11 m) range, Infrared illumination, 15 ft cable set
 |{shortprodname}-L-DR |30-70 ft (9-21 m) range, Deep Red illumination
 |{shortprodname}-L-DR-CAB15F |30-70 ft (9-21 m) range, Deep Red illumination, 15 ft cable set
 |{shortprodname}-L-IR |30-70 ft (9-21 m) range, Infrared illumination
