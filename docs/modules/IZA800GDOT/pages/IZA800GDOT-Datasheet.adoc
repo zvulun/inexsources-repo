@@ -45,7 +45,7 @@
 //[discrete]
 //=== Datasheet
 
-image:ROOT:IZA800GRV/IZA800GRV-FIG-001_FrontPage.png[Picture of Camera,400,align=left]
+image:ROOT:IZA800GDOT/IZA800GDOT-FIG-006_NewFrontPage.png[Picture of Camera,400,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
