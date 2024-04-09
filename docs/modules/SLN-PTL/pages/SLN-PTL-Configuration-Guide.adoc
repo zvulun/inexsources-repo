@@ -189,7 +189,7 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,heigh
 
 === Changing the Password (Multi-line Menu Icon)
 
-* Click on the multi-line menu icon at the upper right of the {shortprodname} screen
+* Click on the multi-line menu icon at the upper right of the {software-ALPR} screen
 
 * Select "Change Password"
 
