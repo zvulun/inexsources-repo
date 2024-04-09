@@ -286,7 +286,7 @@ image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 .Change Password (Multi-line Menu)
 
-image::./UserGuide/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=80]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=80]
 
 * Enter the new password and re-type it
 
@@ -294,7 +294,7 @@ image::./UserGuide/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=80]
 
 .Change Password Dialog
 
-image::./UserGuide/RV-1_15-FIG-021c_ChangePW_Popup.png[image,width=230]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-021c_ChangePW_Popup.png[image,width=230]
 
 === Resetting the Password
 
@@ -338,7 +338,7 @@ a password (see <<f_Change-Password-Dialog>>)
 
 .Logout (Multi-line Menu)
 
-image::./UserGuide/RV-1_15-FIG-020a_Logging_Out.png[image,width=80]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-020a_Logging_Out.png[image,width=80]
 
 +++<div class="pagebreak"> </div>+++
 

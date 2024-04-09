@@ -85,8 +85,27 @@ toc::[]
 ////
 
 == Background
+{software-ALPR} is advanced ALPR software that reads
+license plates using sophisticated image recognition algorithms,
+and creates LPR Events. {software-ALPR} sends LPR Event data
+via HTTP or other protocols to other systems.
+
+The {docproductname} system records Events for vehicles
+that commit a traffic violation, which are not on a list of
+authorized vehicles (White List).
+
 This document describes how to
 configure the {compname-short} {docproductname3} {docproductname} system.
+
+== Configuring Parameters via the GUI and API
+
+{software-ALPR} can be configured using both
+a web-based GUI and an API. Some parameters can only be configured
+via the API,  others only via the GUI, and some
+via both (see *_\{zvulun - xref to table
+converted from Max's table}_* ).
+See the  API document for further details.
+
 
 
 == Computer and Software Requirements
@@ -101,10 +120,6 @@ The factory default IP address of the {hw-advanced-processor}
 Data Processing Unit (DPU) is on the sticker on the device;
 typically {ip-default-IZA-DPU}. If needed, use {software-discovery} to change its IP address
 to one you have allocated in your network.
-
-//+
-//* LPR Camera - http://192.168.5.101/ +
-//* OV Camera - http://192.168.5.102/ +
 
 include::ROOT:partial$IZDiscovery/p-IZDISCOVERY-To-Include.adoc[leveloffset=+1]
 
@@ -142,9 +157,21 @@ at the expected distance and height.
 === Logging In
 . Open a browser.
 
-. Type in the IP address of the {software-ALPR} computer - the {hw-advanced-processor}.
+. Type in the IP address of the {software-ALPR} computer - the {hw-advanced-processor}. +
++
+[IMPORTANT]
+=========================
+You must put "https://" before the IP address.
+=========================
++
 For example: +
-{ip-default-IZA-DPU}
+\https://{ip-default-IZA-DPU} +
+{empty} +
+If you see a browser security warning message:
+
+.. Click Advanced +
+
+.. Click the "Continue" link +
 
 . You will see the login screen. Enter the default username
 and password (root, root):
@@ -158,6 +185,28 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,heigh
 . You should see the {software-ALPR} Live (Journal) tab
 (see <<s_Verify-System-Operation>>).
 
+[#s_Changing-the-Password]
+
+=== Changing the Password (Multi-line Menu Icon)
+
+* Click on the multi-line menu icon at the upper right of the {shortprodname} screen
+
+* Select "Change Password"
+
+[#f_Change-Password-Multi-line-Menu]
+
+.Change Password (Multi-line Menu)
+
+image::ROOT:RoadViewALPR/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=80]
+
+* Enter the new password and re-type it
+
+[#f_Change-Password-Dialog]
+
+.Change Password Dialog
+
+image::ROOT:RoadViewALPR/RV-1_15-FIG-021c_ChangePW_Popup.png[image,width=230]
+
 === Logging Out (Multi-line Menu Icon)
 
 * Click on the multi-line menu icon at the upper right of the {software-ALPR} screen
@@ -168,7 +217,7 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,heigh
 
 .Logout (Multi-line Menu)
 
-image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-020a_Logging_Out.png[image,width=80]
 
 <<<
 
@@ -177,7 +226,7 @@ image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
 == Configure {software-ALPR} - Settings Tab
 
 Use the Settings tab after the first installation or
-re-installation of the PTL system, or when some
+re-installation of the {docproductname} system, or when some
 fundamental parameters need updating.
 For example, if the {hw-advanced-processor} was moved
 to a different location (time zone).
@@ -310,6 +359,41 @@ end of this section after making changes.
 
 <<<
 
+[#s_Web-Protocols]
+
+=== Web Protocols
+
+[#f_Web-Protocols-Section]
+
+.Web Protocols Section
+
+image::ROOT:SLN-PTL/RV-PTL-FIG-016_Web_Protocols.png[image,600]
+
+* The parameters should already have been set for you;
+verify the settings look as they appear here.
+
+* If you need to change the settings, remember to
+click the Save button at the end of this section.
+
+[#s_HTTP-Integrations-Security]
+
+=== HTTP Integrations Security
+
+[#f_HTTP-Integrations-Security-Section]
+
+.HTTP Integrations Security Section
+
+image::ROOT:SLN-PTL/RV-PTL-FIG-017_HTTP_Integrtns_Security.png[image,600]
+
+* The parameters should already have been set for you;
+verify the settings look as they appear here.
+
+* If you need to change the settings, remember to
+click the Save button at the end of the Detector
+Configuration section.
+
+<<<
+
 [#s_Lanes]
 
 === Lanes
@@ -439,9 +523,9 @@ Using the same Lane ID for different cameras
 will combine the reads into one Event (see <<s_Lanes>>).
 ////
 You may even be able to improve read accuracy by changing
-the *_\{Max/Pinchas: but if zoom doesn't work, how can user do this?
-can he do it manually? or maybe he can't?}_* zoom to have one camera
-"see" closer than the other one.
+the *_\{Max/Pinchas: zoom cannot be done from calibration tab
+in this PTL implementation, so user cannot do this}_*
+zoom to have one camera "see" closer than the other one.
 ////
 
 You can position multiple cameras to be in different positions
@@ -497,7 +581,9 @@ image::ROOT:SLN-PTL/RV-PTL-FIG-007_Motorola_Integration.png[image,550]
 
 * *{docproductname3} URL* - URL of the {docproductname3} server
 
-* *{docproductname3} User Name* - username to access the {docproductname3} server
+* *{docproductname3} User Name* - domain and username
+(in the form domain/username) to access the {docproductname3}
+server
 
 * *{docproductname3} Password* - password to access the {docproductname3} server
 
