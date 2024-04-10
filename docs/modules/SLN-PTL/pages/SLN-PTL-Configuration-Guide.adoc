@@ -103,7 +103,7 @@ configure the {compname-short} {docproductname3} {docproductname} system.
 a web-based GUI and an API. Some parameters can only be
 configured/controlled
 via the API,  others only via the GUI, and some
-via both (see ).
+via both (see <<t_GUI-API-Control>>).
 See the  API document for further details.
 
 [#t_GUI-API-Control]
