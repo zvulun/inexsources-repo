@@ -97,7 +97,7 @@ authorized vehicles (White List).
 This document describes how to
 configure the {compname-short} {docproductname3} {docproductname} system.
 
-== Configuring Parameters via the GUI and API
+== Configuring/Controlling Parameters via the GUI and API
 
 {software-ALPR} can be configured using both
 a web-based GUI and an API. Some parameters can only be
