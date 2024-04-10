@@ -106,7 +106,30 @@ via both (see *_\{zvulun - xref to table
 converted from Max's table}_* ).
 See the  API document for further details.
 
+[table.withborders,width="100%",cols="15%,30%,10%,10%,10%,25%",options="header",]
+|===
 
+|Name |Description |API Controlled |GUI Controlled |Local Storage |Notes
+|Site GUID |Unique GUID of the RoadView (RV) site |yes |no |RV config file |"enforceSite" in API
+|Motorola Server URL |Motorola Server URL |yes |yes |RV config file |"avivServiceAddress" in API. "Motorola URL" in GUI.
+|Motorola Server Username and Domain |Motorola Server username and domain |no |yes |RV config file |"Motorola Username" in GUI. Format: domain/username
+|Motorola Server Password |Motorola Server password |no |yes  |RV config file |"Motorola Password" in GUI.
+|Time to Save Events |How long RV stores logs in database and events in offline queue |yes |yes |RV config file |"time2SaveEvent" in API. "Log Store Days" in GUI.
+|Keep Alive Interval |How often RV sends Keep Alive messages to the Motorola Server. In seconds. |no |yes |RV config file |"Keep Alive Interval" in GUI.
+|Amazon Bucket Credentials |Credentials for access to the bucket where RoadView sends images and video. |yes |no |RV config file |"s3" in API
+|Activity Days |"Default system activity times, according to the day of the week." |yes |no |RV config file |"activityDays" in API.
+|Activity Times |Special activity times, according to by specific dates; overrides Activity Days settings. |yes |no |RV config file |"activityTimes" in API
+|Stop Enforce Now |When the value is 1, then immediately stop "enforcement" on the site. |yes |no |RV config file |"stopEnforceNow" in API
+|Start Enforce Now |When the value is 1, then immediately start "enforcement" on the site. "Enforcement" means processing of Events, and sending records of traffic violations for unauthorized vehicles (not on the White List) to the server. |yes |no |RV config file |"startEnforceNow" in API
+|Stop Enforce Times |Scheduled days and times to stop enforcement for this site. |yes  |no |RV config file |"stopEnforceTimes" in API
+|Send White List Events |When the value is 1, the system sends all Events. When the value is 0, then the system only records an vent for any vehicle that commits a traffic violation, and is not on the list of authorized vehicles. |yes |no |RV config file |"sendWhiteListEvents" in API
+|Camera Recording Time |How much time before and after the Event to record video |yes |yes |RV config file |"camerasRecLength"; "timeBeforeRec"; "timeAfterRec" in API. "Video Pre/Post Time" in GUI in Camera section.
+|White List |An array containing all the plate numbers belonging to the White List (of authorized vehicles) |yes |no |Separate encrypted file on disk |"updateWhiteList" POST message in API
+|
+|
+
+
+|===
 
 == Computer and Software Requirements
 * Computer running with Windows 10 or later
