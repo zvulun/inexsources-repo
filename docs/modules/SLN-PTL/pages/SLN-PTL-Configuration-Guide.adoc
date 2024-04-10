@@ -134,7 +134,7 @@ then immediately start enforcement on the site.
 the system sends all Events, whether or not the
 vehicle is on the White List (of authorized vehicles).
 When the value is 0, then the system only sends Events for
-vehicles not on the White List (unauthorized vehicle).
+vehicles not on the White List (unauthorized vehicles).
  |yes |no |RV config file |"sendWhiteListEvents" in API
 |Camera Recording Time |How much time before and after the Event to record video |yes |yes |RV config file |"camerasRecLength"; "timeBeforeRec"; "timeAfterRec" in API. "Video Pre/Post Time" in GUI in Camera section.
 |White List |An array containing all the plate numbers belonging to the White List (of authorized vehicles) |yes |no |Separate encrypted file on disk |"updateWhiteList" POST message in API
