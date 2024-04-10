@@ -212,6 +212,8 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,heigh
 . You should see the {software-ALPR} Live (Journal) tab
 (see <<s_Verify-System-Operation>>).
 
+<<<
+
 [#s_Changing-the-Password]
 
 === Changing the Password (Multi-line Menu Icon)
@@ -224,7 +226,7 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,heigh
 
 .Change Password (Multi-line Menu)
 
-image::ROOT:RoadViewALPR/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=80]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-021b_3_Line_ChangePW.png[image,width=110]
 
 * Enter the new password and re-type it
 
@@ -244,7 +246,7 @@ image::ROOT:RoadViewALPR/RV-1_15-FIG-021c_ChangePW_Popup.png[image,width=230]
 
 .Logout (Multi-line Menu)
 
-image::ROOT:RoadViewALPR/RV-1_15-FIG-020a_Logging_Out.png[image,width=80]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-020a_Logging_Out.png[image,width=110]
 
 <<<
 
@@ -827,6 +829,11 @@ has sufficient accuracy and confidence.
 
 * You can use the Search tab to find Event records stored in the
 {software-ALPR} database.
+
+* Note that you can add/remove different columns to/from
+the Live and Search tabs by selecting "Configure Journal"
+from the multi-line menu at the upper right of the screen
+(see <<f_Change-Password-Multi-line-Menu>>)
 
 .Search Tab
 
