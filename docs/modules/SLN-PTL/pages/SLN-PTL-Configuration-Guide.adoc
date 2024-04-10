@@ -100,11 +100,15 @@ configure the {compname-short} {docproductname3} {docproductname} system.
 == Configuring Parameters via the GUI and API
 
 {software-ALPR} can be configured using both
-a web-based GUI and an API. Some parameters can only be configured
+a web-based GUI and an API. Some parameters can only be
+configured/controlled
 via the API,  others only via the GUI, and some
-via both (see *_\{zvulun - xref to table
-converted from Max's table}_* ).
+via both (see ).
 See the  API document for further details.
+
+[#t_GUI-API-Control]
+
+.GUI/API Parameter Control
 
 [table.withborders,width="100%",cols="15%,30%,10%,10%,10%,25%",options="header",]
 |===
