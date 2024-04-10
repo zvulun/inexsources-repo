@@ -109,7 +109,7 @@ See the  API document for further details.
 [table.withborders,width="100%",cols="15%,30%,10%,10%,10%,25%",options="header",]
 |===
 
-|Name |Description |API Controlled |GUI Controlled |Local Storage |Notes
+|Name |Description |API Cntrl |GUI Cntrl |Local Storage |Notes
 |Site GUID |Unique GUID of the RoadView (RV) site |yes |no |RV config file |"enforceSite" in API
 |Motorola Server URL |Motorola Server URL |yes |yes |RV config file |"avivServiceAddress" in API. "Motorola URL" in GUI.
 |Motorola Server Username and Domain |Motorola Server username and domain |no |yes |RV config file |"Motorola Username" in GUI. Format: domain/username
