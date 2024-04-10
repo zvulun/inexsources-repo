@@ -91,8 +91,7 @@ and creates LPR Events. {software-ALPR} sends LPR Event data
 via HTTP or other protocols to other systems.
 
 The {docproductname} system records Events for vehicles
-that commit a traffic violation, which are not on a list of
-authorized vehicles (White List).
+that are in the lane.
 
 This document describes how to
 configure the {compname-short} {docproductname3} {docproductname} system.
@@ -121,12 +120,23 @@ See the  API document for further details.
 |Time to Save Events |How long RV stores logs in database and events in offline queue |yes |yes |RV config file |"time2SaveEvent" in API. "Log Store Days" in GUI.
 |Keep Alive Interval |How often RV sends Keep Alive messages to the Motorola Server. In seconds. |no |yes |RV config file |"Keep Alive Interval" in GUI.
 |Amazon Bucket Credentials |Credentials for access to the bucket where RoadView sends images and video. |yes |no |RV config file |"s3" in API
-|Activity Days |"Default system activity times, according to the day of the week." |yes |no |RV config file |"activityDays" in API.
-|Activity Times |Special activity times, according to by specific dates; overrides Activity Days settings. |yes |no |RV config file |"activityTimes" in API
-|Stop Enforce Now |When the value is 1, then immediately stop "enforcement" on the site. |yes |no |RV config file |"stopEnforceNow" in API
-|Start Enforce Now |When the value is 1, then immediately start "enforcement" on the site. "Enforcement" means processing of Events, and sending records of traffic violations for unauthorized vehicles (not on the White List) to the server. |yes |no |RV config file |"startEnforceNow" in API
+|Activity Days |Default system activity times, according to the day of the week. |yes |no |RV config file |"activityDays" in API.
+|Activity Times |Special activity times, according to
+specific dates. Enables "enforcement" (Event processing)
+regardless of Activity Days settings. |yes |no |RV config file |"activityTimes" in API
+|Stop Enforce Now |When the value is 1, then
+immediately stop "enforcement" on the site. |yes |no |RV config file |"stopEnforceNow" in API
+|Start Enforce Now |When the value is 1,
+then immediately start "enforcement" on the site.
+"Enforcement" means processing of Events, and sending
+records to the server. |yes |no |RV config file |"startEnforceNow" in API
 |Stop Enforce Times |Scheduled days and times to stop enforcement for this site. |yes  |no |RV config file |"stopEnforceTimes" in API
-|Send White List Events |When the value is 1, the system sends all Events. When the value is 0, then the system only records an vent for any vehicle that commits a traffic violation, and is not on the list of authorized vehicles. |yes |no |RV config file |"sendWhiteListEvents" in API
+|Send White List Events |When the value is 1,
+the system sends all Events, whether or not the
+vehicle is on the White List (of authorized vehicles).
+When the value is 0, then the system only sends an vehicles
+not on the White List (a "violation").
+ |yes |no |RV config file |"sendWhiteListEvents" in API
 |Camera Recording Time |How much time before and after the Event to record video |yes |yes |RV config file |"camerasRecLength"; "timeBeforeRec"; "timeAfterRec" in API. "Video Pre/Post Time" in GUI in Camera section.
 |White List |An array containing all the plate numbers belonging to the White List (of authorized vehicles) |yes |no |Separate encrypted file on disk |"updateWhiteList" POST message in API
 |
@@ -642,7 +652,8 @@ always be enabled+++</u>+++
 
 image::ROOT:SLN-PTL/RV-PTL-FIG-009_Journal_Settings.png[image,500]
 
-* Check the Enabled checkbox
+* Check the Enabled checkbox - +++<u>+++should
+always be enabled+++</u>+++
 
 * *Remember to click the Save button at the end of the
 Detector Configuration section after making changes.*
