@@ -830,10 +830,10 @@ has sufficient accuracy and confidence.
 * You can use the Search tab to find Event records stored in the
 {software-ALPR} database.
 
-* Note that you can add/remove different columns in
+* Note that you can add/remove different columns on
 the Live and Search tabs by selecting "Configure Journal"
 from the multi-line menu at the upper right of the screen
-(see <<f_Change-Password-Multi-line-Menu>>)
+(see <<s_Changing-the-Password>>).
 
 .Search Tab
 
