@@ -7,8 +7,8 @@ image::ROOT:/IZA800G/image16.png[image,width=136,height=121]
 ifndef::xref-type-IZ600F[[#s_Matching-Your-Camera-System-to-an-INEX-Illuminator]]
 ifdef::xref-type-IZ600F[[#s_Matching-Your-Camera-to-an-INEX-Illuminator]]
 
-ifndef::xref-type-IZ600F[==== Matching Your Camera System to an INEX Illuminator]
-ifdef::xref-type-IZ600F[==== Matching Your Camera to an INEX Illuminator]
+ifndef::xref-type-IZ600F[==== Matching Your Camera System to an {compname-short} Illuminator]
+ifdef::xref-type-IZ600F[==== Matching Your Camera to an {compname-short} Illuminator]
 
 [IMPORTANT]
 

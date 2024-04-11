@@ -184,7 +184,7 @@ image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height
 * Network cabling (typically CAT 5e/6 cable) and switch. The total length of the cable from the network switch to the camera should not exceed 328 feet (100 meters).
 
 * A list of accessories that can be supplied by
-{compname-med} can be found at the end of the
+{compname-short} can be found at the end of the
 specifications table (see your camera's
 User Guide and <<s_Typical-Wiring-Diagram>>).
 
@@ -247,7 +247,7 @@ Installations that position the camera at significant angles in relation to the 
 Reflectivity: +
 - Different levels of reflectivity will change the specified distances +
 - By "Non-reflective", we mean that the colors have good contrast (black on white, for example), and all colors used in the plate are matte (dull finish). +
-- Other Non-reflective schemes (special colors, for example) may change the specified distances. Contact {compname-med} for advice.
+- Other Non-reflective schemes (special colors, for example) may change the specified distances. Contact {compname-short} for advice.
 
 ========================================
 
@@ -626,7 +626,7 @@ image::./UserGuide/image21.png[image,width=630,height=236]
 
 [#s_Connecting-the-AC-Electricity]
 
-=== Connecting the AC Electricity
+=== Connecting the Power
 
 [WARNING]
 ========================================
@@ -1346,5 +1346,5 @@ include::ROOT:partial$p-regulatory-IK10.adoc[IK10 Regulatory Notice]
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
 
-Doc. No. {shortprodname}-MAN-002b
+Doc. No. {shortprodname}-MAN-002b Ver. {docdate}
 
