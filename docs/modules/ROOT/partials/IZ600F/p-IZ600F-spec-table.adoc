@@ -129,7 +129,7 @@ Independently controllable frame rate and bandwidth
 
 .6+.^|Certifications
 .^|EMC
-.^|FCC/CE
+.^|FCC Part 15, subpart B/CE
 
 .^|Interoperability
 .^|ONVIF compliant, Profile S

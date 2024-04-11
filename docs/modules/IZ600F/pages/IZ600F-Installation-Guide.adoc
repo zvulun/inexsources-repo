@@ -234,8 +234,6 @@ All network cable extensions and repeaters must be shielded.
 
 <<<
 
-[#s_Planning-Your-Installation]
-
 [#s_Plan-Your-Site]
 
 == Plan Your Site
@@ -510,7 +508,7 @@ components will be wired together.*
 . Prepare all wiring/cables between the
 system components, and from the system
 components to the camera's mounting
-location (see <<s_Planning-Your-Installation>>
+location (see <<s_Plan-Your-Site>>
 and <<s_Typical-Wiring-Diagram>>).
 
 . If needed, prepare all the conduits that cables will pass through.
