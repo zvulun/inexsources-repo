@@ -73,7 +73,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .6+.^| Certifications
 .^| EMC
-.^| FCC Part 15, subpart B/CE
+.^| FCC Part 15, subpart B; CE
 
 
 .^| Interoperability

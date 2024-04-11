@@ -6,7 +6,8 @@
 ifdef::xref-type-IZIDPUG[Type in the IP address of the {hw-indoor-processor}.]
 ifndef::xref-type-IZIDPUG[Type in the IP address of the {software-ALPR} computer.]
 For example: +
-ifdef::xref-type-IZ600F[163.104.120.78]
+//OLD: ifdef::xref-type-IZ600F[163.104.120.78]
+ifdef::xref-type-IZ600F[{ip-default-IZA-DPU}]
 ifndef::xref-type-IZ600F[{ip-default-IZA-DPU}]
 
 . You will see the login screen. Enter the default username and password (root, root):

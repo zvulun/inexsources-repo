@@ -244,7 +244,7 @@ image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height
 
 ** Chrome or Microsoft Edge browser
 
-* A list of accessories that can be supplied by {compname-med} can be found at the end of the Specifications (see <<s_Specifications>>).
+* A list of accessories that can be supplied by {compname-short} can be found at the end of the Specifications (see <<s_Specifications>>).
 
 [#s_Optional-Accessories]
 

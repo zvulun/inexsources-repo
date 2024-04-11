@@ -109,5 +109,5 @@ include::ROOT:partial$IZ600F/p-IZ600F-wiring-table.adoc[IZ600F Wiring Table]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-TECH-004
+Doc. No. {shortprodname}-TECH-004 Ver. {docdate}
 
