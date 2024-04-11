@@ -158,7 +158,7 @@ Independently controllable frame rate and bandwidth
 .^|Color
 .^|White
 
-.2+.^|Physical
+.2+.^|Interface
 .^a|Ethernet
 .^a|10/100 BaseT Ethernet auto sensing
 
