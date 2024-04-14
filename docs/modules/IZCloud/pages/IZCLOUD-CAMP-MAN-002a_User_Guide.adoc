@@ -607,8 +607,9 @@ checkout date
 == Reports
 
 {software-cloud} can be configured to provide a variety
-of reports based on <<s_IZCloud-Reservations>>, <<s_IZCloud-Events>>
-and <<s_Access-Lists-Watch-Lists>> data. For example:
+of reports based on xref:s_IZCloud-Reservations[Reservation],
+xref:s_IZCloud-Events[Event] and
+xref:s_Access-Lists-Watch-Lists[Access List (Watch List)] data. For example:
 
 * Residents/Subscribers on Premises
 
