@@ -350,6 +350,8 @@ including images of the plate reads.
 
 <<<
 
+[#s_Access-Lists-Watch-Lists]
+
 == Access Lists (Watch Lists)
 
 Access Lists are lists of plates which can be matched to
@@ -600,6 +602,25 @@ yet arrived today
 ** Overstay - Reservations that have overstayed their
 checkout date
 
+<<<
+
+[#s_Reports]
+
+== Reports
+
+{software-cloud} can be configured to provide a variety
+of reports based on <<s_IZCloud-Reservations>>, <<s_IZCloud-Events>>
+and <<s_Access-Lists-Watch-Lists>> data. For example:
+
+* Residents/Subscribers on Premises
+
+* Guests on Premises
+
+* Guests Overstayed
+
+* Unmatched/Suspected - a vehicle not matched to any access (watch) list for more
+than a configurable number of times is considered suspected
+
 [#s_Gates]
 
 == Gates (Live Video And Additional Actions)
@@ -617,6 +638,8 @@ The Gates page enables you to (see <<f_IZCloud-Gates-Page>>):
 * Add the license plate to a list
 
 * Add the license plate to an existing reservation
+
+<<<
 
 [#f_IZCloud-Gates-Page]
 
