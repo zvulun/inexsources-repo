@@ -45,6 +45,7 @@
 image:ROOT:IZIDPUG/IZIDPUG-FIG-006_RevB_Front.png[[Picture of DPU,width=350,align=left]
 
 image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
+image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 
 // restore section numbering from here on
 :sectnums: all
