@@ -76,7 +76,7 @@ image::ROOT:IZIDPUG/IZIDPUG-FIG-006_RevB_Front.png[image,width=350,align=left]
 
 * [*] Wide temperature range - operating from 32°F to 113°F (0°C to 45°C)
 
-* [*] NDAA Section 889 compliant for our national security
+* [*] NDAA Section 889 compliant
 
 image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
@@ -132,5 +132,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-REV-B-TDSHEET
+Doc. No. {shortprodname}-REV-B-TDSHEET Ver. {docdate}
 
