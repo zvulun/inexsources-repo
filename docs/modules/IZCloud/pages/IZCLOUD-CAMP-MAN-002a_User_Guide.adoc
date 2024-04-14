@@ -105,7 +105,7 @@ image::ROOT:IZCloud/IZCloud-BorderCAMP-Logout.png[image,200]
 
 == Reservations
 
-If {shortprodname} is connected to an
+If {software-cloud} is connected to an
 online 3rd-party reservation system, the Reservations
 menu item will be enabled.
 
@@ -300,6 +300,53 @@ Enables adding the vehicle to a list
 image:ROOT:IZCloud/IZCloud-CAMP-AddToListButton.png[image,20]
 
 See <<s_Vendors-List>> and <<s_Visitors-List>>
+
+[#s_Parking-Lot-Summary-Statistics]
+
+=== Parking Lot Summary Statistics
+
+Using Event data, {software-cloud} can be configured
+to provide parking lot summary statistics.
+These can include the number of parking spaces
+occupied, the types of customers that have entered
+the lot, etc.
+
+[#f_Parking-Lots]
+
+.Parking Lot Summary Statistics
+
+image::ROOT:IZCloud/IZCloud-CAMP-ParkingLotsFromKinneyLake.png[image,400]
+
+<<<
+
+[#s_Parking-Transaction-Details]
+
+=== Parking Transaction Details
+
+Using Event data, {software-cloud} can be configured
+to provide parking transaction details. A parking (access)
+transaction consists of an entry and exit by a vehicle.
+
+[#f_Parking-Transactions]
+
+.Parking Transaction Details
+
+image::ROOT:IZCloud/IZCloud-CAMP-TransactionsFromKinneyLake.png[image,400]
+
+Transactions can be of the following types:
+
+* *Open* - Vehicle has entered, but not yet exited
+
+* *Closed* - Vehicle has entered and exited; can be billed
+
+* *Attention* - Non-standard behavior, such as having
+only an exit record, or in the lot for too long (configurable)
+
+* *Closed Manually* - Transaction closed by operator (for example,
+if the exit gate is not working)
+
+You can also open a pane to view the details of each transaction,
+including images of the plate reads.
 
 <<<
 
