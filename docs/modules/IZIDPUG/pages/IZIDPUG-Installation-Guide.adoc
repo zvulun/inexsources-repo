@@ -344,7 +344,7 @@ and cameras).
 
 [#s_Connecting-the-AC-Electricity]
 
-=== Connecting the AC Electricity
+=== Connecting the Power
 
 [WARNING]
 ========================================
@@ -433,13 +433,13 @@ include::ROOT:partial$p-DPU-safety-precautions.adoc[]
 
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
-include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
+//include::ROOT:partial$p-regulatory-header.adoc[Regulatory Notices Header]
 
-include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
+//include::ROOT:partial$p-regulatory-FCC.adoc[FCC Regulatory Notice]
 
-include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
+//include::ROOT:partial$p-regulatory-CE-ROHS.adoc[EU-CE-ROHS Regulatory Notice]
 
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-Doc. No. {shortprodname}-MAN-002
+Doc. No. {shortprodname}-MAN-002 Ver. {docdate}
 
