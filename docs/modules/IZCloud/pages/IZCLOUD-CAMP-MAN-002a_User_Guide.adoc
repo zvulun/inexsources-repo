@@ -315,7 +315,7 @@ the lot, etc.
 
 .Parking Lot Summary Statistics
 
-image::ROOT:IZCloud/IZCloud-CAMP-ParkingLotsFromKinneyLake.png[image,400]
+image::ROOT:IZCloud/IZCloud-CAMP-ParkingLotsFromKinneyLake.png[image,800]
 
 <<<
 
@@ -331,7 +331,7 @@ transaction consists of an entry and exit by a vehicle.
 
 .Parking Transaction Details
 
-image::ROOT:IZCloud/IZCloud-CAMP-TransactionsFromKinneyLake.png[image,400]
+image::ROOT:IZCloud/IZCloud-CAMP-TransactionsFromKinneyLake.png[image,800]
 
 Transactions can be of the following types:
 
