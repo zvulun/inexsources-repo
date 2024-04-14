@@ -602,8 +602,6 @@ yet arrived today
 ** Overstay - Reservations that have overstayed their
 checkout date
 
-<<<
-
 [#s_Reports]
 
 == Reports
