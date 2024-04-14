@@ -619,6 +619,8 @@ and <<s_Access-Lists-Watch-Lists>> data. For example:
 * Unmatched/Suspected - a vehicle not matched to any access (watch) list for more
 than a configurable number of times is considered suspected
 
+<<<
+
 [#s_Gates]
 
 == Gates (Live Video And Additional Actions)
@@ -637,7 +639,7 @@ The Gates page enables you to (see <<f_IZCloud-Gates-Page>>):
 
 * Add the license plate to an existing reservation
 
-<<<
+//<<<
 
 [#f_IZCloud-Gates-Page]
 
