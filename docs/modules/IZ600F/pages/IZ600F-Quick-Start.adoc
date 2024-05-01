@@ -89,7 +89,7 @@ image::ROOT:IZ600F/IZ600F-30-FIG-045_NEWPSNoIllumQuickStart.png[image,width=450,
 
 //.Typical Camera System Wiring Diagram
 
-image::ROOT:IZ600F/IZ600F-30-FIG-047_IllumQuickStartWiring.png[image,width=700,align=left]
+image::ROOT:IZ600F/IZ600F-30-FIG-047_NEWIllumQuickStartWiring.png[image,width=700,align=left]
 
 <<<
 
