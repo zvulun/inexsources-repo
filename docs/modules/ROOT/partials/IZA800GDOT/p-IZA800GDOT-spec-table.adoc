@@ -64,7 +64,7 @@ Motorized Zoom and Auto-focus
 
 .2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
 .^| {compname-short} HTTP API
-.^| USDOT Events are reported via the INEX HTTP API protocol. Each Event includes metadata and associated images.
+.^| USDOT Events are reported via the {compname-short} HTTP API protocol. Each Event includes metadata and associated images.
 
 .^| {compname-short} Discovery
 .^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
@@ -89,7 +89,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .6+.^| Certifications
 .^| EMC
-.^| FCC Class B/CE
+.^| FCC Part 15, subpart B; CE
 
 
 .^| Interoperability
