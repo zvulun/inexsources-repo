@@ -563,9 +563,10 @@ documentation - see <<s_Related-Documents>>).
 +
 [CAUTION]
 =====================================
-In order to provide a drip loop, adjust the camera's
+To make a drip loop (required to prevent
+moisture from reaching the camera), adjust the camera's
 base so that the notch through which the camera's cable
-will pass is pointed down (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>).
+will pass is pointing down (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>).
 =====================================
 +
 [NOTE]
