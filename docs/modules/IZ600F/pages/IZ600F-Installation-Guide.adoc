@@ -368,7 +368,8 @@ a|
 * All cable connections from the camera to the power supply and LAN
 must be enclosed in a waterproof junction box (not provided).
 
-* Unused connections must be sealed with butyl tape.
+* Unused connections must be sealed with waterproof
+insulating tape (such as butyl tape).
 
 |Front/Rear Capture - or Both a|
 * Country requirements
@@ -431,8 +432,10 @@ and power levels delivered to all components.
 
 === Typical Wiring Diagram
 
-Here is a typical wiring diagram
-for capturing license plate images.
+In this diagram, a dotted line box represents
+a waterproof junction box
+used to enclose connections from the camera to
+the LAN (and external power supply, if used).
 Note that the type and configuration
 of the power supply may be different than
 the one you are using at your site.
@@ -637,13 +640,14 @@ image::./UserGuide/image20.png[image,width=414,height=361]
 
 === Waterproofing the Cable Connection Points
 
-Insulate all connection points with waterproof insulating tape (such as butyl tape).
+All connections from the camera to the power supply and
+LAN must be enclosed in a waterproof junction box
+
 
 [IMPORTANT]
 ========================================
-You must seal all connections with waterproof
-insulating tape, including any unused connectors
-(such as the BNC connector and multi-wire cable),
+You must seal all unused connections with waterproof
+insulating tape, such as butyl tape (such as the BNC connector and multi-wire cable),
 the ferrite core in the middle of the cable
 and the cable splitter
 (see <<f_Insulating-the-Cable-and-Connections>>).
