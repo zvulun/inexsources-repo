@@ -640,12 +640,11 @@ image::./UserGuide/image20.png[image,width=414,height=361]
 
 === Waterproofing the Cable Connection Points
 
-All connections from the camera to the power supply and
-LAN must be enclosed in a waterproof junction box
-
-
-[IMPORTANT]
+[CAUTION]
 ========================================
+All connections from the camera to the power supply and
+LAN must be enclosed in a waterproof junction box.
+
 You must seal all unused connections with waterproof
 insulating tape, such as butyl tape (such as the BNC connector and multi-wire cable),
 the ferrite core in the middle of the cable
