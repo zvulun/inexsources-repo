@@ -51,6 +51,14 @@ You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
 to find the desired camera and change its network
 settings.
 
+[CAUTION]
+================================
+*{compname-short} products must be mounted as
+described in their Installation Guides. If not, moisture
+problems may occur - which are not covered by the warranty.*
+================================
+
+
 [discrete]
 === Checklist
 
