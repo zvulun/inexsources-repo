@@ -186,7 +186,9 @@ All network cable extensions and repeaters must be shielded.
 
 image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height=75]
 
-* Waterproof insulating tape (such as butyl tape)
+* Waterproof junction box for the camera's power and LAN connections
+
+* Waterproof insulating tape (such as butyl tape) for unused camera connections
 
 * Network cabling (typically CAT 5e/6 cable) and switch. The total length of the cable from the network switch to the camera should not exceed 328 feet (100 meters).
 
@@ -350,6 +352,28 @@ a|
 * Power - Use a cable gauge sufficient to deliver 12 VDC at the camera
 
 * LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable (without a switch) should not exceed 328 feet (100 meters).
+
+a|
+*Cable Connection Waterproofing*
+
+*+++<u>+++CAUTION+++</u>+++*
+
++++<u>+++{compname-short} products must be mounted as
+described in their Installation Guides. If not, moisture
+problems may occur - which are not covered by the warranty.+++</u>+++
+
+a|
+* You must use a drip loop for the cable entering the camera.
+
+* All cable connections from the camera to the power supply and LAN
+must be enclosed in a waterproof junction box (not provided).
+
+* Unused connections must be sealed with butyl tape.
+
+* Power - Use a cable gauge sufficient to deliver 12 VDC at the camera
+
+* LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable (without a switch) should not exceed 328 feet (100 meters).
+
 
 |Front/Rear Capture - or Both a|
 * Country requirements
