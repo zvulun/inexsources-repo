@@ -370,11 +370,6 @@ must be enclosed in a waterproof junction box (not provided).
 
 * Unused connections must be sealed with butyl tape.
 
-* Power - Use a cable gauge sufficient to deliver 12 VDC at the camera
-
-* LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable (without a switch) should not exceed 328 feet (100 meters).
-
-
 |Front/Rear Capture - or Both a|
 * Country requirements
 
@@ -565,6 +560,13 @@ documentation - see <<s_Related-Documents>>).
 ** The {shortprodname} can be mounted on a wall or square pole using its built-in mounting bracket.
 
 ** You can also use an optional pole mount adapter (PMA) for pole mounting.
++
+[CAUTION]
+=====================================
+In order to provide a drip loop, adjust the camera's
+base so that the notch through which the camera's cable
+will pass is pointed down (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>).
+=====================================
 +
 [NOTE]
 =====================================
