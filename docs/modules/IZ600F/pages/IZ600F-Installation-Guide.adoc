@@ -52,6 +52,13 @@ image:ROOT:image$/IZ600F/IZ600F-30-FIG-001_Full_View.png[Picture of Camera,300,a
 {empty}
 {empty}
 
+[CAUTION]
+================================
+{compname-short} products must be mounted as
+described in the installation guide. If not, moisture
+problems may occur - which are not covered by the warranty.
+================================
+
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
 ._Click to show the Table of Contents_
