@@ -54,9 +54,9 @@ image:ROOT:image$/IZ600F/IZ600F-30-FIG-001_Full_View.png[Picture of Camera,300,a
 
 [CAUTION]
 ================================
-{compname-short} products must be mounted as
+*{compname-short} products must be mounted as
 described in their Installation Guides. If not, moisture
-problems may occur - which are not covered by the warranty.
+problems may occur - which are not covered by the warranty.*
 ================================
 
 // place the TOC in this specific position (capability enabled by :toc: macro at start
@@ -417,6 +417,9 @@ for capturing license plate images.
 Note that the type and configuration
 of the power supply may be different than
 the one you are using at your site.
+(See the
+xref:s_Related-Documents[Quick Start guide]
+for other wiring options.)
 
 [#f_Typical-Wiring-Diagram]
 
