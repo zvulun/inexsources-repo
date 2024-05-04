@@ -55,7 +55,7 @@ image:ROOT:image$/IZ600F/IZ600F-30-FIG-001_Full_View.png[Picture of Camera,300,a
 [CAUTION]
 ================================
 {compname-short} products must be mounted as
-described in the installation guide. If not, moisture
+described in their Installation Guides. If not, moisture
 problems may occur - which are not covered by the warranty.
 ================================
 
