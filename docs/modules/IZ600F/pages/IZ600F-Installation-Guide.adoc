@@ -433,13 +433,12 @@ and power levels delivered to all components.
 
 === Typical Wiring Diagram
 
-In this diagram, a dotted line box represents
+The dotted line box represents
 a waterproof junction box
 used to enclose connections from the camera to
 the LAN (and external power supply, if used).
-Note that the type and configuration
-of the power supply may be different than
-the one you are using at your site.
+The power supply type and configuration
+may be different than the one at your site.
 (See the
 xref:s_Related-Documents[Quick Start guide]
 for other wiring options.)
