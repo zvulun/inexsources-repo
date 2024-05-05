@@ -363,7 +363,8 @@ described in their Installation Guides. If not, moisture
 problems may occur - which are not covered by the warranty.+++</u>+++
 
 a|
-* You must use a drip loop for the cable entering the camera.
+* You must use a drip loop for the cable entering the camera
+(see <<s_Install-Cameras-and-Other-Components>>).
 
 * All cable connections from the camera to the power supply and LAN
 must be enclosed in a waterproof junction box (not provided).
@@ -566,8 +567,9 @@ documentation - see <<s_Related-Documents>>).
 +
 [CAUTION]
 =====================================
-To make a drip loop (required to prevent
-moisture from reaching the camera), adjust the camera's
+To make a drip loop (U-shaped slack part
+of the cable leaving a device that directs
+moisture down and away): Adjust the camera's
 base so that the notch through which the camera's cable
 will pass is pointing down (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>).
 =====================================
