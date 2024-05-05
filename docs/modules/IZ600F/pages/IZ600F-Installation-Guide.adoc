@@ -424,7 +424,7 @@ avoid having these items in the Field of View a|
 =========================
 *All network cable extensions and repeaters must be shielded.*
 
-If you add extensions to cables,
+When adding extensions to cables,
 be sure that there are stable/correct signal
 and power levels delivered to all components.
 =========================
