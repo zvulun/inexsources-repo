@@ -240,6 +240,8 @@ All network cable extensions and repeaters must be shielded.
 
 image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height=75]
 
+* * Waterproof junction box for the camera's power and LAN connections
+
 * Waterproof insulating tape (such as butyl tape)
 
 * Network cabling (typically CAT 5e/6 cable) and switch. The total length of the cable from the network switch to the camera should not exceed 328 feet (100 meters).
