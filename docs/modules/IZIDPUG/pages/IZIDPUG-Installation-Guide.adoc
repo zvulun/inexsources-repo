@@ -189,6 +189,8 @@ image::ROOT:IZIDPUG/IZIDPUG-FIG-015_MountingDimensions.png[image,width=538,heigh
 
 include::ROOT:partial$IZIDPUG/p-IZIDPUG-spec-table.adoc[]
 
+<<<
+
 [#s_Interfaces-and-Indicators]
 
 === Interfaces and Indicators
