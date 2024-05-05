@@ -70,8 +70,6 @@ toc::[]
 
 ====
 
-<<<
-
 [#s_Related-Documents]
 
 == Related Documents and Software
