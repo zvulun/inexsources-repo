@@ -420,14 +420,11 @@ avoid having these items in the Field of View a|
 
 == Prepare Cables
 
-[IMPORTANT]
-=========================
 *All network cable extensions and repeaters must be shielded.*
 
 When adding extensions to cables,
 be sure that there are stable/correct signal
 and power levels delivered to all components.
-=========================
 
 [#s_Typical-Wiring-Diagram]
 
