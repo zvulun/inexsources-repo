@@ -218,15 +218,9 @@ include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connectors]
 
 === Required Accessories
 
-[IMPORTANT]
-
-========================================
-
 *Surge protection must be provided on all power, network and data cables*
 
 All network cable extensions and repeaters must be shielded.
-
-========================================
 
 * Power supply:
 
