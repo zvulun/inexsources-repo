@@ -41,22 +41,28 @@
 {empty}
 {empty}
 
-Click xref:IZ600F:DocList.adoc[here] for full documentation and software.
-
-[sidebar]
-You will need: Laptop with Windows 10 or above
-with Windows Feature NET 4.5 enabled.+++<br>+++
-Chrome or Microsoft Edge browser.+++<br>+++
-You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
-to find the desired camera and change its network
-settings.
-
 [CAUTION]
 ================================
 *{compname-short} products must be mounted as
 described in their Installation Guides. If not, moisture
 problems may occur - which are not covered by the warranty.*
 ================================
+
+Click xref:IZ600F:DocList.adoc[here] for full documentation and software.
+
+[sidebar]
+You will need: Laptop with Windows 10 or above
+with Windows Feature NET 4.5 enabled.+++<br>++++++<br>+++
+Chrome or Microsoft Edge browser.+++<br>++++++<br>+++
+You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
+to find the desired camera and change its network
+settings.+++<br>++++++<br>+++
+Note that in the wiring diagrams,
+the dotted line box represents
+a waterproof junction box
+used to enclose connections from the camera to
+the LAN (and external power supply, if used).
+
 
 
 [discrete]
