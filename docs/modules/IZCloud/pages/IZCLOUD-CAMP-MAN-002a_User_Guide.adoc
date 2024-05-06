@@ -373,6 +373,8 @@ image::ROOT:IZCloud/IZCloud-CAMP-WatchLists.png[image,800]
 
 <<<
 
+[#s_Guests-List]
+
 === Guests List
 This is a list of people and their license plates
 that made reservations via an online reservation system.
@@ -575,6 +577,8 @@ to display single-date calendar popups.
 
 <<<
 
+[#s_Dashboard]
+
 == Dashboard
 The Dashboard page enables you to see overall
 reservation statuses (checked in/checked out).
@@ -607,15 +611,34 @@ checkout date
 == Reports
 
 {software-cloud} can be configured to provide a variety
-of reports based on xref:s_IZCloud-Reservations[Reservation],
-xref:s_IZCloud-Events[Event] and
-xref:s_Access-Lists-Watch-Lists[Access List (Watch List)] data. For example:
+of reports. For example:
 
-* Residents/Subscribers on Premises
+* Parking Lot Summary Statistics - number of parking
+spaces occupied, the types of customers that have
+entered the lot, etc. (see <<s_Parking-Lot-Summary-Statistics>>)
 
-* Guests on Premises
+* Parking Transaction Details - entry and exit time
+and duration of stay in lot (see <<s_Parking-Transaction-Details>>)
 
-* Guests Overstayed
+* Reservations - dates/times of reserved check-ins/check-outs
+made via an online 3rd-party reservation system;
+plus actual check-in/check-out status of vehicles associated with each
+reservation (see <<s_IZCloud-Reservations>>)
+
+* Events - detailed list of LPR Events, including
+date/time, gate entered, plate characters,
+and owner name (see <<s_IZCloud-Events>>)
+
+* Guests Lists - list of people/license plates that
+made reservations via an online reservation system
+(see <<s_Guests-List>>)
+
+* Vendors Lists - list of vehicles configured as
+vendors (see <<s_Vendors-List>>)
+
+* Dashboard - overall statistics, such as the number of
+reservations that have overstayed their checkout date
+(see <<s_Dashboard>>)
 
 * Unmatched/Suspected - a vehicle not matched to any access (watch) list for more
 than a configurable number of times is considered suspected
