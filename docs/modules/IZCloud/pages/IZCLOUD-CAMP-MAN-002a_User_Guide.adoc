@@ -615,35 +615,32 @@ checkout date
 {software-cloud} can be configured to provide a variety
 of reports. For example:
 
-* Parking Lot Summary Statistics - number of parking
+* *Parking Lot Summary Statistics* - number of parking
 spaces occupied, the types of customers that have
 entered the lot, etc. (see <<s_Parking-Lot-Summary-Statistics>>)
 
-* Parking Transaction Details - entry and exit time
+* *Parking Transaction Details* - entry and exit time
 and duration of stay in lot (see <<s_Parking-Transaction-Details>>)
 
-* Reservations - dates/times of reserved check-ins/check-outs
+* *Reservations* - dates/times of reserved check-ins/check-outs
 made via an online 3rd-party reservation system;
 plus actual check-in/check-out status of vehicles associated with each
 reservation (see <<s_IZCloud-Reservations>>)
 
-* Events - detailed list of LPR Events, including
+* *Events* - detailed list of LPR Events, including
 date/time, gate entered, plate characters,
 and owner name (see <<s_IZCloud-Events>>)
 
-* Guests Lists - list of people/license plates that
+* *Guests Lists* - list of people/license plates that
 made reservations via an online reservation system
 (see <<s_Guests-List>>)
 
-* Vendors Lists - list of vehicles configured as
+* *Vendors Lists* - list of vehicles configured as
 vendors (see <<s_Vendors-List>>)
 
-* Dashboard - overall statistics, such as the number of
+* *Dashboard* - overall statistics, such as the number of
 reservations that have overstayed their checkout date
 (see <<s_Dashboard>>)
-
-* Unmatched/Suspected - a vehicle not matched to any access (watch) list for more
-than a configurable number of times is considered suspected
 
 <<<
 
