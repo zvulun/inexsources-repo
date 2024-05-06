@@ -52,7 +52,7 @@ Click xref:IZ600F:DocList.adoc[here] for full documentation and software.
 
 [sidebar]
 You will need: Laptop with Windows 10 or above
-with Windows Feature NET 4.5 enabled.+++<br>++++++<br>+++
+with Windows Feature NET 4.5 enabled, and a
 Chrome or Microsoft Edge browser.+++<br>++++++<br>+++
 You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
 to find the desired camera and change its network
