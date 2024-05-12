@@ -1,0 +1,1568 @@
+:docproductname: GKSYS
+:docproductname2: IZA500GR
+:docproductname3: CVM
+:fileproductname: IZA500GR
+:shortprodname: IZA500GR
+:generic-camera-name: ALPR Camera
+
+// set attribute (by uncommenting the line)
+// used to determine which text/links to sections
+// outside partials - should be used in partials
+// see the playbook for full list
+
+:xref-type-IZA500G:
+:layout-type-userguide:
+
+//related doc links are temporarily pointed
+//to GDrive; when the site is live
+//change this to :link-type-site not needed
+//when save as PDF is done from internet site
+//:link-type-gdrive:
+
+//enable the TOC to be placed in a specific position
+:toc: macro
+
+= {compname-short} ALPR for the GateKeeper System ({docproductname})
+
++++<font size="+3">+++ *Installation and Calibration Guide*+++</font>+++
+
+image::ROOT:SLN-GKSYS/GKSYS-LOGO.png[image,150,align=left]
+
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
+toc::[]
+
+====
+
+<<<
+
+////
+
+[#s_Related-Documents]
+
+== Related Documents
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[table.withborders,width="100%",cols="51%,49%",options="header",]
+|===
+|Doc. No. |Title
+//.^|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002b] |{docproductname2} Installation Guide
+.^|https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[{fileproductname}-MAN-002b,window=_blank] |{docproductname2} Installation Guide
+
+//.^|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002a] |{docproductname2} User Guide
+.^|https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[{fileproductname}-MAN-002a,window=_blank] |{docproductname2} User Guide
+
+
+.^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+
+
+.^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
+
+
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+
+
+.^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
+
+
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+
+
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+
+
+.^|xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
+
+
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+
+
+.^|xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
+
+
+.^|xref:IZ4POE:DocList.adoc[{hw-poeinjector}-DIN-REV-xxx-TDSHEET] |{hw-poeinjector} Gigabit 4-Port PoE++ Injector Technical Data Sheet
+
+
+.^|xref:LOOP-DTCR-L:DocList.adoc[{hw-loopdetect-l}-MAN-001] |{hw-loopdetect-l} Loop Detector Installation and User Guide
+
+
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+====
+
+////
+
+== Background
+This document describes how to install,
+configure and calibrate an {compname-short} {generic-camera-name}
+for a single lane, to work with the {docproductname} Parking System.
+
+== Computer and Software Requirements
+* Computer running with Windows 10 or later
+* Chrome or Microsoft Edge browser
+
+[IMPORTANT]
+
+======================
+
+*_\{is this necessary?}_* The minimum {docproductname} *_\{correct product name?}_* {docproductname3} version
+required is *_\{is there such a version to put in here?}_*
+
+======================
+
+== Solution BOM *_\{is this list of models/countries still correct for GKSYS??}_*
+* Camera System:
+** IZA500GR-DRW-P48 - for USA, Mexico, Canada
+** IZA500GR-IRW-P48 - for Israel, EU, Taiwan, Australia, Vietnam, GCC, India, Singapore
+** {software-ALPR} Advanced ALPR Software, version 1.15.120
+* Power Supply for P48 models
+** IZPWR75{plus}{hw-poeinjector} - for a single camera
+** IZPWR120{plus}{hw-poeinjector} - for two cameras
+** IZPWR240{plus}{hw-poeinjector} - for four cameras
+* Camera Mounting hardware
+** IZMNTA-WE - wall mount
+** IZMNTA-WE{plus}MNT-PMA -  pole mount
+** IZMNTA-UC - under-ceiling
+* *_\{is IZCloud relevant?}_* IZCLOUD-APM - {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring
+
+<<<
+
+== Lane Design
+
+[table.withborders,options="header",cols="24,23,53"]
+|===
+2+.^| Item
+// {set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+// {set:cellbgcolor:#c0c0c0}
+2+.^| Field of View (FOV)
+
+.^| 12 ft (H) x 8 ft (V) (3.7 x 2.4 m)
+
+2+.^| Max Vehicle Speed
+
+.^| Up to 80 mph (129 km/h)
+
+2+.^| LPR Capture Distance (D) +
+(for U.S.A. plates; +
+measured from camera to plate)
+
+.^| 5-70 ft (1.5-21 m); 8 ft (2.4 m) recommended
+
+|===
+
+[#f_Rear-Capture]
+
+.Typical Rear-Capture Design
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-097_AmanoLaneDesign.png[image,800,align=center]
+{empty} +
+
+.Typical Front-Capture Design
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=center]
+
+{empty} +
+
+== Camera Wiring
+
+.Camera Wiring
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=center]
+
+{empty} +
+
+.Wiring Table
+[table.withborders,width="100%",cols="7%,35%,58%",options="header",]
+|===
+|Item |Description |Ordering Information
+.^|A .^a|*LAN Patch Cable* - CAT6, max. length 3.3 ft (1 m) .^|Supplied by integrator
+.^|B .^a|*LAN Cable* - CAT6, shielded, 4 pairs, 22 AWG, max.
+length 328 ft (100 m), OD 5.5-7.9 mm
+.^|Supplied by integrator; 6.6 ft (2 m) included with camera
+.^|C .^a|*PAS (Power and Signals) Cable* - 22 AWG, OD 3.0-7.3 mm
+.^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
+.^|D .^a|*Power Supply* - 48 VDC
+.^a|
+For 1 camera, use a 75 W supply (IZPWR75-48) +
+For 2 cameras, use a 120 W supply (IZPWR120-48) +
+For 4 cameras, use a 240 W supply (IZPWR240-48)
+.^|E .^a|*Gate* .^|Supplied by integrator
+.^|F .^a|*Inductive Loop* .^|Supplied by integrator
+.^|G .^a|*Loop Detector* .^|Supplied by integrator
+|===
+
+<<<
+
+== Use {software-discovery}
+
+The factory default IP addresses of the onboard
+processor, LPR and OV cameras
+are on the unit's sticker, typically: Processor ({ip-default-IZA-DPU}), LPR ({ip-default-IZA-LPR})
+OV ({ip-default-IZA-OV}). If needed, use {software-discovery} to change to other
++++<u>+++consecutive+++</u>+++ network addresses you have allocated.
+
+include::ROOT:partial$IZDiscovery/p-IZDISCOVERY-To-Include.adoc[leveloffset=+1]
+
+////
+[#s_Configure-Microsoft-Edge]
+
+== Configure Microsoft Edge
+
+include::ROOT:partial$p-configure-ms-edge-1.adoc[First part of MS Edge configuration]
++
+<<<
+image::ROOT:SLN-TIBA/image-TIBA-MSedge-settings-2.png[image,800, align=center]
+
+include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configuration]]
+////
+
+<<<
+
+[#s_Logging-In-to-the-Camera]
+
+== Log In to a Camera
+
+include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
+
+=== Live View (link at upper right)
+* The focus will be set automatically;
+can be fine-adjusted manually with buttons
+* Use the buttons to Zoom in/out
+
+=== Admin (link at upper right)
+
+* Enter username and password (root/IZpass12)
+* Use the menu at the left to select the parameter
+category/sub-category/group.
++
+[IMPORTANT]
+==================
+*After changing settings, remember to
+click the Apply button at the bottom of
+each parameter section.*
+==================
+
+<<<
+
+== LPR Camera (Sensor) Configuration
+
+The camera(s) are pre-configured;
+this section displays typical settings
+for reference.
+
+////
+[IMPORTANT]
+==================
+*After changing settings, remember to
+click the Apply button at the bottom of
+each parameter section.*
+==================
+
+Change the parameters to match the following screen captures:
+////
+
+=== LPR Camera - Video &amp; Device &gt; Video Streams
+
+==== Triggered Mode
+
+.LPR Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
+
+==== Non-triggered Mode
+
+For Non-triggered mode, set the primary stream frame rate
+to 10 fps.
+
+.LPR Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
+
+<<<
+
+=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+
+////
+[NOTE]
+=====================
+Before changing the Camera Settings parameters, be sure to click
+the Default(Day) link at the top of
+the Camera Settings table.
+=====================
+////
+
+.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,400]
+
+{empty} +
+
+<<<
+
+=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+
+.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
+
+{empty} +
+
+=== LPR Camera - System &gt; Access Level
+
+.LPR Camera - System &gt; Access Level
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
+
+<<<
+
+== OV Camera (Sensor) Configuration
+
+The camera(s) are pre-configured;
+this section displays typical settings
+for reference.
+
+
+////
+[IMPORTANT]
+==================
+*After changing settings, remember to
+click the Apply button at the bottom of
+each parameter section.*
+==================
+
+Change the parameters to match the following screen captures:
+////
+
+=== OV Camera - Video &amp; Device &gt; Video Streams
+
+==== Triggered Mode
+
+.OV Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
+
+==== Non-triggered Mode
+
+For Non-triggered mode, set the primary stream frame rate
+to 10 fps.
+
+.OV Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
+
+=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+
+////
+[NOTE]
+=====================
+Before changing the Camera Settings parameters, be sure to click
+the Default(Day) link at the top of
+the Camera Settings table.
+=====================
+////
+
+.OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-113_TIBAOVCameraSettings.png[image,400]
+
+{empty} +
+
+<<<
+
+=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+
+.OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-115_TIBAOVPrimaryStream.png[image,600]
+
+{empty} +
+
+=== OV Camera - System &gt; Access Level
+
+.OV Camera - System &gt; Access Level
+
+image::ROOT:SLN-TIBA/IZA500G-FIG-117_TIBAOVAccessLevel.png[image,600]
+
+<<<
+
+== Prepare to Aim and Calibrate
+
+There are two cameras (sensors) in the Camera System.
+Both are calibrated in nearly the same way.
+The LPR camera is set to capture in black and white,
+and the Overview (OV) camera is set to capture in color.
+
+The OV camera can be used both to display an overview image,
+and to perform LPR recognition.
+You may even be able to improve read accuracy by
+changing the zoom to have one camera "see" closer
+than the other one.
+
+Move a vehicle next to, and at the middle of
+the capture line. (This is the position at
+which the vehicle detector signals that the
+vehicle is present.) Ensure that the Camera System
+is aimed at the middle of the lane, and is at the
+required capture distance.
+
+Alternatively, in a lab, position a license plate
+at the expected distance and height.
+
+[#s_Using-RoadView]
+
+== Log In to {software-ALPR}
+
+=== Logging In
+. Open a browser.
+
+. Type in the IP address of the {software-ALPR} computer.
+For example: +
+{ip-default-IZA-DPU}
+
+. You will see the login screen. Enter the default username
+and password (root, root):
++
+[#f_Logging-In-to-RoadView]
+
+.Logging In to {software-ALPR}
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,height=143]
+
+. You should see the {software-ALPR} Live (Journal) tab
+(see <<s_Verify-System-Operation>>).
+
+<<<
+
+=== Logging Out (Multi-line Menu Icon)
+
+* Click on the multi-line menu icon at the upper right of the {software-ALPR} screen
+
+* Select "Logout"
+
+[#f_Logout-Multi-line-Menu]
+
+.Logout (Multi-line Menu)
+
+image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
+
+[#s_Configure-RoadView-Settings-Tab]
+
+== Configure {software-ALPR} - Settings Tab
+
+Use the Settings tab after the first installation or
+re-installation of the ALPR system, or when some
+fundamental parameters need updating.
+For example, if the Camera System was moved
+to a different location (time zone).
+
+[NOTE]
+
+========================================
+Configure the parameters in the order in this
+section of the document.
+
+After clicking the Save button at the end of the
+Detector Configuration section, it will take
+several seconds before the Live tab
+can start displaying Events.
+Also, some defaults and/or available
+parameters may change, depending on the
+Detector Configuration "Mode" selected.
+========================================
+
+[#s_Software-Version-and-Camera-Information]
+
+=== Software Version and Camera Information
+
+The box at the upper right of the Settings screen shows:
+
+* The {software-ALPR} software version (verify that the version is correct)
+
+* The model, part number and serial number of the camera(s) {software-ALPR} is communicating with:
+
+[#f_Software-Version-and-Camera-Information-Section]
+
+.Software Version and Camera Information Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,400]
+
+<<<
+
+[#s_Network-Settings]
+
+=== Network Settings
+
+[#f_Network-Settings-Section]
+
+.Network Settings Section
+
+image::ROOT:RoadViewALPR/RV-1_15-FIG-213_NewNetworkSettings.png[image,600]
+
+* If needed, set the {software-ALPR} computer's IP address parameters.
+
+* Remember to click the Save button in this section;
+the change will be applied immediately.
+
+[IMPORTANT]
+
+========================================
+
+The Network Settings refer to the
++++<u>+++{software-ALPR} computer+++</u>+++
+(+++<u>+++Camera System)+++</u>+++ - NOT the
+computer on which the browser displaying the GUI is running.
+
+*+++<u>+++It is highly recommended to use a fixed IP
+address (not DHCP)+++</u>+++*. A fixed IP address enables
+you to access the computer using the same URL every time,
+even after unexpected power outages.
+
+========================================
+
+<<<
+
+[#s_Date-and-Time-Settings]
+
+=== Date and Time Settings
+
+[IMPORTANT]
+
+========================================
+
+The Date and Time Settings refer to the location of the
++++<u>+++{software-ALPR} computer+++</u>+++
+(+++<u>+++Camera System)+++</u>+++ - NOT the
+computer on which the browser displaying the GUI is running.
+
+The Time Zone selections are organized by continent.
+For example, the "America/" prefix covers various cities
+and countries in North America (U.S. and Canada) and South America.
+
+========================================
+
+[#f_Date-and-Time-Settings-Section]
+
+.Date and Time Settings Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-001d_Date_Time.png[image,600]
+
+// * Set Time (Automatically/Manually)
+
+*Set Time (Automatically/Manually) -
+The preferred setting is "Set Time Automatically"*.
+
+* If *Automatic*, the date and time
+will be updated from a central NTP (Network Time) server;
+the server can be in the cloud or on a local NTP server.
+(The default is ntp.ubuntu.com.)
+
+** Enter the NTP server URL
+
+** Select the interval at
+which you want {software-ALPR} to poll for the
+date and time (selected from the Polling Interval dropdown).
+
+** Click the "Update Now" button to update
+the date and time immediately.
+
+** The icon (green check mark or red "x")
+indicates if the URL of the NTP server is correct,
+and if the connection to it was successful.
+
+* If an NTP server is not available, select  *Manual*.
+Click in the *Date and Time* box to display
+a calendar/time popup.
+
+* Select a *Time Zone*;
+set it to the local time at the location in which the
+Camera System/DPU is installed
+(+++<u>+++not+++</u>+++ the UTC default).
+
+* Remember to click the Save button at the
+end of this section after making changes.
+
+<<<
+
+[#s_Lanes]
+
+=== Lanes
+
+Use this section to add and configure Lanes.
+
+[#f_Lanes-Section]
+
+.Lanes Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-004b_Lanes.png[image,800]
+
+* Actions:
+
+** +++<u>+++Edit+++</u>+++ - edit the Lane's parameters
+
+** +++<u>+++Delete+++</u>+++ - delete the Lane
+(a warning will be displayed)
+
+** +++<u>+++Trigger+++</u>+++ - send a software trigger
+immediately to {software-ALPR}
++
+[NOTE]
+
+========================================
+
+Each Lane number must be unique in the overall ALPR system.
+
+The images from all cameras capturing the same physical lane
+will be combined into a single Event.
+
+Each "Lane" is actually a virtual Lane. For example,
+if you have two Camera Systems capturing the same physical lane,
+you will need to create two different "Lanes",
+and associate each Camera System's cameras with a different "Lane".
+
+========================================
++
+[#f_Add-Edit-Lane-Dialog]
+
+.Add/Edit Lane Dialog
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,240]
+
+* *ID* (required) - The identification number of
+the lane to be captured by the cameras.
+This number will appear associated with Events in the Live tab.
+
+* *Name* (required) - The name of the Lane as it will appear
+throughout the user interface (GUI).
+
+* *Location* - Select one of the following options:
+
+** *Unknown* - the camera's position relative to vehicles
+is unknown.
+
+** *Front* - the camera in this Lane is capturing images
+from the front of vehicles
+
+** *Rear* - the camera in this Lane is capturing images
+from the rear of vehicles
+
+* *Passageway* - Unused
+
+* *Ignore Opposite Direction* - Unused
+
+<<<
+
+[#s_Cameras]
+
+=== Cameras
+
+[#f_Cameras-Section]
+
+.Cameras Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-004c_Cameras.png[image,800]
+
+* Actions:
+
+** +++<u>+++Edit+++</u>+++ - edit the camera's parameters
+(see <<f_Add-Edit-Camera-Dialog>>)
+
+** +++<u>+++Delete+++</u>+++ - delete the camera
+(a warning will be displayed)
+
+* *Camera table headers:* Camera ID, Lane ID, Name, URL,
+Type (as configured when the camera was added)
+
+* *Image* - Thumbnail image from a recent camera image
++
+[WARNING]
+
+========================================
+If you add a camera, or edit a camera's parameters and
+click the Save button in this dialog
+(even if you did not change the URL),
+you may see a warning icon in the Image column.
+The reappearance of the image indicates that the
+core software has restarted, and Events will resume
+being captured and displayed in the Live tab, with the
+following changes: +
+- The Transaction ID will continue to increase from the
+last Transaction ID. +
+- The history of previous Events for that camera will be cleared
+========================================
+
+* *Add Camera* (button at end of Cameras section):
++
+[#f_Add-Edit-Camera-Dialog]
+
+.Add/Edit Camera Dialog
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-006a_EditCameraDialog.png[image,300]
+
+** *Lane ID* - The identification number of the
+lane being captured by the camera(s).
+Select a Lane number you defined (see <<s_Lanes>>).
+This number will appear associated with Events in the Live tab.
++
+[NOTE]
+
+========================================
+
+The images from all cameras capturing the same physical
+lane will be combined into a single Event.
+
+Using the same Lane ID for different cameras
+(even the LPR and OV cameras within the same Camera System)
+will combine the reads into one Event (see <<s_Lanes>>).
+You may even be able to improve read accuracy by changing
+the zoom to have one camera "see" closer than the other one.
+
+You could also position cameras to be in different positions
+(front/rear).
+
+========================================
+
+** *Camera ID* - For internal use; should be unique in the
+overall ALPR system
+
+** *Name* - Camera name for internal use; should be unique
+in the overall ALPR system
+
+// ** *URL* - RTSP or HTTP URL:
+
+//*** RTSP stream URL example: +
+//rtsp:// <camera IP address>/cam0_0
+
+** *URL* - HTTP URL:
+
+*** HTTP URL example: +
+\http://<camera IP address>
+
+** *Type* - Type of camera (LPR or View)
+
+** *Trigger Pre* -
+Set as shown
+
+** *Trigger Post* -
+Set as shown
+
+////
+Number of frames to be included in the set of frames used
+to build an Event - +++<u>+++after+++</u>+++ the trigger
+occurs.
+////
+
+<<<
+
+[#s_TIBA-Integration]
+
+=== {docproductname} Integration
+
+[IMPORTANT]
+
+======================
+
+The minimum {docproductname} {docproductname3} version
+required is 9.3.3
+
+======================
+
+
+Enable {docproductname} Integration and
+set the parameters as follows. *Remember to click the Save button at the end of the
+Detector Configuration section after making changes.*
+
+
+.{docproductname} Integration
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,550]
+
+[NOTE]
+
+=============================
+
+The required {docproductname} API token is hardcoded;
+it is not required to define it here.
+
+=============================
+
+
+* *{docproductname} URL*
+
+
+** For {docproductname} Cloud, the URL of the
+{docproductname} server. For example: +
+\https://yoursite.sp.tibaparking.net/ +
++
+[IMPORTANT]
+
+==========================
+
+DO NOT enter the addition for the full path (/LprData/LPR/LPRevent)
+
+==========================
+
+** For On Prem, the IP address of the
+{docproductname3} server and Services Hosting port
+as defined in the {docproductname} LPR settings. For example (see <<f_TIBA_LPR_Settings>>): +
+\https://31.154.177.6:29811/ +
++
+[IMPORTANT]
+
+==========================
+
+DO NOT enter any addition for a full path.
+
+==========================
+
+[#f_TIBA_LPR_Settings]
+
+.{docproductname} LPR Settings
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-013_SmartPark_LPR_Settings.png[image,300,align=middle]
+
+
+* *User Name* - BasicAuth username to access the {docproductname} server
+* *Password* - BasicAuth password to access the {docproductname} server
+* *Camera Port* - Not required, leave at default, for future
+expansion -
+the HTTPS port on which RoadView
+listens for capture and “open gate” commands
+
+* *Auth Key* - Not required, for future expansion - the key that should be in one of the
+headers sent by the {docproductname} server, in the
+HTTP requests for capture and “open gate” commands
+
+* *Auth Value* - Not required, for future expansion - the value for the header with the key
+defined by Auth Key, that should match the value sent
+by the {docproductname} server, in the HTTP requests
+for capture and “open gate” commands
+
+* *Send Plate Image* - when enabled, if the Plate image
+is found and there was recognition, the Plate
+image is sent as part of the Event; if there
+was no recognition, the OV image is sent
+
+* *Send OV Image* - when enabled, the OV image
+is always sent as part of the Event
+//* *Lanes:*
+
+// Lane ID is not used in TIBA configuration
+// because capture and opengate are not used
+
+
+* *Lane ID* - Not used, for future expansion - this table is automatically populated
+with the number of lanes defined in the Lanes section
+at the bottom of the Settings tab
+
+* *GPIO* - Not used, leave at default (0)
+
+<<<
+
+////
+GPIO - the nn number that identifies the GPIOnn
+pin on the NVIDIA Jetson processor's I/O module.
+A signal is sent to this pin when an “open gate”
+command is received from the TIBA server.
+See the NVIDIA Jetson documentation for further
+information. (See next Note)
+
++
+[NOTE]
+========================
+In addition to the GPIO signal, a signal is also
+sent to the camera; this signal can be used to
+open a gate via a relay.
+========================
+////
+
+=== Direct Trigger
+
+==== Triggered Mode
+
+// add in option for non-trigger
+// but in detector configuration
+// what parameters will be different
+
+Set the Direct Trigger Mode as follows:
+
+* For Front Capture - OnRise
+
+* For Rear Capture - OnFall
+
+* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
+
+
+[#f_Direct-Trigger-Section]
+
+.Direct Trigger Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
+
+==== Non-triggered Mode
+
+* Set the Direct Trigger Mode to Disabled
+
+* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
+
+<<<
+
+[#s_Trigger-Offset]
+
+=== Trigger Offset
+
+[#f_Trigger-Offset-Section]
+
+.Trigger Offset Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
+
+
+==== Triggered Mode
+
+You can capture a vehicle
+(and create an Event) at a different
+position than the location of the in-ground loop.
+Use this Trigger Offset parameter to capture
+the vehicle before or after the loop.
+
+For example, in this illustration, the loop is directly
+under the barrier bar. Setting the Trigger Offset
+to -200 will move the capture point up
+the lane, and capture the plate before
+it is obstructed from view by the bar.
+
+.Trigger Offset Illustration
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-003c_TriggerOffsetIllustrated.png[image,400]
+
+* Enable Trigger Offset and
+set the parameter (in milliseconds)
+
+* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
+
+
+==== Non-triggered Mode
+
+Disable (uncheck) the "Enabled" checkbox.
+
+* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
+
+<<<
+
+[#s_Detector-Configuration]
+
+=== Detector Configuration
+
+* Set the parameters as shown here
+
+* Remember to click the Save button
+at the end of this section after
+changing these parameters.
+
+[#f_Detector-Configuration-Section]
+
+.Detector Configuration Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-004a_Detector_Configuration.png[image,500]
+
+Explanations of frequently used parameters:
+
+* *Mode* - Note that parameters may appear or be hidden, depending on the chosen Mode.
+
+** +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
+
+** +++<u>+++NonTriggered+++</u>+++ - Events are created and reported by LPR video analytics
+
+* *Region* - Region for which characters on the plate will be recognized. Select from the following options:
+
+** +++<u>+++Australia+++</u>+++
+
+** +++<u>+++Canada/North America+++</u>+++ - same as North America LPR, with a different state recognition model that includes Canadian states.
+
+** +++<u>+++Europe+++</u>+++
+
+** +++<u>+++Israel+++</u>+++
+
+** +++<u>+++North America+++</u>+++ - general recognition that includes all U.S.A. states
+
+** +++<u>+++Saudi Arabia+++</u>+++
+
+** +++<u>+++South Africa+++</u>+++
+
+** +++<u>+++Taiwan+++</u>+++
+
+** +++<u>+++United Arab Emirates+++</u>+++
+
+** +++<u>+++Vietnam+++</u>+++
+
+
+* *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
+
+* *Image Resize* - when enabled, and the Event confidence is equal or higher than the Resize Confidence parameter, then each LPR and OV image is resized according to the Image Width (and the height is resized proportionally).
+
+** *Image Width* - the resize width
+
+** *Resize Confidence* - the Event confidence threshold for enabling resizing
+
+<<<
+
+== Configure {software-ALPR} - System Info Tab
+
+* Set the parameters as shown here
+
+* Remember to click the Save button
+at the end of this section after
+changing these parameters.
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,500]
+
+Explanations of frequently used parameters:
+
+* Night Mode
+
+** +++<u>+++Disable+++</u>+++ - White LEDs are OFF
+
+** +++<u>+++Enable+++</u>+++ - White LEDs are ON
+
+*** *OV LED Intensity* - Relative intensity of the built-in white LEDs, expressed as a percentage of the maximum possible intensity
+
+*** *Illuminator Intensity* - Unused
+
+** +++<u>+++Auto+++</u>+++ - White LEDs are ON at night, OFF during the day,
+according to the Camera System's location (defined
+by the Latitude and Longitude parameters). Additional parameters are:
++
+{empty} +
++
+[NOTE]
+
+========================================
+
+Latitude and Longitude are user-entered coordinates; determine them using Google maps, by clicking on the location where the Camera System will be installed (remember to put in a minus sign as needed)
+
+========================================
+
+*** *Latitude* - latitude coordinate of Camera System's location
+
+*** *Longitude* - longitude coordinate of Camera System's location
+
+*** *Post-Sunrise Offset* - time after actual sunrise to be considered as the start of the day
+
+*** *Pre-Sunset Offset* -time before actual sunset to be considered the end of the day
+
+<<<
+
+[#s_Calibrating-the-Cameras-Using-RoadView]
+
+== Calibrating the Cameras Using {software-ALPR}
+
+[#f_Calibration-Tab]
+
+.Calibration Tab
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-011a_CalibrationTab.png[image,800]
+
+. When you see a vehicle at a typical
+capture position on the video, click on the video to pause it.
+
+. It is recommended to use the view called
+"Draw image by maintaining aspect ratio (two-headed arrow)".
+You select this view by clicking on the right-most button
+at the upper left of the
+screen: image:RoadViewALPR:UserGuide/image38.png[image,30]
+
+. Select a camera from the dropdown list (LPR or OV).
+
+. The Frame Width (horizontal) and Frame Height (vertical)
+are displayed at the lower left, and are set automatically.
+
+. The Frame Timestamp at the lower left displays the date
+and time that the image is being taken/was taken by the camera.
+
+. Aim the camera using the mounting bracket's adjustment
+hardware (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>).
+
+.. *Pan*: Adjust the Pan so that the image of the license
+plate is in the horizontal middle of the Field of View.
+
+.. *Tilt:* Adjust the Tilt so that the image
+of every expected plate position
+(depending on the vehicle type, such as passenger cars,
+jeeps, trucks, etc.) will be in the middle of the screen
+(from top to bottom).
+
+.. *Roll*: Adjust the Roll so the license plate's
+image is horizontally straight, parallel to the ground
+(not tilted to one side).
++
+[#f_Pan-Tilt-Roll-Angle-Adjustments]
+
+.Pan/Tilt/Roll (Angle) Adjustments
+
+image::ROOT:RoadViewALPR/PanTiltRoll.png[image,width=311,height=186]
+
+. When the correct position is achieved, make a preliminary
+tightening of the mounting screws.
+
+. Define the Region of Interest (*ROI*) by dragging
+on the corners (vertices) of the trapezoidal region.
+For optimum recognition accuracy, the ROI should be
+large enough to capture the region where plates
+could be found in images.
++
+[NOTE]
+
+========================================
+
+The following settings for the LPR and OV cameras are saved
+separately. For example, you may want a Region of Interest
+that is different for each camera.
+
+========================================
+
+. Use the zoom and focus buttons to adjust
+the view of the video until the width of the plate
+is withing the extent of the vertices, and
+its plate image is clear and sharp.
+(The surrounding items, such as the vehicle body,
+do not need to be as sharp as the plate.)
++
+[IMPORTANT]
+========================================
+There is a delay between a click of a zoom/focus button
+and when you see the effect on the screen.
+Be sure to wait until you see the change
+on the screen before clicking the button again.
+Clicking the button multiple times will cause you
+to "overshoot" the desired zoom/focus.
+
+As you adjust the zoom and focus,
+you may need to reposition the camera in order to
+get the image of the plate back to the desired position.
+========================================
+
+. Define the *Plate Width Min*: Events will only be created
+for plate reads whose width is greater than or equal
+to this parameter. Enter the desired value
+in the *Plate Width Min* text box. +
+This parameter can also be configured by dragging the
+small circle on the horizontal line on the Calibration tab
+(expressed in pixels). +
+This parameter can be used to ignore small plate reads.
+For example, if the image was taken when a vehicle is too far
+away, the characters are too small to be read - even by a human.
+
+. Define the *Plate Width Max*: Events will only be
+created for plate reads whose width is less than or
+equal to this parameter. Enter
+the desired value in the *Plate Width Max* text box. +
+This parameter can also be configured by dragging
+the large circle on the horizontal line on the
+Calibration tab (expressed in pixels). +
+This parameter can be used to prevent false reads,
+such as large numbers on trucks.
+
+. *Direction (red arrow on video):* Not used
+
+. When you have finished, click the *Save* button.
+Wait several seconds for the display to refresh automatically,
+which indicates that the {software-ALPR} recognition software
+is running again with the updated parameters.
+
+. When the correct position is achieved, make a final
+tightening of the mounting hardware.
+
+. Repeat these steps for the other camera.
+
+[#s_Verify-System-Operation]
+
+== Verify System Operation
+
+* Using a license plate mounted in a lab,
+or by driving a vehicle through the lane,
+verify that an Event is generated with the
+correct plate read, as recorded in the {software-ALPR} Live (Journal)
+tab.
+
+.Live (Journal) Tab
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-009a_LiveTab.png[image,800]
+
+* Once the lane is active, verify that Events are being generated
+for each vehicle passing each camera, and that the recognition
+has sufficient accuracy and confidence.
+
+* You can use the Search tab to find Event records stored in the
+{software-ALPR} database.
+
+<<<
+
+[#s_IZCloud-Integration]
+
+== IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
+
+{software-cloud} ALPR Performance Monitoring software ({software-cloud}-APM)
+is an advanced SaaS (Software as a Service) application.
+You can:
+
+* Monitor real-time Events seamlessly
+* Quickly and accurately search for license plates
+* Benefit from daily analytical reports, which provide
+insights into ALPR performance
+
+=== Configuring {software-cloud} Integration in {software-ALPR}
+
+* Log in to {software-ALPR} (see <<s_Using-RoadView>>).
+
+* On the Settings tab, enable {software-cloud} Integration and
+set the parameters as follows:
+
+* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
+
+
+.{software-ALPR} Settings Tab - {software-cloud} Integration Section
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,550]
+
+<<<
+
+=== Logging In to {software-cloud}
+
+* Type the URL of your {software-cloud} TIBA site
+(provided by {compname-short}) into your browser's address line
+
+* Enter your username and password (provided by {compname-short}).
+
+.{software-cloud} Login
+
+image::ROOT:SLN-TIBA/IZCloud-BorderLogin.png[image,400]
+
+=== Logging Out of {software-cloud}
+
+Click on your username at the upper-right of the screen,
+then click the Logout button.
+
+.{software-cloud} Logout
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Logout.png[image,200]
+
+<<<
+
+[#s_IZCloud-Events]
+
+=== {software-cloud} Events
+
+The Events page enables you to view and filter
+all Events generated by the system.
+
+.{software-cloud} Events
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Events.png[image,800]
+
+Columns/Filters:
+
+* *TimeStamp*
+** Click in the text box to display a calendar
+popup (see <<f_IZCLoud-Calendar-Popup>>)
+** Click once to select a start date (see <<f_IZCLoud-Selecting-a-Date-Range>>)
+** Click again to select an end date
+(even if the same date)
+** After selecting a range, the filter's checkbox
+will be selected. To clear the filter,
+clear the checkbox. +
++
+[#f_IZCLoud-Calendar-Popup]
+
+.{software-cloud}: Calendar Popup
+
+image::ROOT:SLN-TIBA/IZCloud-BorderCalendar-Popup.png[image,400]
+
+[#f_IZCLoud-Selecting-a-Date-Range]
+
+.{software-cloud}: Selecting a Data Range
+
+image::ROOT:SLN-TIBA/IZCloud-BorderSelect-Date-Range.png[image,250,align=center]
+
+* *Gate* - Select All, or a specific lane
+
+* *Event Type* - Unused
+
+* *Plate* - Enter characters to find
+within the strings. For example,
+KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
+
+* *Plate Image* - click on an image
+to display plate, LPR and Overview
+images of the Event
+
+* *Owner* - The vehicle owner name; Enter characters
+to find within the names
+
+<<<
+
+[#s_IZCloud-Cameras]
+
+=== {software-cloud} Maintenance - Cameras
+
+The Cameras page enables you to view
+camera status and read rate statistics.
+
+Select "Cameras" from the Maintenance menu
+image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
+
+.{software-cloud} Cameras Page
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Cameras.png[image,800]
+
+Columns/Filters:
+
+* *Name* - Enter characters
+to find within the names of the lanes
+
+* *Lot* - Parking lot location of each lane;
+use the dropdown to select a lot
+
+* *Status* - Camera status (online or offline)
+
+* *Read Rate* - with no read mistakes
+
+* *Read Rate N-1* - with up to 1 read mistake
+
+* *Read Rate N-2* - with up to 2 read mistakes
+
+* *Actions* - select Last Review from the dropdown
+to display the Last Review page, filtered
+by the lane on that row (see <<s_Last-Review>>).
+
+<<<
+
+[#s_Last-Review]
+
+=== {software-cloud} Maintenance - Last Review
+
+Select "Last Review" from the Maintenance menu
+image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
+
+.{software-cloud} Last Review Page
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-LastReview-Lane1.png[image,800]
+
+Columns/Filters:
+
+* *TimeStamp* - same as in <<s_IZCloud-Events>>
+
+* *Gate* - same as in <<s_IZCloud-Events>>
+
+* *Plate* - Plate read; filter works as in
+<<s_IZCloud-Events>>
+
+* *Plate Review* - True read; filter works as in
+<<s_IZCloud-Events>>
+
+* *Plate Image* - same as in <<s_IZCloud-Events>>
+
+* *Read Status* - use the dropdown to
+filter the display
+
+** *Correct* - automatic read matches
+the true read
+
+** *N-1 Read* - an automatic read with up to 1
+mistake
+
+** *N-2 Read* - an automatic read with up to 2
+mistakes
+
+** *False Read* - there are more than 2 mistakes
+in the automatic read
+
+** *False Reject* - an automatic read that was not generated
+for a qualified Event
+
+** *Non-Qualified* - cannot be read
+by a human; examples include:
+*** Missing plate
+*** Partial image of plate
+*** Bent or broken plate
+*** Multiple plates
+*** Obstructed characters
+(by dirt, snow, trailer ball, etc.)
+
+<<<
+
+[#s_Dashboard]
+
+=== {software-cloud} Maintenance - Dashboard
+
+The Dashboard page enables you to see daily
+analytical reports about ALPR performance.
+
+Select "Dashboard" from the Maintenance menu
+image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
+
+.{software-cloud} Dashboard Page
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-DashBrd-HoverBarChart.png[image,800]
+
+Page Elements:
+
+* *Total Lanes* - Total number of lanes in the system
+
+* *Operational Lanes* - Lanes with
+cameras operating properly
+
+* *Require Maintenance* - Lanes with cameras
+that are operating but need maintenance/have warnings
+(for future use)
+
+* *Inoperational Lanes* - Lanes with
+cameras not operating
+
+////
+*_\{The read rate for the last day
+We only use a maximum of 1000 events from the Review Tool;
+The reviewed events are only qualified (human-readable) reads;
+Numbers in tooltips are the number of reads reviewed -
+usually only about 80% of total eVents for the day
+because he rest are non-qualified}_*
+////
+
+
+* *Statistic Graphs*
+These graphs show data from "reviewed reads".
+"Reviewed reads" are the Qualifed (human-readable) plate reads
+(out of the total reads for a certain day) that were reviewed.
+
+** *Read Rate Bar Chart* (for online/operational cameras):
+
+*** Hover over a bar to show details for the previous day's
+review.
+
+*** Click to jump to the Last Review
+page for that lane (see <<s_Last-Review>>).
+
+** *Historical Average Read Rate* - Each data point
+is generated daily. Hover on a point to show details.
+
+[#s_IZCloud-Lanes]
+
+=== {software-cloud} Lanes
+
+The Lanes page enables you to (see <<f_IZCloud-Lanes-Page>>):
+
+* View live video
+
+* View the license plate read for the current Event
+
+* Correct the plate read
+
+* Open the lane's gate in an emergency
+
+[NOTE]
+======================
+Plate images and video are displayed for
+lanes with online/operational cameras.
+
+Live video is only displayed if your site's
+security policy allows transmitting the outbound
+video stream from the camera.
+======================
+
+[#f_IZCloud-Lanes-Page]
+
+.{software-cloud} Lanes Page
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes.png[image,500]
+
+* Click on the license plate
+image to display plate, LPR and Overview
+images of the Event
+
+* Click the Emergency Open button to
+open the lane's gate in an emergency
+
+* Click the Correct Plate Read button
+to correct the read. A new Event is created
+with the updated read. +
+
+.{software-cloud} Lanes - Correct Plate Read
+
+image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes-CorrectPlate.png[image,400]
+
+
+<<<
+
+[#s_Troubleshooting]
+
+== {software-ALPR} Troubleshooting
+
+[#t_Troubleshooting]
+
+.{software-ALPR} Troubleshooting
+
+[table.withborders,width="100%",cols="35%,65%",options="header",]
+|===
+|Symptom |Possible Solution
+|Thumbnails in Settings tab, in the Camera section at bottom have been replaced by red exclamation points and/or +
+The Live tab and Search tab are empty (no Events are detected) a|
+* Verify that each camera's IP address in the Camera System, and the {software-ALPR} computer's IP address are all on the same subnet.
+
+* Verify that stable power at the correct level is being supplied to the cameras, even when under a heavy processing load.
+
+* Verify that the IP address(es) configured in {software-ALPR} match the IP addresses that you configured in the camera(s). See <<s_Cameras>>.
+
+|Recognition rates are low a|
+* On the Calibration tab, increase the size of the Region of Interest (ROI) - it may be too small to capture plates with high confidence
+
+* On the Calibration tab, try to reduce the Plate Width Min and increase the Plate Width Max
+
+Examine the video from the Camera on the Calibration tab:
+
+* If all license plates are not fully visible, re-aim the Camera System so that the each camera's field of view fully covers the capture zone. For a more precise adjustment, verify that the license plate's images are as close to the middle of the video display as possible.
+
+* If the images are spotted, remove dirt and dust from the front window of the Camera System with a soft cloth and mild soap
+
+* If the images are not sharp, adjust the zoom and focus of each camera.
+
+|===
+
+<<<
+
+== Legal Notices
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+include::ROOT:partial$p-software-precautions.adoc[ALPR Camera Safety Precautions]
+
++++<div class="pagebreak"> </div>+++
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
+
+Doc. No. {docproductname}-MAN-002b Ver. {docdate}

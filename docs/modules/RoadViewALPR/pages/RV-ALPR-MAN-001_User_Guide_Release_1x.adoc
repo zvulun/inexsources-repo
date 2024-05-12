@@ -83,6 +83,7 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 .^|xref:SLN-AmanoONE:DocList.adoc[RV-AMANO-MAN-001] |{compname-short} ALPR Installation for AMANO
 .^|xref:SLN-IZCloudIntegration:DocList.adoc[RV-IZCLOUD-MAN-001] |{compname-short} {software-cloud} Integration
 .^|xref:SLN-TIBA:DocList.adoc[RV-TIBA-MAN-001] |{compname-short} TIBA Integration
+.^|xref:SLN-GKSYS:DocList.adoc[RV-GKSYS-MAN-001] |{compname-short} GKSYS Integration
 |===
 
 ====
@@ -776,6 +777,12 @@ Detector Configuration section after making changes.
 === AMANO Integration
 
 See the AMANO document (see <<s_Related-Documents>>).
+
+[#s_GKSYS-Integration]
+
+=== GKSYS (GateKeeper) Integration
+
+See the GKSYS document (see <<s_Related-Documents>>).
 
 [#s_TIBA-Integration]
 
