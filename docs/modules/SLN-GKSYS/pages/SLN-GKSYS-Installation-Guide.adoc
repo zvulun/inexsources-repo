@@ -834,7 +834,7 @@ at the bottom of the Settings tab (see <<s_Lanes>>).
 * *GPIO* - The nn number that identifies the GPIOnn
 pin on the NVIDIA Jetson processor's I/O module.
 When {software-ALPR} sends a validation request (to see if the
-plate read matches to the {docproductname} list of expected
+plate read has a match with the {docproductname} list of expected
 plate reads), a signal is sent to this pin when {docproductname}
 responds that a gate should be opened.
 See the NVIDIA Jetson documentation for further information.
