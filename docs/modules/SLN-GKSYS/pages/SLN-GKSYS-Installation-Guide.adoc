@@ -111,6 +111,14 @@ toc::[]
 ////
 
 == Background
+
+*_\{should we put the instructions in for
+connection to the Cisco client - and if so, at
+what point in this doc? - see emails describing how
+this is done. Also, where will the user get the Cisco
+Anyconnect installer software - from "your system
+manager? From Inex?}_*
+
 This document describes how to install,
 configure and calibrate an {compname-short} {generic-camera-name}
 for a *_\{single lane is correct?}_* single lane, to work with the {docproductname} {docproductname3} System.
