@@ -82,8 +82,8 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 .^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 .^|xref:SLN-AmanoONE:DocList.adoc[RV-AMANO-MAN-001] |{compname-short} ALPR Installation for AMANO
 .^|xref:SLN-IZCloudIntegration:DocList.adoc[RV-IZCLOUD-MAN-001] |{compname-short} {software-cloud} Integration
-.^|xref:SLN-TIBA:DocList.adoc[RV-TIBA-MAN-001] |{compname-short} TIBA Integration
-.^|xref:SLN-GKSYS:DocList.adoc[RV-GKSYS-MAN-001] |{compname-short} GKSYS Integration
+.^|xref:SLN-TIBA:DocList.adoc[TIBA-MAN-002b] |{compname-short} TIBA Integration
+.^|xref:SLN-GKSYS:DocList.adoc[GKSYS-MAN-002b] |{compname-short} GKSYS Integration
 |===
 
 ====
