@@ -94,7 +94,8 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 
 == Applicability
 
-This document is applicable to {docproductname} software, release 1.15.64 and above.
+This document is applicable to {docproductname}
+software, release 1.15.120 and above.
 
 == Training and Support
 
