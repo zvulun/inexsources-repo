@@ -113,7 +113,7 @@ toc::[]
 == Background
 This document describes how to install,
 configure and calibrate an {compname-short} {generic-camera-name}
-for a single lane, to work with the {docproductname} Parking System.
+for a *_\{single lane is correct?}_* single lane, to work with the {docproductname} {docproductname3} System.
 
 == Computer and Software Requirements
 * Computer running with Windows 10 or later
@@ -160,15 +160,17 @@ required is *_\{is there such a version to put in here?}_*
 
 2+.^| Max Vehicle Speed
 
-.^| Up to 80 mph (129 km/h)
+.^| *_\{should be 40 based on IZA500G/GR comparison ppt?}_* Up to 80 mph (129 km/h)
 
 2+.^| LPR Capture Distance (D) +
 (for U.S.A. plates; +
 measured from camera to plate)
 
-.^| 5-70 ft (1.5-21 m); 8 ft (2.4 m) recommended
+.^| *_\{change according to IZA500G/GR comparison PPT?}_* 5-70 ft (1.5-21 m); 8 ft (2.4 m) recommended
 
 |===
+
+*_\{are these pics correct or do they need changing?}_*
 
 [#f_Rear-Capture]
 
@@ -184,6 +186,8 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=cen
 {empty} +
 
 == Camera Wiring
+
+*_\{need correct picture}_*
 
 .Camera Wiring
 
@@ -265,6 +269,9 @@ each parameter section.*
 <<<
 
 == LPR Camera (Sensor) Configuration
+
+*_\{need settings for the GKSYS project -
+these were taken from TIBA}_*
 
 The camera(s) are pre-configured;
 this section displays typical settings
@@ -440,7 +447,7 @@ For example: +
 {ip-default-IZA-DPU}
 
 . You will see the login screen. Enter the default username
-and password (root, root):
+and password (root, root): *_\{change to dialog with reset password link}_*
 +
 [#f_Logging-In-to-RoadView]
 
@@ -457,7 +464,7 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,heigh
 
 * Click on the multi-line menu icon at the upper right of the {software-ALPR} screen
 
-* Select "Logout"
+* Select "Logout" *_\{need picture with Change Password option}_*
 
 [#f_Logout-Multi-line-Menu]
 
@@ -468,6 +475,9 @@ image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
 [#s_Configure-RoadView-Settings-Tab]
 
 == Configure {software-ALPR} - Settings Tab
+
+*_\{review all of these screens to see if they are
+correct for GKSYS}_*
 
 Use the Settings tab after the first installation or
 re-installation of the ALPR system, or when some
@@ -499,6 +509,9 @@ The box at the upper right of the Settings screen shows:
 * The {software-ALPR} software version (verify that the version is correct)
 
 * The model, part number and serial number of the camera(s) {software-ALPR} is communicating with:
+*_\{need new picture showing 1.15.120; also, is
+it a problem if the main RV user guide shows
+an IZA500G (not GR) in its examples?}_*
 
 [#f_Software-Version-and-Camera-Information-Section]
 
@@ -559,6 +572,9 @@ For example, the "America/" prefix covers various cities
 and countries in North America (U.S. and Canada) and South America.
 
 ========================================
+
+*_\{change location to a u.s. location
+like new york - not Israel?}_*
 
 [#f_Date-and-Time-Settings-Section]
 
@@ -781,7 +797,7 @@ occurs.
 
 ======================
 
-The minimum {docproductname} {docproductname3} version
+*_\{is this relevant?}_* The minimum {docproductname} {docproductname3} version
 required is 9.3.3
 
 ======================
@@ -791,90 +807,29 @@ Enable {docproductname} Integration and
 set the parameters as follows. *Remember to click the Save button at the end of the
 Detector Configuration section after making changes.*
 
-
 .{docproductname} Integration
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-002b_TIBA_Integration.png[image,550]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-002_GKSYS_Integration.png[image,550]
 
-[NOTE]
+* *{docproductname} URL* - The URL of the {docproductname}
+endpoint; this must be a full URL, not just the server and
+port. For example: +
+\https://198.132.128.24:8892/api/LicensePlateStatus
 
-=============================
+* *Auth Code* - Authorization code of the {docproductname} endpoint
 
-The required {docproductname} API token is hardcoded;
-it is not required to define it here.
-
-=============================
-
-
-* *{docproductname} URL*
-
-
-** For {docproductname} Cloud, the URL of the
-{docproductname} server. For example: +
-\https://yoursite.sp.tibaparking.net/ +
-+
-[IMPORTANT]
-
-==========================
-
-DO NOT enter the addition for the full path (/LprData/LPR/LPRevent)
-
-==========================
-
-** For On Prem, the IP address of the
-{docproductname3} server and Services Hosting port
-as defined in the {docproductname} LPR settings. For example (see <<f_TIBA_LPR_Settings>>): +
-\https://31.154.177.6:29811/ +
-+
-[IMPORTANT]
-
-==========================
-
-DO NOT enter any addition for a full path.
-
-==========================
-
-[#f_TIBA_LPR_Settings]
-
-.{docproductname} LPR Settings
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-013_SmartPark_LPR_Settings.png[image,300,align=middle]
-
-
-* *User Name* - BasicAuth username to access the {docproductname} server
-* *Password* - BasicAuth password to access the {docproductname} server
-* *Camera Port* - Not required, leave at default, for future
-expansion -
-the HTTPS port on which RoadView
-listens for capture and “open gate” commands
-
-* *Auth Key* - Not required, for future expansion - the key that should be in one of the
-headers sent by the {docproductname} server, in the
-HTTP requests for capture and “open gate” commands
-
-* *Auth Value* - Not required, for future expansion - the value for the header with the key
-defined by Auth Key, that should match the value sent
-by the {docproductname} server, in the HTTP requests
-for capture and “open gate” commands
-
-* *Send Plate Image* - when enabled, if the Plate image
-is found and there was recognition, the Plate
-image is sent as part of the Event; if there
-was no recognition, the OV image is sent
-
-* *Send OV Image* - when enabled, the OV image
-is always sent as part of the Event
-//* *Lanes:*
-
-// Lane ID is not used in TIBA configuration
-// because capture and opengate are not used
-
-
-* *Lane ID* - Not used, for future expansion - this table is automatically populated
+* *Lane ID* - The Lane associated with the GPIO.
+This table is automatically populated
 with the number of lanes defined in the Lanes section
-at the bottom of the Settings tab
+at the bottom of the Settings tab (see <<s_Lanes>>).
 
-* *GPIO* - Not used, leave at default (0)
+* *GPIO* - The nn number that identifies the GPIOnn
+pin on the NVIDIA Jetson processor's I/O module.
+When {software-ALPR} sends a validation request (to see if the
+plate read matches to the {docproductname} list of expected
+plate reads), a signal is sent to this pin when {docproductname}
+responds that a gate should be opened.
+See the NVIDIA Jetson documentation for further information.
 
 <<<
 
@@ -977,6 +932,9 @@ Detector Configuration section after making changes.
 
 === Detector Configuration
 
+*_\{take a new screen shot with the Detector
+Configuration setting for GKSYS}_*
+
 * Set the parameters as shown here
 
 * Remember to click the Save button
@@ -1031,6 +989,8 @@ Explanations of frequently used parameters:
 <<<
 
 == Configure {software-ALPR} - System Info Tab
+
+*_\{need new screen shot for GKSYS}_*
 
 * Set the parameters as shown here
 
@@ -1202,6 +1162,9 @@ tightening of the mounting hardware.
 
 == Verify System Operation
 
+*_\{use a screen shot from the actual
+GKSYS site}_*
+
 * Using a license plate mounted in a lab,
 or by driving a vehicle through the lane,
 verify that an Event is generated with the
@@ -1224,6 +1187,10 @@ has sufficient accuracy and confidence.
 [#s_IZCloud-Integration]
 
 == IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
+
+*_\{Is IZCloud relevant for GKSYS? and if so,
+is the version of the IZCloud screens shown here
+correct for GKSYS - these are the screens from TIBA}_*
 
 {software-cloud} ALPR Performance Monitoring software ({software-cloud}-APM)
 is an advanced SaaS (Software as a Service) application.
@@ -1520,6 +1487,8 @@ image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes-CorrectPlate.png[image,400]
 [#s_Troubleshooting]
 
 == {software-ALPR} Troubleshooting
+
+*_\{recheck this table to see if it is relevant for GKSYS}_*
 
 [#t_Troubleshooting]
 
