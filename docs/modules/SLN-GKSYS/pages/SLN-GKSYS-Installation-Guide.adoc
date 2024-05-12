@@ -26,7 +26,7 @@
 
 +++<font size="+3">+++ *Installation and Calibration Guide*+++</font>+++
 
-image::ROOT:SLN-GKSYS/GKSYS-LOGO.png[image,150,align=left]
+image::ROOT:SLN-GKSYS/GKSYS_LOGO.png[image,150,align=left]
 
 // restore section numbering from here on
 :sectnums: all
