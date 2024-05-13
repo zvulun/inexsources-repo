@@ -600,10 +600,6 @@ LAN, and the power supply, must be enclosed in a waterproof junction box
 
 image::./UserGuide/image21.png[image,width=630,height=236]
 
-+++*+++ Use a drip loop (cable leaving a device
-shaped as a "U" to direct
-moisture down and away).
-
 === Connecting the Cables
 
 . Bring the base of the camera near the mounting location.
@@ -622,7 +618,7 @@ image::./UserGuide/image16.png[image,width=187,height=126]
 
 .Inserting the Network Plug
 
-image::./UserGuide/image17.png[image,width=280]
+image::./UserGuide/image17.png[image,width=294]
 
 . If needed, insert the rubber gasket (5) into the endcap (4). If there is a ridge, fit the rubber gasket inset ridge on the ridge inside the endcap.
 +
