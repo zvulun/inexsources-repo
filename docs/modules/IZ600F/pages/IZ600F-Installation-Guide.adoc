@@ -410,6 +410,76 @@ avoid having these items in the Field of View a|
 +++*+++ Use a drip loop for the cable entering the camera
 (see <<s_Install-Cameras-and-Other-Components>>)
 
+[#s_Connect-Components-Wiring]
+
+== Connect Components (Wiring)
+
+[WARNING]
+========================================
+Turn off/disconnect the external (AC)
+power supply before connecting cables.
+*If you are using an {compname-short}
+power supply, see its User Guide
+(see <<s_Related-Documents>>)
+for important information.*
+========================================
+
+
+=== Waterproofing the Cable Connection Points (Junction Box)
+
+[CAUTION]
+========================================
+All connections from the camera to the power supply and
+LAN, and the power supply, must be enclosed in a waterproof junction box
+(see <<f_Connections-In-Waterproof-Junction-Box>>).
+========================================
+
+[#f_Connections-In-Waterproof-Junction-Box]
+
+.Connections in a Waterproof Junction Box
+
+image::./UserGuide/image21.png[image,width=630,height=236]
+
+=== Connecting the Cables
+
+. Bring the base of the camera near the mounting location.
+
+. Seat the O-type gasket (2) onto the end of the camera's network interface socket (1) (see <<f_Assembling-the-Waterproof-Cap>>). Ensure that the gasket lies flat on the socket, without gaps or twists (see <<f_Seating-the-O-type-Gasket>>).
++
+[#f_Seating-the-O-type-Gasket]
+
+.Seating the O-type Gasket
+
+image::./UserGuide/image16.png[image,width=187,height=126]
+
+. Insert the network plug (3) into the camera's network interface socket (1).
++
+[#f_Inserting-the-Network-Plug]
+
+.Inserting the Network Plug
+
+image::./UserGuide/image17.png[image,width=291,height=173]
+
+. If needed, insert the rubber gasket (5) into the endcap (4). If there is a ridge, fit the rubber gasket inset ridge on the ridge inside the endcap.
++
+[#f_Rubber-Gasket-Inset-Ridge-Fitting-on-Ridge-Inside-Endcap]
+
+.Rubber Gasket Inset Ridge: Fitting on Ridge Inside Endcap
+
+image::./UserGuide/image19.png[image,width=333,height=222]
+
+. Align the tabs in the endcap with the open areas between the threads on the camera's network interface socket (see <<f_Securing-the-Waterproof-Jacket>>).
+
+. Turn the endcap clockwise all the way (until the tabs fit into the grooves in the camera's network interface socket).
+See <<f_Securing-the-Waterproof-Jacket>>.
++
+[#f_Securing-the-Waterproof-Jacket]
+
+.Securing the Waterproof Jacket
+
+image::./UserGuide/image20.png[image,width=414,height=361]
+
+. Connect the power and other wires. For a typical wiring diagram, see <<s_Typical-Wiring-Diagram>>. For details about connections to external illuminators, see the relevant Illuminator guide (see <<s_Related-Documents>>).
 
 <<<
 
@@ -571,79 +641,6 @@ according to the objectives of your project.
 Contact {compname-short} for guidance/training
 about this subject.
 =====================================
-
-[#s_Connect-Components-Wiring]
-
-== Connect Components (Wiring)
-
-[WARNING]
-========================================
-Turn off/disconnect the external (AC)
-power supply before connecting cables.
-*If you are using an {compname-short}
-power supply, see its User Guide
-(see <<s_Related-Documents>>)
-for important information.*
-========================================
-
-=== Connecting the Cables
-
-. Bring the base of the camera near the mounting location.
-
-. Seat the O-type gasket (2) onto the end of the camera's network interface socket (1) (see <<f_Assembling-the-Waterproof-Cap>>). Ensure that the gasket lies flat on the socket, without gaps or twists (see <<f_Seating-the-O-type-Gasket>>).
-+
-[#f_Seating-the-O-type-Gasket]
-
-.Seating the O-type Gasket
-
-image::./UserGuide/image16.png[image,width=187,height=126]
-
-. Insert the network plug (3) into the camera's network interface socket (1).
-+
-[#f_Inserting-the-Network-Plug]
-
-.Inserting the Network Plug
-
-image::./UserGuide/image17.png[image,width=291,height=173]
-
-. If needed, insert the rubber gasket (5) into the endcap (4). If there is a ridge, fit the rubber gasket inset ridge on the ridge inside the endcap.
-+
-[#f_Rubber-Gasket-Inset-Ridge-Fitting-on-Ridge-Inside-Endcap]
-
-.Rubber Gasket Inset Ridge: Fitting on Ridge Inside Endcap
-
-image::./UserGuide/image19.png[image,width=333,height=222]
-
-. Align the tabs in the endcap with the open areas between the threads on the camera's network interface socket (see <<f_Securing-the-Waterproof-Jacket>>).
-
-. Turn the endcap clockwise all the way (until the tabs fit into the grooves in the camera's network interface socket).
-See <<f_Securing-the-Waterproof-Jacket>>.
-+
-[#f_Securing-the-Waterproof-Jacket]
-
-.Securing the Waterproof Jacket
-
-image::./UserGuide/image20.png[image,width=414,height=361]
-
-. Connect the power and other wires. For a typical wiring diagram, see <<s_Typical-Wiring-Diagram>>. For details about connections to external illuminators, see the relevant Illuminator guide (see <<s_Related-Documents>>).
-
-<<<
-
-=== Waterproofing the Cable Connection Points (Junction Box)
-
-[CAUTION]
-========================================
-All connections from the camera to the power supply and
-LAN, and the power supply, must be enclosed in a waterproof junction box
-(see <<f_Connections-In-Waterproof-Junction-Box>>).
-========================================
-
-[#f_Connections-In-Waterproof-Junction-Box]
-
-.Connections in a Waterproof Junction Box
-
-image::./UserGuide/image21.png[image,width=630,height=236]
-
 <<<
 
 [#s_Power-Up-and-Set-Up-IP]
