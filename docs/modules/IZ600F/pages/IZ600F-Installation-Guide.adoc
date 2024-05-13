@@ -600,8 +600,8 @@ LAN, and the power supply, must be enclosed in a waterproof junction box
 
 image::./UserGuide/image21.png[image,width=630,height=236]
 
-+++*+++ Use a drip loop (U-shaped slack part
-of the cable leaving a device that directs
++++*+++ Use a drip loop (U-shaped part
+of cable leaving a device to direct
 moisture down and away).
 
 === Connecting the Cables
