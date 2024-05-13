@@ -644,6 +644,8 @@ image::./UserGuide/image20.png[image,width=414,height=361]
 
 . Connect the power and other wires. For a typical wiring diagram, see <<s_Typical-Wiring-Diagram>>. For details about connections to external illuminators, see the relevant Illuminator guide (see <<s_Related-Documents>>).
 
+<<<
+
 === Waterproofing the Cable Connection Points
 
 [CAUTION]
