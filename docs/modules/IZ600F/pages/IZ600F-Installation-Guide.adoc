@@ -410,6 +410,7 @@ avoid having these items in the Field of View a|
 +++*+++ Use a drip loop for the cable entering the camera
 (see <<s_Install-Cameras-and-Other-Components>>)
 
+<<<
 
 [#s_Prepare-Cables]
 
