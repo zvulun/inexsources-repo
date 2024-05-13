@@ -561,15 +561,6 @@ documentation - see <<s_Related-Documents>>).
 
 ** You can also use an optional pole mount adapter (PMA) for pole mounting.
 +
-[CAUTION]
-=====================================
-To make a drip loop (U-shaped slack part
-of the cable leaving a device that directs
-moisture down and away): Adjust the camera's
-base so that the notch through which the camera's cable
-will pass is pointing down (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>).
-=====================================
-+
 [NOTE]
 =====================================
 If you will be using external illuminator(s),
@@ -579,6 +570,23 @@ according to the objectives of your project.
 Contact {compname-short} for guidance/training
 about this subject.
 =====================================
++
+[CAUTION]
+=====================================
+To make a drip loop (U-shaped slack part
+of the cable leaving a device that directs
+moisture down and away): Adjust the camera's
+base (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>) so
+that the notch through which the camera's cable
+will pass is pointing down (see Figure <<f_Drip-Loop>>.
+=====================================
+
+[#f_Drip-Loop]
+
+.Drip Loop
+
+image::ROOT:IZ600F/IZ600F-30-FIG-049_DripLoop_CableInNotch.png[image,width=800]
+
 
 [#s_Connect-Components-Wiring]
 
