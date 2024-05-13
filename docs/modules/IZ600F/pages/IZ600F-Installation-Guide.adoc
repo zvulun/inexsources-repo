@@ -515,6 +515,62 @@ image::./UserGuide/image15.png[image,width=632,height=144]
 
 . Crimp a male RJ-45 network plug (3) onto the end of the cable, taking care to insert the twisted pairs of wires in the correct order.
 
+<<<
+
+[#s_Install-Cameras-and-Other-Components]
+
+== Install Camera(s) and Other Components
+
+[IMPORTANT]
+========================================
+*Before mounting components, see
+<<s_Prepare-Cables>> to ensure
+that your site plan accommodates how the
+components will be wired together.*
+========================================
+
+. Prepare all wiring/cables between the
+system components, and from the system
+components to the camera's mounting
+location (see <<s_Plan-Your-Site>>
+and <<s_Prepare-Cables>>).
+
+. If needed, prepare all the conduits that cables will pass through.
+
+. Mount other wiring-related components (such as junction boxes) in appropriate locations.
+//+
+//[IMPORTANT]
+//========================================
+//Before mounting the camera,
+//you will need to connect the LAN and other
+//wires to be connected to other components
+//(see <<s_Connect-Components-Wiring>>).
+//========================================
+
+. Secure the
+camera(s) and illuminator(s) to the appropriate
+mounting hardware (see the Mounting Hardware
+documentation - see <<s_Related-Documents>>).
+
+** The {shortprodname} can be mounted on a wall or square pole using its built-in mounting bracket.
+
+** You can also use an optional pole mount adapter (PMA) for pole mounting.
+
+** Use a drip loop (U-shaped slack part
+of the cable leaving a device that directs
+moisture down and away).
++
+[NOTE]
+=====================================
+If you will be using external illuminator(s),
+mount them at an appropriate distance away
+from their associated camera(s),
+according to the objectives of your project.
+Contact {compname-short} for guidance/training
+about this subject.
+=====================================
+<<<
+
 
 [#s_Connect-Components-Wiring]
 
@@ -587,60 +643,6 @@ image::./UserGuide/image20.png[image,width=414,height=361]
 
 . Connect the power and other wires. For a typical wiring diagram, see <<s_Typical-Wiring-Diagram>>. For details about connections to external illuminators, see the relevant Illuminator guide (see <<s_Related-Documents>>).
 
-<<<
-
-[#s_Install-Cameras-and-Other-Components]
-
-== Install Camera(s) and Other Components
-
-[IMPORTANT]
-========================================
-*Before mounting components, see
-<<s_Prepare-Cables>> to ensure
-that your site plan accommodates how the
-components will be wired together.*
-========================================
-
-. Prepare all wiring/cables between the
-system components, and from the system
-components to the camera's mounting
-location (see <<s_Plan-Your-Site>>
-and <<s_Prepare-Cables>>).
-
-. If needed, prepare all the conduits that cables will pass through.
-
-. Mount other wiring-related components (such as junction boxes) in appropriate locations.
-+
-[IMPORTANT]
-========================================
-Before mounting the camera,
-you will need to connect the LAN and other
-wires to be connected to other components
-(see <<s_Connect-Components-Wiring>>).
-========================================
-
-. Secure the
-camera(s) and illuminator(s) to the appropriate
-mounting hardware (see the Mounting Hardware
-documentation - see <<s_Related-Documents>>).
-
-** The {shortprodname} can be mounted on a wall or square pole using its built-in mounting bracket.
-
-** You can also use an optional pole mount adapter (PMA) for pole mounting.
-
-** Use a drip loop (U-shaped slack part
-of the cable leaving a device that directs
-moisture down and away).
-+
-[NOTE]
-=====================================
-If you will be using external illuminator(s),
-mount them at an appropriate distance away
-from their associated camera(s),
-according to the objectives of your project.
-Contact {compname-short} for guidance/training
-about this subject.
-=====================================
 <<<
 
 [#s_Power-Up-and-Set-Up-IP]
