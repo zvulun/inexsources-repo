@@ -597,7 +597,6 @@ image::ROOT:IZ600F/IZ600F-30-FIG-049_DripLoop_CableInNotch.png[image,width=800]
 ========================================
 Turn off/disconnect the external (AC)
 power supply before connecting cables.
-
 *If you are using an {compname-short}
 power supply, see its User Guide
 (see <<s_Related-Documents>>)
