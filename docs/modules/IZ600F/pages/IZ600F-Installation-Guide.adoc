@@ -605,7 +605,7 @@ components will be wired together.*
 system components, and from the system
 components to the camera's mounting
 location (see <<s_Plan-Your-Site>>
-and <<s_Typical-Wiring-Diagram>>).
+and <<s_Prepare-Cables>>).
 
 . If needed, prepare all the conduits that cables will pass through.
 
