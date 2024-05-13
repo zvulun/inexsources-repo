@@ -557,9 +557,6 @@ documentation - see <<s_Related-Documents>>).
 
 ** You can also use an optional pole mount adapter (PMA) for pole mounting.
 
-** Use a drip loop (U-shaped slack part
-of the cable leaving a device that directs
-moisture down and away).
 +
 [NOTE]
 =====================================
@@ -602,6 +599,10 @@ LAN, and the power supply, must be enclosed in a waterproof junction box
 .Connections in a Waterproof Junction Box
 
 image::./UserGuide/image21.png[image,width=630,height=236]
+
++++*+++ Use a drip loop (U-shaped slack part
+of the cable leaving a device that directs
+moisture down and away).
 
 === Connecting the Cables
 
