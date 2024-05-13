@@ -188,8 +188,6 @@ image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height
 
 * Waterproof junction box for the camera's power and LAN connections
 
-* Waterproof insulating tape (such as butyl tape) for unused camera connections
-
 * Network cabling (typically CAT 5e/6 cable) and switch. The total length of the cable from the network switch to the camera should not exceed 328 feet (100 meters).
 
 * A list of accessories that can be supplied by
@@ -354,7 +352,7 @@ a|
 * LAN - Use only CAT 5e/6 cable for any extensions added to the LAN cable. The total length of the cable (without a switch) should not exceed 328 feet (100 meters).
 
 a|
-*Cable Connection Waterproofing*
+*Cable Connection Waterproofing+++*+++*
 
 *+++<u>+++CAUTION+++</u>+++*
 
@@ -363,14 +361,9 @@ described in their Installation Guides. If not, moisture
 problems may occur - which are not covered by the warranty.+++</u>+++
 
 a|
-* You must use a drip loop for the cable entering the camera
-(see <<s_Install-Cameras-and-Other-Components>>).
-
-* All cable connections from the camera to the power supply and LAN
-must be enclosed in a waterproof junction box (not provided).
-
-* Unused connections must be sealed with waterproof
-insulating tape (such as butyl tape).
+* All cable connections from the camera to the power
+supply and LAN, and the power supply, must be enclosed
+in a waterproof junction box (not provided).
 
 |Front/Rear Capture - or Both a|
 * Country requirements
@@ -413,6 +406,10 @@ avoid having these items in the Field of View a|
 
 |Bottom opening (screw cover) accessible a|* To be able to perform a hardware (factory default) reset if needed (see <<s_Hardware-Reset-Resets-Parameters-and-Administrator-Password>>)
 |===
+
++++*+++ Use a drip loop for the cable entering the camera
+(see <<s_Install-Cameras-and-Other-Components>>)
+
 
 <<<
 
@@ -560,6 +557,10 @@ documentation - see <<s_Related-Documents>>).
 ** The {shortprodname} can be mounted on a wall or square pole using its built-in mounting bracket.
 
 ** You can also use an optional pole mount adapter (PMA) for pole mounting.
+
+** Use a drip loop (U-shaped slack part
+of the cable leaving a device that directs
+moisture down and away).
 +
 [NOTE]
 =====================================
@@ -570,24 +571,6 @@ according to the objectives of your project.
 Contact {compname-short} for guidance/training
 about this subject.
 =====================================
-+
-[CAUTION]
-=====================================
-To make a drip loop (U-shaped slack part
-of the cable leaving a device that directs
-moisture down and away): Adjust the camera's
-base (see <<f_Pan-Tilt-Roll-Angle-Adjustments>>) so
-that the notch through which the camera's cable
-will pass is pointing down (see <<f_Drip-Loop>>).
-=====================================
-
-<<<
-
-[#f_Drip-Loop]
-
-.Drip Loop
-
-image::ROOT:IZ600F/IZ600F-30-FIG-049_DripLoop_CableInNotch.png[image,width=800]
 
 [#s_Connect-Components-Wiring]
 
@@ -646,23 +629,18 @@ image::./UserGuide/image20.png[image,width=414,height=361]
 
 <<<
 
-=== Waterproofing the Cable Connection Points
+=== Waterproofing the Cable Connection Points (Junction Box)
 
 [CAUTION]
 ========================================
 All connections from the camera to the power supply and
-LAN must be enclosed in a waterproof junction box.
-
-You must seal all unused connections with waterproof
-insulating tape, such as butyl tape (such as the BNC connector and multi-wire cable),
-the ferrite core in the middle of the cable
-and the cable splitter
-(see <<f_Insulating-the-Cable-and-Connections>>).
+LAN, and the power supply, must be enclosed in a waterproof junction box
+(see <<f_Connections-In-Waterproof-Junction-Box>>).
 ========================================
 
-[#f_Insulating-the-Cable-and-Connections]
+[#f_Connections-In-Waterproof-Junction-Box]
 
-.Insulating the Cable and Connections
+.Connections in a Waterproof Junction Box
 
 image::./UserGuide/image21.png[image,width=630,height=236]
 
