@@ -9,7 +9,7 @@
 !2 !{plus}V (24 VDC) !Red
 !3 !LAN TX ({plus}) !White/Orange
 !4 !LAN TX (-) !Orange
-!5 !LAN TX ({plus}) !White/Green
+!5 !LAN RX ({plus}) !White/Green
 !6 !LAN RX (-) !Green
 !image:ROOT:GroundSymbol.png[image,width=20,height=26]  !Drain +
 (middle terminal) !Silver
