@@ -168,7 +168,7 @@ required is *_\{is there such a version to put in here?}_*
 
 2+.^| Max Vehicle Speed
 
-.^| *_\{should be 40 based on IZA500G/GR comparison ppt?}_* Up to 80 mph (129 km/h)
+.^| Up to 40 mph (64 km/h)
 
 2+.^| LPR Capture Distance (D) +
 (for U.S.A. plates; +
