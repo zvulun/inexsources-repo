@@ -21,7 +21,7 @@
 
 2+.^| Max Vehicle Speed
 
-.^| Up to 80 mph (129 km/h)
+.^| Up to 40 mph (64 km/h)
 
 2+.^| LPR Capture Distance+++*+++ +
 (for U.S.A. plates)
