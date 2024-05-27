@@ -434,7 +434,7 @@ include::ROOT:partial$IZA500G/p-IZA500G-wiring-table.adoc[IZA500G Wiring Table]
 
 [#s_Connecting-the-AC-Electricity]
 
-=== Connecting the AC Electricity
+=== Connecting the Power
 
 [WARNING]
 
