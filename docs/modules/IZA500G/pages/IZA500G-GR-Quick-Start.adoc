@@ -139,6 +139,6 @@ include::ROOT:partial$IZA500G/p-IZA500G-wiring-table.adoc[IZA500G Wiring Table]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {fileproductname}-TECH-001
+Doc. No. {fileproductname}-TECH-001 Ver. {docdate}
 
 
