@@ -128,6 +128,8 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 |{shortprodname}-IRW-P48 |Infrared and Visible Light illumination, PoE{plus}, 48 VDC input voltage
 |===
 
+<<<
+
 [discrete]
 == Standard Package Contents
 
@@ -136,7 +138,9 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 [discrete]
 == {shortprodname}-DRW, IRW LED Positions
 
-image::ROOT:IZA500G/image9.png[image,width=230]
+image::ROOT:IZA500G/image9.png[image,width=250]
+
+<<<
 
 [discrete]
 == Dimensions (inches/cm)
