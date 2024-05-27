@@ -136,9 +136,7 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 [discrete]
 == {shortprodname}-DRW, IRW LED Positions
 
-image::ROOT:IZA500G/image9.png[image,width=240]
-
-<<<
+image::ROOT:IZA500G/image9.png[image,width=250]
 
 [discrete]
 == Dimensions (inches/cm)
