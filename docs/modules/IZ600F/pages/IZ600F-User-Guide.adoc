@@ -234,7 +234,7 @@ All network cable extensions and repeaters must be shielded.
 
 image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height=75]
 
-* * Waterproof junction box for the camera's power and LAN connections
+* Waterproof junction box for the camera's power and LAN connections
 
 * Waterproof insulating tape (such as butyl tape)
 

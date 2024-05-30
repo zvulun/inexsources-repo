@@ -408,7 +408,6 @@ avoid having these items in the Field of View a|
 |===
 
 +++*+++ Use a drip loop for the cable entering the camera
-(see <<s_Connect-Components-Wiring>>)
 
 <<<
 
@@ -590,15 +589,15 @@ for important information.*
 [CAUTION]
 ========================================
 All connections from the camera to the power supply and
-LAN, and the power supply, must be enclosed in a waterproof junction box
-(see <<f_Connections-In-Waterproof-Junction-Box>>).
+LAN, and the power supply, must be enclosed in a waterproof junction box.
+//(see <<f_Connections-In-Waterproof-Junction-Box>>).
 ========================================
 
-[#f_Connections-In-Waterproof-Junction-Box]
+//[#f_Connections-In-Waterproof-Junction-Box]
 
-.Connections in a Waterproof Junction Box
+//.Connections in a Waterproof Junction Box
 
-image::./UserGuide/image21.png[image,width=630,height=236]
+//image::./UserGuide/image21.png[image,width=630,height=236]
 
 === Connecting the Cables
 
