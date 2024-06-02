@@ -94,7 +94,7 @@ L - Long distance, 30-70 ft (9-21 m)
 
 |Product release date |Q3-2023
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F3) |Changed/New (Rev. F3)
