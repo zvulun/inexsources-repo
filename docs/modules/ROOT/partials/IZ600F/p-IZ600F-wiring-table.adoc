@@ -3,6 +3,8 @@
 |Item |Description |Ordering Information
 .^|A .^a|*LAN Cables* .^|Supplied by integrator
 .^|B .^a|*Waterproof Connection Box* +
+(Used to enclose connections from the
+camera to the LAN and external power supply)
 .^|Not included
 
 ifdef::layout-type-technote[]
@@ -14,8 +16,7 @@ Connect to camera with a male barrel
 connector 5.5 mm outer diameter,
 2.1 mm inner diameter,
 or cut off connector and connect
-directly to red/black wires +
-(Connection must be enclosed in a waterproof junction box - not included)
+directly to red/black wires
 .^|{compname-short} P/N:
 xref:IZPWR:DocList.adoc[IZPWR75-12-MWL-DIN]
 endif::[]
