@@ -7,7 +7,6 @@ ifdef::layout-type-userguide[]
 (Used to enclose connections from the
 camera to the LAN)
 endif::[]
-
 ifdef::layout-type-technote[]
 (Used to enclose connections from the
 camera to the LAN and external power supply)
