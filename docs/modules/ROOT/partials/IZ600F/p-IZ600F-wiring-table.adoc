@@ -2,9 +2,8 @@
 |===
 |Item |Description |Ordering Information
 .^|A .^a|*LAN Cables* .^|Supplied by integrator
-.^|B .^a|*Waterproof Cap for Camera Network Connection* +
-(Connection must be enclosed in a waterproof junction box - not included)
-.^|Included with camera
+.^|B .^a|*Waterproof Connection Box* +
+.^|Not included
 
 ifdef::layout-type-technote[]
 .^|C .^a|*Power Supply for Camera:* 12 VDC,

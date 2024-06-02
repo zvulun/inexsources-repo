@@ -1,6 +1,6 @@
 {empty}
 
-(C) {compname-long} - All rights reserved. Specifications subject to change without notice. All third-party trademarks are the property of their respective owners.
+(C) {compname-long}, LLC - All rights reserved. Specifications are subject to change without notice. All third-party trademarks are the property of their respective owners.
 
 {empty}
 
