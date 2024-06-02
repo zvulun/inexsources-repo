@@ -4,7 +4,7 @@
 .^|A .^a|*LAN Cables* .^|Supplied by integrator
 .^|B .^a|*Waterproof Connection Box* +
 ifdef::layout-type-userguide[]
-(Used to enclose connections from the
+(Used to enclose the connection from the
 camera to the LAN)
 endif::[]
 ifdef::layout-type-technote[]
