@@ -49,7 +49,8 @@ described in their Installation Guides. If not, moisture
 problems may occur - which are not covered by the warranty.*
 ================================
 
-Click xref:IZ600F:DocList.adoc[here] for full {shortprodname2} documentation and software.
+Click xref:IZ600F:DocList.adoc[here] for full {camera-6F} documentation and software.
+Click xref:IZCloud:DocList.adoc[here] for {software-cloud} documentation.
 
 [sidebar]
 You will need: Laptop with Windows 10 or above
