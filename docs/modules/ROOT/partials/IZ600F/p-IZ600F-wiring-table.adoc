@@ -3,7 +3,6 @@
 |Item |Description |Ordering Information
 .^|A .^a|*LAN Cables* .^|Supplied by integrator
 .^|B .^a|*Waterproof Connection Box* +
-
 ifdef::layout-type-userguide[]
 (Used to enclose connections from the
 camera to the LAN)
