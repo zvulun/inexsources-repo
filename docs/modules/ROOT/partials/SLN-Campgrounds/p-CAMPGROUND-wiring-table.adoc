@@ -5,9 +5,23 @@
 Must be connected to the Internet +
 Supplies power to components via PoE (Power Over Ethernet)
 .^|Supplied by user: Suggested vendor:
-https://www.amazon.com/NETGEAR-Gigabit-Ethernet-Unmanaged-GS308PP/dp/B082G2G2F8?ref_=ast_sto_dp&th=1
-[link, window=_blank] +
+https://www.amazon.com/NETGEAR-Gigabit-Ethernet-Unmanaged-GS308PP/dp/B082G2G2F8?ref_=ast_sto_dp&th=1[link, window=_blank] +
+
 PoE extender (optional): Suggested vendor:
+https://www.amazon.com/gp/product/B08SC4LXP2/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1[link, window=_blank] +
+
+Need to provide {compname-short} with access
+to a Windows computer connected to the PoE
+switch (via Ethernet or a USB-to-Ethernet
+adapter – suggested vendor:
+https://www.amazon.com/USB-Ethernet-Adapter-Gigabit-Switch/dp/B09GRL3VCN/ref=sr_1_3?keywords=usb+to+ethernet+adapter&qid=1677696678&sprefix=usb+to%2Caps%2C100&sr=8-3[link, window=_blank]). +
+
+The computer should have
+https://www.teamviewer.com/[TeamViewer, window=_blank]
+or
+https://anydesk.com/[Anydesk, window=_blank]
+to provide a remote connection.
+
 .^|B .^a|*Waterproof Connection Box* +
 ifdef::layout-type-userguide[]
 (Used to enclose connections from the
