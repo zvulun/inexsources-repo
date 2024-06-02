@@ -40,47 +40,8 @@ camera to the LAN)
 .^|E .^a|*Gates*
 .^a|Supplied by user: Suggested vendors:
 
-
-ifdef::layout-type-userguide+xref-type-IZL[]
-*{illum-non-strobe} Illuminator*
-endif::[]
-
-ifdef::xref-type-IZ600F[]
-*xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator]*
-endif::[]
-
-.^|
-
-ifdef::layout-type-technote+xref-type-IZ600F[]
-{compname-short} P/N: See the
-xref:IZ600F:DocList.adoc[{docproductname}
-Installation Guide] for a table of
-Camera-to-Illuminator Recommended Setups
-endif::[]
-
-ifdef::layout-type-userguide+xref-type-IZ600F[]
-{compname-short} P/N: See
-<<t_Camera-to-Illuminator-Recommended-Setups>> for
-a table of Camera-to-Illuminator Recommended
-Setups.
-endif::[]
-
-ifdef::layout-type-userguide+xref-type-IZL[]
-{compname-short} P/N: See your camera's Installation
-Guide for a table of Camera-to-Illuminator
-Recommended Setups.
-endif::[]
-
-
-ifdef::layout-type-technote[]
-
-.^|H .^a|*Gates* .^| Supplied by integrator
-
-endif::[]
-
 |===
 
-ifdef::layout-type-technote[]
 * For device configuration instructions, see the
 xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad}] documentation.
-endif::[]
+
