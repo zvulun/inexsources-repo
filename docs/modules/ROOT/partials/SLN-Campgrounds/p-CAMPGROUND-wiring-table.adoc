@@ -5,16 +5,16 @@
 Must be connected to the Internet +
 Supplies power to components via PoE (Power Over Ethernet)
 .^|Supplied by user: Suggested vendor:
-https://www.amazon.com/NETGEAR-Gigabit-Ethernet-Unmanaged-GS308PP/dp/B082G2G2F8?ref_=ast_sto_dp&th=1[link, window=_blank] +
+https://www.amazon.com/NETGEAR-Gigabit-Ethernet-Unmanaged-GS308PP/dp/B082G2G2F8?ref_=ast_sto_dp&th=1[Link, window=_blank] +
 
 PoE extender (optional): Suggested vendor:
-https://www.amazon.com/gp/product/B08SC4LXP2/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1[link, window=_blank] +
+https://www.amazon.com/gp/product/B08SC4LXP2/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1[Link, window=_blank] +
 
 Need to provide {compname-short} with access
 to a Windows computer connected to the PoE
 switch (via Ethernet or a USB-to-Ethernet
 adapter – suggested vendor:
-https://www.amazon.com/USB-Ethernet-Adapter-Gigabit-Switch/dp/B09GRL3VCN/ref=sr_1_3?keywords=usb+to+ethernet+adapter&qid=1677696678&sprefix=usb+to%2Caps%2C100&sr=8-3[link, window=_blank]). +
+https://www.amazon.com/USB-Ethernet-Adapter-Gigabit-Switch/dp/B09GRL3VCN/ref=sr_1_3?keywords=usb+to+ethernet+adapter&qid=1677696678&sprefix=usb+to%2Caps%2C100&sr=8-3[Link, window=_blank]). +
 
 The computer should have
 https://www.teamviewer.com/[TeamViewer, window=_blank]
@@ -35,10 +35,12 @@ camera to the LAN)
 
 
 .^|D .^a|*Power Supply for {hw-indoor-processor} (Rev. B)*
-.^|Included with {hw-indoor-processor}
+.^|Included with xref:IZIDPUG:DocList.adoc[{hw-indoor-processor}]
 
 .^|E .^a|*Gates*
 .^a|Supplied by user: Suggested vendors:
+https://www.liftmaster.com/mat-mega-arm-tower-operators/p/MAT[Link, window=_blank],
+https://www.elkaparkingbarrier.com/parking-barrier.html[Link, window=_blank]
 
 |===
 
