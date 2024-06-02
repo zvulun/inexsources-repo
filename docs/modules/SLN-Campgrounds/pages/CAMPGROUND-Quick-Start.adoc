@@ -64,11 +64,14 @@ a waterproof junction box
 used to enclose the connection from the camera to
 the LAN.
 
+<<<
 
 [discrete]
 === Typical Wiring Diagram
 
 image::ROOT:SLN-Campgrounds/CAMPGRND-CMP-FIG-048b_GatesQuickStartWiring.png[image,width=500,align=left]
+
+//<<<
 
 [discrete]
 === Legend
