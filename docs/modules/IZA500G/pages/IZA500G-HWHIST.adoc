@@ -73,6 +73,8 @@ products, such as physical appearance, hardware
 improvements, changes to package contents, part number
 changes, etc. Firmware changes are not included.
 
+<<<
+
 [#s_Q3-2023-Revision-F3]
 
 [discrete]
@@ -304,6 +306,8 @@ L - Long distance, 30-70 ft (9-21m)
 .^|Part No. {shortprodname}-L-IR
 |===
 
+<<<
+
 [#s_Q2-2021-Revision-D]
 [discrete]
 == Q2-2021 Revision D
@@ -447,6 +451,8 @@ L - Long distance, 30-70 ft (9-21m)
 |Part No. {shortprodname}-S-770 |--- |{shortprodname}-S-770
 |Part No. {shortprodname}-S-850 |--- |{shortprodname}-S-850
 |===
+
+<<<
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
