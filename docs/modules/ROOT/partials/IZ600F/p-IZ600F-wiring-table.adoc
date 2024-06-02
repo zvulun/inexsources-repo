@@ -4,7 +4,11 @@
 .^|A .^a|*LAN Cables* .^|Supplied by integrator
 .^|B .^a|*Waterproof Connection Box* +
 (Used to enclose connections from the
-camera to the LAN and external power supply)
+camera to the LAN
+ifdef::layout-type-technote[]
+and external power supply
+endif::[]
+)
 .^|Not included
 
 ifdef::layout-type-technote[]
