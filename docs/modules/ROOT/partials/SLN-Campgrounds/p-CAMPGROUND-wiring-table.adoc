@@ -1,0 +1,89 @@
+[table.withborders,width="100%",cols="7%,52%,41%",options="header",]
+|===
+|Item |Description |Ordering Information
+.^|A .^a|*Gigabit Ethernet PoE Network Switch* +
+Must be connected to the Internet +
+Supplies power to components via PoE (Power Over Ethernet)
+.^|Supplied by user: Suggested vendor:
+https://www.amazon.com/NETGEAR-Gigabit-Ethernet-Unmanaged-GS308PP/dp/B082G2G2F8?ref_=ast_sto_dp&th=1
+[link, window=_blank] +
+PoE extender (optional): Suggested vendor:
+.^|B .^a|*Waterproof Connection Box* +
+ifdef::layout-type-userguide[]
+(Used to enclose connections from the
+camera to the LAN)
+endif::[]
+ifdef::layout-type-technote[]
+(Used to enclose connections from the
+camera to the LAN and external power supply)
+endif::[]
+
+.^|Not included
+
+ifdef::layout-type-technote[]
+.^|C .^a|*Power Supply for Camera:* 12 VDC,
+50/75W; DIN rail +
+Can power 2 cameras from a single power supply +
+{empty} +
+Connect to camera with a male barrel
+connector 5.5 mm outer diameter,
+2.1 mm inner diameter,
+or cut off connector and connect
+directly to red/black wires
+.^|{compname-short} P/N:
+xref:IZPWR:DocList.adoc[IZPWR75-12-MWL-DIN]
+endif::[]
+
+.^|D .^a|*Power Supply for {hw-indoor-processor} (Rev. B)* .^|Included with {hw-indoor-processor}
+.^|E .^a|*Power Supply for Illuminator:* 24 VDC, 100/120W or 240W; DIN rail .^a|
+For {illum-non-strobe}1, {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN] +
+For {illum-non-strobe}2, {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
+
+.^|F .^a|*Power/Signals Cable for Illuminator* .^|Included with illuminator
+
+.^|G
+.^a|
+
+ifdef::layout-type-userguide+xref-type-IZL[]
+*{illum-non-strobe} Illuminator*
+endif::[]
+
+ifdef::xref-type-IZ600F[]
+*xref:IZL:DocList.adoc[{illum-non-strobe} Illuminator]*
+endif::[]
+
+.^|
+
+ifdef::layout-type-technote+xref-type-IZ600F[]
+{compname-short} P/N: See the
+xref:IZ600F:DocList.adoc[{docproductname}
+Installation Guide] for a table of
+Camera-to-Illuminator Recommended Setups
+endif::[]
+
+ifdef::layout-type-userguide+xref-type-IZ600F[]
+{compname-short} P/N: See
+<<t_Camera-to-Illuminator-Recommended-Setups>> for
+a table of Camera-to-Illuminator Recommended
+Setups.
+endif::[]
+
+ifdef::layout-type-userguide+xref-type-IZL[]
+{compname-short} P/N: See your camera's Installation
+Guide for a table of Camera-to-Illuminator
+Recommended Setups.
+endif::[]
+
+
+ifdef::layout-type-technote[]
+
+.^|H .^a|*Gates* .^| Supplied by integrator
+
+endif::[]
+
+|===
+
+ifdef::layout-type-technote[]
+* For device configuration instructions, see the
+xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad}] documentation.
+endif::[]

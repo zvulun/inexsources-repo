@@ -68,18 +68,14 @@ the LAN.
 [discrete]
 === Typical Wiring Diagram
 
-*_\{need different picture}_*
-
-//image::ROOT:IZ600F/IZ600F-30-FIG-048c_GatesQuickStartWiring.png[image,width=500,align=left]
+image::ROOT:SLN-Campgrounds/CAMPGRND-CMP-FIG-048b_GatesQuickStartWiring.png[image,width=500,align=left]
 
 [discrete]
 === Legend
 
 //.Legend
 
-*_\{need special wiring table}_*
-
-//include::ROOT:partial$IZ600F/p-IZ600F-wiring-table.adoc[IZ600F Wiring Table]
+include::ROOT:partial$SLN-Campgrounds/p-CAMPGROUND-wiring-table.adoc[CAMPGROUND Wiring Table]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
