@@ -133,7 +133,7 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q4-2022
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F2) |Changed To (Rev. F3)
@@ -169,7 +169,7 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q3-2022
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F2) |Changed To (Rev. F2)
@@ -204,7 +204,7 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q2-2022
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F1) |Changed To (Rev. F2)
@@ -240,7 +240,7 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q4-2021
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. F1) |Changed To (Rev. F1)
@@ -282,7 +282,7 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q3-2021
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. D) |Changed To (Rev. F1)
@@ -314,7 +314,7 @@ L - Long distance, 30-70 ft (9-21m)
 .^|Summary |Part number changes (see next table)
 |Product release date |Q2-2021
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. D) |Changed To (Rev. D)
@@ -342,7 +342,7 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q1-2021
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. C) |Changed To (Rev. D)
@@ -372,7 +372,7 @@ L - Long distance, 30-70 ft (9-21m)
 
 |Product release date |Q4-2020
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (Rev. B) |Changed To (Rev. C)
@@ -396,7 +396,7 @@ L - Long distance, 30-70 ft (9-21m)
 .^|Summary |Internal hardware change
 |Product release date |Q3-2020
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (A2) |Changed To (Rev. B)
@@ -418,7 +418,7 @@ L - Long distance, 30-70 ft (9-21m)
 .^|Summary |Lithium battery replaced by super capacitor
 |Product release date |Q2-2020
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (A1) |Changed To (Rev. A2)
@@ -438,7 +438,7 @@ L - Long distance, 30-70 ft (9-21m)
 .^|Summary |First release
 |Product release date |Q1-2020
 |===
-
++++<br>+++
 [table.withborders,width="100%",cols="33%,33%,34%",options="header",]
 |===
 |Changed Item Details |Previous (None) |Changed To (Rev. A1)
