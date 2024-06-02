@@ -87,7 +87,7 @@ changes, etc. Firmware changes are not included.
 * New power input option of PoE{plus} (for new P48 models; requires {hw-poeinjector} Gigabit 4-Port PoE{plus}{plus} Injector)
 
 * LPR Capture Distance changed from 5-70 ft (1.5-21 m) to: +
-S - Short distance, 5-35 ft (2-11 m) +
+S - Short distance, 5-35 ft (1.5-11 m) +
 L - Long distance, 30-70 ft (9-21 m)
 
 * Model number additions to accommodate new power options
@@ -452,6 +452,6 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-HWHIST
+Doc. No. {shortprodname}-HWHIST Ver. {docdate}
 
 
