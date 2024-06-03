@@ -60,9 +60,9 @@ Chrome or Microsoft Edge browser.+++<br>+++
 Contact {compname-short} to have a technician
 help you change camera network settings. +++<br>+++
 +++<br>+++
-The dotted line box represents
-a waterproof junction box
-used to enclose the connection from the camera to
+The dotted line boxes represent
+waterproof junction boxes
+used to enclose connections from the camera to
 the LAN, and any unused connectors.
 
 //<<<
