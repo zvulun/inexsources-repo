@@ -63,7 +63,7 @@ help you change camera network settings. +++<br>+++
 The dotted line box represents
 a waterproof junction box
 used to enclose the connection from the camera to
-the LAN.
+the LAN, and any unused connectors.
 
 //<<<
 

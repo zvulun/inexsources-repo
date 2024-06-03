@@ -57,11 +57,12 @@ Chrome or Microsoft Edge browser.+++<br>++++++<br>+++
 You can use xref:IZDiscovery:DocList.adoc[{software-discovery}]
 to find the desired camera and change its network
 settings.+++<br>++++++<br>+++
-Note that in the wiring diagrams,
-the dotted line box represents
-a waterproof junction box
+In the wiring diagrams,
+the dotted line boxes represent
+waterproof junction boxes
 used to enclose connections from the camera to
-the LAN (and external power supply, if used).
+the LAN (and external power supply, if used),
+and any unused connectors.
 
 
 
