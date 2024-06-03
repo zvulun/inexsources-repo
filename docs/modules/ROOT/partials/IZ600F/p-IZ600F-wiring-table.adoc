@@ -28,7 +28,7 @@ directly to red/black wires
 xref:IZPWR:DocList.adoc[IZPWR75-12-MWL-DIN]
 endif::[]
 
-.^|D .^a|*Power Supply for {hw-indoor-processor} (Rev. B)* .^|Included with {hw-indoor-processor}
+.^|D .^a|*Power Supply for {hw-indoor-processor} (Rev. B)* .^|Included with xref:IZIDPUG:DocList.adoc[{hw-indoor-processor}]
 .^|E .^a|*Power Supply for Illuminator:* 24 VDC, 100/120W or 240W; DIN rail .^a|
 For {illum-non-strobe}1, {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR120-24-MWL-DIN] +
 For {illum-non-strobe}2, {compname-short} P/N: xref:IZPWR:DocList.adoc[IZPWR240-24-MWL-DIN]
