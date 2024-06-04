@@ -148,7 +148,7 @@ LPR engine performance
 .^| Video Streaming
 .^| RTSP Protocol
 
-.2+.^| Supported Protocols (for additional protocols, see the {software-ALPR} documentation)
+.2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
 .^| {compname-short} HTTP API
 .^| LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images.
 
