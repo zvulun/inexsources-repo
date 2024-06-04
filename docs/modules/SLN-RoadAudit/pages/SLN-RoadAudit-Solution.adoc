@@ -214,7 +214,7 @@ include::ROOT:partial$/SLN-RoadAudit/p-RoadAudit-DPU-DVAS.adoc[RoadAudit DPU/DVA
 [discrete]
 == Dimensions (inches/cm)
 
-image::ROOT:IZA800G/image5.png[image,width=315,height=205]
+image::ROOT:IZA800GRV/IZA800GRV-FIG-003_Front_Dimensions.png[image,width=315,height=205]
 
 image::ROOT:IZA800G/image6.png[image,width=463,height=224]
 

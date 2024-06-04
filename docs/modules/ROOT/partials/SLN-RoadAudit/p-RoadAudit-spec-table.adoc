@@ -62,7 +62,7 @@ LPR engine performance
 2.1+.^| LPR Capture Distance* +
 (for U.S.A. plates)
 
-.^a| * S - Short distance, 5-35 ft (2-11 m)
+.^a| * S - Short distance, 5-35 ft (1.5-11 m)
 * L - Long distance, 30-70 ft (9-21 m)
 * XL - Extra-long distance 33-80 ft (10-24 m)
 
@@ -176,7 +176,7 @@ LPR engine performance
 
 .6+.^| Certifications
 .^| EMC
-.^| FCC Class B/CE
+.^| FCC Part 15, subpart B; CE
 
 
 .^| Interoperability
@@ -252,19 +252,20 @@ LPR engine performance
 
 2.6+.^| Accessories Available
 
-.^| DIN Rail Mount Power Supplies (IZPWR)
+.^| DIN Rail Mount Power Supplies (xref:IZPWR:DocList.adoc[IZPWR])
 
 .^| Digital I/O Controller ({hw-iocontroller})
 
-.^| Power/Signals Cable for {software-ALPR} System+++<br>+++
-(IZCAB-A800-PAS - different lengths)
+.^| Power/Signals Cable for {camera-8G} System+++<br>+++
+(xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS]) - different lengths
 
-.^| LAN Cable for {software-ALPR} System+++<br>+++
-(IZCAB-A800-LAN - different lengths)
+.^| LAN Cable for {camera-8G} System
+(xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN]) +
+- different lengths
 
-.^| Different mount options available
+.^| Different xref:MNT-ProdToMountMap:DocList.adoc[mount options] available
 
-.^| External Illuminator ({illum-strobe} Series)
+.^| External Illuminator (xref:IZS:DocList.adoc[{illum-strobe} Series])
 
 |===
 
