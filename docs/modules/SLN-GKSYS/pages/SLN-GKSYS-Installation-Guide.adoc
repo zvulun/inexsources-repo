@@ -149,7 +149,11 @@ required is *_\{is there such a version to put in here?}_*
 ** IZMNTA-WE - wall mount
 ** IZMNTA-WE{plus}MNT-PMA -  pole mount
 ** IZMNTA-UC - under-ceiling
-* *_\{is IZCloud relevant?}_* IZCLOUD-APM - {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring
+* IZCLOUD-APM - {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring
+* Third-party Software: *_\{who provides this -
+"your system administrator"? Inex?}_*
+** Cisco Meraki Account
+** Cisco AnyConnect (provides VPN access to the cameras)
 
 <<<
 
@@ -195,11 +199,9 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=cen
 
 == Camera Wiring
 
-*_\{need correct picture}_*
-
 .Camera Wiring
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=center]
+image::ROOT:SLN-GKSYS/IZA500G-FIG-103_GKSYS_Wiring.png[image,800,align=center]
 
 {empty} +
 
@@ -219,8 +221,8 @@ For 1 camera, use a 75 W supply (IZPWR75-48) +
 For 2 cameras, use a 120 W supply (IZPWR120-48) +
 For 4 cameras, use a 240 W supply (IZPWR240-48)
 .^|E .^a|*Gate* .^|Supplied by integrator
-.^|F .^a|*Inductive Loop* .^|Supplied by integrator
-.^|G .^a|*Loop Detector* .^|Supplied by integrator
+//.^|F .^a|*Inductive Loop* .^|Supplied by integrator
+//.^|G .^a|*Loop Detector* .^|Supplied by integrator
 |===
 
 * The xref:IZ4POE:DocList.adoc[{hw-poeinjector}] is required for the PoE{plus} input power option;
@@ -228,6 +230,46 @@ a standard PoE network switch cannot be used.
 
 
 <<<
+
+== Installing Cisco Software
+
+. Get a Cisco Meraki account from your system administrator.
+You should receive a verification emails
+from Meraki with your account name
+and password.
+
+. Get the Cisco AnyConnect software
+from your system administrator
+(provides VPN access to the cameras).
+
+. Download the AnyConnect software, and
+run the setup.exe file.
+
+. Select the module to install -
+only the "Core and AnyConnect VPN"
+(uncheck all the other modules) +
++
+.Cisco AnyConnect Module Selection
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-201_AnyConnect_Module_Selection.png[image,500,align=center]
+
+. After installation is completed, open
+the Cisco Secure Client, and type
+the following URL in the text field: +
+phl-crnnnqkkkc.dynamic-m.com:8080 +
++
+.Cisco Secure Client Login
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-202_SecureClientLogin.png[image,300,align=center]
+
+. Enter the username and password you
+received from your system administrator.
+.. You should see a message that the VPN
+connection was successful.
+.. You will also see a globe icon with a lock
+on your taskbar; click on this icon
+to display a dialog enabling you to log off
+of the client.
 
 == Use {software-discovery}
 
