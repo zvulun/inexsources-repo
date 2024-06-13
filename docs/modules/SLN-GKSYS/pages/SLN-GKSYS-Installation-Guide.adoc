@@ -178,7 +178,7 @@ required is *_\{is there such a version to put in here?}_*
 (for U.S.A. plates; +
 measured from camera to plate)
 
-.^| *_\{change according to IZA500G/GR comparison PPT?}_* 5-70 ft (1.5-21 m); 8 ft (2.4 m) recommended
+.^| 5-70 ft (1.5-21 m); 8 ft (2.4 m) recommended
 
 |===
 
@@ -260,10 +260,10 @@ phl-crnnnqkkkc.dynamic-m.com:8080 +
 +
 .Cisco Secure Client Login
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-202_SecureClientLogin.png[image,300,align=center]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-202_SecureClientLogin.png[image,500,align=center]
 
 . Enter the username and password you
-received from your system administrator.
+received from Meraki.
 .. You should see a message that the VPN
 connection was successful.
 .. You will also see a globe icon with a lock
@@ -852,7 +852,7 @@ occurs.
 ======================
 
 *_\{is this relevant?}_* The minimum {docproductname} {docproductname3} version
-required is 9.3.3
+required is *_\{what is the version?}_*
 
 ======================
 
@@ -1242,8 +1242,7 @@ has sufficient accuracy and confidence.
 
 == IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
 
-*_\{Is IZCloud relevant for GKSYS? and if so,
-is the version of the IZCloud screens shown here
+*_\{is the version of the IZCloud screens shown here
 correct for GKSYS - these are the screens from TIBA}_*
 
 {software-cloud} ALPR Performance Monitoring software ({software-cloud}-APM)
