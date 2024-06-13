@@ -255,7 +255,8 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-201_AnyConnect_Module_Selection.png[image,500
 
 . After installation is completed, open
 the Cisco Secure Client, and type
-the following URL in the text field: +
+the following URL in the text field,
+and click Connect: +
 phl-crnnnqkkkc.dynamic-m.com:8080 +
 +
 .Cisco Secure Client Login
@@ -302,12 +303,12 @@ include::ROOT:partial$p-configure-ms-edge-2.adoc[[Second part of MS Edge configu
 
 include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
-=== Live View (link at upper right)
+=== Live View (link at upper left)
 * The focus will be set automatically;
 can be fine-adjusted manually with buttons
 * Use the buttons to Zoom in/out
 
-=== Admin (link at upper right)
+=== Admin (link at upper left)
 
 * Enter username and password (root/IZpass12)
 * Use the menu at the left to select the parameter
