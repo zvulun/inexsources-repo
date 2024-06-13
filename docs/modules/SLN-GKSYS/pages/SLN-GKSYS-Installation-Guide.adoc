@@ -345,9 +345,9 @@ Change the parameters to match the following screen captures:
 
 === LPR Camera - Video &amp; Device &gt; Video Streams
 
-==== Triggered Mode
+//==== Triggered Mode
 
-.LPR Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
+.LPR Camera - Video &amp; Audio &gt; Stream Setup
 
 image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
 
