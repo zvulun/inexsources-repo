@@ -530,13 +530,13 @@ image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 * Click on the multi-line menu icon at the upper right of the {software-ALPR} screen
 
-* Select "Logout" *_\{need picture with Change Password option}_*
+* Select "Logout"
 
 [#f_Logout-Multi-line-Menu]
 
 .Logout (Multi-line Menu)
 
-image::ROOT:RoadViewALPR/RV-1_15-FIG-020a_Logging_Out.png[image,width=80]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-020a_Logging_Out.png[image,width=120]
 
 [#s_Configure-RoadView-Settings-Tab]
 
