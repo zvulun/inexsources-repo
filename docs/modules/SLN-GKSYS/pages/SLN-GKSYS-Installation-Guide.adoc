@@ -325,8 +325,9 @@ each parameter section.*
 
 == LPR Camera (Sensor) Configuration
 
-*_\{need settings for the GKSYS project -
-these were taken from TIBA}_*
+*_\{The LPR and OV Stream Setup screens did not have these
+parameters pre-set; will they be set
+in the production version?}_*
 
 The camera(s) are usually pre-configured;
 this section displays typical settings
@@ -342,6 +343,8 @@ each parameter section.*
 
 Change the parameters to match the following screen captures:
 ////
+
+[#s_LPR-Camera-Stream-Setup]
 
 === LPR Camera - Video &amp; Audio &gt; Stream Setup
 
@@ -388,25 +391,25 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-204_LPRCameraSetup.png[image,400]
 
 <<<
 
-=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+//=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
-.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+//.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
+//image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
 
-{empty} +
+//{empty} +
 
 === LPR Camera - System &gt; Access Level
 
 .LPR Camera - System &gt; Access Level
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-205_LPRAccessLevel.png[image,600]
 
 <<<
 
 == OV Camera (Sensor) Configuration
 
-The camera(s) are pre-configured;
+The camera(s) are usually pre-configured;
 this section displays typical settings
 for reference.
 
@@ -422,22 +425,24 @@ each parameter section.*
 Change the parameters to match the following screen captures:
 ////
 
-=== OV Camera - Video &amp; Device &gt; Video Streams
+=== OV Camera - Video &amp; Audio &gt; Stream Setup
 
-==== Triggered Mode
+//==== Triggered Mode
 
-.OV Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
+.OV Camera - Video &amp; Audio &gt; Stream Setup
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-206_OVStreamSetup.png[image,400]
 
-==== Non-triggered Mode
+Follow the same steps as for the <<s_LPR-Camera-Stream-Setup>>.
 
-For Non-triggered mode, set the primary stream frame rate
-to 10 fps.
+//==== Non-triggered Mode
 
-.OV Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
+//For Non-triggered mode, set the primary stream frame rate
+//to 10 fps.
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
+//.OV Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
+
+//image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
 
 === OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
