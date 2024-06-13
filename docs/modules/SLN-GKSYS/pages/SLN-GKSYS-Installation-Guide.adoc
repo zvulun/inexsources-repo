@@ -328,7 +328,7 @@ each parameter section.*
 *_\{need settings for the GKSYS project -
 these were taken from TIBA}_*
 
-The camera(s) are pre-configured;
+The camera(s) are usually pre-configured;
 this section displays typical settings
 for reference.
 
@@ -343,22 +343,29 @@ each parameter section.*
 Change the parameters to match the following screen captures:
 ////
 
-=== LPR Camera - Video &amp; Device &gt; Video Streams
+=== LPR Camera - Video &amp; Audio &gt; Stream Setup
 
 //==== Triggered Mode
 
 .LPR Camera - Video &amp; Audio &gt; Stream Setup
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-203_LPRStreamSetup.png[image,400]
 
-==== Non-triggered Mode
+. Set the Max Frame Rate to 30 fps
 
-For Non-triggered mode, set the primary stream frame rate
-to 10 fps.
+. Click the Primary link
 
-.LPR Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
+. Enter the Camera Name (Primary Stream)
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
+. Use the dropdown to set the Frame Rate to 5 fps
+
+. Click Apply
+
+//==== Non-triggered Mode
+
+//.LPR Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
+
+//image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
 
 <<<
 
