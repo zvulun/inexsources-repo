@@ -352,7 +352,7 @@ Change the parameters to match the following screen captures:
 
 .LPR Camera - Video &amp; Audio &gt; Stream Setup
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-203_LPRStreamSetup.png[image,400]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-203_LPRStreamSetup.png[image,450]
 
 . Set the Max Frame Rate to 30 fps
 
@@ -431,7 +431,7 @@ Change the parameters to match the following screen captures:
 
 .OV Camera - Video &amp; Audio &gt; Stream Setup
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-206_OVStreamSetup.png[image,400]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-206_OVStreamSetup.png[image,450]
 
 Follow the same steps as in <<s_LPR-Camera-Stream-Setup>>.
 
