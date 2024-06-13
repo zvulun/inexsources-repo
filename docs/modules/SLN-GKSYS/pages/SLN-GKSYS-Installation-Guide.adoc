@@ -583,7 +583,7 @@ an IZA500G (not GR) in its examples?}_*
 
 .Software Version and Camera Information Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,400]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-001a_VersionAndCameraInfo.png[image,400]
 
 <<<
 
