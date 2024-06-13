@@ -369,20 +369,20 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-203_LPRStreamSetup.png[image,400]
 
 <<<
 
-=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+=== LPR Camera - Video &amp; Audio &gt; Camera Setup
 
-////
+
 [NOTE]
 =====================
-Before changing the Camera Settings parameters, be sure to click
+Before changing the Camera Setup parameters, be sure to click
 the Default(Day) link at the top of
-the Camera Settings table.
+the table.
 =====================
-////
 
-.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,400]
+.LPR Camera - Video &amp; Audio &gt; Camera Setup
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-204_LPRCameraSetup.png[image,400]
 
 {empty} +
 
