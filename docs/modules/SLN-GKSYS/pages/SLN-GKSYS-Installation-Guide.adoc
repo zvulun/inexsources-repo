@@ -433,7 +433,7 @@ Change the parameters to match the following screen captures:
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-206_OVStreamSetup.png[image,400]
 
-Follow the same steps as for the <<s_LPR-Camera-Stream-Setup>>.
+Follow the same steps as in <<s_LPR-Camera-Stream-Setup>>.
 
 //==== Non-triggered Mode
 
@@ -444,38 +444,37 @@ Follow the same steps as for the <<s_LPR-Camera-Stream-Setup>>.
 
 //image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
 
-=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+=== OV Camera - Video &amp; Audio &gt; Camera Setup
 
-////
+
 [NOTE]
 =====================
-Before changing the Camera Settings parameters, be sure to click
+Before changing the Camera Setup parameters, be sure to click
 the Default(Day) link at the top of
-the Camera Settings table.
+the table.
 =====================
-////
 
-.OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+.OV Camera - Video &amp; Audio &gt; Camera Setup
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-113_TIBAOVCameraSettings.png[image,400]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-207_OVCameraSetup.png[image,400]
 
 {empty} +
 
 <<<
 
-=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+//=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
-.OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
+//.OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-115_TIBAOVPrimaryStream.png[image,600]
+//image::ROOT:SLN-TIBA/IZA500G-FIG-115_TIBAOVPrimaryStream.png[image,600]
 
-{empty} +
+//{empty} +
 
 === OV Camera - System &gt; Access Level
 
 .OV Camera - System &gt; Access Level
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-117_TIBAOVAccessLevel.png[image,600]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-208_OVAccessLevel.png[image,600]
 
 <<<
 
