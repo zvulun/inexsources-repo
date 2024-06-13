@@ -502,13 +502,13 @@ For example: +
 {ip-default-IZA-DPU}
 
 . You will see the login screen. Enter the default username
-and password (root, root): *_\{change to dialog with reset password link}_*
+and password (root, root):
 +
 [#f_Logging-In-to-RoadView]
 
 .Logging In to {software-ALPR}
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,height=143]
+image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 . You should see the {software-ALPR} Live (Journal) tab
 (see <<s_Verify-System-Operation>>).
@@ -525,7 +525,7 @@ image::ROOT:SLN-TIBA/RV-TIBA-FIG-012_OldLoginNoResetPW.png[image,width=209,heigh
 
 .Logout (Multi-line Menu)
 
-image::RoadViewALPR:UserGuide/image5.png[image,width=136,height=113]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-020a_Logging_Out.png[image,width=80]
 
 [#s_Configure-RoadView-Settings-Tab]
 
