@@ -591,6 +591,9 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-001a_VersionAndCameraInfo.png[image,400]
 
 === Network Settings
 
+*_\{I have used generic settings here, since
+we should not publicize actual IP addresses}_*
+
 [#f_Network-Settings-Section]
 
 .Network Settings Section
@@ -639,14 +642,11 @@ and countries in North America (U.S. and Canada) and South America.
 
 ========================================
 
-*_\{change location to a u.s. location
-like new york - not Israel?}_*
-
 [#f_Date-and-Time-Settings-Section]
 
 .Date and Time Settings Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-001d_Date_Time.png[image,600]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-001d_Date_Time.png[image,600]
 
 // * Set Time (Automatically/Manually)
 
