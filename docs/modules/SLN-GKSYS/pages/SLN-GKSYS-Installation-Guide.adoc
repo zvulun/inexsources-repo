@@ -998,9 +998,6 @@ Detector Configuration section after making changes.
 
 === Detector Configuration
 
-*_\{take a new screen shot with the Detector
-Configuration setting for GKSYS}_*
-
 * Set the parameters as shown here
 
 * Remember to click the Save button
