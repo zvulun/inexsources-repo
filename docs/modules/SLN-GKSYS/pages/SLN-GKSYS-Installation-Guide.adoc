@@ -1401,7 +1401,7 @@ image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
 
 .{software-cloud} Last Review Page
 
-image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-LastReview-Lane1.png[image,800]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-210_IZCloudLastReview.png[image,800]
 
 Columns/Filters:
 
@@ -1458,7 +1458,7 @@ image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
 
 .{software-cloud} Dashboard Page
 
-image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-DashBrd-HoverBarChart.png[image,800]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-211_IZCloudDashboard.png[image,800]
 
 Page Elements:
 
@@ -1528,7 +1528,7 @@ video stream from the camera.
 
 .{software-cloud} Lanes Page
 
-image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes.png[image,500]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-212_IZCloudLanes.png[image,500]
 
 * Click on the license plate
 image to display plate, LPR and Overview
@@ -1543,7 +1543,7 @@ with the updated read. +
 
 .{software-cloud} Lanes - Correct Plate Read
 
-image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes-CorrectPlate.png[image,400]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-213_IZCloudCorrectPlate.png[image,400]
 
 
 <<<
