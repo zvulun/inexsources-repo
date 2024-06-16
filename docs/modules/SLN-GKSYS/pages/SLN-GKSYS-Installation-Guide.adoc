@@ -918,20 +918,17 @@ open a gate via a relay.
 
 === Direct Trigger
 
-==== Triggered Mode
+//==== Triggered Mode
 
 // add in option for non-trigger
 // but in detector configuration
 // what parameters will be different
 
-Set the Direct Trigger Mode as follows:
+//Set the Direct Trigger Mode as follows:
 
-* For Front Capture - OnRise
 
-* For Rear Capture - OnFall
-
-* Remember to click the Save button at the end of the
-Detector Configuration section after making changes.
+//* Remember to click the Save button at the end of the
+//Detector Configuration section after making changes.
 
 
 [#f_Direct-Trigger-Section]
@@ -940,7 +937,7 @@ Detector Configuration section after making changes.
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
 
-==== Non-triggered Mode
+//==== Non-triggered Mode
 
 * Set the Direct Trigger Mode to Disabled
 
@@ -953,6 +950,8 @@ Detector Configuration section after making changes.
 
 === Trigger Offset
 
+*_\{need new image showing disabled/zero}_*
+
 [#f_Trigger-Offset-Section]
 
 .Trigger Offset Section
@@ -960,34 +959,25 @@ Detector Configuration section after making changes.
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
 
 
-==== Triggered Mode
+//==== Triggered Mode
 
-You can capture a vehicle
-(and create an Event) at a different
-position than the location of the in-ground loop.
-Use this Trigger Offset parameter to capture
-the vehicle before or after the loop.
+//You can capture a vehicle
+//(and create an Event) at a different
+//position than the location of the in-ground loop.
+//Use this Trigger Offset parameter to capture
+//the vehicle before or after the loop.
 
-For example, in this illustration, the loop is directly
-under the barrier bar. Setting the Trigger Offset
-to -200 will move the capture point up
-the lane, and capture the plate before
-it is obstructed from view by the bar.
+//For example, in this illustration, the loop is directly
+//under the barrier bar. Setting the Trigger Offset
+//to -200 will move the capture point up
+//the lane, and capture the plate before
+//it is obstructed from view by the bar.
 
-.Trigger Offset Illustration
+//.Trigger Offset Illustration
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003c_TriggerOffsetIllustrated.png[image,400]
+//image::ROOT:SLN-TIBA/RV-TIBA-FIG-003c_TriggerOffsetIllustrated.png[image,400]
 
-* Enable Trigger Offset and
-set the parameter (in milliseconds)
-
-* Remember to click the Save button at the end of the
-Detector Configuration section after making changes.
-
-
-==== Non-triggered Mode
-
-Disable (uncheck) the "Enabled" checkbox.
+* Disable (uncheck) the "Enabled" checkbox.
 
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
@@ -1017,6 +1007,8 @@ Explanations of frequently used parameters:
 ** +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
 
 ** +++<u>+++NonTriggered+++</u>+++ - Events are created and reported by LPR video analytics
+
+*_\{are these regions relevant for GKSYS?}_*
 
 * *Region* - Region for which characters on the plate will be recognized. Select from the following options:
 
