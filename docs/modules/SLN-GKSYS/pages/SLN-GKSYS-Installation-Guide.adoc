@@ -946,7 +946,7 @@ open a gate via a relay.
 
 .Trigger Offset Section
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-003b_Trigger_Offset.png[image,600]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-003b_Trigger_Offset.png[image,300]
 
 
 //==== Triggered Mode
