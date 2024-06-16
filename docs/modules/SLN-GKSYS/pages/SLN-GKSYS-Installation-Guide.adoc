@@ -691,6 +691,8 @@ end of this section after making changes.
 
 Use this section to add and configure Lanes.
 
+*_\{need new screen shot}_*
+
 [#f_Lanes-Section]
 
 .Lanes Section
@@ -722,7 +724,7 @@ you will need to create two different "Lanes",
 and associate each Camera System's cameras with a different "Lane".
 
 ========================================
-+
++ *_\{need new screen shot}_*
 [#f_Add-Edit-Lane-Dialog]
 
 .Add/Edit Lane Dialog
@@ -756,6 +758,8 @@ from the rear of vehicles
 [#s_Cameras]
 
 === Cameras
+
+*_\{need new screen shot}_*
 
 [#f_Cameras-Section]
 
@@ -791,7 +795,7 @@ following changes: +
 last Transaction ID. +
 - The history of previous Events for that camera will be cleared
 ========================================
-
+*_\{need new screen shot}_*
 * *Add Camera* (button at end of Cameras section):
 +
 [#f_Add-Edit-Camera-Dialog]
@@ -930,6 +934,7 @@ open a gate via a relay.
 //* Remember to click the Save button at the end of the
 //Detector Configuration section after making changes.
 
+*_\{need new screen shot showing disabled}_*
 
 [#f_Direct-Trigger-Section]
 
@@ -1045,7 +1050,10 @@ Explanations of frequently used parameters:
 
 == Configure {software-ALPR} - System Info Tab
 
-*_\{need new screen shot for GKSYS}_*
+*_\{need new screen shot for GKSYS - currently
+only shows upper section with basic info -
+may be due to the same bug preventing us
+from seeing the System Tab's parameters}_*
 
 * Set the parameters as shown here
 
@@ -1094,6 +1102,8 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 [#s_Calibrating-the-Cameras-Using-RoadView]
 
 == Calibrating the Cameras Using {software-ALPR}
+
+*_\{need new screen shot - was not available}_*
 
 [#f_Calibration-Tab]
 
@@ -1358,7 +1368,7 @@ image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
 
 .{software-cloud} Cameras Page
 
-image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Cameras.png[image,800]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-209_IZCloudCameras.png[image,800]
 
 Columns/Filters:
 
