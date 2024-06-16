@@ -1236,7 +1236,7 @@ tab.
 
 .Live (Journal) Tab
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-009a_LiveTab.png[image,800]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-009a_LiveTab.png[image,800]
 
 * Once the lane is active, verify that Events are being generated
 for each vehicle passing each camera, and that the recognition
