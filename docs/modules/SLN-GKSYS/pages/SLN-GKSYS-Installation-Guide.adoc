@@ -114,7 +114,7 @@ toc::[]
 
 This document describes how to install,
 configure and calibrate an {compname-short} {generic-camera-name}
-for a *_\{single lane is correct?}_* single lane, to work with the {docproductname} {docproductname3} System.
+for a *_\{single lane is correct? YES}_* single lane, to work with the {docproductname} {docproductname3} System.
 
 == Computer and Software Requirements
 * Computer running with Windows 10 or later
@@ -124,13 +124,13 @@ for a *_\{single lane is correct?}_* single lane, to work with the {docproductna
 
 ======================
 
-*_\{is this necessary?}_* The minimum {docproductname} *_\{correct product name?}_* {docproductname3} version
+*_\{is this necessary? NO NO SUCH APP}_* The minimum {docproductname} *_\{correct product name?}_* {docproductname3} version
 required is *_\{is there such a version to put in here?}_*
 
 ======================
 
 == Solution BOM
-*_\{is this list of models/countries still correct for GKSYS??}_*
+*_\{ONLY USA - is this list of models/countries still correct for GKSYS??}_*
 
 * Camera System:
 ** IZA500GR-DRW-P48 - for USA, Mexico, Canada
@@ -145,7 +145,7 @@ required is *_\{is there such a version to put in here?}_*
 ** IZMNTA-WE{plus}MNT-PMA -  pole mount
 ** IZMNTA-UC - under-ceiling
 * IZCLOUD-APM - {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring
-* Third-party Software: *_\{who provides this -
+* Third-party Software: *_\{DELETE: who provides this -
 "your system administrator"? Inex?}_*
 ** Cisco Meraki Account
 ** Cisco AnyConnect (provides VPN access to the cameras)
@@ -177,7 +177,7 @@ measured from camera to plate)
 
 |===
 
-*_\{are these pics correct or do they need changing?}_*
+*_\{NO LOOP DETECTOR: are these pics correct or do they need changing?}_*
 
 [#f_Rear-Capture]
 
@@ -227,6 +227,8 @@ a standard PoE network switch cannot be used.
 <<<
 
 == Installing Cisco Software
+
+*_\{take out section}_*
 
 . Get a Cisco Meraki account from your system administrator.
 You should receive a verification emails
@@ -320,7 +322,8 @@ each parameter section.*
 
 == LPR Camera (Sensor) Configuration
 
-*_\{The LPR and OV Stream Setup screens did not have these
+*_\{USE TIBA SCREEN BUT AT 30 AT TOP;
+TRIG AND NO TRIG ARE ALWAYS 5 The LPR and OV Stream Setup screens did not have these
 parameters pre-set; will they be set
 in the production version?}_*
 
@@ -871,7 +874,9 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-002_GKSYS_Integration.png[image,550]
 
 * *{docproductname} URL* - The URL of the {docproductname}
 endpoint; this must be a full URL, not just the server and
-port. For example: +
+port. For example: *_\{installer get URL from
+GKSYS - do not show it actually - show
+a fake example}_*  +
 \https://198.132.128.24:8892/api/LicensePlateStatus
 
 * *Auth Code* - Authorization code of the {docproductname} endpoint
@@ -994,7 +999,7 @@ Explanations of frequently used parameters:
 
 * *Mode* - Note that parameters may appear or be hidden, depending on the chosen Mode.
 
-** *_\{delete this?}_* +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
+** *_\{NO - MAKE ALL GENERIC WITH REUSE delete this?}_* +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
 
 ** +++<u>+++NonTriggered+++</u>+++ - Events are created and reported by LPR video analytics
 
@@ -1223,6 +1228,10 @@ has sufficient accuracy and confidence.
 
 <<<
 
+*_\{keep in IZCloud integration and
+screens of IZCloud and explain white/black lists
+; separate into 2 guides- installatuion adn user.}_*
+
 [#s_IZCloud-Integration]
 
 == {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring
@@ -1244,7 +1253,7 @@ insights into ALPR performance
 set the parameters as follows:
 
 *_\{is the wiegand converter box new for all
-IZA500G/GRs?}_*
+IZA500G/GRs? NOT FOR GKSYS}_*
 
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
@@ -1324,7 +1333,11 @@ KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
 to display plate, LPR and Overview
 images of the Event
 
-* *Action* - *_\{is this correct}_* Action taken for the vehicle (access
+* *Action* - *_\{is this correct OUR APP
+IS ACCESS CONTROL; WHO HAS PERMISSION -
+OR FROM IZCLOUD WHITELIST, OR FROM GKSYS/UBER
+AT TIME THAT UBER AND ALSO LYFT IS SUPPOSED TO COME TO
+GET A CUSTOMER}_* Action taken for the vehicle (access
 granted or denied)
 
 * *Owner* - The vehicle owner name; Enter characters
