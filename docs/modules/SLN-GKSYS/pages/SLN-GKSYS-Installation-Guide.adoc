@@ -112,13 +112,6 @@ toc::[]
 
 == Background
 
-*_\{should we put the instructions in for
-connection to the Cisco client - and if so, at
-what point in this doc? - see emails describing how
-this is done. Also, where will the user get the Cisco
-Anyconnect installer software - from "your system
-manager? From Inex?}_*
-
 This document describes how to install,
 configure and calibrate an {compname-short} {generic-camera-name}
 for a *_\{single lane is correct?}_* single lane, to work with the {docproductname} {docproductname3} System.
@@ -136,7 +129,9 @@ required is *_\{is there such a version to put in here?}_*
 
 ======================
 
-== Solution BOM *_\{is this list of models/countries still correct for GKSYS??}_*
+== Solution BOM
+*_\{is this list of models/countries still correct for GKSYS??}_*
+
 * Camera System:
 ** IZA500GR-DRW-P48 - for USA, Mexico, Canada
 ** IZA500GR-IRW-P48 - for Israel, EU, Taiwan, Australia, Vietnam, GCC, India, Singapore
@@ -575,9 +570,6 @@ The box at the upper right of the Settings screen shows:
 * The {software-ALPR} software version (verify that the version is correct)
 
 * The model, part number and serial number of the camera(s) {software-ALPR} is communicating with:
-*_\{need new picture showing 1.15.120; also, is
-it a problem if the main RV user guide shows
-an IZA500G (not GR) in its examples?}_*
 
 [#f_Software-Version-and-Camera-Information-Section]
 
@@ -691,13 +683,11 @@ end of this section after making changes.
 
 Use this section to add and configure Lanes.
 
-*_\{need new screen shot}_*
-
 [#f_Lanes-Section]
 
 .Lanes Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-004b_Lanes.png[image,800]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-004b_Lanes.png[image,800]
 
 * Actions:
 
@@ -724,12 +714,12 @@ you will need to create two different "Lanes",
 and associate each Camera System's cameras with a different "Lane".
 
 ========================================
-+ *_\{need new screen shot}_*
++
 [#f_Add-Edit-Lane-Dialog]
 
 .Add/Edit Lane Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,240]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-007a_EditLaneDialog.png[image,240]
 
 * *ID* (required) - The identification number of
 the lane to be captured by the cameras.
@@ -759,13 +749,11 @@ from the rear of vehicles
 
 === Cameras
 
-*_\{need new screen shot}_*
-
 [#f_Cameras-Section]
 
 .Cameras Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-004c_Cameras.png[image,800]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-004c_Cameras.png[image,800]
 
 * Actions:
 
@@ -795,14 +783,14 @@ following changes: +
 last Transaction ID. +
 - The history of previous Events for that camera will be cleared
 ========================================
-*_\{need new screen shot}_*
+
 * *Add Camera* (button at end of Cameras section):
 +
 [#f_Add-Edit-Camera-Dialog]
 
 .Add/Edit Camera Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-006a_EditCameraDialog.png[image,300]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-006a_EditCameraDialog.png[image,300]
 
 ** *Lane ID* - The identification number of the
 lane being captured by the camera(s).
@@ -920,7 +908,7 @@ open a gate via a relay.
 ========================
 ////
 
-=== Direct Trigger
+//=== Direct Trigger
 
 //==== Triggered Mode
 
@@ -934,20 +922,19 @@ open a gate via a relay.
 //* Remember to click the Save button at the end of the
 //Detector Configuration section after making changes.
 
-*_\{need new screen shot showing disabled}_*
 
-[#f_Direct-Trigger-Section]
+//[#f_Direct-Trigger-Section]
 
-.Direct Trigger Section
+//.Direct Trigger Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
+//image::ROOT:SLN-TIBA/RV-TIBA-FIG-003a_Direct_Trigger.png[image,600]
 
 //==== Non-triggered Mode
 
-* Set the Direct Trigger Mode to Disabled
+//* Set the Direct Trigger Mode to Disabled
 
-* Remember to click the Save button at the end of the
-Detector Configuration section after making changes.
+//* Remember to click the Save button at the end of the
+//Detector Configuration section after making changes.
 
 <<<
 
@@ -955,13 +942,11 @@ Detector Configuration section after making changes.
 
 === Trigger Offset
 
-*_\{need new image showing disabled/zero}_*
-
 [#f_Trigger-Offset-Section]
 
 .Trigger Offset Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-003b_Trigger_Offset.png[image,600]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-003b_Trigger_Offset.png[image,600]
 
 
 //==== Triggered Mode
@@ -1009,7 +994,7 @@ Explanations of frequently used parameters:
 
 * *Mode* - Note that parameters may appear or be hidden, depending on the chosen Mode.
 
-** +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
+** *_\{delete this?}_* +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
 
 ** +++<u>+++NonTriggered+++</u>+++ - Events are created and reported by LPR video analytics
 
@@ -1038,7 +1023,7 @@ Explanations of frequently used parameters:
 ** +++<u>+++Vietnam+++</u>+++
 
 
-* *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
+* *_\{delete this bullet?}_* *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
 
 * *Image Resize* - when enabled, and the Event confidence is equal or higher than the Resize Confidence parameter, then each LPR and OV image is resized according to the Image Width (and the height is resized proportionally).
 
@@ -1050,18 +1035,13 @@ Explanations of frequently used parameters:
 
 == Configure {software-ALPR} - System Info Tab
 
-*_\{need new screen shot for GKSYS - currently
-only shows upper section with basic info -
-may be due to the same bug preventing us
-from seeing the System Tab's parameters}_*
-
 * Set the parameters as shown here
 
 * Remember to click the Save button
 at the end of this section after
 changing these parameters.
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-008a_SystemInfo.png[image,500]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-008a_SystemInfo.png[image,500]
 
 Explanations of frequently used parameters:
 
@@ -1082,7 +1062,6 @@ by the Latitude and Longitude parameters). Additional parameters are:
 {empty} +
 +
 [NOTE]
-
 ========================================
 
 Latitude and Longitude are user-entered coordinates; determine them using Google maps, by clicking on the location where the Camera System will be installed (remember to put in a minus sign as needed)
@@ -1109,7 +1088,7 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 
 .Calibration Tab
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-011a_CalibrationTab.png[image,800]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-011a_CalibrationTab.png[image,800]
 
 . When you see a vehicle at a typical
 capture position on the video, click on the video to pause it.
@@ -1269,14 +1248,15 @@ insights into ALPR performance
 * On the Settings tab, enable {software-cloud} Integration and
 set the parameters as follows:
 
+*_\{is the wiegand converter box new for all
+IZA500G/GRs?}_*
+
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
 
-*_\{need new screen shot for GKSYS}_*
-
 .{software-ALPR} Settings Tab - {software-cloud} Integration Section
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,550]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-216_IZCloudIntegration.png[image,550]
 
 <<<
 
@@ -1337,9 +1317,9 @@ image::ROOT:SLN-TIBA/IZCloud-BorderCalendar-Popup.png[image,400]
 
 image::ROOT:SLN-TIBA/IZCloud-BorderSelect-Date-Range.png[image,250,align=center]
 
-* *Gate* - Select All, or a specific lane
+* *Gate (Lane)* - Select All, or a specific lane
 
-* *Event Type* - Unused
+* *List* - List that plate was found on
 
 * *Plate* - Enter characters to find
 within the strings. For example,
@@ -1348,6 +1328,9 @@ KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
 * *Plate Image* - click on an image
 to display plate, LPR and Overview
 images of the Event
+
+* *Action* - Action taken for the vehicle (access
+granted or denied)
 
 * *Owner* - The vehicle owner name; Enter characters
 to find within the names
