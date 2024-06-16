@@ -1082,8 +1082,6 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 
 == Calibrating the Cameras Using {software-ALPR}
 
-*_\{need new screen shot - was not available}_*
-
 [#f_Calibration-Tab]
 
 .Calibration Tab
@@ -1228,9 +1226,6 @@ has sufficient accuracy and confidence.
 [#s_IZCloud-Integration]
 
 == {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring
-
-*_\{is the version of the IZCloud screens shown here
-correct for GKSYS - these are the screens from TIBA}_*
 
 {software-cloud} ALPR Performance Monitoring software ({software-cloud}-APM)
 is an advanced SaaS (Software as a Service) application.
@@ -1532,8 +1527,6 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-213_IZCloudCorrectPlate.png[image,400]
 [#s_Troubleshooting]
 
 == {software-ALPR} Troubleshooting
-
-*_\{recheck this table to see if it is relevant for GKSYS}_*
 
 [#t_Troubleshooting]
 
