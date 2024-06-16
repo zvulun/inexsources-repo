@@ -1324,7 +1324,7 @@ KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
 to display plate, LPR and Overview
 images of the Event
 
-* *Action* - Action taken for the vehicle (access
+* *Action* - *_\{is this correct}_* Action taken for the vehicle (access
 granted or denied)
 
 * *Owner* - The vehicle owner name; Enter characters
@@ -1350,6 +1350,8 @@ Columns/Filters:
 
 * *Name* - Enter characters
 to find within the names of the lanes
+
+* *Location* - *_\{correct?}_* Unused
 
 * *Lot* - Parking lot location of each lane;
 use the dropdown to select a lot
