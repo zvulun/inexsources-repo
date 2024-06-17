@@ -112,25 +112,17 @@ toc::[]
 
 == Background
 
+*_\{Divide into installation and user guides}_*
+
 This document describes how to install,
 configure and calibrate an {compname-short} {generic-camera-name}
-for a *_\{single lane is correct? YES}_* single lane, to work with the {docproductname} {docproductname3} System.
+for a single lane, to work with the {docproductname} {docproductname3} System.
 
 == Computer and Software Requirements
 * Computer running with Windows 10 or later
 * Chrome or Microsoft Edge browser
 
-[IMPORTANT]
-
-======================
-
-*_\{is this necessary? NO NO SUCH APP}_* The minimum {docproductname} *_\{correct product name?}_* {docproductname3} version
-required is *_\{is there such a version to put in here?}_*
-
-======================
-
 == Solution BOM
-*_\{ONLY USA - is this list of models/countries still correct for GKSYS??}_*
 
 * Camera System:
 ** IZA500GR-DRW-P48 - for USA, Mexico, Canada
@@ -145,10 +137,6 @@ required is *_\{is there such a version to put in here?}_*
 ** IZMNTA-WE{plus}MNT-PMA -  pole mount
 ** IZMNTA-UC - under-ceiling
 * IZCLOUD-APM - {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring
-* Third-party Software: *_\{DELETE: who provides this -
-"your system administrator"? Inex?}_*
-** Cisco Meraki Account
-** Cisco AnyConnect (provides VPN access to the cameras)
 
 <<<
 
@@ -177,18 +165,17 @@ measured from camera to plate)
 
 |===
 
-*_\{NO LOOP DETECTOR: are these pics correct or do they need changing?}_*
 
 [#f_Rear-Capture]
 
 .Typical Rear-Capture Design
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-097_AmanoLaneDesign.png[image,800,align=center]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-217_GKSYS_LaneDesignRear.png[image,800,align=center]
 {empty} +
 
 .Typical Front-Capture Design
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-099_TIBAFrontLaneDesign.png[image,800,align=center]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-218_GKSYS_LaneDesignFront.png[image,800,align=center]
 
 {empty} +
 
@@ -226,9 +213,8 @@ a standard PoE network switch cannot be used.
 
 <<<
 
+////
 == Installing Cisco Software
-
-*_\{take out section}_*
 
 . Get a Cisco Meraki account from your system administrator.
 You should receive a verification emails
@@ -268,6 +254,8 @@ connection was successful.
 on your taskbar; click on this icon
 to display a dialog enabling you to log off
 of the client.
+
+////
 
 == Use {software-discovery}
 
@@ -322,10 +310,10 @@ each parameter section.*
 
 == LPR Camera (Sensor) Configuration
 
-*_\{USE TIBA SCREEN BUT AT 30 AT TOP;
-TRIG AND NO TRIG ARE ALWAYS 5 The LPR and OV Stream Setup screens did not have these
-parameters pre-set; will they be set
-in the production version?}_*
+*_\{GET SCREENS/CAMERA URLS from Pinchas
+to use as standard for all solutions using
+IZA500GR Cameras: 30 FPS AT TOP;
+5 in the primary stream}_*
 
 The camera(s) are usually pre-configured;
 this section displays typical settings
@@ -540,9 +528,6 @@ image::ROOT:RoadViewALPR/RV-1_15-FIG-020a_Logging_Out.png[image,width=120]
 
 == Configure {software-ALPR} - Settings Tab
 
-*_\{review all of these screens to see if they are
-correct for GKSYS}_*
-
 Use the Settings tab after the first installation or
 re-installation of the ALPR system, or when some
 fundamental parameters need updating.
@@ -585,9 +570,6 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-001a_VersionAndCameraInfo.png[image,400]
 [#s_Network-Settings]
 
 === Network Settings
-
-*_\{I have used generic settings here, since
-we should not publicize actual IP addresses}_*
 
 [#f_Network-Settings-Section]
 
@@ -854,15 +836,6 @@ occurs.
 
 === {docproductname} Integration
 
-[IMPORTANT]
-
-======================
-
-*_\{is this relevant?}_* The minimum {docproductname} {docproductname3} version
-required is *_\{what is the version?}_*
-
-======================
-
 
 Enable {docproductname} Integration and
 set the parameters as follows. *Remember to click the Save button at the end of the
@@ -876,7 +849,9 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-002_GKSYS_Integration.png[image,550]
 endpoint; this must be a full URL, not just the server and
 port. For example: *_\{installer get URL from
 GKSYS - do not show it actually - show
-a fake example}_*  +
+a fake example and put a fake ex in the
+screen shot}_*  +
+
 \https://198.132.128.24:8892/api/LicensePlateStatus
 
 * *Auth Code* - Authorization code of the {docproductname} endpoint
@@ -999,11 +974,9 @@ Explanations of frequently used parameters:
 
 * *Mode* - Note that parameters may appear or be hidden, depending on the chosen Mode.
 
-** *_\{NO - MAKE ALL GENERIC WITH REUSE delete this?}_* +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
+** +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
 
 ** +++<u>+++NonTriggered+++</u>+++ - Events are created and reported by LPR video analytics
-
-*_\{are these regions relevant for GKSYS?}_*
 
 * *Region* - Region for which characters on the plate will be recognized. Select from the following options:
 
@@ -1028,7 +1001,7 @@ Explanations of frequently used parameters:
 ** +++<u>+++Vietnam+++</u>+++
 
 
-* *_\{delete this bullet?}_* *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
+* *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
 
 * *Image Resize* - when enabled, and the Event confidence is equal or higher than the Resize Confidence parameter, then each LPR and OV image is resized according to the Image Width (and the height is resized proportionally).
 
