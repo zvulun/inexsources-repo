@@ -1252,11 +1252,10 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-215_IZCloudLogout.png[image,200]
 
 [#s_IZCloud-Whitelist]
 
-=== {software-cloud} Access Lists - Whitelists and Blacklists
+=== {software-cloud} Access Control Lists - Whitelists and Blacklists
 
-Access Lists provide Access Control capaabilities.
-They are lists of plates which can be matched to
-when a vehicle arrives at the site (whitelists and blacklists).
+These are lists of plates which can be matched to
+when a vehicle arrives at the site.
 
 For example, select "Whitelist" from the Access Lists menu
 image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-220_IZCloudAccessMenu.png[image,100]
