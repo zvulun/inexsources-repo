@@ -848,7 +848,6 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-002_GKSYS_Integration.png[image,550]
 * *{docproductname} URL* - The URL of the {docproductname}
 endpoint; this must be a full URL, not just the server and
 port. For example: +
-
 \https://163.218.251.28:8801/api/LicensePlateStatus
 
 * *Auth Code* - Authorization code of the {docproductname} endpoint
