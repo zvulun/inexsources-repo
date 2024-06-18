@@ -112,7 +112,9 @@ toc::[]
 
 == Background
 
-*_\{Divide into installation and user guides}_*
+*_\{Pinchas: there is not much
+installation; how do you want this divided
+into installation and user guides?}_*
 
 This document describes how to install,
 configure and calibrate an {compname-short} {generic-camera-name}
@@ -1197,10 +1199,6 @@ has sufficient accuracy and confidence.
 
 <<<
 
-*_\{keep in IZCloud integration and
-screens of IZCloud and explain white/black lists
-; separate into 2 guides- installatuion adn user.}_*
-
 [#s_IZCloud-Integration]
 
 == {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring
@@ -1220,9 +1218,6 @@ insights into ALPR performance
 
 * On the Settings tab, enable {software-cloud} Integration and
 set the parameters as follows:
-
-*_\{is the wiegand converter box new for all
-IZA500G/GRs? NOT FOR GKSYS}_*
 
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
@@ -1254,6 +1249,53 @@ then click the Logout button.
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-215_IZCloudLogout.png[image,200]
 
 <<<
+
+[#s_IZCloud-Whitelist]
+
+=== {software-cloud} Access Lists - Whitelist
+
+Access Lists provide Access Control capaabilities.
+They are lists of plates which can be matched to
+when a vehicle arrives at the site (blacklists and whitelists).
+
+For example, select "Whitelist" from the Access Lists menu
+image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-220_IZCloudAccessMenu.png[image,100]
+
+.{software-cloud} Whitelist Page
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-219_IZCloudWhiteList.png[image,800]
+
+Columns/Filters:
+
+* *Name* - Enter characters
+to find within the names of the vehicle
+owners that will be granted access.
+
+* *Address* - Enter characters
+to find within the addresses of the vehicle
+owners
+
+* *Phone* - Enter characters
+to find within the phone numbers of the vehicle
+owners
+
+* *Lot* - Unused
+
+* *Plate* - Enter characters
+to find within the license plates of the vehicle
+owners. Multiple license plates separated by commas
+can be added to an owner by clicking the
+Edit button (pencil icon).
+
+* *Start Time* - Starting date/time that the owner's
+vehicle is allowed to enter the site.
+Start times can be entered by clicking the
+Edit button (pencil icon).
+
+* *End Time* - Ending date/time that the owner's
+vehicle is allowed to enter the site.
+End times can be entered by clicking the
+Edit button (pencil icon).
 
 [#s_IZCloud-Events]
 
@@ -1302,12 +1344,18 @@ KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
 to display plate, LPR and Overview
 images of the Event
 
-* *Action* - *_\{is this correct OUR APP
-IS ACCESS CONTROL; WHO HAS PERMISSION -
-OR FROM IZCLOUD WHITELIST, OR FROM GKSYS/UBER
-AT TIME THAT UBER AND ALSO LYFT IS SUPPOSED TO COME TO
-GET A CUSTOMER}_* Action taken for the vehicle (access
+* *Action* - Action taken for the vehicle (access
 granted or denied)
+
+** Granted - an Uber or Lyft vehicle that
+has been authorized to pick up a passenger
+at this time, or that is on the
+{software-cloud} Whitelist (see <<s_IZCloud-Whitelist>>).
+
+** Denied - an Uber or Lyft vehicle that
+has not been authorized to pick up a passenger
+at this time, or that is on the {software-cloud}
+Blacklist.
 
 * *Owner* - The vehicle owner name; Enter characters
 to find within the names
@@ -1333,7 +1381,7 @@ Columns/Filters:
 * *Name* - Enter characters
 to find within the names of the lanes
 
-* *Location* - *_\{correct?}_* Unused
+* *Location* - Unused
 
 * *Lot* - Parking lot location of each lane;
 use the dropdown to select a lot
@@ -1435,12 +1483,12 @@ that are operating but need maintenance/have warnings
 cameras not operating
 
 ////
-*_\{The read rate for the last day
+{The read rate for the last day
 We only use a maximum of 1000 events from the Review Tool;
 The reviewed events are only qualified (human-readable) reads;
 Numbers in tooltips are the number of reads reviewed -
 usually only about 80% of total eVents for the day
-because he rest are non-qualified}_*
+because he rest are non-qualified}
 ////
 
 
