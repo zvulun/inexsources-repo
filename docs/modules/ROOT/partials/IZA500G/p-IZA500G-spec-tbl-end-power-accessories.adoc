@@ -1,5 +1,3 @@
-ifdef::xref-type-IZA500G[]
-
 .2+.^| Power
 .^| Input Voltage Options
 .^a|
