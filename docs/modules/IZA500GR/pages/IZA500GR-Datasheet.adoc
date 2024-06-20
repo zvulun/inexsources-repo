@@ -123,12 +123,16 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end-2.adoc[IZA500G Specificatio
 |===
 |Part Number |Description
 |{shortprodname}-DR |Deep Red illumination, 24 VDC input voltage
+|{shortprodname}-DR-P24 |Deep Red illumination, PoE{plus}, 24 VDC input voltage
 |{shortprodname}-DR-P48 |Deep Red illumination, PoE{plus}, 48 VDC input voltage
 |{shortprodname}-DRW |Deep Red and Visible Light illumination, 24 VDC input voltage
+|{shortprodname}-DRW-P24 |Deep Red and Visible Light illumination, PoE{plus}, 24 VDC input voltage
 |{shortprodname}-DRW-P48 |Deep Red and Visible Light illumination, PoE{plus}, 48 VDC input voltage
 |{shortprodname}-IR |Infrared illumination, 24 VDC input voltage
+|{shortprodname}-IR-P24 |Infrared illumination, PoE{plus}, 24 VDC input voltage
 |{shortprodname}-IR-P48 |Infrared illumination, PoE{plus}, 48 VDC input voltage
 |{shortprodname}-IRW |Infrared and Visible Light illumination, 24 VDC input voltage
+|{shortprodname}-IRW-P24 |Infrared and Visible Light illumination, PoE{plus}, 24 VDC input voltage
 |{shortprodname}-IRW-P48 |Infrared and Visible Light illumination, PoE{plus}, 48 VDC input voltage
 |===
 
