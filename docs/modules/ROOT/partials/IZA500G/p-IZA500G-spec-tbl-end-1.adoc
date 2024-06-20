@@ -1,0 +1,106 @@
+ifndef::xref-type-DFC[]
+
+.2+.^| Supported Protocols (for additional protocols, see the xref:RoadViewALPR:DocList.adoc[ {software-ALPR} documentation])
+.^| {compname-short} HTTP API
+.^| LPR Events are reported via protocols such as the {compname-short} HTTP API protocol. Each LPR Event includes metadata and associated images.
+
+
+.^| {compname-short} Discovery
+.^| The {compname-short} Discovery Protocol is used by the {software-discovery} utility to find all devices connected to the LAN. {software-discovery} also enables display and editing of each device's network settings.
+
+endif::xref-type-DFC[]
+
+include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
+
+.4+.^| Environmental
+.^| Ingress Protection
+.^| IP67
+
+
+.^| Operating Temperature
+.^| -22°F to 140°F (-30°C to 60°C)
+
+
+.^| Storage Temperature
+.^| -22°F to 158°F (-30°C to 70°C)
+
+
+.^| Humidity
+.^| 0% - 90% RH, non-condensing
+
+.6+.^| Certifications
+.^| EMC
+.^| FCC Part 15, subpart B; CE
+
+
+.^| Interoperability
+.^| ONVIF compliant, Profile S
+
+
+.^| RoHS
+.^| RoHS
+
+
+.^| Impact Protection
+.^| IK10 (Vandal-proof)
+
+
+.^| Eye Safety
+.^| IEC62471 Group 1
+
+
+.^| NDAA
+.^| NDAA Section 889 compliant
+
+.3+.^| Physical
+.^| Dimensions
+.^| (W x H x D) 6.7" x 4.7" x 17.7"+++<br>+++
+(171 mm x 119 mm x 451 mm)
+
+
+.^| Weight
+.^| {iza-weight}
+
+
+.^| Color
+.^| White
+
+.5+.^| Interface
+.^| Ethernet
+.^| GigE Ethernet (10/100/1000M)
+
+
+.2+.^| Cables
+.^a| LAN - 6.6 (2 m) cable included with camera, terminated+++<br>+++
+with a male RJ-45 connector; can be extended with:+++<br>+++
+CAT 6, shielded Ethernet cable, 4 pairs, 22 AWG,+++<br>+++
+max. length 328 ft (100 m), OD 5.5-7.9 mm
+
+
+.^a| Power/Signals (PAS) - 6.6 (2 m) cable included with camera;+++<br>+++
+can be extended with: 22 AWG, OD 3.0-7.3 mm
+
+* 3-wire power cable, shielded with a polyethylene jacket; ends terminated with metal rings
+* Digital input (trigger) signal wires and
+ifndef::xref-type-DFC[relay]
+ifdef::xref-type-DFC[strobe]
+output connections (see next items)
+
+
+.1+.^| Digital Inputs (Trigger)
+.^a| * Trigger Dry: White ({plus}), Green (-)
+* Trigger Wet: Green ({plus}5-12 V), Blue (GND)
+
+
+.1+.^|
+ifndef::xref-type-DFC[Relay]
+ifdef::xref-type-DFC[Strobe]
+Output
+.^a|
+ifndef::xref-type-DFC[]
+* Dry Contact Relay: Brown (NO), Orange +++(C)+++
+endif::xref-type-DFC[]
+
+ifdef::xref-type-DFC[]
+* Strobe Output: Orange ({plus}), Brown (-)
+endif::xref-type-DFC[]
