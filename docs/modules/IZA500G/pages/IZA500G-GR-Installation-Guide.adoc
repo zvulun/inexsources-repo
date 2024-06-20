@@ -13,7 +13,7 @@
 // outside partials - should be used in partials
 // see the playbook for full list
 
-:xref-type-IZA500G:
+:xref-type-IZA500GR:
 :layout-type-userguide:
 
 //enable the TOC to be placed in a specific position

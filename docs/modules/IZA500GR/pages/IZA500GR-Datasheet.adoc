@@ -14,7 +14,7 @@
 // Remember to unset all non-relevant attributes
 
 
-:xref-type-IZA500G:
+:xref-type-IZA500GR:
 :layout-type-technote:
 
 //enable the TOC to be placed in a specific position
@@ -74,13 +74,13 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 * [*] Dual sensor provides multiple paths to perfect ALPR reads
 
-* [*] Multi-flash technology for greater read accuracy and capture under all conditions
+//* [*] Multi-flash technology for greater read accuracy and capture under all conditions
 
 * [*] Motorized zoom and auto-focus - the key to optimized remote tuning
 
 * [*] Anti-glare technology for all lighting environments
 
-* [*] Flexible power input options - 24 VDC, or 48 VDC/PoE{plus}
+* [*] Flexible power input options - 24 VDC, or 24/48 VDC and PoE{plus}
 
 * [*] Wide temperature range - operating from -22°F to 140°F (-30°C to 60°C)
 

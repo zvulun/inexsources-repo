@@ -105,7 +105,6 @@ ifdef::xref-type-DFC[]
 * Strobe Output: Orange ({plus}), Brown (-)
 endif::xref-type-DFC[]
 
-
 ifdef::xref-type-DFC[]
 .2+.^| Power
 .^| Input Voltage
@@ -121,7 +120,27 @@ ifdef::xref-type-DFC[]
 
 endif::xref-type-DFC[]
 
-ifndef::xref-type-DFC[]
+
+ifdef::xref-type-IZA500GR[]
+
+.2+.^| Power
+.^| Input Voltage Options
+.^a|
+* No model suffix: 24 VDC {plus}/- 10%, Class 2 Low-Voltage
+
+* With P24 model suffix: 24 VDC {plus}/- 10%, Class 2 Low-Voltage or PoE{plus}**
+
+* With P48 model suffix: 48 VDC {plus}/- 10%, Class 2 Low-Voltage or PoE{plus}**
+
+.^| Power Consumption
+.^| 25 W
+
+
+endif::xref-type-IZA500GR[]
+
+
+
+ifdef::xref-type-IZA500G[]
 
 .2+.^| Power
 .^| Input Voltage Options
@@ -133,6 +152,9 @@ ifndef::xref-type-DFC[]
 .^| Power Consumption
 .^| 25 W
 
+endif::xref-type-IZA500G[]
+
+ifdef::xref-type-IZA500GR,xref-type-IZA500G
 
 2+.^| Accessories Included
 
@@ -150,7 +172,7 @@ ifndef::xref-type-DFC[]
 
 .^| External Illuminator (xref:IZL:DocList.adoc[{illum-non-strobe} Series])
 
-endif::xref-type-DFC[]
+endif::xref-type-IZA500GR,xref-type-IZA500G
 
 |===
 
