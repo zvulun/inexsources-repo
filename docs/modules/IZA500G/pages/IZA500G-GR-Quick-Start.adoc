@@ -101,7 +101,7 @@ image::ROOT:IZA500G/image17.png[image,width=624,height=203]
 [#f_Camera-System-Wiring-Diagram-with-PoE-Plus-P48-Models]
 
 [discrete]
-=== Camera System Wiring Diagram with PoE{plus} (P48 Models)
+=== Camera System Wiring Diagram with PoE{plus} (P24/P48 Models)
 
 // .Typical Camera System Wiring Diagram
 

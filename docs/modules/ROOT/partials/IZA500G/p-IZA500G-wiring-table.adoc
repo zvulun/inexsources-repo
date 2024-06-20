@@ -13,7 +13,7 @@ OD 5.5-7.9 mm
 .^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
 .^|D .^a|*Power Supply for Cameras* +
 24 VDC for standard models/ +
-48 VDC for P48 models
+24/48 VDC for P24/P48 models
 .^a|
 For 1 camera, use a 50/75 W supply (xref:IZPWR:DocList.adoc[IZPWR75]) +
 For 2 cameras, use a 100/120 W supply (xref:IZPWR:DocList.adoc[IZPWR120]) +
