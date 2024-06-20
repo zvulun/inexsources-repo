@@ -74,8 +74,6 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 * [*] Dual sensor provides multiple paths to perfect ALPR reads
 
-//* [*] Multi-flash technology for greater read accuracy and capture under all conditions
-
 * [*] Motorized zoom and auto-focus - the key to optimized remote tuning
 
 * [*] Anti-glare technology for all lighting environments
