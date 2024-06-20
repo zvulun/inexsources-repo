@@ -174,7 +174,11 @@ image::ROOT:/IZA500G/image7.png[image,width=489,height=252]
 
 include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-start.adoc[IZA500G Specification Table Start]
 
-include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end-1.adoc[IZA500G Specification Table End Part 1]
+
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end-power-accessories.adoc[IZA500G Specification Table End Power and Accessories]
+
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end-2.adoc[IZA500G Specification Table End Part 2]
 
 +++<div class="pagebreak"> </div>+++
 
@@ -184,7 +188,11 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification 
 
 include::ROOT:partial$IZA500GR/p-IZA500GR-spec-tbl-start.adoc[IZA500GR Specification Table Start]
 
-include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end.adoc[IZA500G Specification Table End]
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end-1.adoc[IZA500G Specification Table End Part 1]
+
+include::ROOT:partial$IZA500GR/p-IZA500GR-spec-tbl-end-power-accessories.adoc[IZA500GR Specification Table End Power and Accessories]
+
+include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end-2.adoc[IZA500G Specification Table End Part 2]
 
 === LAN and Power/Signals Cable Details
 
