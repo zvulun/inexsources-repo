@@ -208,7 +208,7 @@ The trigger wires have the same functions and colors as shown here, but the labe
 
 .Cable Details
 
-image::ROOT:IZA500G/image4.png[image,width=542,height=370]
+image::ROOT:IZA500G/IZA500G-FIG-085f1_With_P2448VDC_Option.png[image,width=542,height=370]
 
 +++<div class="pagebreak"> </div>+++
 
@@ -225,8 +225,8 @@ image::ROOT:IZA500G/image4.png[image,width=542,height=370]
 [table.withborders,width="100%",cols="33%,67%",options="header",]
 |===
 |Item |Notes
-|24 VDC (or 48 VDC for P48 models using DC input) power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
-|PoE{plus}{plus} Injector | Required for P48 models when using PoE+ power input
+|24 VDC (or 24/48 VDC for P24/P48 models using DC input) power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
+|PoE{plus}{plus} Injector | Required for P24/P48 models when using PoE+ power input
 |Mounting Hardware (pan-tilt-roll bracket) |Typically on wall or pole; see the Mounting Hardware documentation for details (see <<s_Related-Documents>>)
 |===
 
