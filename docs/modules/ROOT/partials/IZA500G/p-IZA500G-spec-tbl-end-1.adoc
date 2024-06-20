@@ -71,7 +71,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 
 .2+.^| Cables
-.^a| LAN - 6.6 (2 m) cable included with camera, terminated+++<br>+++
+.^a| LAN - 6.6 (2 m) cable included with camera, terminated
 with a male RJ-45 connector; can be extended with:+++<br>+++
 CAT 6, shielded Ethernet cable, 4 pairs, 22 AWG,+++<br>+++
 max. length 328 ft (100 m), OD 5.5-7.9 mm
