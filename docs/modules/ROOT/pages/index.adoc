@@ -19,6 +19,11 @@ completely.
 
 * (Chrome) In the More Settings section:
 ** Select Paper Size of A4
+** Set the Margins to Custom:
+*** Click in the top margin
+number box on the page display, and set it to 1.19"
+*** The left, right and bottom margins can remain at their
+defaults (should be 0.5")
 ** Check the Background Graphics box (to show the shading in the Notes, and in the table headers)
 ** Optional: If you check Headers and Footers, the header will have the current date/time,
 and the footer will have the site URL and page number
