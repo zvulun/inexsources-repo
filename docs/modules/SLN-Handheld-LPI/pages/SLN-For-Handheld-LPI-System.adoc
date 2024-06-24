@@ -53,7 +53,7 @@ plate numbers - for faster, efficient processing and higher accuracy
 * [*] 99% of plates are processed automatically - without manual review
 * [*] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right] Integrated with {software-cloud}, including full reconciliation with
 parking system
-* [*] Rugged MIL-STD-810 tested for harsh environment
+* [*] Rugged MIL-STD-810 tested for harsh environments
 * [*] IP68
 
 
@@ -66,7 +66,7 @@ parking system
 ** [*] 4,050 mAh battery
 ** [*] IP68 rated (water resistant in up to 5 feet of water for up to 30 minutes)
 ** [*] MIL-STD-810G tested
-** [*] Drop-tested: 4.9 ft (1.5 m) drop is only tested with case on, without case the device itself can withstand a drop from 3.9 ft (1.2 m)
+** [*] Drop-tested: Drop-tested: 4.9 ft (1.5 m) with case, 3.9 ft (1.2 m) without case
 ** [*] 0.5 lbs (220 g) weight
 
 
@@ -76,7 +76,7 @@ parking system
 ** [*] 7,600 mAh battery
 ** [*] IP68 rated (water resistant in up to 5 feet of water for up to 30 minutes)
 ** [*] MIL-STD-810H tested
-** [*] Drop-tested: Drop-tested: 4.9 ft (1.5 m) drop is only tested with case on, without case the device itself can withstand a drop from 3.9 ft (1.2 m)
+** [*] Drop-tested: Drop-tested: 4.9 ft (1.5 m) with case, 3.9 ft (1.2 m) without case
 ** [*] 1.5 lbs (674 g) - device; 1.8 lbs (824 g) - with case
 
 [sidebar]
