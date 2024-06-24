@@ -152,6 +152,8 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end-2.adoc[IZA500G Specificatio
 
 image::ROOT:IZA500G/image9.png[image,width=240]
 
+<<<
+
 [discrete]
 == Dimensions (inches/cm)
 
