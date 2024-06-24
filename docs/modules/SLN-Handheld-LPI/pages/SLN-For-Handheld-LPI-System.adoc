@@ -17,7 +17,7 @@
 //enable the TOC to be placed in a specific position
 //:toc: macro
 
-= {compname-short} Handheld LPI System Datasheet
+= Handheld LPI System Datasheet
 
 // xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
 
@@ -51,8 +51,7 @@
 * [*] Operator only takes pictures of each plate without entering
 plate numbers - for faster, efficient processing and higher accuracy
 * [*] 99% of plates are processed automatically - without manual review
-* [*] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right] Integrated with {software-cloud}, including full reconciliation with
-parking system
+* [*] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right] Integrated with {software-cloud}
 * [*] Rugged MIL-STD-810 tested for harsh environments
 * [*] IP68
 
