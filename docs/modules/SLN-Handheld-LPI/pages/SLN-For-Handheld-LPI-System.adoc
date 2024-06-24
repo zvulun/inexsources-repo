@@ -64,16 +64,20 @@
 ** [*] 8" display
 
 * *Lenovo Tab M10 HD Rugged Version* - Features:
+*_\{FYI: Lenova site states:
+Unfortunately the "Lenovo Tab M10 HD Tablet"
+is not available. May we suggest:
+Lenovo Tab P12 Tablet, Lenova Tab M11,
+Lenova Tab M10 Plus (Gen 3)}_*
 ** [*] *_\{what about IP rating, MIL-STD certification?}_* Durable design with reinforced corners
 ** [*] 5,000 mAh battery
 ** [*] 10.1" display
 
-[NOTE]
-==================================
+[sidebar]
 The final selection of rugged smartphones or tablets
 will be based on customer response
 and specific requirements.
-==================================
+
 
 <<<
 
