@@ -142,6 +142,8 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end-2.adoc[IZA500G Specificatio
 |{shortprodname}-L-IRW-P48 |30-70 ft (9-21 m) range, Infrared &amp; Visible Light illumination, PoE{plus}, 48 VDC input voltage
 |===
 
+<<<
+
 [discrete]
 == Standard Package Contents
 
@@ -150,7 +152,7 @@ include::ROOT:partial$IZA500G/p-IZA500G-spec-tbl-end-2.adoc[IZA500G Specificatio
 [discrete]
 == {shortprodname}-S/L-DRW, IRW LED Positions
 
-image::ROOT:IZA500G/image9.png[image,width=240]
+image::ROOT:IZA500G/image9.png[image,width=250]
 
 <<<
 
