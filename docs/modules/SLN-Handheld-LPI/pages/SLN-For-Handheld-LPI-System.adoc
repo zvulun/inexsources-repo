@@ -1,0 +1,154 @@
+:docproductname: Handheld LPI System
+:shortprodname: Handheld LPI
+:shortprodname2: HANDHELD-LPI
+:generic-camera-name: camera
+:system-type: N/A
+
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+
+//:xref-type-IZA800GVES:
+:layout-type-technote:
+
+//enable the TOC to be placed in a specific position
+//:toc: macro
+
+= {compname-short} Handheld LPI System Datasheet
+
+// xref:SLN-Airports:DocList.adoc[<- Back to {shortprodname} Documents]
+
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// no section numbers in datasheets
+//:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+// no TOC in datasheets ._Click to show the Table of Contents_
+// [%collapsible]
+// ====
+
+// toc::[]
+
+[discrete]
+== Handheld Device Options
+
+[NOTE]
+==================================
+The final selection of rugged smartphones or tablets
+will be based on customer response
+and specific requirements.
+==================================
+
+* *Samsung Galaxy XCover Pro* - Features:
+** IP68 rated
+** MIL-STD-810G certified
+** 4,050 mAh removable battery
+** 6.3" display
+
+* *Samsung Galaxy Tab Active 2* - Features:
+** IP68 rated
+** MIL-STD-810G certified
+** 4,450 mAh removable battery
+** 8" display
+
+* *Lenovo Tab M10 HD Rugged Version* - Features:
+** *_\{what about IP rating, MIL-STD certification?}_* Durable design with reinforced corners
+** 5,000 mAh battery
+** 10.1" display
+
+== Software Features
+
+=== Route Management
+* [*] *Automated Route Planning* - Automatically maps inventory routes
+for efficient coverage of parking facilities.
+* [*] *Dynamic Route Adjustment* - Allows real-time adjustments
+to routes based on changing conditions or priorities.
+* [*] *Historical Route Data* - Stores previous route data to
+optimize future inventory processes.
+
+=== Image Capture
+* [*] *Snapshot Feature* - Users take a snapshot (still image)
+of the vehicle plate using the device’s camera.
+* [*] *Automatic Upload* - Captured images are automatically
+uploaded to {software-cloud} without the need for manual input.
+
+=== {software-cloud} Integration
+* [*] *AI Processing* - Images are processed by AI in the
+cloud to recognize and record license plate numbers.
+* [*] *Error Detection* - The AI system detects and reports
+possible data entry errors, prompting manual review
+if necessary.
+* [*] *Cloud Storage* - Secure storage of all captured images
+and processed data in {software-cloud}.
+
+=== User Interface and Accessibility
+* [*] *Web Interface for Review* - Manual review and
+correction of license plate data can be conducted
+via a user-friendly web interface.
+* [*] *Menu-Driven Interface* - Easy-to-navigate menu
+system for selecting parking facilities, levels
+*_\{what is a level - do you mean parking level in
+a multi-floor parking lot}_* ,
+and areas. *_\{why is area different than parking
+facility - maybe call it "lots" instead? or these areas
+within a parking lot - such as A10, A11, etc.}_*
+* [*] *User Customization* - Programmable options for adding,
+changing, or deleting parking facilities and levels,
+protected by password access.
+
+=== Data Management
+
+* [*] *Data Upload/Download* - Seamless upload and download
+of data when the device is cradled
+and connected to the workstation.
+* [*] *Data Fields* - Software contains data fields
+*_\{not clear what the fields are used for?}_*
+for license plate numbers (up to 8 characters)
+and state/province codes.
+* [*] *Error Reporting* - Exception/error reporting feature
+prompts users to confirm or correct entries as needed.
+
+=== Security and Reliability
+* [*] *Password Protection* - Certain programmable features
+are password-protected to prevent unauthorized changes.
+* [*] *Data Accuracy* - Supports checks and balances to ensure
+the accuracy of recorded data.
+* [*] *Interchangeable Units* Each handheld unit
+is interchangeable and swappable for different routes,
+ensuring continuous operation.
+
+A typical system looks like this:
+
+*_\{need picture?}_*
+
+//image::ROOT:IZACR-QPR50/IZACR-QPR50-SLN-Sys-Diagram.png[image,width=800,align=left]
+
+{empty} +
+
+[discrete]
+== Contact Us
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+Doc. No. SLN-{shortprodname2}-TDSHEET
+
+
