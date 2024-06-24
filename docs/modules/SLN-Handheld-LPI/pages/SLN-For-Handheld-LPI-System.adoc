@@ -46,38 +46,44 @@
 
 // toc::[]
 
-*_\{need typical system picture?}_*
+[discrete]
+== Key Features
+* [*] Operator only takes pictures of each plate without entering
+plate numbers - for faster, efficient processing and higher accuracy
+* [*] 99% of plates are processed automatically - without manual review
+* [*] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right] Integrated with {software-cloud}, including full reconciliation with
+parking system
+* [*] Rugged MIL-STD-810 tested for harsh environment
+* [*] IP68
+
 
 [discrete]
 == Handheld Device Options
 
 * *Samsung Galaxy XCover Pro* - Features:
-** [*] IP68 rated
-** [*] MIL-STD-810G certified
-** [*] 4,050 mAh removable battery
-** [*] 6.3" display
+** [*] 25.0 MP {plus} 8.0 MP rear camera resolution
+** [*] 6.3" display (full rectangle); 6.1" rounded corners
+** [*] 4,050 mAh battery
+** [*] IP68 rated (water resistant in up to 5 feet of water for up to 30 minutes)
+** [*] MIL-STD-810G tested
+** [*] Drop-tested: 4.9 ft (1.5 m) drop is only tested with case on, without case the device itself can withstand a drop from 3.9 ft (1.2 m)
+** [*] 0.5 lbs (220 g) weight
 
-* *Samsung Galaxy Tab Active 2* - Features:
-** [*] IP68 rated
-** [*] MIL-STD-810G certified
-** [*] 4,450 mAh removable battery
-** [*] 8" display
 
-* *Lenovo Tab M10 HD Rugged Version* - Features:
-*_\{FYI: Lenova site states:
-Unfortunately the "Lenovo Tab M10 HD Tablet"
-is not available. May we suggest:
-Lenovo Tab P12 Tablet, Lenova Tab M11,
-Lenova Tab M10 Plus (Gen 3)}_*
-** [*] *_\{what about IP rating, MIL-STD certification?}_* Durable design with reinforced corners
-** [*] 5,000 mAh battery
+* *Samsung Galaxy Tab Active4 Pro* - Features:
+** [*] 13 MP
 ** [*] 10.1" display
+** [*] 7,600 mAh battery
+** [*] IP68 rated (water resistant in up to 5 feet of water for up to 30 minutes)
+** [*] MIL-STD-810H tested
+** [*] Drop-tested: Drop-tested: 4.9 ft (1.5 m) drop is only tested with case on, without case the device itself can withstand a drop from 3.9 ft (1.2 m)
+** [*] 1.5 lbs (674 g) - device; 1.8 lbs (824 g) - with case
 
 [sidebar]
 The final selection of rugged smartphones or tablets
-will be based on customer response
-and specific requirements.
-
+will be done in consultation with customer. +
+{empty} +
+Data plan not included
 
 <<<
 [discrete]
@@ -85,7 +91,7 @@ and specific requirements.
 
 [discrete]
 === Route Management
-* [*] *Automated Route Planning* - Automatically maps inventory routes
+* [*] *Route Planning* - Via {software-cloud} interface; maps inventory routes
 for efficient coverage of parking facilities.
 * [*] *Dynamic Route Adjustment* - Allows real-time adjustments
 to routes based on changing conditions or priorities.
@@ -111,42 +117,17 @@ and processed data in {software-cloud}.
 
 [discrete]
 === User Interface and Accessibility
-* [*] *Web Interface for Review* - Manual review and
+* [*] *{software-cloud} Web Interface for Review* - Manual review and
 correction of license plate data can be conducted
 via a user-friendly web interface.
 * [*] *Menu-Driven Interface* - Easy-to-navigate menu
 system for selecting parking facilities, levels
-*_\{what is a level - do you mean parking level in
-a multi-floor parking lot}_* ,
-and areas. *_\{why is area different than parking
-facility - maybe call it "lots" instead? or these areas
-within a parking lot - such as A10, A11, etc.}_*
+and areas.
 * [*] *User Customization* - Programmable options for adding,
 changing, or deleting parking facilities and levels,
 protected by password access.
 
 <<<
-[discrete]
-=== Data Management
-
-* [*] *Data Upload/Download* - Seamless upload and download
-of data when the device is cradled
-and connected to the workstation.
-* [*] *Data Fields* - Software contains data fields
-*_\{not clear what the fields are used for?}_*
-for license plate numbers (up to 8 characters)
-and state/province codes.
-* [*] *Error Reporting* - Exception/error reporting feature
-prompts users to confirm or correct entries as needed.
-[discrete]
-=== Security and Reliability
-* [*] *Password Protection* - Certain programmable features
-are password-protected to prevent unauthorized changes.
-* [*] *Data Accuracy* - Supports checks and balances to ensure
-the accuracy of recorded data.
-* [*] *Interchangeable Units* Each handheld unit
-is interchangeable and swappable for different routes,
-ensuring continuous operation.
 
 //A typical system looks like this:
 
@@ -154,7 +135,12 @@ ensuring continuous operation.
 
 {empty} +
 
-*_\{need ordering info - no entry in SF yet?}_*
+[discrete]
+
+//== Ordering Information
+//*_\{get from Pinchas}_*
+
+
 
 [discrete]
 == Contact Us
