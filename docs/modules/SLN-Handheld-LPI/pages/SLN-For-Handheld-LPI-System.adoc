@@ -81,8 +81,7 @@ parking system
 
 [sidebar]
 The final selection of rugged smartphones or tablets
-will be done in consultation with customer. +
-Data plan not included
+will be done in consultation with customer; data plan not included
 
 <<<
 [discrete]
