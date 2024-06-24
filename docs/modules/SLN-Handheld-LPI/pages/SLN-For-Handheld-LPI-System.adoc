@@ -49,6 +49,23 @@
 [discrete]
 == Handheld Device Options
 
+* *Samsung Galaxy XCover Pro* - Features:
+** [*] IP68 rated
+** [*] MIL-STD-810G certified
+** [*] 4,050 mAh removable battery
+** [*] 6.3" display
+
+* *Samsung Galaxy Tab Active 2* - Features:
+** [*] IP68 rated
+** [*] MIL-STD-810G certified
+** [*] 4,450 mAh removable battery
+** [*] 8" display
+
+* *Lenovo Tab M10 HD Rugged Version* - Features:
+** [*] *_\{what about IP rating, MIL-STD certification?}_* Durable design with reinforced corners
+** [*] 5,000 mAh battery
+** [*] 10.1" display
+
 [NOTE]
 ==================================
 The final selection of rugged smartphones or tablets
@@ -56,22 +73,7 @@ will be based on customer response
 and specific requirements.
 ==================================
 
-* *Samsung Galaxy XCover Pro* - Features:
-** IP68 rated
-** MIL-STD-810G certified
-** 4,050 mAh removable battery
-** 6.3" display
-
-* *Samsung Galaxy Tab Active 2* - Features:
-** IP68 rated
-** MIL-STD-810G certified
-** 4,450 mAh removable battery
-** 8" display
-
-* *Lenovo Tab M10 HD Rugged Version* - Features:
-** *_\{what about IP rating, MIL-STD certification?}_* Durable design with reinforced corners
-** 5,000 mAh battery
-** 10.1" display
+<<<
 
 == Software Features
 
