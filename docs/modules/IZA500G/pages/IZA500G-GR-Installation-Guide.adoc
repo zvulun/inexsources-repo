@@ -213,7 +213,7 @@ All network cable extensions and repeaters must be shielded.
 
 //[#s_Planning-Your-Installation]
 
-//+++<div class="pagebreak"> </div>+++
++++<div class="pagebreak"> </div>+++
 
 [#s_Plan-Your-Site]
 
@@ -221,7 +221,7 @@ All network cable extensions and repeaters must be shielded.
 
 include::ROOT:partial$IZA800G/p-plan-install-first-sections.adoc[First Sections of Installation Planning]
 
-//+++<div class="pagebreak"> </div>+++
++++<div class="pagebreak"> </div>+++
 
 [#s_Optimizing-Nighttime-Vehicle-Overview-Images-using-External-Illuminators]
 
@@ -482,7 +482,7 @@ IP address.
 
 include::ROOT:partial$IZA800G/p-camera-logging-in.adoc[Logging in to the Camera]
 
-+++<div class="pagebreak"> </div>+++
+//+++<div class="pagebreak"> </div>+++
 
 [#s_Changing-a-Camera-s-IP-Address]
 
@@ -576,8 +576,6 @@ Do not use solvents or strong abrasive detergent when cleaning the Camera System
 == Notices, Safety Precautions and Certifications
 
 include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
-
-<<<
 
 include::ROOT:partial$p-ALPR-camera-safety-precautions.adoc[ALPR Camera Safety Precautions]
 
