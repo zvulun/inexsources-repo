@@ -39,12 +39,15 @@ camera, and the {compname-short}
 
 +
 --
+
+<<<
+
 [IMPORTANT]
 ========================================
 It is highly recommended to record the camera's IP address and port number in a safe place. You will need them if the camera's parameters are reset back to their defaults, and for configuring {compname-short} recognition software.
 ========================================
 
-+++<div class="pagebreak"> </div>+++
+//+++<div class="pagebreak"> </div>+++
 
 ////
 
