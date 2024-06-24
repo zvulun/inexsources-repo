@@ -46,6 +46,8 @@
 
 // toc::[]
 
+*_\{need typical system picture?}_*
+
 [discrete]
 == Handheld Device Options
 
@@ -115,6 +117,8 @@ within a parking lot - such as A10, A11, etc.}_*
 changing, or deleting parking facilities and levels,
 protected by password access.
 
+<<<
+
 === Data Management
 
 * [*] *Data Upload/Download* - Seamless upload and download
@@ -137,8 +141,6 @@ is interchangeable and swappable for different routes,
 ensuring continuous operation.
 
 //A typical system looks like this:
-
-*_\{need typical system picture?}_*
 
 //image::ROOT:IZACR-QPR50/IZACR-QPR50-SLN-Sys-Diagram.png[image,width=800,align=left]
 
