@@ -18,7 +18,7 @@ Select your camera's position so that license plates are always within the captu
 
 .Plates Within Capture Line
 
-image::ROOT:/IZA800G/image11.png[image,width=247,height=411]
+image::ROOT:/IZA800G/image11.png[image,width=240]
 
 [#f_Plates-Parallel-to-Capture-Line-Away-from-Road-Curves]
 
@@ -46,7 +46,7 @@ Installations that position the camera at significant angles in relation to the 
 
 .Horizontal Camera Angle (Pan Angle)
 
-ifndef::xref-type-IZ600F[image::ROOT:/IZA800G/image13.png[image,width=310,height=332]]
+ifndef::xref-type-IZ600F[image::ROOT:/IZA800G/image13.png[image,width=300]]
 
 ifdef::xref-type-IZ600F[image::ROOT:/IZ600F/IZ600F-30-FIG-025a_CameraAngles.png[image,width=310,height=332]]
 
