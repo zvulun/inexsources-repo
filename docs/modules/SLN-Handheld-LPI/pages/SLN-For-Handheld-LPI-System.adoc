@@ -134,13 +134,15 @@ the accuracy of recorded data.
 is interchangeable and swappable for different routes,
 ensuring continuous operation.
 
-A typical system looks like this:
+//A typical system looks like this:
 
-*_\{need picture?}_*
+*_\{need typical system picture?}_*
 
 //image::ROOT:IZACR-QPR50/IZACR-QPR50-SLN-Sys-Diagram.png[image,width=800,align=left]
 
 {empty} +
+
+*_\{need ordering info - no entry in SF yet?}_*
 
 [discrete]
 == Contact Us
@@ -149,6 +151,6 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. SLN-{shortprodname2}-TDSHEET
+Doc. No. SLN-{shortprodname2}-TDSHEET Ver. {docdate}
 
 
