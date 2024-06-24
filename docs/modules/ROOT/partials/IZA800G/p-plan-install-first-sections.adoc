@@ -18,7 +18,7 @@ Select your camera's position so that license plates are always within the captu
 
 .Plates Within Capture Line
 
-image::ROOT:/IZA800G/image11.png[image,width=240]
+image::ROOT:/IZA800G/image11.png[image,width=230]
 
 [#f_Plates-Parallel-to-Capture-Line-Away-from-Road-Curves]
 
