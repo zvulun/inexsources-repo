@@ -80,9 +80,10 @@ and specific requirements.
 
 
 <<<
-
+[discrete]
 == Software Features
 
+[discrete]
 === Route Management
 * [*] *Automated Route Planning* - Automatically maps inventory routes
 for efficient coverage of parking facilities.
@@ -91,12 +92,14 @@ to routes based on changing conditions or priorities.
 * [*] *Historical Route Data* - Stores previous route data to
 optimize future inventory processes.
 
+[discrete]
 === Image Capture
 * [*] *Snapshot Feature* - Users take a snapshot (still image)
 of the vehicle plate using the device’s camera.
 * [*] *Automatic Upload* - Captured images are automatically
 uploaded to {software-cloud} without the need for manual input.
 
+[discrete]
 === {software-cloud} Integration
 * [*] *AI Processing* - Images are processed by AI in the
 cloud to recognize and record license plate numbers.
@@ -106,6 +109,7 @@ if necessary.
 * [*] *Cloud Storage* - Secure storage of all captured images
 and processed data in {software-cloud}.
 
+[discrete]
 === User Interface and Accessibility
 * [*] *Web Interface for Review* - Manual review and
 correction of license plate data can be conducted
@@ -122,7 +126,7 @@ changing, or deleting parking facilities and levels,
 protected by password access.
 
 <<<
-
+[discrete]
 === Data Management
 
 * [*] *Data Upload/Download* - Seamless upload and download
@@ -134,7 +138,7 @@ for license plate numbers (up to 8 characters)
 and state/province codes.
 * [*] *Error Reporting* - Exception/error reporting feature
 prompts users to confirm or correct entries as needed.
-
+[discrete]
 === Security and Reliability
 * [*] *Password Protection* - Certain programmable features
 are password-protected to prevent unauthorized changes.
