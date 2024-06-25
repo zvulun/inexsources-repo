@@ -256,7 +256,7 @@ image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height
 
 * External Illuminator - Can be used to enhance overview vehicle image quality, for front and/or rear capture. It is recommended to use an illuminator power supply separate from the camera's supply.
 
-** Mount illuminators at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training about this subject.
+** Mount illuminators at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training.
 
 ** Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
 
@@ -276,6 +276,8 @@ See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 See your camera's Installation Guide
 for detailed instructions (see <<s_Related-Documents>>.)
+
+<<<
 
 [#s_Using-RoadView]
 
