@@ -618,7 +618,7 @@ image::./UserGuide/image16.png[image,width=187,height=126]
 
 image::./UserGuide/image17.png[image,width=294]
 
-. If needed, insert the rubber gasket (5) into the endcap (4). If there is a ridge, fit the rubber gasket inset ridge on the ridge inside the endcap (see <<f_Rubber-Gasket-Inset-Ridge-Fitting-on-Ridge-Inside-Endcap>>.
+. If needed, insert the rubber gasket (5) into the endcap (4). If there is a ridge, fit the rubber gasket inset ridge on the ridge inside the endcap (see <<f_Rubber-Gasket-Inset-Ridge-Fitting-on-Ridge-Inside-Endcap>>).
 +
 [#f_Rubber-Gasket-Inset-Ridge-Fitting-on-Ridge-Inside-Endcap]
 
