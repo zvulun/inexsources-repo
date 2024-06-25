@@ -248,6 +248,8 @@ image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height
 
 * A list of accessories that can be supplied by {compname-short} can be found at the end of the Specifications (see <<s_Specifications>>).
 
+<<<
+
 [#s_Optional-Accessories]
 
 === Optional Accessories
@@ -259,8 +261,6 @@ image::./UserGuide/image3.jpeg[Image result for barrel connector,width=75,height
 ** Mount illuminators at an appropriate distance away from their associated camera(s), according to the objectives of your project. Contact {compname-short} for guidance/training.
 
 ** Position the illuminator so you can aim it at the place where vehicles pass for recognition - while minimizing the glare into drivers' eyes. In most cases, however, white illuminators are mounted to be aimed at the rear of vehicles. Illuminator aiming is most effective at night.
-
-<<<
 
 [#s_Recognizing-Devices-with-IZ-Discovery]
 
@@ -293,6 +293,7 @@ See the {software-discovery} User Guide (see <<s_Related-Documents>>).
 
 include::ROOT:partial$RoadViewALPR/p-using-roadview.adoc[Using RoadView]
 
+<<<
 
 == Maintenance
 
@@ -316,7 +317,7 @@ include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
 //include::ROOT:partial$p-eye-safety-precautions.adoc[Eye Safety Precautions]
 
-+++<div class="pagebreak"> </div>+++
+//+++<div class="pagebreak"> </div>+++
 
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
