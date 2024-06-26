@@ -34,9 +34,8 @@ image::ROOT:/IZA800G/image12.png[image,width=503,height=314]
 
 ========================================
 
-The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
 
-The maximum vertical angle allowed is 30°.
+See The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
 
 Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
 

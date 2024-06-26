@@ -171,10 +171,11 @@ Independently controllable frame rate and bandwidth
 
 .2+.^|Power
 .^a|Power Supply
-.^a|12 VDC (male barrel connector required) or PoE (802.3af)
+.^a|12 VDC (male barrel connector required) or PoE (802.3at, max 30 W)
 
 .^a|Power Consumption
-.^a|13.8 Watts
+.^a|* Color mode - 5 Watts
+* B/W mode {plus} LED - 10-12 Watts
 
 2.2+.^|Accessories Included
 .^|Camera mount, 3x axes
