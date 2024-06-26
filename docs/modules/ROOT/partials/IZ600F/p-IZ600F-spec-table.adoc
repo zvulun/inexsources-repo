@@ -175,7 +175,7 @@ Independently controllable frame rate and bandwidth
 
 .^a|Power Consumption
 .^a|* Color mode - 5 Watts
-* B/W mode {plus} LED - 10-12 Watts
+* B/W mode with LED on - 10-12 Watts
 
 2.2+.^|Accessories Included
 .^|Camera mount, 3x axes
