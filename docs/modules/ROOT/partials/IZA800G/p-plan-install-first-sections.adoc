@@ -33,11 +33,14 @@ image::ROOT:/IZA800G/image12.png[image,width=503,height=314]
 [IMPORTANT]
 
 ========================================
+See your camera's data sheet
+for capture distance
+specifications.
 
-
-See The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
-
-Installations that position the camera at significant angles in relation to the plates will reduce the line-of-sight distances specified.
+Installations that position the
+camera at significant angles in
+relation to the plates will reduce
+the line-of-sight distances specified.
 
 ========================================
 
@@ -58,13 +61,13 @@ ifdef::xref-type-IZ600F[image::ROOT:/IZ600F/IZ600F-30-FIG-025a_CameraAngles.png[
 
 ========================================
 
-The maximum horizontal angle allowed is 30° (to the farthest point at the end of the capture line).
+See your camera's data sheet
+for capture distance
+specifications.
 
 If you must capture plates on a curve, place the camera on the side of the road that minimizes the horizontal angle.
 
 At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
-
-For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
 
 ========================================
 
@@ -83,17 +86,17 @@ image::ROOT:/IZA800G/image14.png[image,width=626,height=194]
 
 ========================================
 
+See your camera's data sheet
+for capture distance
+specifications.
+
 The distance from the camera to the capture line must be within the viewing range of the LPR camera.
 
 Adjust the vertical angle so that the camera can read plates at all of their expected heights from the road.
 
-The maximum vertical angle allowed is 30°.
-
 Larger angles and/or greater mounting heights may be required in order to recognize plates on vehicles close to each other (such as in slow/congested traffic).
 
 At larger angles, the reflectivity of the plates is reduced, resulting in images with less contrast.
-
-For plates whose characters are very shiny (for example, silvery), the *weighted* angle must be less than 20 degrees. The weighted angle is the angle between a line from the camera to the plate, and a line running straight ahead from the vehicle.
 
 ========================================
 
