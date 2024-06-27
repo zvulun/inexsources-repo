@@ -45,6 +45,12 @@
 // correct full camera image
 image:ROOT:image$/IZ600F/IZ600F-30-FIG-001_Full_View.png[Picture of Camera,280,align=left]
 
+image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
+image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
+image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
+image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
+image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
+
 // image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right] image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right] image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 
 // restore section numbering from here on
@@ -59,6 +65,7 @@ described in their Installation Guides. If not, moisture
 problems may occur - which are not covered by the warranty.*
 ================================
 
+<<<
 
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
@@ -69,6 +76,8 @@ problems may occur - which are not covered by the warranty.*
 toc::[]
 
 ====
+
+<<<
 
 [#s_Related-Documents]
 
