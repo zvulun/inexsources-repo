@@ -86,7 +86,7 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 * [*] IK10 vandal-proof housing for efficient, worry-free operation
 
-* [*] NDAA Section 889 compliant for our national security
+* [*] NDAA Section 889 compliant
 
 image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
@@ -184,4 +184,4 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-REV-F3-TDSHEET
+Doc. No. {shortprodname}-REV-F3-TDSHEET Ver. {docdate}
