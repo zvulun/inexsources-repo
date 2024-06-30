@@ -134,6 +134,6 @@ include::ROOT:partial$IZA800GORT/p-IZA800GORT-wiring-table.adoc[IZA800GORT Wirin
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-TECH-001
+Doc. No. {shortprodname}-TECH-001 Ver. {docdate}
 
 
