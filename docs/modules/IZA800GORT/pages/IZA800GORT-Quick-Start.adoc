@@ -119,16 +119,12 @@ image::ROOT:IZA800GORT/IZA800GORT-FIG-034f2_USA_IllumOVRear.png[image,width=500]
 [discrete]
 === Camera Wiring Diagram
 
-//.Typical Camera System Wiring Diagram
-
 image::ROOT:IZA800GORT/IZA800GORT-FIG-034g_USA_CamOnlyWiring.png[image,width=428]
 
 [#t_Wiring-Diagram-Legend-Bill-of-Materials]
 
 [discrete]
 === Legend
-
-//.Legend
 
 include::ROOT:partial$IZA800GORT/p-IZA800GORT-wiring-table.adoc[IZA800GORT Wiring Table]
 
