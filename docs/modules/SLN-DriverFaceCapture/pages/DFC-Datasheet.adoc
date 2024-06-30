@@ -78,17 +78,17 @@ and darkness at night
 
 * [*] Integrated with {software-cloud}
 
-* [*] NDAA Section 889 compliant for our national security
+* [*] NDAA Section 889 compliant
 
 image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
-//image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
-//image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
-//image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
+image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
+image:ROOT:image$NVIDIA_LOGO.png[NVIDIA Logo,align=right]
+image:ROOT:image$LINUX_LOGO.png[LINUX Logo,align=right]
 image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
 image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
 image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
 image:ROOT:image$ONVIF_LOGO.png[ONVIF Logo,80,align=right]
-//image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
+image:ROOT:image$IK10_LOGO.png[IK10 Logo,25,align=right]
 
 --
 +++<div class="pagebreak"> </div>+++
