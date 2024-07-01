@@ -80,7 +80,7 @@ image:ROOT:IZA800GDOT/IZA800GDOT-FIG-006_NewFrontPage.png[Picture of Camera,400,
 
 * [*] IK10 vandal-proof housing for efficient, worry-free operation
 
-* [*] NDAA Section 889 compliant for our national security
+* [*] NDAA Section 889 compliant
 
 //image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
