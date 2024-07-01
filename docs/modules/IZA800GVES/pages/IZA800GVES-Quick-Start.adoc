@@ -125,6 +125,6 @@ include::ROOT:partial$IZA800GVES/p-IZA800GVES-wiring-table.adoc[IZA800GVES Wirin
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-TECH-001
+Doc. No. {shortprodname}-TECH-001 Ver. {docdate}
 
 
