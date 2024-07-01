@@ -91,7 +91,7 @@ image:ROOT:image$/IZA500G/IZA500G-FIG-001e_FrontPagePhoto.png[Picture of Camera,
 
 * [*] IK10 vandal-proof housing for efficient, worry-free operation
 
-* [*] NDAA Section 889 compliant for our national security
+* [*] NDAA Section 889 compliant
 
 //+
 //--
