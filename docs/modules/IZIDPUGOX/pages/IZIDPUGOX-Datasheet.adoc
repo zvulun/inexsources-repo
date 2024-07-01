@@ -120,8 +120,8 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 |===
 
 
-{empty}
-
+//{empty}
+////
 [table.withborders,width="100%",cols="20,30%,50%",options="header",]
 |===
 a|Product a|Available Part Numbers+++**+++ a|Product Description
@@ -149,6 +149,7 @@ a|Product a|Available Part Numbers+++**+++ a|Product Description
 ** UK - 12 VDC power supply with BS 546 (IEC TR60083 Type D) plug
 ** US - 12 VDC power supply with NEMA 5-15 (IEC TR60083 Type B) plug
 
+////
 
 [discrete]
 == Standard Package Contents
