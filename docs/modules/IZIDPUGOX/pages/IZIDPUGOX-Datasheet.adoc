@@ -120,6 +120,7 @@ include::ROOT:partial$/IZIDPUGOX/p-IZIDPUGOX-spec-table.adoc[IZIDPUGOX Spec Tabl
 |===
 
 
+{empty}
 
 [table.withborders,width="100%",cols="20,30%,50%",options="header",]
 |===
