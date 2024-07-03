@@ -40,10 +40,14 @@
 
 image:IZ4POE:IZ4POE-FIG-001_FrontView.png[Picture of IZ4POE,width=300,align=left]
 
+{empty}
+
 // no section numbers in datasheets
 //:sectnums: all
 
 include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro Paragraph]
+
+{empty}
 
 [discrete]
 == Specifications
@@ -56,6 +60,8 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro P
 |PoE{plus}{plus} Ports |{number-of-poeports} Gigabit PoE{plus}{plus} Ports
 |Installation Method |DIN-Rail
 |===
+
+{empty}
 
 [discrete]
 == Ordering Information
@@ -84,22 +90,18 @@ a|image:IZ4POE:IZ4POE-FIG-002_DimLengthWidth.png[image,width=350]
 2+^!Power Input Wires
 a!*Label* a!*Typical Wire Color*
 !image:ROOT:GroundSymbol.png[image,width=20,height=26] (Shield) !Yellow
-!24 VDC (&#8212;)/GND !Black
-!24 VDC ({plus}) Input !Red
+!48 VDC (&#8212;)/GND !Black
+!48 VDC ({plus}) Input !Red
 !===
 
 
 [table.withborders,width="100%",cols="55%,45%",options="header",]
 !===
-2+^!Camera Cable Wires
-a!*Signal* a!*Wire Color*
-!image:ROOT:GroundSymbol.png[image,width=20,height=26] (Shield) !Silver
-!(LAN) RX &#8212; !Green
-!(LAN) RX {plus}  !White/Green
-!(LAN) TX &#8212; !Orange
-!(LAN) TX {plus}  !White/Orange
-!24 VDC ({plus}) Output !Red
-!24 VDC (&#8212;)/GND !Black
+2+^!LAN Input Connectors (from LAN)
+a!*Signal* a!*Connector*
+!LAN Input(s) !RJ45
+2+^a!*PoE{plus}{plus} Output Connectors (to Camera)*
+!POE Output(s)!RJ45
 !===
 
 |===
