@@ -2,13 +2,17 @@
 ifeval::[{number-of-poeports} == 1]
 The {compname-short} industrial PoE{plus}{plus} injector features
 {number-of-poeports} Gigabit port,
+IEEE802.3af/at/bt 95W PoE{plus}{plus}.
+It includes a DIN rail mount and a power input
+of 48 VDC.
 endif::[]
 
 ifeval::[{number-of-poeports} > 1]
 The {compname-short} industrial PoE{plus}{plus} injector features
 {number-of-poeports} Gigabit ports,
+IEEE802.3af/at/bt 95W PoE{plus}{plus}.
+It includes a DIN rail mount and a power input
+of 48 VDC.
 endif::[]
 
-IEEE802.3af/at/bt 95W PoE{plus}{plus}. It includes a DIN rail mount and a power input
-of 48 VDC.
 
