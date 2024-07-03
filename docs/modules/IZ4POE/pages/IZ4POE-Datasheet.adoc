@@ -40,7 +40,7 @@
 
 image:IZ4POE:IZ4POE-FIG-001_FrontView.png[Picture of IZ4POE,width=300,align=left]
 
-{empty}
+{empty} +
 {empty}
 
 // no section numbers in datasheets
@@ -48,7 +48,9 @@ image:IZ4POE:IZ4POE-FIG-001_FrontView.png[Picture of IZ4POE,width=300,align=left
 
 include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro Paragraph]
 
+{empty} +
 {empty}
+
 
 [discrete]
 == Specifications
@@ -62,7 +64,9 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro P
 |Installation Method |DIN-Rail
 |===
 
+{empty} +
 {empty}
+
 
 [discrete]
 == Ordering Information
