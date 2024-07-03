@@ -43,13 +43,9 @@ image:IZ4POE:IZ4POE-FIG-001_FrontView.png[Picture of IZ4POE,width=300,align=left
 // no section numbers in datasheets
 //:sectnums: all
 
-{empty} +
 {empty}
 
 include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro Paragraph]
-
-{empty} +
-{empty}
 
 [discrete]
 == Specifications
@@ -62,8 +58,6 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro P
 |PoE{plus}{plus} Ports |{number-of-poeports} Gigabit PoE{plus}{plus} Ports
 |Installation Method |DIN-Rail
 |===
-
-
 
 [discrete]
 == Ordering Information
