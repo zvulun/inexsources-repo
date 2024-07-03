@@ -52,6 +52,20 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro P
 {empty}
 
 [discrete]
+== Specifications
+
+[table.withborders,width="65%",cols="38%,62%",options="header",]
+|===
+|Item |Specification
+|Input Voltage |DC 48V-57V
+|Output |DC 48V-57V PoE IEEE802.3af/at/bt
+|PoE{plus}{plus} Ports |{number-of-poeports} Gigabit PoE{plus}{plus} Ports
+|Installation Method |DIN-Rail
+|===
+
+
+
+[discrete]
 == Ordering Information
 
 include::ROOT:partial$IZ4POE/p-IZxPOE-ordering-info.adoc[IZxPOE Datasheet Intro Paragraph]
