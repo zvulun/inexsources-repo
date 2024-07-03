@@ -3,6 +3,14 @@
 |Item |Specification
 |Input Voltage |DC 48V-57V
 |Output |DC 48V-57V PoE IEEE802.3af/at/bt
+
+ifeval::[{number-of-poeports} == 1]
+|PoE{plus}{plus} Port |{number-of-poeports} Gigabit PoE{plus}{plus} Port
+endif::[]
+
+ifeval::[{number-of-poeports} > 1]
 |PoE{plus}{plus} Ports |{number-of-poeports} Gigabit PoE{plus}{plus} Ports
+endif::[]
+
 |Installation Method |DIN-Rail
 |===
