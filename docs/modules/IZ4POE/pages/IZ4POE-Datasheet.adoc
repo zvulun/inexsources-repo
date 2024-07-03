@@ -80,7 +80,7 @@ a|image:IZ4POE:IZ4POE-FIG-002_DimLengthWidth.png[image,width=350]
 |===
 
 [discrete]
-== {shortprodname} Pinouts
+== Pinouts
 
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
