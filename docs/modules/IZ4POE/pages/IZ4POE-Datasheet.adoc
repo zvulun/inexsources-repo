@@ -1,0 +1,116 @@
+:docproductname: IZ4POE
+:shortprodname: IZ4POE
+:generic-camera-name:
+:number-of-ports: 4
+:rev-no: 1.0
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+
+:xref-type-IZXPOE:
+:layout-type-technote:
+
+= {shortprodname} Datasheet
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== Gigabit {numberofports}-Port PoE++ Injector
+
+[discrete]
+=== Rev. {rev-no}
+
+image:IZPANEL:IZPANEL3-FIG-001b_FrontView.png[Picture of IZPanel,width=300,align=left]
+
+// no section numbers in datasheets
+//:sectnums: all
+
+{empty} +
+{empty}
+The {compname-short} industrial PoE++ injector features
+{number-of-ports} Gigabit ports, IEEE802.3af/at/bt 95W
+PoE++. It includes a DIN rail mount and a power input
+of 48 VDC.
+
+{empty} +
+{empty}
+
+[discrete]
+== Ordering Information
+
+[table.withborders,width="100%",cols="25%,75%",options="header",]
+|===
+|Part Number |Description
+|{shortprodname} |{number-of-ports}-Port Gigabit {numberofports}-Port PoE++ Injector
+|===
+
+<<<
+
+[discrete]
+== Dimensions (mm)
+
+[table.noborders,width="80%",cols="50%,50%",frame=none,grid=none]
+|===
+a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=350]
+.^a|image:IZPANEL:IZPANEL3-FIG-003b_DimHeight.png[image,width=350]
+|===
+
+[discrete]
+== IZPanel Pinouts
+
+[table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
+|===
+.^a|image:IZPANEL:IZPANEL3-FIG-004_FrontWithSticker.png[image,width=400]
+|[table.withborders,width="100%",cols="55%,45%",options="header",]
+!===
+2+^!Power Input Wires
+a!*Label* a!*Typical Wire Color*
+!image:ROOT:GroundSymbol.png[image,width=20,height=26] (Shield) !Yellow
+!24 VDC (&#8212;)/GND !Black
+!24 VDC ({plus}) Input !Red
+!===
+
+
+[table.withborders,width="100%",cols="55%,45%",options="header",]
+!===
+2+^!Camera Cable Wires
+a!*Signal* a!*Wire Color*
+!image:ROOT:GroundSymbol.png[image,width=20,height=26] (Shield) !Silver
+!(LAN) RX &#8212; !Green
+!(LAN) RX {plus}  !White/Green
+!(LAN) TX &#8212; !Orange
+!(LAN) TX {plus}  !White/Orange
+!24 VDC ({plus}) Output !Red
+!24 VDC (&#8212;)/GND !Black
+!===
+
+|===
+
+<<<
+
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+
+Doc. No. {docproductname}-REV-3_0-TDSHEET
+
