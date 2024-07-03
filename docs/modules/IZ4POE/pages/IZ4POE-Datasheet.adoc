@@ -113,6 +113,7 @@ a!*Signal* a!*Connector*
 [table.withborders,width="100%",cols="55%,45%",options="header",]
 !===
 2+^a!*PoE{plus}{plus} Output Connector(s) - to Camera*
+a!*Signal* a!*Connector*
 !POE Output(s)!RJ45
 !===
 
