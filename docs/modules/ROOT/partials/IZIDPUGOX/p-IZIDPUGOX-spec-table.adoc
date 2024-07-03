@@ -76,7 +76,7 @@ architecture GPU with 32 Tensor Cores
 
 .3+.^| Certifications
 .^| EMC
-.^| FCC; CE; UKCA
+.^| FCC Part 15, subpart B; CE; UKCA
 
 .^| RoHS
 .^| RoHS
