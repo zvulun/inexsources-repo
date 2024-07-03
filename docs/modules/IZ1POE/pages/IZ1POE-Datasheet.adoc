@@ -1,7 +1,7 @@
-:docproductname: IZ4POE
-:shortprodname: IZ4POE
+:docproductname: IZ1POE
+:shortprodname: IZ1POE
 :generic-camera-name:
-:number-of-poeports: 4
+:number-of-poeports: 1
 :rev-no-title: 1.0
 :rev-no-doc-num: 1_0
 // These attributes have been soft set
