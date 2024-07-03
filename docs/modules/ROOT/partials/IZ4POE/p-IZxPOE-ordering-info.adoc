@@ -1,4 +1,4 @@
-[table.withborders,width="100%",cols="25%,75%",options="header",]
+[table.withborders,width="65%",cols="38%,62%",options="header",]
 |===
 |Part Number |Description
 |{shortprodname} |Gigabit {number-of-poeports}-Port PoE{plus}{plus} Injector

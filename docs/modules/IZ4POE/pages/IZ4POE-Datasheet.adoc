@@ -97,10 +97,10 @@ a!*Label* a!*Typical Wire Color*
 
 [table.withborders,width="100%",cols="55%,45%",options="header",]
 !===
-2+^!LAN Input Connectors (from LAN)
+2+^!LAN Input Connector(s) - from LAN
 a!*Signal* a!*Connector*
 !LAN Input(s) !RJ45
-2+^a!*PoE{plus}{plus} Output Connectors (to Camera)*
+2+^a!*PoE{plus}{plus} Output Connector(s) - to Camera*
 !POE Output(s)!RJ45
 !===
 
