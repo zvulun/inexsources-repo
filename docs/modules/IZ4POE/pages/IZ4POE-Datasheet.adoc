@@ -38,7 +38,7 @@
 [discrete]
 === Rev. {rev-no-title}
 
-image:IZ4POE:IZ4POE-FIG-001_FrontView.png[Picture of IZ4POE,width=300,align=left]
+image:IZ4POE:IZ4POE-FIG-001_FrontView.png[image,width=300,align=left]
 
 {empty} +
 {empty}
@@ -55,14 +55,7 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro P
 [discrete]
 == Specifications
 
-[table.withborders,width="65%",cols="38%,62%",options="header",]
-|===
-|Item |Specification
-|Input Voltage |DC 48V-57V
-|Output |DC 48V-57V PoE IEEE802.3af/at/bt
-|PoE{plus}{plus} Ports |{number-of-poeports} Gigabit PoE{plus}{plus} Ports
-|Installation Method |DIN-Rail
-|===
+include::ROOT:partial$IZ4POE/p-IZxPOE-spec-table.adoc[IZxPOE Spec Table]
 
 {empty} +
 {empty}
@@ -71,7 +64,7 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro P
 [discrete]
 == Ordering Information
 
-include::ROOT:partial$IZ4POE/p-IZxPOE-ordering-info.adoc[IZxPOE Datasheet Intro Paragraph]
+include::ROOT:partial$IZ4POE/p-IZxPOE-ordering-info.adoc[IZxPOE Ordering Info]
 
 <<<
 
@@ -94,28 +87,7 @@ a|image:IZ4POE:IZ4POE-FIG-002_DimLengthWidth.png[image,width=350]
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
 .^a|image:IZ4POE:IZ4POE-FIG-004_FrontViewWithSticker.png[image,width=400]
-|[table.withborders,width="100%",cols="55%,45%",options="header",]
-!===
-2+^!Power Input Wires
-a!*Label* a!*Typical Wire Color*
-!image:ROOT:GroundSymbol.png[image,width=20,height=26] (Shield) !Yellow
-!48 VDC (&#8212;)/GND !Black
-!48 VDC ({plus}) Input !Red
-!===
-
-
-[table.withborders,width="100%",cols="55%,45%",options="header",]
-!===
-2+^!LAN Input Connector(s) - from LAN
-a!*Signal* a!*Connector*
-!LAN Input(s) !RJ45
-!===
-[table.withborders,width="100%",cols="55%,45%",options="header",]
-!===
-2+^a!*PoE{plus}{plus} Output Connector(s) - to Camera*
-a!*Signal* a!*Connector*
-!POE Output(s)!RJ45
-!===
+include::ROOT:partial$IZ4POE/p-IZxPOE-pinout-tables.adoc[Pinout Table]
 
 |===
 
@@ -127,5 +99,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
 
-Doc. No. {docproductname}-REV-{rev-no-doc-num}-TDSHEET
+Doc. No. {docproductname}-REV-{rev-no-doc-num}-TDSHEET Ver. {docdate}
 
