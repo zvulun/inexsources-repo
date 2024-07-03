@@ -80,7 +80,7 @@ image:ROOT:IZODPUG/IZODPUG-B1-FIG-042_FrontPage.png[image,300]
 
 * [*] IP67 (NEMA6P) ingress protection against extreme moisture
 
-* [*] NDAA Section 889 compliant for our national security
+* [*] NDAA Section 889 compliant
 
 image:ROOT:image$IZCLOUD_LOGO.png[IZCloud Logo,100,align=right]
 image:ROOT:image$RoadViewLogo.png[RoadView Logo,align=right]
@@ -126,5 +126,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-REV-B1-TDSHEET
+Doc. No. {shortprodname}-REV-B1-TDSHEET Ver. {docdate}
 

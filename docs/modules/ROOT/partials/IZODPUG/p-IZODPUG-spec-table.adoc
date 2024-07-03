@@ -69,7 +69,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .3+.^| Certifications
 .^| EMC
-.^| FCC Class, CE
+.^| FCC Part 15, subpart B; CE
 
 .^| RoHS
 .^| RoHS
