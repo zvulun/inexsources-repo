@@ -1,9 +1,9 @@
 :docproductname: IZ4POE
 :shortprodname: IZ4POE
 :generic-camera-name:
-:number-of-ports: 4
-:rev-no: 1.0
-
+:number-of-poeports: 4
+:rev-no-title: 1.0
+:rev-no-doc-num: 1_0
 // These attributes have been soft set
 // In the playbooks, so they can be
 // overridden if desired
@@ -16,7 +16,7 @@
 // Remember to unset all non-relevant attributes
 
 
-:xref-type-IZXPOE:
+:xref-type-IZxPOE:
 :layout-type-technote:
 
 = {shortprodname} Datasheet
@@ -33,22 +33,20 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Gigabit {numberofports}-Port PoE++ Injector
+== Gigabit {number-of-poeports}-Port PoE++ Injector
 
 [discrete]
-=== Rev. {rev-no}
+=== Rev. {rev-no-title}
 
-image:IZPANEL:IZPANEL3-FIG-001b_FrontView.png[Picture of IZPanel,width=300,align=left]
+image:IZ4POE:IZ4POE-FIG-001_FrontView.png[Picture of IZ4POE,width=300,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
 
 {empty} +
 {empty}
-The {compname-short} industrial PoE++ injector features
-{number-of-ports} Gigabit ports, IEEE802.3af/at/bt 95W
-PoE++. It includes a DIN rail mount and a power input
-of 48 VDC.
+
+include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro Paragraph]
 
 {empty} +
 {empty}
@@ -56,11 +54,7 @@ of 48 VDC.
 [discrete]
 == Ordering Information
 
-[table.withborders,width="100%",cols="25%,75%",options="header",]
-|===
-|Part Number |Description
-|{shortprodname} |{number-of-ports}-Port Gigabit {numberofports}-Port PoE++ Injector
-|===
+include::ROOT:partial$IZ4POE/p-IZxPOE-ordering-info.adoc[IZxPOE Datasheet Intro Paragraph]
 
 <<<
 
@@ -69,16 +63,16 @@ of 48 VDC.
 
 [table.noborders,width="80%",cols="50%,50%",frame=none,grid=none]
 |===
-a|image:IZPANEL:IZPANEL3-FIG-002b_DimLengthWidth.png[image,width=350]
-.^a|image:IZPANEL:IZPANEL3-FIG-003b_DimHeight.png[image,width=350]
+a|image:IZ4POE:IZ4POE-FIG-002_DimLengthWidth.png[image,width=350]
+.^a|image:IZ4POE:IZ4POE-FIG-003_DimHeight.png[image,width=350]
 |===
 
 [discrete]
-== IZPanel Pinouts
+== {shortprodname} Pinouts
 
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
-.^a|image:IZPANEL:IZPANEL3-FIG-004_FrontWithSticker.png[image,width=400]
+.^a|image:IZ4POE:IZ4POE-FIG-004_FrontViewWithSticker.png[image,width=400]
 |[table.withborders,width="100%",cols="55%,45%",options="header",]
 !===
 2+^!Power Input Wires
@@ -112,5 +106,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
 
-Doc. No. {docproductname}-REV-3_0-TDSHEET
+Doc. No. {docproductname}-REV-{rev-no-doc-num}-TDSHEET
 

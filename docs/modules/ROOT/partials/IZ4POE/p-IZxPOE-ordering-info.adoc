@@ -1,0 +1,5 @@
+[table.withborders,width="100%",cols="25%,75%",options="header",]
+|===
+|Part Number |Description
+|{shortprodname} |Gigabit {number-of-poeports}-Port PoE{plus}{plus} Injector
+|===
