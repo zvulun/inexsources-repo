@@ -41,6 +41,7 @@
 image:IZ4POE:IZ4POE-FIG-001_FrontView.png[Picture of IZ4POE,width=300,align=left]
 
 {empty}
+{empty}
 
 // no section numbers in datasheets
 //:sectnums: all
