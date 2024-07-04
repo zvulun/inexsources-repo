@@ -112,11 +112,23 @@ toc::[]
 
 == Background
 
-*_\{rewrite/improve}_*
+*_\{rewrite/improve:
+What it does - opens gate uber/lyft or whitelist -
+look in cloud - what do you need to set it;
+show in cloud; how to find each one; add to whitelist}_*
 This document describes how to use the
 {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring application
 to work with the
 {docproductname} {docproductname3} System.
+
+{software-cloud} opens a gate for an Uber or Lyft vehicle
+that has been authorized to pick up a passenger
+at this time, or that is on the
+{software-cloud} Whitelist.
+
+You can perform the following actions:
+
+* Search for
 
 
 
