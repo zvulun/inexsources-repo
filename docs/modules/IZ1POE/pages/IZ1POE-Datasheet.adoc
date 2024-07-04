@@ -38,7 +38,7 @@
 [discrete]
 === Rev. {rev-no-title}
 
-image:IZ4POE:IZ4POE-FIG-001_FrontView.png[image,width=300,align=left]
+image:IZ1POE:IZ1POE-FIG-001b_FrontView.png[image,width=300,align=left]
 
 {empty} +
 {empty}
