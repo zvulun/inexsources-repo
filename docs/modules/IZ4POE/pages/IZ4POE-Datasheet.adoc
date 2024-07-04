@@ -51,15 +51,10 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro P
 {empty} +
 {empty}
 
-
 [discrete]
 == Specifications
 
 include::ROOT:partial$IZ4POE/p-IZxPOE-spec-table.adoc[IZxPOE Spec Table]
-
-{empty} +
-{empty}
-
 
 [discrete]
 == Ordering Information
