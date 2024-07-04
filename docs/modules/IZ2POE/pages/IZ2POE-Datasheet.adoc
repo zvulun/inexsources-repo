@@ -52,6 +52,8 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro P
 {empty}
 
 
+<<<
+
 [discrete]
 == Specifications
 
@@ -76,9 +78,6 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-ordering-info.adoc[IZxPOE Ordering Info]
 a|image:IZ2POE:IZ2POE-FIG-002b_DimLengthWidth.png[image,width=350]
 .^a|image:IZ2POE:IZ2POE-FIG-003b_DimHeight.png[image,width=350]
 |===
-
-{empty} +
-{empty}
 
 
 [discrete]

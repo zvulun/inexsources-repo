@@ -51,6 +51,7 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro P
 {empty} +
 {empty}
 
+<<<
 
 [discrete]
 == Specifications
@@ -76,10 +77,6 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-ordering-info.adoc[IZxPOE Ordering Info]
 a|image:IZ1POE:IZ1POE-FIG-002b_DimLengthWidth.png[image,width=350]
 .^a|image:IZ1POE:IZ1POE-FIG-003b_DimHeight.png[image,width=350]
 |===
-
-{empty} +
-{empty}
-
 
 [discrete]
 == Pinouts
