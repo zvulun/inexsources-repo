@@ -1,6 +1,6 @@
 = Solution for GKSYS (GateKeeper Systems): Documents List
 
-* xref:SLN-GKSYS:SLN-GKSYS-User-Guide.adoc[GKSYS Installation and Calibration Guide]
+* xref:SLN-GKSYS:SLN-GKSYS-User-Guide.adoc[GKSYS User Guide]
 
 * xref:SLN-GKSYS:SLN-GKSYS-Installation-Guide.adoc[GKSYS Installation and Calibration Guide]
 
