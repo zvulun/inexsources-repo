@@ -40,16 +40,10 @@
 
 image:IZ4POE:IZ4POE-FIG-001_FrontView.png[image,width=300,align=left]
 
-{empty} +
-{empty}
-
 // no section numbers in datasheets
 //:sectnums: all
 
 include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro Paragraph]
-
-{empty} +
-{empty}
 
 [discrete]
 == Specifications
