@@ -1,0 +1,488 @@
+:docproductname: GKSYS
+:docproductname2: IZA500GR
+:docproductname3: CVM
+:fileproductname: IZA500GR
+:shortprodname: IZA500GR
+:generic-camera-name: ALPR Camera
+
+// set attribute (by uncommenting the line)
+// used to determine which text/links to sections
+// outside partials - should be used in partials
+// see the playbook for full list
+
+:xref-type-IZA500G:
+:layout-type-userguide:
+
+//related doc links are temporarily pointed
+//to GDrive; when the site is live
+//change this to :link-type-site not needed
+//when save as PDF is done from internet site
+//:link-type-gdrive:
+
+//enable the TOC to be placed in a specific position
+:toc: macro
+
+= {compname-short} ALPR for the GateKeeper System ({docproductname})
+
++++<font size="+3">+++ *User Guide*+++</font>+++
+
+image::ROOT:SLN-GKSYS/GKSYS_LOGO.png[image,150,align=left]
+
+// restore section numbering from here on
+:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+
+._Click to show the Table of Contents_
+[%collapsible]
+====
+
+toc::[]
+
+====
+
+<<<
+
+////
+
+[#s_Related-Documents]
+
+== Related Documents
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[table.withborders,width="100%",cols="51%,49%",options="header",]
+|===
+|Doc. No. |Title
+//.^|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002b] |{docproductname2} Installation Guide
+.^|https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[{fileproductname}-MAN-002b,window=_blank] |{docproductname2} Installation Guide
+
+//.^|xref:IZA500G:DocList.adoc[{fileproductname}-MAN-002a] |{docproductname2} User Guide
+.^|https://drive.google.com/drive/folders/1oi7em94DgmiI9FC4h9iM_3BrjlgxvUYU?usp=share_link[{fileproductname}-MAN-002a,window=_blank] |{docproductname2} User Guide
+
+
+.^|xref:MNT-ProdToMountMap:DocList.adoc[MOUNT-MAP-PRSNT-011] |Product-to-Mount Mapping
+
+
+.^|xref:MNT-ProdToMountMap:DocList.adoc[Mounts] |Mounting Hardware documentation
+
+
+.^|xref:IZDiscovery:DocList.adoc[{software-discovery} Utility] |{software-discovery} Utility software components
+
+
+.^|xref:IZDiscovery:DocList.adoc[IZDISCOVERY-MAN-001] |{software-discovery} User Guide
+
+
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} documentation] |(Depends on version)
+
+
+.^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
+
+
+.^|xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
+
+
+.^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
+
+
+.^|xref:IZIO:DocList.adoc[{hw-iocontroller}-6060-MAN-001] |{hw-iocontroller} Digital I/O Controller Installation and User Guide
+
+
+.^|xref:IZ4POE:DocList.adoc[{hw-poeinjector}-DIN-REV-xxx-TDSHEET] |{hw-poeinjector} Gigabit 4-Port PoE++ Injector Technical Data Sheet
+
+
+.^|xref:LOOP-DTCR-L:DocList.adoc[{hw-loopdetect-l}-MAN-001] |{hw-loopdetect-l} Loop Detector Installation and User Guide
+
+
+.^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
+|===
+
+====
+
+////
+
+== Background
+
+*_\{rewrite}_* This document describes how to use to work with the {docproductname} {docproductname3} System.
+
+== Computer and Software Requirements
+* Computer running with Windows 10 or later
+* Chrome or Microsoft Edge browser
+
+[#s_IZCloud-Integration]
+
+== {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring
+
+{software-cloud} ALPR Performance Monitoring software ({software-cloud}-APM)
+is an advanced SaaS (Software as a Service) application.
+You can:
+
+* Monitor real-time Events seamlessly
+* Quickly and accurately search for license plates
+* Benefit from daily analytical reports, which provide
+insights into ALPR performance
+
+=== Configuring {software-cloud} Integration in {software-ALPR}
+
+* Log in to {software-ALPR} (see *_\{xref to using RoadView in the Installation Guide}_* ).
+
+* On the Settings tab, enable {software-cloud} Integration and
+set the parameters as follows:
+
+* Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
+
+.{software-ALPR} Settings Tab - {software-cloud} Integration Section
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-216_IZCloudIntegration.png[image,550]
+
+<<<
+
+=== Logging In to {software-cloud}
+
+* Type the URL of your {software-cloud} TIBA site
+(provided by {compname-short}) into your browser's address line
+
+* Enter your username and password (provided by {compname-short}).
+
+.{software-cloud} Login
+
+image::ROOT:SLN-TIBA/IZCloud-BorderLogin.png[image,400]
+
+=== Logging Out of {software-cloud}
+
+Click on your username at the upper-right of the screen,
+then click the Logout button.
+
+.{software-cloud} Logout
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-215_IZCloudLogout.png[image,200]
+
+<<<
+
+[#s_IZCloud-Whitelist]
+
+=== {software-cloud} Access Control Lists - Whitelists and Blacklists
+
+These are lists of plates which can be matched to
+when a vehicle arrives at the site.
+
+For example, select "Whitelist" from the Access Lists menu
+image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-220_IZCloudAccessMenu.png[image,100]
+
+.{software-cloud} Whitelist Page
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-219_IZCloudWhiteList.png[image,800]
+
+Columns/Filters:
+
+* *Name* - Enter characters
+to find within the names of the vehicle
+owners that will be granted access.
+
+* *Address* - Enter characters
+to find within the addresses of the vehicle
+owners
+
+* *Phone* - Enter characters
+to find within the phone numbers of the vehicle
+owners
+
+* *Lot* - Unused
+
+* *Plate* - Enter characters
+to find within the license plates of the vehicle
+owners. Multiple license plates separated by commas
+can be added to an owner by clicking the
+Edit button (pencil icon).
+
+* *Start Time* - Starting date/time that the owner's
+vehicle is allowed to enter the site.
+Start times can be entered by clicking the
+Edit button (pencil icon).
+
+* *End Time* - Ending date/time that the owner's
+vehicle is allowed to enter the site.
+End times can be entered by clicking the
+Edit button (pencil icon).
+
+[#s_IZCloud-Events]
+
+=== {software-cloud} Events
+
+The Events page enables you to view and filter
+all Events generated by the system.
+
+.{software-cloud} Events
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-214_IZCloudEvents.png[image,800]
+
+Columns/Filters:
+
+* *TimeStamp*
+** Click in the text box to display a calendar
+popup (see <<f_IZCLoud-Calendar-Popup>>)
+** Click once to select a start date (see <<f_IZCLoud-Selecting-a-Date-Range>>)
+** Click again to select an end date
+(even if the same date)
+** After selecting a range, the filter's checkbox
+will be selected. To clear the filter,
+clear the checkbox. +
++
+[#f_IZCLoud-Calendar-Popup]
+
+.{software-cloud}: Calendar Popup
+
+image::ROOT:SLN-TIBA/IZCloud-BorderCalendar-Popup.png[image,400]
+
+[#f_IZCLoud-Selecting-a-Date-Range]
+
+.{software-cloud}: Selecting a Data Range
+
+image::ROOT:SLN-TIBA/IZCloud-BorderSelect-Date-Range.png[image,250,align=center]
+
+* *Gate (Lane)* - Select All, or a specific lane
+
+* *List* - List that plate was found on
+
+* *Plate* - Enter characters to find
+within the strings. For example,
+KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
+
+* *Plate Image* - click on an image
+to display plate, LPR and Overview
+images of the Event
+
+* *Action* - Action taken for the vehicle (access
+granted or denied)
+
+** Granted - an Uber or Lyft vehicle that
+has been authorized to pick up a passenger
+at this time, or that is on the
+{software-cloud} Whitelist (see <<s_IZCloud-Whitelist>>).
+
+** Denied - an Uber or Lyft vehicle that
+has not been authorized to pick up a passenger
+at this time, or that is on the {software-cloud}
+Blacklist.
+
+* *Owner* - The vehicle owner name; Enter characters
+to find within the names
+
+<<<
+
+[#s_IZCloud-Cameras]
+
+=== {software-cloud} Maintenance - Cameras
+
+The Cameras page enables you to view
+camera status and read rate statistics.
+
+Select "Cameras" from the Maintenance menu
+image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
+
+.{software-cloud} Cameras Page
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-209_IZCloudCameras.png[image,800]
+
+Columns/Filters:
+
+* *Name* - Enter characters
+to find within the names of the lanes
+
+* *Location* - Unused
+
+* *Lot* - Parking lot location of each lane;
+use the dropdown to select a lot
+
+* *Status* - Camera status (online or offline)
+
+* *Read Rate* - with no read mistakes
+
+* *Read Rate N-1* - with up to 1 read mistake
+
+* *Read Rate N-2* - with up to 2 read mistakes
+
+* *Actions* - select Last Review from the dropdown
+to display the Last Review page, filtered
+by the lane on that row (see <<s_Last-Review>>).
+
+<<<
+
+[#s_Last-Review]
+
+=== {software-cloud} Maintenance - Last Review
+
+Select "Last Review" from the Maintenance menu
+image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
+
+.{software-cloud} Last Review Page
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-210_IZCloudLastReview.png[image,800]
+
+Columns/Filters:
+
+* *TimeStamp* - same as in <<s_IZCloud-Events>>
+
+* *Gate* - same as in <<s_IZCloud-Events>>
+
+* *Plate* - Plate read; filter works as in
+<<s_IZCloud-Events>>
+
+* *Plate Review* - True read; filter works as in
+<<s_IZCloud-Events>>
+
+* *Plate Image* - same as in <<s_IZCloud-Events>>
+
+* *Read Status* - use the dropdown to
+filter the display
+
+** *Correct* - automatic read matches
+the true read
+
+** *N-1 Read* - an automatic read with up to 1
+mistake
+
+** *N-2 Read* - an automatic read with up to 2
+mistakes
+
+** *False Read* - there are more than 2 mistakes
+in the automatic read
+
+** *False Reject* - an automatic read that was not generated
+for a qualified Event
+
+** *Non-Qualified* - cannot be read
+by a human; examples include:
+*** Missing plate
+*** Partial image of plate
+*** Bent or broken plate
+*** Multiple plates
+*** Obstructed characters
+(by dirt, snow, trailer ball, etc.)
+
+<<<
+
+[#s_Dashboard]
+
+=== {software-cloud} Maintenance - Dashboard
+
+The Dashboard page enables you to see daily
+analytical reports about ALPR performance.
+
+Select "Dashboard" from the Maintenance menu
+image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
+
+.{software-cloud} Dashboard Page
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-211_IZCloudDashboard.png[image,800]
+
+Page Elements:
+
+* *Total Lanes* - Total number of lanes in the system
+
+* *Operational Lanes* - Lanes with
+cameras operating properly
+
+* *Require Maintenance* - Lanes with cameras
+that are operating but need maintenance/have warnings
+(for future use)
+
+* *Inoperational Lanes* - Lanes with
+cameras not operating
+
+////
+{The read rate for the last day
+We only use a maximum of 1000 events from the Review Tool;
+The reviewed events are only qualified (human-readable) reads;
+Numbers in tooltips are the number of reads reviewed -
+usually only about 80% of total eVents for the day
+because he rest are non-qualified}
+////
+
+
+* *Statistic Graphs*
+These graphs show data from "reviewed reads".
+"Reviewed reads" are the Qualifed (human-readable) plate reads
+(out of the total reads for a certain day) that were reviewed.
+
+** *Read Rate Bar Chart* (for online/operational cameras):
+
+*** Hover over a bar to show details for the previous day's
+review.
+
+*** Click to jump to the Last Review
+page for that lane (see <<s_Last-Review>>).
+
+** *Historical Average Read Rate* - Each data point
+is generated daily. Hover on a point to show details.
+
+[#s_IZCloud-Lanes]
+
+=== {software-cloud} Lanes
+
+The Lanes page enables you to (see <<f_IZCloud-Lanes-Page>>):
+
+* View live video
+
+* View the license plate read for the current Event
+
+* Correct the plate read
+
+* Open the lane's gate in an emergency
+
+[NOTE]
+======================
+Plate images and video are displayed for
+lanes with online/operational cameras.
+
+Live video is only displayed if your site's
+security policy allows transmitting the outbound
+video stream from the camera.
+======================
+
+[#f_IZCloud-Lanes-Page]
+
+.{software-cloud} Lanes Page
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-212_IZCloudLanes.png[image,500]
+
+* Click on the license plate
+image to display plate, LPR and Overview
+images of the Event
+
+* Click the Emergency Open button to
+open the lane's gate in an emergency
+
+* Click the Correct Plate Read button
+to correct the read. A new Event is created
+with the updated read. +
+
+.{software-cloud} Lanes - Correct Plate Read
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-213_IZCloudCorrectPlate.png[image,400]
+
+<<<
+
+== Legal Notices
+
+include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
+
+include::ROOT:partial$p-software-precautions.adoc[ALPR Camera Safety Precautions]
+
++++<div class="pagebreak"> </div>+++
+
+include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
+
+include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
+
+Doc. No. {docproductname}-MAN-002b Ver. {docdate}
