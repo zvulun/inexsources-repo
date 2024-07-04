@@ -112,7 +112,13 @@ toc::[]
 
 == Background
 
-*_\{rewrite}_* This document describes how to use to work with the {docproductname} {docproductname3} System.
+*_\{rewrite/improve}_*
+This document describes how to use the
+{software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring application
+to work with the
+{docproductname} {docproductname3} System.
+
+
 
 == Computer and Software Requirements
 * Computer running with Windows 10 or later
@@ -133,7 +139,9 @@ insights into ALPR performance
 
 === Configuring {software-cloud} Integration in {software-ALPR}
 
-* Log in to {software-ALPR} (see *_\{xref to using RoadView in the Installation Guide}_* ).
+* Log in to {software-ALPR} (see the {software-ALPR}
+sections in the
+xref:SLN-GKSYS:DocList.adoc[{docproductname} Installation Guide]).
 
 * On the Settings tab, enable {software-cloud} Integration and
 set the parameters as follows:
