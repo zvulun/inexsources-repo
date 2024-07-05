@@ -125,7 +125,11 @@ to work with the
 {software-cloud} opens a gate for an Uber or Lyft vehicle
 that has been authorized to pick up a passenger
 at this time, or that is on the
-{software-cloud} Whitelist. *_\{if blacklist - get alert
+{software-cloud} Whitelist.
+
+Vehicles on a Blacklist generate an alert; alerts
+
+*_\{if blacklist - get alert
 ask Andrey; also list of events}_*
 
 You can perform the following actions:
