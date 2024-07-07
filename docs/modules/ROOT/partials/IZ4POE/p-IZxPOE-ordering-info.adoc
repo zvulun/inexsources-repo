@@ -1,5 +1,7 @@
 [table.withborders,width="65%",cols="38%,62%",options="header",]
 |===
 |Part Number |Description
-|{shortprodname} |Gigabit {number-of-poeports}-Port PoE{plus}{plus} Injector
+|{hw-1poeinjector} |Gigabit PoE{plus}{plus} Injector, 1 Port
+|{hw-2poeinjector} |Gigabit PoE{plus}{plus} Injector, 2 Ports
+|{hw-4poeinjector} |Gigabit PoE{plus}{plus} Injector, 4 Ports
 |===
