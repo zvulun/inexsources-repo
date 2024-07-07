@@ -133,9 +133,9 @@ for a single lane, to work with the {docproductname} {docproductname3} System.
 ** IZA500GR-IRW-P48 - for Israel, EU, Taiwan, Australia, Vietnam, GCC, India, Singapore
 ** {software-ALPR} Advanced ALPR Software, version 1.15.120
 * Power Supply for P48 models
-** IZPWR75{plus}{hw-poeinjector} - for a single camera
-** IZPWR120{plus}{hw-poeinjector} - for two cameras
-** IZPWR240{plus}{hw-poeinjector} - for four cameras
+** IZPWR75{plus}{hw-1poeinjector} - for a single camera
+** IZPWR120{plus}{hw-2poeinjector} - for two cameras
+** IZPWR240{plus}{hw-4poeinjector} - for four cameras
 * Camera Mounting hardware
 ** IZMNTA-WE - wall mount
 ** IZMNTA-WE{plus}MNT-PMA -  pole mount
