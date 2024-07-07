@@ -314,7 +314,7 @@ The Cameras page enables you to view
 camera status and read rate statistics.
 
 Select "Cameras" from the Maintenance menu
-image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
+image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-221_IZCloudMaintMenu.png[image,100]
 
 .{software-cloud} Cameras Page
 
