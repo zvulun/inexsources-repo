@@ -3,14 +3,26 @@
 |Item |Specification
 |Input Voltage |DC 48V-57V
 |Output |DC 48V-57V PoE IEEE802.3af/at/bt
+.^|PoE{plus}{plus} Ports a|* {hw-1poeinjector} - 1 Port
+* {hw-2poeinjector} - 2 Ports
+* {hw-4poeinjector} - 4 Ports
 
-ifeval::[{number-of-poeports} == 1]
-|PoE{plus}{plus} Port |{number-of-poeports} Gigabit PoE{plus}{plus} Port
-endif::[]
+//ifeval::[{number-of-poeports} == 1]
+//|PoE{plus}{plus} Port |{number-of-poeports} Gigabit PoE{plus}{plus} Port
+//endif::[]
 
-ifeval::[{number-of-poeports} > 1]
-|PoE{plus}{plus} Ports |{number-of-poeports} Gigabit PoE{plus}{plus} Ports
-endif::[]
+//ifeval::[{number-of-poeports} > 1]
+//|PoE{plus}{plus} Ports |{number-of-poeports} Gigabit PoE{plus}{plus} Ports
+//endif::[]
 
 |Installation Method |DIN-Rail
+.^|Dimensions +
+(WxHxD; including DIN-Rail enclosure)
+a|* {hw-1poeinjector}/{hw-2poeinjector}: +
+(W x H x D) xxx" x xxx" x xxx"+++<br>+++
+(xxx mm x xxx mm x xxx mm)
+
+* {hw-4poeinjector}
+
+
 |===

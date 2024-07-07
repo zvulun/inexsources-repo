@@ -1,5 +1,5 @@
-:docproductname: IZ4POE
-:shortprodname: IZ4POE
+:docproductname: IZxPOE
+:shortprodname: IZxPOE
 :generic-camera-name:
 :number-of-poeports: 4
 :rev-no-title: 1.0
@@ -33,7 +33,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Gigabit PoE++ Injectors - {hw-poeports} Ports
+== Gigabit PoE++ Injectors, {hw-poeports} Ports
 
 [discrete]
 === Rev. {rev-no-title}
