@@ -19,10 +19,13 @@
 .^|Dimensions +
 (WxHxD; including DIN-Rail enclosure)
 a|* {hw-1poeinjector}/{hw-2poeinjector}: +
-(W x H x D) xxx" x xxx" x xxx"+++<br>+++
-(xxx mm x xxx mm x xxx mm)
+2.0" x 3.4" x 1.9"+++<br>+++
+(50 mm x 87 mm x 49 mm)
 
-* {hw-4poeinjector}
+* {hw-4poeinjector}: +
+3.2" x 3.4" x 1.9"+++<br>+++
+(82 mm x 87 mm x 48 mm)
+
 
 
 |===
