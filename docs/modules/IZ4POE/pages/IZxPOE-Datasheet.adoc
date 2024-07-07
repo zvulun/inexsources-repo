@@ -88,11 +88,6 @@ include::ROOT:partial$IZxPOE/p-IZxPOE-pinout-tables.adoc[Pinout Table]
 include::ROOT:partial$IZ4POE/p-IZxPOE-pinout-tables.adoc[Pinout Table]
 ////
 
-
-
-<<<
-
-
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
