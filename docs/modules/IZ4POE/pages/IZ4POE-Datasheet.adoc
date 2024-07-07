@@ -77,9 +77,9 @@ a|image:IZ4POE:IZ4POE-FIG-002_DimLengthWidth.png[image,width=350]
 
 [table.noborders,cols="5%,95%a",width="100%",frame=none,grid=none]
 |===
-.^a|{empty}
+.^a|{empty}{empty}
 include::ROOT:partial$IZ4POE/p-IZxPOE-pinout-tables.adoc[Pinout Table]
-
+|===
 
 ////
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
@@ -88,7 +88,7 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-pinout-tables.adoc[Pinout Table]
 include::ROOT:partial$IZ4POE/p-IZxPOE-pinout-tables.adoc[Pinout Table]
 ////
 
-|===
+
 
 <<<
 
