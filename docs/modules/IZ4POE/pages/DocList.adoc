@@ -1,6 +1,6 @@
 = IZ4POE Documents List
 
-* xref:IZ4POE:IZ4POE-Datasheet.adoc[IZ4POE Datasheet]
+* xref:IZxPOE:IZxPOE-Datasheet.adoc[IZ4POE Datasheet]
 
 More documents can be found at https://drive.google.com/drive/folders/1ecaZaQXCvoKEO25nynl6m56kjl1QtofU?usp=drive_link[GDriveLink, window=_blank]
 

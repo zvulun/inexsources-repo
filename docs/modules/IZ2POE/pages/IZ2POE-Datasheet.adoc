@@ -46,7 +46,7 @@ image:IZ2POE:IZ2POE-FIG-001b_FrontView.png[image,width=300,align=left]
 // no section numbers in datasheets
 //:sectnums: all
 
-include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro Paragraph]
+include::ROOT:partial$IZxPOE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro Paragraph]
 
 {empty} +
 {empty}
@@ -57,7 +57,7 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro P
 [discrete]
 == Specifications
 
-include::ROOT:partial$IZ4POE/p-IZxPOE-spec-table.adoc[IZxPOE Spec Table]
+include::ROOT:partial$IZxPOE/p-IZxPOE-spec-table.adoc[IZxPOE Spec Table]
 
 {empty} +
 {empty}
@@ -66,7 +66,7 @@ include::ROOT:partial$IZ4POE/p-IZxPOE-spec-table.adoc[IZxPOE Spec Table]
 [discrete]
 == Ordering Information
 
-include::ROOT:partial$IZ4POE/p-IZxPOE-ordering-info.adoc[IZxPOE Ordering Info]
+include::ROOT:partial$IZxPOE/p-IZxPOE-ordering-info.adoc[IZxPOE Ordering Info]
 
 <<<
 
@@ -86,7 +86,7 @@ a|image:IZ2POE:IZ2POE-FIG-002b_DimLengthWidth.png[image,width=350]
 [table.noborders,cols="55%,45%a",width="100%",frame=none,grid=none]
 |===
 .^a|image:IZ2POE:IZ2POE-FIG-004_FrontWithSticker.png[image,width=400]
-include::ROOT:partial$IZ4POE/p-IZxPOE-pinout-tables.adoc[Pinout Table]
+include::ROOT:partial$IZxPOE/p-IZxPOE-pinout-tables.adoc[Pinout Table]
 
 |===
 
