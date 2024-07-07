@@ -175,7 +175,7 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-216_IZCloudIntegration.png[image,550]
 
 === Logging In to {software-cloud}
 
-* Type the URL of your {software-cloud} TIBA site
+* Type the URL of your {software-cloud} {docproductname} site
 (provided by {compname-short}) into your browser's address line
 
 * Enter your username and password (provided by {compname-short}).
@@ -202,8 +202,12 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-215_IZCloudLogout.png[image,200]
 These are lists of plates which can be matched to
 when a vehicle arrives at the site.
 
-For example, select "Whitelist" from the Access Lists menu
+For example, select "Watch Lists" from the Access Lists menu
 image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-220_IZCloudAccessMenu.png[image,100]
+
+.{software-cloud} Lists Page
+
+
 
 .{software-cloud} Whitelist Page
 
@@ -339,8 +343,8 @@ use the dropdown to select a lot
 //*_\{admin only}_* * *Read Rate N-2* - with up to 2 read mistakes
 
 //*_\{admin only}_* * *Actions* - select Last Review from the dropdown
-to display the Last Review page, filtered
-by the lane on that row (see <<s_Last-Review>>).
+//to display the Last Review page, filtered
+//by the lane on that row (see <<s_Last-Review>>).
 
 <<<
 
