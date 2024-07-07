@@ -332,17 +332,21 @@ use the dropdown to select a lot
 
 * *Status* - Camera status (online or offline)
 
-* *Read Rate* - with no read mistakes
+//*_\{admin only}_* * *Read Rate* - with no read mistakes
 
-* *Read Rate N-1* - with up to 1 read mistake
+//*_\{admin only}_* * *Read Rate N-1* - with up to 1 read mistake
 
-* *Read Rate N-2* - with up to 2 read mistakes
+//*_\{admin only}_* * *Read Rate N-2* - with up to 2 read mistakes
 
-* *Actions* - select Last Review from the dropdown
+//*_\{admin only}_* * *Actions* - select Last Review from the dropdown
 to display the Last Review page, filtered
 by the lane on that row (see <<s_Last-Review>>).
 
 <<<
+
+//*_\{the following sections are for admin only}_*
+
+////
 
 [#s_Last-Review]
 
@@ -427,6 +431,8 @@ that are operating but need maintenance/have warnings
 cameras not operating
 
 ////
+
+////
 {The read rate for the last day
 We only use a maximum of 1000 events from the Review Tool;
 The reviewed events are only qualified (human-readable) reads;
@@ -435,7 +441,7 @@ usually only about 80% of total eVents for the day
 because he rest are non-qualified}
 ////
 
-
+////
 * *Statistic Graphs*
 These graphs show data from "reviewed reads".
 "Reviewed reads" are the Qualifed (human-readable) plate reads
@@ -451,6 +457,8 @@ page for that lane (see <<s_Last-Review>>).
 
 ** *Historical Average Read Rate* - Each data point
 is generated daily. Hover on a point to show details.
+
+////
 
 [#s_IZCloud-Lanes]
 
