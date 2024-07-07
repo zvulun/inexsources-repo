@@ -17,7 +17,7 @@
 
 |Installation Method |DIN-Rail
 .^|Dimensions +
-(WxHxD; including DIN-Rail enclosure)
+(WxHxD; including DIN-rail enclosure)
 a|* {hw-1poeinjector}/{hw-2poeinjector}: +
 2.0" x 3.4" x 1.9"+++<br>+++
 (50 mm x 87 mm x 49 mm)

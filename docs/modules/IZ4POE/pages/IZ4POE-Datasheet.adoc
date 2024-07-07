@@ -75,9 +75,9 @@ a|image:IZ4POE:IZ4POE-FIG-002_DimLengthWidth.png[image,width=350]
 [discrete]
 == Pinouts
 
-[table.noborders,cols="1%,99%a",width="50%",frame=none,grid=none]
+[table.noborders,cols="100%a",width="50%",frame=none,grid=none]
 |===
-.^a|{empty}{empty}
+//.^a|{empty}{empty}
 include::ROOT:partial$IZ4POE/p-IZxPOE-pinout-tables.adoc[Pinout Table]
 |===
 
