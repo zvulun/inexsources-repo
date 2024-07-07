@@ -168,7 +168,7 @@ For documentation and part numbers, see <<s_Related-Documents>>.
 |===
 |Item |Notes
 |24 VDC (or 24/48 VDC for P24/P48 models using DC input) power supply (voltage-adjustable) |{compname-med} model power supply. (If you use an external illuminator, it is recommended to use an illuminator power supply separate from the Camera System's supply.)
-|PoE{plus}{plus} Injector | Required for P24/P48 models when using PoE+ power input
+|Gigabit PoE{plus}{plus} Injector | Required for P24/P48 models when using PoE+ power input
 |Mounting Hardware (pan-tilt-roll bracket) |Typically on gantry or wall/pole; see the Mounting Hardware documentation for details (see <<s_Related-Documents>>).
 |===
 

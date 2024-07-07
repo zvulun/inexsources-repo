@@ -179,7 +179,7 @@ endif::xref-type-IZA500GR,xref-type-IZA500G
 ifndef::xref-type-DFC[]
 
 +++*+++ LPR Capture Distance is measured from camera to plate +++<br>+++
-+++**+++ The xref:IZ4POE:DocList.adoc[{hw-poeinjector}] is required for the PoE{plus} input power option;
++++**+++ An xref:IZ4POE:DocList.adoc[{hw-poeinjector}] is required for the PoE{plus} input power option;
 a standard PoE network switch cannot be used
 
 endif::xref-type-DFC[]
