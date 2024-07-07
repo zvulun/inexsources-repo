@@ -207,6 +207,7 @@ image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-220_IZCloudAccessMenu.png[image,100]
 
 .{software-cloud} Lists Page
 
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-221_IZCloudWatchLists.png[image,800]
 
 
 .{software-cloud} Whitelist Page
