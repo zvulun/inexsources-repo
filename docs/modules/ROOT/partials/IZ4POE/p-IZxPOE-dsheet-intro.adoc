@@ -1,6 +1,6 @@
 The {compname-short} Gigabit PoE{plus}{plus} Injector features
 Gigabit ports,
-as per IEEE802.3at (PoE{plus}), IEEE802.3af (PoE) and LTPoE{plus}{plus}.
+as per standards IEEE802.3at (PoE{plus}), IEEE802.3af (PoE) and LTPoE{plus}{plus}.
 It includes a DIN rail mount and a power input
 of 48 VDC.
 
