@@ -1,7 +1,7 @@
 The {compname-short} Gigabit PoE{plus}{plus} injector features
 Gigabit ports,
 IEEE802.3af/at/bt 95W PoE{plus}{plus}.
-They include a DIN rail mount and a power input
+It includes a DIN rail mount and a power input
 of 48 VDC.
 
 ////
