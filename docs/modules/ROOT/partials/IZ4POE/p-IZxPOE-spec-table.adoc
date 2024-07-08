@@ -14,7 +14,8 @@
 (WxHxD; including DIN-rail enclosure) 2+^.^a|2.0" x 3.4" x 1.9"+++<br>+++
 (50 mm x 87 mm x 49 mm)
 ^.^a| 3.2" x 3.4" x 1.9"+++<br>+++
-(82 mm x 87 mm x 48 mm)
+(82 mm x 87 mm +
+x 48 mm)
 |===
 
 //ifeval::[{number-of-poeports} == 1]
