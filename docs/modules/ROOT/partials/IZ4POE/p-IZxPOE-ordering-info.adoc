@@ -1,4 +1,4 @@
-[table.withborders,width="61%",cols="41%,59%",options="header",]
+[table.withborders,width="61%",cols="41%,62%",options="header",]
 |===
 |Part Number |Description
 |{hw-1poeinjector} |Gigabit PoE{plus}{plus} Injector, 1 Port
