@@ -11,7 +11,7 @@
 .^|Operating Temperature 3+^.^|-40°F to 185°F (-40°C to 85°C)
 .^|Mounting 3+^.^|DIN Rail Mount
 .^|Dimensions +
-(WxHxD; including DIN-rail enclosure) 2+^.^a|2.0" x 3.4" x 1.9"+++<br>+++
+(WxHxD) 2+^.^a|2.0" x 3.4" x 1.9"+++<br>+++
 (50 mm x 87 mm x 49 mm)
 ^.^a| 3.2" x 3.4" x 1.9"+++<br>+++
 (82 mm x 87 mm +
