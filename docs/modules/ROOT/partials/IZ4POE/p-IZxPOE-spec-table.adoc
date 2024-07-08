@@ -10,8 +10,7 @@
 .^|Input Current ^.^a|Max 2A ^.^a|Max 4A ^.^a|Max 8A
 .^|Operating Temperature 3+^.^|-40°F to 185°F (-40°C to 85°C)
 .^|Mounting 3+^.^|DIN Rail Mount
-.^|Dimensions +
-(WxHxD) 2+^.^a|2.0" x 3.4" x 1.9"+++<br>+++
+.^|Dimensions (WxHxD) 2+^.^a|2.0" x 3.4" x 1.9"+++<br>+++
 (50 mm x 87 mm x 49 mm)
 ^.^a| 3.2" x 3.4" x 1.9"+++<br>+++
 (82 mm x 87 mm +
