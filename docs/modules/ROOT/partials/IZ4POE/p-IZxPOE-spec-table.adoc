@@ -1,10 +1,15 @@
-[table.withborders,width="80%",cols="31%,23%,23%,23%",options="header",]
+[table.withborders,width="100%",cols="31%,23%,23%,23%",options="header",]
 |===
-.^|Item ^.^|{hw-1poeinjector} ^.^|{hw-2poeinjector} ^.^|{hw-4poeinjector}
-.^|Input Voltage 3+^.^|DC 48V-57V
-.^|Output 3+^.^|DC 48V-57V PoE IEEE802.3af/at/bt
-.^|PoE{plus}{plus} Ports ^.^a|1 ^.^a|2 ^.^a|4
-|Installation Method 3+^.^|DIN-Rail
+.^|Model: ^.^|{hw-1poeinjector} ^.^|{hw-2poeinjector} ^.^|{hw-4poeinjector}
+.^|Number of Ports ^.^a|1 ^.^a|2 ^.^a|4
+.^|Network 3+^.^|10/100/1000 Base-T
+.^|PoE Output per Channel 3+^.^|95W max for each channel
+.^|PoE Output Total 3+^.^|Limited by power supply
+.^|PoE Standard 3+^.^|IEEE802.3at (PoE{plus}), IEEE802.3af (PoE), LTPoE{plus}{plus}
+.^|Input Voltage 3+^.^|45V~57V DC
+.^|Input Current ^.^a|Max 2A ^.^a|Max 4A ^.^a|Max 8A
+.^|Operating Temperature 3+^.^|-40°F to 185°F (-40°C to 85°C)
+.^|Mounting 3+^.^|DIN Rail Mount
 .^|Dimensions +
 (WxHxD; including DIN-rail enclosure) 2+^.^a|2.0" x 3.4" x 1.9"+++<br>+++
 (50 mm x 87 mm x 49 mm)

@@ -72,7 +72,7 @@
 ** xref:MNT-EU-ILLUM-MOUNTS:DocList.adoc[EU Illuminator Mounts]
 ** https://docs.google.com/spreadsheets/d/e/2PACX-1vRYo3CcvmUnxSMgmPx3AAfGxi86WuCFMZorDF0hac1cmPbwJV3_eWnK30nKfjoYHrBJtNaEmTsmKx-a/pubhtml?gid=1733161618&single=true[Camera-to-Illuminator Recommended Setups, window=_blank]
 * Power Supplies
-** xref:IZPWR:DocList.adoc[IZPWR (DIN Rail Mount)]
+** xref:IZPWR:DocList.adoc[IZPWR DIN Rail Mount Power Supplies]
 * Loop Detectors
 ** xref:LOOP-DTCR-L:DocList.adoc[LOOP-DTCR-L]
 ** xref:LOOP-DTCR-P:DocList.adoc[LOOP-DTCR-P]
@@ -83,7 +83,7 @@
 ** xref:IZPANEL:DocList.adoc[IZPanel (Connection Panel)]
 //** xref:IZ1POE:DocList.adoc[IZ1POE (Gigabit 1-Port PoE{plus}{plus} Injector)]
 //** xref:IZ2POE:DocList.adoc[IZ2POE (Gigabit 2-Port PoE{plus}{plus} Injector)]
-** xref:IZ4POE:DocList.adoc[IZxPOE (Gigabit PoE{plus}{plus} Injectors)]
+** xref:IZ4POE:DocList.adoc[IZxPOE (DIN Rail Mount Gigabit PoE{plus}{plus} Injector)]
 ** xref:IZACR-QPR50:DocList.adoc[IZACR-QPR50 (Access Control Reader)]
 ** xref:IZACP-2D-4D:DocList.adoc[IZACP-2D (Two-Door Access Control Panel)]
 ** xref:IZACP-2D-4D:DocList.adoc[IZACP-4D (Four-Door Access Control Panel)]

@@ -16,7 +16,7 @@
 
 .^| DIN Rail Mount Power Supplies (xref:IZPWR:DocList.adoc[IZPWR])
 
-.^| Gigabit PoE{plus}{plus} Injectors** (xref:IZ4POE:DocList.adoc[{hw-1poeinjector}, {hw-2poeinjector}, {hw-4poeinjector}])
+.^| Gigabit PoE{plus}{plus} Injector** (xref:IZ4POE:DocList.adoc[{hw-1poeinjector}, {hw-2poeinjector}, {hw-4poeinjector}])
 
 .^| Digital I/O Controller (xref:IZIO:DocList.adoc[{hw-iocontroller}])
 

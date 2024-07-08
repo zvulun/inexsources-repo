@@ -33,7 +33,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Gigabit PoE++ Injector, {hw-poeports} Ports
+== DIN Rail Mount Gigabit PoE{plus}{plus} Injector
 
 [discrete]
 === Rev. {rev-no-title}
@@ -46,7 +46,7 @@
 include::ROOT:partial$IZ4POE/p-IZxPOE-dsheet-intro.adoc[IZxPOE Datasheet Intro Paragraph]
 
 [discrete]
-== Specifications
+== Specification
 
 include::ROOT:partial$IZ4POE/p-IZxPOE-spec-table.adoc[IZxPOE Spec Table]
 
