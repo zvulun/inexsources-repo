@@ -1,4 +1,4 @@
-[table.withborders,width="55%",cols="15%,85%",options="header",]
+[table.withborders,width="60%",cols="20%,80%",options="header",]
 |===
 |Part Number |Description
 |{hw-1poeinjector} |DIN Rail Mount Gigabit PoE{plus}{plus} Injector, 1 Port
