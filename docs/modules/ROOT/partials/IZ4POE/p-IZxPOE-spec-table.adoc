@@ -1,4 +1,4 @@
-[table.withborders,width="80%",cols="30%,23%,23%,24%",options="header",]
+[table.withborders,width="80%",cols="31%,23%,23%,23%",options="header",]
 |===
 .^|Item ^.^|{hw-1poeinjector} ^.^|{hw-2poeinjector} ^.^|{hw-4poeinjector}
 .^|Input Voltage 3+^.^|DC 48V-57V
