@@ -3,7 +3,7 @@
 .^|Model: ^.^|{hw-1poeinjector} ^.^|{hw-2poeinjector} ^.^|{hw-4poeinjector}
 .^|Number of Ports ^.^a|1 ^.^a|2 ^.^a|4
 .^|Network 3+^.^|10/100/1000 Base-T
-.^|PoE Output per Channel 3+^.^|95W Max for each channel
+.^|PoE Output per Channel 3+^.^|95W Max
 .^|PoE Output Total 3+^.^|Limited by power supply
 .^|PoE Standard 3+^.^|IEEE802.3at (PoE{plus}), IEEE802.3af (PoE), LTPoE{plus}{plus}
 .^|Input Voltage 3+^.^|45V~57V DC
