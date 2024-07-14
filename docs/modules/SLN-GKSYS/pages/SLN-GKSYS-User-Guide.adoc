@@ -207,7 +207,7 @@ image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-220_IZCloudAccessMenu.png[image,100]
 
 .{software-cloud} Lists Page
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-221_IZCloudWatchLists.png[image,800]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-222_IZCloudWatchLists.png[image,800]
 
 
 .{software-cloud} Whitelist Page
@@ -464,6 +464,21 @@ page for that lane (see <<s_Last-Review>>).
 is generated daily. Hover on a point to show details.
 
 ////
+
+[#s_IZCloud-Guard]
+
+=== {software-cloud} Guard
+
+*_\{do we need to explain this?}_*
+
+[#f_IZCloud-Guard-Page]
+
+.{software-cloud} Guard Page
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-223_IZCloudGuard.png[image,500]
+
+
+
 
 [#s_IZCloud-Lanes]
 
