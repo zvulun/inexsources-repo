@@ -185,7 +185,7 @@ All network cable extensions and repeaters must be shielded.
 
 ** 12VDC, 1.2 Amp power supply, with male barrel connector (5.5 mm outer diameter, 2.1 mm inner diameter), or
 
-** PoE (IEEE 802.3af) switch capable of providing 12VDC at 1.2 Amp
+** PoE{plus} (IEEE 802.3at) switch capable of providing 12VDC at 1.2 Amp
 
 [#f_Male-Barrel-Connector]
 
