@@ -188,7 +188,7 @@ Edit button (pencil icon).
 === Blacklist
 
 Vehicles on a Blacklist that approach the gate will
-generate an Alert/Alarm *_\{xref}_*. You can add or remove
+generate an alert/alarm (see <<s_Alerts-Alarms>>). You can add or remove
 vehicles from a Blacklist.
 
 .Blacklist Page
@@ -260,12 +260,13 @@ to find within the names
 
 * *Alarm Indicators* - An triangle warning
 icon appear to the left of any Event
-that has generated an Alarm *_\{xref to
-alarm section}_* In addtion, the number of
-outstanding Alarms is displayed next to the Alarms
+that has generated an alarm (see <<s_Alerts-Alarms>>).In addition, the number of
+outstanding alarms is displayed next to the Alarms
 button at the upper right.
 
 <<<
+
+[#s_Alerts-Alarms]
 
 == Alerts/Alarms
 
@@ -286,12 +287,11 @@ read/resolved. The icon next to the Event that caused
 the Alarm will be grayed out.
 
 To see a list of Alarms, click the Alarms button on
-the Events page *_\{xref to picture of Events page}_* .
+the Events page (see <<s_IZCloud-Events>>).
 
 .Alarms List
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-224_IZCloudAlarmsList.png[image,800]
-
 
 <<<
 
@@ -471,18 +471,20 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-223_IZCloudGuard.png[image,500]
 
 The Lanes page enables you to (see <<f_IZCloud-Lanes-Page>>):
 
-* *_\{can you really do this in GKSYS?}_* View live video
+* View live video
 
 * View the license plate read for the current Event
 
 * Correct the plate read
+
+* Add the license plate to an Access list
 
 * Open the lane's gate in an emergency
 
 [NOTE]
 ======================
 Plate images and video are displayed for
-lanes with online/operational cameras.
+lanes with online/operational cameras (see <<s_IZCloud-Cameras>>).
 
 Live video is only displayed if your site's
 security policy allows transmitting the outbound
@@ -501,6 +503,9 @@ images of the Event
 
 * Click the Emergency Open button to
 open the lane's gate in an emergency
+
+* Click the Add to List button to add the plate to a list;
+only active if plate is not already on a list
 
 * Click the Correct Plate Read button
 to correct the read. A new Event is created
