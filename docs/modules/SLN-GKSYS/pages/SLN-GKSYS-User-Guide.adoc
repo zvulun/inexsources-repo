@@ -187,6 +187,10 @@ Edit button (pencil icon).
 
 === Blacklist
 
+Vehicles on a Blacklist that approach the gate will
+generate an Alert/Alarm *_\{xref}_*. You can add or remove
+vehicles from a Blacklist.
+
 .Blacklist Page
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-219b_IZCloudBlackList.png[image,800]
@@ -277,7 +281,9 @@ You can:
 * *Hide* the Alarm - Closes the popup, but maintains
 the Alarm as active (displayed in the Alarms list)
 
-* *Dismiss* the Alarm - If it has been resolved.
+* *Dismiss* the Alarm - The Alarm will be treated as
+read/resolved. The icon next to the Event that caused
+the Alarm will be grayed out.
 
 To see a list of Alarms, click the Alarms button on
 the Events page *_\{xref to picture of Events page}_* .
