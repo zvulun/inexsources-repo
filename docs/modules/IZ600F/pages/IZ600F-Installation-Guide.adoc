@@ -477,7 +477,7 @@ include::ROOT:partial$IZ600F/p-IZ600F-connectors.adoc[IZ600F Connectors]
 
 * If you are using a 12 VDC power supply, you must provide a male barrel connector (5.5 mm outer diameter, 2.1 mm inner diameter) to connect the ({plus}) and (-) of the power supply to the camera's female power connector.
 
-* If you are using PoE, be sure that your PoE connection is compatible with IEEE 802.3af, and can provide 12 VDC at 1.2 Amp.
+* If you are using PoE{plus}, be sure that your PoE{plus} connection is compatible with IEEE 802.3at, and can provide 12 VDC at 1.2 Amp.
 
 <<<
 
