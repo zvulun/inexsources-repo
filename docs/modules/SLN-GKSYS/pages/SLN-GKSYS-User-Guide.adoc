@@ -128,6 +128,7 @@ image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-220_IZCloudAccessMenu.png[image,100]
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-222_IZCloudWatchLists.png[image,800]
 
+<<<
 
 [#s_IZCloud-Whitelist]
 
@@ -186,6 +187,8 @@ vehicles from a Blacklist.
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-219b_IZCloudBlackList.png[image,800]
 
 [#s_IZCloud-Events]
+
+<<<
 
 == Events
 
@@ -281,7 +284,9 @@ read/resolved.
 ** The icon next to the Event that caused
 the alarm will be grayed out (see <<s_IZCloud-Events>>).
 
-** The alarm will be removed fromt tha Alarms list.
+** The alarm will be removed from the Alarms list.
+
+<<<
 
 To see a list of alarms, click the Alarms button on
 the Events page (see <<s_IZCloud-Events>>).
