@@ -427,6 +427,9 @@ Follow the same steps as in <<s_LPR-Camera-Stream-Setup>>.
 
 //image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
 
+
+<<<
+
 === OV Camera - Video &amp; Audio &gt; Camera Setup
 
 
@@ -693,7 +696,7 @@ immediately to {software-ALPR}
 Each Lane number must be unique in the overall ALPR system.
 
 The images from all cameras capturing the same physical lane
-will be combined into a single Event.
+will be combined into one Event.
 
 Each "Lane" is actually a virtual Lane. For example,
 if you have two Camera Systems capturing the same physical lane,
@@ -832,9 +835,11 @@ to build an Event - +++<u>+++after+++</u>+++ the trigger
 occurs.
 ////
 
+<<<
+
 [#s_IZCloud-Integration]
 
-== {software-cloud} Integration
+=== {software-cloud} Integration
 
 Enable {software-cloud} Integration and
 set the parameters as follows. *Remember to click the Save button at the end of the
@@ -843,7 +848,6 @@ Detector Configuration section after making changes.*
 .{software-cloud} Integration Section
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-216_IZCloudIntegration.png[image,550]
-
 
 <<<
 
@@ -878,8 +882,6 @@ plate read has a match with the {docproductname} list of expected
 plate reads), a signal is sent to this pin when {docproductname}
 responds that a gate should be opened.
 See the NVIDIA Jetson documentation for further information.
-
-<<<
 
 ////
 GPIO - the nn number that identifies the GPIOnn
@@ -962,17 +964,13 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-003b_Trigger_Offset.png[image,300]
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
 
-<<<
-
 [#s_Detector-Configuration]
 
 === Detector Configuration
 
-* Set the parameters as shown here
-
-* Remember to click the Save button
-at the end of this section after
-changing these parameters.
+* Set the parameters as shown here. *Remember to click the Save button
+at the end of this section after changing
+these parameters.*
 
 [#f_Detector-Configuration-Section]
 
