@@ -171,7 +171,7 @@ Independently controllable frame rate and bandwidth
 
 .2+.^|Power
 .^a|Power Supply
-.^a|12 VDC (male barrel connector required) or PoE (802.3at, max 30 W)
+.^a|12 VDC (male barrel connector required) or PoE{plus} (802.3at, max 30 W)
 
 .^a|Power Consumption
 .^a|* Color mode - 5 Watts
