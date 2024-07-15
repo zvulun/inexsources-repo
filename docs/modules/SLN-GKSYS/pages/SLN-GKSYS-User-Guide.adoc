@@ -174,12 +174,15 @@ vehicle is allowed to enter the site.
 End times can be entered by clicking the
 Edit button (pencil icon).
 
+<<<
+
 [#s_IZCloud-Blacklist]
 
 === Blacklist
 
 Vehicles on a Blacklist that approach the gate will
-generate an alert/alarm (see <<s_Alerts-Alarms>>). You can add or remove
+generate an alert/alarm (see <<s_Alerts-Alarms>>) and the gate
+will not be opened. You can add or remove
 vehicles from a Blacklist.
 
 .Blacklist Page
