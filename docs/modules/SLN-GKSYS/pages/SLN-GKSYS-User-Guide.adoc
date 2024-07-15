@@ -276,8 +276,12 @@ You can:
 the Alarm as active (displayed in the Alarms list)
 
 * *Dismiss* the Alarm - The alarm will be treated as
-read/resolved. The icon next to the Event that caused
-the Alarm will be grayed out.
+read/resolved.
+
+** The icon next to the Event that caused
+the alarm will be grayed out (see <<s_IZCloud-Events>>).
+
+** The alarm will be removed fromt tha Alarms list.
 
 To see a list of alarms, click the Alarms button on
 the Events page (see <<s_IZCloud-Events>>).
