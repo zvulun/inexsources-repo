@@ -112,12 +112,6 @@ toc::[]
 
 == Background
 
-*_\{Pinchas: does the LPR Camera Settings screen
-have the color-related buttons at the bottom, or was
-this just because I used both screens for LPR and OV;
-also are the LPR / OV camera settings screens
-identical except for the day & night control setting?}_*
-
 This document describes how to install,
 configure and calibrate an {compname-short} {generic-camera-name}
 for a single lane, to work with the {docproductname} {docproductname3} System.
@@ -838,18 +832,30 @@ to build an Event - +++<u>+++after+++</u>+++ the trigger
 occurs.
 ////
 
+[#s_IZCloud-Integration]
+
+== {software-cloud} Integration
+
+Enable {software-cloud} Integration and
+set the parameters as follows. *Remember to click the Save button at the end of the
+Detector Configuration section after making changes.*
+
+.{software-cloud} Integration Section
+
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-216_IZCloudIntegration.png[image,550]
+
+
 <<<
 
-[#s_TIBA-Integration]
+[#s_GSKYS-Integration]
 
 === {docproductname} Integration
-
 
 Enable {docproductname} Integration and
 set the parameters as follows. *Remember to click the Save button at the end of the
 Detector Configuration section after making changes.*
 
-.{docproductname} Integration
+.{docproductname} Integration Section
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-002_GKSYS_Integration.png[image,550]
 

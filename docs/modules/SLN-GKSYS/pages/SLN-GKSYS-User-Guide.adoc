@@ -84,23 +84,9 @@ list of Events
 * Computer running with Windows 10 or later
 * Chrome or Microsoft Edge browser
 
-[#s_IZCloud-Integration]
+== Installation and Calibration Instructions
 
-== {software-cloud} Configuration via {software-ALPR}
-
-* Log in to {software-ALPR} (see the {software-ALPR}
-sections in the
-xref:SLN-GKSYS:DocList.adoc[{docproductname} Installation Guide]).
-
-* On the Settings tab, enable {software-cloud} Integration and
-set the parameters as follows:
-
-* Remember to click the Save button at the end of the
-Detector Configuration section after making changes.
-
-.{software-ALPR} Settings Tab - {software-cloud} Integration Section
-
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-216_IZCloudIntegration.png[image,550]
+For installation and calibration instructions, see the xref:SLN-GKSYS:DocList.adoc[{docproductname} Installation Guide].
 
 <<<
 
