@@ -1,7 +1,7 @@
 [table.withborders,width="100%",cols="7%,52%,41%",options="header",]
 |===
 |Item |Description |Ordering Information
-.^|A .^a|*Gigabit Ethernet PoE Network Switch* +
+.^|A .^a|*Gigabit Ethernet PoE{plus} Network Switch* +
 Must be connected to the Internet +
 Supplies power to components via PoE (Power Over Ethernet)
 .^|Supplied by user: Suggested vendor:
