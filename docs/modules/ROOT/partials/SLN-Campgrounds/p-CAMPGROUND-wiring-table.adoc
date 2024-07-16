@@ -3,7 +3,7 @@
 |Item |Description |Ordering Information
 .^|A .^a|*Gigabit Ethernet PoE{plus} Network Switch* +
 Must be connected to the Internet +
-Supplies power to components via PoE (Power Over Ethernet)
+Supplies power to components via PoE{plus} (Power Over Ethernet)
 .^|Supplied by user: Suggested vendor:
 https://www.amazon.com/NETGEAR-Gigabit-Ethernet-Unmanaged-GS308PP/dp/B082G2G2F8?ref_=ast_sto_dp&th=1[Link, window=_blank] +
 
