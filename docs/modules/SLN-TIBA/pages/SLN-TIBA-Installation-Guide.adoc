@@ -1,6 +1,7 @@
 :docproductname: TIBA
 //:docproductname2: IZA500GR
 :docproductname3: SmartPark
+:rv-version: 1.15.64.97
 //:shortprodname: IZA500GR
 :generic-camera-name: ALPR Camera
 
