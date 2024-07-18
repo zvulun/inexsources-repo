@@ -1,0 +1,10 @@
+* Enter username and password (root/IZpass12)
+* Use the menu at the left to select the parameter
+category/sub-category/group.
++
+[IMPORTANT]
+==================
+*After changing settings, remember to
+click the Apply button at the bottom of
+each parameter section.*
+==================

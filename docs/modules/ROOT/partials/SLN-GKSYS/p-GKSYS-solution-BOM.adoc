@@ -1,0 +1,14 @@
+
+* Camera System:
+** {camera-5GR}-DRW-P48 - for USA, Mexico, Canada
+** {camera-5GR}-IRW-P48 - for Israel, EU, Taiwan, Australia, Vietnam, GCC, India, Singapore
+** {software-ALPR} Advanced ALPR Software, version {rv-version}
+* Power Supply for P48 models
+** {hw-pwrsupply-75}{plus}{hw-1poeinjector} - for a single camera
+** {hw-pwrsupply-120}{plus}{hw-2poeinjector} - for two cameras
+** {hw-pwrsupply-240}{plus}{hw-4poeinjector} - for four cameras
+* Camera Mounting hardware
+** {mount-wall-extend} - wall mount
+** {mount-wall-extend}{plus}MNT-PMA -  pole mount
+** {mount-under-ceiling} - under-ceiling
+* {software-cloud-APM} - {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring

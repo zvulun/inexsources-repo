@@ -1,0 +1,3 @@
+* The focus will be set automatically;
+can be fine-adjusted manually with buttons
+* Use the buttons to Zoom in/out

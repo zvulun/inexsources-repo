@@ -10,7 +10,7 @@
 // outside partials - should be used in partials
 // see the playbook for full list
 
-:xref-type-IZA500G:
+:xref-type-GKSYS:
 :layout-type-userguide:
 
 //related doc links are temporarily pointed

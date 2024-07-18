@@ -1,0 +1,5 @@
+The factory default IP addresses of the onboard
+processor, LPR and OV cameras
+are on the unit's sticker, typically: Processor ({ip-default-IZA-DPU}), LPR ({ip-default-IZA-LPR}) and
+OV ({ip-default-IZA-OV}). If needed, use {software-discovery} to change to other
++++<u>+++consecutive+++</u>+++ network addresses you have allocated.

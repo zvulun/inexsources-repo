@@ -1,0 +1,23 @@
+[table.withborders,width="100%",cols="7%,35%,58%",options="header",]
+|===
+|Item |Description |Ordering Information
+.^|A .^a|*LAN Patch Cable* - CAT6, max. length 3.3 ft (1 m) .^|Supplied by integrator
+.^|B .^a|*LAN Cable* - CAT6, shielded, 4 pairs, 22 AWG, max.
+length 328 ft (100 m), OD 5.5-7.9 mm
+.^|Supplied by integrator; 6.6 ft (2 m) included with camera
+.^|C .^a|*PAS (Power and Signals) Cable* - 22 AWG, OD 3.0-7.3 mm
+.^|Supplied by integrator; 6.6 ft (2 m) cable included with camera
+.^|D .^a|*Power Supply* - 48 VDC
+.^a|
+For 1 camera, use a 75 W supply ({hw-pwrsupply-75}-48) +
+For 2 cameras, use a 120 W supply ({hw-pwrsupply-120}-48) +
+For 4 cameras, use a 240 W supply ({hw-pwrsupply-240}-48)
+.^|E .^a|*Gate* .^|Supplied by integrator
+ifdef::xref-type-TIBA[]
+.^|F .^a|*Inductive Loop* .^|Supplied by integrator
+.^|G .^a|*Loop Detector* .^|Supplied by integrator
+endif::xref-type-TIBA[]
+|===
+
+* An xref:IZ4POE:DocList.adoc[{hw-poeinjector}] is required for the PoE{plus} input power option;
+a standard PoE network switch cannot be used.

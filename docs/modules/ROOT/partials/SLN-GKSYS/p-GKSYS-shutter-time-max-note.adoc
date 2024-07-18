@@ -1,0 +1,11 @@
+[NOTE]
+=====================
+Before changing the Camera Setup parameters, be sure to click
+the Default(Day) link at the top of
+the table. +
+Set the Shutter Time Max parameter
+according to the camera-to-plate distance
+as follows: +
+40 ft (12.2 m) - 1/500; 20 ft (6.0 m) - 1/1000;
+15 ft (4.6 m) - 1/2000; 10 ft (3.0 m) - 1/4000
+=====================

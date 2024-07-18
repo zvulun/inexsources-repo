@@ -1,0 +1,22 @@
+[table.withborders,options="header",cols="24,23,53"]
+|===
+2+.^| Item
+// {set:cellbgcolor:#c0c0c0}
+
+.^| Specification
+// {set:cellbgcolor:#c0c0c0}
+2+.^| Field of View (FOV)
+
+.^| 12 ft (H) x 8 ft (V) (3.7 x 2.4 m)
+
+2+.^| Max Vehicle Speed
+
+.^| Up to 40 mph (64 km/h)
+
+2+.^| LPR Capture Distance (D) +
+(for U.S.A. plates; +
+measured from camera to plate)
+
+.^| 5-70 ft (1.5-21 m); 8 ft (2.4 m) recommended
+
+|===
