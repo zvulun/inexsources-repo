@@ -1,7 +1,7 @@
 [NOTE]
 =====================
 Click the Default(Day) link, and set the Shutter Time Max parameter
-according to the camera-to-plate distance:
+according to the camera-to-plate distance (see next Figure):
 [table.withborders,width=50%,options="header",cols="25,20,53"]
 |===
 2+.^| Distance
