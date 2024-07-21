@@ -95,6 +95,9 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=center]
 
 {empty} +
 
+*_\{do I need  note that the inductive loop
+and loop detector is only for triggered mode (Israel)?}_*
+
 .Wiring Table
 
 include::ROOT:partial$SLN-GKSYS/p-GKSYS-wiring-table.adoc[Wiring Table For Parking/IZCloud Integrations]
@@ -344,7 +347,11 @@ The box at the upper right of the Settings screen shows:
 
 [#f_Software-Version-and-Camera-Information-Section]
 
-.Software Version and Camera Information Section
+.Software Version and Camera Information Section - U.S.
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-001aUS_VersionAndCameraInfo.png[image,400]
+
+.Software Version and Camera Information Section - Israel
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-001a_VersionAndCameraInfo.png[image,400]
 
@@ -404,7 +411,11 @@ and countries in North America (U.S. and Canada) and South America.
 
 [#f_Date-and-Time-Settings-Section]
 
-.Date and Time Settings Section
+.Date and Time Settings Section - U.S.
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-001dUS_Date_Time.png[image,600]
+
+.Date and Time Settings Section - Israel
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-001d_Date_Time.png[image,600]
 
