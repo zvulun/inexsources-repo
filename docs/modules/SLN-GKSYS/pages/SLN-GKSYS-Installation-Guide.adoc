@@ -334,6 +334,9 @@ image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
 
 === Logging Out (Multi-line Menu Icon)
 
+//*_\{NOTE THAT THE LOGOUT MULTI-LINE MENU
+//IS DIFFERENT FOR EACH SOFTWARE VERSION}_*
+
 * Click on the multi-line menu icon at the upper right of the {software-ALPR} screen
 
 * Select "Logout"
@@ -348,26 +351,7 @@ image::ROOT:RoadViewALPR/RV-1_15-FIG-020a_Logging_Out.png[image,width=120]
 
 == Configure {software-ALPR} - Settings Tab
 
-Use the Settings tab after the first installation or
-re-installation of the ALPR system, or when some
-fundamental parameters need updating.
-For example, if the Camera System was moved
-to a different location (time zone).
-
-[NOTE]
-
-========================================
-Configure the parameters in the order in this
-section of the document.
-
-After clicking the Save button at the end of the
-Detector Configuration section, it will take
-several seconds before the Live tab
-can start displaying Events.
-Also, some defaults and/or available
-parameters may change, depending on the
-Detector Configuration "Mode" selected.
-========================================
+include::ROOT:partial$SLN-GKSYS/p-GKSYS-RV-settings-intro.adoc[RoadView Settings Introduction]
 
 [#s_Software-Version-and-Camera-Information]
 
