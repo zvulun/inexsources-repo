@@ -164,7 +164,7 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-shutter-time-max-note.adoc[Shutter Time 
 
 .LPR Camera - Video &amp; Audio &gt; Camera Setup
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-016_US_LPRCameraSetup.png[image,align="left",400]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-016_US_LPRCameraSetup.png[image,align="left",width=400]
 
 {empty} +
 
