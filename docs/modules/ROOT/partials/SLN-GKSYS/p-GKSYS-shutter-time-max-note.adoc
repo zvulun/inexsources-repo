@@ -6,6 +6,29 @@ the table. +
 Set the Shutter Time Max parameter
 according to the camera-to-plate distance
 as follows: +
-40 ft (12.2 m) - 1/500; 20 ft (6.0 m) - 1/1000;
-15 ft (4.6 m) - 1/2000; 10 ft (3.0 m) - 1/4000
+[table.withborders,options="header",cols="24,23,53"]
+|===
+2+.^| Distance
+// {set:cellbgcolor:#c0c0c0}
+
+.^| Shutter Time Max
+// {set:cellbgcolor:#c0c0c0}
+2+.^| 40 ft (12.2 m)
+
+.^| 1/500
+
+2+.^| 20 ft (6.0 m)
+
+.^| 1/1000
+
+2+.^| 15 ft (4.6 m)
+
+.^| 1/2000
+
+2+.^| 10 ft (3.0 m)
+
+.^| 1/4000
+
+|===
+
 =====================
