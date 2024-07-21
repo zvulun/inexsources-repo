@@ -6,7 +6,7 @@ the table. +
 Set the Shutter Time Max parameter
 according to the camera-to-plate distance
 as follows: +
-[table.withborders,options="header",cols="24,23,53"]
+[table.withborders,width=60%,options="header",cols="24,23,53"]
 |===
 2+.^| Distance
 // {set:cellbgcolor:#c0c0c0}
