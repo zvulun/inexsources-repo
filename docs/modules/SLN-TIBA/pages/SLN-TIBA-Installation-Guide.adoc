@@ -133,7 +133,6 @@ The camera(s) are pre-configured;
 this section displays typical settings
 for reference.
 
-////
 [IMPORTANT]
 ==================
 *After changing settings, remember to
@@ -142,69 +141,63 @@ each parameter section.*
 ==================
 
 Change the parameters to match the following screen captures:
-////
 
 === LPR Camera - Video &amp; Device &gt; Video Streams
 
+*_\{I have used the TIBA-US screen here (non-triggered),
+but what is the correct FPS - 5 or 10? }_*
+
 ==== Triggered Mode
 
-.LPR Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
+[NOTE]
+========================
+For Israel sites, set the Max Frame Rate
+to 25 fps.
+========================
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
+.LPR Camera - Video &amp; Device &gt; Video Streams
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-015_US_LPR_StreamSetup.png[image, 450]
+
+//*_\{old text}_*
+//.LPR Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
+//image::ROOT:SLN-TIBA/IZA500G-FIG-110_TIBALPRVideoStreams.png[image,400]
 
 ==== Non-triggered Mode
 
-*_\{do we still want this section in? even
-though TIBA is a triggered project?
-TIBA-IL is triggered, but TIBA-US is non-triggered?}_*
-
 For Non-triggered mode, set the primary stream frame rate
-to 10 fps.
+to *_\{is this correct?}_* 10 fps.
 
-.LPR Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
+//*_\{old text}_*
+//.LPR Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
+//image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
 
 <<<
 
-=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+//=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+
+=== LPR Camera - Video &amp; Audio &gt; Camera Setup
 
 include::ROOT:partial$SLN-GKSYS/p-GKSYS-shutter-time-max-note.adoc[Shutter Time Max Setting Ranges Note]
 
-////
-[NOTE]
-=====================
-Before changing the Camera Settings parameters, be sure to click
-the Default(Day) link at the top of
-the Camera Settings table.
-=====================
-////
+.LPR Camera - Video &amp; Audio &gt; Camera Setup
 
-.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-016_US_LPRCameraSetup.png[image,400]
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,400]
+//image::ROOT:SLN-TIBA/IZA500G-FIG-112_TIBALPRCameraSettings.png[image,400]
 
 {empty} +
 
 <<<
 
-[#s_LPR-Camera-Stream-Setup]
-
-=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
-*_\{need new pic}_*
-
-.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
-
-{empty} +
 
 === LPR Camera - System &gt; Access Level
 
 .LPR Camera - System &gt; Access Level
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-017_US_LPRAccessLevel.png[image,600]
+
+//image::ROOT:SLN-TIBA/IZA500G-FIG-116_TIBALPRAccessLevel.png[image,600]
 
 <<<
 
@@ -215,7 +208,6 @@ this section displays typical settings
 for reference.
 
 
-////
 [IMPORTANT]
 ==================
 *After changing settings, remember to
@@ -224,28 +216,37 @@ each parameter section.*
 ==================
 
 Change the parameters to match the following screen captures:
-////
 
-=== OV Camera - Video &amp; Device &gt; Video Streams
+=== OV Camera - Video &amp; Audio &gt; Stream Setup
+
+//=== OV Camera - Video &amp; Device &gt; Video Streams
 
 ==== Triggered Mode
 
-.OV Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
+[NOTE]
+========================
+For Israel sites, set the Max Frame Rate
+to 25 fps.
+========================
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
+*_\{what to tell user for triggered mode - 5 fps?}_*
 
-Follow the same steps as in <<s_LPR-Camera-Stream-Setup>>.
+//.OV Camera - Video &amp; Device &gt; Video Streams (Triggered Mode)
+//image::ROOT:SLN-TIBA/IZA500G-FIG-111_TIBAOVVideoStreams.png[image,400]
 
 ==== Non-triggered Mode
 
 For Non-triggered mode, set the primary stream frame rate
-to 10 fps.
+to 10 fps. *_\{need to change picture to show 10 fps?}_*
 
-.OV Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
+.OV Camera - Video &amp; Audio &gt; Stream Setup
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-018_US_OV_StreamSetup.png[image,450]
 
-=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+//.OV Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
+//image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
+
+=== OV Camera - Video &amp; Audio &gt; Camera Setup
 
 ////
 [NOTE]
@@ -256,31 +257,28 @@ the Camera Settings table.
 =====================
 ////
 
-.OV Camera - Video &amp; Device &gt; Video Streams &gt; Camera Settings
+.OV Camera - Video &amp; Audio &gt; Camera Setup
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-113_TIBAOVCameraSettings.png[image,400]
+include::ROOT:partial$SLN-GKSYS/p-GKSYS-shutter-time-max-note.adoc[Shutter Time Max Setting Ranges Note]
+
+.OV Camera - Video &amp; Audio &gt; Camera Setup
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-019_US_OVCameraSetup.png[image,400]
+
+
+//image::ROOT:SLN-TIBA/IZA500G-FIG-113_TIBAOVCameraSettings.png[image,400]
 
 {empty} +
 
 <<<
 
-=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
-include::ROOT:partial$SLN-GKSYS/p-GKSYS-shutter-time-max-note.adoc[Shutter Time Max Setting Ranges Note]
-
-.OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
-*_\{need new pic}_*
-
-image::ROOT:SLN-TIBA/IZA500G-FIG-115_TIBAOVPrimaryStream.png[image,600]
-
-{empty} +
-
 === OV Camera - System &gt; Access Level
 
 .OV Camera - System &gt; Access Level
 
-image::ROOT:SLN-TIBA/IZA500G-FIG-117_TIBAOVAccessLevel.png[image,600]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-020_US_OVAccessLevel.png[image,600]
+
+//image::ROOT:SLN-TIBA/IZA500G-FIG-117_TIBAOVAccessLevel.png[image,600]
 
 <<<
 

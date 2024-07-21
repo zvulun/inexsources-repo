@@ -168,7 +168,7 @@ The camera(s) are usually pre-configured;
 this section displays typical settings
 for reference.
 
-////
+
 [IMPORTANT]
 ==================
 *After changing settings, remember to
@@ -177,32 +177,31 @@ each parameter section.*
 ==================
 
 Change the parameters to match the following screen captures:
-////
 
 [#s_LPR-Camera-Stream-Setup]
 
 === LPR Camera - Video &amp; Audio &gt; Stream Setup
 
-//==== Triggered Mode
+*_\{I have used the TIBA-US screen here (non-triggered),
+but what is the correct FPS - 5 or 10? do we have
+to tell user what to do in Triggered Mode?}_*
+
+==== Triggered Mode
+
+*_\{do we have
+to tell user what to do in Triggered Mode?}_*
+
+==== Non-triggered Mode
 
 .LPR Camera - Video &amp; Audio &gt; Stream Setup
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-203_LPRStreamSetup.png[image,450]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-015_US_LPR_StreamSetup.png[image, 450]
 
-. Set the Max Frame Rate to 30 fps
-
-. Click the Primary link
-
-. Enter the Camera Name (Primary Stream)
-
-. Use the dropdown to set the Frame Rate to 5 fps
-
-. Click Apply
+//*_\{Previous GKSYS screen}_*
+//image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-203_LPRStreamSetup.png[image,450]
 
 //==== Non-triggered Mode
-
 //.LPR Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
-
 //image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
 
 <<<
@@ -213,25 +212,26 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-shutter-time-max-note.adoc[Shutter Time 
 
 .LPR Camera - Video &amp; Audio &gt; Camera Setup
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-204_LPRCameraSetup.png[image,400]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-016_US_LPRCameraSetup.png[image,400]
+
+//image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-204_LPRCameraSetup.png[image,400]
 
 {empty} +
 
 <<<
 
 //=== LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
 //.LPR Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
 //image::ROOT:SLN-TIBA/IZA500G-FIG-114_TIBALPRPrimaryStream.png[image,600]
-
 //{empty} +
 
 === LPR Camera - System &gt; Access Level
 
 .LPR Camera - System &gt; Access Level
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-205_LPRAccessLevel.png[image,600]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-017_US_LPRAccessLevel.png[image,600]
+
+//image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-205_LPRAccessLevel.png[image,600]
 
 <<<
 
@@ -241,8 +241,6 @@ The camera(s) are usually pre-configured;
 this section displays typical settings
 for reference.
 
-
-////
 [IMPORTANT]
 ==================
 *After changing settings, remember to
@@ -251,25 +249,27 @@ each parameter section.*
 ==================
 
 Change the parameters to match the following screen captures:
-////
 
 === OV Camera - Video &amp; Audio &gt; Stream Setup
 
-//==== Triggered Mode
+==== Triggered Mode
+
+*_\{do we have to tell what to do in Triggered Mode -
+GKSYS is a non-triggered project?}_*
+
+//image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-206_OVStreamSetup.png[image,450]
+
+==== Non-triggered Mode
+
+For Non-triggered mode, set the primary stream frame rate
+to 10 fps. *_\{need to change picture to show 10 fps?}_*
 
 .OV Camera - Video &amp; Audio &gt; Stream Setup
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-206_OVStreamSetup.png[image,450]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-018_US_OV_StreamSetup.png[image,450]
 
-Follow the same steps as in <<s_LPR-Camera-Stream-Setup>>.
-
-//==== Non-triggered Mode
-
-//For Non-triggered mode, set the primary stream frame rate
-//to 10 fps.
 
 //.OV Camera - Video &amp; Device &gt; Video Streams (Non-triggered Mode)
-
 //image::ROOT:SLN-TIBA/RV-TIBA-FIG-014_NonTriggered10FPS.png[image,300]
 
 
@@ -281,25 +281,21 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-shutter-time-max-note.adoc[Shutter Time 
 
 .OV Camera - Video &amp; Audio &gt; Camera Setup
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-207_OVCameraSetup.png[image,400]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-019_US_OVCameraSetup.png[image,400]
+
+//image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-207_OVCameraSetup.png[image,400]
 
 {empty} +
 
 <<<
 
-//=== OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
-//.OV Camera - Video &amp; Device &gt; Video Streams &gt; Primary Stream
-
-//image::ROOT:SLN-TIBA/IZA500G-FIG-115_TIBAOVPrimaryStream.png[image,600]
-
-//{empty} +
-
 === OV Camera - System &gt; Access Level
 
 .OV Camera - System &gt; Access Level
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-208_OVAccessLevel.png[image,600]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-020_US_OVAccessLevel.png[image,600]
+
+//image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-208_OVAccessLevel.png[image,600]
 
 <<<
 
