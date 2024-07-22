@@ -213,7 +213,7 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-shutter-time-max-note.adoc[Shutter Time 
 
 .OV Camera - Video &amp; Audio &gt; Camera Setup
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-019_US_OVCameraSetup.png[image,400]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-019_US_OVCameraSetup.png[image,align="left",width=400]
 
 {empty} +
 
