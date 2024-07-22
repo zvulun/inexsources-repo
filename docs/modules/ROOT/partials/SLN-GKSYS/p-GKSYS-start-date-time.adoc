@@ -1,0 +1,18 @@
+[IMPORTANT]
+
+========================================
+
+The Date and Time Settings refer to the location of the
++++<u>+++{software-ALPR} computer+++</u>+++
+(+++<u>+++Camera System)+++</u>+++ - NOT the
+computer on which the browser displaying the GUI is running.
+
+The Time Zone selections are organized by continent.
+For example, the "America/" prefix covers various cities
+and countries in North America (U.S. and Canada) and South America.
+
+ifndef::xref-type-TIBA[]
+The "Asia/" prefix covers cities in Israel.
+endif::[]
+
+========================================

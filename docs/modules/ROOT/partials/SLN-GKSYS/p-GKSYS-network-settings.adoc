@@ -1,0 +1,20 @@
+* If needed, set the {software-ALPR} computer's IP address parameters.
+
+* Remember to click the Save button in this section;
+the change will be applied immediately.
+
+[IMPORTANT]
+
+========================================
+
+The Network Settings refer to the
++++<u>+++{software-ALPR} computer+++</u>+++
+(+++<u>+++Camera System)+++</u>+++ - NOT the
+computer on which the browser displaying the GUI is running.
+
+*+++<u>+++It is highly recommended to use a fixed IP
+address (not DHCP)+++</u>+++*. A fixed IP address enables
+you to access the computer using the same URL every time,
+even after unexpected power outages.
+
+========================================

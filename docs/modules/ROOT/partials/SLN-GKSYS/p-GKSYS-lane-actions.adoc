@@ -1,0 +1,25 @@
+* Actions:
+
+** +++<u>+++Edit+++</u>+++ - edit the Lane's parameters
+
+** +++<u>+++Delete+++</u>+++ - delete the Lane
+(a warning will be displayed)
+
+** +++<u>+++Trigger+++</u>+++ - send a software trigger
+immediately to {software-ALPR}
++
+[NOTE]
+
+========================================
+
+Each Lane number must be unique in the overall ALPR system.
+
+The images from all cameras capturing the same physical lane
+will be combined into one Event.
+
+Each "Lane" is actually a virtual Lane. For example,
+if you have two Camera Systems capturing the same physical lane,
+you will need to create two different "Lanes",
+and associate each Camera System's cameras with a different "Lane".
+
+========================================

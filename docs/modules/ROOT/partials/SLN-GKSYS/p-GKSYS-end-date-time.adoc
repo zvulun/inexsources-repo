@@ -1,0 +1,32 @@
+*Set Time (Automatically/Manually) -
+The preferred setting is "Set Time Automatically"*.
+
+* If *Automatic*, the date and time
+will be updated from a central NTP (Network Time) server;
+the server can be in the cloud or on a local NTP server.
+(The default is ntp.ubuntu.com.)
+
+** Enter the NTP server URL
+
+** Select the interval at
+which you want {software-ALPR} to poll for the
+date and time (selected from the Polling Interval dropdown).
+
+** Click the "Update Now" button to update
+the date and time immediately.
+
+** The icon (green check mark or red "x")
+indicates if the URL of the NTP server is correct,
+and if the connection to it was successful.
+
+* If an NTP server is not available, select  *Manual*.
+Click in the *Date and Time* box to display
+a calendar/time popup.
+
+* Select a *Time Zone*;
+set it to the local time at the location in which the
+Camera System/DPU is installed
+(+++<u>+++not+++</u>+++ the UTC default).
+
+* Remember to click the Save button at the
+end of this section after making changes.

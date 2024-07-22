@@ -180,20 +180,9 @@ Change the parameters to match the following screen captures:
 
 [#s_LPR-Camera-Stream-Setup]
 
-=== LPR Camera - Video &amp; Audio &gt; Stream Setup
+=== LPR Camera - Video &amp; Device &gt; Video Streams
 
-*_\{I have used the TIBA-US screen here (non-triggered),
-but what is the correct FPS - 5 or 10? do we have
-to tell user what to do in Triggered Mode?}_*
-
-==== Triggered Mode
-
-*_\{do we have
-to tell user what to do in Triggered Mode?}_*
-
-==== Non-triggered Mode
-
-.LPR Camera - Video &amp; Audio &gt; Stream Setup
+.LPR Camera - Video &amp; Device &gt; Video Streams
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-015_US_LPR_StreamSetup.png[image, 450]
 
@@ -212,7 +201,7 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-shutter-time-max-note.adoc[Shutter Time 
 
 .LPR Camera - Video &amp; Audio &gt; Camera Setup
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-016_US_LPRCameraSetup.png[image,400]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-016_US_LPRCameraSetup.png[image,align="left",width=400]
 
 //image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-204_LPRCameraSetup.png[image,400]
 
@@ -252,17 +241,7 @@ Change the parameters to match the following screen captures:
 
 === OV Camera - Video &amp; Audio &gt; Stream Setup
 
-==== Triggered Mode
-
-*_\{do we have to tell what to do in Triggered Mode -
-GKSYS is a non-triggered project?}_*
-
 //image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-206_OVStreamSetup.png[image,450]
-
-==== Non-triggered Mode
-
-For Non-triggered mode, set the primary stream frame rate
-to 10 fps. *_\{need to change picture to show 10 fps?}_*
 
 .OV Camera - Video &amp; Audio &gt; Stream Setup
 
@@ -281,7 +260,7 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-shutter-time-max-note.adoc[Shutter Time 
 
 .OV Camera - Video &amp; Audio &gt; Camera Setup
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-019_US_OVCameraSetup.png[image,400]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-019_US_OVCameraSetup.png[image,align="left",width=400]]
 
 //image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-207_OVCameraSetup.png[image,400]
 
@@ -377,26 +356,7 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-001a_VersionAndCameraInfo.png[image,400]
 
 image::ROOT:RoadViewALPR/RV-1_15-FIG-213_NewNetworkSettings.png[image,600]
 
-* If needed, set the {software-ALPR} computer's IP address parameters.
-
-* Remember to click the Save button in this section;
-the change will be applied immediately.
-
-[IMPORTANT]
-
-========================================
-
-The Network Settings refer to the
-+++<u>+++{software-ALPR} computer+++</u>+++
-(+++<u>+++Camera System)+++</u>+++ - NOT the
-computer on which the browser displaying the GUI is running.
-
-*+++<u>+++It is highly recommended to use a fixed IP
-address (not DHCP)+++</u>+++*. A fixed IP address enables
-you to access the computer using the same URL every time,
-even after unexpected power outages.
-
-========================================
+include::ROOT:partial$SLN-GKSYS/p-GKSYS-network-settings.adoc[]
 
 <<<
 
@@ -404,20 +364,7 @@ even after unexpected power outages.
 
 === Date and Time Settings
 
-[IMPORTANT]
-
-========================================
-
-The Date and Time Settings refer to the location of the
-+++<u>+++{software-ALPR} computer+++</u>+++
-(+++<u>+++Camera System)+++</u>+++ - NOT the
-computer on which the browser displaying the GUI is running.
-
-The Time Zone selections are organized by continent.
-For example, the "America/" prefix covers various cities
-and countries in North America (U.S. and Canada) and South America.
-
-========================================
+include::ROOT:partial$SLN-GKSYS/p-GKSYS-start-date-time.adoc[]
 
 [#f_Date-and-Time-Settings-Section]
 
@@ -427,38 +374,7 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-001d_Date_Time.png[image,600]
 
 // * Set Time (Automatically/Manually)
 
-*Set Time (Automatically/Manually) -
-The preferred setting is "Set Time Automatically"*.
-
-* If *Automatic*, the date and time
-will be updated from a central NTP (Network Time) server;
-the server can be in the cloud or on a local NTP server.
-(The default is ntp.ubuntu.com.)
-
-** Enter the NTP server URL
-
-** Select the interval at
-which you want {software-ALPR} to poll for the
-date and time (selected from the Polling Interval dropdown).
-
-** Click the "Update Now" button to update
-the date and time immediately.
-
-** The icon (green check mark or red "x")
-indicates if the URL of the NTP server is correct,
-and if the connection to it was successful.
-
-* If an NTP server is not available, select  *Manual*.
-Click in the *Date and Time* box to display
-a calendar/time popup.
-
-* Select a *Time Zone*;
-set it to the local time at the location in which the
-Camera System/DPU is installed
-(+++<u>+++not+++</u>+++ the UTC default).
-
-* Remember to click the Save button at the
-end of this section after making changes.
+include::ROOT:partial$SLN-GKSYS/p-GKSYS-end-date-time.adoc[]
 
 <<<
 
@@ -474,31 +390,8 @@ Use this section to add and configure Lanes.
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-004b_Lanes.png[image,800]
 
-* Actions:
 
-** +++<u>+++Edit+++</u>+++ - edit the Lane's parameters
-
-** +++<u>+++Delete+++</u>+++ - delete the Lane
-(a warning will be displayed)
-
-** +++<u>+++Trigger+++</u>+++ - send a software trigger
-immediately to {software-ALPR}
-+
-[NOTE]
-
-========================================
-
-Each Lane number must be unique in the overall ALPR system.
-
-The images from all cameras capturing the same physical lane
-will be combined into one Event.
-
-Each "Lane" is actually a virtual Lane. For example,
-if you have two Camera Systems capturing the same physical lane,
-you will need to create two different "Lanes",
-and associate each Camera System's cameras with a different "Lane".
-
-========================================
+include::ROOT:partial$SLN-GKSYS/p-GKSYS-lane-actions.adoc[]
 +
 [#f_Add-Edit-Lane-Dialog]
 
@@ -506,27 +399,7 @@ and associate each Camera System's cameras with a different "Lane".
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-007a_EditLaneDialog.png[image,240]
 
-* *ID* (required) - The identification number of
-the lane to be captured by the cameras.
-This number will appear associated with Events in the Live tab.
-
-* *Name* (required) - The name of the Lane as it will appear
-throughout the user interface (GUI).
-
-* *Location* - Select one of the following options:
-
-** *Unknown* - the camera's position relative to vehicles
-is unknown.
-
-** *Front* - the camera in this Lane is capturing images
-from the front of vehicles
-
-** *Rear* - the camera in this Lane is capturing images
-from the rear of vehicles
-
-* *Passageway* - Unused
-
-* *Ignore Opposite Direction* - Unused
+include::ROOT:partial$SLN-GKSYS/p-GKSYS-lane-add-edit.adoc[]
 
 <<<
 

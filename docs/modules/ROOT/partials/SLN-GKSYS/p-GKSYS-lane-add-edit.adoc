@@ -1,0 +1,30 @@
+* *ID* (required) - The identification number of
+the lane to be captured by the cameras.
+This number will appear associated with Events in the Live tab.
+
+* *Name* (required) - The name of the Lane as it will appear
+throughout the user interface (GUI).
+
+* *Location* - Select one of the following options:
+
+** *Unknown* - the camera's position relative to vehicles
+is unknown.
+
+** *Front* - the camera in this Lane is capturing images
+from the front of vehicles
+
+** *Rear* - the camera in this Lane is capturing images
+from the rear of vehicles
+
+* *Passageway* - Select one of the following options:
+
+** +++<u>+++Unknown+++</u>+++ - It is unknown if the camera in this Lane
+is capturing entering or exiting vehicles
+
+** +++<u>+++Entry+++</u>+++ - The camera in this Lane is capturing images from
+vehicles entering
+
+** +++<u>+++Exit+++</u>+++ - The camera in this Lane is capturing images from
+vehicles exiting
+
+* *Ignore Opposite Direction* - Unused
