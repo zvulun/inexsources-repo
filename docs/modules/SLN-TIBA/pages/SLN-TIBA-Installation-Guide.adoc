@@ -620,9 +620,13 @@ changing these parameters.
 
 [#f_Detector-Configuration-Section]
 
-.Detector Configuration Section
+.Detector Configuration Section - U.S.
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-004aUS_Detector_Configuration.png[image,500]
+
+.Detector Configuration Section - Israel
+
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-004a_Detector_Configuration.png[image,500]
 
 Explanations of frequently used parameters:
 
