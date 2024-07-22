@@ -856,8 +856,6 @@ has sufficient accuracy and confidence.
 
 <<<
 
-[#s_IZCloud-Integration]
-
 == IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
 
 {software-cloud} ALPR Performance Monitoring software ({software-cloud}-APM)
