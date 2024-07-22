@@ -18,13 +18,12 @@ from the rear of vehicles
 
 * *Passageway* - Select one of the following options:
 
-** +++<u>+++Unknown+++</u>+++ - It is unknown if the camera in this Lane
+** *Unknown* - It is unknown if the camera in this Lane
 is capturing entering or exiting vehicles
 
-** +++<u>+++Entry+++</u>+++ - The camera in this Lane is capturing images from
-vehicles entering
-
-** +++<u>+++Exit+++</u>+++ - The camera in this Lane is capturing images from
+** *Exit* - The camera in this Lane is capturing images from
 vehicles exiting
+
+** *Entry* - Unused
 
 * *Ignore Opposite Direction* - Unused
