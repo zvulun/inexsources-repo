@@ -360,7 +360,7 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-lane-actions.adoc[]
 
 .Add/Edit Lane Dialog
 
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-007a_EditLaneDialog.png[image,240]
+image::ROOT:SLN-TIBA/RV-TIBA-FIG-007aUS_EditLaneDialog.png[image,240]
 
 include::ROOT:partial$SLN-GKSYS/p-GKSYS-lane-add-edit.adoc[]
 
