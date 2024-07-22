@@ -1,0 +1,30 @@
+* Actions:
+
+** +++<u>+++Edit+++</u>+++ - edit the camera's parameters
+(see <<f_Add-Edit-Camera-Dialog>>)
+
+** +++<u>+++Delete+++</u>+++ - delete the camera
+(a warning will be displayed)
+
+* *Camera table headers:* Camera ID, Lane ID, Name, URL,
+Type (as configured when the camera was added)
+
+* *Image* - Thumbnail image from a recent camera image
++
+[WARNING]
+
+========================================
+If you add a camera, or edit a camera's parameters and
+click the Save button in this dialog
+(even if you did not change the URL),
+you may see a warning icon in the Image column.
+The reappearance of the image indicates that the
+core software has restarted, and Events will resume
+being captured and displayed in the Live tab, with the
+following changes: +
+- The Event ID will continue to increase from the
+last Event ID. +
+- The history of previous Events for that camera will be cleared
+========================================
+
+* *Add Camera* (button at end of Cameras section):

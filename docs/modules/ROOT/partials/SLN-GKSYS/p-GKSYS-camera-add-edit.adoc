@@ -1,0 +1,46 @@
+** *Lane ID* - The identification number of the
+lane being captured by the camera(s).
+Select a Lane number you defined (see <<s_Lanes>>).
+This number will appear associated with Events in the Live tab.
++
+[NOTE]
+
+========================================
+
+The images from all cameras capturing the same physical
+lane will be combined into a single Event.
+
+Using the same Lane ID for different cameras
+(even the LPR and OV cameras within the same Camera System)
+will combine the reads into one Event (see <<s_Lanes>>).
+You may even be able to improve read accuracy by changing
+the zoom to have one camera "see" closer than the other one.
+
+You could also position cameras to be in different positions
+(front/rear).
+
+========================================
+
+** *Camera ID* - For internal use; should be unique in the
+overall ALPR system
+
+** *Name* - Camera name for internal use; should be unique
+in the overall ALPR system
+
+// ** *URL* - RTSP or HTTP URL:
+
+//*** RTSP stream URL example: +
+//rtsp:// <camera IP address>/cam0_0
+
+** *URL* - HTTP URL:
+
+*** HTTP URL example: +
+\http://<camera IP address>
+
+** *Type* - Type of camera (LPR or View)
+
+** *Trigger Pre* -
+Set as shown
+
+** *Trigger Post* -
+Set as shown
