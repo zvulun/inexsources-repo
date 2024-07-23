@@ -27,11 +27,6 @@ overall ALPR system
 ** *Name* - Camera name for internal use; should be unique
 in the overall ALPR system
 
-// ** *URL* - RTSP or HTTP URL:
-
-//*** RTSP stream URL example: +
-//rtsp:// <camera IP address>/cam0_0
-
 ** *URL* - HTTP URL:
 
 *** HTTP URL example: +
