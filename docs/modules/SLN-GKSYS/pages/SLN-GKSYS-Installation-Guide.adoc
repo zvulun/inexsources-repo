@@ -390,14 +390,13 @@ Use this section to add and configure Lanes.
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-004b_Lanes.png[image,800]
 
-
 include::ROOT:partial$SLN-GKSYS/p-GKSYS-lane-actions.adoc[]
 +
 [#f_Add-Edit-Lane-Dialog]
 
 .Add/Edit Lane Dialog
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-007a_EditLaneDialog.png[image,240]
+image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-007a_EditLaneDialog.png[image,230]
 
 include::ROOT:partial$SLN-GKSYS/p-GKSYS-lane-add-edit.adoc[]
 
