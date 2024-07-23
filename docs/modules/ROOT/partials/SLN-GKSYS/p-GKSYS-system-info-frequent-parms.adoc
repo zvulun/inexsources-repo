@@ -1,0 +1,45 @@
+Explanations of frequently used parameters:
+
+* Night Mode
+
+** +++<u>+++Disable+++</u>+++ - White LEDs are OFF
+
+** +++<u>+++Enable+++</u>+++ - White LEDs are ON
+
+*** *OV LED Intensity* - Relative intensity of the built-in white LEDs, expressed as a percentage of the maximum possible intensity
+
+*** *Illuminator Intensity* - Unused
+
+** +++<u>+++Auto+++</u>+++ - White LEDs are ON at night, OFF during the day,
+according to the Camera System's location (defined
+by the Latitude and Longitude parameters). Additional parameters are:
++
+{empty} +
++
+[NOTE]
+========================================
+
+Latitude and Longitude are user-entered coordinates; determine them using Google maps, by clicking on the location where the Camera System will be installed (remember to put in a minus sign as needed)
+
+========================================
+
+*** *Latitude* - latitude coordinate of Camera System's location
+
+*** *Longitude* - longitude coordinate of Camera System's location
+
+*** *Post-Sunrise Offset* - time after actual sunrise to be considered as the start of the day
+
+*** *Pre-Sunset Offset* -time before actual sunset to be considered the end of the day
+
+* LPR LED
+
+** *Mode*:
+
+*** +++<u>+++Off+++</u>+++ - LEDs off
+
+*** +++<u>+++Multi-flash+++</u>+++ - Each frame is illuminated with a different light intensity
+
+*** +++<u>+++Anti-flickering+++</u>+++ - Reduces the visible flickering of the built-in IR LED illumination by disabling multi-flash mode and adjusting flash frequency
+
+** *Intensity* - light intensity in percent, where 0 is no light, and 100 is maximum light
+

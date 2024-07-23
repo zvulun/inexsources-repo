@@ -9,7 +9,8 @@ to a different location (time zone).
 
 ========================================
 Configure the parameters in the order in this
-section of the document.
+section of the document. For further details,
+see the xref:RoadViewALPR:DocList.adoc[{software-ALPR} User Guide].
 
 After clicking the Save button at the end of the
 Detector Configuration section, it will take
