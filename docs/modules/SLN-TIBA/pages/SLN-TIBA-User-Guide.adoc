@@ -55,17 +55,6 @@ This document describes how to use the
 {software-cloud} Automatic License Plate Recognition (ALPR) Performance Monitoring application
 to work with the
 {docproductname} {docproductname3} System.
-{software-cloud} opens a gate for an Uber or Lyft vehicle
-that has been authorized to pick up a passenger
-at this time, or that is on a
-Whitelist.
-
-//* Monitor real-time Events seamlessly
-//*_\{not available from GKSYS user - only admin}_* * Benefit from daily analytical reports, which provide
-//insights into ALPR performance
-If a vehicle on a Blacklist attempts to pass the gate,
-an alert (alarm) is displayed. A list of
-alarms can be viewed and searched.
 
 You can perform many useful actions, including:
 
@@ -75,9 +64,8 @@ You can perform many useful actions, including:
 individual plates/owners from a
 list of Events
 
-* Add/remove vehicles from Whitelists/Blacklists
-
-* Search for and process Blacklist alarms
+* Benefit from daily analytical reports, which provide
+insights into ALPR performance
 
 == Computer and Software Requirements
 * Computer running with Windows 10 or later
@@ -85,7 +73,7 @@ list of Events
 
 == Installation and Calibration Instructions
 
-For installation and calibration instructions, see the xref:SLN-GKSYS:DocList.adoc[{docproductname} Installation Guide].
+For installation and calibration instructions, see the xref:SLN-TIBA:DocList.adoc[{docproductname} Installation Guide].
 
 <<<
 

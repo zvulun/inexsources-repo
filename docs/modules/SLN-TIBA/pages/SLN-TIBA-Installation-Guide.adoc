@@ -701,33 +701,10 @@ include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
 Doc. No. {docproductname}-MAN-002b Ver. {docdate}
 
+*_\{USER GUIDE STARTS HERE}_*
+
 == IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
 
-{software-cloud} ALPR Performance Monitoring software ({software-cloud}-APM)
-is an advanced SaaS (Software as a Service) application.
-You can:
-
-* Monitor real-time Events seamlessly
-* Quickly and accurately search for license plates
-* Benefit from daily analytical reports, which provide
-insights into ALPR performance
-
-=== Configuring {software-cloud} Integration in {software-ALPR}
-
-* Log in to {software-ALPR} (see <<s_Using-RoadView>>).
-
-* On the Settings tab, enable {software-cloud} Integration and
-set the parameters as follows:
-
-* Remember to click the Save button at the end of the
-Detector Configuration section after making changes.
-
-
-.{software-ALPR} Settings Tab - {software-cloud} Integration Section
-
-image::ROOT:SLN-TIBA/RV-TIBA-FIG-002a_IZCloud.png[image,550]
-
-<<<
 
 === Logging In to {software-cloud}
 
