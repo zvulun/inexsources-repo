@@ -97,7 +97,7 @@ image::ROOT:SLN-TIBA/IZA500G-FIG-101_TIBA_Wiring.png[image,800,align=center]
 
 image::ROOT:SLN-GKSYS/IZA500G-FIG-103_GKSYS_Wiring.png[image,800,align=center]
 
-{empty} +
+<<<
 
 .Wiring Table
 
@@ -206,6 +206,8 @@ to 25 fps.
 .OV Camera - Video &amp; Audio &gt; Stream Setup
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-018_US_OV_StreamSetup.png[image,450]
+
+<<<
 
 === OV Camera - Video &amp; Audio &gt; Camera Setup
 
@@ -383,6 +385,8 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-camera-actions.adoc[]
 .Add/Edit Camera Dialog
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-006aUS_EditCameraDialog.png[image,300]
+
+<<<
 
 include::ROOT:partial$SLN-GKSYS/p-GKSYS-camera-add-edit.adoc[]
 

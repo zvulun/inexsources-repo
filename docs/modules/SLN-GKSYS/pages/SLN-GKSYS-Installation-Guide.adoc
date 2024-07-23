@@ -422,6 +422,8 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-camera-actions.adoc[]
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-006a_EditCameraDialog.png[image,300]
 
+<<<
+
 include::ROOT:partial$SLN-GKSYS/p-GKSYS-camera-add-edit.adoc[]
 
 
