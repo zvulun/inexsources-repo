@@ -32,15 +32,15 @@ in the overall ALPR system
 //*** RTSP stream URL example: +
 //rtsp:// <camera IP address>/cam0_0
 
-*** *URL* - HTTP URL:
+** *URL* - HTTP URL:
 
-**** HTTP URL example: +
+*** HTTP URL example: +
 \http://<camera IP address>
 
-*** *Type* - Type of camera (LPR or View)
+** *Type* - Type of camera (LPR or View)
 
-*** *Trigger Pre* -
+** *Trigger Pre* -
 Set as shown
 
-*** *Trigger Post* -
+** *Trigger Post* -
 Set as shown
