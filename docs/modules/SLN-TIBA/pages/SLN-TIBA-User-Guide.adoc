@@ -97,88 +97,11 @@ then click the Logout button.
 
 .{software-cloud} Logout
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-215_IZCloudLogout.png[image,200]
+image::ROOT:SLN-TIBA/IZCLOUD-TIBA-FIG-021_US_Logout.png[image,200]
 
 <<<
-
-[#s_IZCloud-Access-Control-Lists]
-
-== {software-cloud} Access Control Lists
-
-These are lists of plates which can be matched to
-when a vehicle arrives at the site.
-
-For example, select "Watch Lists" from the Access Lists menu
-image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-220_IZCloudAccessMenu.png[image,100]
-
-.Access Lists (Watch Lists) Page
-
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-222_IZCloudWatchLists.png[image,800]
-
-<<<
-
-[#s_IZCloud-Whitelist]
-
-=== Whitelist
-
-Vehicles on a Whitelist will be allowed to pass through
-the gate.
-
-
-.Whitelist Page
-
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-219_IZCloudWhiteList.png[image,800]
-
-Columns/Filters:
-
-* *Name* - Enter characters
-to find within the names of the vehicle
-owners that will be granted access.
-
-* *Address* - Enter characters
-to find within the addresses of the vehicle
-owners
-
-* *Phone* - Enter characters
-to find within the phone numbers of the vehicle
-owners
-
-* *Lot* - Unused
-
-* *Plate* - Enter characters
-to find within the license plates of the vehicle
-owners. Multiple license plates separated by commas
-can be added to an owner by clicking the
-Edit button (pencil icon).
-
-* *Start Time* - Starting date/time that the owner's
-vehicle is allowed to enter the site.
-Start times can be entered by clicking the
-Edit button (pencil icon).
-
-* *End Time* - Ending date/time that the owner's
-vehicle is allowed to enter the site.
-End times can be entered by clicking the
-Edit button (pencil icon).
-
-<<<
-
-[#s_IZCloud-Blacklist]
-
-=== Blacklist
-
-Vehicles on a Blacklist that approach the gate will
-generate an alert/alarm (see <<s_Alerts-Alarms>>) and the gate
-will not be opened. You can add or remove
-vehicles from a Blacklist.
-
-.Blacklist Page
-
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-219b_IZCloudBlackList.png[image,800]
 
 [#s_IZCloud-Events]
-
-<<<
 
 == Events
 
@@ -228,12 +151,10 @@ images of the Event
 * *Action* - Action taken for the vehicle (access
 granted or denied)
 
-** Granted - an Uber or Lyft vehicle that
-has been authorized to pick up a passenger
-at this time, or that is on the
-{software-cloud} Whitelist (see <<s_IZCloud-Whitelist>>).
+** Granted - *_\{rewrite}_* a vehicle that
+is allowed to pass through the gate
 
-** Denied - an Uber or Lyft vehicle that
+** Denied - a vehicle that
 has not been authorized to pick up a passenger
 at this time, or that is on the {software-cloud}
 Blacklist.
