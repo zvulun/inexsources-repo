@@ -1,0 +1,6 @@
+* Once the lane is active, verify that Events are being generated
+for each vehicle passing each camera, and that the recognition
+has sufficient accuracy and confidence.
+
+* You can use the Search tab to find Event records stored in the
+{software-ALPR} database.

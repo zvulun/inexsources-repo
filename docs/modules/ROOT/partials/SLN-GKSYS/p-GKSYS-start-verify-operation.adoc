@@ -1,0 +1,5 @@
+* Using a license plate mounted in a lab,
+or by driving a vehicle through the lane,
+verify that an Event is generated with the
+correct plate read, as recorded in the {software-ALPR} Live (Journal)
+tab.

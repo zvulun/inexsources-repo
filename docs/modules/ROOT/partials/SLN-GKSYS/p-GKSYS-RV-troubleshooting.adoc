@@ -1,0 +1,25 @@
+[table.withborders,width="100%",cols="35%,65%",options="header",]
+|===
+|Symptom |Possible Solution
+|Thumbnails in Settings tab, in the Camera section at bottom have been replaced by red exclamation points and/or +
+The Live tab and Search tab are empty (no Events are detected) a|
+* Verify that each camera's IP address in the Camera System, and the {software-ALPR} computer's IP address are all on the same subnet.
+
+* Verify that stable power at the correct level is being supplied to the cameras, even when under a heavy processing load.
+
+* Verify that the IP address(es) configured in {software-ALPR} match the IP addresses that you configured in the camera(s). See <<s_Cameras>>.
+
+|Recognition rates are low a|
+* On the Calibration tab, increase the size of the Region of Interest (ROI) - it may be too small to capture plates with high confidence
+
+* On the Calibration tab, try to reduce the Plate Width Min and increase the Plate Width Max
+
+Examine the video from the Camera on the Calibration tab:
+
+* If all license plates are not fully visible, re-aim the Camera System so that the each camera's field of view fully covers the capture zone. For a more precise adjustment, verify that the license plate's images are as close to the middle of the video display as possible.
+
+* If the images are spotted, remove dirt and dust from the front window of the Camera System with a soft cloth and mild soap
+
+* If the images are not sharp, adjust the zoom and focus of each camera.
+
+|===
