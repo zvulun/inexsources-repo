@@ -540,9 +540,9 @@ open a gate via a relay.
 
 Set the Direct Trigger Mode as follows:
 
-* For Front Capture - OnRise
+* For Front Capture - +++<u>+++OnRise+++</u>+++
 
-* For Rear Capture - OnFall
+* For Rear Capture - +++<u>+++OnFall+++</u>+++
 
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.

@@ -1,6 +1,6 @@
 Explanations of frequently used parameters:
 
-* Night Mode
+* *Night Mode*
 
 ** +++<u>+++Disable+++</u>+++ - White LEDs are OFF
 
@@ -31,7 +31,7 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 
 *** *Pre-Sunset Offset* -time before actual sunset to be considered the end of the day
 
-* LPR LED
+* *LPR LED*
 
 ** *Mode*:
 

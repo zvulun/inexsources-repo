@@ -7,23 +7,23 @@ throughout the user interface (GUI).
 
 * *Location* - Select one of the following options:
 
-** *Unknown* - the camera's position relative to vehicles
+** +++<u>+++Unknown+++</u>+++ - the camera's position relative to vehicles
 is unknown.
 
-** *Front* - the camera in this Lane is capturing images
+** +++<u>+++Front+++</u>+++ - the camera in this Lane is capturing images
 from the front of vehicles
 
-** *Rear* - the camera in this Lane is capturing images
+** +++<u>+++Rear+++</u>+++ - the camera in this Lane is capturing images
 from the rear of vehicles
 
 * *Passageway* - Select one of the following options:
 
-** *Unknown* - It is unknown if the camera in this Lane
+** +++<u>+++Unknown+++</u>+++ - It is unknown if the camera in this Lane
 is capturing entering or exiting vehicles
 
-** *Exit* - The camera in this Lane is capturing images from
+** +++<u>+++Exit+++</u>+++ - The camera in this Lane is capturing images from
 vehicles exiting
 
-** *Entry* - Unused
+** +++<u>+++Entry+++</u>+++ - Unused
 
 * *Ignore Opposite Direction* - Unused
