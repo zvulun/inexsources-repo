@@ -1,8 +1,7 @@
-:docproductname: GKSYS
-:docproductname2: IZA500GR
-:docproductname3: CVM
-:fileproductname: IZA500GR
-:shortprodname: IZA500GR
+:docproductname: TIBA
+//:docproductname2: IZA500GR
+:docproductname3: SmartPark
+//:shortprodname: IZA500GR
 :generic-camera-name: ALPR Camera
 
 // set attribute (by uncommenting the line)
@@ -10,7 +9,7 @@
 // outside partials - should be used in partials
 // see the playbook for full list
 
-:xref-type-GKSYS:
+:xref-type-TIBA:
 :layout-type-userguide:
 
 //related doc links are temporarily pointed
@@ -22,11 +21,11 @@
 //enable the TOC to be placed in a specific position
 :toc: macro
 
-= {compname-short} ALPR for the GateKeeper System ({docproductname})
+= {compname-short} ALPR for the {docproductname} Parking System
 
 +++<font size="+3">+++ *User Guide*+++</font>+++
 
-image::ROOT:SLN-GKSYS/GKSYS_LOGO.png[image,150,align=left]
+image::ROOT:SLN-TIBA/TIBA_LOGO.png[image,150,align=left]
 
 // restore section numbering from here on
 :sectnums: all
