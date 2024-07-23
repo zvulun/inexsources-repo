@@ -26,6 +26,6 @@ from the rear of vehicles
 //** +++<u>+++Exit+++</u>+++ - The camera in this Lane is capturing images from
 //vehicles exiting
 
-** +++<u>+++Entry+++</u>+++ - Unused
+//** +++<u>+++Entry+++</u>+++ - Unused
 
 * *Ignore Opposite Direction* - Unused
