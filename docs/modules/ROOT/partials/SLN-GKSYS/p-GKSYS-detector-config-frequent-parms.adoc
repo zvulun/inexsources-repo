@@ -1,0 +1,38 @@
+Explanations of frequently used parameters:
+
+* *Mode* - Note that parameters may appear or be hidden, depending on the chosen Mode.
+
+** +++<u>+++Triggered+++</u>+++ - Events are created and reported when a trigger is received
+
+** +++<u>+++NonTriggered+++</u>+++ - Events are created and reported by LPR video analytics
+
+* *Region* - Region for which characters on the plate will be recognized. Select from the following options:
+
+** +++<u>+++Australia+++</u>+++
+
+** +++<u>+++Canada/North America+++</u>+++ - same as North America LPR, with a different state recognition model that includes Canadian states.
+
+** +++<u>+++Europe+++</u>+++
+
+** +++<u>+++Israel+++</u>+++
+
+** +++<u>+++North America+++</u>+++ - general recognition that includes all U.S.A. states
+
+** +++<u>+++Saudi Arabia+++</u>+++
+
+** +++<u>+++South Africa+++</u>+++
+
+** +++<u>+++Taiwan+++</u>+++
+
+** +++<u>+++United Arab Emirates+++</u>+++
+
+** +++<u>+++Vietnam+++</u>+++
+
+
+* *Include all images (for "Triggered" and "NonTriggered With Trigger" modes only)* - Enables display in Live tab, and sending of +++<u>+++all+++</u>+++ images (including pre- and post-trigger frames) - not only the "best" ones that were used for plate recognition
+
+* *Image Resize* - when enabled, and the Event confidence is equal or higher than the Resize Confidence parameter, then each LPR and OV image is resized according to the Image Width (and the height is resized proportionally).
+
+** *Image Width* - the resize width
+
+** *Resize Confidence* - the Event confidence threshold for enabling resizing
