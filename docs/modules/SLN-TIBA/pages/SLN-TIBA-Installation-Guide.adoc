@@ -988,18 +988,6 @@ with the updated read. +
 
 image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes-CorrectPlate.png[image,400]
 
-
-<<<
-
-[#s_Troubleshooting]
-
-== {software-ALPR} Troubleshooting
-
-[#t_Troubleshooting]
-
-.{software-ALPR} Troubleshooting
-
-
 <<<
 
 == Legal Notices
