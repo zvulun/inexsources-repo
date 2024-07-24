@@ -58,7 +58,7 @@ that is different for each camera.
 
 . Use the zoom and focus buttons to adjust
 the view of the video until the width of the plate
-is withing the extent of the vertices, and
+is within the extent of the vertices, and
 its plate image is clear and sharp.
 (The surrounding items, such as the vehicle body,
 do not need to be as sharp as the plate.)
