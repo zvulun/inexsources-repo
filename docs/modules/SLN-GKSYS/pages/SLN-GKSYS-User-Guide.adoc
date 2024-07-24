@@ -189,9 +189,9 @@ vehicles from a Blacklist.
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-219b_IZCloudBlackList.png[image,800]
 
-[#s_IZCloud-Events]
-
 <<<
+
+[#s_IZCloud-Events]
 
 == Events
 
