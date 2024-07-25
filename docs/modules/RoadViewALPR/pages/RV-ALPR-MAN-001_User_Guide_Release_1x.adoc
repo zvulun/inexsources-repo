@@ -1881,7 +1881,8 @@ you must enable its display on the System Info tab (see <<s_System-Info-Tab>>).
 
 image::./UserGuide/image37.png[image,width=624,height=313]
 
-. When you see a vehicle at a typical capture position on the video, click on the video to pause it.
+. When you see a vehicle at a typical plate capture position on the video, click on the video to pause it.
+(If you have physical access to the site, move a vehicle to this position.)
 
 . It is recommended to use the view called "Draw image by maintaining aspect ratio (two-headed arrow)". You select this view by clicking on the right-most button at the upper left of the screen: image:./UserGuide/image38.png[image,width=18,height=11]
 
@@ -1895,7 +1896,7 @@ image::./UserGuide/image37.png[image,width=624,height=313]
 
 .. *Pan*: Adjust the Pan so that the image of the license plate is in the horizontal middle of the Field of View.
 
-.. *Tilt:* Adjust the Tilt so that the image of every expected plate position (depending on the vehicle type, such as passenger cars, jeeps, trucks, etc.) will be in the middle of the screen (from top to bottom).
+.. *Tilt:* Adjust the Tilt so that the image of every expected plate position (depending on the vehicle type, such as passenger cars, jeeps, trucks, etc.) will be in the lower third of the screen (from top to bottom).
 
 .. *Roll*: Adjust the Roll so the license plate's image is horizontally straight, parallel to the ground (not tilted to one side).
 +
@@ -1917,15 +1918,8 @@ The following settings for the LPR and OV cameras are saved separately. For exam
 
 ========================================
 
-. Define the *Plate Width Min*: Events will only be created for plate reads whose width is greater than or equal to this parameter. It is recommended to enter 150 in the *Plate Width Min* text box. +
-This parameter can also be configured by dragging the small circle on the horizontal line on the Calibration tab (expressed in pixels). +
-This parameter can be used to ignore small plate reads. For example, if the image was taken when a vehicle is too far away, the characters are too small to be read - even by a human.
-
-. Define the *Plate Width Max*: Events will only be created for plate reads whose width is less than or equal to this parameter. It is recommended to enter approximately 350 in the *Plate Width Max* text box. +
-This parameter can also be configured by dragging the large circle on the horizontal line on the Calibration tab (expressed in pixels). +
-This parameter can be used to prevent false reads, such as large numbers on trucks.
-
-. Use the zoom and focus buttons to adjust the view of the video until the width of the plate is 150 pixels, and its plate image is clear and sharp. (The surrounding items, such as the vehicle body, do not need to be as sharp as the plate.)
+. Use the zoom and focus buttons to adjust the view of the video
+until the width of the plate is 150 pixels, and the plate image is clear and sharp. (The surrounding items, such as the vehicle body, do not need to be as sharp as the plate.)
 +
 [IMPORTANT]
 
@@ -1937,6 +1931,22 @@ As you adjust the zoom and focus, you may need to reposition the camera in order
 
 ========================================
 +
+. Define the *Plate Width Min*: Events will only be created for
+plate reads whose width is greater than or equal to this parameter.
+It is recommended to enter *_\{check screen shot matches}_* 90
+in the *Plate Width Min* text box; this will enable the camera
+to read the plate even before the trigger line. +
+This parameter can also be configured by dragging the small circle on the horizontal line on the Calibration tab (expressed in pixels). +
+This parameter can be used to ignore small plate reads. For example, if the image was taken when a vehicle is too far away, the characters are too small to be read - even by a human.
+
+. Define the *Plate Width Max*: Events will only be created for plate
+reads whose width is less than or equal to this parameter. It is
+recommended to enter 350 in the *Plate Width Max* text
+box; this will enable the camera to read the plate
+even after the trigger line. +
+This parameter can also be configured by dragging the large circle on the horizontal line on the Calibration tab (expressed in pixels). +
+This parameter can be used to prevent false reads, such as large numbers on trucks.
+
 <<<
 
 . *Direction (red arrow on video):*

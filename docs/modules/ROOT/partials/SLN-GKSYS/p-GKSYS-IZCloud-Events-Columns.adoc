@@ -1,0 +1,91 @@
+Columns/Filters:
+
+* *TimeStamp*
+** Click in the text box to display a calendar
+popup (see <<f_IZCLoud-Calendar-Popup>>)
+** Click once to select a start date (see <<f_IZCLoud-Selecting-a-Date-Range>>)
+** Click again to select an end date
+(even if the same date)
+** After selecting a range, the filter's checkbox
+will be selected. To clear the filter,
+clear the checkbox. +
++
+[#f_IZCLoud-Calendar-Popup]
+
+.Calendar Popup
+
+image::ROOT:SLN-TIBA/IZCloud-BorderCalendar-Popup.png[image,400]
+
+[#f_IZCLoud-Selecting-a-Date-Range]
+
+.Selecting a Data Range
+
+image::ROOT:SLN-TIBA/IZCloud-BorderSelect-Date-Range.png[image,250,align=center]
+
+ifdef::xref-type-TIBA[]
+* *Description* - Unused
+endif::xref-type-TIBA[]
+
+* *Gate (Lane)* - Select All, or a specific lane
+
+ifdef::xref-type-TIBA[]
+* *EventType* - Unused
+endif::xref-type-TIBA[]
+
+ifdef::xref-type-GKSYS[]
+* *List* - List that plate was found on
+endif::xref-type-GKSYS[]
+
+* *Plate* - Enter characters to find
+within the strings. For example,
+KZ will find +++<u>+++KZ+++</u>+++R3791 and J+++<u>+++KZ+++</u>+++0714
+
+ifdef::xref-type-TIBA[]
+* *Matched Plate* - Unused
+endif::xref-type-TIBA[]
+
+* *Plate Image* - click on an image
+to display plate, LPR and Overview
+images of the Event
+
+ifdef::xref-type-GKSYS[]
+* *Action* - Action taken for the vehicle (access
+granted or denied)
+
+** Granted - an Uber or Lyft vehicle that
+has been authorized to pick up a passenger
+at this time, or that is on the
+{software-cloud} Whitelist (see <<s_IZCloud-Whitelist>>).
+
+** Denied - an Uber or Lyft vehicle that
+has not been authorized to pick up a passenger
+at this time, or that is on the {software-cloud}
+Blacklist.
+
+* *Name* - The vehicle owner name; Enter characters
+to find within the names
+
+Buttons:
+
+* *Add to List* - Enables adding the vehicle to a list
+image:ROOT:IZCloud/IZCloud-CAMP-AddToListButton.png[image,20]
+
+Alarm Icons:
+
+* *Triangle Near Event* - A triangle warning
+icon appear to the left of any Event
+that has generated an alarm (see <<s_Alerts-Alarms>>).
+
+* *Number of Outstanding Alarms* - Displayed next to
+the Alarms button at the upper right of the display.
+endif::xref-type-GKSYS[]
+
+ifdef::xref-type-TIBA[]
+* *Action* - Unused
+
+* *Visiting* - Unused
+
+* *Resident* - Unused
+
+* *Vehicle Token* - Unused
+endif::xref-type-TIBA[]
