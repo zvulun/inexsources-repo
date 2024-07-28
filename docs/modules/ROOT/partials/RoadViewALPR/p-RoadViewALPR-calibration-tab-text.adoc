@@ -92,7 +92,11 @@ ifdef::xref-type-GKSYS,xref-type-TIBA[]
 . *Direction (red arrow on video):* Not used
 endif::[]
 
-. When you have finished, click the *Save* button. Wait several seconds for the display to refresh automatically, which indicates that the {shortprodname} recognition software is running again with the updated parameters.
+. When you have finished, click the *Save* button.
+Wait several seconds for the display to refresh
+automatically, which indicates that the
+{software-ALPR} recognition software
+is running again with the updated parameters.
 
 . When the correct position is achieved, make a final tightening of the mounting hardware.
 
