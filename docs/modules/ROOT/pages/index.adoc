@@ -33,3 +33,11 @@ the page display, and set it to 1.2"
 and the footer will have the site URL and page number
 
 * Click Save
+
+[NOTE]
+=============================
+Chrome's print to PDF does not preserve internal links
+(Table of Contents, cross references to different sections,
+etc.) - they jump to incorrect places.
+External links (to other documents) do work properly.
+=============================

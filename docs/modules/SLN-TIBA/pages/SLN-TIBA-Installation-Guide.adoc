@@ -660,7 +660,7 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-system-info-frequent-parms.adoc[]
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-011aUS_CalibrationTab.png[image,800]
 
-include::ROOT:partial$SLN-GKSYS/p-GKSYS-calibration-tab-text.adoc[]
+include::ROOT:partial$RoadViewALPR/p-RoadViewALPR-calibration-tab-text.adoc[]
 
 [#s_Verify-System-Operation]
 
