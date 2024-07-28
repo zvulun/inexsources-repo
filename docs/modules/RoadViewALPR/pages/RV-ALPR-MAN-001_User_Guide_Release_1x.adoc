@@ -1350,9 +1350,9 @@ The conditions required for further validation to be applied are:
 above the Use Validation thresholds.
 
 * The Region selected in the Detector Configuration section (see <<s_Detector-Configuration>>)
-must be supported in the list of validation criteria (set by {compname-short}).
+must be supported in the list of validation criteria patterns, or "plate type" (set by {compname-short}).
 
-* The LPR and State reads must both match to one of the validation criteria.
+* The LPR and State reads must both match to one of the validation criteria patterns.
 
 If all of the conditions are met:
 
@@ -2089,21 +2089,18 @@ See <<s_Related-Documents>> for {software-cloud} documentation.
 These lists are applied to all {software-cloud}
 physical lanes. However, each vehicle owner's
 access to the site can be limited to
-certain areas.
-
-A "lane" on the {software-ALPR}
+certain areas. A "lane" on the {software-ALPR}
 Access Lists tab represents a camera
 viewing an area of a site that the vehicle owner has
-access to. For this reason, each "lane" can
-have its own set of "lists".
-
-In addition, due to a site's business scenarios, plates can
-appear more than once in a list.
+access to. For this reason, each "lane" can have its own set of "lists" (for example, lane 1 and lane 2
+can each have their own "Grant" list.
 
 To display a list, select a Lane and List from the dropdowns.
+Due to a site's business scenarios, plates can
+appear more than once in a list.
 
 * The Update Time at the top of the tab is the
-last time that {software-ALPR} received and update
+last time that {software-ALPR} received an update
 from {software-cloud}.
 
 * The Plate is the plate stored in the list.
