@@ -714,7 +714,6 @@ system to create more accurate entry/exit transactions.
 * Remember to click the Save button at the end of the
 Detector Configuration section after making changes.
 
-<<<
 
 [#s_Plate-Recognizer-Not-Used]
 
@@ -733,6 +732,8 @@ See the {software-cloud} document (see <<s_Related-Documents>>).
 If {software-cloud} Integration is enabled, the Access Lists tab
 becomes visible. See <<s_Access-Lists-Tab>>.
 ================================
+
+<<<
 
 [#s_Raytec-LED-Illuminators]
 
@@ -1375,6 +1376,7 @@ reapplied to the Event:
 
 ** State confidence will be reduced by 50%
 
+<<<
 
 [#s_Trigger-Offset]
 
@@ -2108,6 +2110,11 @@ from {software-cloud}.
 * The Start and End times are the times
 configured in {software-cloud} for which
 the vehicle will be acted upon (to grant or deny access).
+
+* You can enter characters in the filter boxes at the top
+of each column to find within the strings. For example,
+KZ will find **+++<u>+++KZ+++</u>+++**R3791 and
+J**+++<u>+++KZ+++</u>+++**0714.
 
 <<<
 
