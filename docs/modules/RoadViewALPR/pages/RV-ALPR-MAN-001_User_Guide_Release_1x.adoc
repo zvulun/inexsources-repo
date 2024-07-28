@@ -82,8 +82,11 @@ xref:IZREMRELAY:DocList.adoc[Supporting Documentation]
 .^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 .^|xref:SLN-AmanoONE:DocList.adoc[RV-AMANO-MAN-001] |{compname-short} ALPR Installation for AMANO
 .^|xref:SLN-IZCloudIntegration:DocList.adoc[RV-IZCLOUD-MAN-001] |{compname-short} {software-cloud} Integration
-.^|xref:SLN-TIBA:DocList.adoc[TIBA-MAN-002b] |{compname-short} TIBA Integration
-.^|xref:SLN-GKSYS:DocList.adoc[GKSYS-MAN-002b] |{compname-short} GKSYS Integration
+.^|xref:IZCloud:DocList.adoc[IZCLOUD-CAMP-MAN-002a] |{software-cloud} for Campgrounds User Guide
+.^|xref:SLN-GKSYS:DocList.adoc[GKSYS-MAN-002a] |{compname-short} GKSYS User Guide
+.^|xref:SLN-GKSYS:DocList.adoc[GKSYS-MAN-002b] |{compname-short} GKSYS Installation and Calibration Guide
+.^|xref:SLN-TIBA:DocList.adoc[TIBA-MAN-002a] |{compname-short} TIBA User Guide
+.^|xref:SLN-TIBA:DocList.adoc[TIBA-MAN-002b] |{compname-short} TIBA Installation and Calibration Guide
 |===
 
 ====
@@ -144,7 +147,17 @@ include::ROOT:partial$p-support.adoc[Support Section - With Link to INEX Website
 
 == System Overview
 
-{shortprodname} is advanced ALPR software that reads license plates using sophisticated image recognition algorithms, and creates LPR Events. {shortprodname} sends LPR Event data via HTTP, the proprietary {compname-short} {software-protocol} protocol or other protocols to other systems, typically {software-server} (see the {software-server} User Guide - see <<s_Related-Documents>>). {shortprodname} can be configured and monitored using a web-based GUI.
+{shortprodname} is advanced ALPR software
+that reads license plates using
+sophisticated image recognition algorithms,
+and creates LPR Events. {shortprodname}
+sends LPR Event data via HTTP,
+the proprietary {compname-short}
+{software-protocol} protocol
+or other protocols to other systems,
+typically {software-server}
+(see the {software-server} User Guide
+- see <<s_Related-Documents>>). {shortprodname} can be configured and monitored using a web-based GUI.
 
 [NOTE]
 
@@ -376,7 +389,8 @@ DOT cameras take images of USDOT numbers, but do not perform LPR recognition. Ho
 
 ========================================
 
-The Trigger Operational Modes (set in the Detector Configuration section of the Settings tab - see <<s_Detector-Configuration>>) affect how Events are created (see <<f_Trigger-Operational-Modes>>):
+The Trigger Operational Modes (set in the Detector Configuration section
+of the Settings tab - see <<s_Detector-Configuration>>) affect how Events are created (see <<f_Trigger-Operational-Modes>>):
 
 [#f_Trigger-Operational-Modes]
 
@@ -459,7 +473,7 @@ The box at the upper right of the Settings screen shows:
 //latest version when the software is released
 //to production
 
-image::./UserGuide/RV-1_15-FIG-100b_SettingsVersionSection.png[image,width=356,height=130]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-100c_SettingsVersionSection.png[image,width=356,height=130]
 
 [#s_Network-Settings]
 
@@ -713,6 +727,12 @@ Not used; do not enable
 === {software-cloud} Integration
 
 See the {software-cloud} document (see <<s_Related-Documents>>).
+
+[NOTE]
+================================
+If {software-cloud} Integration is enabled, the Access Lists tab
+becomes visible. See <<s_Access-Lists-Tab>>.
+================================
 
 [#s_Raytec-LED-Illuminators]
 
@@ -1307,6 +1327,55 @@ of Levenshtein distance.)
 
 <<<
 
+[#s_Use-Validation]
+
+=== Use Validation
+
+[#f_Use-Validation-Section]
+
+.Use Validation Section
+
+image::ROOT:RoadViewALPR/RV-1_15-FIG-217_UseValidation.png[image,width=477,height=85]
+
+Use Validation provides additional functionality to improve read accuracy,
+readjust confidence and accommodate custom site needs.
+
+* *LPR Threshold* - The LPR read confidence level above which further validation will be applied.
+
+* *State Threshold* - The State read confidence level above which further validation will be applied.
+
+The conditions required for further validation to be applied are:
+
+* The confidence of the LPR and State initial reads must BOTH be
+above the Use Validation thresholds.
+
+* The Region selected in the Detector Configuration section (see <<s_Detector-Configuration>>)
+must be supported in the list of validation criteria (set by {compname-short}).
+
+* The LPR and State reads must both match to one of the validation criteria.
+
+If all of the conditions are met:
+
+* The "plate type" (internal {compname-short} designation) can be identified
+
+* Any actions associated with this "plate type" can be applied to the read
+(for example, removal of a trailing character)
+
+* An abbreviation of the "plate type" will be attached to the Event so
+it can be displayed on the Live (Journal) and Search tabs
+(see <<s_Live-Journal-Tab>> and <<f_Configure-Journal-Multi-line-Menu>>). For
+example, "BTR" indicates a B-type truck in certain states.
+
+If one of the conditions is not met:
+
+* The initial LPR and State confidences will be reduced as follows and
+reapplied to the Event:
+
+** LPR confidence will be reduced by 10%
+
+** State confidence will be reduced by 50%
+
+
 [#s_Trigger-Offset]
 
 === Trigger Offset
@@ -1855,7 +1924,7 @@ image::./UserGuide/image36.png[image,width=317,height=308]
 
 .System Status Tab
 
-image::./UserGuide/RV-1_15-FIG-205_SystemStatus.png[image,width=400]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-205b_SystemStatus.png[image,width=400]
 
 This tab displays statuses of different {shortprodname}
 components.
@@ -1897,7 +1966,7 @@ include::ROOT:partial$RoadViewALPR/p-RoadViewALPR-calibration-tab-text.adoc[]
 //latest version when the software is released
 //to production
 
-image::./UserGuide/RV-1_15-FIG-034d_SystemInfo.png[image,width=400]
+image::ROOT:RoadViewALPR/RV-1_15-FIG-034e_SystemInfo.png[image,width=400]
 
 [NOTE]
 
@@ -1988,6 +2057,60 @@ These parameters enable you to control the camera's built-in IR LEDs.
 ** +++<u>+++Anti-flickering+++</u>+++ - Reduces the visible flickering of the built-in IR LED illumination by disabling multi-flash mode and adjusting flash frequency
 
 * *Intensity* - light intensity in percent, where 0 is no light, and 100 is maximum light
+
+<<<
+
+[#s_Access-Lists-Tab]
+
+== Access Lists Tab
+
+[#f_Access-Lists-Tab]
+
+.Access Lists Tab
+
+image::ROOT:RoadViewALPR/RV-1_15-FIG-218_AccessLists.png[image,800]
+
+[NOTE]
+================================
+The Access Lists tab only becomes visible when {software-cloud}
+Integration is enabled. See <<s_IZCloud-Integration>>.
+================================
+
+When {software-ALPR} starts or when {software-cloud} access lists are updated,
+{software-ALPR} downloads the latest access lists and stores them on disk.
+This enables {software-ALPR} to continue sending signals to open gates
+for authorized vehicles, even if the connection to {software-cloud}
+has been lost.
+
+{software-cloud} can have several different access lists to grant or deny
+access (such as Whitelist and Blacklist).
+See <<s_Related-Documents>> for {software-cloud} documentation.
+
+These lists are applied to all {software-cloud}
+physical lanes. However, each vehicle owner's
+access to the site can be limited to
+certain areas.
+
+A "lane" on the {software-ALPR}
+Access Lists tab represents a camera
+viewing an area of a site that the vehicle owner has
+access to. For this reason, each "lane" can
+have its own set of "lists".
+
+In addition, due to a site's business scenarios, plates can
+appear more than once in a list.
+
+To display a list, select a Lane and List from the dropdowns.
+
+* The Update Time at the top of the tab is the
+last time that {software-ALPR} received and update
+from {software-cloud}.
+
+* The Plate is the plate stored in the list.
+
+* The Start and End times are the times
+configured in {software-cloud} for which
+the vehicle will be acted upon (to grant or deny access).
 
 <<<
 
