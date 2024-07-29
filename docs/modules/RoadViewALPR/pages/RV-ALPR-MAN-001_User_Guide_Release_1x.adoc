@@ -2026,7 +2026,7 @@ These parameters affect how {shortprodname} controls an external illuminator:
 ** +++<u>+++Auto+++</u>+++ - automatically senses day/night, in order to decide whether to trigger an external illuminator, according to the Camera System's location (as defined by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
 +
 include::ROOT:partial$RoadViewALPR/p-RoadView-Latitude-Longitude.adoc[]
-
++
 * *Remember to click the Save button at the end of this section after making changes.*
 
 <<<

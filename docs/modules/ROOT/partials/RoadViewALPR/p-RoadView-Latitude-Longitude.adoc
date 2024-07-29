@@ -13,3 +13,4 @@ Latitude and Longitude are user-entered coordinates; determine them using Google
 *** *Post-Sunrise Offset* - time after actual sunrise to be considered as the start of the day
 
 *** *Pre-Sunset Offset* - time before actual sunset to be considered the end of the day
+
