@@ -204,8 +204,6 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-214_IZCloudEvents.png[image,800]
 
 include::ROOT:partial$SLN-GKSYS/p-GKSYS-IZCloud-Events-Columns.adoc[]
 
-<<<
-
 [#s_Alerts-Alarms]
 
 == Alerts/Alarms
