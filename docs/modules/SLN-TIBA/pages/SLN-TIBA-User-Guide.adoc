@@ -280,8 +280,6 @@ The Lanes page enables you to (see <<f_IZCloud-Lanes-Page>>):
 
 * Correct the plate read
 
-* Add the license plate to an Access list
-
 * Open the lane's gate in an emergency
 
 [NOTE]
