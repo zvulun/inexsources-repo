@@ -2025,21 +2025,7 @@ These parameters affect how {shortprodname} controls an external illuminator:
 
 ** +++<u>+++Auto+++</u>+++ - automatically senses day/night, in order to decide whether to trigger an external illuminator, according to the Camera System's location (as defined by the Latitude and Longitude parameters). For the Auto mode, additional parameters appear:
 +
-[NOTE]
-
-========================================
-
-Latitude and Longitude are user-entered coordinates; determine them using Google maps, by clicking on the location where the Camera System will be installed (remember to put in a minus sign as needed)
-
-========================================
-
-*** *Latitude* - latitude coordinate of Camera System's location
-
-*** *Longitude* - longitude coordinate of Camera System's location
-
-*** *Post-Sunrise Offset* - time after actual sunrise to be considered as the start of the day
-
-*** *Pre-Sunset Offset* - time before actual sunset to be considered the end of the day
+include::ROOT:partial$RoadViewALPR/p-RoadView-Latitude-Longitude.adoc[]
 
 * *Remember to click the Save button at the end of this section after making changes.*
 
@@ -2061,6 +2047,7 @@ These parameters enable you to control the camera's built-in IR LEDs.
 
 * *Intensity* - light intensity in percent, where 0 is no light, and 100 is maximum light
 
+*Remember to click the Save button at the end of this section after making changes.*
 <<<
 
 [#s_Access-Lists-Tab]

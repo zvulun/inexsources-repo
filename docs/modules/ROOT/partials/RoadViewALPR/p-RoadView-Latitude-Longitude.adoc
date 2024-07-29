@@ -1,0 +1,15 @@
+[NOTE]
+
+========================================
+
+Latitude and Longitude are user-entered coordinates; determine them using Google maps, by clicking on the location where the Camera System will be installed (remember to put in a minus sign as needed)
+
+========================================
+
+*** *Latitude* - latitude coordinate of Camera System's location
+
+*** *Longitude* - longitude coordinate of Camera System's location
+
+*** *Post-Sunrise Offset* - time after actual sunrise to be considered as the start of the day
+
+*** *Pre-Sunset Offset* - time before actual sunset to be considered the end of the day
