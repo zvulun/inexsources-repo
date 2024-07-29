@@ -217,7 +217,9 @@ at the upper right.
 image::ROOT:SLN-TIBA/IZCLOUD-TIBA-FIG-024_US_01SelectReviewProject.png[image,700]
 
 Click on the desired review; the review date is displayed next to the
-"Last Review" heading at the upper left.
+"Last Review" heading at the upper left (see <<f_Past-Review-Selected>>).
+
+[#f_Past-Review-Selected]
 
 .Past Review Selected
 
@@ -267,6 +269,8 @@ page for that lane (see <<s_Last-Review>>).
 
 ** *Historical Average Read Rate* - Each data point
 is generated daily. Hover on a point to show details.
+
+<<<
 
 [#s_IZCloud-Lanes]
 
