@@ -120,15 +120,15 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-IZCloud-Events-Columns.adoc[]
 
 == Maintenance - Cameras
 
-The Cameras page enables you to view
-camera status.
+he Cameras page enables you to view
+camera statuses and read rate statistics.
 
 Select "Cameras" from the Maintenance menu
-image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-221_IZCloudMaintMenu.png[image,100]
+image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
 
 .Cameras Page
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-209_IZCloudCameras.png[image,800]
+image::ROOT:SLN-TIBA/IZCLOUD-TIBA-FIG-022_US_Cameras.png[image,800]
 
 Columns/Filters:
 
@@ -142,32 +142,31 @@ use the dropdown to select a lot
 
 * *Status* - Camera status (online or offline)
 
-//*_\{admin only}_* * *Read Rate* - with no read mistakes
+* *Read Rate* - with no read mistakes
 
-//*_\{admin only}_* * *Read Rate N-1* - with up to 1 read mistake
+* *Read Rate N-1* - with up to 1 read mistake
 
-//*_\{admin only}_* * *Read Rate N-2* - with up to 2 read mistakes
+* *Read Rate N-2* - with up to 2 read mistakes
 
-//*_\{admin only}_* * *Actions* - select Last Review from the dropdown
-//to display the Last Review page, filtered
-//by the lane on that row (see <<s_Last-Review>>).
+* *Actions* - select Last Review from the dropdown
+to display the Last Review page, filtered
+by the lane on that row (see <<s_Last-Review>>).
 
 <<<
 
-//*_\{the following sections are for admin only}_*
-
-////
-
 [#s_Last-Review]
 
-=== {software-cloud} Maintenance - Last Review
+=== Maintenance - Last Review
+
+The Last Review page enables you to see results from the most
+recent automatic review.
 
 Select "Last Review" from the Maintenance menu
 image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
 
-.{software-cloud} Last Review Page
+.Last Review Page
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-210_IZCloudLastReview.png[image,800]
+image::ROOT:SLN-TIBA/IZCLOUD-TIBA-FIG-023_US_LastReview.png[image,800]
 
 Columns/Filters:
 
@@ -210,11 +209,23 @@ by a human; examples include:
 *** Obstructed characters
 (by dirt, snow, trailer ball, etc.)
 
-<<<
+To see a list of other past reviews, click the SelectReviewProject button
+at the upper right.
+
+.SelectReviewProject Dialog
+
+image::ROOT:SLN-TIBA/IZCLOUD-TIBA-FIG-024_US_01SelectReviewProject.png[image,700]
+
+Click on the desired review; the review date is displayed next to the
+"Last Review" heading at the upper left.
+
+.Past Review Selected
+
+image::ROOT:SLN-TIBA/IZCLOUD-TIBA-FIG-025_US_02SelectedReviewProject.png[image,800]
 
 [#s_Dashboard]
 
-=== {software-cloud} Maintenance - Dashboard
+=== Maintenance - Dashboard
 
 The Dashboard page enables you to see daily
 analytical reports about ALPR performance.
@@ -222,9 +233,9 @@ analytical reports about ALPR performance.
 Select "Dashboard" from the Maintenance menu
 image:ROOT:SLN-TIBA/IZCloud-BorderTIBA-Maint-Menu.png[image,100]
 
-.{software-cloud} Dashboard Page
+.Dashboard Page
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-211_IZCloudDashboard.png[image,800]
+image::ROOT:SLN-TIBA/IZCLOUD-TIBA-FIG-026_US_Dashboard.png[image,800]
 
 Page Elements:
 
@@ -240,22 +251,11 @@ that are operating but need maintenance/have warnings
 * *Inoperational Lanes* - Lanes with
 cameras not operating
 
-////
-
-////
-{The read rate for the last day
-We only use a maximum of 1000 events from the Review Tool;
-The reviewed events are only qualified (human-readable) reads;
-Numbers in tooltips are the number of reads reviewed -
-usually only about 80% of total eVents for the day
-because he rest are non-qualified}
-////
-
-////
 * *Statistic Graphs*
 These graphs show data from "reviewed reads".
 "Reviewed reads" are the Qualifed (human-readable) plate reads
 (out of the total reads for a certain day) that were reviewed.
+The maximum total reads in a review sample is typically set to 1000.
 
 ** *Read Rate Bar Chart* (for online/operational cameras):
 
@@ -267,24 +267,6 @@ page for that lane (see <<s_Last-Review>>).
 
 ** *Historical Average Read Rate* - Each data point
 is generated daily. Hover on a point to show details.
-
-////
-
-[#s_IZCloud-Guard]
-
-== Guard
-
-Currently unused.
-
-////
-[#f_IZCloud-Guard-Page]
-
-.Guard Page
-
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-223_IZCloudGuard.png[image,500]
-
-////
-
 
 [#s_IZCloud-Lanes]
 

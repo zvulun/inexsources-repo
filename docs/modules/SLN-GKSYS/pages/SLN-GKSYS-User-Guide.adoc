@@ -246,7 +246,7 @@ image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-224_IZCloudAlarmsList.png[image,800]
 == Maintenance - Cameras
 
 The Cameras page enables you to view
-camera status.
+camera statuses.
 
 Select "Cameras" from the Maintenance menu
 image:ROOT:SLN-GKSYS/RV-GKSYS-FIG-221_IZCloudMaintMenu.png[image,100]
