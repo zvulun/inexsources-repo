@@ -70,6 +70,8 @@ Buttons:
 * *Add to List* - Enables adding the vehicle to a list
 image:ROOT:IZCloud/IZCloud-CAMP-AddToListButton.png[image,20]
 
+<<<
+
 Alarm Icons:
 
 * *Triangle Near Event* - A triangle warning
