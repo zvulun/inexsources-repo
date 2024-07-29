@@ -1371,7 +1371,8 @@ Exceptions:
 
 * If the Region selected in the Detector Configuration section
 is not supported in the list of validation criteria patterns,
-then no further validation is performed.
+then no further validation is performed, and the initial LPR
+and State confidences are left as they were.
 
 * The validation list should contain all LPR{plus}State
 variations. If the Region is supported, but there was no match with one of the validation patterns,
