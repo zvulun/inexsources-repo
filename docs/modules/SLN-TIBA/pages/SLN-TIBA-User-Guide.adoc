@@ -298,7 +298,7 @@ video stream from the camera.
 
 .Lanes Page
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-212_IZCloudLanes.png[image,500]
+image::ROOT:SLN-TIBA/IZCLOUD-TIBA-FIG-027_US_Lanes.png[image,500]
 
 * Click on the license plate
 image to display plate, LPR and Overview
@@ -316,7 +316,7 @@ with the updated read. +
 
 .Lanes - Correct Plate Read
 
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-213_IZCloudCorrectPlate.png[image,400]
+image::ROOT:SLN-TIBA/IZCLOUD-TIBA-FIG-028_US_CorrectPlateRead.png[image,400]
 
 <<<
 

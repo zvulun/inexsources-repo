@@ -687,6 +687,7 @@ include::ROOT:partial$SLN-GKSYS/p-GKSYS-end-verify-operation.adoc[]
 include::ROOT:partial$SLN-GKSYS/p-GKSYS-RV-troubleshooting.adoc[]
 
 <<<
+
 == Legal Notices
 
 include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
@@ -700,63 +701,6 @@ include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
 Doc. No. {docproductname}-MAN-002b Ver. {docdate}
-
-*_\{USER GUIDE STARTS HERE}_*
-
-== IZCloud Automatic License Plate Recognition (ALPR) Performance Monitoring
-
-[#s_IZCloud-Events]
-
-[#s_IZCloud-Cameras]
-
-[#s_Last-Review]
-
-
-
-[#s_IZCloud-Lanes]
-
-=== {software-cloud} Lanes
-
-The Lanes page enables you to (see <<f_IZCloud-Lanes-Page>>):
-
-* View live video
-
-* View the license plate read for the current Event
-
-* Correct the plate read
-
-* Open the lane's gate in an emergency
-
-[NOTE]
-======================
-Plate images and video are displayed for
-lanes with online/operational cameras.
-
-Live video is only displayed if your site's
-security policy allows transmitting the outbound
-video stream from the camera.
-======================
-
-[#f_IZCloud-Lanes-Page]
-
-.{software-cloud} Lanes Page
-
-image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes.png[image,500]
-
-* Click on the license plate
-image to display plate, LPR and Overview
-images of the Event
-
-* Click the Emergency Open button to
-open the lane's gate in an emergency
-
-* Click the Correct Plate Read button
-to correct the read. A new Event is created
-with the updated read. +
-
-.{software-cloud} Lanes - Correct Plate Read
-
-image::ROOT:SLN-TIBA/IZCloud-BorderTIBA-Lanes-CorrectPlate.png[image,400]
 
 <<<
 
