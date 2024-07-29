@@ -1374,6 +1374,8 @@ is not supported in the list of validation criteria patterns,
 then no further validation is performed, and the initial LPR
 and State confidences are left as they were.
 
+<<<
+
 * If the Region selected in the Detector Configuration section
 is supported, but either the LPR or State confidences are below the
 Use Validation thresholds, then the initial
