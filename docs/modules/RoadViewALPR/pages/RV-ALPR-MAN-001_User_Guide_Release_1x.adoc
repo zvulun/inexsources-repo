@@ -2027,7 +2027,7 @@ These parameters affect how {shortprodname} controls an external illuminator:
 +
 include::ROOT:partial$RoadViewALPR/p-RoadView-Latitude-Longitude.adoc[]
 
-* *Remember to click the Save button at the end of this section after making changes.*
+*Remember to click the Save button at the end of this section after making changes.*
 
 <<<
 
