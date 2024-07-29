@@ -314,7 +314,9 @@ only active if plate is not already on a list
 
 * Click the Correct Plate Read button
 to correct the read. A new Event is created
-with the updated read. +
+with the updated read (see <<f_Correct-Plate-Read>>). +
+
+[#f_Correct-Plate-Read]
 
 .Lanes - Correct Plate Read
 
