@@ -1367,14 +1367,15 @@ it can be displayed on the Live (Journal) and Search tabs
 (see <<s_Live-Journal-Tab>> and <<f_Configure-Journal-Multi-line-Menu>>). For
 example, "BTR" indicates a B-type truck in certain states.
 
-If one of the conditions is not met:
-
-* The initial LPR and State confidences will be reduced as follows and
+The validation list should contain all LPR{plus}State
+variations. If one of the conditions is not met, this
+indicates an error in the LPR or State read. The initial
+LPR and State confidences will be reduced as follows and
 reapplied to the Event:
 
-** LPR confidence will be reduced by 10%
+* LPR confidence will be reduced by 10%
 
-** State confidence will be reduced by 50%
+* State confidence will be reduced by 50%
 
 <<<
 
