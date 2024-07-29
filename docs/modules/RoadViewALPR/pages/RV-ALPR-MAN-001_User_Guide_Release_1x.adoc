@@ -1380,8 +1380,6 @@ Use Validation thresholds, then the initial
 LPR and State confidences will be reduced as follows and
 reapplied to the Event:
 
-<<<
-
 ** LPR confidence will be reduced by 10%
 
 ** State confidence will be reduced by 50%
