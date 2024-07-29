@@ -1351,7 +1351,7 @@ The conditions required for further validation to be applied are:
 above the Use Validation thresholds.
 
 * The Region selected in the Detector Configuration section (see <<s_Detector-Configuration>>)
-must be supported in the list of validation criteria patterns, called a "plate type" (set by {compname-short}).
+must be supported in the list of validation criteria patterns, called "plate types" (set by {compname-short}).
 
 * The LPR and State reads must both match to one of the validation criteria patterns.
 
