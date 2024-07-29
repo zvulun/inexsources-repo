@@ -1374,8 +1374,19 @@ is not supported in the list of validation criteria patterns,
 then no further validation is performed, and the initial LPR
 and State confidences are left as they were.
 
+* If the Region selected in the Detector Configuration section
+is supported, but either the LPR or State confidences are below the
+Use Validation thresholds, then the initial
+LPR and State confidences will be reduced as follows and
+reapplied to the Event:
+
+** LPR confidence will be reduced by 10%
+
+** State confidence will be reduced by 50%
+
 * The validation list should contain all LPR{plus}State
-variations. If the Region is supported, but there was no match with one of the validation patterns,
+variations. If the Region is supported, and the LPR/State confidences
+are above the thresholds, but there was no match with one of the validation patterns,
 this indicates an error in the LPR or State read. The initial
 LPR and State confidences will be reduced as follows and
 reapplied to the Event:
