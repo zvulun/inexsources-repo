@@ -94,9 +94,13 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| Recommended screw torque: 1.0N・m (10kgf・cm)
 
 
-.2+.^| Interface
+.3+.^| Interface
 .^| Ethernet
 .^| LAN – PG13.5 Gland; GigE Ethernet (10/100/1000M)
+
+.^| WAN (4G models)
+.^| 4G wireless router
+
 
 .^| Cameras
 .^| CAM1/CAM2 – PG13.5 Gland; PoE/PSE* 802.3af; +
@@ -104,7 +108,7 @@ GigE Ethernet (10/100/1000M)
 
 .2+.^| Power
 .^| Input
-.^| 12-48 VDC
+.^| 12-48 VDC or 110-220 VAC (4G models)
 
 
 .^| Maximum Power Consumption

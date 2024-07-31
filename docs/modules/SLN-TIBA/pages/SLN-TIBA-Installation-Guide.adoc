@@ -431,7 +431,7 @@ set the parameters as follows. *Remember to click the Save button at the end of 
 Detector Configuration section after making changes.*
 
 
-.{docproductname} Integration
+.{docproductname} Integration Section
 
 image::ROOT:SLN-TIBA/RV-TIBA-FIG-002bUS_TIBA_Integration.png[image,550]
 

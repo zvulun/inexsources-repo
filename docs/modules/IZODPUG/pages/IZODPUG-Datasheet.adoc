@@ -1,5 +1,7 @@
-:docproductname: IZODPUG
+:docproductname: IZODPUG/4G
 :shortprodname: IZODPUG
+:shortprodname2: IZODPUG4G
+
 //:generic-camera-name: camera
 
 // These attributes have been soft set
@@ -74,6 +76,8 @@ image:ROOT:IZODPUG/IZODPUG-B1-FIG-042_FrontPage.png[image,300]
 
 * [*] Integrated with {software-cloud}
 
+* [*] Option for additional 4G WAN interface
+
 * [*] PoE/PSE (Power Source Equipment) – provides power and Ethernet to cameras
 
 * [*] Wide temperature range – operating from -4°F to +140°F (-20°C to +60°C)
@@ -108,13 +112,16 @@ include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-.^|{shortprodname}-DC-PG .^|Outdoor AI Data Processing Unit
+.^|{shortprodname}-DC-PG .^|Outdoor AI Data Processing Unit, DC power in
+.^|{shortprodname2}-AC-PG .^|Outdoor AI 4G Data Processing Unit, AC power in
+.^|{shortprodname2}-DC-PG .^|Outdoor AI Data Processing Unit, DC power in
 |===
 
 [discrete]
 == Standard Package Contents
 
-* {shortprodname}, Outdoor AI Data Processing Unit
+* {shortprodname}, Outdoor AI Data Processing Unit, or
+* {shortprodname2}, Outdoor AI 4G Data Processing Unit
 
 +++<div class="pagebreak"> </div>+++
 
