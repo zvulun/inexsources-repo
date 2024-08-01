@@ -60,14 +60,10 @@ toc::[]
 |Doc. No. |Title
 .^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} Documentation] |{software-ALPR} Documentation
 .^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Datasheet]
-.^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Supporting Documentation] |{hw-webrelay-quad} Quad-Relay Remote (WEB) Relay: Supporting Documentation]
+.^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Quad-Relay Remote (WEB) Relay: Supporting Documentation]
 |===
 
 ====
-
-
-
-<<<
 
 == Background
 
