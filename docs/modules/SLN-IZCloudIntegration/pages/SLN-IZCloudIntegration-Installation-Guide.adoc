@@ -43,6 +43,30 @@ toc::[]
 
 ====
 
+[#s_Related-Documents]
+
+== Recommended Reading/Related Documents
+
+._Click to show the Related Documents table_
+[%collapsible]
+====
+
+[#t_Related-Documents]
+
+.Related Documents
+
+[table.withborders,width="100%",cols="51%,49%",options="header",]
+|===
+|Doc. No. |Title
+.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} Documentation] |{software-ALPR} Documentation
+.^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Datasheet]
+.^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Supporting Documentation] |{hw-webrelay-quad} Quad-Relay Remote (WEB) Relay: Supporting Documentation]
+|===
+
+====
+
+
+
 <<<
 
 == Background

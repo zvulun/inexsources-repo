@@ -1,6 +1,6 @@
 = Solution for IZCloud Integration: Documents List
 
-* xref:SLN-IZCloudIntegration:SLN-IZCloudIntegration-Installation-Guide.adoc[IZCloud Integration Installation Guide]
+* xref:SLN-IZCloudIntegration:SLN-IZCloudIntegration-Installation-Guide.adoc[{software-cloud} Integration Installation Guide]
 
 More documents can be found at https://drive.google.com/drive/folders/11c6qGUQHwdY00_9h5SqpebcZRm76lBY8?usp=share_link[GDriveLink, window=_blank]
 
