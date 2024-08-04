@@ -123,8 +123,6 @@ include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 * {shortprodname}, Outdoor AI Data Processing Unit, or
 * {shortprodname2}, Outdoor AI 4G Data Processing Unit
 
-+++<div class="pagebreak"> </div>+++
-
 [discrete]
 == Dimensions (mm)
 
