@@ -31,7 +31,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Power/Signals Cable for {camera-ORT} System
+== Power/Signals Cable for {camera-OLDORT} System
 
 [discrete]
 === Rev. A
@@ -47,7 +47,7 @@ image:IZCAB-A800-PAS:IZA800PASCABLE-FIG-001_Front_Page.png[Picture of Cable,widt
 [discrete]
 == Key Features and Benefits
 
-* [*] Designed for an {compname-short} {camera-ORT} System
+* [*] Designed for an {compname-short} {camera-OLDORT} System
 
 * [*] Power and signals in a single composite cable
 
@@ -84,7 +84,7 @@ include::IZCAB-A800-PAS:IZCAB-A800-PAS-spec-table.adoc[IZCAB-A800-PAS Spec Table
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-|{shortprodname}-15F |Power/Signals Cable for {camera-ORT} System, 15 ft
+|{shortprodname}-15F |Power/Signals Cable for {camera-OLDORT} System, 15 ft
 |===
 
 {empty} +
