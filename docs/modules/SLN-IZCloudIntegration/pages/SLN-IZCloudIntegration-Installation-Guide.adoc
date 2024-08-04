@@ -86,7 +86,8 @@ with the latest {software-ALPR} release.
 [discrete]
 == Setup Steps
 
-===
+[discrete]
+=== xxx
 
 [#s_Using-RoadView]
 

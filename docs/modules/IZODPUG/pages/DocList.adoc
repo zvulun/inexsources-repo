@@ -1,6 +1,6 @@
-= IZODPUG Documents List
+= IZODPUG/4G Documents List
 
-* xref:IZODPUG:IZODPUG-Datasheet.adoc[IZODPUG Datasheet]
+* xref:IZODPUG:IZODPUG-Datasheet.adoc[IZODPUG/4G Datasheet]
 
 //More documents can be found at https://drive.google.com/drive/folders/1xoZCcRySjtV8UCjKUWQyDaUZjhPrUJbm?usp=share_link[GDriveLink, window=_blank]
 

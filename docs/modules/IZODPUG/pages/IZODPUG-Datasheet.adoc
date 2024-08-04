@@ -43,7 +43,7 @@
 == Outdoor AI Data Processing Unit
 
 [discrete]
-=== Rev. B1
+=== Rev. B1 *_\{need extra pic with antennas}_*
 //[discrete]
 //=== Datasheet
 
@@ -114,7 +114,7 @@ include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 |Part Number |Description
 .^|{shortprodname}-DC-PG .^|Outdoor AI Data Processing Unit, DC power in
 .^|{shortprodname2}-AC-PG .^|Outdoor AI 4G Data Processing Unit, AC power in
-.^|{shortprodname2}-DC-PG .^|Outdoor AI Data Processing Unit, DC power in
+.^|{shortprodname2}-DC-PG .^|Outdoor AI 4G Data Processing Unit, DC power in
 |===
 
 [discrete]
