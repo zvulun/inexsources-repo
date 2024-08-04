@@ -78,7 +78,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| NDAA Section 889 compliant
 
 .4+.^| Physical
-.^| Dimensions
+.^| Dimensions (without antennas)
 .^| (W x H x D) 5.9" x 3.5" x 10.2" +
 (150 x 90 x 260 mm)
 
@@ -98,8 +98,8 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| Ethernet
 .^| LAN – PG13.5 Gland; GigE Ethernet (10/100/1000M)
 
-.^| WAN (4G models)
-.^| 4G wireless router
+.^| WAN (additional interface in {hw-outdoor-proc-WAN})
+.^| 4G
 
 
 .^| Cameras
@@ -108,12 +108,21 @@ GigE Ethernet (10/100/1000M)
 
 .2+.^| Power
 .^| Input
-.^| 12-48 VDC or 110-220 VAC (4G models)
+.^a| * {hw-outdoor-processor}: 12-48 VDC
+* {hw-outdoor-proc-WAN}: 12-48 VDC/110-220 VAC
 
 
 .^| Maximum Power Consumption
-.^a| * 15 Watts without PSE
+.^a| {hw-outdoor-processor}:
+
+* 15 Watts without PSE
 * 45 Watts with PSE maximum power
+
+{hw-outdoor-proc-WAN}:
+
+* 25 Watts without PSE
+* 55 Watts with PSE maximum power
+
 
 2.2+.^| Accessories Available
 

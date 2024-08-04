@@ -45,6 +45,7 @@ toc::[]
 
 [#s_Related-Documents]
 
+[discrete]
 == Recommended Reading/Related Documents
 
 ._Click to show the Related Documents table_
@@ -65,14 +66,27 @@ toc::[]
 
 ====
 
+[discrete]
 == Background
 
-*_\{get from original doc?}_* This document describes how to configure the {software-ALPR}
-settings for the {compname-short} {docproductname}.
+This document describes how to configure {compname-short} camera(s)
+to work with {software-cloud}.
 
-== Prepare to Aim and Calibrate
+[discrete]
+== Applicable Product
 
-include::ROOT:partial$SLN-GKSYS/p-GKSYS-prepare-to-calibrate.adoc[Calibration Prepration]
+A {software-cloud}-integrated {compname-short} camera running
+with the latest {software-ALPR} release.
+
+[discrete]
+== You Will Need
+* Computer with Windows 10 or above - with .NET 4.5 enabled in "Windows Features"
+* Chrome or Edge browser
+
+[discrete]
+== Setup Steps
+
+===
 
 [#s_Using-RoadView]
 

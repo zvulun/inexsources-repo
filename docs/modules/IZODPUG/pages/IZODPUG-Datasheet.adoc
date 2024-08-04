@@ -76,7 +76,7 @@ image:ROOT:IZODPUG/IZODPUG-B1-FIG-042_FrontPage.png[image,300]
 
 * [*] Integrated with {software-cloud}
 
-* [*] Option for additional 4G WAN interface
+* [*] Additional 4G WAN capabilities available in the {hw-outdoor-proc-WAN}
 
 * [*] PoE/PSE (Power Source Equipment) – provides power and Ethernet to cameras
 
