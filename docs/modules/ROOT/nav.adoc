@@ -89,6 +89,7 @@
 ** xref:IZACP-2D-4D:DocList.adoc[IZACP-4D (Four-Door Access Control Panel)]
 ** xref:IZACA-MCPS:DocList.adoc[IZACA-MCPS (Metal Case with Power Supply for Access Control Panels)]
 * Cables
+** xref:IZCAB-ORT-PAS:DocList.adoc[IZCAB-ORT-PAS (IZA800ORT Power/Signals)]
 ** xref:IZCAB-A800-PAS:DocList.adoc[IZCAB-A800-PAS (IZA800G Power/Signals)]
 ** xref:IZCAB-A800-LAN:DocList.adoc[IZCAB-A800-LAN (IZA800G LAN)]
 ** xref:IZCAB-SPWR:DocList.adoc[IZCAB-SPWR (IZS Illuminator Power)]
