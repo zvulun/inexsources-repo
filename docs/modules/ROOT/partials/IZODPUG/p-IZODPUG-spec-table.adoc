@@ -99,7 +99,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| Ethernet
 .^| LAN – PG13.5 Gland; GigE Ethernet (10/100/1000M)
 
-.^| WAN (additional interface in {hw-outdoor-proc-WAN})
+.^| WAN ({hw-outdoor-proc-WAN} additional interface)
 .^| 4G
 
 
