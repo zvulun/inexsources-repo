@@ -109,20 +109,18 @@ GigE Ethernet (10/100/1000M)
 
 .2+.^| Power
 .^| Input
-.^a| * {hw-outdoor-processor}: 12-48 VDC
-* {hw-outdoor-proc-WAN}: 12-48 VDC/110-220 VAC
+.^a| {hw-outdoor-processor}: 12-48 VDC +
+{hw-outdoor-proc-WAN}: 12-48 VDC/110-220 VAC
 
 
 .^| Maximum Power Consumption
-.^a| {hw-outdoor-processor}:
+.^a| * {hw-outdoor-processor}: +
+15 Watts without PSE +
+45 Watts with PSE maximum power
 
-* 15 Watts without PSE
-* 45 Watts with PSE maximum power
-
-{hw-outdoor-proc-WAN}:
-
-* 25 Watts without PSE
-* 55 Watts with PSE maximum power
+* {hw-outdoor-proc-WAN}: +
+25 Watts without PSE +
+55 Watts with PSE maximum power
 
 
 2.2+.^| Accessories Available
