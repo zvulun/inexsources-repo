@@ -85,7 +85,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 
 .^| Weight
 .^a| {hw-outdoor-processor}: 5.3 lbs (2.4 kg) +
-{hw-outdoor-proc-WAN}: *_\{TBD}_*
+{hw-outdoor-proc-WAN}: 6.4 lbs (2.9 kg)
 
 
 .^| Housing, Finish, Color

@@ -43,7 +43,7 @@
 == Outdoor AI Data Processing Unit
 
 [discrete]
-=== Rev. B1 *_\{need extra pic with antennas}_*
+=== Rev. B1
 //[discrete]
 //=== Datasheet
 
