@@ -81,7 +81,7 @@ include::ROOT:partial$p-AI-processor-specs.adoc[AI Processor Specs]
 .^| Dimensions +
 (W x H x D)
 .^a| {hw-outdoor-processor}: 10.2" x 3.5" x 6.3" (260 x 90 x 160 mm) +
-{hw-outdoor-proc-WAN}: 10.2" x 3.5" x *_\{??}_* " (260 x 90 x *_\{??}_*  mm)
+{hw-outdoor-proc-WAN}: 10.2" x 3.5" x  7.5" (260 x 90 x 190 mm)
 
 .^| Weight
 .^a| {hw-outdoor-processor}: 5.3 lbs (2.4 kg) +

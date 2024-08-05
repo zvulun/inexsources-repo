@@ -43,7 +43,7 @@
 == Outdoor AI Data Processing Unit
 
 [discrete]
-=== Rev. B1
+=== Rev. B1 *_\{recheck depth spec with antenna}_*
 //[discrete]
 //=== Datasheet
 
@@ -126,7 +126,7 @@ include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 * {shortprodname2}, Outdoor AI 4G Data Processing Unit
 
 [discrete]
-== Dimensions (mm)
+== {shortprodname} Dimensions (mm)
 
 image::ROOT:IZODPUG/IZODPUG-B1-FIG-045_Dimensions.png[image]
 include::ROOT:partial$p-addresses.adoc[Addresses]
