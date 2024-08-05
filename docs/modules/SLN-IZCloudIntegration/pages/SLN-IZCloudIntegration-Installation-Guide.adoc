@@ -84,104 +84,187 @@ with the latest {software-ALPR} release.
 * Chrome or Edge browser
 
 [discrete]
-== Setup Steps
+== Purchasing an IZCloud Subscription
+
+Contact {compname-short} to purchase an
+{software-cloud} subscription. If needed, {compname-short}
+will provide further instructions on how to configure
+the {software-cloud} Integration in RoadView
 
 [discrete]
-=== xxx
-
-[#s_Using-RoadView]
-
-== Log In to {software-ALPR}
-
-=== Logging In
-. Open a browser.
-
-. Type in the IP address of the {software-ALPR} computer.
+== Configuring {software-cloud}  in {software-ALPR}
+* Open a browser with the the IP address of the {software-ALPR} computer
+address you configured (usually running on the camera). +
 For example: +
 {ip-default-IZA-DPU}
 
-. You will see the login screen. Enter the default username
-and password (root, root):
-+
-[#f_Logging-In-to-RoadView]
+* Enter the default username/password = root/root
 
-.Logging In to {software-ALPR}
+* You should see the {software-ALPR} Live (Journal) tab.
 
-image::ROOT:/RoadViewALPR/RoadViewLoginWindow.png[image,width=209,height=143]
+* CLick on the Settings tab at the top of the screen
 
-. You should see the {software-ALPR} Live (Journal) tab.
+* Scroll down to the {software-cloud} Integration section
 
-<<<
-
-=== Logging Out (Multi-line Menu Icon)
-
-//*_\{NOTE THAT THE LOGOUT MULTI-LINE MENU
-//IS DIFFERENT FOR EACH SOFTWARE VERSION}_*
-
-* Click on the multi-line menu icon at the upper right of the {software-ALPR} screen
-
-* Select "Logout"
-
-[#f_Logout-Multi-line-Menu]
-
-.Logout (Multi-line Menu)
-
-image::ROOT:RoadViewALPR/RV-1_15-FIG-020a_Logging_Out.png[image,width=120]
-
-[#s_Configure-RoadView-Settings-Tab]
-
-== Configure {software-ALPR} - Settings Tab
-
-[#s_IZCloud-Integration]
-
-=== {software-cloud} Integration
-
-Enable {software-cloud} Integration and
+* Enable {software-cloud} Integration and
 set the parameters as follows. *Remember to click the Save button at the end of the
 Detector Configuration section after making changes.*
 
-.{software-cloud} Integration Section
+[#f_IZCloud-Integration]
+
+.Settings Tab - {software-cloud} Integration Section
+
+*_\{check the URL - use a different image as in
+GDocs}_*
 
 image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-216_IZCloudIntegration.png[image,550]
 
-<<<
+The {software-cloud} server has different Vehicle
+Lists containing registered plate reads. These
+lists can be entered in {software-cloud} manually,
+or via integration with a 3rd party access control
+system. These lists are used in some cases as
+explained in the following items:
 
-* *GPIO* - The nn number that identifies the GPIOnn
+[NOTE]
+===============================
+When {software-cloud} Integration is enabled,
+an additional tab (Access Lists) will appear,
+depending on the {software-ALPR} version you
+are using (see <<s_Related-Documents>>).
+===============================
+
+* *URL* - the URL of the {software-cloud} account
+* *Tenant ID* - ID of the relevant {software-cloud} account
+* *User Name* - {software-cloud} account user name
+Password - {software-cloud} account password
+Ambiguity Chars - If an exact match to a plate
+cannot be done, Ambiguity
+(also called Normalization) is enabled.
+The characters in a plate read that could be mistaken
+for other characters will be changed to their
+associated ambiguity value during the plate-to-list
+matching process. +
+Note that the list is bi-directional.
+For example, in addition to "8" being used
+instead of "B", "B" will be used instead of "8".
+
+* *Push Video to Server* - When enabled, RoadView
+sends images to the {software-cloud} server.
+You will also see an additional parameter:
+** Send Camera Image Timeout - how often images are sent to the
+{software-cloud} server
+
+* *Min Width for Fuzzy Match* - If the number of
+characters in the LPR plate read is less than this
+value, then fuzzy matching will +++<u>+++not+++</u>+++
+be used to match this plate to the Vehicle List.
+Only exact or Ambiguity matching will be used.
+
+* *Match On*
+** *Exact* - an attempt is made to make an exact
+match, and an Ambiguity match - until all
+characters in the plate read match exactly
+to an item in the Vehicle List.
+
+** *N-1* - an attempt is made to make an exact
+match, and an Ambiguity match - until all
+characters in the plate read match to an
+item in the Vehicle List –
+except for +++<u>+++one+++</u>+++ wrong character.
+
+** *N-2* - an attempt is made to make an exact
+match, and an Ambiguity match - until all
+characters in the plate read match to an
+item in the Vehicle List –
+except for +++<u>+++two+++</u>+++ wrong characters.
+
+* *Lanes*
+
+** *Lane ID* - this table is automatically
+populated with the number of lanes defined in
+the Lanes section at the bottom of the Settings
+tab
+
+** *GPIO* - The +++<u><b>+++nn+++</u></b>+++ number
+that identifies the GPIO+++<u><b>+++nn+++</u></b>+++
 pin on the NVIDIA Jetson processor's I/O module.
-When {software-ALPR} sends a validation request (to see if the
-plate read has a match with the {docproductname} list of expected
-plate reads), a signal is sent to this pin when {docproductname}
-responds that a gate should be opened.
-See the NVIDIA Jetson documentation for further information.
+A signal is sent to this pin when a {software-ALPR}
+plate read has a match with an {software-cloud}
+Vehicle List (expected plate reads). This is
+typically used to open a gate. See the NVIDIA Jetson
+documentation for further information.
 
-////
-GPIO - the nn number that identifies the GPIOnn
-pin on the NVIDIA Jetson processor's I/O module.
-A signal is sent to this pin when an “open gate”
-command is received from the TIBA server.
-See the NVIDIA Jetson documentation for further
-information. (See next Note)
+** *EXIT* - When enabled, all vehicles are
+allowed to pass through the device connected
+to the GPIO. This option is typically used for
+exit gates.
 
-+
+** *Remote URL* - A request is sent to this URL
+when there is a match with an {software-cloud}
+Vehicle List (expected plate reads).
+This is typically used to open a gate
+via a web relay. The request is sent in a special
+format (see the Web Relay documentation
+referenced in <<s_Related-Documents>>).
+
+
 [NOTE]
 ========================
-In addition to the GPIO signal, a signal is also
-sent to the camera; this signal can be used to
-open a gate via a relay.
+In addition to the GPIO and Remote URL
+signals/requests, a signal is also sent to the
+camera; this signal can be used to open a gate
+via a relay (depends on the capabilities of the
+camera model).
 ========================
-////
 
+* *Wiegand Controller (Converter) Enabled*
+
+For each plate in a Vehicle List, a Wiegand code
+can be added to use if there is an LPR match.
+({software-cloud} also stores a Sentinel
+(No Match) Wiegand code if no plate match
+is found for any plate.)
+
+If there is a plate match, the Wiegand code
+will be used. Some cameras have the capability
+to send this code directly to an access control
+panel or device.
+
+However, if the access control panel is too
+far from the camera to be connected physically,
+or if the camera does not have Wiegand capabilities,
+then this option should be enabled.
+The Wiegand code will be sent via network to a
+Wiegand converter, which will then send the code
+to the access control panel or device.
+
+** *WIC IP* - The IP address of the Wiegand
+converter assigned to the Lane
+
+** *WIC Port* - The port on the Wiegand converter
+used by {software-ALPR} to communicate with the
+Wiegand converter; 1001 is the default port
+on the Wiegand converter.
+
+* *Remember to click the Save button at the end
+of the Detector Configuration section after
+making changes.*
 
 <<<
 
+[discrete]
 == Legal Notices
 
+[discrete]
 include::ROOT:partial$p-front-matter-notice.adoc[Front Matter Notice]
 
+[discrete]
 include::ROOT:partial$p-software-precautions.adoc[ALPR Camera Safety Precautions]
 
 +++<div class="pagebreak"> </div>+++
 
+[discrete]
 include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
