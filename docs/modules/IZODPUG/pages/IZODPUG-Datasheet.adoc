@@ -47,7 +47,7 @@
 //[discrete]
 //=== Datasheet
 
-image:ROOT:IZODPUG/IZODPUG-B1-FIG-042_FrontPage.png[image,300]
+image:ROOT:IZODPUG/IZODPUG-B1-FIG-047_TwoBoxFrontPage.png[image,600]
 
 // no section numbers in datasheets
 //:sectnums: all
