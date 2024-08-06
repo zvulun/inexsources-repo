@@ -85,6 +85,8 @@ Contact {compname-short} to purchase an
 will provide further instructions on how to configure
 the {software-cloud} Integration in RoadView
 
+<<<
+
 [discrete]
 == Configuring {software-cloud}  in {software-ALPR}
 * Open a browser with the the IP address of the {software-ALPR} computer
