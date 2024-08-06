@@ -144,7 +144,7 @@ instead of "B", "B" will be used instead of "8".
 sends images to the {software-cloud} server.
 You will also see an additional parameter:
 ** *Send Camera Image Timeout* - How often images are sent to the
-{software-cloud} server
+{software-cloud} server.
 
 * *Min Width for Fuzzy Match* - If the number of
 characters in the LPR plate read is less than this
@@ -183,7 +183,7 @@ except for +++<u>+++two+++</u>+++ wrong characters.
 ** *Lane ID* - This table is automatically
 populated with the number of lanes defined in
 the Lanes section at the bottom of the Settings
-tab
+tab.
 
 ** *GPIO* - The +++<u><b>+++nn+++</u></b>+++ number
 that identifies the GPIO+++<u><b>+++nn+++</u></b>+++
@@ -236,8 +236,13 @@ The Wiegand code will be sent via network to a
 Wiegand converter, which will then send the code
 to the access control panel or device.
 
+** *Lane ID* - This table is automatically
+populated with the number of lanes defined in
+the Lanes section at the bottom of the Settings
+tab.
+
 ** *WIC IP* - The IP address of the Wiegand
-converter assigned to the Lane
+converter assigned to the Lane.
 
 ** *WIC Port* - The port on the Wiegand converter
 used by {software-ALPR} to communicate with the
