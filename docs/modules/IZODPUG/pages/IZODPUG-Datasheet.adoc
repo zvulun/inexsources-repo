@@ -117,8 +117,6 @@ include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 .^|{shortprodname2}-DC-PG .^|Outdoor AI 4G Data Processing Unit, DC power in
 |===
 
-<<<
-
 [discrete]
 == Standard Package Contents
 
