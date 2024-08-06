@@ -108,7 +108,7 @@ Detector Configuration section after making changes.*
 
 .Settings Tab - {software-cloud} Integration Section
 
-image::ROOT:SLN-IZCloudIntegration/RV-1_15-FIG-214F_FULLNewIZCloudIntegration.png[image,550]
+image::ROOT:SLN-IZCloudIntegration/RV-1_15-FIG-214F_FULLNewIZCloudIntegration.png[image,650]
 
 The {software-cloud} server has different Vehicle
 Lists containing registered plate reads. These
@@ -170,13 +170,13 @@ characters in the plate read match to an
 item in the Vehicle List –
 except for +++<u>+++two+++</u>+++ wrong characters.
 
-* *Keep-Alive Enabled* - *_\{what is this?}_*
+* *Keep-Alive Enabled* - When enabled, *_\{what is this?}_*
 
 ** *Keep-Alive Interval* - *_\{what is this?}_*
 
 ** *Keep-Alive Fail Count* - *_\{what is this}_*
 
-** *Get Access List Timeout* - *_\{what is this?}_*
+* *Get Access List Timeout* - *_\{what is this?}_*
 
 * *Lanes*
 
