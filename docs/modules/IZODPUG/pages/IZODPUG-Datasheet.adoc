@@ -128,6 +128,7 @@ include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 
 image::ROOT:IZODPUG/IZODPUG-B1-FIG-045_Dimensions.png[image, 800]
 
+[discrete]
 == {shortprodname2} Antenna Dimensions (mm)
 
 image::ROOT:IZODPUG/IZODPUG-B1-FIG-048_AntennaDimension.png[image,800]
