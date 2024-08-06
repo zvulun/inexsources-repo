@@ -206,9 +206,8 @@ Vehicle List (expected plate reads).
 This is typically used to open a gate
 via a web relay. The request is sent in a special
 format (see the Web Relay documentation
-referenced in <<s_Related-Documents>>).
-
-
+referenced in <<s_Related-Documents>>). +
++
 [NOTE]
 ========================
 In addition to the GPIO and Remote URL
@@ -218,8 +217,7 @@ via a relay (depends on the capabilities of the
 camera model).
 ========================
 
-* *Wiegand Controller (Converter) Enabled*
-
+* *Wiegand Controller (Converter) Enabled* +
 For each plate in a Vehicle List, a Wiegand code
 can be added to use if there is an LPR match.
 ({software-cloud} also stores a Sentinel
