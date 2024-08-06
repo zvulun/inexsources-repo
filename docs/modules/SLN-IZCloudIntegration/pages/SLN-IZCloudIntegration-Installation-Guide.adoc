@@ -48,10 +48,6 @@
 [discrete]
 == Recommended Reading/Related Documents
 
-._Click to show the Related Documents table_
-[%collapsible]
-====
-
 [#t_Related-Documents]
 
 .Related Documents
@@ -63,8 +59,6 @@
 .^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Datasheet] |{hw-webrelay-quad} Datasheet
 .^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Supporting Documentation] |{hw-webrelay-quad} Quad-Relay Remote (WEB) Relay: Supporting Documentation
 |===
-
-====
 
 [discrete]
 == Background
@@ -114,10 +108,7 @@ Detector Configuration section after making changes.*
 
 .Settings Tab - {software-cloud} Integration Section
 
-*_\{check the URL - use a different image as in
-GDocs}_*
-
-image::ROOT:SLN-GKSYS/RV-GKSYS-FIG-216_IZCloudIntegration.png[image,550]
+image::ROOT:SLN-IZCloudIntegration/RV-1_15-FIG-214F_FULLNewIZCloudIntegration.png[image,550]
 
 The {software-cloud} server has different Vehicle
 Lists containing registered plate reads. These
@@ -134,11 +125,11 @@ depending on the {software-ALPR} version you
 are using (see <<s_Related-Documents>>).
 ===============================
 
-* *URL* - the URL of the {software-cloud} account
+* *URL* - The URL of the {software-cloud} account
 * *Tenant ID* - ID of the relevant {software-cloud} account
 * *User Name* - {software-cloud} account user name
-Password - {software-cloud} account password
-Ambiguity Chars - If an exact match to a plate
+* *Password* - {software-cloud} account password
+* *Ambiguity Chars* - If an exact match to a plate
 cannot be done, Ambiguity
 (also called Normalization) is enabled.
 The characters in a plate read that could be mistaken
@@ -152,7 +143,7 @@ instead of "B", "B" will be used instead of "8".
 * *Push Video to Server* - When enabled, RoadView
 sends images to the {software-cloud} server.
 You will also see an additional parameter:
-** Send Camera Image Timeout - how often images are sent to the
+** *Send Camera Image Timeout* - How often images are sent to the
 {software-cloud} server
 
 * *Min Width for Fuzzy Match* - If the number of
@@ -162,26 +153,34 @@ be used to match this plate to the Vehicle List.
 Only exact or Ambiguity matching will be used.
 
 * *Match On*
-** *Exact* - an attempt is made to make an exact
+** *Exact* - An attempt is made to make an exact
 match, and an Ambiguity match - until all
 characters in the plate read match exactly
 to an item in the Vehicle List.
 
-** *N-1* - an attempt is made to make an exact
+** *N-1* - An attempt is made to make an exact
 match, and an Ambiguity match - until all
 characters in the plate read match to an
 item in the Vehicle List –
 except for +++<u>+++one+++</u>+++ wrong character.
 
-** *N-2* - an attempt is made to make an exact
+** *N-2* - An attempt is made to make an exact
 match, and an Ambiguity match - until all
 characters in the plate read match to an
 item in the Vehicle List –
 except for +++<u>+++two+++</u>+++ wrong characters.
 
+* *Keep-Alive Enabled* - *_\{what is this?}_*
+
+** *Keep-Alive Interval* - *_\{what is this?}_*
+
+** *Keep-Alive Fail Count* - *_\{what is this}_*
+
+** *Get Access List Timeout* - *_\{what is this?}_*
+
 * *Lanes*
 
-** *Lane ID* - this table is automatically
+** *Lane ID* - This table is automatically
 populated with the number of lanes defined in
 the Lanes section at the bottom of the Settings
 tab
