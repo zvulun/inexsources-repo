@@ -35,13 +35,13 @@
 // place the TOC in this specific position (capability enabled by :toc: macro at start
 // of file
 
-._Click to show the Table of Contents_
-[%collapsible]
-====
+//._Click to show the Table of Contents_
+//[%collapsible]
+//====
 
-toc::[]
+//toc::[]
 
-====
+//====
 
 [#s_Related-Documents]
 
