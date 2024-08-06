@@ -217,18 +217,18 @@ via a relay (depends on the capabilities of the
 camera model).
 ========================
 
-* *Wiegand Controller (Converter) Enabled* +
+* *Wiegand Controller (Converter) Enabled* -
 For each plate in a Vehicle List, a Wiegand code
 can be added to use if there is an LPR match.
 ({software-cloud} also stores a Sentinel
 (No Match) Wiegand code if no plate match
-is found for any plate.)
-
+is found for any plate.) +
++
 If there is a plate match, the Wiegand code
 will be used. Some cameras have the capability
 to send this code directly to an access control
-panel or device.
-
+panel or device.+
++
 However, if the access control panel is too
 far from the camera to be connected physically,
 or if the camera does not have Wiegand capabilities,
