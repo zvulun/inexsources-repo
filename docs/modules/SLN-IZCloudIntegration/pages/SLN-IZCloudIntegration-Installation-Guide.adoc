@@ -112,6 +112,8 @@ Detector Configuration section after making changes.*
 
 image::ROOT:SLN-IZCloudIntegration/RV-1_15-FIG-214F_FULLNewIZCloudIntegration.png[image,650]
 
+<<<
+
 The {software-cloud} server has different Vehicle
 Lists containing registered plate reads. These
 lists can be entered in {software-cloud} manually,
