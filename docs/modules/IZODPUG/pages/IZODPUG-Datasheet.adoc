@@ -43,7 +43,7 @@
 == Outdoor AI Data Processing Unit
 
 [discrete]
-=== Rev. B1 *_\{recheck depth spec with antenna}_*
+=== Rev. B1
 //[discrete]
 //=== Datasheet
 
@@ -126,9 +126,14 @@ include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 * {shortprodname2}, Outdoor AI 4G Data Processing Unit
 
 [discrete]
-== {shortprodname} Dimensions (mm)
+== {shortprodname} Enclosure Dimensions (mm)
 
-image::ROOT:IZODPUG/IZODPUG-B1-FIG-045_Dimensions.png[image]
+image::ROOT:IZODPUG/IZODPUG-B1-FIG-045_Dimensions.png[image, 800]
+
+== {shortprodname2} Antenna Dimensions (mm)
+
+image::ROOT:IZODPUG/IZODPUG-B1-FIG-048_AntennaDimension.png[image,800]
+
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
