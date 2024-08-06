@@ -117,6 +117,8 @@ include::ROOT:partial$IZODPUG/p-IZODPUG-spec-table.adoc[]
 .^|{shortprodname2}-DC-PG .^|Outdoor AI 4G Data Processing Unit, DC power in
 |===
 
+<<<
+
 [discrete]
 == Standard Package Contents
 
@@ -132,6 +134,8 @@ image::ROOT:IZODPUG/IZODPUG-B1-FIG-045_Dimensions.png[image, 800]
 == {shortprodname2} Antenna Dimensions (mm)
 
 image::ROOT:IZODPUG/IZODPUG-B1-FIG-048_AntennaDimension.png[image,800]
+
+<<<
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
