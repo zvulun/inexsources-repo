@@ -1,6 +1,6 @@
 = IZ-REM-RELAY Documents List
 
-
+* xref:IZREMRELAY:IZREMRELAY-Datasheet.adoc[IZ-REM-RELAY Datasheet]
 
 Supporting documentation downloads (datasheets, quick starts and user manuals):
 

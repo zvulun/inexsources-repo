@@ -45,7 +45,7 @@
 //[discrete]
 //=== Datasheet
 
-image:IZPWR:IZPWR-DIN-FIG-001a_Front_Page.png[Picture of Power Supplies,width=400,align=left]
+image:IZREMRELAY:IZREM-RELAY-FIG-001_Front_Page.png[Picture of Power Supplies,width=400,align=left]
 
 // no section numbers in datasheets
 //:sectnums: all
