@@ -289,4 +289,4 @@ include::ROOT:partial$p-legal-disclaimer.adoc[Legal Disclaimer]
 
 include::ROOT:partial$p-footer-copyright-short.adoc[Short Copyright Notice]
 
-Doc. No. RV-IZCLOUD-MAN-001 Ver. {docdate}
+Doc. No. RV-{shortprodname}-MAN-002b Ver. {docdate}
