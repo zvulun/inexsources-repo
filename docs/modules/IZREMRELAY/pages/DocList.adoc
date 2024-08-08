@@ -8,13 +8,13 @@ Supporting documentation downloads (datasheets, quick starts and user manuals):
 
 * xref:ROOT:attachment$/IZREMRELAY/Quad_Relay_WebRelay_QuickStart.pdf[Quad Web Relay Quick Start]
 
-* xref:ROOT:attachment$/IZREMRELAY/Quad_Relay_WebRelay_Users_Manual.pdf[Quad Web Relay User Guide]
+* xref:ROOT:attachment$/IZREMRELAY/Quad_Relay_WebRelay_Users_Manual.pdf[Quad Web Relay Users Manual]
 
 * xref:ROOT:attachment$/IZREMRELAY/Single_Relay_WebRelay_DataSheet.pdf[Single Web Relay Datasheet]
 
 * xref:ROOT:attachment$/IZREMRELAY/Single_Relay_WebRelay_QuickStart.pdf[Single Web Relay Quick Start]
 
-* xref:ROOT:attachment$/IZREMRELAY/Single_Relay_WebRelay_Users_Manual.pdf[Single Web Relay User Guide]
+* xref:ROOT:attachment$/IZREMRELAY/Single_Relay_WebRelay_Users_Manual.pdf[Single Web Relay Users Manual]
 
 More documents can be found at https://drive.google.com/drive/folders/1P8z-92LDzQviEjdxEcgTuS3W5WuUh0ae?usp=share_link[GDriveLink, window=_blank]
 
