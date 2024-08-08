@@ -103,8 +103,15 @@ For example: +
 * Scroll down to the {software-cloud} Integration section
 
 * Enable {software-cloud} Integration and
-set the parameters as follows. *Remember to click the Save button at the end of the
-Detector Configuration section after making changes.*
+set the parameters as follows. +
++
+
+[IMPORTANT]
+
+=============================
+Remember to click the Save button at the end of the
+Detector Configuration section after making changes.
+=============================
 
 [#f_IZCloud-Integration]
 
@@ -263,10 +270,6 @@ converter assigned to the Lane.
 used by {software-ALPR} to communicate with the
 Wiegand converter; 1001 is the default port
 on the Wiegand converter.
-
-* *Remember to click the Save button at the end
-of the Detector Configuration section after
-making changes.*
 
 <<<
 
