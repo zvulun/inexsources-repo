@@ -102,7 +102,7 @@ for documentation.
 .^a|{docproductname}-I .^a|Single Relay Remote (Web) Relay, 9-28 VDC
 .^a|{docproductname}-E .^a|Single Relay Remote (Web) Relay, PoE and/or 9-28 VDC
 .^a|{docproductname}-4-I .^a|Quad Relay Remote (Web) Relay, 9-28 VDC
-.^a|{docproductname}-4-E .^a|Quad Relay Remote (Web) Relay
+.^a|{docproductname}-4-E .^a|Quad Relay Remote (Web) Relay, PoE and/or 9-28 VDC
 |===
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
