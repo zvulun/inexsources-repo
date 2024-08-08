@@ -1,0 +1,121 @@
+:docproductname: IZ-REM-RELAY
+:shortprodname: IZREMRELAY
+:generic-camera-name:
+
+// These attributes have been soft set
+// In the playbooks, so they can be
+// overridden if desired
+//:eyesafetystandard-1: IEC62471 Group 1
+//
+
+// unset and set attributes used to
+// determine which text/links to sections
+// outside partials - should be used in partials
+// Remember to unset all non-relevant attributes
+
+
+:xref-type-IZREMRELAY:
+:layout-type-technote:
+
+//enable the TOC to be placed in a specific position
+//:toc: macro
+
+= {docproductname} Datasheet
+
+//xref:IZA800G:DocList.adoc[<- Back to {shortprodname} Documents]
+
+//image:ROOT:image$INEX_DataSheet_Logo_With_Line.png[INEX Logo,align=right]
+
+//!sectnum momentarily stops section numbering
+:!sectnums:
+
+// This "invisible" text helps lunr search put this page
+// at the top of the results list when searching
+// for a specific product name
+// BUT TRY THE SEARCH WITHOUT IT, SINCE IT
+// APPEARS IN GRAY ON A PDF/PRINTOUT
+// [.white]#{shortprodname}#
+
+// discrete removes these headers from the TOC
+[discrete]
+== Remote (Web) Relays
+
+[discrete]
+=== Rev. A
+//[discrete]
+//=== Datasheet
+
+image:IZPWR:IZPWR-DIN-FIG-001a_Front_Page.png[Picture of Power Supplies,width=400,align=left]
+
+// no section numbers in datasheets
+//:sectnums: all
+{empty}
+{empty}
+
+// place the TOC in this specific position (capability enabled by :toc: macro at start
+// of file
+// no TOC in datasheets ._Click to show the Table of Contents_
+// [%collapsible]
+// ====
+
+// toc::[]
+
+// ====
+
+[discrete]
+== Key Features and Benefits
+* [*] Ideal solution for access control applications
+
+* [*] Built-in web server
+
+* [*] DIN Rail/wall mountable for convenient, space-saving installation
+
+image:ROOT:image$ROHS_LOGO.png[RoHS Logo,70,align=right]
+image:ROOT:image$FCC_LOGO.png[FCC Logo,50,align=right]
+image:ROOT:image$CE_LOGO.png[CE Logo,50,align=right]
+image:ROOT:image$UL_LOGO.png[UL Logo,50,align=right]
+
+//[discrete]
+//== Specifications and User Instructions
+
+[discrete]
+== Specifications and User Instructions
+
+[NOTE]
+==============================
+Power input options for the PoE models
+were recently updated to be "PoE and/or
+power supply 9-28 VDC"; this may not
+yet be reflected in the documentation.
+Click this xref:IZREMRELAY:DocList.adoc[link, window=_blank]
+for documentation.
+==============================
+
+//--
+//+++<div class="pagebreak"> </div>+++
+//--
+
+
+[discrete]
+== Ordering Information
+
+[table.withborders,width="100%",cols="25%,75%",options="header",]
+|===
+|Part Number |Description
+.^a|* {docproductname}-I
+* {docproductname}-E .^a|Single Relay Remote (Web) Relay
+.^a|* {docproductname}-4-I
+* {docproductname}-4-E .^a|Quad Relay Remote (Web) Relay
+|===
+
++++*+++ Power inputs: "I" models:
+9-28 VDC;
+"E" models: PoE and/or 9-28 VDC
+
+include::ROOT:partial$p-addresses.adoc[Addresses]
+
+include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
+
+
+Doc. No. {shortprodname}-REV-A-TDSHEET
+
