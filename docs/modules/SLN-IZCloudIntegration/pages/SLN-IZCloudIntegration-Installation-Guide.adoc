@@ -98,7 +98,7 @@ For example: +
 
 * You should see the {software-ALPR} Live (Journal) tab.
 
-* CLick on the Settings tab at the top of the screen
+* Click on the Settings tab at the top of the screen
 
 * Scroll down to the {software-cloud} Integration section
 
@@ -241,7 +241,7 @@ is found for any plate.) +
 If there is a plate match, the Wiegand code
 will be used. Some cameras have the capability
 to send this code directly to an access control
-panel or device.+
+panel or device. +
 +
 However, if the access control panel is too
 far from the camera to be connected physically,
