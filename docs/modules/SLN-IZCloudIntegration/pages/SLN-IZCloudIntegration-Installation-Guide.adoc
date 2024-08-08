@@ -176,20 +176,20 @@ except for +++<u>+++two+++</u>+++ wrong characters.
 
 * *Keep-Alive Enabled* - When enabled, {software-ALPR} will
 sense the Keep Alive messages sent from the {software-cloud} server.
-If not enabled, these messages are ignored.
+If not enabled, these messages will be ignored.
 
 ** *Keep-Alive Interval* - If {software-ALPR} does not receive a Keep Alive
 message from the {software-cloud} server for this amount of time,
 multiplied by the Keep-Alive Fail Count, then {software-ALPR} will re-establish the
 connection with the {software-cloud} server.
 
-** *Keep-Alive Fail Count* - The number of Keep-Alive intervals for
+** *Keep-Alive Fail Count* - The number of Keep-Alive Intervals for
 which {software-ALPR} will wait (if no Keep Alive messages are received from the
 {software-cloud} server) before re-establishing the connection with the {software-cloud}
 server.
 
 * *Get Access List Timeout* - How long {software-ALPR} waits after sending a
-request for the access lists from the {software-cloud} server. If
+request for access lists from the {software-cloud} server. If
 {software-ALPR} does not receive access lists for this amount of time,
 {software-ALPR} will stop sending the request.
 
