@@ -91,10 +91,7 @@ Click this xref:IZREMRELAY:DocList.adoc[link, window=_blank]
 for documentation.
 ==============================
 
-//--
-//+++<div class="pagebreak"> </div>+++
-//--
-
+<<<
 
 [discrete]
 == Ordering Information
@@ -102,15 +99,11 @@ for documentation.
 [table.withborders,width="100%",cols="25%,75%",options="header",]
 |===
 |Part Number |Description
-.^a|* {docproductname}-I
-* {docproductname}-E .^a|Single Relay Remote (Web) Relay
-.^a|* {docproductname}-4-I
-* {docproductname}-4-E .^a|Quad Relay Remote (Web) Relay
+.^a|{docproductname}-I .^a|Single Relay Remote (Web) Relay, 9-28 VDC
+.^a|{docproductname}-E .^a|Single Relay Remote (Web) Relay, PoE and/or 9-28 VDC
+.^a|{docproductname}-4-I .^a|Quad Relay Remote (Web) Relay, 9-28 VDC
+.^a|{docproductname}-4-E .^a|Quad Relay Remote (Web) Relay
 |===
-
-+++*+++ Power inputs: "I" models:
-9-28 VDC;
-"E" models: PoE and/or 9-28 VDC
 
 include::ROOT:partial$p-addresses.adoc[Addresses]
 
