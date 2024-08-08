@@ -81,7 +81,7 @@ with the latest {software-ALPR} release.
 == Purchasing an {software-cloud} Subscription
 
 Contact {compname-short} to purchase an
-{software-cloud} subscription. If needed, {compname-short}
+{software-cloud} subscription. {compname-short}
 will provide further instructions on how to configure
 the {software-cloud} Integration in {software-ALPR}
 
@@ -103,7 +103,8 @@ For example: +
 * Scroll down to the {software-cloud} Integration section
 
 * Enable {software-cloud} Integration and
-set the parameters as follows. +
+set the parameters according to instructions
+from {compname-short}. +
 +
 
 [IMPORTANT]

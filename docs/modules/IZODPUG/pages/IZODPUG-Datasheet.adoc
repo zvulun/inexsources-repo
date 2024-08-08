@@ -1,7 +1,7 @@
 :docproductname: IZODPUG/4G
 :shortprodname: IZODPUG
 :shortprodname2: IZODPUG4G
-
+:shortprodname3: IZODPUG-4G
 //:generic-camera-name: camera
 
 // These attributes have been soft set
@@ -141,5 +141,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
-Doc. No. {shortprodname}-REV-B1-TDSHEET Ver. {docdate}
+Doc. No. {shortprodname3}-REV-B1-TDSHEET Ver. {docdate}
 
