@@ -78,17 +78,17 @@ with the latest {software-ALPR} release.
 * Chrome or Edge browser
 
 [discrete]
-== Purchasing an IZCloud Subscription
+== Purchasing an {software-cloud} Subscription
 
 Contact {compname-short} to purchase an
 {software-cloud} subscription. If needed, {compname-short}
 will provide further instructions on how to configure
-the {software-cloud} Integration in RoadView
+the {software-cloud} Integration in {software-ALPR}
 
 <<<
 
 [discrete]
-== Configuring {software-cloud}  in {software-ALPR}
+== Configuring {software-cloud} in {software-ALPR}
 * Open a browser with the the IP address of the {software-ALPR} computer
 address you configured (usually running on the camera). +
 For example: +
@@ -144,7 +144,7 @@ Note that the list is bi-directional.
 For example, in addition to "8" being used
 instead of "B", "B" will be used instead of "8".
 
-* *Push Video to Server* - When enabled, RoadView
+* *Push Video to Server* - When enabled, {software-ALPR}
 sends images to the {software-cloud} server.
 You will also see an additional parameter:
 ** *Send Camera Image Timeout* - How often images are sent to the
@@ -174,13 +174,24 @@ characters in the plate read match to an
 item in the Vehicle List –
 except for +++<u>+++two+++</u>+++ wrong characters.
 
-* *Keep-Alive Enabled* - When enabled, *_\{what is this?}_*
+* *Keep-Alive Enabled* - When enabled, {software-ALPR} will
+sense the Keep Alive messages sent from the {software-cloud} server.
+If not enabled, these messages are ignored.
 
-** *Keep-Alive Interval* - *_\{what is this?}_*
+** *Keep-Alive Interval* - If {software-ALPR} does not receive a Keep Alive
+message from the {software-cloud} server for this amount of time,
+multiplied by the Keep-Alive Fail Count, then {software-ALPR} will re-establish the
+connection with the {software-cloud} server.
 
-** *Keep-Alive Fail Count* - *_\{what is this}_*
+** *Keep-Alive Fail Count* - The number of Keep-Alive intervals for
+which {software-ALPR} will wait (if no Keep Alive messages are received from the
+{software-cloud} server) before re-establishing the connection with the {software-cloud}
+server.
 
-* *Get Access List Timeout* - *_\{what is this?}_*
+* *Get Access List Timeout* - How long {software-ALPR} waits after sending a
+request for the access lists from the {software-cloud} server. If
+{software-ALPR} does not receive access lists for this amount of time,
+{software-ALPR} will stop sending the request.
 
 * *Lanes*
 
