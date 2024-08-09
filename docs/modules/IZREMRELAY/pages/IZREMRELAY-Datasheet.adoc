@@ -110,5 +110,5 @@ include::ROOT:partial$p-addresses.adoc[Addresses]
 include::ROOT:partial$p-footer-copyright-long.adoc[Long Copyright Notice]
 
 
-Doc. No. {shortprodname}-REV-A-TDSHEET
+Doc. No. {shortprodname}-REV-A-TDSHEET Ver. {docdate}
 
