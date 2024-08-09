@@ -57,7 +57,7 @@
 |Doc. No. |Title
 .^|xref:RoadViewALPR:DocList.adoc[RV-ALPR-MAN-001] |RoadView ALPR User Guide
 .^|xref:IZREMRELAY:DocList.adoc[IZREMRELAY-REV-A-TDSHEET] |{hw-webrelay} Datasheet
-.^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay} Series Supporting Documentation] |{hw-webrelay} Remote (WEB) Relay: Supporting Documentation
+.^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-single} Series Supporting Documentation] |{hw-webrelay-single} Remote (WEB) Relay Series: Supporting Documentation
 |===
 
 [discrete]
