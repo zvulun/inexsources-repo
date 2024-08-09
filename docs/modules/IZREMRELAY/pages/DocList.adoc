@@ -1,4 +1,4 @@
-= IZ-REM-RELAY Documents List
+= IZ-REM-RELAY Series Documents List
 
 * xref:IZREMRELAY:IZREMRELAY-Datasheet.adoc[IZ-REM-RELAY Datasheet]
 

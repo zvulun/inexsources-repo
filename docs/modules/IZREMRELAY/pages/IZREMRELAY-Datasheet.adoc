@@ -38,7 +38,7 @@
 
 // discrete removes these headers from the TOC
 [discrete]
-== Remote (Web) Relays
+== Remote (Web) Relay Series
 
 [discrete]
 === Rev. A

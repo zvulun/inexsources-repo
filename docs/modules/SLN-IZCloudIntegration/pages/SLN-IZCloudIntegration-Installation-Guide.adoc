@@ -55,9 +55,9 @@
 [table.withborders,width="100%",cols="51%,49%",options="header",]
 |===
 |Doc. No. |Title
-.^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} Documentation] |{software-ALPR} Documentation
-.^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Datasheet] |{hw-webrelay-quad} Datasheet
-.^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay-quad} Supporting Documentation] |{hw-webrelay-quad} Quad-Relay Remote (WEB) Relay: Supporting Documentation
+.^|xref:RoadViewALPR:DocList.adoc[RV-ALPR-MAN-001] |RoadView ALPR User Guide
+.^|xref:IZREMRELAY:DocList.adoc[IZREMRELAY-REV-A-TDSHEET] |{hw-webrelay} Datasheet
+.^|xref:IZREMRELAY:DocList.adoc[{hw-webrelay} Series Supporting Documentation] |{hw-webrelay} Remote (WEB) Relay: Supporting Documentation
 |===
 
 [discrete]
