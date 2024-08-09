@@ -103,7 +103,7 @@ toc::[]
 .^|xref:RoadViewALPR:DocList.adoc[{software-ALPR} Documentation] |{software-ALPR} Documentation
 .^|xref:EULA:DocList.adoc[EULA-400-DOC-001] |Software End User License Agreement (includes list of open source software)
 .^|xref:IZL:DocList.adoc[{illum-non-strobe}-MAN-002] |{illum-non-strobe} Illuminator Series User Guide
-.^|xref:IZODPUG:DocList.adoc[{hw-outdoor-processor}-REV-x-TDSHEET] |{hw-outdoor-processor} AI Outdoor Data Processing Unit: Technical Data Sheet
+.^|xref:IZODPUG:DocList.adoc[{hw-outdoor-processor}-4G-REV-x-TDSHEET] |{hw-outdoor-processor}/4G AI Outdoor Data Processing Unit: Technical Data Sheet
 .^|xref:IZIDPUG:DocList.adoc[{hw-indoor-processor}-x-MAN-001] |{hw-indoor-processor} Indoor AI Data Processing Unit: Installation and User Guide
 .^|xref:IZPWR:DocList.adoc[IZPWRDIN-REV-x-TDSHEET] |IZPWR DIN Rail Mount Power Supplies Technical Data Sheet
 .^|xref:NDAA:DocList.adoc[NDAA-NB-COC-001] |NDAA Section 889 Certification of Compliance
